@@ -1,0 +1,30 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Mt51aData_Tabs_3.lean
+NT start Mt51aData.tab9_ok._native.native_decide.ax_1_1
+NT nested Mt51aData.tab9_ok._native.native_decide.ax_1_1 ms=190 rebuilt_defs=0 visited=3496
+NT copying Mt51aData.w4
+NT copy Mt51aData.w4 defn_ms=15 eq_ms=40 congr=true
+NT copying Mt51aData.w5
+NT copy Mt51aData.w5 defn_ms=31 eq_ms=92 congr=true
+NT copying Mt51aData.w6
+NT copy Mt51aData.w6 defn_ms=66 eq_ms=234 congr=true
+NT copying Mt51aData.w7
+NT copy Mt51aData.w7 defn_ms=157 eq_ms=558 congr=true
+NT copying Mt51aData.w8
+NT copy Mt51aData.w8 defn_ms=421 eq_ms=1406 congr=true
+NT copying Mt51aData.w9
+NT copy Mt51aData.w9 defn_ms=886 eq_ms=3309 congr=true
+NT copying Mt51aData.w10
+NT copy-rejected Mt51aData.w10: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Mt51aData.wTabs
+NT copy Mt51aData.wTabs defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=24915 copies=7 copy_kernel_ms=7216 fast_lits=0 string_args=false
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1.p_0 eval_ms=0
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1.p_1 blockers_ms=1 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1.p_1 eval_ms=0
+NT _ktr.F2_Mt51aData_Tabs_3.Mt51aData.tab9_ok._kernel.native_decide.ax_1_1.p_2 blockers_ms=3 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 47238436
+rc=134 secs=161

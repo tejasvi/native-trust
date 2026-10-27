@@ -1,0 +1,21 @@
+$ lean Comb_aksPI.lean tc=v4.29.0-rc4 ntlib=/home/ntbuild/nt_fix7/v4.29.0-rc4/.lake/build/lib/lean start=2026-10-24T08:57:58Z
+Comb_aksPI.lean:1:0: error: unknown module prefix 'F2sh_aksPI_3'
+
+No directory 'F2sh_aksPI_3' or file 'F2sh_aksPI_3.olean' in the search path entries:
+/home/ntbuild/nt_fix7/v4.29.0-rc4/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/Cli/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/batteries/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/Qq/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/aesop/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/proofwidgets/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/importGraph/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/plausible/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/packages/mathlib/.lake/build/lib/lean
+/home/ntbuild/repos/aks/.lake/build/lib/lean
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.29.0-rc4/lib/lean
+/home/ntbuild/work_resv8/shard/aksPI
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.29.0-rc4/lib/lean
+Command exited with non-zero status 1
+maxrss_kb 992776 secs 0.44
+rc=1 end=2026-10-24T08:57:59Z

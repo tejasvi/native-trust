@@ -1,0 +1,112 @@
+[54345801] t1._bvs4_1: 192 nodes, CNF 479 clauses, 192 variables
+[54345839] t1._bvs4_1: 103 steps, 506 hints, 1 chunks; solve 30 ms
+[54346051] t1._bvs4_1: base check (bit-blast + CNF + trie agreement) 212 ms
+[54346312] t1._bvs4_1: chunk t1._bvs4_1._bvs_s0 (103 steps from id 480) 261 ms
+[54346324] t2._bvs4_1: 198 nodes, CNF 545 clauses, 198 variables
+[54346364] t2._bvs4_1: 130 steps, 1187 hints, 1 chunks; solve 30 ms
+[54346613] t2._bvs4_1: base check (bit-blast + CNF + trie agreement) 247 ms
+[54347029] t2._bvs4_1: chunk t2._bvs4_1._bvs_s0 (130 steps from id 546) 416 ms
+[54347046] s4._bvs4_1: 406 nodes, CNF 1121 clauses, 406 variables
+[54347103] s4._bvs4_1: 282 steps, 3059 hints, 1 chunks; solve 32 ms
+[54347631] s4._bvs4_1: base check (bit-blast + CNF + trie agreement) 528 ms
+[54348745] s4._bvs4_1: chunk s4._bvs4_1._bvs_s0 (282 steps from id 1122) 1114 ms
+[54348769] m8._bvs4_1: 834 nodes, CNF 2453 clauses, 834 variables
+[54355940] m8._bvs4_1: 37524 steps, 1379909 hints, 70 chunks; solve 589 ms
+[54357987] m8._bvs4_1: base check (bit-blast + CNF + trie agreement) 2047 ms
+[54362021] m8._bvs4_1: chunk m8._bvs4_1._bvs_s0 (2000 steps from id 2454) 4034 ms
+[54366148] m8._bvs4_1: chunk m8._bvs4_1._bvs_s1 (1102 steps from id 4454) 4125 ms
+[54369513] m8._bvs4_1: chunk m8._bvs4_1._bvs_s2 (636 steps from id 5556) 3362 ms
+[54372998] m8._bvs4_1: chunk m8._bvs4_1._bvs_s3 (591 steps from id 6192) 3482 ms
+[54376658] m8._bvs4_1: chunk m8._bvs4_1._bvs_s4 (641 steps from id 6783) 3657 ms
+[54379820] m8._bvs4_1: chunk m8._bvs4_1._bvs_s5 (474 steps from id 7424) 3159 ms
+[54383315] m8._bvs4_1: chunk m8._bvs4_1._bvs_s6 (483 steps from id 7898) 3492 ms
+[54386547] m8._bvs4_1: chunk m8._bvs4_1._bvs_s7 (469 steps from id 8381) 3229 ms
+[54389530] m8._bvs4_1: chunk m8._bvs4_1._bvs_s8 (396 steps from id 8850) 2980 ms
+[54392760] m8._bvs4_1: chunk m8._bvs4_1._bvs_s9 (437 steps from id 9246) 3227 ms
+[54397231] m8._bvs4_1: chunk m8._bvs4_1._bvs_s10 (541 steps from id 9683) 4469 ms
+[54401133] m8._bvs4_1: chunk m8._bvs4_1._bvs_s11 (515 steps from id 10224) 3898 ms
+[54405025] m8._bvs4_1: chunk m8._bvs4_1._bvs_s12 (742 steps from id 10739) 3888 ms
+[54409143] m8._bvs4_1: chunk m8._bvs4_1._bvs_s13 (555 steps from id 11481) 4114 ms
+[54412663] m8._bvs4_1: chunk m8._bvs4_1._bvs_s14 (474 steps from id 12036) 3517 ms
+[54416966] m8._bvs4_1: chunk m8._bvs4_1._bvs_s15 (881 steps from id 12510) 4300 ms
+[54420377] m8._bvs4_1: chunk m8._bvs4_1._bvs_s16 (372 steps from id 13391) 3407 ms
+[54423727] m8._bvs4_1: chunk m8._bvs4_1._bvs_s17 (400 steps from id 13763) 3347 ms
+[54427061] m8._bvs4_1: chunk m8._bvs4_1._bvs_s18 (442 steps from id 14163) 3330 ms
+[54430880] m8._bvs4_1: chunk m8._bvs4_1._bvs_s19 (420 steps from id 14605) 3816 ms
+[54434645] m8._bvs4_1: chunk m8._bvs4_1._bvs_s20 (585 steps from id 15025) 3762 ms
+[54438526] m8._bvs4_1: chunk m8._bvs4_1._bvs_s21 (637 steps from id 15610) 3877 ms
+[54442290] m8._bvs4_1: chunk m8._bvs4_1._bvs_s22 (581 steps from id 16247) 3761 ms
+[54446300] m8._bvs4_1: chunk m8._bvs4_1._bvs_s23 (601 steps from id 16828) 4007 ms
+[54449960] m8._bvs4_1: chunk m8._bvs4_1._bvs_s24 (511 steps from id 17429) 3657 ms
+[54453872] m8._bvs4_1: chunk m8._bvs4_1._bvs_s25 (504 steps from id 17940) 3908 ms
+[54457638] m8._bvs4_1: chunk m8._bvs4_1._bvs_s26 (593 steps from id 18444) 3763 ms
+[54461381] m8._bvs4_1: chunk m8._bvs4_1._bvs_s27 (560 steps from id 19037) 3739 ms
+[54465120] m8._bvs4_1: chunk m8._bvs4_1._bvs_s28 (508 steps from id 19597) 3736 ms
+[54468459] m8._bvs4_1: chunk m8._bvs4_1._bvs_s29 (394 steps from id 20105) 3335 ms
+[54472563] m8._bvs4_1: chunk m8._bvs4_1._bvs_s30 (349 steps from id 20499) 4101 ms
+[54475951] m8._bvs4_1: chunk m8._bvs4_1._bvs_s31 (381 steps from id 20848) 3386 ms
+[54479657] m8._bvs4_1: chunk m8._bvs4_1._bvs_s32 (449 steps from id 21229) 3703 ms
+[54483725] m8._bvs4_1: chunk m8._bvs4_1._bvs_s33 (615 steps from id 21678) 4065 ms
+[54487223] m8._bvs4_1: chunk m8._bvs4_1._bvs_s34 (408 steps from id 22293) 3495 ms
+[54490845] m8._bvs4_1: chunk m8._bvs4_1._bvs_s35 (384 steps from id 22701) 3618 ms
+[54494487] m8._bvs4_1: chunk m8._bvs4_1._bvs_s36 (451 steps from id 23085) 3639 ms
+[54498170] m8._bvs4_1: chunk m8._bvs4_1._bvs_s37 (497 steps from id 23536) 3679 ms
+[54501683] m8._bvs4_1: chunk m8._bvs4_1._bvs_s38 (458 steps from id 24033) 3510 ms
+[54505487] m8._bvs4_1: chunk m8._bvs4_1._bvs_s39 (494 steps from id 24491) 3801 ms
+[54509091] m8._bvs4_1: chunk m8._bvs4_1._bvs_s40 (451 steps from id 24985) 3601 ms
+[54512614] m8._bvs4_1: chunk m8._bvs4_1._bvs_s41 (364 steps from id 25436) 3520 ms
+[54516143] m8._bvs4_1: chunk m8._bvs4_1._bvs_s42 (373 steps from id 25800) 3526 ms
+[54519490] m8._bvs4_1: chunk m8._bvs4_1._bvs_s43 (368 steps from id 26173) 3344 ms
+[54523566] m8._bvs4_1: chunk m8._bvs4_1._bvs_s44 (462 steps from id 26541) 4073 ms
+[54527282] m8._bvs4_1: chunk m8._bvs4_1._bvs_s45 (429 steps from id 27003) 3712 ms
+[54531022] m8._bvs4_1: chunk m8._bvs4_1._bvs_s46 (422 steps from id 27432) 3736 ms
+[54534968] m8._bvs4_1: chunk m8._bvs4_1._bvs_s47 (589 steps from id 27854) 3943 ms
+[54538808] m8._bvs4_1: chunk m8._bvs4_1._bvs_s48 (560 steps from id 28443) 3837 ms
+[54542337] m8._bvs4_1: chunk m8._bvs4_1._bvs_s49 (420 steps from id 29003) 3525 ms
+[54545983] m8._bvs4_1: chunk m8._bvs4_1._bvs_s50 (493 steps from id 29423) 3643 ms
+[54550687] m8._bvs4_1: chunk m8._bvs4_1._bvs_s51 (497 steps from id 29916) 4701 ms
+[54555424] m8._bvs4_1: chunk m8._bvs4_1._bvs_s52 (495 steps from id 30413) 4734 ms
+[54560005] m8._bvs4_1: chunk m8._bvs4_1._bvs_s53 (486 steps from id 30908) 4578 ms
+[54564427] m8._bvs4_1: chunk m8._bvs4_1._bvs_s54 (420 steps from id 31394) 4418 ms
+[54568805] m8._bvs4_1: chunk m8._bvs4_1._bvs_s55 (412 steps from id 31814) 4375 ms
+[54574140] m8._bvs4_1: chunk m8._bvs4_1._bvs_s56 (869 steps from id 32226) 5332 ms
+[54578771] m8._bvs4_1: chunk m8._bvs4_1._bvs_s57 (475 steps from id 33095) 4627 ms
+[54583577] m8._bvs4_1: chunk m8._bvs4_1._bvs_s58 (528 steps from id 33570) 4802 ms
+[54588308] m8._bvs4_1: chunk m8._bvs4_1._bvs_s59 (504 steps from id 34098) 4727 ms
+[54593990] m8._bvs4_1: chunk m8._bvs4_1._bvs_s60 (893 steps from id 34602) 5678 ms
+[54598322] m8._bvs4_1: chunk m8._bvs4_1._bvs_s61 (423 steps from id 35495) 4329 ms
+[54602771] m8._bvs4_1: chunk m8._bvs4_1._bvs_s62 (438 steps from id 35918) 4445 ms
+[54607553] m8._bvs4_1: chunk m8._bvs4_1._bvs_s63 (503 steps from id 36356) 4778 ms
+[54612201] m8._bvs4_1: chunk m8._bvs4_1._bvs_s64 (510 steps from id 36859) 4644 ms
+[54616590] m8._bvs4_1: chunk m8._bvs4_1._bvs_s65 (607 steps from id 37369) 4385 ms
+[54620407] m8._bvs4_1: chunk m8._bvs4_1._bvs_s66 (575 steps from id 37976) 3813 ms
+[54624098] m8._bvs4_1: chunk m8._bvs4_1._bvs_s67 (523 steps from id 38551) 3688 ms
+[54628498] m8._bvs4_1: chunk m8._bvs4_1._bvs_s68 (554 steps from id 39074) 4397 ms
+[54630821] m8._bvs4_1: chunk m8._bvs4_1._bvs_s69 (350 steps from id 39628) 2319 ms
+[54643017] d8._bvs4_1: 1326 nodes, CNF 3929 clauses, 1326 variables
+[54647184] d8._bvs4_1: 11975 steps, 457479 hints, 24 chunks; solve 287 ms
+[54649492] d8._bvs4_1: base check (bit-blast + CNF + trie agreement) 2308 ms
+[54654312] d8._bvs4_1: chunk d8._bvs4_1._bvs_s0 (363 steps from id 3930) 4820 ms
+[54657895] d8._bvs4_1: chunk d8._bvs4_1._bvs_s1 (175 steps from id 4293) 3581 ms
+[54661624] d8._bvs4_1: chunk d8._bvs4_1._bvs_s2 (181 steps from id 4468) 3727 ms
+[54665816] d8._bvs4_1: chunk d8._bvs4_1._bvs_s3 (134 steps from id 4649) 4189 ms
+[54670160] d8._bvs4_1: chunk d8._bvs4_1._bvs_s4 (196 steps from id 4783) 4342 ms
+[54673648] d8._bvs4_1: chunk d8._bvs4_1._bvs_s5 (185 steps from id 4979) 3486 ms
+[54676871] d8._bvs4_1: chunk d8._bvs4_1._bvs_s6 (115 steps from id 5164) 3222 ms
+[54679726] d8._bvs4_1: chunk d8._bvs4_1._bvs_s7 (2000 steps from id 5279) 2854 ms
+[54684758] d8._bvs4_1: chunk d8._bvs4_1._bvs_s8 (1990 steps from id 7279) 5031 ms
+[54687907] d8._bvs4_1: chunk d8._bvs4_1._bvs_s9 (377 steps from id 9269) 3147 ms
+[54691131] d8._bvs4_1: chunk d8._bvs4_1._bvs_s10 (361 steps from id 9646) 3224 ms
+[54695683] d8._bvs4_1: chunk d8._bvs4_1._bvs_s11 (802 steps from id 10007) 4550 ms
+[54699080] d8._bvs4_1: chunk d8._bvs4_1._bvs_s12 (453 steps from id 10809) 3395 ms
+[54702247] d8._bvs4_1: chunk d8._bvs4_1._bvs_s13 (398 steps from id 11262) 3165 ms
+[54705821] d8._bvs4_1: chunk d8._bvs4_1._bvs_s14 (591 steps from id 11660) 3573 ms
+[54708907] d8._bvs4_1: chunk d8._bvs4_1._bvs_s15 (345 steps from id 12251) 3083 ms
+[54712169] d8._bvs4_1: chunk d8._bvs4_1._bvs_s16 (394 steps from id 12596) 3260 ms
+[54715456] d8._bvs4_1: chunk d8._bvs4_1._bvs_s17 (401 steps from id 12990) 3285 ms
+[54718580] d8._bvs4_1: chunk d8._bvs4_1._bvs_s18 (324 steps from id 13391) 3124 ms
+[54721619] d8._bvs4_1: chunk d8._bvs4_1._bvs_s19 (358 steps from id 13715) 3037 ms
+[54725180] d8._bvs4_1: chunk d8._bvs4_1._bvs_s20 (639 steps from id 14073) 3558 ms
+[54729623] d8._bvs4_1: chunk d8._bvs4_1._bvs_s21 (375 steps from id 14712) 4441 ms
+[54733042] d8._bvs4_1: chunk d8._bvs4_1._bvs_s22 (373 steps from id 15087) 3418 ms
+[54735840] d8._bvs4_1: chunk d8._bvs4_1._bvs_s23 (445 steps from id 15460) 2796 ms

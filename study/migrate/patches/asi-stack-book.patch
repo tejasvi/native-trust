@@ -1,0 +1,2511 @@
+--- a/AsiStackProofs/AdversarialEvaluationRefinement.lean
++++ b/AsiStackProofs/AdversarialEvaluationRefinement.lean
+@@ -328,6 +328,6 @@
+   let s7 := (applyEvent s6 .triggerReevaluation reeval).1
+   s7.stage = .scoped ∧ s7.protocolVersion = 2 ∧ s7.receiptCount = 7 ∧
+     s7.decisionReviewHandoffCount = 1 ∧ s7.reevaluationCount = 1 ∧
+-    s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by native_decide
++    s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.AdversarialEvaluationRefinement
+--- a/AsiStackProofs/ArtifactCompressionRefinement.lean
++++ b/AsiStackProofs/ArtifactCompressionRefinement.lean
+@@ -444,11 +444,11 @@
+ 
+ theorem exact_lifecycle_reaches_closed_with_receipts :
+     ArtifactRun (completeState .registered) exactLifecycleEvents = some exactLifecycleFinal := by
+-  native_decide
++  decide +kernel
+ 
+ theorem failed_probe_lifecycle_reaches_closed_with_one_fallback :
+     ArtifactRun (completeState .registered) fallbackLifecycleEvents = some fallbackLifecycleFinal := by
+-  native_decide
++  decide +kernel
+ 
+ theorem complete_packet_has_no_support_or_effect_authority :
+     completePacket.supportPromotionRequested = false ∧
+@@ -456,23 +456,23 @@
+ 
+ theorem failed_probe_with_fallback_routes_to_fallback :
+     route (completeState .probed) .probeConsumer
+-      { completePacket with taskProbePassed := false } = .routeToFallback := by native_decide
++      { completePacket with taskProbePassed := false } = .routeToFallback := by decide +kernel
+ 
+ theorem failed_probe_without_fallback_requests_artifact :
+     route (completeState .probed) .probeConsumer
+-      { completePacket with taskProbePassed := false, fallbackArtifact := false } = .requestFallbackArtifact := by native_decide
++      { completePacket with taskProbePassed := false, fallbackArtifact := false } = .requestFallbackArtifact := by decide +kernel
+ 
+ theorem exact_replay_without_readiness_blocks_use :
+     route (completeState .verified) .verifyReconstruction
+-      { completePacket with exactReplayRequired := true, exactReplayReady := false } = .blockExactReplay := by native_decide
++      { completePacket with exactReplayRequired := true, exactReplayReady := false } = .blockExactReplay := by decide +kernel
+ 
+ theorem raw_ratio_cannot_promote_admitted_artifact :
+     route (completeState .admitted) .admitUse
+-      { completePacket with rawRatioPromotion := true } = .blockRawRatioPromotion := by native_decide
++      { completePacket with rawRatioPromotion := true } = .blockRawRatioPromotion := by decide +kernel
+ 
+ theorem missing_evidence_transition_blocks_consumption :
+     route (completeState .admitted) .admitUse
+-      { completePacket with evidenceTransition := false } = .requestEvidenceTransition := by native_decide
++      { completePacket with evidenceTransition := false } = .requestEvidenceTransition := by decide +kernel
+ 
+ theorem exact_use_lifecycle_routes_to_closed :
+     route (completeState .registered) .bindArtifact completePacket = .acceptEncoding ∧
+@@ -482,12 +482,12 @@
+     route (completeState .fallbackReady) .prepareFallback completePacket = .acceptAdmission ∧
+     route (completeState .admitted) .admitUse completePacket = .acceptConsumption ∧
+     route (completeState .consumed) .recordConsumption completePacket = .acceptClosure ∧
+-    route (completeState .closed) .close completePacket = .acceptClosed := by native_decide
++    route (completeState .closed) .close completePacket = .acceptClosed := by decide +kernel
+ 
+ theorem failed_probe_lifecycle_has_executable_fallback_without_support :
+     route (completeState .probed) .probeConsumer
+       { completePacket with taskProbePassed := false } = .routeToFallback ∧
+     route (completeState .fallbackReady) .prepareFallback completePacket = .acceptAdmission ∧
+-    completePacket.supportPromotionRequested = false ∧ completePacket.externalEffectRequested = false := by native_decide
++    completePacket.supportPromotionRequested = false ∧ completePacket.externalEffectRequested = false := by decide +kernel
+ 
+ end AsiStackProofs.ArtifactCompressionRefinement
+--- a/AsiStackProofs/ArtifactRealityRefinement.lean
++++ b/AsiStackProofs/ArtifactRealityRefinement.lean
+@@ -475,6 +475,6 @@
+     finalState.realityObservationCount = 1 ∧
+     finalState.supportAssignmentCount = 0 ∧
+     finalState.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.ArtifactRealityRefinement
+--- a/AsiStackProofs/Authority.lean
++++ b/AsiStackProofs/Authority.lean
+@@ -1133,17 +1133,17 @@
+ theorem delegation_initial_state_is_invariant :
+     DelegationStateInvariant delegationInitialState := by
+   exact {
+-    rootGrantPositive := by native_decide
+-    rootPrincipalPositive := by native_decide
+-    currentGrantPositive := by native_decide
+-    currentPrincipalPositive := by native_decide
+-    currentDelegatePositive := by native_decide
+-    ceilingWithinRoot := by native_decide
+-    epochMatchesRoot := by native_decide
+-    expiryWithinRoot := by native_decide
+-    timeWithinCurrentExpiry := by native_decide
+-    currentGrantNotRevoked := by native_decide
+-    nonAuthority := by native_decide }
++    rootGrantPositive := by decide +kernel
++    rootPrincipalPositive := by decide +kernel
++    currentGrantPositive := by decide +kernel
++    currentPrincipalPositive := by decide +kernel
++    currentDelegatePositive := by decide +kernel
++    ceilingWithinRoot := by decide +kernel
++    epochMatchesRoot := by decide +kernel
++    expiryWithinRoot := by decide +kernel
++    timeWithinCurrentExpiry := by decide +kernel
++    currentGrantNotRevoked := by decide +kernel
++    nonAuthority := by decide +kernel }
+ 
+ theorem two_hop_delegation_reaches_attenuated_grandchild :
+     ∃ final,
+@@ -1158,57 +1158,57 @@
+   refine ⟨ApplyDelegationEvent
+     (ApplyDelegationEvent delegationInitialState firstDelegationEvent)
+     secondDelegationEvent, ?_⟩
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_delegation_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with childCeiling := .approve } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem confused_deputy_principal_substitution_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with actingPrincipalId := 1 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem delegation_operation_substitution_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with operationId := 11 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem delegation_target_substitution_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with targetId := 21 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem delegation_scope_substitution_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with scopeId := 31 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem stale_epoch_delegation_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with epoch := 6 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem expiry_widening_delegation_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with expiresAt := 91 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem revoked_child_grant_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with childGrantId := 99 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem support_promotion_delegation_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with supportPromotionRequested := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem external_effect_delegation_is_rejected :
+     DelegationStep delegationInitialState
+       { firstDelegationEvent with externalEffectRequested := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ structure ThinDelegationSummary where
+   ceilingRank : Nat
+@@ -1233,7 +1233,7 @@
+         ThinDelegationSummaryOf confusedDeputyDelegationState ∧
+       DelegationDecisionFor delegationInitialState = true ∧
+       DelegationDecisionFor confusedDeputyDelegationState = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem no_thin_delegation_classifier_recovers_authority
+     (classify : ThinDelegationSummary -> Bool) :
+--- a/AsiStackProofs/AuthorityEffectRefinement.lean
++++ b/AsiStackProofs/AuthorityEffectRefinement.lean
+@@ -687,7 +687,7 @@
+         observedEffects := 0
+         rolledBack := true
+         logicalTime := 6 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem two_use_trace_reaches_two_observations_and_exact_rollback :
+     AuthorityRun initialState successfulTwoUseTrace = some
+@@ -697,7 +697,7 @@
+         observedEffects := 0
+         rolledBack := true
+         logicalTime := 10 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem revocation_trace_closes_custody_and_advances_epoch :
+     AuthorityRun initialState successfulRevocationTrace = some
+@@ -708,7 +708,7 @@
+         dispatchedGrantId := none
+         revokedGrantIds := [issueEvent.grantId]
+         logicalTime := 4 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem every_successful_reference_trace_preserves_authority_invariant :
+     ∀ final, AuthorityRun initialState successfulAuthorityTrace = some final →
+@@ -734,7 +734,7 @@
+ 
+ theorem authority_widening_is_rejected :
+     AuthorityStep initialState { issueEvent with authority := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem confused_deputy_principal_substitution_is_rejected :
+     AuthorityStep approvedState
+@@ -743,7 +743,7 @@
+           principalId := 999
+           logicalTime := 3
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem expired_grant_dispatch_is_rejected :
+     AuthorityStep approvedState
+@@ -752,7 +752,7 @@
+           expiresAt := 2
+           logicalTime := 3
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem stale_epoch_dispatch_is_rejected :
+     AuthorityStep approvedState
+@@ -761,7 +761,7 @@
+           authorityEpoch := 10
+           logicalTime := 3
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem revoked_grant_dispatch_is_rejected :
+     AuthorityStep revokedState
+@@ -770,12 +770,12 @@
+           authorityEpoch := 12
+           logicalTime := 5
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem effect_without_dispatch_is_rejected :
+     AuthorityStep approvedState
+       { issueEvent with kind := .commitEffect, logicalTime := 3, effectReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem consumed_one_shot_grant_cannot_effect_again :
+     AuthorityStep
+@@ -787,6 +787,6 @@
+           remainingUses := 0
+           logicalTime := 5
+           effectReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.AuthorityEffectRefinement
+--- a/AsiStackProofs/BenchmarkRatchets.lean
++++ b/AsiStackProofs/BenchmarkRatchets.lean
+@@ -474,7 +474,7 @@
+       final.outcome = .candidateForIndependentReview ∧
+       final.receiptCount = 6 ∧
+       final.supportAssignments = 0 ∧
+-      final.externalEffects = 0 := by native_decide
++      final.externalEffects = 0 := by decide +kernel
+ 
+ theorem saturated_trace_reaches_closed_regression_floor :
+     let final := runRatchetLifecycle saturatedRatchetState cleanPromotionTrace
+@@ -482,7 +482,7 @@
+       final.outcome = .regressionFloor ∧
+       final.receiptCount = 6 ∧
+       final.supportAssignments = 0 ∧
+-      final.externalEffects = 0 := by native_decide
++      final.externalEffects = 0 := by decide +kernel
+ 
+ theorem contaminated_trace_quarantines_before_transfer :
+     let final := runRatchetLifecycle contaminatedRatchetState
+@@ -491,7 +491,7 @@
+       final.outcome = .quarantine ∧
+       final.receiptCount = 4 ∧
+       final.supportAssignments = 0 ∧
+-      final.externalEffects = 0 := by native_decide
++      final.externalEffects = 0 := by decide +kernel
+ 
+ theorem closed_ratchet_is_absorbing
+     (state : RatchetLifecycleState) (h : state.stage = .closed)
+@@ -522,16 +522,16 @@
+ 
+ theorem clean_promotion_trace_is_accepted :
+     RatchetTraceAccepted ({} : RatchetLifecycleState) cleanPromotionTrace = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem saturated_promotion_trace_is_accepted :
+     RatchetTraceAccepted saturatedRatchetState cleanPromotionTrace = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem contaminated_quarantine_trace_is_accepted :
+     RatchetTraceAccepted contaminatedRatchetState
+       [.lockBaseline, .recordEvaluation, .reviewIntegrity, .close] = true := by
+-  native_decide
++  decide +kernel
+ 
+ def boolPass (value : Bool) : Nat :=
+   if value then 1 else 0
+@@ -608,7 +608,7 @@
+       cleanAggregatePromotionReview ≠ contaminatedAggregatePromotionReview ∧
+       RatchetDecisionAcceptedBool cleanAggregatePromotionReview = true ∧
+       RatchetDecisionAcceptedBool contaminatedAggregatePromotionReview = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem no_exact_aggregate_pass_count_promotion_classifier :
+     ¬ ∃ classifier : Nat -> Bool,
+--- a/AsiStackProofs/CapabilityThresholdRefinement.lean
++++ b/AsiStackProofs/CapabilityThresholdRefinement.lean
+@@ -274,6 +274,6 @@
+   let s6 := (applyEvent s5 .triggerReassessment reassess).1
+   s6.stage = .scoped ∧ s6.assessmentVersion = 2 ∧ s6.receiptCount = 6 ∧
+     s6.readinessHandoffCount = 1 ∧ s6.reassessmentCount = 1 ∧
+-    s6.supportAssignmentCount = 0 ∧ s6.externalEffectCount = 0 := by native_decide
++    s6.supportAssignmentCount = 0 ∧ s6.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.CapabilityThresholdRefinement
+--- a/AsiStackProofs/ClaimLedgerRefinement.lean
++++ b/AsiStackProofs/ClaimLedgerRefinement.lean
+@@ -422,23 +422,23 @@
+ 
+ theorem stale_base_is_rejected :
+     RevisionRouteFor initialState { referenceRevision with baseLedgerVersion := 6 } =
+-      RevisionRoute.rejectStaleBase := by native_decide
++      RevisionRoute.rejectStaleBase := by decide +kernel
+ 
+ theorem ledger_self_approval_is_rejected :
+     RevisionRouteFor initialState { referenceRevision with ledgerSelfApprovesSupport := true } =
+-      RevisionRoute.rejectLedgerAuthorityLeak := by native_decide
++      RevisionRoute.rejectLedgerAuthorityLeak := by decide +kernel
+ 
+ theorem upward_revision_with_open_contradiction_is_blocked :
+     RevisionRouteFor initialState { referenceRevision with openContradiction := true } =
+-      RevisionRoute.blockOpenContradiction := by native_decide
++      RevisionRoute.blockOpenContradiction := by decide +kernel
+ 
+ theorem upward_revision_without_owner_receipt_is_handed_off :
+     RevisionRouteFor initialState { referenceRevision with evidenceOwnerReceiptPresent := false } =
+-      RevisionRoute.handoffToEvidenceOwner := by native_decide
++      RevisionRoute.handoffToEvidenceOwner := by decide +kernel
+ 
+ theorem ontology_change_without_migration_receipt_is_rejected :
+     RevisionRouteFor initialState { referenceRevision with ontologyMigrationReceiptPresent := false } =
+-      RevisionRoute.requestOntologyMigration := by native_decide
++      RevisionRoute.requestOntologyMigration := by decide +kernel
+ 
+ theorem full_revision_lifecycle_reaches_exact_acknowledgment :
+     Run initialState [referenceRevision, appendRevision, materializeRevision, acknowledgeRevision] =
+@@ -456,7 +456,7 @@
+         observedSurfaceAcks := 3
+         materializedLedgerVersion := 8
+         appendCount := 8
+-        externalEffects := 0 } := by native_decide
++        externalEffects := 0 } := by decide +kernel
+ 
+ theorem every_successful_initial_run_preserves_exact_accounting
+     {events : List RevisionEvent} {final : LedgerState}
+@@ -472,31 +472,31 @@
+ theorem append_action_substitution_is_rejected :
+     RevisionRouteFor (ApplyEvent initialState referenceRevision)
+       { appendRevision with action := .deprecate } = .rejectEventSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem append_semantic_version_substitution_is_rejected :
+     RevisionRouteFor (ApplyEvent initialState referenceRevision)
+       { appendRevision with nextSemanticVersion := 5 } = .rejectEventSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem append_ontology_version_substitution_is_rejected :
+     RevisionRouteFor (ApplyEvent initialState referenceRevision)
+       { appendRevision with nextOntologyVersion := 4 } = .rejectEventSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem append_support_rank_substitution_is_rejected :
+     RevisionRouteFor (ApplyEvent initialState referenceRevision)
+       { appendRevision with nextSupportRank := 3 } = .rejectEventSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem append_owner_receipt_substitution_is_rejected :
+     RevisionRouteFor (ApplyEvent initialState referenceRevision)
+       { appendRevision with evidenceOwnerReceiptPresent := false } =
+         .rejectEventSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem acknowledgment_before_materialization_is_rejected :
+     RevisionRouteFor initialState acknowledgeRevision = RevisionRoute.rejectWrongStage := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.ClaimLedgerRefinement
+--- a/AsiStackProofs/CognitiveCompilationRefinement.lean
++++ b/AsiStackProofs/CognitiveCompilationRefinement.lean
+@@ -586,7 +586,7 @@
+ theorem localized_repair_trace_reaches_accepted_target :
+     (CompilationRun initialState referenceTrace).map (fun state => state.stage) =
+       some .accepted := by
+-  native_decide
++  decide +kernel
+ 
+ def spliceRun (before : List CompilationEvent) (event : CompilationEvent)
+     (after : List CompilationEvent) : Option CompilationState :=
+@@ -596,43 +596,43 @@
+     spliceRun [bindEvent] { typeEvent with obligationTwo := 999 }
+       [lowerEvent, validateEvent, detectRepairEvent, applyRepairEvent,
+         revalidateEvent, acceptEvent] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem widened_authority_rejected :
+     CompilationRun initialState [{ bindEvent with requestedAuthority := 4 }] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem missing_lowering_receipt_rejected :
+     spliceRun [bindEvent, typeEvent] { lowerEvent with loweringReceipt := false }
+       [validateEvent, acceptWithoutRepairEvent] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem validator_pass_without_preservation_rejected :
+     spliceRun [bindEvent, typeEvent, lowerEvent]
+       { validateEvent with obligationsPreserved := false }
+       [acceptWithoutRepairEvent] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem global_repair_rejected :
+     spliceRun [bindEvent, typeEvent, lowerEvent, validateEvent, detectRepairEvent]
+       { applyRepairEvent with repairLocalized := false }
+       [revalidateEvent, acceptEvent] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem repair_without_ledger_increment_rejected :
+     spliceRun [bindEvent, typeEvent, lowerEvent, validateEvent, detectRepairEvent]
+       { applyRepairEvent with outputLedgerVersion := 1 }
+       [revalidateEvent, acceptEvent] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem target_substitution_at_accept_rejected :
+     spliceRun [bindEvent, typeEvent, lowerEvent, validateEvent]
+       { acceptWithoutRepairEvent with targetHash := 999 } [] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem residual_target_acceptance_rejected :
+     spliceRun [bindEvent, typeEvent, lowerEvent, validateEvent]
+       { acceptWithoutRepairEvent with residualCount := 1 } [] = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.CognitiveCompilationRefinement
+--- a/AsiStackProofs/CoilAttentionMemory.lean
++++ b/AsiStackProofs/CoilAttentionMemory.lean
+@@ -527,14 +527,14 @@
+       final.recurrenceSteps = 2 ∧
+       final.recurrenceBudget = 2 ∧
+       final.supportAssignments = 0 ∧
+-      final.externalEffects = 0 := by native_decide
++      final.externalEffects = 0 := by decide +kernel
+ 
+ theorem third_recurrence_step_is_rejected_without_state_change :
+     let atBudget := runMemoryLifecycle ({} : MemoryLifecycleState)
+       [.requestRead, .classifyRead, .consumeFresh, .startRecurrence,
+         .recur, .recur]
+     memoryLifecycleStep atBudget .recur = (.rejectBudget, atBudget) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem stale_alias_trace_uses_fallback_and_closes :
+     let classified := runMemoryLifecycle staleAliasState
+@@ -545,6 +545,6 @@
+       final.stage = .closed ∧
+       final.recurrenceSteps = 0 ∧
+       final.supportAssignments = 0 ∧
+-      final.externalEffects = 0 := by native_decide
++      final.externalEffects = 0 := by decide +kernel
+ 
+ end AsiStackProofs.CoilAttentionMemory
+--- a/AsiStackProofs/CommandSemanticRefinement.lean
++++ b/AsiStackProofs/CommandSemanticRefinement.lean
+@@ -332,7 +332,7 @@
+         planningValidationReceipt := true
+         dispatchReceipt := true
+         logicalTime := 5 } := by
+-  native_decide
++  decide +kernel
+ 
+ def fieldsBoundState : CommandState :=
+   { initialState with
+@@ -365,12 +365,12 @@
+ theorem missing_required_output_is_rejected :
+     CommandStep initialState
+       { baseEvent with outputContract := { outputSlot with valueHash := 0 } } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem hidden_instruction_provenance_is_rejected :
+     CommandStep initialState
+       { baseEvent with constraints := { constraintSlot with provenance := .hiddenInstruction } } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem applied_hidden_override_is_rejected :
+     CommandStep fieldsBoundState
+@@ -380,7 +380,7 @@
+         toStage := .precedenceChecked
+         hiddenOverrideApplied := true
+         logicalTime := 2 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem inferred_authority_is_rejected :
+     CommandStep precedenceCheckedState
+@@ -391,7 +391,7 @@
+         authority := { authoritySlot with confidence := .inferred }
+         approvalReceipt := true
+         logicalTime := 3 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_is_rejected :
+     CommandStep precedenceCheckedState
+@@ -402,7 +402,7 @@
+         requestedAuthority := 4
+         approvalReceipt := true
+         logicalTime := 3 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem constraint_substitution_before_planning_is_rejected :
+     CommandStep authorityBoundState
+@@ -413,7 +413,7 @@
+         constraints := { constraintSlot with valueHash := 999 }
+         planningValidationReceipt := true
+         logicalTime := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem dispatch_without_validation_receipt_is_rejected :
+     CommandStep { planningValidatedState with planningValidationReceipt := false }
+@@ -424,7 +424,7 @@
+         approvalReceipt := true
+         dispatchReceipt := true
+         logicalTime := 5 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem dispatch_without_receipt_is_rejected :
+     CommandStep planningValidatedState
+@@ -434,6 +434,6 @@
+         toStage := .dispatchReady
+         approvalReceipt := true
+         logicalTime := 5 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.CommandSemanticRefinement
+--- a/AsiStackProofs/CompactGenerationRefinement.lean
++++ b/AsiStackProofs/CompactGenerationRefinement.lean
+@@ -609,6 +609,6 @@
+   s8.stage = .closed ∧ s8.receiptCount = 8 ∧ s8.generationCount = 1 ∧
+   s8.verificationCount = 1 ∧ s8.fallbackCount = 1 ∧ s8.migrationCount = 1 ∧
+   s8.consumptionCount = 1 ∧ s8.supportAssignmentCount = 0 ∧
+-  s8.externalEffectCount = 0 := by native_decide
++  s8.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.CompactGenerationRefinement
+--- a/AsiStackProofs/ContextCertificateRefinement.lean
++++ b/AsiStackProofs/ContextCertificateRefinement.lean
+@@ -332,38 +332,38 @@
+       (state.stage, state.admitted, state.sourceBindingReceipt,
+         state.certificateReceipt, state.verificationReceipt)) =
+       some (.admitted, true, true, true, true) := by
+-  native_decide
++  decide +kernel
+ 
+ def spliceRun (before : List CertificateEvent) (event : CertificateEvent)
+     (after : List CertificateEvent) :=
+   CertificateRun 4 initialState (before ++ event :: after)
+ 
+ theorem source_substitution_rejected :
+-    spliceRun [bindEvent] { deriveEvent with sourceId := 999 } [certifyEvent, verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent] { deriveEvent with sourceId := 999 } [certifyEvent, verifyEvent, admitEvent] = none := by decide +kernel
+ theorem authority_escalation_rejected :
+-    spliceRun [bindEvent] { deriveEvent with derivedAuthority := 4 } [certifyEvent, verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent] { deriveEvent with derivedAuthority := 4 } [certifyEvent, verifyEvent, admitEvent] = none := by decide +kernel
+ theorem missing_source_binding_receipt_rejected :
+-    spliceRun [bindEvent] { deriveEvent with sourceBindingReceipt := false } [certifyEvent, verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent] { deriveEvent with sourceBindingReceipt := false } [certifyEvent, verifyEvent, admitEvent] = none := by decide +kernel
+ theorem missing_loss_contract_rejected :
+-    spliceRun [bindEvent, deriveEvent] { certifyEvent with lossContractDeclared := false } [verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent] { certifyEvent with lossContractDeclared := false } [verifyEvent, admitEvent] = none := by decide +kernel
+ theorem missing_omission_ledger_rejected :
+-    spliceRun [bindEvent, deriveEvent] { certifyEvent with omissionsDeclared := false } [verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent] { certifyEvent with omissionsDeclared := false } [verifyEvent, admitEvent] = none := by decide +kernel
+ theorem missing_permitted_use_rejected :
+-    spliceRun [bindEvent, deriveEvent] { certifyEvent with permittedUsesDeclared := false } [verifyEvent, admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent] { certifyEvent with permittedUsesDeclared := false } [verifyEvent, admitEvent] = none := by decide +kernel
+ theorem stale_certificate_epoch_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with lifecycleEpoch := 2 } [admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with lifecycleEpoch := 2 } [admitEvent] = none := by decide +kernel
+ theorem missing_verification_receipt_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with verificationReceipt := false } [admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with verificationReceipt := false } [admitEvent] = none := by decide +kernel
+ theorem missing_deletion_closure_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with deletionClosureReceipt := false } [admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with deletionClosureReceipt := false } [admitEvent] = none := by decide +kernel
+ theorem unpermitted_consumer_use_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent, verifyEvent] { admitEvent with requestedUseId := 999 } [] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent, verifyEvent] { admitEvent with requestedUseId := 999 } [] = none := by decide +kernel
+ theorem support_promotion_without_transition_rejected :
+     spliceRun [bindEvent, deriveEvent, certifyEvent, verifyEvent]
+-      { admitEvent with supportPromotionRequested := true } [] = none := by native_decide
++      { admitEvent with supportPromotionRequested := true } [] = none := by decide +kernel
+ theorem tainted_verification_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with tainted := true } [admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with tainted := true } [admitEvent] = none := by decide +kernel
+ theorem revoked_verification_rejected :
+-    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with revoked := true } [admitEvent] = none := by native_decide
++    spliceRun [bindEvent, deriveEvent, certifyEvent] { verifyEvent with revoked := true } [admitEvent] = none := by decide +kernel
+ 
+ end AsiStackProofs.ContextCertificateRefinement
+--- a/AsiStackProofs/ContextTransactionRefinement.lean
++++ b/AsiStackProofs/ContextTransactionRefinement.lean
+@@ -595,48 +595,48 @@
+ theorem exact_transaction_trace_materializes :
+     (TransactionRun initialState successTrace).map (fun state =>
+       (state.stage, state.committedVersion, state.visibleVersion, state.materialized)) =
+-      some (.materialized, 1, 1, true) := by native_decide
++      some (.materialized, 1, 1, true) := by decide +kernel
+ 
+ def spliceRun (before : List TransactionEvent) (event : TransactionEvent)
+     (after : List TransactionEvent) := TransactionRun initialState (before ++ event :: after)
+ 
+ theorem missing_snapshot_rejected :
+-    spliceRun [] { bindEvent with snapshotPresent := false } [stageEvent, commitEvent, readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [] { bindEvent with snapshotPresent := false } [stageEvent, commitEvent, readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem stale_snapshot_rejected :
+-    spliceRun [] { bindEvent with snapshotCurrent := false } [stageEvent, commitEvent, readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [] { bindEvent with snapshotCurrent := false } [stageEvent, commitEvent, readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem branch_substitution_rejected :
+-    spliceRun [bindEvent] { stageEvent with branchId := 999 } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { stageEvent with branchId := 999 } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem mount_substitution_rejected :
+-    spliceRun [bindEvent] { stageEvent with mountId := 999 } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { stageEvent with mountId := 999 } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem unauthorized_mount_rejected :
+-    spliceRun [bindEvent] { stageEvent with mountPermitted := false } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { stageEvent with mountPermitted := false } [commitEvent, readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem uncommitted_write_rejected :
+-    spliceRun [bindEvent, stageEvent] { commitEvent with writeCommitted := false } [readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, stageEvent] { commitEvent with writeCommitted := false } [readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem commit_version_skip_rejected :
+-    spliceRun [bindEvent, stageEvent] { commitEvent with outputVersion := 2 } [readEvent, deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, stageEvent] { commitEvent with outputVersion := 2 } [readEvent, deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem invisible_read_rejected :
+-    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with readVisible := false } [deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with readVisible := false } [deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem stale_read_version_rejected :
+-    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with inputVersion := 0 } [deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with inputVersion := 0 } [deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem missing_replay_receipt_rejected :
+-    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with replayReceipt := false } [deriveEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, stageEvent, commitEvent] { readEvent with replayReceipt := false } [deriveEvent, materializeEvent] = none := by decide +kernel
+ theorem taint_laundering_rejected :
+     spliceRun [bindEvent] { stageEvent with sourceTainted := true }
+-      [commitEvent, readEvent, { deriveEvent with sourceTainted := true }, materializeEvent] = none := by native_decide
++      [commitEvent, readEvent, { deriveEvent with sourceTainted := true }, materializeEvent] = none := by decide +kernel
+ def falseDeclassificationEvent : TransactionEvent :=
+   { { deriveEvent with sourceTainted := true } with
+     declassificationAuthorized := true, declassificationReceipt := false }
+ theorem false_declassification_rejected :
+     spliceRun [bindEvent] { stageEvent with sourceTainted := true }
+-      [commitEvent, readEvent, falseDeclassificationEvent, materializeEvent] = none := by native_decide
++      [commitEvent, readEvent, falseDeclassificationEvent, materializeEvent] = none := by decide +kernel
+ theorem open_deletion_rejected :
+     spliceRun [bindEvent] { stageEvent with deletionObligationOpen := true }
+-      [commitEvent, readEvent, { deriveEvent with deletionObligationOpen := true }, materializeEvent] = none := by native_decide
++      [commitEvent, readEvent, { deriveEvent with deletionObligationOpen := true }, materializeEvent] = none := by decide +kernel
+ theorem missing_materialization_receipt_rejected :
+     spliceRun [bindEvent, stageEvent, commitEvent, readEvent, deriveEvent]
+-      { materializeEvent with materializationReceipt := false } [] = none := by native_decide
++      { materializeEvent with materializationReceipt := false } [] = none := by decide +kernel
+ theorem support_promotion_without_transition_rejected :
+     spliceRun [bindEvent, stageEvent, commitEvent, readEvent, deriveEvent]
+-      { materializeEvent with supportPromotionRequested := true } [] = none := by native_decide
++      { materializeEvent with supportPromotionRequested := true } [] = none := by decide +kernel
+ 
+ end AsiStackProofs.ContextTransactionRefinement
+--- a/AsiStackProofs/DataEngineLifecycleRefinement.lean
++++ b/AsiStackProofs/DataEngineLifecycleRefinement.lean
+@@ -422,7 +422,7 @@
+     canonicalLifecycleState.boundedCustodyCount = 1 ∧
+     canonicalLifecycleState.readmissionCount = 1 ∧
+     canonicalLifecycleState.supportAssignmentCount = 0 ∧
+-    canonicalLifecycleState.externalEffectCount = 0 := by native_decide
++    canonicalLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem data_engine_axis_laundering_blocks_custody_and_readmission :
+     influenceLaunderingBlockedLifecycleState.stage = .deletionAssessed ∧
+@@ -431,7 +431,7 @@
+     influenceLaunderingBlockedLifecycleState.boundedCustodyCount = 0 ∧
+     influenceLaunderingBlockedLifecycleState.readmissionCount = 0 ∧
+     influenceLaunderingBlockedLifecycleState.supportAssignmentCount = 0 ∧
+-    influenceLaunderingBlockedLifecycleState.externalEffectCount = 0 := by native_decide
++    influenceLaunderingBlockedLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem data_engine_lifecycle_routes :
+     routeFor (canonicalState .draft) .scopeCustody
+@@ -453,6 +453,6 @@
+     routeFor (canonicalState .adjudicated) .bindCustody canonicalPacket =
+           .acceptBoundedCustody ∧
+     routeFor (canonicalState .custodyBound) .triggerReadmission
+-        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by native_decide
++        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by decide +kernel
+ 
+ end AsiStackProofs.DataEngineLifecycleRefinement
+--- a/AsiStackProofs/DeliberationRefinement.lean
++++ b/AsiStackProofs/DeliberationRefinement.lean
+@@ -391,7 +391,7 @@
+         candidateBatchCount := 1
+         evaluationCount := 1
+         selectionCount := 1
+-        planningHandoffCount := 1 } := by native_decide
++        planningHandoffCount := 1 } := by decide +kernel
+ 
+ theorem verified_deliberation_lifecycle_reaches_closed_without_support_or_effect_authority :
+   let s0 := stateAt .requested
+@@ -405,7 +405,7 @@
+   s7.stage = .closed ∧ s7.receiptCount = 7 ∧ s7.candidateBatchCount = 1 ∧
+   s7.evaluationCount = 1 ∧ s7.selectionCount = 1 ∧ s7.residualEscrowCount = 0 ∧
+   s7.planningHandoffCount = 1 ∧ s7.supportAssignmentCount = 0 ∧
+-  s7.externalEffectCount = 0 := by native_decide
++  s7.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem no_verified_candidate_reaches_closed_with_residual_escrow :
+   let s0 := stateAt .requested
+@@ -417,6 +417,6 @@
+   let s6 := (applyEvent s5 (event .handoffToPlanning 6)).1
+   let s7 := (applyEvent s6 (event .close 7)).1
+   s7.stage = .closed ∧ s7.residualEscrowCount = 1 ∧ s7.planningHandoffCount = 1 ∧
+-  s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by native_decide
++  s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.DeliberationRefinement
+--- a/AsiStackProofs/EvidenceTransitionRefinement.lean
++++ b/AsiStackProofs/EvidenceTransitionRefinement.lean
+@@ -211,17 +211,17 @@
+ theorem target_evidence_is_state_specific :
+     evidenceForTarget { completePacket with proposedState := .sourceDerived, sourceGrounding := false, syntheticValidation := true } = false ∧
+     evidenceForTarget { completePacket with proposedState := .syntheticTestBacked, sourceGrounding := true, syntheticValidation := false } = false ∧
+-    evidenceForTarget { completePacket with proposedState := .externalLiteratureBacked, empiricalValidation := true, externalLiterature := false } = false := by native_decide
++    evidenceForTarget { completePacket with proposedState := .externalLiteratureBacked, empiricalValidation := true, externalLiterature := false } = false := by decide +kernel
+ 
+ theorem adverse_transition_without_negative_evidence_cannot_bind :
+     route (completeState .projectionsFrozen) .bindEvidence
+       { completePacket with intent := .downgrade, proposedState := .argument, negativeEvidence := false } =
+-      .requestNegativeEvidence := by native_decide
++      .requestNegativeEvidence := by decide +kernel
+ 
+ theorem terminal_label_requires_matching_intent :
+     route (completeState .requested) .freezeProjections
+       { completePacket with intent := .promote, proposedState := .refuted } =
+-      .rejectStateCategorySubstitution := by native_decide
++      .rejectStateCategorySubstitution := by decide +kernel
+ 
+ theorem complete_transition_reaches_bounded_handoff :
+     route (completeState .requested) .freezeProjections completePacket = .acceptProjectionFreeze ∧
+@@ -233,6 +233,6 @@
+     completePacket.supportAssignmentRequested = false ∧
+     completePacket.externalEffectRequested = false ∧
+     completePacket.parentMovementRequested = false ∧
+-    completePacket.descendantMovementRequested = false := by native_decide
++    completePacket.descendantMovementRequested = false := by decide +kernel
+ 
+ end AsiStackProofs.EvidenceTransitionRefinement
+--- a/AsiStackProofs/FailureRecoveryRefinement.lean
++++ b/AsiStackProofs/FailureRecoveryRefinement.lean
+@@ -641,7 +641,7 @@
+     s5.containmentActive = false ∧ s5.externalEffectsEnabled = true ∧
+     s5.promotionEnabled = true ∧
+     s5.supportAssignmentCount = 0 ∧ s5.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem bounded_recurrence_reisolates_after_recovery :
+   let s0 := canonicalState .operating
+@@ -658,7 +658,7 @@
+     s6.externalEffectsEnabled = false ∧ s6.promotionEnabled = false ∧
+     s6.supportAssignmentCount = 0 ∧
+     s6.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ inductive ObservationRoute where
+   | rejectInvalidControlState
+@@ -875,51 +875,51 @@
+     observationRouteFor (canonicalState .operating)
+       { canonicalObservation 1 with evidenceReceiptRecorded := false } =
+         .requestEvidenceReceipt := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unclassified_observation_preserves_unmapped_residual :
+     observationRouteFor (canonicalState .operating)
+       { canonicalObservation 1 with
+         packet := { canonicalPacket 1 with failureClassRecorded := false } } =
+         .preserveUnmappedResidual := by
+-  native_decide
++  decide +kernel
+ 
+ theorem captured_detector_cannot_admit_recovery :
+     observationRouteFor (canonicalState .operating)
+       { canonicalObservation 1 with detectorObserverDigest := 502 } =
+         .rejectCapturedDetector := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_over_ceiling_cannot_admit_recovery :
+     observationRouteFor (canonicalState .operating)
+       { canonicalObservation 1 with authorityRequested := 4 } =
+         .requestAuthorityReview := by
+-  native_decide
++  decide +kernel
+ 
+ theorem open_escape_without_quarantine_cannot_admit_recovery :
+     observationRouteFor (canonicalState .operating)
+       { { canonicalObservation 1 with escapePathOpen := true } with
+         quarantineRecorded := false } = .requestQuarantine := by
+-  native_decide
++  decide +kernel
+ 
+ theorem recurrence_marker_substitution_cannot_admit_recovery :
+     observationRouteFor (canonicalState .operating)
+       { canonicalObservation 1 with recurrenceObserved := true } =
+         .rejectRecurrenceSubstitution := by
+-  native_decide
++  decide +kernel
+ 
+ theorem complete_recurrence_observation_admits_escalated_recovery :
+     observationRouteFor (canonicalState .operating)
+       { { canonicalObservation 1 with
+         packet := { canonicalPacket 1 with recurrenceOfPriorIncident := true } } with
+         recurrenceObserved := true } = .admitRecurrenceRecovery := by
+-  native_decide
++  decide +kernel
+ 
+ theorem complete_severe_irreversible_observation_admits_escalated_recovery :
+     observationRouteFor (canonicalState .operating)
+       { { canonicalObservation 1 with severityHigh := true } with reversible := false } =
+         .admitSevereRecovery := by
+-  native_decide
++  decide +kernel
+ 
+ theorem complete_ordinary_observation_reaches_isolated_recovery :
+     let result := ingestObservation (canonicalState .operating) (canonicalObservation 1)
+@@ -929,6 +929,6 @@
+       result.1.externalEffectsEnabled = false ∧ result.1.promotionEnabled = false ∧
+       result.1.receiptCount = 1 ∧ result.1.incidentCount = 1 ∧
+       result.1.supportAssignmentCount = 0 ∧ result.1.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.FailureRecoveryRefinement
+--- a/AsiStackProofs/FastGenerationRefinement.lean
++++ b/AsiStackProofs/FastGenerationRefinement.lean
+@@ -342,7 +342,7 @@
+   s7.stage = .closed ∧ s7.receiptCount = 7 ∧ s7.draftCount = 1 ∧
+   s7.verificationCount = 1 ∧ s7.fallbackCount = 0 ∧ s7.usefulOutcomeCount = 1 ∧
+   s7.decisionCount = 1 ∧ s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem fallback_lifecycle_reaches_closed_with_fallback_accounted :
+   let s0 := stateAt .requested
+@@ -354,6 +354,6 @@
+   let s6 := (applyEvent s5 (event .decide 6)).1
+   let s7 := (applyEvent s6 (event .close 7)).1
+   s7.stage = .closed ∧ s7.fallbackCount = 1 ∧ s7.usefulOutcomeCount = 1 ∧
+-  s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by native_decide
++  s7.supportAssignmentCount = 0 ∧ s7.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.FastGenerationRefinement
+--- a/AsiStackProofs/GovernedModelTraining.lean
++++ b/AsiStackProofs/GovernedModelTraining.lean
+@@ -122,39 +122,39 @@
+ 
+ theorem missing_state_class_requests_inventory :
+     handoffRoute { ({} : TrainingRun) with checkpointedStateClasses := 9 } =
+-      .requestStateInventory := by native_decide
++      .requestStateInventory := by decide +kernel
+ 
+ theorem torn_checkpoint_rejects_handoff :
+     handoffRoute { ({} : TrainingRun) with checkpointLogicalStepConsistent := false } =
+-      .rejectTornCheckpoint := by native_decide
++      .rejectTornCheckpoint := by decide +kernel
+ 
+ theorem undurable_async_checkpoint_rejects_handoff :
+     handoffRoute { ({} : TrainingRun) with checkpointDurablyCommitted := false } =
+-      .rejectTornCheckpoint := by native_decide
++      .rejectTornCheckpoint := by decide +kernel
+ 
+ theorem data_cursor_drift_rejects_resume :
+     handoffRoute { ({} : TrainingRun) with resumeDataCursorExact := false } =
+-      .rejectResumeDrift := by native_decide
++      .rejectResumeDrift := by decide +kernel
+ 
+ theorem rng_drift_rejects_resume :
+     handoffRoute { ({} : TrainingRun) with resumeRngStateExact := false } =
+-      .rejectResumeDrift := by native_decide
++      .rejectResumeDrift := by decide +kernel
+ 
+ theorem hidden_failed_run_rejects_selection :
+     handoffRoute { ({} : TrainingRun) with failedRunsRetained := false } =
+-      .rejectSelectionLeakage := by native_decide
++      .rejectSelectionLeakage := by decide +kernel
+ 
+ theorem opened_qualification_requests_new_qualification :
+     handoffRoute { ({} : TrainingRun) with qualificationUnopenedAtSelection := false } =
+-      .requestQualification := by native_decide
++      .requestQualification := by decide +kernel
+ 
+ theorem support_laundering_requests_qualification :
+     handoffRoute { ({} : TrainingRun) with supportPromotionRequested := true } =
+-      .requestQualification := by native_decide
++      .requestQualification := by decide +kernel
+ 
+ theorem complete_authored_run_accepts_bounded_handoff_without_authority :
+     handoffRoute ({} : TrainingRun) = .acceptHandoff ∧
+-    authorityLeakRequested ({} : TrainingRun) = false := by native_decide
++    authorityLeakRequested ({} : TrainingRun) = false := by decide +kernel
+ 
+ /-! ## Weight-only checkpoint information boundary
+ 
+--- a/AsiStackProofs/GovernedOperations.lean
++++ b/AsiStackProofs/GovernedOperations.lean
+@@ -108,19 +108,19 @@
+     simp_all [degradationRoute]
+ 
+ theorem widening_capability_rejects_degradation :
+-    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 5, data := 2, tools := 1, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by native_decide
++    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 5, data := 2, tools := 1, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by decide +kernel
+ 
+ theorem widening_data_rejects_degradation :
+-    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 5, tools := 1, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by native_decide
++    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 5, tools := 1, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by decide +kernel
+ 
+ theorem widening_tools_rejects_degradation :
+-    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 5, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by native_decide
++    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 5, population := 1, durationSeconds := 900 } } = .rejectAuthorityWidening := by decide +kernel
+ 
+ theorem widening_population_rejects_degradation :
+-    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 1, population := 5, durationSeconds := 900 } } = .rejectAuthorityWidening := by native_decide
++    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 1, population := 5, durationSeconds := 900 } } = .rejectAuthorityWidening := by decide +kernel
+ 
+ theorem widening_duration_rejects_degradation :
+-    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 1, population := 1, durationSeconds := 7200 } } = .rejectAuthorityWidening := by native_decide
++    degradationRoute { ({} : OperationsPacket) with degradedAuthority := { capability := 2, data := 2, tools := 1, population := 1, durationSeconds := 7200 } } = .rejectAuthorityWidening := by decide +kernel
+ 
+ theorem accepted_recovery_requires_complete_declared_state_effect_and_expiry
+     (p : OperationsPacket)
+@@ -134,20 +134,20 @@
+     · rfl
+ 
+ theorem missing_state_class_blocks_recovery :
+-    recoveryRoute { ({} : OperationsPacket) with reconciledStateCount := 10 } = .requestStateInventory := by native_decide
++    recoveryRoute { ({} : OperationsPacket) with reconciledStateCount := 10 } = .requestStateInventory := by decide +kernel
+ 
+ theorem unknown_external_effect_routes_to_safe_hold :
+-    recoveryRoute { ({} : OperationsPacket) with externalEffectsDispositionComplete := false } = .safeHold := by native_decide
++    recoveryRoute { ({} : OperationsPacket) with externalEffectsDispositionComplete := false } = .safeHold := by decide +kernel
+ 
+ theorem stale_acceptance_blocks_recovery :
+-    recoveryRoute { ({} : OperationsPacket) with acceptanceFresh := false } = .requestFreshAcceptance := by native_decide
++    recoveryRoute { ({} : OperationsPacket) with acceptanceFresh := false } = .requestFreshAcceptance := by decide +kernel
+ 
+ theorem active_emergency_lease_blocks_recovery :
+-    recoveryRoute { ({} : OperationsPacket) with emergencyLeaseExpired := false } = .requestEmergencyExpiry := by native_decide
++    recoveryRoute { ({} : OperationsPacket) with emergencyLeaseExpired := false } = .requestEmergencyExpiry := by decide +kernel
+ 
+ theorem complete_declared_inventory_accepts_recovery_without_new_authority :
+     degradationRoute ({} : OperationsPacket) = .acceptDegraded ∧
+     recoveryRoute ({} : OperationsPacket) = .acceptRecovery ∧
+-    authorityLeakRequested ({} : OperationsPacket) = false := by native_decide
++    authorityLeakRequested ({} : OperationsPacket) = false := by decide +kernel
+ 
+ end AsiStackProofs.GovernedOperations
+--- a/AsiStackProofs/GovernedOperationsRefinement.lean
++++ b/AsiStackProofs/GovernedOperationsRefinement.lean
+@@ -447,37 +447,37 @@
+     routeFor (canonicalState .contained) .enterDegradedMode
+       { canonicalPacket 4 with proposedAuthority :=
+         widenedCapabilityAuthority } = .rejectAuthorityWidening := by
+-  native_decide
++  decide +kernel
+ 
+ theorem incomplete_descendant_inventory_blocks_reconciliation :
+     routeFor (canonicalState .degraded) .reconcileStateAndEffects
+       { canonicalPacket 5 with descendantsComplete := false } =
+         .requestStateInventory := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unknown_effect_blocks_reconciliation :
+     routeFor (canonicalState .degraded) .reconcileStateAndEffects
+       { canonicalPacket 5 with effectsDispositionComplete := false } =
+         .requestEffectDisposition := by
+-  native_decide
++  decide +kernel
+ 
+ theorem dependent_verifier_blocks_review :
+     routeFor (canonicalState .reconciled) .reviewRecovery
+       { canonicalPacket 6 with independentVerifier := false } =
+         .rejectDependentVerifier := by
+-  native_decide
++  decide +kernel
+ 
+ theorem active_emergency_lease_blocks_restoration :
+     routeFor (canonicalState .reviewed) .restoreService
+       { canonicalPacket 7 with emergencyLeaseExpired := false } =
+         .requestEmergencyExpiry := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_leak_blocks_every_lifecycle_stage (stage : Stage) :
+     routeFor (canonicalState stage) (expectedKind stage)
+       { canonicalPacket 99 with supportAssignmentRequested := true } =
+         .rejectAuthorityLeak := by
+-  cases stage <;> native_decide
++  cases stage <;> decide +kernel
+ 
+ theorem bounded_incident_lifecycle_reaches_restored_service :
+   let s0 := canonicalState .normal
+@@ -491,7 +491,7 @@
+   s7.stage = .restored ∧ s7.receiptCount = 7 ∧ s7.recoveryCount = 1 ∧
+     s7.containmentActive = false ∧ s7.externalEffectsEnabled = true ∧
+     s7.supportAssignmentCount = 0 ∧ s7.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem bounded_recurrence_reenters_incident_control :
+   let restored :=
+@@ -503,6 +503,6 @@
+     next.recoveryCount = 1 ∧ next.recurrenceCount = 1 ∧
+     next.containmentActive = true ∧ next.externalEffectsEnabled = false ∧
+     next.supportAssignmentCount = 0 ∧ next.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.GovernedOperationsRefinement
+--- a/AsiStackProofs/GovernedWorldModels.lean
++++ b/AsiStackProofs/GovernedWorldModels.lean
+@@ -161,16 +161,16 @@
+   reviewAvailable := false
+ 
+ theorem qualified_fixture_admits_for_planning :
+-    RolloutRouteFor qualifiedPacket = .admitForPlanning := by native_decide
++    RolloutRouteFor qualifiedPacket = .admitForPlanning := by decide +kernel
+ 
+ theorem stale_fixture_requires_reobservation :
+-    RolloutRouteFor stalePacket = .reobserve := by native_decide
++    RolloutRouteFor stalePacket = .reobserve := by decide +kernel
+ 
+ theorem unsupported_fixture_falls_back :
+-    RolloutRouteFor unsupportedPacket = .fallback := by native_decide
++    RolloutRouteFor unsupportedPacket = .fallback := by decide +kernel
+ 
+ theorem material_fixture_holds_safely :
+-    ResidualRouteFor materialResidual = .safeHold := by native_decide
++    ResidualRouteFor materialResidual = .safeHold := by decide +kernel
+ 
+ /-!
+ The transaction lifecycle below strengthens the static packet classifiers into
+@@ -636,71 +636,71 @@
+         receiptCount := 6
+         planningHandoffCount := 1
+         observedEffectCount := 1
+-        reconciliationCount := 1 } := by native_decide
++        reconciliationCount := 1 } := by decide +kernel
+ 
+ theorem stale_observation_blocks_lifecycle :
+     lifecycleRouteFor canonicalLifecycleState .bindObservation
+       { canonicalLifecyclePacket 1 with observationFresh := false } =
+-        .requestFreshObservation := by native_decide
++        .requestFreshObservation := by decide +kernel
+ 
+ theorem imagined_branch_cannot_launder_as_observation :
+     lifecycleRouteFor canonicalLifecycleState .bindObservation
+       { canonicalLifecyclePacket 1 with observationMarkedActual := false } =
+-        .rejectImaginationAsObservation := by native_decide
++        .rejectImaginationAsObservation := by decide +kernel
+ 
+ theorem stale_model_blocks_lifecycle :
+     let state := { canonicalLifecycleState with stage := .observationBound }
+     lifecycleRouteFor state .bindModel
+       { canonicalLifecyclePacket 2 with modelCurrent := false } = .requestCurrentModel := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unsupported_branch_blocks_qualification :
+     let state := { canonicalLifecycleState with stage := .modelBound }
+     lifecycleRouteFor state .qualifyBranch
+       { canonicalLifecyclePacket 3 with supportQualified := false } =
+-        .requestQualifiedSupport := by native_decide
++        .requestQualifiedSupport := by decide +kernel
+ 
+ theorem unresolved_model_disagreement_blocks_qualification :
+     let state := { canonicalLifecycleState with stage := .modelBound }
+     lifecycleRouteFor state .qualifyBranch
+       { { canonicalLifecyclePacket 3 with materialDisagreement := true } with
+         disagreementDispositionPresent := false } = .requestDisagreementDisposition := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unbounded_planner_use_blocks_handoff :
+     let state := { canonicalLifecycleState with stage := .branchQualified }
+     lifecycleRouteFor state .handoffForPlanning
+       { canonicalLifecyclePacket 4 with plannerUseBounded := false } =
+-        .requestBoundedPlannerUse := by native_decide
++        .requestBoundedPlannerUse := by decide +kernel
+ 
+ theorem planning_handoff_cannot_launder_execution_authority :
+     let state := { canonicalLifecycleState with stage := .branchQualified }
+     lifecycleRouteFor state .handoffForPlanning
+       { canonicalLifecyclePacket 4 with executionAuthorityRequested := true } =
+-        .rejectAuthorityLaundering := by native_decide
++        .rejectAuthorityLaundering := by decide +kernel
+ 
+ theorem missing_action_receipt_blocks_effect_record :
+     let state := { canonicalLifecycleState with stage := .planningHandoff }
+     lifecycleRouteFor state .recordObservedEffect
+       { canonicalLifecyclePacket 5 with actionReceiptPresent := false } =
+-        .requestActionReceipt := by native_decide
++        .requestActionReceipt := by decide +kernel
+ 
+ theorem self_observed_effect_blocks_actuality_record :
+     let state := { canonicalLifecycleState with stage := .planningHandoff }
+     lifecycleRouteFor state .recordObservedEffect
+       { canonicalLifecyclePacket 5 with effectIndependentlyObserved := false } =
+-        .requestIndependentEffectObservation := by native_decide
++        .requestIndependentEffectObservation := by decide +kernel
+ 
+ theorem missing_residual_blocks_reconciliation :
+     let state := { canonicalLifecycleState with stage := .effectObserved }
+     lifecycleRouteFor state .reconcileResidual
+       { canonicalLifecyclePacket 6 with residualComputed := false } = .requestResidual := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unowned_residual_blocks_reconciliation :
+     let state := { canonicalLifecycleState with stage := .effectObserved }
+     lifecycleRouteFor state .reconcileResidual
+       { canonicalLifecyclePacket 6 with residualOwnerPresent := false } =
+-        .requestResidualOwner := by native_decide
++        .requestResidualOwner := by decide +kernel
+ 
+ end AsiStackProofs.GovernedWorldModels
+--- a/AsiStackProofs/HiveLifecycleRefinement.lean
++++ b/AsiStackProofs/HiveLifecycleRefinement.lean
+@@ -383,5 +383,5 @@
+   let s6:=(applyEvent s5 (ev .close 6)).1
+   s6.stage=.closed ∧ s6.receiptCount=6 ∧ s6.dispatchCount=1 ∧
+   s6.usefulOutcomeCount=1 ∧ s6.recoveryCount=1 ∧
+-  s6.supportAssignmentCount=0 ∧ s6.externalEffectCount=0 := by native_decide
++  s6.supportAssignmentCount=0 ∧ s6.externalEffectCount=0 := by decide +kernel
+ end AsiStackProofs.HiveLifecycleRefinement
+--- a/AsiStackProofs/HumanAIOrganizations.lean
++++ b/AsiStackProofs/HumanAIOrganizations.lean
+@@ -1228,20 +1228,20 @@
+     ResponsibilityDelegationInvariant responsibilityDelegationInitialState := by
+   exact {
+     authorityInvariant := Authority.delegation_initial_state_is_invariant
+-    accountableMatchesDelegate := by native_decide
+-    accountableOwnerPositive := by native_decide
+-    reviewerPositive := by native_decide
+-    reviewerIndependentFromOwner := by native_decide
+-    reviewerIndependentFromPrincipal := by native_decide
+-    evidenceCustodianPositive := by native_decide
+-    evidenceCustodianIndependentFromOwner := by native_decide
+-    receiptAligned := by native_decide
+-    residualDepthAligned := by native_decide
+-    assignmentComplete := by native_decide
+-    interventionPathPresent := by native_decide
+-    appealPathPresent := by native_decide
+-    remedyPathPresent := by native_decide
+-    nonAuthority := by native_decide }
++    accountableMatchesDelegate := by decide +kernel
++    accountableOwnerPositive := by decide +kernel
++    reviewerPositive := by decide +kernel
++    reviewerIndependentFromOwner := by decide +kernel
++    reviewerIndependentFromPrincipal := by decide +kernel
++    evidenceCustodianPositive := by decide +kernel
++    evidenceCustodianIndependentFromOwner := by decide +kernel
++    receiptAligned := by decide +kernel
++    residualDepthAligned := by decide +kernel
++    assignmentComplete := by decide +kernel
++    interventionPathPresent := by decide +kernel
++    appealPathPresent := by decide +kernel
++    remedyPathPresent := by decide +kernel
++    nonAuthority := by decide +kernel }
+ 
+ theorem two_hop_responsibility_delegation_preserves_accountability :
+     ∃ final,
+@@ -1258,7 +1258,7 @@
+     (ApplyResponsibilityDelegationEvent responsibilityDelegationInitialState
+       firstResponsibilityDelegationEvent)
+     secondResponsibilityDelegationEvent, ?_⟩
+-  native_decide
++  decide +kernel
+ 
+ theorem responsibility_delegation_closed_countermodels :
+     ResponsibilityDelegationStep responsibilityDelegationInitialState
+@@ -1301,7 +1301,7 @@
+     ResponsibilityDelegationStep responsibilityDelegationInitialState
+         { firstResponsibilityDelegationEvent with
+             authorityEvent := { Authority.firstDelegationEvent with epoch := 8 } } = none := by
+-  native_decide
++  decide +kernel
+ 
+ structure ThinResponsibilitySummary where
+   delegationDepth : Nat
+@@ -1336,7 +1336,7 @@
+       thinResponsibilitySummaryOf responsibilityGapState ∧
+     responsibilityAssignableFor responsibilityDelegationInitialState = true ∧
+     responsibilityAssignableFor responsibilityGapState = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem thin_responsibility_summary_cannot_recover_accountability
+     (classify : ThinResponsibilitySummary -> Bool) :
+--- a/AsiStackProofs/HumanFactorsOversight.lean
++++ b/AsiStackProofs/HumanFactorsOversight.lean
+@@ -148,19 +148,19 @@
+   { completeEnvelope with supportAssignmentRequested := true }
+ 
+ theorem complete_fixture_routes_to_bounded_review :
+-    ControlRouteFor completeEnvelope = .boundedReview := by native_decide
++    ControlRouteFor completeEnvelope = .boundedReview := by decide +kernel
+ 
+ theorem overloaded_fixture_requests_capacity :
+-    ControlRouteFor overloadedEnvelope = .addCapacity := by native_decide
++    ControlRouteFor overloadedEnvelope = .addCapacity := by decide +kernel
+ 
+ theorem late_fixture_reduces_autonomy :
+-    ControlRouteFor lateEnvelope = .reduceAutonomy := by native_decide
++    ControlRouteFor lateEnvelope = .reduceAutonomy := by decide +kernel
+ 
+ theorem blame_without_control_is_rejected :
+-    ControlRouteFor blameWithoutControlEnvelope = .rejectResponsibility := by native_decide
++    ControlRouteFor blameWithoutControlEnvelope = .rejectResponsibility := by decide +kernel
+ 
+ theorem authority_leak_is_rejected :
+-    ControlRouteFor authorityLeakEnvelope = .rejectAuthorityLeak := by native_decide
++    ControlRouteFor authorityLeakEnvelope = .rejectAuthorityLeak := by decide +kernel
+ 
+ /-!
+ The lifecycle below strengthens the admission router with temporal and identity
+@@ -452,7 +452,7 @@
+         decisions := 1
+         interventions := 1
+         responseReceipts := 1
+-        accountabilityClosures := 1 } := by native_decide
++        accountabilityClosures := 1 } := by decide +kernel
+ 
+ def briefedReviewState : ReviewState :=
+   { initialReviewState with stage := .briefed, controlOpportunities := 1 }
+@@ -469,64 +469,64 @@
+ theorem substituted_reviewer_is_rejected_before_briefing :
+     ReviewStep initialReviewState
+       (.brief 41 8 19 23 true true true true true true true true true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem substituted_action_is_rejected_before_briefing :
+     ReviewStep initialReviewState
+       (.brief 41 7 20 23 true true true true true true true true true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem overloaded_review_is_rejected_before_control_opportunity :
+     ReviewStep initialReviewState
+       (.brief 41 7 19 23 true true true true true false true true true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem late_review_is_rejected_before_control_opportunity :
+     ReviewStep initialReviewState
+       (.brief 41 7 19 23 true true true true true true false true true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem missing_comprehension_acknowledgement_is_rejected_before_decision :
+     ReviewStep briefedReviewState (.decide 41 7 19 23 2 true false true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem missing_independent_challenge_is_rejected_before_decision :
+     ReviewStep briefedReviewState (.decide 41 7 19 23 2 true true false true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem missing_override_path_is_rejected_before_decision :
+     ReviewStep briefedReviewState (.decide 41 7 19 23 2 true true true false) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_is_rejected_before_decision :
+     ReviewStep briefedReviewState (.decide 41 7 19 23 4 true true true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem intervention_before_decision_is_rejected :
+     ReviewStep briefedReviewState (.intervene 41 7 19 23 2 true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem intervention_without_receipt_is_rejected :
+     ReviewStep decidedReviewState (.intervene 41 7 19 23 2 false) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem response_observation_before_intervention_is_rejected :
+     ReviewStep decidedReviewState (.observeResponse 41 7 19 23 true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem accountability_without_observed_response_is_rejected :
+     ReviewStep intervenedReviewState
+       (.closeAccountability 41 7 19 23 true true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem accountability_without_control_opportunity_is_rejected :
+     ReviewStep observedReviewState
+       (.closeAccountability 41 7 19 23 false true) = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem blocked_review_revokes_active_authority_without_support_effect :
+     ReviewStep decidedReviewState (.block 41 7 19 23 true) = some {
+       decidedReviewState with stage := .blocked, activeAuthority := 0, residuals := 1 } := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.HumanFactorsOversight
+--- a/AsiStackProofs/IntentExecutionRefinement.lean
++++ b/AsiStackProofs/IntentExecutionRefinement.lean
+@@ -616,7 +616,7 @@
+         verificationComplete := true
+         delivered := true
+         logicalTime := 10 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem missing_approval_authorization_is_rejected :
+     VerticalStep
+@@ -631,15 +631,15 @@
+           parentArtifact := 1004
+           outputArtifact := 1005
+           logicalTime := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_is_rejected :
+     VerticalStep verticalInitial { baseEvent with requestedAuthority := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem hidden_override_is_rejected :
+     VerticalStep verticalInitial { baseEvent with hiddenOverrideApplied := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem effect_without_dispatch_is_rejected :
+     VerticalStep
+@@ -655,7 +655,7 @@
+           outputArtifact := 1007
+           effectDelta := 1
+           logicalTime := 6 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem delivery_without_verification_is_rejected :
+     VerticalStep
+@@ -675,40 +675,40 @@
+           outputArtifact := 1011
+           deliveryReceipt := true
+           logicalTime := 10 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem substituted_root_contract_is_rejected :
+     VerticalStep verticalInitial { baseEvent with rootContract := 102 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem substituted_parent_artifact_is_rejected :
+     VerticalStep verticalInitial { baseEvent with parentArtifact := 9999 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem stale_logical_time_is_rejected :
+     VerticalStep verticalInitial { baseEvent with logicalTime := 0 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem observation_payload_on_lowering_is_rejected :
+     VerticalStep verticalInitial
+       { baseEvent with observationDelta := 1, observationReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem effect_payload_on_lowering_is_rejected :
+     VerticalStep verticalInitial { baseEvent with effectDelta := 1 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem delivery_payload_on_lowering_is_rejected :
+     VerticalStep verticalInitial { baseEvent with deliveryReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem residual_payload_on_lowering_is_rejected :
+     VerticalStep verticalInitial { baseEvent with residualDelta := 1 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem rollback_payload_on_lowering_is_rejected :
+     VerticalStep verticalInitial { baseEvent with rollbackExact := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem observation_before_attempted_effect_is_rejected :
+     VerticalStep
+@@ -727,7 +727,7 @@
+           observationDelta := 1
+           observationReceipt := true
+           logicalTime := 7 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem artifact_binding_before_observation_is_rejected :
+     VerticalStep
+@@ -746,7 +746,7 @@
+           outputArtifact := 1009
+           artifactParentBound := true
+           logicalTime := 8 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem self_verification_is_rejected :
+     VerticalStep
+@@ -767,7 +767,7 @@
+           outputArtifact := 1010
+           verificationReceipt := true
+           logicalTime := 9 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem inexact_rollback_is_rejected :
+     VerticalStep
+@@ -786,7 +786,7 @@
+           parentArtifact := 1008
+           outputArtifact := 1009
+           logicalTime := 8 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem quarantine_without_residual_is_rejected :
+     VerticalStep verticalInitial
+@@ -795,6 +795,6 @@
+           fromLayer := .intent
+           toLayer := .quarantined
+           blockReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.IntentExecutionRefinement
+--- a/AsiStackProofs/IntentResolutionRefinement.lean
++++ b/AsiStackProofs/IntentResolutionRefinement.lean
+@@ -758,7 +758,7 @@
+         approvedAuthority := 3
+         contractAccepted := true
+         logicalTime := 3 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem clarified_trace_reaches_same_bounded_contract :
+     IntentRun initialState clarifiedIntentTrace = some
+@@ -770,7 +770,7 @@
+         ambiguityOpen := false
+         contractAccepted := true
+         logicalTime := 4 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem unchanged_contract_continues_without_payload_rewrite :
+     IntentRun initialState continuedIntentTrace = some
+@@ -781,7 +781,7 @@
+         approvedAuthority := 3
+         contractAccepted := true
+         logicalTime := 4 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem rejection_blocks_without_materializing_contract_payload :
+     IntentRun initialState rejectedIntentTrace = some
+@@ -789,7 +789,7 @@
+         stage := .rejected
+         blocked := true
+         logicalTime := 1 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem every_successful_reference_trace_preserves_authority_ceiling :
+     ∀ final, IntentRun initialState acceptedIntentTrace = some final →
+@@ -809,15 +809,15 @@
+ 
+ theorem missing_intent_payload_is_rejected :
+     IntentStep initialState { baseEvent with sourceConstraintHash := 0 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem prohibited_action_is_rejected :
+     IntentStep initialState { baseEvent with prohibitedAction := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem hidden_override_is_rejected :
+     IntentStep initialState { baseEvent with hiddenOverride := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_is_rejected :
+     IntentStep
+@@ -829,7 +829,7 @@
+           requestedAuthority := 4
+           authorityReceipt := true
+           logicalTime := 2 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem compiled_constraint_substitution_is_rejected :
+     IntentStep
+@@ -841,7 +841,7 @@
+           outputConstraintHash := 999
+           authorityReceipt := true
+           logicalTime := 3 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem material_delta_cannot_silently_continue :
+     IntentStep acceptedState
+@@ -851,7 +851,7 @@
+           toStage := .accepted
+           meansExpanded := true
+           logicalTime := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem recontract_without_receipt_is_rejected :
+     IntentStep
+@@ -863,6 +863,6 @@
+           inputVersion := 1
+           outputVersion := 2
+           logicalTime := 5 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.IntentResolutionRefinement
+--- a/AsiStackProofs/InterStackProtocols.lean
++++ b/AsiStackProofs/InterStackProtocols.lean
+@@ -511,47 +511,47 @@
+         lastEventDigest := 6
+         receiptCount := 6
+         localHandoffCount := 1
+-        closureCount := 1 } := by native_decide
++        closureCount := 1 } := by decide +kernel
+ 
+ theorem lifecycle_missing_sender_blocks_identity :
+     ExchangeRouteFor canonicalExchangeState .bindIdentity
+-      { canonicalExchangePacket 1 with senderIdentityRecorded := false } = .requestSender := by native_decide
++      { canonicalExchangePacket 1 with senderIdentityRecorded := false } = .requestSender := by decide +kernel
+ 
+ theorem lifecycle_expired_delegation_blocks_exchange :
+     ExchangeRouteFor { canonicalExchangeState with stage := .identityBound } .bindDelegation
+-      { canonicalExchangePacket 2 with expiryCurrent := false } = .rejectExpiry := by native_decide
++      { canonicalExchangePacket 2 with expiryCurrent := false } = .rejectExpiry := by decide +kernel
+ 
+ theorem lifecycle_invalid_credential_blocks_exchange :
+     ExchangeRouteFor { canonicalExchangeState with stage := .identityBound } .bindDelegation
+-      { canonicalExchangePacket 2 with credentialVerified := false } = .rejectCredential := by native_decide
++      { canonicalExchangePacket 2 with credentialVerified := false } = .rejectCredential := by decide +kernel
+ 
+ theorem lifecycle_authority_laundering_blocks_exchange :
+     ExchangeRouteFor { canonicalExchangeState with stage := .budgetBound } .requestLocalDispatch
+       { canonicalExchangePacket 4 with settlementRequested := true } =
+-        .rejectAuthorityLaundering := by native_decide
++        .rejectAuthorityLaundering := by decide +kernel
+ 
+ theorem lifecycle_missing_budget_blocks_value_exchange :
+     ExchangeRouteFor { canonicalExchangeState with stage := .delegationBound } .bindBudget
+-      { canonicalExchangePacket 3 with budgetReserved := false } = .requestBudget := by native_decide
++      { canonicalExchangePacket 3 with budgetReserved := false } = .requestBudget := by decide +kernel
+ 
+ theorem lifecycle_missing_expected_receipt_blocks_dispatch :
+     ExchangeRouteFor { canonicalExchangeState with stage := .budgetBound } .requestLocalDispatch
+       { canonicalExchangePacket 4 with expectedReceiptRecorded := false } =
+-        .requestExpectedReceipt := by native_decide
++        .requestExpectedReceipt := by decide +kernel
+ 
+ theorem lifecycle_missing_observed_receipt_blocks_receipt :
+     ExchangeRouteFor { canonicalExchangeState with stage := .dispatched } .recordReceipt
+       { canonicalExchangePacket 5 with observedReceiptRecorded := false } =
+-        .requestObservedReceipt := by native_decide
++        .requestObservedReceipt := by decide +kernel
+ 
+ theorem lifecycle_undispositioned_dispute_blocks_closure :
+     ExchangeRouteFor { canonicalExchangeState with stage := .receipted } .closeExchange
+       { { canonicalExchangePacket 6 with receiptDisputed := true } with
+-        disputeDispositionPresent := false } = .requestDisputeDisposition := by native_decide
++        disputeDispositionPresent := false } = .requestDisputeDisposition := by decide +kernel
+ 
+ theorem lifecycle_missing_residual_owner_blocks_closure :
+     ExchangeRouteFor { canonicalExchangeState with stage := .receipted } .closeExchange
+       { canonicalExchangePacket 6 with residualOwnerRecorded := false } =
+-        .requestResidualOwner := by native_decide
++        .requestResidualOwner := by decide +kernel
+ 
+ end AsiStackProofs.InterStackProtocols
+--- a/AsiStackProofs/LearnedObjectiveIntegrity.lean
++++ b/AsiStackProofs/LearnedObjectiveIntegrity.lean
+@@ -724,7 +724,7 @@
+ theorem canonical_integrity_run_reaches_exact_invalidated_state :
+     IntegrityRun (canonicalState .scoped) canonicalIntegrityEvents =
+       some canonicalInvalidatedState := by
+-  native_decide
++  decide +kernel
+ 
+ theorem full_integrity_lifecycle_reaches_invalidated_state :
+     let s0 := canonicalState .scoped
+@@ -738,6 +738,6 @@
+     s7.stage = .invalidated ∧ s7.receiptCount = 7 ∧
+       s7.handoffCount = 1 ∧ s7.invalidationCount = 1 ∧
+       s7.supportAssignmentCount = 0 ∧ s7.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.LearnedObjectiveIntegrity
+--- a/AsiStackProofs/MultiAgentDynamics.lean
++++ b/AsiStackProofs/MultiAgentDynamics.lean
+@@ -557,12 +557,12 @@
+ theorem concentrated_local_steps_reach_exact_resource_concentration :
+     AllocationRun allocationInitialState concentratedAllocationEvents =
+       some concentratedAllocationFinal := by
+-  native_decide
++  decide +kernel
+ 
+ theorem diversified_local_steps_reach_exact_bounded_allocation :
+     AllocationRun allocationInitialState diversifiedAllocationEvents =
+       some diversifiedAllocationFinal := by
+-  native_decide
++  decide +kernel
+ 
+ theorem local_authorization_summaries_collide_across_systemic_outcomes :
+     LocalAuthorizationSummary concentratedAllocationEvents =
+@@ -573,7 +573,7 @@
+ theorem exact_allocation_state_separates_local_authorization_collision :
+     AllocationOutcome concentratedAllocationEvents = false ∧
+       AllocationOutcome diversifiedAllocationEvents = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem no_exact_systemic_allocation_classifier_from_local_authorization_only :
+     ¬ ∃ classify : List Bool → Bool,
+--- a/AsiStackProofs/ObservationTrust.lean
++++ b/AsiStackProofs/ObservationTrust.lean
+@@ -688,6 +688,6 @@
+     s6.stage = .invalidated ∧ s6.receiptCount = 6 ∧
+       s6.handoffCount = 1 ∧ s6.invalidationCount = 1 ∧
+       s6.supportAssignmentCount = 0 ∧ s6.externalAuthorityCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.ObservationTrust
+--- a/AsiStackProofs/OpenEndedImprovementRefinement.lean
++++ b/AsiStackProofs/OpenEndedImprovementRefinement.lean
+@@ -399,7 +399,7 @@
+     canonicalLifecycleState.governorHandoffCount = 1 ∧
+     canonicalLifecycleState.readmissionCount = 1 ∧
+     canonicalLifecycleState.supportAssignmentCount = 0 ∧
+-    canonicalLifecycleState.externalEffectCount = 0 := by native_decide
++    canonicalLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem open_ended_improvement_budget_reset_blocks_handoff_and_readmission :
+     budgetResetBlockedLifecycleState.stage = .generationBound ∧
+@@ -408,7 +408,7 @@
+     budgetResetBlockedLifecycleState.governorHandoffCount = 0 ∧
+     budgetResetBlockedLifecycleState.readmissionCount = 0 ∧
+     budgetResetBlockedLifecycleState.supportAssignmentCount = 0 ∧
+-    budgetResetBlockedLifecycleState.externalEffectCount = 0 := by native_decide
++    budgetResetBlockedLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem open_ended_improvement_lifecycle_routes :
+     routeFor (canonicalState .archiveBound) .recordEvaluation
+@@ -426,6 +426,6 @@
+     routeFor (canonicalState .adjudicated) .requestGovernorHandoff canonicalPacket =
+         .acceptGovernorHandoff ∧
+     routeFor (canonicalState .governorBound) .triggerReadmission
+-        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by native_decide
++        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by decide +kernel
+ 
+ end AsiStackProofs.OpenEndedImprovementRefinement
+--- a/AsiStackProofs/PolicyOptimizationRefinement.lean
++++ b/AsiStackProofs/PolicyOptimizationRefinement.lean
+@@ -346,7 +346,7 @@
+     canonicalLifecycleState.boundedLeaseCount = 1 ∧
+     canonicalLifecycleState.readmissionCount = 1 ∧
+     canonicalLifecycleState.supportAssignmentCount = 0 ∧
+-    canonicalLifecycleState.externalEffectCount = 0 := by native_decide
++    canonicalLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem policy_update_failed_evaluation_blocks_downstream_handoff :
+     causalAblationBlockedLifecycleState.stage = .updated ∧
+@@ -355,7 +355,7 @@
+     causalAblationBlockedLifecycleState.boundedLeaseCount = 0 ∧
+     causalAblationBlockedLifecycleState.readmissionCount = 0 ∧
+     causalAblationBlockedLifecycleState.supportAssignmentCount = 0 ∧
+-    causalAblationBlockedLifecycleState.externalEffectCount = 0 := by native_decide
++    causalAblationBlockedLifecycleState.externalEffectCount = 0 := by decide +kernel
+ 
+ theorem policy_update_lifecycle_routes :
+     routeFor (canonicalState .scoped) .bindTrainingState
+@@ -372,6 +372,6 @@
+     routeFor (canonicalState .adjudicated) .requestBoundedLease canonicalPacket =
+         .acceptBoundedLease ∧
+     routeFor (canonicalState .leaseBound) .triggerReadmission
+-        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by native_decide
++        { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by decide +kernel
+ 
+ end AsiStackProofs.PolicyOptimizationRefinement
+--- a/AsiStackProofs/PrivacyInformationFlow.lean
++++ b/AsiStackProofs/PrivacyInformationFlow.lean
+@@ -101,29 +101,29 @@
+   repeat' first | split at h | simp_all [outcomesSeparated]
+ 
+ theorem purpose_drift_rejects :
+-    route { ({} : InformationUse) with purposeMatches := false } = .rejectPurpose := by native_decide
++    route { ({} : InformationUse) with purposeMatches := false } = .rejectPurpose := by decide +kernel
+ 
+ theorem hidden_unknown_copies_request_flow_map :
+-    route { ({} : InformationUse) with unknownCopiesRecorded := false } = .requestFlowMap := by native_decide
++    route { ({} : InformationUse) with unknownCopiesRecorded := false } = .requestFlowMap := by decide +kernel
+ 
+ theorem label_attack_incompetence_rejects_privacy_evaluation :
+-    route { ({} : InformationUse) with attackPositiveControlsPass := false } = .rejectPrivacyEvaluation := by native_decide
++    route { ({} : InformationUse) with attackPositiveControlsPass := false } = .rejectPrivacyEvaluation := by decide +kernel
+ 
+ theorem missing_recipient_notice_requests_rights_work :
+-    route { ({} : InformationUse) with recipientNotificationsComplete := false } = .requestRightsWork := by native_decide
++    route { ({} : InformationUse) with recipientNotificationsComplete := false } = .requestRightsWork := by decide +kernel
+ 
+ theorem conflated_behavior_and_storage_quarantines :
+-    route { ({} : InformationUse) with behavioralOutcomeSeparate := false } = .quarantineResidual := by native_decide
++    route { ({} : InformationUse) with behavioralOutcomeSeparate := false } = .quarantineResidual := by decide +kernel
+ 
+ theorem compliance_laundering_quarantines :
+-    route { ({} : InformationUse) with legalComplianceClaimed := true } = .quarantineResidual := by native_decide
++    route { ({} : InformationUse) with legalComplianceClaimed := true } = .quarantineResidual := by decide +kernel
+ 
+ theorem release_laundering_quarantines :
+-    route { ({} : InformationUse) with supportOrReleaseRequested := true } = .quarantineResidual := by native_decide
++    route { ({} : InformationUse) with supportOrReleaseRequested := true } = .quarantineResidual := by decide +kernel
+ 
+ theorem complete_authored_record_accepts_bounded_receipt :
+     route ({} : InformationUse) = .acceptBoundedReceipt ∧
+-    ({} : InformationUse).legalComplianceClaimed = false := by native_decide
++    ({} : InformationUse).legalComplianceClaimed = false := by decide +kernel
+ 
+ /-! ## Reachable information-use lifecycle
+ 
+--- a/AsiStackProofs/ProceduralMemoryRefinement.lean
++++ b/AsiStackProofs/ProceduralMemoryRefinement.lean
+@@ -345,6 +345,6 @@
+ theorem full_procedure_lifecycle_reaches_retirement :
+     finalState.stage = .retired ∧ finalState.receiptCount = 6 ∧
+     finalState.qualifiedRouteCount = 1 ∧ finalState.supportAssignmentCount = 0 ∧
+-    finalState.externalEffectCount = 0 := by native_decide
++    finalState.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.ProceduralMemoryRefinement
+--- a/AsiStackProofs/ProofCarryingClaimsRefinement.lean
++++ b/AsiStackProofs/ProofCarryingClaimsRefinement.lean
+@@ -469,6 +469,6 @@
+     finalState.claimEffect = .scopedProposal ∧
+     finalState.supportAssignmentCount = 0 ∧
+     finalState.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.ProofCarryingClaimsRefinement
+--- a/AsiStackProofs/ProofCarryingContracts.lean
++++ b/AsiStackProofs/ProofCarryingContracts.lean
+@@ -647,13 +647,13 @@
+       afterRevocation.descendantStage = .revoked ∧
+       afterRevocation.independentStage = .ready ∧
+       afterRevocation.supportAssignments = 0 ∧
+-      afterRevocation.externalEffects = 0 := by native_decide
++      afterRevocation.externalEffects = 0 := by decide +kernel
+ 
+ theorem revoked_descendant_consumer_is_rejected_without_state_change :
+     let revoked := runContractTransport ({} : ContractTransportState)
+       referenceContractTrace
+     contractTransportStep revoked .consumeDescendant =
+-      (.rejectRevoked, revoked) := by native_decide
++      (.rejectRevoked, revoked) := by decide +kernel
+ 
+ theorem unrelated_lineage_remains_consumable_after_root_revocation :
+     let revoked := runContractTransport ({} : ContractTransportState)
+@@ -662,12 +662,12 @@
+     result.1 = .accepted ∧
+       result.2.independentStage = .consumed ∧
+       result.2.rootStage = .revoked ∧
+-      result.2.descendantStage = .revoked := by native_decide
++      result.2.descendantStage = .revoked := by decide +kernel
+ 
+ theorem root_identity_mismatch_rejects_resolution_noninterferingly :
+     let state := { ({} : ContractTransportState) with rootTheoremDigest := 9999 }
+     contractTransportStep state .resolveRoot = (.rejectIdentity, state) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem parent_mismatch_rejects_descendant_issue_noninterferingly :
+     let state := {
+@@ -676,6 +676,6 @@
+       descendantParentDigest := 9999
+     }
+     contractTransportStep state .issueDescendant = (.rejectParent, state) := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.ProofCarryingContracts
+--- a/AsiStackProofs/ReadinessRefinement.lean
++++ b/AsiStackProofs/ReadinessRefinement.lean
+@@ -358,6 +358,6 @@
+     let s6 := (applyEvent s5 (eventFor .terminate 6)).1
+     s6.stage = .terminal ∧ s6.receiptCount = 6 ∧ s6.ordinaryReleaseCount = 1 ∧
+       s6.quarantineCount = 1 ∧ s6.terminalCount = 1 ∧
+-      s6.supportAssignmentCount = 0 ∧ s6.externalEffectCount = 0 := by native_decide
++      s6.supportAssignmentCount = 0 ∧ s6.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.ReadinessRefinement
+--- a/AsiStackProofs/Replacement.lean
++++ b/AsiStackProofs/Replacement.lean
+@@ -1188,7 +1188,7 @@
+ 
+ theorem replacement_initial_state_satisfies_invariant :
+     ReplacementStateInvariant replacementInitialState := by
+-  native_decide
++  decide +kernel
+ 
+ theorem clean_replacement_run_reaches_default :
+     ∃ final, ReplacementRun replacementInitialState cleanReplacementEvents = some final ∧
+@@ -1216,7 +1216,7 @@
+         ReplacementFailureContained failedReplacementFinalState := by
+   constructor
+   · native_decide
+-  · constructor <;> native_decide
++  · constructor <;> decide +kernel
+ 
+ structure ReplacementTraceProbeSummary where
+   traceStepCount : Nat
+--- a/AsiStackProofs/ResourceEconomics.lean
++++ b/AsiStackProofs/ResourceEconomics.lean
+@@ -414,15 +414,15 @@
+         resourceWorkflowTraceFixture.verificationMinutesUsed ∧
+       resourceWorkflowTraceFixtureEvents.length =
+         resourceWorkflowTraceFixture.selectedRouteCount := by
+-  native_decide
++  decide +kernel
+ 
+ theorem resource_workflow_trace_fixture_events_keep_high_risk_first :
+     workflowTraceHighRiskFirst resourceWorkflowTraceFixtureEvents = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem resource_workflow_trace_fixture_events_preserve_guard_flags :
+     workflowTraceGuardsPreserved resourceWorkflowTraceFixtureEvents = true := by
+-  native_decide
++  decide +kernel
+ 
+ structure CapacitySmoothingReviewTrace where
+   stepCount : Nat
+--- a/AsiStackProofs/ResourceEconomicsRefinement.lean
++++ b/AsiStackProofs/ResourceEconomicsRefinement.lean
+@@ -215,27 +215,27 @@
+ 
+ theorem missing_protected_floor_blocks_reservation :
+     route (completeState .budgeted) .declareBudget
+-      { completePacket with protectedFloors := false } = .requestProtectedFloors := by native_decide
++      { completePacket with protectedFloors := false } = .requestProtectedFloors := by decide +kernel
+ 
+ theorem missing_reviewer_capacity_blocks_schedule :
+     route (completeState .reserved) .reserveCapacity
+-      { completePacket with reviewerCapacity := false } = .requestReviewerCapacity := by native_decide
++      { completePacket with reviewerCapacity := false } = .requestReviewerCapacity := by decide +kernel
+ 
+ theorem raw_proxy_cannot_promote_executed_work :
+     route (completeState .executed) .recordExecution
+-      { completePacket with rawProxyPromotion := true } = .blockRawProxyPromotion := by native_decide
++      { completePacket with rawProxyPromotion := true } = .blockRawProxyPromotion := by decide +kernel
+ 
+ theorem simulated_claim_without_fidelity_blocks_transfer :
+     route (completeState .transferred) .transportClaim
+-      { completePacket with simulated := true, simulationFidelity := false } = .requestSimulationFidelity := by native_decide
++      { completePacket with simulated := true, simulationFidelity := false } = .requestSimulationFidelity := by decide +kernel
+ 
+ theorem simulated_claim_above_fidelity_blocks_transfer :
+     route (completeState .transferred) .transportClaim
+-      { completePacket with simulated := true, fidelitySupportLevel := 1, claimedSupportLevel := 2 } = .blockFidelityOverclaim := by native_decide
++      { completePacket with simulated := true, fidelitySupportLevel := 1, claimedSupportLevel := 2 } = .blockFidelityOverclaim := by decide +kernel
+ 
+ theorem missing_failure_retention_blocks_verification :
+     route (completeState .executed) .recordExecution
+-      { completePacket with failureRetention := false } = .requestFailureRetention := by native_decide
++      { completePacket with failureRetention := false } = .requestFailureRetention := by decide +kernel
+ 
+ theorem complete_resource_lifecycle_reaches_closed_without_support_or_effect_authority :
+     route (completeState .requested) .bindRequest completePacket = .acceptBudgeting ∧
+@@ -247,12 +247,12 @@
+     route (completeState .transferred) .transportClaim completePacket = .acceptReconciliation ∧
+     route (completeState .reconciled) .reconcileSpend completePacket = .acceptClosure ∧
+     route (completeState .closed) .close completePacket = .acceptClosed ∧
+-    completePacket.supportPromotionRequested = false ∧ completePacket.externalEffectRequested = false := by native_decide
++    completePacket.supportPromotionRequested = false ∧ completePacket.externalEffectRequested = false := by decide +kernel
+ 
+ theorem complete_simulation_transport_reaches_reconciliation_without_promotion :
+     route (completeState .transferred) .transportClaim
+       { completePacket with simulated := true } = .acceptReconciliation ∧
+-    completePacket.supportPromotionRequested = false := by native_decide
++    completePacket.supportPromotionRequested = false := by decide +kernel
+ 
+ structure ResourceIdentity where
+   requestDigest : Nat
+--- a/AsiStackProofs/RoutingRefinement.lean
++++ b/AsiStackProofs/RoutingRefinement.lean
+@@ -442,6 +442,6 @@
+     finalState.stage = .closed ∧ finalState.receiptCount = 6 ∧
+     finalState.dispatchCount = 1 ∧ finalState.routeOutcomeCount = 1 ∧
+     finalState.answerOutcomeCount = 1 ∧ finalState.supportAssignmentCount = 0 ∧
+-    finalState.externalEffectCount = 0 := by native_decide
++    finalState.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.RoutingRefinement
+--- a/AsiStackProofs/RuntimeAdapters.lean
++++ b/AsiStackProofs/RuntimeAdapters.lean
+@@ -1764,7 +1764,7 @@
+           lastEffectLeaseId := some prepareRuntimeEffect.leaseId
+           rolledBack := true
+           logicalTime := 6 } := by
+-  native_decide
++  decide +kernel
+ 
+ def ProjectRuntimeLease
+     (lease : RuntimeEffectLease) :
+@@ -1973,17 +1973,17 @@
+ theorem missing_parent_permission_is_rejected_before_prepare :
+     RuntimeEffectStep initialRuntimeEffectState
+       { prepareRuntimeEffect with permissionPresent := false } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem caller_identity_substitution_is_rejected_before_prepare :
+     RuntimeEffectStep initialRuntimeEffectState
+       { prepareRuntimeEffect with callerId := 999 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem authority_widening_is_rejected_before_prepare :
+     RuntimeEffectStep initialRuntimeEffectState
+       { prepareRuntimeEffect with authority := 4 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem expired_lease_is_rejected_before_dispatch :
+     RuntimeEffectStep approvedRuntimeEffectState
+@@ -1991,7 +1991,7 @@
+           kind := .dispatch
+           logicalTime := 21
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem scoped_approval_identity_substitution_is_rejected :
+     RuntimeEffectStep approvedRuntimeEffectState
+@@ -2000,7 +2000,7 @@
+           targetId := 999
+           logicalTime := 3
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem secret_materialization_is_rejected_before_dispatch :
+     RuntimeEffectStep approvedRuntimeEffectState
+@@ -2009,7 +2009,7 @@
+           logicalTime := 3
+           dispatchReceipt := true
+           secretMaterializedToModelContext := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem effect_without_dispatch_is_rejected :
+     RuntimeEffectStep approvedRuntimeEffectState
+@@ -2018,7 +2018,7 @@
+           logicalTime := 3
+           effectReceipt := true
+           postDigest := 8002 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem rollback_required_without_handle_is_rejected_before_effect :
+     RuntimeEffectStep dispatchedRuntimeEffectState
+@@ -2028,7 +2028,7 @@
+           effectReceipt := true
+           postDigest := 8002
+           rollbackHandlePresent := false } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem effect_prestate_mismatch_is_rejected :
+     RuntimeEffectStep dispatchedRuntimeEffectState
+@@ -2038,7 +2038,7 @@
+           effectReceipt := true
+           preDigest := 9999
+           postDigest := 8002 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ def revokedRuntimeEffectState : RuntimeEffectState :=
+   ApplyRuntimeEffectEvent preparedRuntimeEffectState
+@@ -2052,7 +2052,7 @@
+       { prepareRuntimeEffect with
+           authorityEpoch := 12
+           logicalTime := 3 } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem revoked_state_cannot_dispatch_without_a_fresh_lease :
+     RuntimeEffectStep revokedRuntimeEffectState
+@@ -2061,7 +2061,7 @@
+           authorityEpoch := 12
+           logicalTime := 3
+           dispatchReceipt := true } = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem successful_trace_refines_authority_trace :
+     AsiStackProofs.AuthorityEffectRefinement.AuthorityRun
+--- a/AsiStackProofs/SafetyCaseRefinement.lean
++++ b/AsiStackProofs/SafetyCaseRefinement.lean
+@@ -230,6 +230,6 @@
+   let s6 := (applyEvent s5 .invalidate (eventPacket 6)).1
+   s6.stage = .challenged ∧ s6.receiptCount = 6 ∧ s6.readinessHandoffCount = 1 ∧
+     s6.invalidationCount = 1 ∧ s6.supportAssignmentCount = 0 ∧ s6.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.SafetyCaseRefinement
+--- a/AsiStackProofs/SafetyCriticalLifecycle.lean
++++ b/AsiStackProofs/SafetyCriticalLifecycle.lean
+@@ -418,30 +418,30 @@
+ 
+ theorem alignment_complete_trace_commits :
+     (run (initialState .alignment) alignmentEvidenceTrace).isSome = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem corrigibility_complete_trace_commits :
+     (run (initialState .corrigibility) corrigibilityEvidenceTrace).isSome = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem value_conflict_complete_trace_commits :
+     (run (initialState .valueConflict) valueConflictEvidenceTrace).isSome = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem governance_rights_complete_trace_commits :
+     (run (initialState .governanceRights) governanceRightsEvidenceTrace).isSome = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem self_improvement_complete_trace_commits :
+     (run (initialState .selfImprovement) selfImprovementEvidenceTrace).isSome = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem alignment_missing_review_is_rejected :
+     run (initialState .alignment)
+       [.record .operationalTest, .record .correctionPath,
+        .record .rollbackPath, .record .independentEvaluator,
+        .commitEffect] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem corrigibility_missing_affected_party_is_rejected :
+     run (initialState .corrigibility)
+@@ -449,14 +449,14 @@
+        .record .currentApproval, .record .boundedDelegation,
+        .record .correctionPath, .record .rollbackPath,
+        .record .accountablePrincipal, .commitEffect] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem value_conflict_missing_residual_is_rejected :
+     run (initialState .valueConflict)
+       [.record .preEffectReview, .record .dissentPayload,
+        .record .correctionPath, .record .accountablePrincipal,
+        .commitEffect] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem governance_rights_missing_exit_is_rejected :
+     run (initialState .governanceRights)
+@@ -464,20 +464,20 @@
+        .record .forkSafetyReview, .record .forkObligations,
+        .record .dissentPayload, .record .durableReceipt,
+        .record .correctionPath, .commitEffect] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem self_improvement_without_independent_evaluator_is_rejected :
+     run (initialState .selfImprovement)
+       [.record .preEffectReview, .record .rollbackPath,
+        .record .monitorWindow, .record .evidenceTransition,
+        .commitEffect] = none := by
+-  native_decide
++  decide +kernel
+ 
+ theorem support_promotion_without_receipt_and_nonclaim_is_rejected :
+     run (initialState .alignment)
+       (alignmentEvidenceTrace ++
+         [.requestSupportPromotion, .record .evidenceTransition,
+          .promoteSupport]) = none := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.SafetyCriticalLifecycle
+--- a/AsiStackProofs/ScalableOversightRefinement.lean
++++ b/AsiStackProofs/ScalableOversightRefinement.lean
+@@ -304,36 +304,36 @@
+ theorem missing_baseline_requires_protocol_redesign :
+     routeFor (canonicalState .protocolBound) .recordReview
+       { canonicalPacket with directReviewBaselinePresent := false } =
+-      .requestDirectReviewBaseline := by native_decide
++      .requestDirectReviewBaseline := by decide +kernel
+ 
+ theorem complete_bounded_use_is_admitted :
+     routeFor (canonicalState .adjudicated) .requestBoundedUse canonicalPacket =
+-      .acceptBoundedUse := by native_decide
++      .acceptBoundedUse := by decide +kernel
+ 
+ theorem missing_evidence_views_requires_access_repair :
+     routeFor (canonicalState .protocolBound) .recordReview
+       { canonicalPacket with evidenceViewsPresent := false } = .requestEvidenceViews := by
+-  native_decide
++  decide +kernel
+ 
+ theorem undisclosed_shared_dependencies_require_review :
+     routeFor (canonicalState .reviewed) .runOutcomeAudit
+       { canonicalPacket with sharedDependenciesDisclosed := false } =
+-      .requestSharedDependencyDisclosure := by native_decide
++      .requestSharedDependencyDisclosure := by decide +kernel
+ 
+ theorem high_risk_use_without_outcome_audit_requires_audit :
+     routeFor (canonicalState .reviewed) .runOutcomeAudit
+       { canonicalPacket with independentOutcomeAuditPresent := false } =
+-      .requestIndependentOutcomeAudit := by native_decide
++      .requestIndependentOutcomeAudit := by decide +kernel
+ 
+ theorem unjustified_abstention_requires_evidence :
+     routeFor { canonicalState .audited with abstentionRequested := true } .adjudicateUse
+       { canonicalPacket with abstentionEvidencePresent := false } =
+-      .requestAbstentionEvidence := by native_decide
++      .requestAbstentionEvidence := by decide +kernel
+ 
+ theorem downstream_use_cannot_launder_authority :
+     routeFor (canonicalState .adjudicated) .requestBoundedUse
+       { canonicalPacket with noReleaseAuthorityRecorded := false } =
+-      .rejectReleaseAuthorityLaundering := by native_decide
++      .rejectReleaseAuthorityLaundering := by decide +kernel
+ 
+ theorem complete_lifecycle_reaches_version_two_readmission :
+     let s0 := canonicalState .draft
+@@ -346,6 +346,6 @@
+     let s7 := (applyEvent s6 .triggerReadmission
+       { canonicalPacket with eventDigest := 7, successorProtocolVersion := 2 }).1
+     s7.stage = .scoped ∧ s7.protocolVersion = 2 ∧ s7.receiptCount = 7 ∧
+-      s7.boundedUseHandoffCount = 1 ∧ s7.readmissionCount = 1 := by native_decide
++      s7.boundedUseHandoffCount = 1 ∧ s7.readmissionCount = 1 := by decide +kernel
+ 
+ end AsiStackProofs.ScalableOversightRefinement
+--- a/AsiStackProofs/SelfImprovementRefinement.lean
++++ b/AsiStackProofs/SelfImprovementRefinement.lean
+@@ -427,12 +427,12 @@
+       { canonicalPacket with descendantInvalidationPresent := false } = .requestDescendantInvalidation ∧
+   routeFor (canonicalState .adjudicated) .authorizeReplacementHandoff canonicalPacket = .acceptAdjudication ∧
+   routeFor (canonicalState .outcomeReconciled) .triggerReadmission
+-      { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by native_decide
++      { canonicalPacket with successorVersion := 2 } = .acceptReadmission := by decide +kernel
+ 
+ theorem self_improvement_full_lifecycle_witness :
+     fullRun.stage = .scoped ∧ fullRun.version = 2 ∧ fullRun.receiptCount = 8 ∧
+     fullRun.replacementHandoffCount = 1 ∧ fullRun.outcomeReconciliationCount = 1 ∧
+     fullRun.readmissionCount = 1 ∧ fullRun.supportAssignmentCount = 0 ∧
+-    fullRun.externalEffectCount = 0 := by native_decide
++    fullRun.externalEffectCount = 0 := by decide +kernel
+ 
+ end AsiStackProofs.SelfImprovementRefinement
+--- a/AsiStackProofs/StableCapabilityFields.lean
++++ b/AsiStackProofs/StableCapabilityFields.lean
+@@ -565,7 +565,7 @@
+         lifecycleState := .retired
+         lastReceiptDigest := 5
+         receiptCount := 5 } := by
+-  native_decide
++  decide +kernel
+ 
+ theorem incident_trace_reaches_exact_absorbing_quarantine_state :
+     runLifecycleEvents (scfLifecycleStateAt .canary)
+@@ -575,7 +575,7 @@
+         lastReceiptDigest := 6
+         receiptCount := 1
+         quarantineCount := 1 } := by
+-  native_decide
++  decide +kernel
+ 
+ structure ScfLifecycleTraceProbeSummary where
+   validTraces : Nat
+--- a/AsiStackProofs/SupplyChainIntegrity.lean
++++ b/AsiStackProofs/SupplyChainIntegrity.lean
+@@ -684,7 +684,7 @@
+       final.stage = .quarantined ∧
+       final.activeAuthority = 0 := by
+   refine ⟨quarantinedSupplyChainFinalState, ?_⟩
+-  native_decide
++  decide +kernel
+ 
+ theorem supply_chain_same_count_component_substitution_is_rejected :
+     SupplyChainStep admittedSupplyChainState
+--- a/AsiStackProofs/TribunalRefinement.lean
++++ b/AsiStackProofs/TribunalRefinement.lean
+@@ -502,6 +502,6 @@
+     finalState.verdict = .revise ∧
+     finalState.supportAssignmentCount = 0 ∧
+     finalState.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.TribunalRefinement
+--- a/AsiStackProofs/TypedJobRefinement.lean
++++ b/AsiStackProofs/TypedJobRefinement.lean
+@@ -453,7 +453,7 @@
+     finalState.executionObservationCount = 1 ∧
+     finalState.supportAssignmentCount = 0 ∧
+     finalState.externalEffectCount = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ def canonicalLifecycle : List Event :=
+   [lockEvent, authorizeEvent, dispatchEvent, executeEvent,
+@@ -461,7 +461,7 @@
+ 
+ theorem canonical_run_reaches_exact_closed_state :
+     runEvents initialState canonicalLifecycle = finalState := by
+-  native_decide
++  decide +kernel
+ 
+ theorem reachable_closed_state_has_exact_modeled_accounting
+     {events : List Event}
+@@ -478,59 +478,59 @@
+ theorem wrong_stage_event_is_rejected_without_state_change :
+     applyEvent initialState authorizeEvent =
+       (initialState, .rejectWrongStage) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem substituted_job_is_rejected_without_state_change :
+     applyEvent initialState
+       { lockEvent with packet := { canonicalPacket with jobId := 999 } } =
+       (initialState, .rejectJobSubstitution) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem substituted_contract_is_rejected_without_state_change :
+     applyEvent initialState
+       { lockEvent with packet := { canonicalPacket with contractDigest := 999 } } =
+       (initialState, .rejectContractSubstitution) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem repeated_event_digest_is_rejected_without_state_change :
+     applyEvent lockedState
+       { authorizeEvent with packet := { canonicalPacket with eventDigest := 1 } } =
+       (lockedState, .rejectEventReplay) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem support_assignment_request_is_rejected_without_state_change :
+     applyEvent initialState
+       { lockEvent with
+           packet := { canonicalPacket with supportAssignmentRequested := true } } =
+       (initialState, .rejectAuthorityLeak) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem external_effect_request_is_rejected_without_state_change :
+     applyEvent initialState
+       { lockEvent with
+           packet := { canonicalPacket with externalEffectRequested := true } } =
+       (initialState, .rejectAuthorityLeak) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem execution_without_audit_is_rejected_without_state_change :
+     applyEvent dispatchedState
+       { executeEvent with packet := { canonicalPacket with
+           eventDigest := 30, auditTrailPresent := false } } =
+       (dispatchedState, .requestAuditTrail) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem adjudication_without_completion_receipt_is_rejected_without_state_change :
+     applyEvent executedState
+       { adjudicateEvent with packet := { canonicalPacket with
+           eventDigest := 31, completionReceiptPresent := false } } =
+       (executedState, .requestCompletionReceipt) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem adjudication_without_residual_owner_is_rejected_without_state_change :
+     applyEvent executedState
+       { adjudicateEvent with packet := { canonicalPacket with
+           eventDigest := 32, residualOwnerPresent := false } } =
+       (executedState, .requestResidualOwner) := by
+-  native_decide
++  decide +kernel
+ 
+ end AsiStackProofs.TypedJobRefinement
+--- a/AsiStackProofs/VerificationBandwidthRefinement.lean
++++ b/AsiStackProofs/VerificationBandwidthRefinement.lean
+@@ -786,7 +786,7 @@
+ theorem reference_freeze_step_accepted :
+     VerificationStep referenceInitialState referenceFreezeEvent =
+       some (ApplyVerificationEvent referenceInitialState referenceFreezeEvent) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem reference_execution_step_accepted :
+     VerificationStep
+@@ -795,7 +795,7 @@
+       some (ApplyVerificationEvent
+         (ApplyVerificationEvent referenceInitialState referenceFreezeEvent)
+         referenceExecutionEvent) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem reference_adjudication_step_accepted :
+     let executed := ApplyVerificationEvent
+@@ -803,7 +803,7 @@
+       referenceExecutionEvent
+     VerificationStep executed referenceAdjudicationEvent =
+       some (ApplyVerificationEvent executed referenceAdjudicationEvent) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem reference_handoff_step_accepted :
+     let executed := ApplyVerificationEvent
+@@ -812,7 +812,7 @@
+     let adjudicated := ApplyVerificationEvent executed referenceAdjudicationEvent
+     VerificationStep adjudicated referenceHandoffEvent =
+       some (ApplyVerificationEvent adjudicated referenceHandoffEvent) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem reference_verification_run_closes :
+     ∃ final,
+--- a/AsiStackProofs/VirtualContextRefinement.lean
++++ b/AsiStackProofs/VirtualContextRefinement.lean
+@@ -513,40 +513,40 @@
+     (ContextRun initialState successTrace).map (fun state =>
+       (state.stage, state.materializationEmitted)) =
+       some (.materialized, true) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem mandatory_miss_trace_faults_without_packet :
+     (ContextRun initialState missTrace).map (fun state =>
+       (state.stage, state.typedFaultReceipt, state.materializationEmitted)) =
+       some (.typedFault, true, false) := by
+-  native_decide
++  decide +kernel
+ 
+ def spliceRun (before : List ContextEvent) (event : ContextEvent)
+     (after : List ContextEvent) := ContextRun initialState (before ++ event :: after)
+ 
+ theorem address_substitution_rejected :
+-    spliceRun [bindEvent] { hitEvent with address := 999 } [certifyEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { hitEvent with address := 999 } [certifyEvent, materializeEvent] = none := by decide +kernel
+ theorem version_substitution_rejected :
+-    spliceRun [bindEvent] { hitEvent with version := 999 } [certifyEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { hitEvent with version := 999 } [certifyEvent, materializeEvent] = none := by decide +kernel
+ theorem snapshot_substitution_rejected :
+-    spliceRun [bindEvent] { hitEvent with snapshot := 999 } [certifyEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { hitEvent with snapshot := 999 } [certifyEvent, materializeEvent] = none := by decide +kernel
+ theorem mount_substitution_rejected :
+-    spliceRun [bindEvent] { hitEvent with mount := 999 } [certifyEvent, materializeEvent] = none := by native_decide
++    spliceRun [bindEvent] { hitEvent with mount := 999 } [certifyEvent, materializeEvent] = none := by decide +kernel
+ theorem expired_lease_rejected :
+-    ContextRun initialState [{ bindEvent with leaseExpiry := 1 }] = none := by native_decide
++    ContextRun initialState [{ bindEvent with leaseExpiry := 1 }] = none := by decide +kernel
+ theorem certificate_binding_substitution_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with certificateSourceHash := 999 } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with certificateSourceHash := 999 } [materializeEvent] = none := by decide +kernel
+ theorem certificate_authority_escalation_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with requestedAuthority := 3 } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with requestedAuthority := 3 } [materializeEvent] = none := by decide +kernel
+ theorem exact_completeness_overclaim_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with exactCompletenessClaimed := true } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with exactCompletenessClaimed := true } [materializeEvent] = none := by decide +kernel
+ theorem undeclared_omission_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with omissionDeclared := false } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with omissionDeclared := false } [materializeEvent] = none := by decide +kernel
+ theorem mandatory_miss_without_fault_receipt_rejected :
+-    spliceRun [bindEvent] { missEvent with typedFaultReceipt := false } [] = none := by native_decide
++    spliceRun [bindEvent] { missEvent with typedFaultReceipt := false } [] = none := by decide +kernel
+ theorem materialization_without_certificate_receipt_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with certificateReceipt := false } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with certificateReceipt := false } [materializeEvent] = none := by decide +kernel
+ theorem tainted_materialization_rejected :
+-    spliceRun [bindEvent, hitEvent] { certifyEvent with taintDetected := true } [materializeEvent] = none := by native_decide
++    spliceRun [bindEvent, hitEvent] { certifyEvent with taintDetected := true } [materializeEvent] = none := by decide +kernel
+ 
+ end AsiStackProofs.VirtualContextRefinement
+--- a/AsiStackProofs/WhiteBoxEvidence.lean
++++ b/AsiStackProofs/WhiteBoxEvidence.lean
+@@ -154,16 +154,16 @@
+   { boundedCausalPacket with materialChangeObserved := true }
+ 
+ theorem bounded_causal_fixture_preserves_authority :
+-    WhiteBoxRouteFor boundedCausalPacket = .preserve := by native_decide
++    WhiteBoxRouteFor boundedCausalPacket = .preserve := by decide +kernel
+ 
+ theorem stale_fixture_is_rejected :
+-    WhiteBoxRouteFor stalePacket = .reject := by native_decide
++    WhiteBoxRouteFor stalePacket = .reject := by decide +kernel
+ 
+ theorem widening_fixture_escalates_without_grant :
+-    WhiteBoxRouteFor authorityWideningPacket = .escalate := by native_decide
++    WhiteBoxRouteFor authorityWideningPacket = .escalate := by decide +kernel
+ 
+ theorem changed_fixture_expires :
+-    WhiteBoxRouteFor changedPacket = .expire := by native_decide
++    WhiteBoxRouteFor changedPacket = .expire := by decide +kernel
+ 
+ inductive EvidenceGovernanceStage where
+   | raw
+@@ -727,7 +727,7 @@
+ 
+ theorem governance_reference_trace_reaches_consumed :
+     EvidenceGovernanceRun governanceInitialState governanceReferenceEvents =
+-      some governanceConsumedState := by native_decide
++      some governanceConsumedState := by decide +kernel
+ 
+ theorem stale_governance_state_cannot_route
+     (event : EvidenceGovernanceEvent)

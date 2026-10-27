@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_L6Pilot_Check_Native_1.lean
+NT start L6.pilot_native._native.native_decide.ax_1_1
+NT nested L6.pilot_native._native.native_decide.ax_1_1 ms=46 rebuilt_defs=0 visited=1511
+NT _ktr.F2_L6Pilot_Check_Native_1.L6.pilot_native._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_L6Pilot_Check_Native_1.L6.pilot_native._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_L6Pilot_Check_Native_1.L6.pilot_native._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 96510656
+rc=1 secs=331

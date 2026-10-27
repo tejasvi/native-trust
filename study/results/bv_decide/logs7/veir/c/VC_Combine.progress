@@ -1,0 +1,179 @@
+[53032481] bvs5fact_0: 460 nodes, CNF 923 clauses, 460 variables
+[53032540] bvs5fact_0: 249 steps, 6013 hints, 1 chunks; solve 32 ms
+[53032933] bvs5fact_0: base check (bit-blast + CNF + trie agreement) 393 ms
+[53033656] bvs5fact_0: chunk bvs5fact_0._bvs_s0 (249 steps from id 924) 723 ms
+[53033681] bvs5fact_1: 1259 nodes, CNF 3488 clauses, 1259 variables
+[53033723] bvs5fact_1: 213 steps, 1824 hints, 1 chunks; solve 22 ms
+[53035780] bvs5fact_1: base check (bit-blast + CNF + trie agreement) 2056 ms
+[53036553] bvs5fact_1: chunk bvs5fact_1._bvs_s0 (213 steps from id 3489) 773 ms
+[53036568] bvs5fact_2: 525 nodes, CNF 1094 clauses, 525 variables
+[53036595] bvs5fact_2: 315 steps, 696 hints, 1 chunks; solve 18 ms
+[53037065] bvs5fact_2: base check (bit-blast + CNF + trie agreement) 470 ms
+[53037318] bvs5fact_2: chunk bvs5fact_2._bvs_s0 (315 steps from id 1095) 253 ms
+[53037478] bvs5fact_3: 32674 nodes, CNF 97733 clauses, 32674 variables
+[53043002] bvs5fact_3: 49361 steps, 276776 hints, 28 chunks; solve 1167 ms
+[53083309] bvs5fact_3: base check (bit-blast + CNF + trie agreement) 40307 ms
+[53086562] bvs5fact_3: chunk bvs5fact_3._bvs_s0 (2000 steps from id 97734) 3253 ms
+[53090660] bvs5fact_3: chunk bvs5fact_3._bvs_s1 (2000 steps from id 99734) 4098 ms
+[53093719] bvs5fact_3: chunk bvs5fact_3._bvs_s2 (2000 steps from id 101734) 3059 ms
+[53096806] bvs5fact_3: chunk bvs5fact_3._bvs_s3 (2000 steps from id 103734) 3087 ms
+[53100077] bvs5fact_3: chunk bvs5fact_3._bvs_s4 (2000 steps from id 105734) 3271 ms
+[53103320] bvs5fact_3: chunk bvs5fact_3._bvs_s5 (2000 steps from id 107734) 3242 ms
+[53106575] bvs5fact_3: chunk bvs5fact_3._bvs_s6 (2000 steps from id 109734) 3255 ms
+[53109897] bvs5fact_3: chunk bvs5fact_3._bvs_s7 (2000 steps from id 111734) 3322 ms
+[53112670] bvs5fact_3: chunk bvs5fact_3._bvs_s8 (2000 steps from id 113734) 2773 ms
+[53115357] bvs5fact_3: chunk bvs5fact_3._bvs_s9 (2000 steps from id 115734) 2687 ms
+[53117984] bvs5fact_3: chunk bvs5fact_3._bvs_s10 (2000 steps from id 117734) 2627 ms
+[53121637] bvs5fact_3: chunk bvs5fact_3._bvs_s11 (2000 steps from id 119734) 3653 ms
+[53125529] bvs5fact_3: chunk bvs5fact_3._bvs_s12 (2000 steps from id 121734) 3892 ms
+[53128898] bvs5fact_3: chunk bvs5fact_3._bvs_s13 (2000 steps from id 123734) 3369 ms
+[53132366] bvs5fact_3: chunk bvs5fact_3._bvs_s14 (2000 steps from id 125734) 3468 ms
+[53136159] bvs5fact_3: chunk bvs5fact_3._bvs_s15 (2000 steps from id 127734) 3793 ms
+[53140860] bvs5fact_3: chunk bvs5fact_3._bvs_s16 (2000 steps from id 129734) 4701 ms
+[53146263] bvs5fact_3: chunk bvs5fact_3._bvs_s17 (2000 steps from id 131734) 5403 ms
+[53152278] bvs5fact_3: chunk bvs5fact_3._bvs_s18 (2000 steps from id 133734) 6015 ms
+[53158395] bvs5fact_3: chunk bvs5fact_3._bvs_s19 (2000 steps from id 135734) 6117 ms
+[53163882] bvs5fact_3: chunk bvs5fact_3._bvs_s20 (2000 steps from id 137734) 5487 ms
+[53167269] bvs5fact_3: chunk bvs5fact_3._bvs_s21 (2000 steps from id 139734) 3387 ms
+[53170540] bvs5fact_3: chunk bvs5fact_3._bvs_s22 (2000 steps from id 141734) 3271 ms
+[53176603] bvs5fact_3: chunk bvs5fact_3._bvs_s23 (1237 steps from id 143734) 6063 ms
+[53182461] bvs5fact_3: chunk bvs5fact_3._bvs_s24 (983 steps from id 144971) 5858 ms
+[53187697] bvs5fact_3: chunk bvs5fact_3._bvs_s25 (620 steps from id 145954) 5236 ms
+[53191527] bvs5fact_3: chunk bvs5fact_3._bvs_s26 (328 steps from id 146574) 3830 ms
+[53193210] bvs5fact_3: chunk bvs5fact_3._bvs_s27 (193 steps from id 146902) 1683 ms
+[53200259] bvs5fact_4: 2727 nodes, CNF 7892 clauses, 2727 variables
+[53200348] bvs5fact_4: 313 steps, 3936 hints, 1 chunks; solve 41 ms
+[53206734] bvs5fact_4: base check (bit-blast + CNF + trie agreement) 6386 ms
+[53208826] bvs5fact_4: chunk bvs5fact_4._bvs_s0 (313 steps from id 7893) 2092 ms
+[53208878] bvs5fact_5: 5804 nodes, CNF 16835 clauses, 5804 variables
+[53209748] bvs5fact_5: 3937 steps, 102081 hints, 6 chunks; solve 126 ms
+[53216722] bvs5fact_5: base check (bit-blast + CNF + trie agreement) 6973 ms
+[53222028] bvs5fact_5: chunk bvs5fact_5._bvs_s0 (524 steps from id 16836) 5306 ms
+[53227375] bvs5fact_5: chunk bvs5fact_5._bvs_s1 (443 steps from id 17360) 5347 ms
+[53232097] bvs5fact_5: chunk bvs5fact_5._bvs_s2 (564 steps from id 17803) 4722 ms
+[53237528] bvs5fact_5: chunk bvs5fact_5._bvs_s3 (877 steps from id 18367) 5430 ms
+[53242966] bvs5fact_5: chunk bvs5fact_5._bvs_s4 (1073 steps from id 19244) 5438 ms
+[53243872] bvs5fact_5: chunk bvs5fact_5._bvs_s5 (456 steps from id 20317) 906 ms
+[53244212] bvs5fact_6: 5804 nodes, CNF 16835 clauses, 5804 variables
+[53245028] bvs5fact_6: 3937 steps, 102081 hints, 6 chunks; solve 124 ms
+[53251967] bvs5fact_6: base check (bit-blast + CNF + trie agreement) 6939 ms
+[53257461] bvs5fact_6: chunk bvs5fact_6._bvs_s0 (524 steps from id 16836) 5494 ms
+[53262920] bvs5fact_6: chunk bvs5fact_6._bvs_s1 (443 steps from id 17360) 5459 ms
+[53267699] bvs5fact_6: chunk bvs5fact_6._bvs_s2 (564 steps from id 17803) 4779 ms
+[53273095] bvs5fact_6: chunk bvs5fact_6._bvs_s3 (877 steps from id 18367) 5396 ms
+[53278431] bvs5fact_6: chunk bvs5fact_6._bvs_s4 (1073 steps from id 19244) 5336 ms
+[53279389] bvs5fact_6: chunk bvs5fact_6._bvs_s5 (456 steps from id 20317) 958 ms
+[53279716] bvs5fact_7: 762 nodes, CNF 1802 clauses, 762 variables
+[53279760] bvs5fact_7: 96 steps, 224 hints, 1 chunks; solve 36 ms
+[53280652] bvs5fact_7: base check (bit-blast + CNF + trie agreement) 892 ms
+[53280713] bvs5fact_7: chunk bvs5fact_7._bvs_s0 (96 steps from id 1803) 61 ms
+[53280741] bvs5fact_8: 5033 nodes, CNF 14792 clauses, 5033 variables
+[53281230] bvs5fact_8: 1697 steps, 68841 hints, 4 chunks; solve 74 ms
+[53287151] bvs5fact_8: base check (bit-blast + CNF + trie agreement) 5921 ms
+[53291307] bvs5fact_8: chunk bvs5fact_8._bvs_s0 (609 steps from id 14793) 4156 ms
+[53295196] bvs5fact_8: chunk bvs5fact_8._bvs_s1 (408 steps from id 15402) 3889 ms
+[53299207] bvs5fact_8: chunk bvs5fact_8._bvs_s2 (482 steps from id 15810) 4011 ms
+[53301377] bvs5fact_8: chunk bvs5fact_8._bvs_s3 (198 steps from id 16292) 2170 ms
+[53301522] bvs5fact_9: 404 nodes, CNF 923 clauses, 404 variables
+[53301594] bvs5fact_9: 249 steps, 6013 hints, 1 chunks; solve 44 ms
+[53302005] bvs5fact_9: base check (bit-blast + CNF + trie agreement) 411 ms
+[53302758] bvs5fact_9: chunk bvs5fact_9._bvs_s0 (249 steps from id 924) 753 ms
+[53302788] bvs5fact_10: 3460 nodes, CNF 9803 clauses, 3460 variables
+[53303179] bvs5fact_10: 1946 steps, 54704 hints, 3 chunks; solve 66 ms
+[53307073] bvs5fact_10: base check (bit-blast + CNF + trie agreement) 3894 ms
+[53310843] bvs5fact_10: chunk bvs5fact_10._bvs_s0 (419 steps from id 9804) 3770 ms
+[53314772] bvs5fact_10: chunk bvs5fact_10._bvs_s1 (501 steps from id 10223) 3929 ms
+[53318306] bvs5fact_10: chunk bvs5fact_10._bvs_s2 (1026 steps from id 10724) 3534 ms
+[53318462] bvs5fact_11: 4535 nodes, CNF 13298 clauses, 4535 variables
+[53318837] bvs5fact_11: 1884 steps, 44724 hints, 3 chunks; solve 84 ms
+[53324152] bvs5fact_11: base check (bit-blast + CNF + trie agreement) 5315 ms
+[53328113] bvs5fact_11: chunk bvs5fact_11._bvs_s0 (776 steps from id 13299) 3961 ms
+[53332076] bvs5fact_11: chunk bvs5fact_11._bvs_s1 (892 steps from id 14075) 3963 ms
+[53333170] bvs5fact_11: chunk bvs5fact_11._bvs_s2 (216 steps from id 14967) 1094 ms
+[53333304] bvs5fact_12: 143 nodes, CNF 284 clauses, 143 variables
+[53333349] bvs5fact_12: 95 steps, 222 hints, 1 chunks; solve 40 ms
+[53333533] bvs5fact_12: base check (bit-blast + CNF + trie agreement) 184 ms
+[53333591] bvs5fact_12: chunk bvs5fact_12._bvs_s0 (95 steps from id 285) 57 ms
+[53333630] bvs5fact_13: 2727 nodes, CNF 7892 clauses, 2727 variables
+[53333737] bvs5fact_13: 313 steps, 3936 hints, 1 chunks; solve 52 ms
+[53340265] bvs5fact_13: base check (bit-blast + CNF + trie agreement) 6528 ms
+[53342324] bvs5fact_13: chunk bvs5fact_13._bvs_s0 (313 steps from id 7893) 2059 ms
+[53342351] bvs5fact_14: 436 nodes, CNF 875 clauses, 436 variables
+[53342419] bvs5fact_14: 233 steps, 4973 hints, 1 chunks; solve 45 ms
+[53342798] bvs5fact_14: base check (bit-blast + CNF + trie agreement) 379 ms
+[53343451] bvs5fact_14: chunk bvs5fact_14._bvs_s0 (233 steps from id 876) 652 ms
+[53343466] bvs5fact_15: 525 nodes, CNF 1094 clauses, 525 variables
+[53343514] bvs5fact_15: 315 steps, 696 hints, 1 chunks; solve 39 ms
+[53344212] bvs5fact_15: base check (bit-blast + CNF + trie agreement) 698 ms
+[53344481] bvs5fact_15: chunk bvs5fact_15._bvs_s0 (315 steps from id 1095) 269 ms
+[53344516] bvs5fact_16: 5804 nodes, CNF 16835 clauses, 5804 variables
+[53345240] bvs5fact_16: 3598 steps, 94456 hints, 5 chunks; solve 120 ms
+[53352224] bvs5fact_16: base check (bit-blast + CNF + trie agreement) 6984 ms
+[53357711] bvs5fact_16: chunk bvs5fact_16._bvs_s0 (546 steps from id 16836) 5487 ms
+[53362986] bvs5fact_16: chunk bvs5fact_16._bvs_s1 (402 steps from id 17382) 5274 ms
+[53368314] bvs5fact_16: chunk bvs5fact_16._bvs_s2 (644 steps from id 17784) 5328 ms
+[53373901] bvs5fact_16: chunk bvs5fact_16._bvs_s3 (1095 steps from id 18428) 5587 ms
+[53378135] bvs5fact_16: chunk bvs5fact_16._bvs_s4 (911 steps from id 19523) 4234 ms
+[53378394] bvs5fact_17: 1038 nodes, CNF 2630 clauses, 1038 variables
+[53378461] bvs5fact_17: 96 steps, 224 hints, 1 chunks; solve 56 ms
+[53379551] bvs5fact_17: base check (bit-blast + CNF + trie agreement) 1089 ms
+[53379616] bvs5fact_17: chunk bvs5fact_17._bvs_s0 (96 steps from id 2631) 65 ms
+[53379628] bvs5fact_18: 1144 nodes, CNF 2948 clauses, 1144 variables
+[53379692] bvs5fact_18: 96 steps, 224 hints, 1 chunks; solve 44 ms
+[53380928] bvs5fact_18: base check (bit-blast + CNF + trie agreement) 1236 ms
+[53380996] bvs5fact_18: chunk bvs5fact_18._bvs_s0 (96 steps from id 2949) 68 ms
+[53381008] bvs5fact_19: 1026 nodes, CNF 2594 clauses, 1026 variables
+[53381078] bvs5fact_19: 96 steps, 224 hints, 1 chunks; solve 44 ms
+[53382065] bvs5fact_19: base check (bit-blast + CNF + trie agreement) 986 ms
+[53382145] bvs5fact_19: chunk bvs5fact_19._bvs_s0 (96 steps from id 2595) 80 ms
+[53382201] bvs5fact_20: 8258 nodes, CNF 24485 clauses, 8258 variables
+[53383130] bvs5fact_20: 10362 steps, 59835 hints, 6 chunks; solve 241 ms
+[53394471] bvs5fact_20: base check (bit-blast + CNF + trie agreement) 11341 ms
+[53398575] bvs5fact_20: chunk bvs5fact_20._bvs_s0 (2000 steps from id 24486) 4104 ms
+[53402250] bvs5fact_20: chunk bvs5fact_20._bvs_s1 (2000 steps from id 26486) 3675 ms
+[53405000] bvs5fact_20: chunk bvs5fact_20._bvs_s2 (2000 steps from id 28486) 2750 ms
+[53409215] bvs5fact_20: chunk bvs5fact_20._bvs_s3 (2000 steps from id 30486) 4215 ms
+[53413866] bvs5fact_20: chunk bvs5fact_20._bvs_s4 (2000 steps from id 32486) 4651 ms
+[53415683] bvs5fact_20: chunk bvs5fact_20._bvs_s5 (362 steps from id 34486) 1817 ms
+[53416484] bvs5fact_21: 135 nodes, CNF 284 clauses, 135 variables
+[53416525] bvs5fact_21: 95 steps, 222 hints, 1 chunks; solve 38 ms
+[53416659] bvs5fact_21: base check (bit-blast + CNF + trie agreement) 134 ms
+[53416719] bvs5fact_21: chunk bvs5fact_21._bvs_s0 (95 steps from id 285) 60 ms
+[53416735] bvs5fact_22: 1259 nodes, CNF 3488 clauses, 1259 variables
+[53416805] bvs5fact_22: 213 steps, 1824 hints, 1 chunks; solve 42 ms
+[53419076] bvs5fact_22: base check (bit-blast + CNF + trie agreement) 2271 ms
+[53419864] bvs5fact_22: chunk bvs5fact_22._bvs_s0 (213 steps from id 3489) 788 ms
+[53419906] bvs5fact_23: 5804 nodes, CNF 16835 clauses, 5804 variables
+[53420667] bvs5fact_23: 3598 steps, 94456 hints, 5 chunks; solve 129 ms
+[53427431] bvs5fact_23: base check (bit-blast + CNF + trie agreement) 6764 ms
+[53432695] bvs5fact_23: chunk bvs5fact_23._bvs_s0 (546 steps from id 16836) 5264 ms
+[53437751] bvs5fact_23: chunk bvs5fact_23._bvs_s1 (402 steps from id 17382) 5056 ms
+[53442975] bvs5fact_23: chunk bvs5fact_23._bvs_s2 (644 steps from id 17784) 5224 ms
+[53448550] bvs5fact_23: chunk bvs5fact_23._bvs_s3 (1095 steps from id 18428) 5575 ms
+[53452652] bvs5fact_23: chunk bvs5fact_23._bvs_s4 (911 steps from id 19523) 4102 ms
+[53452909] bvs5fact_24: 1132 nodes, CNF 2912 clauses, 1132 variables
+[53452979] bvs5fact_24: 96 steps, 224 hints, 1 chunks; solve 58 ms
+[53454166] bvs5fact_24: base check (bit-blast + CNF + trie agreement) 1187 ms
+[53454233] bvs5fact_24: chunk bvs5fact_24._bvs_s0 (96 steps from id 2913) 67 ms
+[53454242] bvs5fact_25: 255 nodes, CNF 284 clauses, 255 variables
+[53454286] bvs5fact_25: 95 steps, 222 hints, 1 chunks; solve 41 ms
+[53454447] bvs5fact_25: base check (bit-blast + CNF + trie agreement) 161 ms
+[53454508] bvs5fact_25: chunk bvs5fact_25._bvs_s0 (95 steps from id 285) 61 ms
+[53454514] bvs5fact_26: 388 nodes, CNF 875 clauses, 388 variables
+[53454592] bvs5fact_26: 233 steps, 4973 hints, 1 chunks; solve 41 ms
+[53454998] bvs5fact_26: base check (bit-blast + CNF + trie agreement) 405 ms
+[53455668] bvs5fact_26: chunk bvs5fact_26._bvs_s0 (233 steps from id 876) 670 ms
+[53455682] bvs5fact_27: 191 nodes, CNF 284 clauses, 191 variables
+[53455724] bvs5fact_27: 95 steps, 222 hints, 1 chunks; solve 39 ms
+[53455871] bvs5fact_27: base check (bit-blast + CNF + trie agreement) 147 ms
+[53455927] bvs5fact_27: chunk bvs5fact_27._bvs_s0 (95 steps from id 285) 56 ms
+[53455935] bvs5fact_28: 704 nodes, CNF 1802 clauses, 704 variables
+[53455986] bvs5fact_28: 96 steps, 224 hints, 1 chunks; solve 43 ms
+[53456866] bvs5fact_28: base check (bit-blast + CNF + trie agreement) 880 ms
+[53456935] bvs5fact_28: chunk bvs5fact_28._bvs_s0 (96 steps from id 1803) 69 ms
+[53456957] bvs5fact_29: 3460 nodes, CNF 9803 clauses, 3460 variables
+[53457354] bvs5fact_29: 1946 steps, 54704 hints, 3 chunks; solve 73 ms
+[53461196] bvs5fact_29: base check (bit-blast + CNF + trie agreement) 3842 ms
+[53464943] bvs5fact_29: chunk bvs5fact_29._bvs_s0 (419 steps from id 9804) 3747 ms
+[53468818] bvs5fact_29: chunk bvs5fact_29._bvs_s1 (501 steps from id 10223) 3875 ms
+[53472238] bvs5fact_29: chunk bvs5fact_29._bvs_s2 (1026 steps from id 10724) 3420 ms

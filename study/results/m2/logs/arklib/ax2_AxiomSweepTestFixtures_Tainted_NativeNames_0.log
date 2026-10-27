@@ -1,0 +1,7 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0/bin/lean -j1 --tstack=1048576 F2_AxiomSweepTestFixtures_Tainted_NativeNames_0.lean
+FAILED `AxiomSweepTestFixtures.Tainted.Generated._native.native_decide.ax_12_34`: kernelize: native axiom `AxiomSweepTestFixtures.Tainted.Generated._native.native_decide.ax_12_34` does not state an equation:
+    True
+FAILED `AxiomSweepTestFixtures.Tainted.Generated._native.native_decide.ax_12_34`: kernelize: native axiom `AxiomSweepTestFixtures.Tainted.Generated._native.native_decide.ax_12_34` does not state an equation:
+  True
+maxrss_kb 1542768
+rc=0 secs=1

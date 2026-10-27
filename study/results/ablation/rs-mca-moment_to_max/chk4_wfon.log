@@ -1,0 +1,12 @@
+start=2026-10-25T17:40:44Z
+`MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` does not depend on any native_decide/bv_decide axiom
+NT _ktr.chk4_wfon.MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.ofReduceBool_0.p_0 blockers_ms=5 bounded=false copy_ms=100 copies=6 copy_kernel_ms=25
+NT _ktr.chk4_wfon.MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.ofReduceBool_0.p_0 eval_ms=821369
+KERNELIZED `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` as `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel` (2 native axiom(s) replaced)
+  OK	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel	axioms=[propext, Quot.sound, Classical.choice]	native_axioms=1	kernel_ms=0	rebuilt=1	copies=6	total_ms=822216
+`MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` does not depend on any native_decide/bv_decide axiom
+KERNELIZED `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` as `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel` (2 native axiom(s) replaced)
+OK	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel	axioms=[propext, Quot.sound, Classical.choice]	native_axioms=1	kernel_ms=0	rebuilt=1	copies=6	total_ms=822216
+maxrss_kb 54608764 secs 894.11
+rc=0
+end=2026-10-25T17:55:38Z

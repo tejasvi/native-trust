@@ -1,0 +1,7 @@
+$ lean R_C00000.lean start=2026-10-26T01:07:38Z timeout=900
+NT copying Sortnet.S45Data.T9.chunk00
+
+Stack overflow detected. Aborting.
+Command terminated by signal 6
+maxrss_kb 7471740 secs 26.91
+rc=134 end=2026-10-26T01:08:05Z

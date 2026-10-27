@@ -1,0 +1,3 @@
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+rc=137
+cg_memory_peak 192186286080 cg_cpu_usec 3567885619 oom_kill 0

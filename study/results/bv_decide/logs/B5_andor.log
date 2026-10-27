@@ -1,0 +1,9 @@
+bvs andor_64 #1: 1654 nodes, 4577 clauses, 1654 vars; 1258 steps, 12308 hints, 1 chunks; solve 30 ms, prep+defs 66 ms; kernel: base 1679 ms, chunks 3941 ms (max 3941 ms); total 5727 ms
+bvs: added andor_64.bvs4 (49 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs andor_256 #1: 6646 nodes, 18401 clauses, 6646 vars; 27480 steps, 56155 hints, 14 chunks; solve 141 ms, prep+defs 625 ms; kernel: base 7462 ms, chunks 36599 ms (max 3260 ms); total 44859 ms
+bvs: added andor_256.bvs4 (2617 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs andor_1024 #1: 26614 nodes, 73697 clauses, 26614 vars; 114328 steps, 232083 hints, 58 chunks; solve 543 ms, prep+defs 3236 ms; kernel: base 31265 ms, chunks 159910 ms (max 3820 ms); total 195075 ms
+bvs: added andor_1024.bvs4 (15890 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs andor_4096 #1: 106486 nodes, 294881 clauses, 106486 vars; 461298 steps, 935026 hints, 231 chunks; solve 4891 ms, prep+defs 19013 ms; kernel: base 142749 ms, chunks 770500 ms (max 5445 ms); total 937651 ms
+bvs: added andor_4096.bvs4 (77057 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=1283.51 s user=1275.50 s maxrss=26275116 KB

@@ -1,0 +1,4 @@
+kernelize: `nty_X_7_1_0.kernel` proves the statement of `nty_X_7_1_0` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (29578 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 29594 ms in total.
+time 31.10 s wall 30.44 s user 4540096 KB
+exit 0

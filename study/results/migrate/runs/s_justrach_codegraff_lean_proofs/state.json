@@ -1,0 +1,103 @@
+{
+ "census0": {
+  "secs": 1,
+  "failed": []
+ },
+ "time0": {
+  "rc": 0,
+  "secs": 1.6,
+  "running": [],
+  "thread_fail": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 1.2,
+  "rss_killed": false,
+  "wall": 1.63,
+  "cpu": 6.7,
+  "maxrss_kb": 576032,
+  "peak_lean": 3,
+  "built": {
+   "Graff.BashPolicy": 0.25,
+   "Graff.PathConfine": 0.437,
+   "Graff.GoalLoop": 0.591,
+   "Graff.PromptCache": 0.433,
+   "Graff.PromptStable": 0.386,
+   "Graff.Transport": 0.421,
+   "Graff.Shape": 0.41400000000000003,
+   "Graff.ToolCatalog": 0.296,
+   "Graff.Score": 0.768,
+   "Graff.Provider": 0.275
+  },
+  "errors": [],
+  "n_built": 10,
+  "tail": "",
+  "deleted": 70
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 181.67,
+   "cpu": 196.9,
+   "n_errors": 33,
+   "reverted": 33,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 6.7,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 178.06,
+   "cpu": 180.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 6.7,
+   "rss_killed": false
+  }
+ ],
+ "bumps": {},
+ "time1": {
+  "rc": 0,
+  "secs": 181.8,
+  "running": [],
+  "thread_fail": 0,
+  "peak_rss_gb": 6.7,
+  "peak_rss_sum_gb": 6.7,
+  "rss_killed": false,
+  "wall": 181.77,
+  "cpu": 196.7,
+  "maxrss_kb": 7045740,
+  "peak_lean": 3,
+  "built": {
+   "Graff.BashPolicy": 0.304,
+   "Graff.PathConfine": 0.506,
+   "Graff.PromptCache": 0.549,
+   "Graff.PromptStable": 0.375,
+   "Graff.Transport": 0.655,
+   "Graff.Shape": 0.41100000000000003,
+   "Graff.Provider": 0.40900000000000003,
+   "Graff.ToolCatalog": 2.9,
+   "Graff.GoalLoop": 7.4,
+   "Graff.Score": 180.0
+  },
+  "errors": [],
+  "n_built": 10,
+  "tail": "",
+  "deleted": 70
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.13,
+  "cpu": 0.0,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ }
+}

@@ -1,0 +1,5 @@
+formal-conjectures-heavy2	FormalConjectures.Arxiv.2507.17780.4	-			NOT_BUILT						
+formal-conjectures-heavy2	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_3	native_decide	True	PROVED		0	6936228	4		nt_lines=4 last=eval_ms=130
+formal-conjectures-heavy2	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_1	native_decide	True	PROVED		0	6983272	4		nt_lines=4 last=eval_ms=278
+formal-conjectures-heavy2	FormalConjectures.GreensOpenProblems.39	_private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	75401536	1742		nt_lines=4 last=eval_ms=641734
+formal-conjectures-heavy2	FormalConjectures.GreensOpenProblems.39	_private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_4_3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	81798412	1932		nt_lines=4 last=eval_ms=758466

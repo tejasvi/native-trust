@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_Rules_Arith_mult_tangent_21.lean
+NT start _private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._native.native_decide.ax_1_1
+NT nested _private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._native.native_decide.ax_1_1 ms=125 rebuilt_defs=0 visited=2944
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=0 eq_ms=2 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=1 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=11 eq_ms=14 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Cpc_Proofs_Rules_Arith_mult_tangent_21._private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._kernel.native_decide.ax_1_1.p_0 blockers_ms=17 bounded=false copy_ms=52 copies=6 copy_kernel_ms=31
+NT _ktr.F2_Cpc_Proofs_Rules_Arith_mult_tangent_21._private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._kernel.native_decide.ax_1_1.p_0 eval_ms=3
+PROVED `_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._native.native_decide.ax_1_1` as `_ktr.F2_Cpc_Proofs_Rules_Arith_mult_tangent_21._private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._kernel.native_decide.ax_1_1`: kernel_ms=88 native_axioms=1 rebuilt=0 copies=6 total_ms=213
+PROVED `_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._native.native_decide.ax_1_1` as `_ktr.F2_Cpc_Proofs_Rules_Arith_mult_tangent_21._private.Cpc.Proofs.Rules.Arith_mult_tangent.0.prog_eq_real_true._kernel.native_decide.ax_1_1`: kernel_ms=88 native_axioms=1 rebuilt=0 copies=6 total_ms=213
+maxrss_kb 1767164
+rc=0 secs=1

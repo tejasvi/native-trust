@@ -1,0 +1,84 @@
+{
+ "name": "lido-srv3",
+ "import_line": "import NativeTrust.KernelFirst",
+ "pkg": "/home/ntbuild/repos/lido-srv3-proof-closure",
+ "copy_root": "/home/ntbuild/repos/lido-srv3-proof-closure",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib_kfscope_v10/v4.31.0",
+ "hb2": null,
+ "jobs": 4,
+ "started": "2026-10-24T08:00:50Z",
+ "toolchain": "v4.31.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 3.87,
+  "built": []
+ },
+ "modules": 723,
+ "before": {
+  "total": 70,
+  "by_tactic": {
+   "native_decide": 70
+  },
+  "failed": [],
+  "dirty": 84
+ },
+ "native_files": 26,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 5061,
+   "rc": 0,
+   "wall": 343.23,
+   "cpu": 1328.9,
+   "n_built": 732,
+   "peak_lean": 4,
+   "peak_rss_gb": 3.3,
+   "peak_rss_sum_gb": 10.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 5061,
+   "rc": 0,
+   "wall": 345.11,
+   "cpu": 1338.7,
+   "n_built": 723,
+   "peak_lean": 4,
+   "peak_rss_gb": 3.2,
+   "peak_rss_sum_gb": 10.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 0,
+  "by_tactic": {},
+  "failed": [],
+  "dirty": 0
+ },
+ "fallbacks": {
+  "blocked: System.Platform.getNumBits": 7,
+  "budget (heartbeats)": 24
+ },
+ "fallback_examples": {
+  "blocked: System.Platform.getNumBits": "info: LidoSRv3/Tests/MinFirstDistributionTxMutants.lean:26:45: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getNumBits` (no kernel definition)",
+  "budget (heartbeats)": "info: LidoSRv3/Tests/SszEncodingTxMutants.lean:70:55: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2140 ms)"
+ },
+ "reps": 1,
+ "orig_wall_med": 343.23,
+ "orig_cpu_med": 1328.9,
+ "kf_wall_med": 345.11,
+ "kf_cpu_med": 1338.7,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T08:14:03Z"
+}

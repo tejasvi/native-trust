@@ -1,0 +1,22 @@
+kernel-first: native_decide used compiled evaluation: blocked: reaches `countDown` (no kernel definition)
+kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getNumBits` (no kernel definition)
+kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1097 ms)
+kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via lexAck → lexAck._unary → WellFounded.fix): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+KernelFirstTest.lean:40:44: error: Tactic `native_decide` evaluated that the proposition
+  (List.range 10).length = 11
+is false
+'kf_sum' does not depend on any axioms
+'kf_native' does not depend on any axioms
+'kf_two' does not depend on any axioms
+'kf_partial' depends on axioms: [kf_partial._native.native_decide.ax_1]
+'kf_hashmap' depends on axioms: [propext, Quot.sound, kf_hashmap._native.native_decide.ax_1]
+'kf_budget' depends on axioms: [kf_budget._native.native_decide.ax_1]
+'kf_wf' depends on axioms: [propext, Quot.sound, kf_wf._native.native_decide.ax_1]
+'kf_off' depends on axioms: [kf_off._native.native_decide.ax_1]
+'kf_decide' does not depend on any axioms
+kernel-first: 8 calls: 4 proved by `decide +kernel` (9 ms in total), 4 used compiled evaluation; native axioms in this module: 5
+FALLBACK `kf_partial` (native_decide, line 20): blocked: reaches `countDown` (no kernel definition)
+FALLBACK `kf_hashmap` (native_decide, line 25): blocked: reaches `System.Platform.getNumBits` (no kernel definition)
+FALLBACK `kf_budget` (native_decide, line 28): `decide +kernel` did not finish within 2000 thousand heartbeats (1097 ms)
+FALLBACK `kf_wf` (native_decide, line 37): well-founded recursion (`WellFounded.fix` via lexAck → lexAck._unary → WellFounded.fix): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+rc=1

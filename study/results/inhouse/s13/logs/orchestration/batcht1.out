@@ -1,0 +1,52 @@
+2026-10-26T01:19:45Z batch: 10 facts, PAR=5 MEMG=16 T=900 MemAvailable=623G
+2026-10-26T01:19:45Z start T_R_C00000 unit=s13-f-t-r-c00000-1792977585 MemAvailable=623G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_R_C00000.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_R_C00000.log' for reading: No such file or directory
+2026-10-26T01:19:45Z end T_R_C00000 rc=3 |  | 
+2026-10-26T01:19:47Z start T_KL_C000 unit=s13-f-t-kl-c000-1792977587 MemAvailable=621G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_KL_C000.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_KL_C000.log' for reading: No such file or directory
+2026-10-26T01:19:47Z end T_KL_C000 rc=3 |  | 
+2026-10-26T01:19:49Z start T_BFS_D00C000 unit=s13-f-t-bfs-d00c000-1792977589 MemAvailable=619G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_BFS_D00C000.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_BFS_D00C000.log' for reading: No such file or directory
+2026-10-26T01:19:49Z end T_BFS_D00C000 rc=3 |  | 
+2026-10-26T01:19:51Z start T_H_chunk00 unit=s13-f-t-h-chunk00-1792977591 MemAvailable=616G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_H_chunk00.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_H_chunk00.log' for reading: No such file or directory
+2026-10-26T01:19:51Z end T_H_chunk00 rc=3 |  | 
+2026-10-26T01:19:53Z start T_S_header_info unit=s13-f-t-s-header-info-1792977593 MemAvailable=614G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_header_info.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_header_info.log' for reading: No such file or directory
+2026-10-26T01:19:53Z end T_S_header_info rc=3 |  | 
+2026-10-26T01:19:55Z start T_S_final_ok unit=s13-f-t-s-final-ok-1792977595 MemAvailable=613G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_final_ok.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_final_ok.log' for reading: No such file or directory
+2026-10-26T01:19:55Z end T_S_final_ok rc=3 |  | 
+2026-10-26T01:19:57Z start T_S_entries unit=s13-f-t-s-entries-1792977597 MemAvailable=614G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_entries.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_entries.log' for reading: No such file or directory
+2026-10-26T01:19:57Z end T_S_entries rc=3 |  | 
+2026-10-26T01:19:59Z start T_S_certOK_harder11 unit=s13-f-t-s-certok-harder11-1792977599 MemAvailable=612G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_certOK_harder11.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_S_certOK_harder11.log' for reading: No such file or directory
+2026-10-26T01:19:59Z end T_S_certOK_harder11 rc=3 |  | 
+2026-10-26T01:20:01Z start T_X_ct4_d12 unit=s13-f-t-x-ct4-d12-1792977601 MemAvailable=612G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_X_ct4_d12.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_X_ct4_d12.log' for reading: No such file or directory
+2026-10-26T01:20:01Z end T_X_ct4_d12 rc=3 |  | 
+2026-10-26T01:20:03Z start T_X_certOK_5 unit=s13-f-t-x-certok-5-1792977603 MemAvailable=707G
+/home/ntbuild/work_iterstr/s13/bin/s13_fact_v1.sh: line 9: cd: /home/ntbuild/work_iterstr/s13/probe_t1: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_X_certOK_5.log' for reading: No such file or directory
+tail: cannot open '/home/ntbuild/work_iterstr/s13/probe_t1/T_X_certOK_5.log' for reading: No such file or directory
+2026-10-26T01:20:03Z end T_X_certOK_5 rc=3 |  | 
+2026-10-26T01:20:05Z batch done

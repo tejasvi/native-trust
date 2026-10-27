@@ -1,0 +1,70 @@
+00:56:37 gate ok: MemAvailable 379 >= 264
+toolchain leanprover/lean4:v4.35.0-rc4; start 2026-10-25T00:56:37Z
+BVS.LratBits rc=0 0.22	318848
+BVS.LratBitsSound rc=0 0.32	360760
+BVS.Blast rc=0 0.45	384240
+BVS.Lrat.Trie rc=0 0.42	424136
+BVS.Sound.Basic rc=0 0.40	405728
+BVS.Lrat.Chain rc=0 0.43	436060
+BVS.Sound.Circuits rc=0 0.55	460156
+BVS.Sound.Bits rc=0 0.35	417220
+BVS.Sound.Shifts rc=0 0.39	409216
+BVS.Sound.Unary rc=0 0.24	386480
+BVS.Sound.Expr rc=0 0.55	394096
+BVS.Sound.CNF rc=0 0.24	388992
+BVS.Lrat.LeafTree rc=0 0.42	401180
+BVS.Unsat rc=0 0.26	380032
+BVS.SplitBase rc=0 0.51	413480
+BVS.Driver.Core rc=0 1.69	903272
+BVS.Driver.Select rc=0 1.07	862084
+BVS.Driver.Split rc=0 1.07	875904
+BVS.Driver.Group rc=0 0.82	855300
+BVS.Tactic rc=0 1.24	887804
+BVS rc=0 0.38	815592
+Examples.Small rc=0 8.52	2168932
+Examples.Tactic rc=0 30.92	2348184
+Examples.TacticModule rc=0 5.00	1146052
+end 2026-10-25T00:57:34Z
+00:57:34 gate ok: MemAvailable 358 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T00:57:34Z
+00:58:21 RealD/ISelA.lean rc=0 47.31	1845440
+00:58:22 CheckD_ISelA.lean rc=0 0.71	1592580
+01:40:56 RealK/ISelA.lean rc=0 2554.06	9497892
+01:40:57 CheckK_ISelA.lean rc=0 0.76	1647500
+progress lines: 143
+CHECK RealD.ISelA: 508 constants, 109 `_native` names; 180 theorems: 71 standard axioms only, 109 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+CHECK RealK.ISelA: 1634 constants, 8 `_native` names; 180 theorems: 172 standard axioms only, 8 with native axioms [Veir.Data.RISCV.sdivwPow2Exact_pos_refinement, Veir.Data.RISCV.constant_refinement_le64, Veir.Data.RISCV.sdivPow2Exact_pos_refinement, Veir.Data.RISCV.sdivwPow2Exact_neg_refinement, Veir.Data.RISCV.sdivwPow2_pos_refinement, Veir.Data.RISCV.sdivwPow2_neg_refinement, Veir.Data.RISCV.sdivPow2Exact_neg_refinement, Veir.Data.RISCV.sshlSat_refinement], 0 other []
+end 2026-10-25T01:40:57Z
+01:40:57 gate ok: MemAvailable 430 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T01:40:57Z
+01:56:13 RealK/ISel_sshlSat_refinement.lean rc=0 916.10	14142844
+01:56:14 CheckK_ISel_sshlSat_refinement.lean rc=0 0.76	1628368
+progress lines: 1
+CHECK RealK.ISel_sshlSat_refinement: 860 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T01:56:14Z
+01:56:14 gate ok: MemAvailable 468 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T01:56:14Z
+02:13:36 RealK/ISel_sdivwPow2_pos_refinement.lean rc=0 1042.56	14990052
+02:13:37 CheckK_ISel_sdivwPow2_pos_refinement.lean rc=0 0.75	1631012
+progress lines: 1
+CHECK RealK.ISel_sdivwPow2_pos_refinement: 916 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T02:13:37Z
+02:13:37 gate ok: MemAvailable 331 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T02:13:37Z
+02:41:31 RealK/ISel_sdivwPow2_neg_refinement.lean rc=0 1673.99	16033220
+02:41:32 CheckK_ISel_sdivwPow2_neg_refinement.lean rc=0 0.75	1639716
+progress lines: 1
+CHECK RealK.ISel_sdivwPow2_neg_refinement: 1176 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T02:41:32Z
+02:41:32 gate ok: MemAvailable 436 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T02:41:32Z
+02:45:14 RealK/ISel_sdivwPow2Exact_pos_refinement.lean rc=1 221.92	4050764
+progress lines: 0
+end 2026-10-25T02:45:14Z
+02:45:14 gate ok: MemAvailable 386 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T02:45:14Z
+02:49:13 RealK/ISel_sdivwPow2Exact_neg_refinement.lean rc=1 238.97	4096332
+progress lines: 0
+end 2026-10-25T02:49:13Z
+02:49:13 gate ok: MemAvailable 456 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T02:49:13Z

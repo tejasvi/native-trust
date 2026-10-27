@@ -1,0 +1,31 @@
+[25870869] bv_kdecide [Veir.Data.LLVM.Int.ceildivui_lowering]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 811 MiB, kernel route 812 MiB
+[25871005] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.ceildivsi_lowering._bvk_1: 4259 nodes, CNF 12608 clauses
+[25871201] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.ceildivsi_lowering._bvk_1: 272 steps, 2442 hints, 1 chunks, 0 segments; SAT 132 ms
+[25875556] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.ceildivsi_lowering._bvk_1: base check 4355 ms
+[25876127] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.ceildivsi_lowering._bvk_1: chunk 0 (272 steps from id 12609) 571 ms
+[25876164] bv_kdecide [Veir.Data.LLVM.Int.ceildivsi_lowering]: bv_decide 58 ms; 4259 nodes, 12608 clauses, 272 LRAT steps, 2442 hints, 1 chunks; SAT 132 ms, data 74 ms; kernel: base 4355 ms, chunks 571 ms (max 571 ms), assembly 6 ms; total 5240 ms; peak RSS: bv_decide 823 MiB, kernel route 1766 MiB
+[25876305] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.floordivsi_lowering._bvk_1: 4266 nodes, CNF 12629 clauses
+[25876484] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.floordivsi_lowering._bvk_1: 181 steps, 1699 hints, 1 chunks, 0 segments; SAT 116 ms
+[25880937] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.floordivsi_lowering._bvk_1: base check 4453 ms
+[25881309] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.floordivsi_lowering._bvk_1: chunk 0 (181 steps from id 12630) 372 ms
+[25881343] bv_kdecide [Veir.Data.LLVM.Int.floordivsi_lowering]: bv_decide 43 ms; 4266 nodes, 12629 clauses, 181 LRAT steps, 1699 hints, 1 chunks; SAT 116 ms, data 73 ms; kernel: base 4453 ms, chunks 372 ms (max 372 ms), assembly 4 ms; total 5105 ms; peak RSS: bv_decide 1755 MiB, kernel route 1765 MiB
+[25881429] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.addui_extended_lowering._bvk_5: 253 nodes, CNF 707 clauses
+[25881471] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.addui_extended_lowering._bvk_5: 169 steps, 1831 hints, 1 chunks, 0 segments; SAT 34 ms
+[25881657] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.addui_extended_lowering._bvk_5: base check 186 ms
+[25882011] _private.RealK.ArithToLLVM.0.Veir.Data.LLVM.Int.addui_extended_lowering._bvk_5: chunk 0 (169 steps from id 708) 353 ms
+[25882022] bv_kdecide [Veir.Data.LLVM.Int.addui_extended_lowering]: bv_decide 31 ms; 253 nodes, 707 clauses, 169 LRAT steps, 1831 hints, 1 chunks; SAT 34 ms, data 9 ms; kernel: base 186 ms, chunks 353 ms (max 353 ms), assembly 3 ms; total 629 ms; peak RSS: bv_decide 1763 MiB, kernel route 1762 MiB
+[25882036] bv_kdecide [Veir.Data.LLVM.Int.addui_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882049] bv_kdecide [Veir.Data.LLVM.Int.addui_extended_lowering]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882061] bv_kdecide [Veir.Data.LLVM.Int.addui_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882095] bv_kdecide [Veir.Data.LLVM.Int.subui_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882108] bv_kdecide [Veir.Data.LLVM.Int.subui_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882121] bv_kdecide [Veir.Data.LLVM.Int.subui_extended_lowering]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882132] bv_kdecide [Veir.Data.LLVM.Int.subui_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882181] bv_kdecide [Veir.Data.LLVM.Int.mulsi_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882218] bv_kdecide [Veir.Data.LLVM.Int.mulsi_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 9 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882253] bv_kdecide [Veir.Data.LLVM.Int.mulsi_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 9 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882276] bv_kdecide [Veir.Data.LLVM.Int.mulsi_extended_lowering]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882349] bv_kdecide [Veir.Data.LLVM.Int.mului_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882390] bv_kdecide [Veir.Data.LLVM.Int.mului_extended_lowering]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882430] bv_kdecide [Veir.Data.LLVM.Int.mului_extended_lowering]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB
+[25882455] bv_kdecide [Veir.Data.LLVM.Int.mului_extended_lowering]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 929 MiB, kernel route 929 MiB

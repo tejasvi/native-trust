@@ -1,0 +1,62 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap5_Gap5049_3.lean
+NT start RowsA.Gap5049.assemble_x0_lt._native.native_decide.ax_1_1
+NT nested RowsA.Gap5049.assemble_x0_lt._native.native_decide.ax_1_1 ms=284 rebuilt_defs=0 visited=5277
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=5 eq_ms=14 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0
+NT copy-congr-rejected RowsA.Gap5049.x0: (kernel) application type mismatch   congrArg fun y k => y.val0 (RowsA.Gap5049.freeData.getD (↑k) 0) argument has type   (y : RowsA.Gap5.GammaSys) → Fin y.nf → ℚ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Fin RowsA.Gap5049.S.nf → ℚ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.x0
+NT copy-rejected RowsA.Gap5049.x0: (kernel) deterministic timeout
+NT copying RowsA.Gap5049.Zc
+NT copy RowsA.Gap5049.Zc defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.assemble_x0_lt._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=18953 copies=8 copy_kernel_ms=23 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.assemble_x0_lt._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT copying RowsA.Gap5049.x0
+NT copy-congr-rejected RowsA.Gap5049.x0: (kernel) application type mismatch   congrArg fun y k => y.val0 (RowsA.Gap5049.freeData.getD (↑k) 0) argument has type   (y : RowsA.Gap5.GammaSys) → Fin y.nf → ℚ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Fin RowsA.Gap5049.S.nf → ℚ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.x0
+NT copy-rejected RowsA.Gap5049.x0: (kernel) deterministic timeout
+NT _ktr.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.assemble_x0_lt._kernel.native_decide.ax_1_1.p_0 blockers_ms=7 bounded=true copy_ms=19960 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.assemble_x0_lt._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=4 eq_ms=15 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0
+NT copy-congr-rejected RowsA.Gap5049.x0: (kernel) application type mismatch   congrArg fun y k => y.val0 (RowsA.Gap5049.freeData.getD (↑k) 0) argument has type   (y : RowsA.Gap5.GammaSys) → Fin y.nf → ℚ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Fin RowsA.Gap5049.S.nf → ℚ),     RowsA.Gap5049.S = _kts.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kts.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.x0
+NT copy-rejected RowsA.Gap5049.x0: (kernel) deterministic timeout
+NT copying RowsA.Gap5049.Zc
+NT copy RowsA.Gap5049.Zc defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5049_3.RowsA.Gap5049.assemble_x0_lt._kernel.native_decide.ax_1_1.p_0 blockers_ms=11 bounded=false copy_ms=21107 copies=11 copy_kernel_ms=24 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 45955436
+rc=1 secs=227

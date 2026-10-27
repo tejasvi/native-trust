@@ -1,0 +1,58 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 -o F1_Strata_Languages_Core_Factory_3.olean F1_Strata_Languages_Core_Factory_3.lean
+NT start _private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1
+NT nested _private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1 ms=582 rebuilt_defs=0 visited=8403
+NT copying Lambda.Constraint.unifyOne._mutual
+NT copy Lambda.Constraint.unifyOne._mutual defn_ms=2 eq_ms=5 congr=true
+NT copying Lambda.Constraints.unifyCore
+NT copy Lambda.Constraints.unifyCore defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Constraints.unify
+NT copy Lambda.Constraints.unify defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LFunc.opTypeSubst
+NT copy Lambda.LFunc.opTypeSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LFunc.computeTypeSubst
+NT copy Lambda.LFunc.computeTypeSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LExpr.eval._mutual
+NT copy Lambda.LExpr.eval._mutual defn_ms=8 eq_ms=44 congr=true
+NT copying Lambda.LExpr.eval
+NT copy Lambda.LExpr.eval defn_ms=1 eq_ms=1 congr=true
+NT copying Lambda.LExpr.evalFullyAux
+NT copying Lambda.LExpr.evalFully
+NT copy-rfl Lambda.LExpr.evalFully
+NT copy Lambda.LExpr.evalFully defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Expression
+NT copy Core.Expression defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.Factory.0.Core.renameOpIn
+NT copy-rfl _private.Strata.Languages.Core.Factory.0.Core.renameOpIn
+NT copy _private.Strata.Languages.Core.Factory.0.Core.renameOpIn defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Factory.0.Core.withSelectBang
+NT copy-rfl _private.Strata.Languages.Core.Factory.0.Core.withSelectBang
+NT copy _private.Strata.Languages.Core.Factory.0.Core.withSelectBang defn_ms=0 eq_ms=0 congr=false
+NT copying Core.seqDropFunc
+NT copy-rfl Core.seqDropFunc
+NT copy Core.seqDropFunc defn_ms=1 eq_ms=1 congr=false
+NT copying Core.seqDropUnsafeFunc
+NT copy Core.seqDropUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqBuildFunc
+NT copy-rfl Core.seqBuildFunc
+NT copy Core.seqBuildFunc defn_ms=0 eq_ms=1 congr=false
+NT copying Core.seqUpdateFunc
+NT copy-rfl Core.seqUpdateFunc
+NT copy Core.seqUpdateFunc defn_ms=1 eq_ms=1 congr=false
+NT copying Core.seqUpdateUnsafeFunc
+NT copy Core.seqUpdateUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqTakeFunc
+NT copy-rfl Core.seqTakeFunc
+NT copy Core.seqTakeFunc defn_ms=0 eq_ms=1 congr=false
+NT copying Core.seqTakeUnsafeFunc
+NT copy Core.seqTakeUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqAppendFunc
+NT copy-rfl Core.seqAppendFunc
+NT copy Core.seqAppendFunc defn_ms=1 eq_ms=1 congr=false
+NT copying Core.WFFactoryArray
+NT copy Core.WFFactoryArray defn_ms=1 eq_ms=3 congr=true
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1.p_0 blockers_ms=25 bounded=true copy_ms=4419 copies=20 copy_kernel_ms=81
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1.p_0 eval_ms=27159
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1` as `_ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1`: kernel_ms=52314 native_axioms=1 rebuilt=0 copies=20 total_ms=52898
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1` as `_ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1`: kernel_ms=52314 native_axioms=1 rebuilt=0 copies=20 total_ms=52898
+maxrss_kb 8333644
+rc=0 secs=53

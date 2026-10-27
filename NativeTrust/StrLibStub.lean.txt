@@ -1,0 +1,9 @@
+import NativeTrust.Copy
+import NativeTrust.StrFast
+
+/-!
+# List-level kernel forms of iterator-based `String` functions (stub)
+
+Stub for Lean 4.27-4.29, whose core library lacks the `String.Slice` lemmas that `StrLib` is proved
+from; the build copies it over `NativeTrust/StrLib.lean` there (as for `CSimpCompat`).
+-/

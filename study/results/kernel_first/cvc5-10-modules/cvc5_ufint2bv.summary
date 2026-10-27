@@ -1,0 +1,2 @@
+orig: native axioms: 25 native axioms in `NTV.Uf_int2bv_bvult_equiv` | wall_med=5.59 cpu_med=7.51 rss_kb_max=1048696 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.Uf_int2bv_bvult_equiv` | wall_med=5.43 cpu_med=7.41 rss_kb_max=1155564 runs=3 rc=0 errors=0 kf_fallback=0

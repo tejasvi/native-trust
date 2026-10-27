@@ -1,0 +1,27 @@
+$ lean longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T23:06:41Z
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 34694440 secs 169.48
+rc=134 end=2026-10-24T23:09:30Z
+e.ax_1_1 ms=119 rebuilt_defs=0 visited=3092
+NT copying CodingTheory.HahnDelsarte.hahnWeight
+NT copy CodingTheory.HahnDelsarte.hahnWeight defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnKernel
+NT copy CodingTheory.HahnDelsarte.hahnKernel defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certificatePolynomial
+NT copy CodingTheory.HahnDelsarte.certificatePolynomial defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.certificateValid
+NT copy CodingTheory.HahnDelsarte.certificateValid defn_ms=0 eq_ms=0 congr=true
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=12 copies=4 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_0 eval_ms=1
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1 structure all-by-index length=640 pieces=8
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1 blockers_ms=0 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1 stage constants=0 staged=0 ms=33
+NT stage _ktv.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1»._ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1.t_0 direct ms=7
+NT copying _ktv.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1»._ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1.t_3
+NT copy _ktv.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1»._ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1.t_3 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1»._ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1.t_3 direct ms=2
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1 stage subterms=2 staged=2 congr=true ms=18
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_Cert2140_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._kernel.native_decide.ax_1_1.p_1.staged blockers_ms=3 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

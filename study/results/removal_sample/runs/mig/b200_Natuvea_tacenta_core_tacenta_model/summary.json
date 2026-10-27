@@ -1,0 +1,255 @@
+{
+ "name": "b200_Natuvea_tacenta_core_tacenta_model",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "toolchain": "v4.31.0",
+ "uses": 141,
+ "replaced": 86,
+ "replaced_known": 0,
+ "replaced_unknown": 86,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: [Error pretty printing: (deterministic) timeout at `whnf`, maximum number of heartbeats (200) has been reached": 46,
+  "build: [Error pretty printing: maximum recursion depth has been reached": 7,
+  "build: Tactic `decide` failed for proposition": 2
+ },
+ "native_axioms_before": 2,
+ "native_axioms_after": 2,
+ "bv_decide_axioms_before": 2,
+ "bv_decide_axioms_after": 2,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 2,
+ "native_dependent_decls_after": 2,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 1.27,
+   "cpu": 2.5,
+   "n_errors": 5,
+   "reverted": 5,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.6,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 2.05,
+   "cpu": 4.1,
+   "n_errors": 8,
+   "reverted": 8,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.6,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 1,
+   "wall": 5.96,
+   "cpu": 15.3,
+   "n_errors": 29,
+   "reverted": 29,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.6,
+   "rss_killed": false
+  },
+  {
+   "round": 3,
+   "rc": 1,
+   "wall": 12.87,
+   "cpu": 25.5,
+   "n_errors": 7,
+   "reverted": 7,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.7,
+   "rss_killed": false
+  },
+  {
+   "round": 4,
+   "rc": 1,
+   "wall": 5.46,
+   "cpu": 10.0,
+   "n_errors": 3,
+   "reverted": 3,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  },
+  {
+   "round": 5,
+   "rc": 1,
+   "wall": 3.05,
+   "cpu": 4.2,
+   "n_errors": 3,
+   "reverted": 3,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.8,
+   "rss_killed": false
+  },
+  {
+   "round": 6,
+   "rc": 0,
+   "wall": 1.87,
+   "cpu": 2.2,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.7,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 14.19,
+  "cpu": 32.1,
+  "n_built": 22,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 1.2
+ },
+ "time1": {
+  "wall": 13.98,
+  "cpu": 31.9,
+  "n_built": 19,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 1.2
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 95.94,
+  "cpu": 100.6,
+  "n_built": 7,
+  "peak_lean": 2,
+  "peak_rss_gb": 1.5,
+  "peak_rss_sum_gb": 1.6,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 19,
+ "replaced_modules": 13,
+ "unmatched_axioms": 0,
+ "fact_budget": 200,
+ "audit": {
+  "tags": {
+   "BLOCKED": 2
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  22.6,
+  22.4
+ ],
+ "module_times_slower": [
+  [
+   "Model.PersistedState",
+   2.9,
+   3.2
+  ],
+  [
+   "Model.Messages",
+   1.0,
+   1.3
+  ],
+  [
+   "Model.CompositeHeader",
+   0.8150000000000001,
+   1.1
+  ],
+  [
+   "Model.Ratchet",
+   1.3,
+   1.4
+  ],
+  [
+   "Model.GroupCommitment",
+   0.182,
+   0.25
+  ],
+  [
+   "Model.Polynomial",
+   0.673,
+   0.735
+  ],
+  [
+   "Model.Kdf",
+   0.266,
+   0.29
+  ],
+  [
+   "Model.TripleRatchet",
+   0.21,
+   0.232
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Model.Braid",
+   1.9,
+   1.0
+  ],
+  [
+   "Model.Protobuf",
+   1.3,
+   1.2
+  ],
+  [
+   "Model.Erasure",
+   1.3,
+   1.2
+  ],
+  [
+   "Model.Lifecycle",
+   1.9,
+   1.8
+  ],
+  [
+   "Properties.Invariants",
+   0.277,
+   0.203
+  ],
+  [
+   "Model.LifecycleTrace",
+   0.8170000000000001,
+   0.785
+  ],
+  [
+   "Model.SessionTrace",
+   0.307,
+   0.303
+  ],
+  [
+   "Model.SessionEstablishment",
+   0.196,
+   0.195
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+native facts (axioms): 52725 in 17 packages; modules not built: 546
+
+| package | facts | PROVED | FAILED blocked | FAILED false in logic | FAILED other | TIMEOUT | ERROR |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| trainverify | 45720 | 45707 (100%) | 0 | 0 | 0 | 7 | 6 |
+| cvc5-logos | 2185 | 2185 (100%) | 0 | 0 | 0 | 0 | 0 |
+| humanfia-icho2026 | 1864 | 1860 (100%) | 0 | 0 | 0 | 1 | 3 |
+| formal-conjectures | 690 | 664 (96%) | 0 | 0 | 5 | 10 | 11 |
+| longfellow-zk | 690 | 626 (91%) | 0 | 0 | 2 | 25 | 37 |
+| berry-esseen | 579 | 2 (0%) | 569 | 0 | 0 | 0 | 8 |
+| asi-stack-book | 392 | 383 (98%) | 0 | 0 | 8 | 1 | 0 |
+| strata | 286 | 66 (23%) | 220 | 0 | 0 | 0 | 0 |
+| clean | 120 | 17 (14%) | 1 | 0 | 0 | 2 | 100 |
+| sounio | 77 | 70 (91%) | 1 | 0 | 0 | 4 | 2 |
+| lido-srv3 | 70 | 70 (100%) | 0 | 0 | 0 | 0 | 0 |
+| cedar-lean | 26 | 10 (38%) | 16 | 0 | 0 | 0 | 0 |
+| rs-mca-m31_dyadic_weight_laws | 9 | 9 (100%) | 0 | 0 | 0 | 0 | 0 |
+| aks | 7 | 0 (0%) | 2 | 0 | 0 | 1 | 4 |
+| sorting-network-expanders | 7 | 0 (0%) | 2 | 0 | 0 | 1 | 4 |
+| rs-mca-m31_flatness_keystone | 2 | 1 (50%) | 0 | 0 | 0 | 0 | 1 |
+| aeneas-lean | 1 | 0 (0%) | 1 | 0 | 0 | 0 | 0 |
+| **all** | 52725 | 51670 (98%) | 812 | 0 | 15 | 52 | 176 |
+
+by tactic: {'bv_decide/ERROR': 1, 'bv_decide/FAILED': 1, 'bv_decide/TIMEOUT': 3, 'decide/ERROR': 2, 'decide/FAILED': 5, 'decide/PROVED': 188, 'decide/TIMEOUT': 2, 'native_decide/ERROR': 173, 'native_decide/FAILED': 821, 'native_decide/PROVED': 51482, 'native_decide/TIMEOUT': 47}
+facts inside definitions (inner): {'PROVED': 339, 'ERROR': 3}
+
+facts not proved, by blocking construct:
+     585  iterators/String.Slice (Std.Shrink, extrinsicFix)   [berry-esseen:569, cedar-lean:16]
+     228  kernel resources, no blocker reachable   [clean:102, longfellow-zk:62, formal-conjectures:21, trainverify:13, berry-esseen:8]
+     186  String (C primitive) + USize/platform word size + WellFounded.fix + hashing (C primitive) + iterators/String.Slice (Std.Shrink, extrinsicFix) + opaque, implemented_by + other opaque constant + partial function / while loop   [strata:186]
+      34  USize/platform word size + hashing (C primitive)   [strata:34]
+      15  FAILED other   [asi-stack-book:8, formal-conjectures:5, longfellow-zk:2]
+       4  other C primitive (extern)   [aks:2, sorting-network-expanders:2]
+       1  USize/platform word size + other opaque constant   [aeneas-lean:1]
+       1  String (C primitive) + USize/platform word size + hashing (C primitive) + partial function / while loop   [clean:1]
+       1  Float + other opaque constant   [sounio:1]
+
+blocked facts with a single blocking construct (what removing it would unlock, statically):
+     585  iterators/String.Slice (Std.Shrink, extrinsicFix)
+       4  other C primitive (extern)
+
+wall time per proved fact (s, incl. import): median 2, p90 3, max 1644
+peak memory per process: median 3.3 GB, max 91.4 GB
+modules not built: [('trainverify', 263), ('sounio', 115), ('ternary-goldbach', 95), ('tetrasemaphore', 39), ('aks', 9), ('sorting-network-expanders', 9), ('floatlib', 6), ('lido-srv3', 5), ('veil', 3), ('formal-conjectures', 1), ('rust-binomial', 1)]
+excluded, axioms named `…_native…` that do not state `e = true` (not made by native_decide): [('arklib', 4)]
+
+remedy experiments (extra @[kernel_fact] modules):
+  clean-remedy: PROVED 116/120 (without the remedy: 17/120)

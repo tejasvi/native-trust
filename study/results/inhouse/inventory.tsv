@@ -1,0 +1,38 @@
+project	record	toolchain	native_facts_published	headline_has_hand_kernel_track	hand_kernel_track_cost	in_this_study
+QEC and S(13)	-	-	-	-	-	see qec/ and s13/
+mm3 rank 333 over F2	sw 10.5281/zenodo.23236154; kernel sw 10.5281/zenodo.23304899	v4.30.0	4,381,024 batch axioms, created in the native run from certificates regenerated in a stream (not stored)	yes	rank333-f2-kernel: 529,504 CPU-h	not run: see mm3/summary.md
+mm4 LO(16)	sw 10.5281/zenodo.23604140	v4.35.0-rc3	40 axioms in the main theorem (45 fact modules)	partial (depth 8 only)	K8: about 86 core-h	sample: NL9 group (5 facts), kdecide
+smale6 six bodies v4 (native version)	supp 10.5281/zenodo.23472605	v4.35.0-rc3	546 (sections6-9 534, sections3-5 12)	yes	1,178.3 CPU-h	head-to-head: stratified sample with heavy pass (per-fact driver)
+five-body central configurations (rung 2)	sw 10.5281/zenodo.23202861	v4.35.0-rc3	0	kernel only	about 863 CPU-h	-
+four-body central configuration count (rung 1)	sw 10.5281/zenodo.23256905	v4.35.0-rc3	0	kernel only	about 240 CPU-h	-
+lean4body v1.0, uniqueness, floor2lean	sw 10.5281/zenodo.23004297; artifact 10.5281/zenodo.23462968	v4.35.0-rc3	0	kernel only	7.6 / 2.8 / at most 1.7 CPU-h	-
+Steiner ratio 43a v2	supp 10.5281/zenodo.23582438	v4.35.0-rc3	496 (482 shard facts, 12 case facts, 2 table facts)	no	-	sample: 6 data-free facts + pilot case P80 (4 facts), kdecide
+C1 autocorrelation v11	supp 10.5281/zenodo.23642286	v4.35.0-rc3	C36T: 2,419,680 generated axioms	yes	k1337: 186,605 CPU-h; kc36: about 58,500 CPU-h	not run (kernel track exists)
+Lebesgue covering v8	supp 10.5281/zenodo.23632239	v4.35.0-rc3	L11: 75,061 generated modules	yes	K11: about 83,000 h	not run (kernel track exists)
+Romanoff 45a v10 (native version)	supp 10.5281/zenodo.23609840	v4.35.0-rc3	11 (lean 5, lean_u3g 6)	yes	lean_kernel 10.3 CPU-h; lean_u3g_kernel 2,494 CPU-h	head-to-head: all 11 facts, kdecide
+beat-the-average 6.39 v5 (native version)	supp 10.5281/zenodo.23570173	v4.35.0-rc3	4 (K6, K7, K8, K9 checks)	yes	k7K 45.2 CPU-h; k9K 2,044 CPU-h; k6 66 modules	head-to-head: K6, kdecide (K7-K9 need the supplement data files)
+sign uncertainty 6.11 v5	supp 10.5281/zenodo.23543003	v4.35.0-rc3	0	kernel only	17.8 CPU-h	-
+3D snake sofa v2	supp 10.5281/zenodo.23528556	v4.35.0-rc3	0	kernel only	about 1 CPU-h	-
+areal Mahler measure v9	supp 10.5281/zenodo.23582768	v4.35.0-rc3	45 native axioms (UpperN)	yes	about 210 + 1,000 CPU-h	not run (skipped: costly native build; areal/)
+BHH TSP constant v8	supp 10.5281/zenodo.23602654	v4.35.0-rc3	5,536 axioms (lean/native) + lean/native_v3	weaker bound only	about 5,250 + 9,570 h (for beta >= 0.6440396)	not run: see bhh/summary.md
+bidisc Bohr radius v5	supp 10.5281/zenodo.23579053	v4.35.0-rc3	625 native checks, one per part (K5, K6S00-47, K7S000-575)	yes	S6 about 620 + S5 45 CPU-h; S7 about 3,900 h	sample: the S5 check K5, kdecide (bohr/)
+Chvatal-Sankoff v5	supp 10.5281/zenodo.23610946	v4.35.0-rc3	h = 13: 56 axioms; h = 12: 7	weaker bound only (h <= 12)	K4 1,900, K10 21,100, K11 8,800, K12 about 69,000 CPU-h	not run: see chvatal_sankoff/summary.md
+SAW connective constant v5	supp 10.5281/zenodo.23599812	v4.35.0-rc3	169 (k28f) + 3 controls	no	-	not run: see saw/summary.md
+thrackle 78a v3	supp 10.5281/zenodo.23574203	v4.35.0-rc3	23 facts in 3,480 native modules (19 top-level, 3,461 slices)	no	-	sample: V4, U15, TH233, kdecide
+maximum term v2 (native) / v3 (kernel only)	v2 record (native); v3 supp 10.5281/zenodo.23548812	v4.35.0-rc3	v2: 44 native axioms (Mt51aData); v3: none	yes (v3)	159 CPU-h	sample: 12 of the 44 v2 axioms, per-fact driver (maxterm2/)
+Hamming cube Poincare v2	supp 10.5281/zenodo.23533351	v4.35.0-rc3	3 native axioms (CertN), used by the 4 theorems of MainN	yes	Track K: about 20 CPU-minutes	all 3 facts + heavy pass, per-fact driver (poinc/)
+totally positive Mahler lower v3, upper v2	supp 10.5281/zenodo.23548808; 10.5281/zenodo.23544557	v4.35.0-rc3	lower 48 native axioms; upper 65 native axioms	yes	about 240; 35 core-h	samples: lower 12 of 48, upper 12 of 65, + heavy pass, per-fact driver (tplower/, tpupper/)
+Schur-Siegel-Smyth trace v4	supp 10.5281/zenodo.23563971	v4.35.0-rc3	231 native checks (153 lower, 78 upper)	yes	about 310 + 55 CPU-h	sample: the first shard of each tiling, kdecide (trace86/)
+Moser worm v7	supp 10.5281/zenodo.23632857	v4.35.0-rc3	11,080 tree uses	yes	about 29,000 CPU-h	not run (kernel track exists)
+Zhang-Zagier v3	supp 10.5281/zenodo.23552588	v4.35.0-rc3	1 native axiom (ZZChk.N.check_native), used by the 2 theorems of MainN	yes	about 55 CPU-h	the fact + heavy pass, per-fact driver (zz/)
+square maximal hl47a v4; sum-difference v2	10.5281/zenodo.23554629; 10.5281/zenodo.23523393	v4.35.0-rc3	0	kernel only	-	-
+PPT2 paper 2	sw 10.5281/zenodo.23651991	v4.35.0-rc3	core 524 axioms; rows_a (see ppt2/summary.md)	no	-	core: pass 1 on every fact; rows_a: random sample; heavy pass on samples (per-fact driver)
+char-2 homological percolation v6	supp 10.5281/zenodo.23631702	v4.35.0-rc3	17 Char2Native modules (58 native_decide occurrences in the tree)	yes	lean_kernel (D24), lean_kernel_nets, lean_kernel_ct25 (about 115 CPU-h)	sample: 6 modules (23 facts), kdecide (char2/)
+BBR7 site percolation v2	supp 10.5281/zenodo.23603556	v4.35.0-rc3	0	kernel only	-	-
+NPT bound entanglement v2	10.5281/zenodo.23642736	v4.35.0	0	kernel only	25 CPU-h	-
+3SUM/APSP avw3sum v3	supp 10.5281/zenodo.23609700	v4.35.0-rc3	11 native axioms (each certificate also proved by the kernel)	yes	42.8 s for the 11 kernel modules	all 11 facts, per-fact driver (avw3sum/)
+U(1) area law	sw 10.5281/zenodo.23480810	v4.35.0-rc3	0 in U1/	kernel only	-	-
+24-cell D4 optimality v2	supp 10.5281/zenodo.23611652	v4.35.0-rc3	native lines: t4rows 433, t4psd 160, t4joint 20, geo_t32 79, geo_h5 34	joint theorem yes (kernel_joint); Theorem 3.2 (geo_t32) no	kernel_joint: about 40 core-h + block modules	not run: geo_t32 and geo_h5 are built with plain lean on top of a chain of other builds; the native steps take minutes each, and the authors note the kernel cannot run the parser on the 47 KB objective file
+PP12 order 12 v3	supp 10.5281/zenodo.23643395	v4.35.0-rc3	509 native lines in 373 files (Z13 search slices; LRAT chunk checks)	no	-	sample: 4 search facts, kdecide (the LRAT proofs, 61.5 GB, are not shipped)
+kissing number dimension 5	unpublished	-	-	-	-	-
+S(14) >= 50 sorting networks	Lean record 10.5281/zenodo.23632985 (paper 10.5281/zenodo.23622889)	v4.35.0-rc3	S14_ge_50_N: 43,100 native_decide axioms (41,376 of wedN_all + 1,724 of the native S(13) release's S13_ge_45; README.md:19-27); source tree 3,836 .lean files	no: S14_ge_50_K does not exist (STATEMENTS.md:5); wedK is kernel-only for one part	-	not run: no local build; the record's build is 43,983 modules, 1,274.5 h user CPU (checks/build_times.tsv), and one fact needs its imports built, including the native S(13) release. Source grep: no Std.HashMap, no include_str or String-literal data chunks (data are hex files read by load_hex at elaboration time and built as Nat literals), while loops and partial defs only in the elaboration-time loaders

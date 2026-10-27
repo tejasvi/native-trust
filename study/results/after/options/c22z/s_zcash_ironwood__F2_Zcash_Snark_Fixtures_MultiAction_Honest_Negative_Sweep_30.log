@@ -1,0 +1,27 @@
+$ lean s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.lean tc=v4.30.0 ntlib=/home/ntbuild/work_shared/nt22/v4.30.0/.lake/build/lib/lean start=2026-10-24T20:48:45Z
+PROVED `Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._native.native_decide.ax_1_1` as `_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1`: kernel_ms=187547 native_axioms=1 rebuilt=0 copies=0 total_ms=189136 acc_fallback=0 pieces=1
+maxrss_kb 31770096 secs 190.45
+rc=0 end=2026-10-24T20:51:55Z
+=1 congr=true
+NT copying Zcash.Snark.Fixture2.commitLagrange
+NT copy Zcash.Snark.Fixture2.commitLagrange defn_ms=0 eq_ms=1 congr=true
+NT copying Zcash.Snark.Fixture2.derivedInstanceCommitment
+NT copy Zcash.Snark.Fixture2.derivedInstanceCommitment defn_ms=0 eq_ms=0 congr=true
+NT copying Zcash.Snark.Fixture2.ps
+NT copy Zcash.Snark.Fixture2.ps defn_ms=0 eq_ms=2 congr=true
+NT copying Zcash.Snark.Fixture2.psSweepAdviceCommitmentsLastProof
+NT copy Zcash.Snark.Fixture2.psSweepAdviceCommitmentsLastProof defn_ms=1 eq_ms=0 congr=true
+NT copying Zcash.Snark.Fixture2.capturedMsm
+NT copy Zcash.Snark.Fixture2.capturedMsm defn_ms=16 eq_ms=65 congr=true
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=166 copies=7 copy_kernel_ms=93 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=26 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 stage constants=0 staged=0 ms=374
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 stage subterms=0 staged=0 congr=false ms=1
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 blockers_ms=31 bounded=false copy_ms=24 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 eval_ms=179330
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1 pieces=1
+PROVED `Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._native.native_decide.ax_1_1` as `_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_30.Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._kernel.native_decide.ax_1_1`: kernel_ms=187547 native_axioms=1 rebuilt=0 copies=0 total_ms=189136 acc_fallback=0 pieces=1

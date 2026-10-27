@@ -1,0 +1,45 @@
+BVS/Sound3.lean:118:10: warning: This simp argument is unused:
+  Bool.xor_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:228:51: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+BVS/Sound3.lean:250:18: warning: This simp argument is unused:
+  BitVec.getLsbD_of_ge y w (Nat.le_refl _)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [partProd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:275:59: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+BVS/Sound3.lean:334:30: warning: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+BVS/Sound3.lean:334:40: warning: This simp argument is unused:
+  decide_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h, beq_iff_eq, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:348:30: warning: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+BVS/Sound3.lean:348:40: warning: This simp argument is unused:
+  decide_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h, beq_iff_eq, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+TIME wall=0.58 s user=1.20 s maxrss=743744 KB

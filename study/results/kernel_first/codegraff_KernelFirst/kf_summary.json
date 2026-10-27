@@ -1,0 +1,473 @@
+{
+ "name": "justrach_codegraff_lean_proofs",
+ "pkg": "/home/ntbuild/repos_s/justrach_codegraff/lean-proofs",
+ "copy_root": "/home/ntbuild/repos_s/justrach_codegraff/lean-proofs",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.33.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T06:13:30Z",
+ "toolchain": "v4.33.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.13,
+  "built": []
+ },
+ "modules": 11,
+ "before": {
+  "total": 88,
+  "by_tactic": {
+   "native_decide": 88
+  },
+  "failed": [],
+  "dirty": 80
+ },
+ "native_files": 10,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 1.44,
+   "cpu": 7.8,
+   "n_built": 11,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 3.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 77,
+   "rc": 1,
+   "wall": 2.85,
+   "cpu": 13.2,
+   "n_built": 4,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 10.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 82,
+     "col": 43,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 83,
+     "col": 49,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 84,
+     "col": 40,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PathConfine.lean",
+     "line": 93,
+     "col": 27,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PathConfine.lean",
+     "line": 93,
+     "col": 27,
+     "msg": "failed to synthesize instance of type class"
+    }
+   ],
+   "failed_mods": [
+    "Graff.GoalLoop",
+    "Graff.PathConfine",
+    "Graff.PromptCache",
+    "Graff.Score",
+    "Graff.ToolCatalog",
+    "Graff.Transport"
+   ],
+   "tail": "`native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:116:52: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:120:103: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:124:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:128:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:131:60: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Graff.PromptCache\n- Graff.PathConfine\n- Graff.Transport\n- Graff.GoalLoop\n- Graff.Score\n- Graff.ToolCatalog\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=2.85 user=11.20 sys=2.01 maxrss_kb=1704212\n"
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 28,
+   "rc": 0,
+   "wall": 1.34,
+   "cpu": 7.4,
+   "n_built": 11,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 3.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 77,
+   "rc": 1,
+   "wall": 2.95,
+   "cpu": 12.8,
+   "n_built": 4,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 11.7,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 115,
+     "col": 51,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Transport.allTurns' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 116,
+     "col": 40,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Transport.allTurns' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    }
+   ],
+   "failed_mods": [
+    "Graff.GoalLoop",
+    "Graff.PathConfine",
+    "Graff.PromptCache",
+    "Graff.Score",
+    "Graff.ToolCatalog",
+    "Graff.Transport"
+   ],
+   "tail": "`native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:116:52: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:120:103: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:124:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:128:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:131:60: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Graff.Transport\n- Graff.PromptCache\n- Graff.GoalLoop\n- Graff.PathConfine\n- Graff.Score\n- Graff.ToolCatalog\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=2.95 user=10.64 sys=2.16 maxrss_kb=1713780\n"
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 28,
+   "rc": 0,
+   "wall": 1.33,
+   "cpu": 7.2,
+   "n_built": 11,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.6,
+   "peak_rss_sum_gb": 3.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 77,
+   "rc": 1,
+   "wall": 2.83,
+   "cpu": 12.5,
+   "n_built": 4,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 10.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 75,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 82,
+     "col": 43,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 83,
+     "col": 49,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 84,
+     "col": 40,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 109,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    }
+   ],
+   "failed_mods": [
+    "Graff.GoalLoop",
+    "Graff.PathConfine",
+    "Graff.PromptCache",
+    "Graff.Score",
+    "Graff.ToolCatalog",
+    "Graff.Transport"
+   ],
+   "tail": "`native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:116:52: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:120:103: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:124:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:128:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:131:60: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Graff.PromptCache\n- Graff.Transport\n- Graff.PathConfine\n- Graff.GoalLoop\n- Graff.Score\n- Graff.ToolCatalog\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=2.83 user=10.40 sys=2.12 maxrss_kb=1704284\n"
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 28,
+   "rc": 1,
+   "wall": 3.06,
+   "cpu": 12.8,
+   "n_built": 4,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 11.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 77,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 77,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 77,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 77,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 77,
+     "col": 29,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 84,
+     "col": 43,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 85,
+     "col": 49,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/PromptCache.lean",
+     "line": 86,
+     "col": 40,
+     "msg": "Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 111,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    },
+    {
+     "file": "Graff/Transport.lean",
+     "line": 111,
+     "col": 31,
+     "msg": "failed to synthesize instance of type class"
+    }
+   ],
+   "failed_mods": [
+    "Graff.GoalLoop",
+    "Graff.PathConfine",
+    "Graff.PromptCache",
+    "Graff.Score",
+    "Graff.ToolCatalog",
+    "Graff.Transport"
+   ],
+   "tail": "`native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:118:52: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:122:103: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:126:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:130:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Graff/ToolCatalog.lean:133:60: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Graff.PromptCache\n- Graff.Transport\n- Graff.GoalLoop\n- Graff.PathConfine\n- Graff.Score\n- Graff.ToolCatalog\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=3.06 user=10.87 sys=1.89 maxrss_kb=1712824\n"
+  }
+ ],
+ "after": {
+  "total": 5,
+  "by_tactic": {
+   "native_decide": 5
+  },
+  "failed": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Provider",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "dirty": 5
+ },
+ "fallbacks": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": 28,
+  "well-founded recursion": 12,
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": 1
+ },
+ "fallback_examples": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": "info: Graff/BashPolicy.lean:101:78: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083` (no kernel definition)",
+  "well-founded recursion": "info: Graff/Score.lean:302:69: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf \u2192 Graff.Score.needleTier \u2192 Graff.Score.hasInfix \u2192 String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can",
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": "info: Graff/Shape.lean:224:45: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit"
+ },
+ "after_hb2": {
+  "total": 5,
+  "by_tactic": {
+   "native_decide": 5
+  },
+  "failed": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Provider",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "dirty": 5
+ },
+ "fallbacks_hb2": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": 28,
+  "well-founded recursion": 12,
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": 1
+ },
+ "fallback_examples_hb2": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": "info: Graff/BashPolicy.lean:103:78: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083` (no kernel definition)",
+  "well-founded recursion": "info: Graff/Score.lean:304:69: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf \u2192 Graff.Score.needleTier \u2192 Graff.Score.hasInfix \u2192 String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can",
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": "info: Graff/Shape.lean:226:45: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit"
+ },
+ "reps": 3,
+ "orig_wall_med": 1.34,
+ "orig_cpu_med": 7.4,
+ "kf_wall_med": null,
+ "kf_cpu_med": null,
+ "orig_build_ok": true,
+ "kf_build_ok": false,
+ "kf_hb2_build_ok": false,
+ "finished": "2026-10-24T06:14:02Z"
+}

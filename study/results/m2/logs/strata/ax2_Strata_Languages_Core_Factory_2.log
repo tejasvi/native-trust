@@ -1,0 +1,7 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_Strata_Languages_Core_Factory_2.lean
+NT _ktr.F2_Strata_Languages_Core_Factory_2._private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._kernel.native_decide.ax_1_1.p_0 blockers_ms=31 bounded=true copy_ms=5281 copies=20 copy_kernel_ms=96
+NT _ktr.F2_Strata_Languages_Core_Factory_2._private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._kernel.native_decide.ax_1_1.p_0 eval_ms=37628
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_2._private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._kernel.native_decide.ax_1_1`: kernel_ms=72971 native_axioms=1 rebuilt=0 copies=20 total_ms=73688
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_2._private.Strata.Languages.Core.Factory.0.Core.WFFactoryArray_func_name_nodup._kernel.native_decide.ax_1_1`: kernel_ms=72971 native_axioms=1 rebuilt=0 copies=20 total_ms=73688
+maxrss_kb 9868976
+rc=0 secs=75

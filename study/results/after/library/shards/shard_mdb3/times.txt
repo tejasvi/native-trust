@@ -1,0 +1,2 @@
+TIMES tag=mdb3 P=35 shards_wall_from_queue=8116.77 combine_wall=0.233611
+max_rss_kb 47424996 sum_secs 3035.7

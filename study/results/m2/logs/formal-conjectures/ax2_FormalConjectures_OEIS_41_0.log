@@ -1,0 +1,45 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_FormalConjectures_OEIS_41_0.lean
+NT start _private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1
+NT nested _private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1 ms=268 rebuilt_defs=0 visited=5877
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copy List.mergeSort defn_ms=1 eq_ms=0 congr=true
+NT copy Multiset.sort defn_ms=1 eq_ms=3 congr=false
+NT copy Finset.sort defn_ms=0 eq_ms=1 congr=true
+NT copy Finset.orderIsoOfFin defn_ms=2 eq_ms=5 congr=false
+NT copy Finset.orderEmbOfFin defn_ms=0 eq_ms=1 congr=true
+NT copy CompositionAsSet.boundary defn_ms=1 eq_ms=1 congr=true
+NT copy CompositionAsSet.blocksFun defn_ms=0 eq_ms=0 congr=true
+NT copy CompositionAsSet.blocks defn_ms=0 eq_ms=1 congr=true
+NT copy CompositionAsSet.toComposition defn_ms=1 eq_ms=4 congr=false
+NT copy compositionEquiv defn_ms=2 eq_ms=5 congr=false
+NT copy compositionFintype defn_ms=0 eq_ms=0 congr=true
+NT copy Nat.Partition.instFintype defn_ms=0 eq_ms=1 congr=true
+NT copy Nat.partitionNumber defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_FormalConjectures_OEIS_41_0._private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._kernel.decide.ax_1_1.p_0 blockers_ms=5 bounded=false copy_ms=46 copies=16 copy_kernel_ms=38
+FAILED `_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1`: kernelize: cannot prove the statement of `_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1` in the kernel:
+    decide (Nat.partitionNumber 5 = 7) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_FormalConjectures_OEIS_41_0._private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._kernel.decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide (_kt.F2_FormalConjectures_OEIS_41_0.Nat.partitionNumber 5 = 7) = true
+  
+  No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+F2_FormalConjectures_OEIS_41_0.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+FAILED `_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1`: kernelize: cannot prove the statement of `_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1` in the kernel:
+  decide (Nat.partitionNumber 5 = 7) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_FormalConjectures_OEIS_41_0._private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._kernel.decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide (_kt.F2_FormalConjectures_OEIS_41_0.Nat.partitionNumber 5 = 7) = true
+
+No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+maxrss_kb 6570544
+rc=0 secs=4

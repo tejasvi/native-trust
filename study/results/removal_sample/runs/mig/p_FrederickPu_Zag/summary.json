@@ -1,0 +1,119 @@
+{
+ "name": "p_FrederickPu_Zag",
+ "pkg": "/home/ntbuild/repos_s/FrederickPu_Zag",
+ "toolchain": "v4.32.0",
+ "uses": 45,
+ "replaced": 4,
+ "replaced_known": 3,
+ "replaced_unknown": 1,
+ "replaced_facts": 3,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: BLOCKED (`String.Internal.length`)": 19,
+  "module not built": 4,
+  "build: Tactic `decide` failed for proposition": 17,
+  "budget 2000: NATIVETRUST (well-founded recursion via _private.Test.EvalState.0.Zag.Test.EvalState.effectfulSequence \u2192 Zag.Mach)": 1
+ },
+ "native_axioms_before": 23,
+ "native_axioms_after": 20,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 27,
+ "native_dependent_decls_after": 24,
+ "rewritten_decls": 3,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 3.12,
+   "cpu": 5.9,
+   "n_errors": 17,
+   "reverted": 17,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 1.9,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 1.01,
+   "cpu": 1.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.6,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 3.14,
+  "cpu": 5.9,
+  "n_built": 3,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 1.8,
+  "peak_rss_sum_gb": 3.3
+ },
+ "time1": {
+  "wall": 3.12,
+  "cpu": 5.8,
+  "n_built": 3,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 1.9,
+  "peak_rss_sum_gb": 3.3
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.43,
+  "cpu": 0.4,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 3,
+ "replaced_modules": 2,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 19,
+   "REPLACEABLE": 3,
+   "NATIVETRUST": 1
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [],
+ "module_times_sum": [
+  4.7,
+  4.6
+ ],
+ "module_times_slower": [],
+ "module_times_faster": [
+  [
+   "Test.IncludeDir",
+   0.659,
+   0.646
+  ]
+ ]
+}

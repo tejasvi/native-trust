@@ -1,0 +1,125 @@
+[54155395] sh1._bvs4_1: 1067 nodes, CNF 3104 clauses, 1067 variables
+[54155521] sh1._bvs4_1: 1030 steps, 23740 hints, 2 chunks; solve 31 ms
+[54156865] sh1._bvs4_1: base check (bit-blast + CNF + trie agreement) 1344 ms
+[54160223] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s0 (438 steps from id 3105) 3358 ms
+[54161477] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s1 (592 steps from id 3543) 1252 ms
+[54161553] sh3._bvs4_1: 418 nodes, CNF 1202 clauses, 418 variables
+[54161587] sh3._bvs4_1: 44 steps, 134 hints, 1 chunks; solve 28 ms
+[54162136] sh3._bvs4_1: base check (bit-blast + CNF + trie agreement) 549 ms
+[54162174] sh3._bvs4_1: chunk sh3._bvs4_1._bvs_s0 (44 steps from id 1203) 38 ms
+[54162185] ro1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[54162214] ro1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 28 ms
+[54162234] ro1._bvs4_1: base check (bit-blast + CNF + trie agreement) 20 ms
+[54162235] ro1._bvs4_1: chunk ro1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[54162241] ro2._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[54162266] ro2._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 25 ms
+[54162298] ro2._bvs4_1: base check (bit-blast + CNF + trie agreement) 31 ms
+[54162299] ro2._bvs4_1: chunk ro2._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[54162306] rp1._bvs4_1: 5 nodes, CNF 2 clauses, 1 variables
+[54162332] rp1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 25 ms
+[54162342] rp1._bvs4_1: base check (bit-blast + CNF + trie agreement) 10 ms
+[54162343] rp1._bvs4_1: chunk rp1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[54162349] sa1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[54162374] sa1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 24 ms
+[54162409] sa1._bvs4_1: base check (bit-blast + CNF + trie agreement) 35 ms
+[54162410] sa1._bvs4_1: chunk sa1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55277625] sh1._bvs4_1: 1067 nodes, CNF 3104 clauses, 1067 variables
+[55277810] sh1._bvs4_1: 1030 steps, 23740 hints, 2 chunks; solve 32 ms
+[55279480] sh1._bvs4_1: base check (bit-blast + CNF + trie agreement) 1670 ms
+[55283669] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s0 (438 steps from id 3105) 4189 ms
+[55285247] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s1 (592 steps from id 3543) 1576 ms
+[55285348] sh3._bvs4_1: 418 nodes, CNF 1202 clauses, 418 variables
+[55285392] sh3._bvs4_1: 44 steps, 134 hints, 1 chunks; solve 37 ms
+[55286015] sh3._bvs4_1: base check (bit-blast + CNF + trie agreement) 623 ms
+[55286076] sh3._bvs4_1: chunk sh3._bvs4_1._bvs_s0 (44 steps from id 1203) 61 ms
+[55286088] ro1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55286121] ro1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 32 ms
+[55286143] ro1._bvs4_1: base check (bit-blast + CNF + trie agreement) 22 ms
+[55286144] ro1._bvs4_1: chunk ro1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55286150] ro2._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55286181] ro2._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 31 ms
+[55286213] ro2._bvs4_1: base check (bit-blast + CNF + trie agreement) 32 ms
+[55286214] ro2._bvs4_1: chunk ro2._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55286221] rp1._bvs4_1: 5 nodes, CNF 2 clauses, 1 variables
+[55286253] rp1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 31 ms
+[55286264] rp1._bvs4_1: base check (bit-blast + CNF + trie agreement) 11 ms
+[55286265] rp1._bvs4_1: chunk rp1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55286271] sa1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55286304] sa1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 32 ms
+[55286339] sa1._bvs4_1: base check (bit-blast + CNF + trie agreement) 35 ms
+[55286340] sa1._bvs4_1: chunk sa1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55325744] sh1._bvs4_1: 1067 nodes, CNF 3104 clauses, 1067 variables
+[55325950] sh1._bvs4_1: 1030 steps, 23740 hints, 2 chunks; solve 39 ms
+[55327654] sh1._bvs4_1: base check (bit-blast + CNF + trie agreement) 1704 ms
+[55330976] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s0 (438 steps from id 3105) 3322 ms
+[55332188] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s1 (592 steps from id 3543) 1210 ms
+[55332248] sh3._bvs4_1: 418 nodes, CNF 1202 clauses, 418 variables
+[55332273] sh3._bvs4_1: 44 steps, 134 hints, 1 chunks; solve 21 ms
+[55332728] sh3._bvs4_1: base check (bit-blast + CNF + trie agreement) 455 ms
+[55332766] sh3._bvs4_1: chunk sh3._bvs4_1._bvs_s0 (44 steps from id 1203) 38 ms
+[55332776] ro1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55332796] ro1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 19 ms
+[55332818] ro1._bvs4_1: base check (bit-blast + CNF + trie agreement) 22 ms
+[55332819] ro1._bvs4_1: chunk ro1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55332824] ro2._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55332849] ro2._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 23 ms
+[55332868] ro2._bvs4_1: base check (bit-blast + CNF + trie agreement) 18 ms
+[55332868] ro2._bvs4_1: chunk ro2._bvs4_1._bvs_s0 (1 steps from id 3) 0 ms
+[55332873] rp1._bvs4_1: 5 nodes, CNF 2 clauses, 1 variables
+[55332894] rp1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 21 ms
+[55332902] rp1._bvs4_1: base check (bit-blast + CNF + trie agreement) 8 ms
+[55332903] rp1._bvs4_1: chunk rp1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55332907] sa1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55332930] sa1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 22 ms
+[55332952] sa1._bvs4_1: base check (bit-blast + CNF + trie agreement) 22 ms
+[55332953] sa1._bvs4_1: chunk sa1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55367830] sh1._bvs4_1: 1067 nodes, CNF 3104 clauses, 1067 variables
+[55368043] sh1._bvs4_1: 1030 steps, 23740 hints, 2 chunks; solve 40 ms
+[55369660] sh1._bvs4_1: base check (bit-blast + CNF + trie agreement) 1617 ms
+[55373064] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s0 (438 steps from id 3105) 3404 ms
+[55374303] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s1 (592 steps from id 3543) 1236 ms
+[55374376] sh3._bvs4_1: 418 nodes, CNF 1202 clauses, 418 variables
+[55374411] sh3._bvs4_1: 44 steps, 134 hints, 1 chunks; solve 28 ms
+[55374914] sh3._bvs4_1: base check (bit-blast + CNF + trie agreement) 503 ms
+[55374953] sh3._bvs4_1: chunk sh3._bvs4_1._bvs_s0 (44 steps from id 1203) 39 ms
+[55374963] ro1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55374986] ro1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 23 ms
+[55375001] ro1._bvs4_1: base check (bit-blast + CNF + trie agreement) 15 ms
+[55375002] ro1._bvs4_1: chunk ro1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55375007] ro2._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55375029] ro2._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 21 ms
+[55375049] ro2._bvs4_1: base check (bit-blast + CNF + trie agreement) 20 ms
+[55375050] ro2._bvs4_1: chunk ro2._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55375056] rp1._bvs4_1: 5 nodes, CNF 2 clauses, 1 variables
+[55375078] rp1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 22 ms
+[55375086] rp1._bvs4_1: base check (bit-blast + CNF + trie agreement) 8 ms
+[55375087] rp1._bvs4_1: chunk rp1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55375091] sa1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55375116] sa1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 23 ms
+[55375152] sa1._bvs4_1: base check (bit-blast + CNF + trie agreement) 36 ms
+[55375153] sa1._bvs4_1: chunk sa1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55412084] sh1._bvs4_1: 1067 nodes, CNF 3104 clauses, 1067 variables
+[55412280] sh1._bvs4_1: 1030 steps, 23740 hints, 2 chunks; solve 40 ms
+[55413960] sh1._bvs4_1: base check (bit-blast + CNF + trie agreement) 1680 ms
+[55418254] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s0 (438 steps from id 3105) 4294 ms
+[55419468] sh1._bvs4_1: chunk sh1._bvs4_1._bvs_s1 (592 steps from id 3543) 1210 ms
+[55419537] sh3._bvs4_1: 418 nodes, CNF 1202 clauses, 418 variables
+[55419563] sh3._bvs4_1: 44 steps, 134 hints, 1 chunks; solve 21 ms
+[55420010] sh3._bvs4_1: base check (bit-blast + CNF + trie agreement) 447 ms
+[55420048] sh3._bvs4_1: chunk sh3._bvs4_1._bvs_s0 (44 steps from id 1203) 38 ms
+[55420060] ro1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55420081] ro1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 20 ms
+[55420097] ro1._bvs4_1: base check (bit-blast + CNF + trie agreement) 16 ms
+[55420097] ro1._bvs4_1: chunk ro1._bvs4_1._bvs_s0 (1 steps from id 3) 0 ms
+[55420102] ro2._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55420123] ro2._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 21 ms
+[55420144] ro2._bvs4_1: base check (bit-blast + CNF + trie agreement) 21 ms
+[55420145] ro2._bvs4_1: chunk ro2._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55420152] rp1._bvs4_1: 5 nodes, CNF 2 clauses, 1 variables
+[55420185] rp1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 33 ms
+[55420196] rp1._bvs4_1: base check (bit-blast + CNF + trie agreement) 11 ms
+[55420197] rp1._bvs4_1: chunk rp1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms
+[55420203] sa1._bvs4_1: 17 nodes, CNF 2 clauses, 1 variables
+[55420228] sa1._bvs4_1: 1 steps, 2 hints, 1 chunks; solve 24 ms
+[55420250] sa1._bvs4_1: base check (bit-blast + CNF + trie agreement) 22 ms
+[55420251] sa1._bvs4_1: chunk sa1._bvs4_1._bvs_s0 (1 steps from id 3) 1 ms

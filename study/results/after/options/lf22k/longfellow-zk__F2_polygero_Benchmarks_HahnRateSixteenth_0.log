@@ -1,0 +1,9 @@
+$ lean longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-25T05:06:37Z
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._native.native_decide.ax_1_7` as `_ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7`: kernel_ms=28 native_axioms=1 rebuilt=0 copies=1 total_ms=101 acc_fallback=0 pieces=1
+maxrss_kb 3669252 secs 1.63
+rc=0 end=2026-10-25T05:06:39Z
+sivePolygero.Benchmarks.HahnRateSixteenth.mu defn_ms=0 eq_ms=1 congr=true
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7 blockers_ms=0 bounded=false copy_ms=8 copies=1 copy_kernel_ms=1 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7 eval_ms=19
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7 quick whole-term attempt proved it
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._native.native_decide.ax_1_7` as `_ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7`: kernel_ms=28 native_axioms=1 rebuilt=0 copies=1 total_ms=101 acc_fallback=0 pieces=1

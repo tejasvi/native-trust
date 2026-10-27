@@ -1,0 +1,17 @@
+== prep 10:00:07
+bvs: 1 facts prepared; 4 shard files and SB7_Final.lean written to /home/ntbuild/work_bvscale/regress7/sb7
+TIME wall=51.14 s user=50.87 s maxrss=8218940 KB
+== shards 10:00:58
+S0: TIME wall=61.94 s user=61.22 s maxrss=4162764 KB 0 errors
+S1: TIME wall=49.08 s user=48.47 s maxrss=3655352 KB 0 errors
+S2: TIME wall=53.38 s user=52.74 s maxrss=3845500 KB 0 errors
+S3: TIME wall=52.55 s user=51.95 s maxrss=4067876 KB 0 errors
+== final 10:02:00
+bvs _private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6: assembled bvs4fact_1.unsat (0 ms); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs Gadgets.ByteDecomposition.Theorems.soundness: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=2.31 s user=1.98 s maxrss=2995864 KB
+WALL prep 51147 ms, shards 61958 ms, final 2329 ms

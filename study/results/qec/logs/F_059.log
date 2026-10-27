@@ -1,0 +1,4 @@
+kernelize: `nty_Z_9_2_2.kernel` proves the statement of `nty_Z_9_2_2` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (63617 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 63634 ms in total.
+time 65.21 s wall 63.89 s user 4787724 KB
+exit 0

@@ -1,0 +1,5 @@
+[26132796] _private.RealK.Bitwise.0.not64_eq_sub._bvk_2: 65 nodes, CNF 2 clauses
+[26132826] _private.RealK.Bitwise.0.not64_eq_sub._bvk_2: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 30 ms
+[26132874] _private.RealK.Bitwise.0.not64_eq_sub._bvk_2: base check 48 ms
+[26132875] _private.RealK.Bitwise.0.not64_eq_sub._bvk_2: chunk 0 (1 steps from id 3) 1 ms
+[26132881] bv_kdecide [not64_eq_sub]: bv_decide 72 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 30 ms, data 1 ms; kernel: base 48 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 162 ms; peak RSS: bv_decide 1473 MiB, kernel route 1486 MiB

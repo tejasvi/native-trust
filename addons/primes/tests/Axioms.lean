@@ -1,0 +1,40 @@
+import PrimeCerts
+open PrimeCerts
+
+#print axioms prime_babybear
+#print axioms fact_prime_babybear
+#print axioms prime_babybear_pow
+#print axioms fact_prime_babybear_pow
+#print axioms prime_koalabear
+#print axioms fact_prime_koalabear
+#print axioms prime_koalabear_pow
+#print axioms fact_prime_koalabear_pow
+#print axioms prime_mersenne31
+#print axioms fact_prime_mersenne31
+#print axioms prime_mersenne31_pow
+#print axioms fact_prime_mersenne31_pow
+#print axioms prime_goldilocks
+#print axioms fact_prime_goldilocks
+#print axioms prime_goldilocks_pow
+#print axioms fact_prime_goldilocks_pow
+#print axioms prime_bn254_r
+#print axioms fact_prime_bn254_r
+#print axioms prime_bn254_q
+#print axioms fact_prime_bn254_q
+#print axioms prime_secp256k1_p
+#print axioms fact_prime_secp256k1_p
+#print axioms prime_secp256k1_p_pow
+#print axioms fact_prime_secp256k1_p_pow
+#print axioms prime_secp256k1_n
+#print axioms fact_prime_secp256k1_n
+#print axioms prime_bls12_381_r
+#print axioms fact_prime_bls12_381_r
+#print axioms prime_curve25519_p
+#print axioms fact_prime_curve25519_p
+#print axioms prime_curve25519_p_pow
+#print axioms fact_prime_curve25519_p_pow
+#print axioms PrattCert.powMod_eq
+#print axioms PrattCert.pratt_step
+#print axioms PrattCert.checkStep_sound
+#print axioms PrattCert.checkCert_sound
+#print axioms PrattCert.prime_of_checkTop

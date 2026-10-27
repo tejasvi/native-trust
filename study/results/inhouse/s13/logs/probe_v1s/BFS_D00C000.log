@@ -1,0 +1,43 @@
+$ lean BFS_D00C000.lean start=2026-10-26T01:13:52Z timeout=3600 tstack=33554432
+NT copying Sortnet.S45Data.Main.chunk00
+NT copy-rejected Sortnet.S45Data.Main.chunk00: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk01
+NT copy-rejected Sortnet.S45Data.Main.chunk01: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk02
+NT copy-rejected Sortnet.S45Data.Main.chunk02: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk03
+NT copy-rejected Sortnet.S45Data.Main.chunk03: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk04
+NT copy-rejected Sortnet.S45Data.Main.chunk04: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk05
+NT copy-rejected Sortnet.S45Data.Main.chunk05: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk06
+NT copy-rejected Sortnet.S45Data.Main.chunk06: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk07
+NT copy-rejected Sortnet.S45Data.Main.chunk07: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk08
+NT copy-rejected Sortnet.S45Data.Main.chunk08: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk09
+NT copy-rejected Sortnet.S45Data.Main.chunk09: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk10
+NT copy-rejected Sortnet.S45Data.Main.chunk10: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk11
+NT copy-rejected Sortnet.S45Data.Main.chunk11: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk12
+NT copy-rejected Sortnet.S45Data.Main.chunk12: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk13
+NT copy-rejected Sortnet.S45Data.Main.chunk13: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk14
+NT copy-rejected Sortnet.S45Data.Main.chunk14: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Sortnet.S45Data.Main.chunk15
+NT copy Sortnet.S45Data.Main.chunk15 defn_ms=3829 eq_ms=14270 congr=true
+NT copying Sortnet.S45Data.Main.chunks
+NT copy Sortnet.S45Data.Main.chunks defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S45Data.Main.dataByte
+NT copy Sortnet.S45Data.Main.dataByte defn_ms=0 eq_ms=1 congr=true
+NT _s13probe.BFS_D00C000 blockers_ms=0 bounded=false copy_ms=1685699 copies=3 copy_kernel_ms=18101 fast_lits=0 string_args=false
+NT _s13probe.BFS_D00C000 quick whole-term attempt did not finish; structured check
+NT _s13probe.BFS_D00C000.p_0 blockers_ms=9 bounded=false copy_ms=22 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+Command terminated by signal 9
+maxrss_kb 102886088 secs 1962.80
+rc=137 end=2026-10-26T01:46:35Z

@@ -1,0 +1,8 @@
+bvs Clean.Gadgets.And.And8: 1 bv_decide axioms
+bvs _private.Clean.Gadgets.And.And8.0.Gadgets.And.And8.and_times_two_add_xor._native.bv_decide.ax_1_5: 428 nodes, 1187 clauses, 428 vars; 449 steps, 7503 hints, 1 chunks; solve 49 ms, prep+defs 60 ms; kernel: base 548 ms, chunks 1619 ms (max 1619 ms); total 2307 ms; axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs Gadgets.And.And8.and_times_two_add_xor: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=4.09 s user=3.58 s maxrss=3037924 KB

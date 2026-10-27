@@ -1,0 +1,49 @@
+$ lean longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T21:34:56Z
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 33577580 secs 916.72
+rc=134 end=2026-10-24T21:50:12Z
+ copying LigeroFamily.hypergeometricRatio
+NT copy LigeroFamily.hypergeometricRatio defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.cover
+NT copy Lfzk.LigeroV1Rows.Row.cover defn_ms=0 eq_ms=1 congr=true
+NT copying SelectedMCA.simpleCliqueUpperNat
+NT copy SelectedMCA.simpleCliqueUpperNat defn_ms=0 eq_ms=0 congr=true
+NT copying AffineAgreement.Internal.balanced_choose_three
+NT copy AffineAgreement.Internal.balanced_choose_three defn_ms=0 eq_ms=1 congr=true
+NT copying SelectedMCA.DirectCliqueCondition
+NT copy SelectedMCA.DirectCliqueCondition defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-congr-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) application type mismatch   decide (_kt.«longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2».SelectedMCA.DirectCliqueCondition n radius g d mid) argument has type   Decidable     (3 ≤ mid ∧       n - d < n - radius ∧         SelectedMCA.simpleCliqueUpperNat mid (SelectedMCA.directLineOccupancyBound n g) * (n - radius - (n - d)) +             mid.fast_choose 3 * (n - d) <           _kt.«longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2».AffineAgreement.Internal.balanced_choose_three n             (mid * (n - radius))) but function has type   [h : Decidable (_kt.«longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2».SelectedMCA.DirectCliqueCondition n radius g d mid)] →     Bool
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2».Ligero.Examples.Grid.binaryCliqueSearch._f._eq' has type   Ligero.Examples.Grid.binaryCliqueSearch._f = Ligero.Examples.Grid.binaryCliqueSearch._f but it is expected to have type   Ligero.Examples.Grid.binaryCliqueSearch._f =     _kt.«longfellow-zk__F2_Lfzk_LigeroV1RowsHahn_2».Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copying Ligero.Examples.Grid.binaryCliqueSearch
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch
+NT copy Ligero.Examples.Grid.binaryCliqueSearch defn_ms=0 eq_ms=0 congr=false
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalM
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalM defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalLineBound
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalLineBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.failureProfileAt
+NT copy Lfzk.LigeroV1Rows.Row.failureProfileAt defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.fail
+NT copy Lfzk.LigeroV1Rows.Row.fail defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnWeight
+NT copy CodingTheory.HahnDelsarte.hahnWeight defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnKernel
+NT copy CodingTheory.HahnDelsarte.hahnKernel defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certificatePolynomial
+NT copy CodingTheory.HahnDelsarte.certificatePolynomial defn_ms=1 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certifiedBound
+NT copy CodingTheory.HahnDelsarte.certifiedBound defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.Certificate.maskBound
+NT copy Ligero.Examples.Grid.Certificate.maskBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arithProfile
+NT copy Lfzk.LigeroV1Rows.Row.arithProfile defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arith
+NT copy Lfzk.LigeroV1Rows.Row.arith defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.epsRbr
+NT copy Lfzk.LigeroV1Rows.Row.epsRbr defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.Sharp
+NT copy Lfzk.LigeroV1Rows.Row.Sharp defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.instDecidableSharp

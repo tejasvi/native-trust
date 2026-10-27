@@ -1,0 +1,10 @@
+s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|11	bvs_1 bvs_2 bvs4fact_11.unsat	0	219415140	0	27695	PASS	8	31.64	1033104	Checked 27695 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|60	bvs_1 bvs4fact_60.unsat	0	23314909	0	4335	PASS	1	4.99	298168	Checked 4335 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|5	bvs_1 bvs4fact_5.unsat	0	21450909	0	4117	PASS	2	3.30	229920	Checked 4117 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|8	bvs_1 bvs_2 bvs4fact_8.unsat	0	220960799	0	27703	PASS	8	39.65	1340412	Checked 27703 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|43	bvs_1 bvs4fact_43.unsat	0	27407722	0	4257	PASS	2	12.01	651744	Checked 4257 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|9	bvs_1 bvs4fact_9.unsat	0	35695631	0	4295	PASS	3	23.98	720616	Checked 4295 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|69	bvs_1 bvs4fact_69.unsat	0	36054593	0	4361	PASS	2	33.33	741772	Checked 4361 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|100	bvs_1 bvs4fact_100.unsat	0	31463717	0	5485	PASS	2	8.56	619420	Checked 5485 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|23	bvs4fact_23.unsat	0	31891434	0	4046	PASS	2	26.50	1135420	Checked 4046 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|76	bvs_1 bvs4fact_76.unsat	0	23809779	0	4269	PASS	1	7.76	572444	Checked 4269 declarations with no typechecker errors, 1 pretty printer errors: [

@@ -1,0 +1,200 @@
+{
+ "name": "v14_Rob1Ham_btc_lean_spec_proofs",
+ "pkg": "/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs",
+ "toolchain": "v4.35.0",
+ "uses": 833,
+ "replaced": 28,
+ "replaced_known": 3,
+ "replaced_unknown": 25,
+ "replaced_facts": 3,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: (kernel) deterministic timeout": 255,
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 118,
+  "build: module build 4.0 s > 2 x original 0.9 s (--max-slowdown)": 12,
+  "build: module build 5.0 s > 2 x original 0.8 s (--max-slowdown)": 20,
+  "module not built": 99,
+  "build: module build 20.0 s > 2 x original 2.7 s (--max-slowdown)": 58,
+  "build: module build 2.1 s > 2 x original 0.7 s (--max-slowdown)": 1,
+  "build: module build 109.0 s > 2 x original 51.0 s (--max-slowdown)": 50,
+  "build: maximum number of errors (100; from option `maxErrors`) reached, exiting": 1,
+  "build: module build 59.0 s > 2 x original 1.5 s (--max-slowdown)": 68,
+  "build: module build 29.0 s > 2 x original 1.2 s (--max-slowdown)": 123
+ },
+ "native_axioms_before": 134,
+ "native_axioms_after": 131,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 134,
+ "native_dependent_decls_after": 131,
+ "rewritten_decls": 3,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 264.25,
+   "cpu": 576.9,
+   "n_errors": 204,
+   "reverted": 204,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 9.3,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 193.3,
+   "cpu": 312.9,
+   "n_errors": 52,
+   "reverted": 52,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 9.2,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 0,
+   "wall": 109.97,
+   "cpu": 113.6,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 9.3,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 54.52,
+   "cpu": 68.8,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 9.3,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 53.2,
+  "cpu": 70.1,
+  "n_built": 11,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 9.3,
+  "peak_rss_sum_gb": 9.3
+ },
+ "time1": {
+  "wall": 54.91,
+  "cpu": 73.5,
+  "n_built": 11,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 9.3,
+  "peak_rss_sum_gb": 9.3
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.67,
+  "cpu": 0.8,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 11,
+ "replaced_modules": 3,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "EXPENSIVE": 118,
+   "REPLACEABLE": 16
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "BitcoinProofs.Bip.B13.B13SigMsg",
+  "BitcoinProofs.Bip.B15.Bip94Tests",
+  "BitcoinProofs.Property.Y03.Property",
+  "BitcoinProofs.Property.Y08.Probe",
+  "BitcoinProofs.Property.Y08.SighashLegacyProps",
+  "BitcoinProofs.Property.Y12.FoldProps",
+  "BitcoinProofs.Property.Y15.WitnessProps"
+ ],
+ "module_times_sum": [
+  63.5,
+  67.7
+ ],
+ "module_times_slower": [
+  [
+   "BitcoinProofs.Property.Y08.SighashLegacyProps",
+   51.0,
+   53.0
+  ],
+  [
+   "BitcoinProofs.Bip.B14.Tests",
+   0.749,
+   1.9
+  ],
+  [
+   "BitcoinProofs.Property.Y10.MerkleProps",
+   2.6,
+   3.5
+  ],
+  [
+   "BitcoinProofs.Property.Y03.Property",
+   2.7,
+   2.8
+  ],
+  [
+   "BitcoinProofs.Bip.B11.NullDummyVectors",
+   0.6890000000000001,
+   0.709
+  ],
+  [
+   "BitcoinProofs.Property.Y08.Probe",
+   0.659,
+   0.667
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "BitcoinProofs.Bip.B13.B13SigMsg",
+   0.928,
+   0.912
+  ],
+  [
+   "BitcoinProofs.Bip.B09.SigHash143",
+   0.741,
+   0.726
+  ],
+  [
+   "BitcoinProofs.Bip.B15.Bip94Tests",
+   0.774,
+   0.761
+  ]
+ ]
+}

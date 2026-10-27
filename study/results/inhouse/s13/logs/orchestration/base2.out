@@ -1,0 +1,27 @@
+2026-10-26T00:58:42Z start unit=s13-base2-1792976322 MemoryMax=128G MemAvailable=735G
+✔ [1171/1195] Built S45DataCt4.Slice (690ms)
+✔ [1173/1195] Built S45.T9.Def (734ms)
+✔ [1174/1195] Built S45DataMain.Chunk10 (4.4s)
+✔ [1175/1195] Built S45DataMain.Chunk11 (4.6s)
+✔ [1176/1195] Built S45DataMain.Chunk13 (4.4s)
+✔ [1177/1195] Built S45DataMain.Chunk14 (4.5s)
+✔ [1178/1195] Built S45.Facts.T9Of (799ms)
+✔ [1179/1195] Built S45DataMain.Chunk12:c.o (969ms)
+✔ [1180/1195] Built S45DataMain.Chunk10:c.o (977ms)
+✔ [1181/1195] Built S45DataMain.Chunk12:dynlib (79ms)
+✔ [1182/1195] Built S45DataMain.Chunk10:dynlib (79ms)
+✔ [1183/1195] Built S45DataMain.Chunk11:c.o (968ms)
+✔ [1184/1195] Built S45DataMain.Chunk11:dynlib (80ms)
+✔ [1185/1195] Built S45DataMain.Chunk13:c.o (975ms)
+✔ [1186/1195] Built S45DataMain.Chunk13:dynlib (78ms)
+✔ [1187/1195] Built S45DataMain.Chunk14:c.o (970ms)
+✔ [1188/1195] Built S45DataMain.Chunk14:dynlib (79ms)
+✔ [1189/1195] Built S45Data.T9Table (902ms)
+✔ [1191/1195] Built S45DataMain.Data (597ms)
+✔ [1192/1195] Built S45DataMain.Data:c.o (53ms)
+✔ [1193/1195] Built S45DataMain.Data:dynlib (31ms)
+✔ [1194/1195] Built S45DataMain (582ms)
+Build completed successfully (1195 jobs).
+maxrss_kb 2441444 secs 11.63 user 113.53 sys 17.36
+end 2026-10-26T00:58:53Z rc=0
+2026-10-26T00:58:53Z end unit=s13-base2-1792976322 rc=0

@@ -1,0 +1,4 @@
+bvs mul_three #1: 2912 nodes, 8351 clauses, 2912 vars; 5543 steps, 89806 hints, 6 chunks; solve 126 ms, prep+defs 765 ms; kernel: base 4090 ms, chunks 26392 ms (max 6270 ms); total 31398 ms
+bvs: added mul_three.bvs4 (655 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'mul_three.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+TIME wall=33.47 s user=33.12 s maxrss=2634536 KB

@@ -1,0 +1,177 @@
+{
+ "name": "Flaman55_StructuralSieve",
+ "pkg": "/home/ntbuild/repos_s/Flaman55_StructuralSieve",
+ "copy_root": "/home/ntbuild/repos_s/Flaman55_StructuralSieve",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0-rc2",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T03:55:05Z",
+ "toolchain": "v4.35.0-rc2",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.3,
+  "built": []
+ },
+ "modules": 14,
+ "before": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "native_files": 1,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 23.22,
+   "cpu": 45.2,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 8.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 23.72,
+   "cpu": 47.0,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 7.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 27.32,
+   "cpu": 52.1,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 8.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 23.73,
+   "cpu": 48.4,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 8.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 25.37,
+   "cpu": 49.1,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 7.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 23.54,
+   "cpu": 48.0,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 2.9,
+   "peak_rss_sum_gb": 8.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 182,
+   "rc": 0,
+   "wall": 24.4,
+   "cpu": 60.3,
+   "n_built": 14,
+   "peak_lean": 6,
+   "peak_rss_gb": 4.1,
+   "peak_rss_sum_gb": 8.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 1
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: StructuralSieve/Erdos.lean:42:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1399 ms)"
+ },
+ "after_hb2": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "fallbacks_hb2": {
+  "budget (heartbeats)": 1
+ },
+ "fallback_examples_hb2": {
+  "budget (heartbeats)": "info: StructuralSieve/Erdos.lean:44:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (13499 ms)"
+ },
+ "reps": 3,
+ "orig_wall_med": 25.37,
+ "orig_cpu_med": 49.1,
+ "kf_wall_med": 23.72,
+ "kf_cpu_med": 48.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T03:58:19Z"
+}

@@ -1,0 +1,5 @@
+'_private.KernelFirstScopeModule.0.ks_cells' depends on axioms: [propext]
+'_private.KernelFirstScopeModule.0.ks_native' does not depend on any axioms
+'_private.KernelFirstScopeModule.0.ks_partial' depends on axioms: [ks_partial._native.native_decide.ax_1_1]
+'_private.KernelFirstScopeModule.0.ks_budget' depends on axioms: [ks_budget._native.decide.ax_1_1]
+rc=0

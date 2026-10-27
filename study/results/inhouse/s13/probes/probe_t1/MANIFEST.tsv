@@ -1,0 +1,10 @@
+T_R_C00000	S45Stage2Run/C00000.lean	Sortnet.Stage2.Run.c00000	Sortnet.Stage2.Run.c00000._native.native_decide.ax_1_1	Sortnet.Stage2.rootsOKP Sortnet.S45Data.theT9Rec Sortnet.S45Data.theHint7Rec Sortnet.S45Data.theS2Data 0 2875 = true
+T_KL_C000	S45Final/Main/Kl/C000.lean	Sortnet.S45Final.Main.Kl.C000.kl	Sortnet.S45Final.Main.Kl.C000.kl._native.native_decide.ax_1_1	klChunk Sortnet.S45Data.Main.dataByte (Sortnet.Facts.fact9 Sortnet.S45Data.theT9Rec Sortnet.S45Data.theHint7Rec) Sortnet.Facts.St9.init 0 31000 485 = true
+T_BFS_D00C000	S45Final/Main/Bfs/D00C000.lean	Sortnet.S45Final.Main.Bfs.D00C000.bfs	Sortnet.S45Final.Main.Bfs.D00C000.bfs._native.native_decide.ax_1_1	bfsChunkLast Sortnet.S45Data.Main.dataByte 0 0 1 = true
+T_H_chunk00	S45Data/T9Hint7Check/Chunk00.lean	Sortnet.S45Data.T9Hint7Check.chunk00	Sortnet.S45Data.T9Hint7Check.chunk00._native.native_decide.ax_1_1	Sortnet.Facts.checkHints Sortnet.S45Data.theHint7Rec 0 813246 32 = true
+T_S_header_info	S45Final/Main/Header.lean	Sortnet.S45Final.Main.header_info	Sortnet.S45Final.Main.header_info._native.native_decide.ax_1_1	headerInfo Sortnet.S45Data.Main.dataByte = (24, 12315738)
+T_S_final_ok	S45Final/Main/Header.lean	Sortnet.S45Final.Main.final_ok	Sortnet.S45Final.Main.final_ok._native.native_decide.ax_1_1	finalOK Sortnet.S45Data.Main.dataByte = true
+T_S_entries	S45Stage2Run/Entries.lean	Sortnet.Stage2.Run.entries	Sortnet.Stage2.Run.entries._native.native_decide.ax_1_1	Sortnet.Stage2.allEntriesOK Sortnet.S45Data.theT9Rec.count (fun i => Sortnet.Facts.natOfBytes (Sortnet.S45Data.theT9Rec.keyAt i)) Sortnet.S45Data.theT9Rec.valAt Sortnet.S45Data.theS2Data Sortnet.S11Data.theCert Sortnet.S11Data.certCount 20000 = true
+T_S_certOK_harder11	S13/S11/Main.lean	Sortnet.certOK_harder11	Sortnet.certOK_harder11._native.native_decide.ax_1_1	certOK theCert certCount 2048 11 35 = true
+T_X_ct4_d12	S45DataCt4/Slice.lean	Sortnet.S45.BFS.ct4_bfs_d12	Sortnet.S45.BFS.ct4_bfs_d12._native.native_decide.ax_1_1	bfsChunkLast dataByte 12 0 16 = true
+T_X_certOK_5	S13/S11/Small.lean	Sortnet.certOK_5	Sortnet.certOK_5._native.native_decide.ax_1_1	certOK cert5 count5 256 5 9 = true

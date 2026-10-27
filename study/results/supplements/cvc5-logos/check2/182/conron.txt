@@ -1,0 +1,2 @@
+con-ron: declined: arena: expr constructor at capacity
+ [at theorem _private.Cpc.Proofs.Rules.String_ext.0.stringExtDeq_eq, fold position 11002] (--verified) t=82.815s

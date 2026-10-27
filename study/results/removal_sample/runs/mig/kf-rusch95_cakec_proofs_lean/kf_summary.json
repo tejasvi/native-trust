@@ -1,0 +1,153 @@
+{
+ "name": "rusch95_cakec_proofs_lean",
+ "pkg": "/home/ntbuild/repos_s/rusch95_cakec/proofs/lean",
+ "copy_root": "/home/ntbuild/repos_s/rusch95_cakec/proofs/lean",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.29.0-rc7",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:00:17Z",
+ "toolchain": "v4.29.0-rc7",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.29,
+  "built": []
+ },
+ "modules": 6,
+ "before": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [
+   "Adversarial",
+   "Grammar",
+   "IRSemantics",
+   "LoweringCorrectness",
+   "Semantics"
+  ],
+  "dirty": 1
+ },
+ "native_files": 4,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 4.55,
+   "cpu": 5.7,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.6,
+   "peak_rss_sum_gb": 0.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 8.15,
+   "cpu": 9.4,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 1.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 5.57,
+   "cpu": 7.0,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 0.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 8.48,
+   "cpu": 9.9,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 1.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 4.59,
+   "cpu": 5.8,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 0.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 42,
+   "rc": 0,
+   "wall": 7.12,
+   "cpu": 8.4,
+   "n_built": 6,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 1.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 0,
+  "by_tactic": {},
+  "failed": [
+   "Adversarial",
+   "Grammar",
+   "IRSemantics",
+   "LoweringCorrectness",
+   "Semantics"
+  ],
+  "dirty": 0
+ },
+ "fallbacks": {},
+ "fallback_examples": {},
+ "reps": 3,
+ "orig_wall_med": 4.59,
+ "orig_cpu_med": 5.8,
+ "kf_wall_med": 8.15,
+ "kf_cpu_med": 9.4,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T05:01:30Z"
+}

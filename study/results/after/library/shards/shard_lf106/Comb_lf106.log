@@ -1,0 +1,21 @@
+$ lean Comb_lf106.lean tc=v4.31.0 ntlib=/home/ntbuild/nt_fix7/v4.31.0/.lake/build/lib/lean start=2026-10-24T08:21:46Z
+Comb_lf106.lean:1:0: error: unknown module prefix 'F2sh_lf106_16'
+
+No directory 'F2sh_lf106_16' or file 'F2sh_lf106_16.olean' in the search path entries:
+/home/ntbuild/nt_fix7/v4.31.0/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/Cli/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/batteries/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/Qq/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/aesop/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/proofwidgets/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/importGraph/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/packages/plausible/.lake/build/lib/lean
+/home/ntbuild/repos/mathlib4/.lake/build/lib/lean
+/home/ntbuild/repos/longfellow-zk/formal/.lake/build/lib/lean
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/lib/lean
+/home/ntbuild/work_resv8/shard/lf106
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/lib/lean
+Command exited with non-zero status 1
+maxrss_kb 933480 secs 0.56
+rc=1 end=2026-10-24T08:21:46Z

@@ -1,0 +1,6 @@
+6,7c6,7
+< CastRetryTest.fact2: castRetry=false failed; castRetry=true proved; axioms [Quot.sound, propext]
+< CastRetryTest.fact2': castRetry=false proved; axioms [Quot.sound, propext]; castRetry=true proved; axioms [Quot.sound, propext]
+---
+> CastRetryTest.fact2: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+> CastRetryTest.fact2': castRetry=false proved; axioms [propext, Quot.sound]; castRetry=true proved; axioms [propext, Quot.sound]

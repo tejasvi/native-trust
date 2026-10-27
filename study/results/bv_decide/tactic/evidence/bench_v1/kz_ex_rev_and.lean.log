@@ -1,0 +1,2 @@
+bvs ex_rev_and #1: 128 nodes, 287 clauses, 128 vars; 68 steps, 261 hints, 1 chunks; solve 15 ms, prep+defs 3 ms; kernel: base 75 ms, chunks 75 ms (max 75 ms); total 172 ms
+bvs: added ex_rev_and.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

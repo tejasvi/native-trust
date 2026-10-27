@@ -1,0 +1,37 @@
+2026-10-23T23:29:12Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=723 plain=lido-srv3-plain study=lido-srv3
+2026-10-23T23:29:42Z census before: 70 native axioms, 84 native-dependent declarations, failed=[]
+2026-10-23T23:29:57Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=723 plain=lido-srv3-plain study=lido-srv3
+2026-10-23T23:29:57Z census before: 70 native axioms, 84 native-dependent declarations, failed=[]
+2026-10-23T23:29:57Z plan: 372 occurrences; {"rewrite": 70, "try": 290, "keep: module not built": 12}; unmatched axioms=0; affected modules=26
+2026-10-23T23:30:25Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=723 plain=lido-srv3-plain study=lido-srv3
+2026-10-23T23:30:25Z census before: 70 native axioms, 84 native-dependent declarations, failed=[]
+2026-10-23T23:30:25Z plan: 372 occurrences; {"rewrite": 70, "try": 290, "keep: module not built": 12}; unmatched axioms=0; affected modules=26
+2026-10-23T23:30:29Z time0: rc=0 wall=4.35 cpu=31.5 built=26 peak_lean=8 errors=0
+2026-10-23T23:34:54Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=722 plain=lido-srv3-plain study=lido-srv3
+2026-10-23T23:34:54Z census before: 70 native axioms, 84 native-dependent declarations, failed=[]
+2026-10-23T23:34:54Z plan: 372 occurrences; {"rewrite": 70, "try": 262, "keep: module not built": 40}; unmatched axioms=0; affected modules=25
+2026-10-23T23:34:55Z build round 0: rc=0 wall=0.69 errors=0 revert=0 unattributed=0 peak_lean=0
+2026-10-23T23:35:06Z time1: rc=0 wall=11.74 cpu=42.6 built=25 peak_lean=8 errors=0
+2026-10-23T23:35:17Z default build: rc=1 wall=10.95 built=55 errors=0
+2026-10-23T23:36:13Z summary {"uses": 372, "replaced": 332, "native_axioms_before": 70, "native_axioms_after": 0, "native_dependent_decls_before": 84, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-23T23:37:32Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=772 plain=lido-srv3-plain study=lido-srv3
+2026-10-23T23:37:32Z census before: 70 native axioms, 84 native-dependent declarations, modules=723, failed=[]
+2026-10-23T23:37:32Z plan: 372 occurrences; {"rewrite": 70, "try": 290, "keep: module not built": 12}; unmatched axioms=0; affected modules=26
+2026-10-23T23:37:37Z time0: rc=0 wall=4.79 cpu=31.0 built=26 peak_lean=7 errors=0
+2026-10-23T23:47:37Z round 0 timed out; still running: ['LidoSRv3/Tests/SszEncodingTxMutants.lean']
+2026-10-23T23:47:37Z build round 0: rc=124 wall=None errors=0 revert=28 unattributed=0 peak_lean=7
+2026-10-23T23:47:37Z build round 1: rc=0 wall=0.53 errors=0 revert=0 unattributed=0 peak_lean=0
+2026-10-23T23:47:49Z time1: rc=0 wall=12.11 cpu=43.1 built=26 peak_lean=7 errors=0
+2026-10-23T23:47:51Z default build: rc=1 wall=1.86 built=0 errors=0
+2026-10-23T23:48:44Z summary {"uses": 372, "replaced": 332, "native_axioms_before": 70, "native_axioms_after": 0, "native_dependent_decls_before": 84, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T00:10:01Z lido-srv3: tc=v4.31.0 files=977 modules=974 built=772 plain=lido-srv3-plain study=lido-srv3
+2026-10-24T00:10:01Z census before: 70 native axioms, 84 native-dependent declarations, modules=723, failed=[]
+2026-10-24T00:10:01Z plan: 372 occurrences; {"rewrite": 70, "try": 290, "keep: module not built": 12}; unmatched axioms=0; affected modules=26
+2026-10-24T00:10:09Z time0: rc=0 wall=7.8 cpu=32.2 built=26 peak_lean=4 peak_rss_gb=2.3 sum=7.0 errors=0
+2026-10-24T00:15:09Z round 0 timed out; still running: ['LidoSRv3/Tests/SszEncodingTxMutants.lean']
+2026-10-24T00:15:09Z build round 0: rc=124 wall=None errors=0 revert=28 bump=0 unattributed=0 peak_lean=4 peak_rss_gb=9.4
+2026-10-24T00:15:10Z build round 1: rc=0 wall=0.71 errors=0 revert=0 bump=0 unattributed=0 peak_lean=0 peak_rss_gb=0.0
+2026-10-24T00:15:25Z time1: rc=0 wall=15.62 cpu=42.6 built=26 peak_lean=4 peak_rss_gb=2.4 sum=6.9 errors=0
+2026-10-24T00:15:28Z default build: rc=0 wall=2.61 built=1 errors=0
+2026-10-24T00:16:14Z summary {"uses": 372, "replaced": 332, "replaced_facts": 70, "native_axioms_before": 70, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 84, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 372, "replaced": 332, "replaced_facts": 70, "native_axioms_before": 70, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 84, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}

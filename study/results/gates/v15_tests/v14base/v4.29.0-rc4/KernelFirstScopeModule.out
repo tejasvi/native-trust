@@ -1,0 +1,5 @@
+KernelFirstScopeModule.lean:38:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+KernelFirstScopeModule.lean:39:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+KernelFirstScopeModule.lean:40:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+KernelFirstScopeModule.lean:41:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+rc=1

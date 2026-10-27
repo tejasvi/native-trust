@@ -1,0 +1,12 @@
+project	totally positive Mahler upper v2 (tpupper), FinalN
+source	supp 10.5281/zenodo.23544557 (totally-positive-mahler-upper-v2 @7614f712cf67)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	65 native axioms (the TUN chunk checks and others), used by the final theorems (logs/lean/axioms_N.out)
+converted	3 of 12 sampled facts (seed 20261026); 0 theorems (each final theorem needs all chunks)
+nt_cpu_h	see summary.md (pass 1 on 12 facts + heavy on 3)
+nt_wall_min	see summary.md
+native_build_cpu_h	lake build TPUpper.FinalN TPUpper.Statement on the box (logs light/logs/build2_tpupper.log); release: about 3 minutes on 96 cores (README.md:146)
+hand_track	TPUpper.FinalK (TUK)
+hand_build_cpu_h	about 35 core-hours (README.md:147)
+checks	driver pass 1 (900 s, 48 GiB) on 12 of 65 axioms: 3 PROVED, 8 out of memory, 1 timeout; heavy (3,600 s, 96 GiB) on 3: 2 out of memory, 1 timeout

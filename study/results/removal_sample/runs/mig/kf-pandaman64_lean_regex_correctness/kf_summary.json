@@ -1,0 +1,177 @@
+{
+ "name": "pandaman64_lean_regex_correctness",
+ "pkg": "/home/ntbuild/repos_s/pandaman64_lean-regex/correctness",
+ "copy_root": "/home/ntbuild/repos_s/pandaman64_lean-regex",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.34.0-rc1",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T04:00:47Z",
+ "toolchain": "v4.34.0-rc1",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.53,
+  "built": []
+ },
+ "modules": 1,
+ "before": {
+  "total": 2,
+  "by_tactic": {
+   "native_decide": 2
+  },
+  "failed": [],
+  "dirty": 4
+ },
+ "native_files": 1,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 2.41,
+   "cpu": 2.8,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.4,
+   "peak_rss_sum_gb": 0.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 2.83,
+   "cpu": 3.0,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 0.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 2.51,
+   "cpu": 2.7,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.4,
+   "peak_rss_sum_gb": 0.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 3.13,
+   "cpu": 3.5,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 0.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 2.42,
+   "cpu": 2.7,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.3,
+   "peak_rss_sum_gb": 0.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 2.78,
+   "cpu": 3.0,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 0.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 13,
+   "rc": 0,
+   "wall": 4.16,
+   "cpu": 4.2,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 0.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 2,
+  "by_tactic": {
+   "native_decide": 2
+  },
+  "failed": [],
+  "dirty": 4
+ },
+ "fallbacks": {
+  "blocked: String.splitOn": 2
+ },
+ "fallback_examples": {
+  "blocked: String.splitOn": "info: RegexCorrectness/Unicode/CaseFold/Data.lean:46:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.splitOn`, `String.Slice.toString`, `String.trimAscii` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visib"
+ },
+ "after_hb2": {
+  "total": 2,
+  "by_tactic": {
+   "native_decide": 2
+  },
+  "failed": [],
+  "dirty": 4
+ },
+ "fallbacks_hb2": {
+  "blocked: String.splitOn": 2
+ },
+ "fallback_examples_hb2": {
+  "blocked: String.splitOn": "info: RegexCorrectness/Unicode/CaseFold/Data.lean:48:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.splitOn`, `String.Slice.toString`, `String.trimAscii` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visib"
+ },
+ "reps": 3,
+ "orig_wall_med": 2.42,
+ "orig_cpu_med": 2.7,
+ "kf_wall_med": 2.83,
+ "kf_cpu_med": 3.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T04:01:20Z"
+}

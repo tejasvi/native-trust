@@ -1,0 +1,2 @@
+orig: native axioms: 601 native axioms in `NTV.Bool_not_ite_elim` | wall_med=34.37 cpu_med=37.15 rss_kb_max=2047688 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.Bool_not_ite_elim` | wall_med=33.99 cpu_med=36.62 rss_kb_max=2161420 runs=3 rc=0 errors=0 kf_fallback=0

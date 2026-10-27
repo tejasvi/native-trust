@@ -1,0 +1,177 @@
+{
+ "name": "Rob1Ham_btc_lean_spec_runners",
+ "pkg": "/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners",
+ "copy_root": "/home/ntbuild/repos_s/Rob1Ham_btc-lean",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:59:24Z",
+ "toolchain": "v4.35.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.6,
+  "built": []
+ },
+ "modules": 3,
+ "before": {
+  "total": 63,
+  "by_tactic": {
+   "native_decide": 63
+  },
+  "failed": [],
+  "dirty": 63
+ },
+ "native_files": 1,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 11.33,
+   "cpu": 19.8,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.9,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 58.14,
+   "cpu": 67.3,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 2.4,
+   "peak_rss_sum_gb": 2.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 11.03,
+   "cpu": 19.4,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.9,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 59.45,
+   "cpu": 68.1,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 2.4,
+   "peak_rss_sum_gb": 2.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 11.34,
+   "cpu": 19.2,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.9,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 57.44,
+   "cpu": 67.8,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 2.4,
+   "peak_rss_sum_gb": 2.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 53.46,
+   "cpu": 61.3,
+   "n_built": 3,
+   "peak_lean": 1,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 2.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 2,
+  "by_tactic": {
+   "native_decide": 2
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 2,
+  "well-founded recursion": 25
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: BitcoinVectors/Gen/Compiled.lean:379:732: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (44032 ms)",
+  "well-founded recursion": "info: BitcoinVectors/Gen/Compiled.lean:607:54: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via BitcoinVectors.scrVerdict \u2192 Bitcoin.Interpreter.parsePolicyFlags \u2192 Bitcoin.Interpreter.polHas \u2192 String.splitOn): `decide +kernel` cannot evaluate it; Nat"
+ },
+ "after_hb2": {
+  "total": 0,
+  "by_tactic": {},
+  "failed": [],
+  "dirty": 0
+ },
+ "fallbacks_hb2": {
+  "well-founded recursion": 25
+ },
+ "fallback_examples_hb2": {
+  "well-founded recursion": "info: BitcoinVectors/Gen/Compiled.lean:609:54: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via BitcoinVectors.scrVerdict \u2192 Bitcoin.Interpreter.parsePolicyFlags \u2192 Bitcoin.Interpreter.polHas \u2192 String.splitOn): `decide +kernel` cannot evaluate it; Nat"
+ },
+ "reps": 3,
+ "orig_wall_med": 11.33,
+ "orig_cpu_med": 19.4,
+ "kf_wall_med": 58.14,
+ "kf_cpu_med": 67.8,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T06:03:56Z"
+}

@@ -1,0 +1,196 @@
+{
+ "mig zcash_ironwood default": {
+  "kind": "axiom-pinning check",
+  "n_errors": 296,
+  "n_audit": 296,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [
+   "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+   "Zcash.TrustBoundary"
+  ],
+  "other_modules": [],
+  "failed_without_errors": [],
+  "other_examples": [],
+  "dir": "/home/ntbuild/work_migsample/mig/s2_zcash_ironwood"
+ },
+ "kf zcash_ironwood kf_1": {
+  "kind": "axiom-pinning check",
+  "n_errors": 154,
+  "n_audit": 154,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [
+   "Zcash.Meta.Tests.AxiomCheck",
+   "Zcash.Meta.Tests.NativeSurface",
+   "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+   "Zcash.TrustBoundary"
+  ],
+  "other_modules": [],
+  "failed_without_errors": [],
+  "other_examples": [],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-zcash_ironwood"
+ },
+ "kf zcash_ironwood kf_hb2": {
+  "kind": "axiom-pinning check",
+  "n_errors": 299,
+  "n_audit": 299,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [
+   "Zcash.Meta.Tests.AxiomCheck",
+   "Zcash.Meta.Tests.NativeSurface",
+   "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+   "Zcash.TrustBoundary"
+  ],
+  "other_modules": [],
+  "failed_without_errors": [],
+  "other_examples": [],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-zcash_ironwood"
+ },
+ "kf emberian_minidregg kf_1": {
+  "kind": "axiom-pinning check",
+  "n_errors": 31,
+  "n_audit": 31,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [
+   "Assurance.ObjectiveDemandPhysicalChecks",
+   "Assurance.ObliviousNetworkChecks",
+   "Compiler.BendCommittedNetworkChecks",
+   "Compiler.Blake3Kat",
+   "Compiler.LegacyStoreCarryChecks",
+   "Compiler.ObjectiveBendLaw",
+   "Compiler.ObliviousUnrollChecks",
+   "Kernel.WorldKindChecks",
+   "Theory.Sp800185Cshake256Conformance"
+  ],
+  "other_modules": [],
+  "failed_without_errors": [],
+  "other_examples": [],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-emberian_minidregg"
+ },
+ "kf emberian_minidregg kf_hb2": {
+  "kind": "axiom-pinning check",
+  "n_errors": 33,
+  "n_audit": 33,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [
+   "Assurance.ObjectiveDemandPhysicalChecks",
+   "Assurance.ObliviousNetworkChecks",
+   "Compiler.BendCommittedNetworkChecks",
+   "Compiler.Blake3Kat",
+   "Compiler.LegacyStoreCarryChecks",
+   "Compiler.ObjectiveBendLaw",
+   "Compiler.ObliviousUnrollChecks",
+   "Kernel.WorldKindChecks",
+   "Theory.ObjectiveBendDigestChecks",
+   "Theory.Sp800185Cshake256Conformance"
+  ],
+  "other_modules": [],
+  "failed_without_errors": [],
+  "other_examples": [],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-emberian_minidregg"
+ },
+ "kf justrach_codegraff_lean_proofs kf_1": {
+  "kind": "build failure",
+  "n_errors": 53,
+  "n_audit": 0,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [],
+  "other_modules": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "failed_without_errors": [],
+  "other_examples": [
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class"
+  ],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs"
+ },
+ "kf justrach_codegraff_lean_proofs kf_2": {
+  "kind": "build failure",
+  "n_errors": 53,
+  "n_audit": 0,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [],
+  "other_modules": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "failed_without_errors": [],
+  "other_examples": [
+   "Graff/Transport.lean:109: failed to synthesize instance of type class",
+   "Graff/Transport.lean:109: failed to synthesize instance of type class",
+   "Graff/Transport.lean:109: failed to synthesize instance of type class",
+   "Graff/Transport.lean:109: failed to synthesize instance of type class",
+   "Graff/Transport.lean:109: failed to synthesize instance of type class"
+  ],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs"
+ },
+ "kf justrach_codegraff_lean_proofs kf_3": {
+  "kind": "build failure",
+  "n_errors": 53,
+  "n_audit": 0,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [],
+  "other_modules": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "failed_without_errors": [],
+  "other_examples": [
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:75: failed to synthesize instance of type class"
+  ],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs"
+ },
+ "kf justrach_codegraff_lean_proofs kf_hb2": {
+  "kind": "build failure",
+  "n_errors": 53,
+  "n_audit": 0,
+  "n_message_pin_kernel_first": 0,
+  "audit_modules": [],
+  "other_modules": [
+   "Graff.GoalLoop",
+   "Graff.PathConfine",
+   "Graff.PromptCache",
+   "Graff.Score",
+   "Graff.ToolCatalog",
+   "Graff.Transport"
+  ],
+  "failed_without_errors": [],
+  "other_examples": [
+   "Graff/PromptCache.lean:77: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:77: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:77: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:77: failed to synthesize instance of type class",
+   "Graff/PromptCache.lean:77: failed to synthesize instance of type class"
+  ],
+  "dir": "/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs"
+ }
+}

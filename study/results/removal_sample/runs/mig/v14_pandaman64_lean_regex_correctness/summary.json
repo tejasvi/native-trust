@@ -1,0 +1,95 @@
+{
+ "name": "v14_pandaman64_lean_regex_correctness",
+ "pkg": "/home/ntbuild/repos_s/pandaman64_lean-regex/correctness",
+ "toolchain": "v4.34.0-rc1",
+ "uses": 2,
+ "replaced": 0,
+ "replaced_known": 0,
+ "replaced_unknown": 0,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: BLOCKED (`_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083`)": 2
+ },
+ "native_axioms_before": 2,
+ "native_axioms_after": 2,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 4,
+ "native_dependent_decls_after": 4,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 0.48,
+   "cpu": 0.6,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 33.41,
+  "cpu": 109.2,
+  "n_built": 116,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.9,
+  "peak_rss_sum_gb": 3.0
+ },
+ "time1": {
+  "wall": 0.46,
+  "cpu": 0.5,
+  "n_built": 0,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.47,
+  "cpu": 0.4,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 0,
+ "replaced_modules": 0,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 2
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [],
+ "module_times_sum": [
+  0,
+  0
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

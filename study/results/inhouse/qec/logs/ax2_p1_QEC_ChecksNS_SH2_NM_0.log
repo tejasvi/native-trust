@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksNS_SH2_NM_0.olean F2_p1_QEC_ChecksNS_SH2_NM_0.lean
+NT start nmaxOKSH2._native.native_decide.ax_1_1
+NT nested nmaxOKSH2._native.native_decide.ax_1_1 ms=6 rebuilt_defs=0 visited=296
+NT _ktr.F2_p1_QEC_ChecksNS_SH2_NM_0.nmaxOKSH2._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNS_SH2_NM_0.nmaxOKSH2._kernel.native_decide.ax_1_1 eval_ms=78
+NT _ktr.F2_p1_QEC_ChecksNS_SH2_NM_0.nmaxOKSH2._kernel.native_decide.ax_1_1 quick whole-term attempt proved it
+PROVED `nmaxOKSH2._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksNS_SH2_NM_0.nmaxOKSH2._kernel.native_decide.ax_1_1`: kernel_ms=81 native_axioms=1 rebuilt=0 copies=0 total_ms=87 acc_fallback=0 pieces=1
+PROVED `nmaxOKSH2._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksNS_SH2_NM_0.nmaxOKSH2._kernel.native_decide.ax_1_1`: kernel_ms=81 native_axioms=1 rebuilt=0 copies=0 total_ms=87 acc_fallback=0 pieces=1
+maxrss_kb 3931596
+rc=0 secs=2 cg_cpu_s=1.7 cg_peak_kb=395592 cg_oom_kill=0

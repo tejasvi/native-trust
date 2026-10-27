@@ -1,0 +1,8 @@
+bvs Clean.Gadgets.Or.Or8: 1 bv_decide axioms
+bvs _private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._native.bv_decide.ax_1_5: 434 nodes, 1205 clauses, 434 vars; 385 steps, 5319 hints, 1 chunks; solve 42 ms, prep+defs 27 ms; kernel: base 424 ms, chunks 1244 ms (max 1244 ms); total 1762 ms; axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs _private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=3.03 s user=2.64 s maxrss=2994332 KB

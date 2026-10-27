@@ -1,0 +1,6 @@
+$ lean Comb_bx4.lean tc=v4.34.0-rc2 ntlib=/home/ntbuild/nt_fix7/v4.34.0-rc2/.lake/build/lib/lean start=2026-10-24T11:21:25Z
+PROVED `_private.BerryEsseen.Upper0423.Uniform.Data.Chunk4.0.BerryEsseen.Upper0423.Uniform.Data.chunk4._native.native_decide.ax_1_1` as `_ktshard._private.BerryEsseen.Upper0423.Uniform.Data.Chunk4.0.BerryEsseen.Upper0423.Uniform.Data.chunk4._kernel.native_decide.ax_1_1`: kernel_ms=9358 native_axioms=1 rebuilt=0 copies=0 total_ms=11117 acc_fallback=0 pieces=176
+maxrss_kb 4933436 secs 12.98
+rc=0 end=2026-10-24T11:21:38Z
+e_decide.ax_1_1 pieces=176
+PROVED `_private.BerryEsseen.Upper0423.Uniform.Data.Chunk4.0.BerryEsseen.Upper0423.Uniform.Data.chunk4._native.native_decide.ax_1_1` as `_ktshard._private.BerryEsseen.Upper0423.Uniform.Data.Chunk4.0.BerryEsseen.Upper0423.Uniform.Data.chunk4._kernel.native_decide.ax_1_1`: kernel_ms=9358 native_axioms=1 rebuilt=0 copies=0 total_ms=11117 acc_fallback=0 pieces=176

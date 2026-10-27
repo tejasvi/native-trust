@@ -1,0 +1,15 @@
+BVS_STATS	Model.CompositeHeader	0	nodes=18768	clauses=56111	steps=3200	hints=7142	chunks=2	base_ms=40563	chunk_ms=4321
+BVS_UNSAT	Model.CompositeHeader	0	Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9	3200	0	44884	46732	bvsg_Model_CompositeHeader_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Model.CompositeHeader	1	nodes=324	clauses=923	steps=450	hints=7232	chunks=1	base_ms=619	chunk_ms=1114
+BVS_UNSAT	Model.CompositeHeader	1	Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9	450	0	1733	1864	bvsg_Model_CompositeHeader_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Proofs.Serialization	0	nodes=33	clauses=2	steps=1	hints=2	chunks=1	base_ms=45	chunk_ms=1
+BVS_UNSAT	Proofs.Serialization	0	Proofs.Serialization.readBe32_be32._native.bv_decide.ax_1_9	1	0	46	100	bvsg_Proofs_Serialization_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Model.CompositeHeader.readBe16_be16	bvsg_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	Model.CompositeHeader.readBe64_be64	bvsg_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=11	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.readBe32_be32	bvsg_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.readBe32_be32_nil	bvsg_4	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.decode_encode_composite	bvsg_5	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=35	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.decodeBundle_encodeBundle	bvsg_6	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=40	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.decode_encode	bvsg_7	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_DONE	[Model.CompositeHeader, Proofs.Serialization]	facts=3	converted=3	all_unsat_ok=true	users=7	users_std=7	users_axiom_left=0	users_failed=0
+TIME wall=53.24 s user=52.17 s maxrss=9092564 KB

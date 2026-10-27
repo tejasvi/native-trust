@@ -1,0 +1,26 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_CpcMini_Proofs_TypePreservation_0.lean
+NT start _private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._native.native_decide.ax_1_1
+NT nested _private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._native.native_decide.ax_1_1 ms=228 rebuilt_defs=0 visited=4008
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_0 eval_ms=1
+NT copy Smtm.__smtx_typeof_dt_cons_value_rec._unary defn_ms=0 eq_ms=2 congr=true
+NT copy Smtm.__smtx_typeof_dt_cons_value_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Smtm.__smtx_typeof_value._f defn_ms=1 eq_ms=1 congr=true
+NT copy Smtm.__smtx_typeof_value defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_1 blockers_ms=9 bounded=false copy_ms=14 copies=4 copy_kernel_ms=4
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_1 eval_ms=2
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_2 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_2 eval_ms=0
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_3 blockers_ms=8 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_3 eval_ms=2
+NT copy Smtm.native_inhabited_type defn_ms=0 eq_ms=0 congr=true
+NT copy Smtm.__smtx_type_wf_rec._f defn_ms=0 eq_ms=1 congr=true
+NT copy Smtm.__smtx_dt_cons_wf_rec._f defn_ms=1 eq_ms=0 congr=true
+NT copy Smtm.__smtx_decl_wf_rec._f defn_ms=1 eq_ms=0 congr=true
+NT copy Smtm.__smtx_type_wf_rec defn_ms=0 eq_ms=2 congr=true
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_4 blockers_ms=9 bounded=false copy_ms=14 copies=5 copy_kernel_ms=5
+NT _ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1.p_4 eval_ms=0
+PROVED `_private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._native.native_decide.ax_1_1` as `_ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1`: kernel_ms=85 native_axioms=1 rebuilt=0 copies=9 total_ms=313
+PROVED `_private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._native.native_decide.ax_1_1` as `_ktr.F2_CpcMini_Proofs_TypePreservation_0._private.CpcMini.Proofs.TypePreservation.0.Smtm.mini_seq_char_wf._kernel.native_decide.ax_1_1`: kernel_ms=85 native_axioms=1 rebuilt=0 copies=9 total_ms=313
+maxrss_kb 1600880
+rc=0 secs=1

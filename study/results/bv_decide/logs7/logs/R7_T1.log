@@ -1,0 +1,20 @@
+bvs t1 #1: 192 nodes, 479 clauses, 192 vars; 103 steps, 506 hints, 1 chunks; solve 30 ms, prep+defs 8 ms; kernel: base 212 ms, chunks 261 ms (max 261 ms); total 1896 ms
+bvs: added t1.bvs4 (8 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs t2 #1: 198 nodes, 545 clauses, 198 vars; 130 steps, 1187 hints, 1 chunks; solve 30 ms, prep+defs 10 ms; kernel: base 247 ms, chunks 416 ms (max 416 ms); total 709 ms
+bvs: added t2.bvs4 (11 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs s4 #1: 406 nodes, 1121 clauses, 406 vars; 282 steps, 3059 hints, 1 chunks; solve 32 ms, prep+defs 25 ms; kernel: base 528 ms, chunks 1114 ms (max 1114 ms); total 1703 ms
+bvs: added s4.bvs4 (18 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs m8 #1: 834 nodes, 2453 clauses, 834 vars; 37524 steps, 1379909 hints, 70 chunks; solve 589 ms, prep+defs 6582 ms; kernel: base 2047 ms, chunks 272605 ms (max 5678 ms); total 282058 ms
+bvs: added m8.bvs4 (12187 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs d8 #1: 1326 nodes, 3929 clauses, 1326 vars; 11975 steps, 457479 hints, 24 chunks; solve 287 ms, prep+defs 3879 ms; kernel: base 2308 ms, chunks 86308 ms (max 5031 ms); total 92832 ms
+bvs: added d8.bvs4 (3208 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'t1' depends on axioms: [propext, Classical.choice, Quot.sound, t1._native.bv_decide.ax_1_5]
+'t1.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'d8.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+R7_T1.lean:22:30: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+TIME wall=397.99 s user=398.56 s maxrss=3240120 KB

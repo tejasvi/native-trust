@@ -1,0 +1,17 @@
+bvs sh1 #1: 1067 nodes, 3104 clauses, 1067 vars; 1030 steps, 23740 hints, 2 chunks; solve 31 ms, prep+defs 95 ms; kernel: base 1344 ms, chunks 4610 ms (max 3358 ms); total 6132 ms
+bvs: added sh1.bvs4 (70 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+R7_T6.lean:15:0: error: bvs: no `unsat_of_verifyBVExpr_eq_true` in sh2
+bvs sh3 #1: 418 nodes, 1202 clauses, 418 vars; 44 steps, 134 hints, 1 chunks; solve 28 ms, prep+defs 6 ms; kernel: base 549 ms, chunks 38 ms (max 38 ms); total 625 ms
+bvs: added sh3.bvs4 (8 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ro1 #1: 17 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 28 ms, prep+defs 1 ms; kernel: base 20 ms, chunks 1 ms (max 1 ms); total 52 ms
+bvs: added ro1.bvs4 (3 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ro2 #1: 17 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 25 ms, prep+defs 0 ms; kernel: base 31 ms, chunks 1 ms (max 1 ms); total 60 ms
+bvs: added ro2.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs rp1 #1: 5 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 25 ms, prep+defs 1 ms; kernel: base 10 ms, chunks 1 ms (max 1 ms); total 39 ms
+bvs: added rp1.bvs4 (2 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs sa1 #1: 17 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 24 ms, prep+defs 1 ms; kernel: base 35 ms, chunks 1 ms (max 1 ms); total 64 ms
+bvs: added sa1.bvs4 (3 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'sh1.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ro2.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+Command exited with non-zero status 1
+TIME wall=7.87 s user=7.50 s maxrss=2200068 KB

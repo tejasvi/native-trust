@@ -1,0 +1,177 @@
+{
+ "name": "BobDyLean_bobdylean_paper_artifact",
+ "pkg": "/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact",
+ "copy_root": "/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.32.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:33:02Z",
+ "toolchain": "v4.32.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.13,
+  "built": []
+ },
+ "modules": 80,
+ "before": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 14
+ },
+ "native_files": 6,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 42.42,
+   "cpu": 140.2,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.9,
+   "peak_rss_sum_gb": 6.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 43.73,
+   "cpu": 142.3,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.0,
+   "peak_rss_sum_gb": 6.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 44.35,
+   "cpu": 143.2,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.9,
+   "peak_rss_sum_gb": 6.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 43.19,
+   "cpu": 140.5,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.0,
+   "peak_rss_sum_gb": 6.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 42.59,
+   "cpu": 138.6,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.0,
+   "peak_rss_sum_gb": 6.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 42.91,
+   "cpu": 136.0,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 0.9,
+   "peak_rss_sum_gb": 6.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 1040,
+   "rc": 0,
+   "wall": 43.74,
+   "cpu": 142.7,
+   "n_built": 80,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.1,
+   "peak_rss_sum_gb": 6.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 14
+ },
+ "fallbacks": {
+  "blocked: DY.Trace.getEventAt": 14
+ },
+ "fallback_examples": {
+  "blocked: DY.Trace.getEventAt": "info: Examples/ACME/WithDEO/Attack.lean:185:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `DY.Trace.getEventAt`, `DY.Traceful.run`, `DY.Trace.length` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definiti"
+ },
+ "after_hb2": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 14
+ },
+ "fallbacks_hb2": {
+  "blocked: DY.Trace.getEventAt": 14
+ },
+ "fallback_examples_hb2": {
+  "blocked: DY.Trace.getEventAt": "info: Examples/ACME/WithDEO/Attack.lean:187:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `DY.Trace.getEventAt`, `DY.Traceful.run`, `DY.Trace.length` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definiti"
+ },
+ "reps": 3,
+ "orig_wall_med": 42.59,
+ "orig_cpu_med": 140.2,
+ "kf_wall_med": 43.19,
+ "kf_cpu_med": 140.5,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:38:09Z"
+}

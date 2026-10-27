@@ -1,0 +1,2 @@
+bv_kdecide: bv_decide 243 ms; 575 nodes, 1679 clauses, 6837 LRAT steps, 303653 hints, 16 chunks; SAT 1064 ms, data 290 ms; kernel: base 612 ms, chunks 37977 ms (max 3505 ms), assembly 178 ms; total 40898 ms
+'mulassoc_w5' depends on axioms: [propext, Classical.choice, Quot.sound]

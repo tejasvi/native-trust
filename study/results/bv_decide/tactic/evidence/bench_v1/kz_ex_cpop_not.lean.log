@@ -1,0 +1,2 @@
+bvs ex_cpop_not #1: 1131 nodes, 3344 clauses, 1131 vars; 1947 steps, 40472 hints, 3 chunks; solve 44 ms, prep+defs 178 ms; kernel: base 1249 ms, chunks 6422 ms (max 3575 ms); total 7902 ms
+bvs: added ex_cpop_not.bvs4 (98 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

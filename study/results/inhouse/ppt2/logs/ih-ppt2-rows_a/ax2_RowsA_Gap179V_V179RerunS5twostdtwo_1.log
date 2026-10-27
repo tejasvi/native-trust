@@ -1,0 +1,157 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.lean
+NT start RowsA.Gap179V.rerun_S5twostdtwo_sep._native.native_decide.ax_1
+NT nested RowsA.Gap179V.rerun_S5twostdtwo_sep._native.native_decide.ax_1 ms=288 rebuilt_defs=0 visited=5257
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRow
+NT copy RowsA.Gap179.parseNatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRows
+NT copy RowsA.Gap179.parseNatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.suppS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.suppS defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.supp
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.supp defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.parseRat
+NT copy RowsA.Gap179.parseRat defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.parseRatRow
+NT copy RowsA.Gap179.parseRatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRows
+NT copy RowsA.Gap179.parseRatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.compsS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.compsS defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.comps
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.comps defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q0
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q0 defn_ms=22 eq_ms=60 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q1
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q1 defn_ms=9 eq_ms=25 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q2
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q2 defn_ms=19 eq_ms=59 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q3
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q3 defn_ms=14 eq_ms=43 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q4
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q4 defn_ms=19 eq_ms=59 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q5
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q5 defn_ms=12 eq_ms=38 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.Q
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.Q defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.Q13
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.Q13 defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZI
+NT copy RowsA.Gap179.parseZI defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.parseZIRows
+NT copy RowsA.Gap179.parseZIRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsIS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsIS defn_ms=0 eq_ms=3 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsI
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsI defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysIS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysIS defn_ms=1 eq_ms=3 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysI
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysI defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZW
+NT copy RowsA.Gap179.parseZW defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZWRows
+NT copy RowsA.Gap179.parseZWRows defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsW
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsW defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysW
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysW defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.pts
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.pts defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=548 copies=33 copy_kernel_ms=397 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_0 blockers_ms=5 bounded=true copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRow
+NT copy RowsA.Gap179.parseNatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.parseNatRows
+NT copy RowsA.Gap179.parseNatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.suppS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.suppS defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.supp
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.supp defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRat
+NT copy RowsA.Gap179.parseRat defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.parseRatRow
+NT copy RowsA.Gap179.parseRatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRows
+NT copy RowsA.Gap179.parseRatRows defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.compsS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.compsS defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.comps
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.comps defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_0 blockers_ms=8 bounded=false copy_ms=22 copies=18 copy_kernel_ms=10 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_0 eval_ms=229802
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1 structure all-by-index length=24 pieces=4
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_1 blockers_ms=8 bounded=true copy_ms=14 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_1 retry-repl
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q0
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q0 defn_ms=20 eq_ms=411 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q1
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q1 defn_ms=8 eq_ms=58 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q2
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q2 defn_ms=20 eq_ms=61 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q3
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q3 defn_ms=15 eq_ms=43 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q4
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q4 defn_ms=20 eq_ms=62 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.q5
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.q5 defn_ms=13 eq_ms=41 congr=true
+NT copying RowsA.Gap179.Gap179SymPair5twotwo.Q
+NT copy RowsA.Gap179.Gap179SymPair5twotwo.Q defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.Q13
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.Q13 defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZI
+NT copy RowsA.Gap179.parseZI defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZIRows
+NT copy RowsA.Gap179.parseZIRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsIS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsIS defn_ms=1 eq_ms=3 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsI
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsI defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysIS
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysIS defn_ms=1 eq_ms=3 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysI
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysI defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZW
+NT copy RowsA.Gap179.parseZW defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseZWRows
+NT copy RowsA.Gap179.parseZWRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.xsW
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.xsW defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.ysW
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.ysW defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Gap179Sym5twostdtwo.pts
+NT copy RowsA.Gap179.Gap179Sym5twostdtwo.pts defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunS5twostdtwo_1.RowsA.Gap179V.rerun_S5twostdtwo_sep._kernel.native_decide.ax_1.p_1 blockers_ms=12 bounded=false copy_ms=932 copies=19 copy_kernel_ms=784 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46023860
+rc=1 secs=564

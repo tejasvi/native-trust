@@ -1,0 +1,42 @@
+$ lean s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.lean tc=v4.30.0 ntlib=/home/ntbuild/work_shared/nt22/v4.30.0/.lake/build/lib/lean start=2026-10-24T21:17:12Z
+PROVED `Rimalloc.bin_fits_bytes._native.native_decide.ax_1_1` as `_ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1`: kernel_ms=78174 native_axioms=1 rebuilt=0 copies=0 total_ms=78182 acc_fallback=0 pieces=16
+maxrss_kb 2620188 secs 78.69
+rc=0 end=2026-10-24T21:18:30Z
+_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1 structure forall-lt as List.all over List.range
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1 structure all-by-index length=65537 pieces=16
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_0 eval_ms=3079
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_1 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_1 eval_ms=3755
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_2 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_2 eval_ms=3930
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_3 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_3 eval_ms=4000
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_4 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_4 eval_ms=4235
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_5 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_5 eval_ms=4426
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_6 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_6 eval_ms=4548
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_7 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_7 eval_ms=4689
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_8 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_8 eval_ms=4987
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_9 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_9 eval_ms=5085
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_10 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_10 eval_ms=5211
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_11 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_11 eval_ms=5424
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_12 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_12 eval_ms=5575
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_13 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_13 eval_ms=5718
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_14 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_14 eval_ms=5742
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_15 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1.p_15 eval_ms=5560
+NT _ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1 pieces=16
+PROVED `Rimalloc.bin_fits_bytes._native.native_decide.ax_1_1` as `_ktr.s_moggedhedien_rimalloc_verify__F2_RimallocVerify_Bins_1.Rimalloc.bin_fits_bytes._kernel.native_decide.ax_1_1`: kernel_ms=78174 native_axioms=1 rebuilt=0 copies=0 total_ms=78182 acc_fallback=0 pieces=16

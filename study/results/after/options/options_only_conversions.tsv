@@ -1,0 +1,49 @@
+package	axiom	minimal options (from the controls)	run on v13 (build nt22)	secs	GB	budget	secs on nt30 (r30, not adopted)	GB on nt30
+formal-conjectures	_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_10	csimp	nt22 c22c	7.02	10.0	1500 s	7.44	10.0
+formal-conjectures	_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_9	csimp	nt22 c22c	2.92	7.1	1500 s	3.06	7.1
+formal-conjectures	_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_2._native.native_decide.ax_1_1	csimp	nt22 c22c	3.04	7.1	1500 s	3.16	7.1
+formal-conjectures	_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._native.native_decide.ax_1_1	csimp	nt22 c22c	16.33	8.8	1500 s	16.84	8.8
+formal-conjectures	_private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._native.decide.ax_1_1	csimp	nt22 c22c	2.89	7.1	1500 s	3.00	7.1
+formal-conjectures	_private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._native.decide.ax_1_2	csimp	nt22 c22c	2.91	7.1	1500 s	3.00	7.1
+formal-conjectures	_private.FormalConjectures.Wikipedia.WolstenholmePrime.0.WolstenholmePrime.wolstenholme_prime_16483._native.native_decide.ax_1_1	csimp	nt22 c22c	3.91	7.8	1500 s	4.07	7.8
+humanfia-icho2026	IChO2026Problems.Icho2026T6A6.structure_p._native.native_decide.ax_1_2	propSplit + split 16 (no stage, no csimp)	nt22 c22p	237.85	23.7	1500 s	243.03	23.7
+humanfia-icho2026	IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit._native.native_decide.ax_1_4	stage + csimp + propSplit + split 16	nt22 c22p	622.29	10.6	1500 s	704.37	10.6
+humanfia-icho2026	_private.IChO2026Problems.problem_icho_2026_t3_a5.0.IChO2026Problems.Icho2026T3A5.macrocycleRepeatRawProof._native.native_decide.ax_1_30	propSplit + split 16 (no stage, no csimp)	nt22 c22p	20.06	9.9	1500 s	21.21	9.9
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._native.native_decide.ax_1_6	csimp	nt22 c22c	441.42	33.5	1500 s	443.22	33.5
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_parameters._native.native_decide.ax_1_6	propSplit + split 16 (no stage, no csimp)	nt22 lf22	3.43	3.2	1500 s	3.62	3.2
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_parameters._native.native_decide.ax_1_6	propSplit + split 16 (no stage, no csimp)	nt22 lf22	3.59	3.2	1500 s	3.59	3.2
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_6	csimp + propSplit + split 16 (no stage)	nt22 lf22	3.56	3.2	1500 s	3.48	3.2
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_parameters._native.native_decide.ax_1_6	csimp + propSplit + split 16 (no stage)	nt22 lf22	3.68	3.0	1500 s	3.46	3.2
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_parameters._native.native_decide.ax_1_6	csimp + propSplit + split 16 (no stage)	nt22 lf22	3.72	3.2	1500 s	3.49	3.2
+longfellow-zk	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_6	csimp + propSplit + split 16 (no stage)	nt22 lf22	3.61	3.2	1500 s	3.67	3.2
+longfellow-zk	RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._native.native_decide.ax_1_7	csimp + propSplit + split 16 (no stage)	nt22 lf22	1.62	3.7	1500 s	1.60	3.7
+s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Property.Y10.MerkleProps.casea23._native.native_decide.ax_1_1	stage	nt22 c22s	872.64	8.0	1500 s	874.53	8.0
+s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Property.Y10.MerkleProps.casea24._native.native_decide.ax_1_1	stage	nt22 c22s	903.58	8.0	1500 s	930.20	8.0
+s_clementefalcone_goya_ledger_formal	GoyaFormal.instFactPrimeQ._native.native_decide.ax_1	csimp	nt22 c22c	1.15	2.3	1500 s	1.55	2.4
+s_moggedhedien_rimalloc_verify	Rimalloc.bin_fits_bytes._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	106.46	2.5	1500 s	108.80	2.6
+s_moggedhedien_rimalloc_verify	Rimalloc.pageStart_align16._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	583.87	9.8	1500 s	599.14	9.8
+s_moggedhedien_rimalloc_verify	Rimalloc.pageStart_blockAligned._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	531.89	9.7	1500 s	547.18	10.1
+s_moggedhedien_rimalloc_verify	Rimalloc.pageStart_fits._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	569.56	10.4	1500 s	585.29	10.4
+s_zcash_ironwood	Zcash.Snark.Fixture2.instance_commitments_derived._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	841.40	4.9	1500 s	839.98	4.9
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_advice_commitments_first_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	181.49	31.6	1500 s	184.31	31.6
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_advice_commitments_last_column_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	185.23	32.0	1500 s	186.63	32.1
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_advice_commitments_last_proof_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	190.45	31.8	1500 s	185.37	31.8
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_h_pieces_last_piece_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	185.76	31.6	1500 s	187.24	31.6
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_lookup_permuted_input_first_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	190.23	32.3	1500 s	186.99	32.3
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_lookup_permuted_input_last_lookup_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	186.77	32.3	1500 s	189.58	32.3
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_lookup_permuted_input_last_proof_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	190.94	32.3	1500 s	189.97	32.3
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_lookup_permuted_table_last_proof_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	177.93	30.3	1500 s	180.88	30.3
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_lookup_product_first_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	185.91	31.7	1500 s	184.09	31.7
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_permutation_product_first_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	186.28	32.2	1500 s	186.63	32.2
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	188.88	32.2	1500 s	188.10	32.2
+s_zcash_ironwood	Zcash.Snark.Fixture2.sweep_vanishing_random_mismatch._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	183.23	31.4	1500 s	183.97	31.4
+s_zcash_ironwood	Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	567.75	5.0	1500 s	586.55	5.0
+s_zcash_ironwood	Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, with the shared staging module (stage_native_axiom_nth)	nt22 c22z	1143.15	4.9	1500 s	1149.14	5.0
+s_zcash_ironwood	Zcash.Snark.PostNu63Fixture.captures_use_same_ursG._native.native_decide.ax_1_1	stage	nt22 c22s	193.97	6.9	1500 s	213.38	6.9
+s_zcash_ironwood	Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1	stage	nt22 c22s	197.96	6.9	1500 s	218.38	6.9
+s_zcash_ironwood	Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1	stage	nt22 c22s	194.68	6.9	1500 s	216.43	6.9
+sounio	Sounio.FanoLabellingOrbits.fano_labelling_orbits_count._native.native_decide.ax_1_1	stage	nt22 c22s	312.95	4.5	1500 s	342.28	4.5
+sounio	Sounio.FanoLabellingOrbits.lagrange_consistency._native.native_decide.ax_1_1	stage	nt22 c22s	311.46	4.5	1500 s	348.07	4.5
+trainverify	TrainVerify.Denote.GeneratedPatterns.all_initGoal_tps_not_written._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	220.36	6.2	1500 s	223.94	6.2
+trainverify	_private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._native.native_decide.ax_1_1	stage + csimp + propSplit + split 16, 3000 s budget	nt22 lr6	1553.85	6.6	3000 s	1541.06	6.6
+trainverify	_private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_sm_filter_eq._native.native_decide.ax_1_1	propSplit + split 16 (no stage, no csimp)	nt22 c22p	339.89	6.6	1500 s	342.22	6.6

@@ -1,0 +1,36 @@
+{
+"plan": {
+"n_occ": 1,
+"affected": [
+"StructuralSieve.Erdos"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 1
+}
+},
+"occs": [
+{
+"file": "StructuralSieve/Erdos.lean",
+"start": 2010,
+"end": 2023,
+"line": 41,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "StructuralSieve.Erdos",
+"facts": [
+"_private.StructuralSieve.Erdos.0.StructuralSieve.small_window_prime._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+}
+]
+}

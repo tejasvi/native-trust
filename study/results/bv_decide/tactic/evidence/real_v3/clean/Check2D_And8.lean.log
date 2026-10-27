@@ -1,0 +1,1 @@
+CHECK2 RealD.And8: 59 constants, 1 `_native` names; 29 theorems/definitions: 23 standard axioms only, 6 use this module's native axioms [Gadgets.And.And8.and_times_two_add_xor, Gadgets.And.And8.circuit, Gadgets.And.And8.xor_le_add, Gadgets.And.And8.completeness, Gadgets.And.And8.two_and_le_add, Gadgets.And.And8.soundness], 0 use only imported native axioms [], 0 other

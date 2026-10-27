@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23.lean
+NT start _private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._native.native_decide.ax_1_1
+NT nested _private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._native.native_decide.ax_1_1 ms=9 rebuilt_defs=0 visited=325
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23._private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23._private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._kernel.native_decide.ax_1_1 eval_ms=0
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23._private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._kernel.native_decide.ax_1_1 quick whole-term attempt proved it
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23._private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._kernel.native_decide.ax_1_1`: kernel_ms=4 native_axioms=1 rebuilt=0 copies=0 total_ms=13 acc_fallback=0 pieces=1
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareCall_23._private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_min._kernel.native_decide.ax_1_1`: kernel_ms=4 native_axioms=1 rebuilt=0 copies=0 total_ms=13 acc_fallback=0 pieces=1
+maxrss_kb 1816348
+rc=0 secs=1

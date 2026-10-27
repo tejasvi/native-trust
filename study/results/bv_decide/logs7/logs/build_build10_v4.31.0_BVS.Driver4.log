@@ -1,0 +1,6 @@
+BVS/Driver4.lean:231:6: warning: Variable name `t0` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+TIME wall=2.91 s user=3.24 s maxrss=1630472 KB

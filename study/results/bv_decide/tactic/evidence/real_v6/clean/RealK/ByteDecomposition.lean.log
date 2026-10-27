@@ -1,0 +1,1 @@
+bv_kdecide [Gadgets.ByteDecomposition.Theorems.soundness]: bv_decide 1945 ms; 22035 nodes, 65720 clauses, 31056 LRAT steps, 959442 hints, 54 chunks; SAT 9063 ms, data 2213 ms; kernel: base 26149 ms, chunks 221055 ms (max 7647 ms), assembly 1268 ms; total 267696 ms; peak RSS: bv_decide 1719 MiB, kernel route 6851 MiB

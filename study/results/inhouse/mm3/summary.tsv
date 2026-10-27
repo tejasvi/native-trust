@@ -1,0 +1,12 @@
+project	mm3: rank 333 over F2 (native version)
+source	native: sw 10.5281/zenodo.23236154; kernel track: sw 10.5281/zenodo.23304899
+toolchain	leanprover/lean4:v4.30.0
+library	not run
+native_facts	4381024
+converted	not run
+nt_cpu_h	0
+nt_wall_min	0
+native_build_cpu_h	478076 vCPU-h provisioned (CPU time not recorded), 20.95 h wall, including the regeneration of the certificates
+hand_track	rank333-f2-kernel: kernel build/check of the final proof (elaboration and kernel checking of the module builds of the final set)
+hand_build_cpu_h	529504
+checks	none (see summary.md)

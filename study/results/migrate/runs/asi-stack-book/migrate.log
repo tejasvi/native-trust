@@ -1,0 +1,12 @@
+2026-10-23T23:44:48Z asi-stack-book: tc=v4.31.0 files=131 modules=131 built=58 plain=asi-stack-book-plain study=asi-stack-book
+2026-10-23T23:44:52Z census before: 392 native axioms, 366 native-dependent declarations, modules=58, failed=[]
+2026-10-23T23:44:53Z plan: 382 occurrences; {"rewrite": 374, "keep: FAILED/other": 8}; unmatched axioms=1; affected modules=55
+2026-10-24T00:16:23Z asi-stack-book: tc=v4.31.0 files=131 modules=131 built=58 plain=asi-stack-book-plain study=asi-stack-book
+2026-10-24T00:16:23Z census before: 392 native axioms, 366 native-dependent declarations, modules=58, failed=[]
+2026-10-24T00:16:23Z plan: 382 occurrences; {"rewrite": 374, "keep: FAILED/other": 8}; unmatched axioms=1; affected modules=55
+2026-10-24T00:16:52Z time0: rc=0 wall=29.66 cpu=138.9 built=55 peak_lean=3 peak_rss_gb=0.8 sum=1.7 errors=0
+2026-10-24T00:17:21Z build round 0: rc=0 wall=28.57 errors=0 revert=0 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=0.7
+2026-10-24T00:17:50Z time1: rc=0 wall=28.67 cpu=138.0 built=55 peak_lean=3 peak_rss_gb=0.8 sum=1.7 errors=0
+2026-10-24T00:17:50Z default build: rc=0 wall=0.34 built=0 errors=0
+2026-10-24T00:17:51Z summary {"uses": 382, "replaced": 374, "replaced_facts": 382, "native_axioms_before": 392, "native_axioms_after": 10, "axioms_after_as_expected": true, "native_dependent_decls_before": 366, "native_dependent_decls_after": 10, "rewritten_decls_still_native": 1, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 382, "replaced": 374, "replaced_facts": 382, "native_axioms_before": 392, "native_axioms_after": 10, "axioms_after_as_expected": true, "native_dependent_decls_before": 366, "native_dependent_decls_after": 10, "rewritten_decls_still_native": 1, "build_ok": true}

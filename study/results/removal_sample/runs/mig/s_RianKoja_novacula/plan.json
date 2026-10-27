@@ -1,0 +1,36 @@
+{
+"plan": {
+"n_occ": 1,
+"affected": [
+"Fixtures"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 1
+}
+},
+"occs": [
+{
+"file": "test/Fixtures.lean",
+"start": 668,
+"end": 681,
+"line": 20,
+"col": 50,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Fixtures",
+"facts": [
+"Fixtures.natively._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 50,
+"new_end": 64
+}
+]
+}

@@ -1,0 +1,4 @@
+arklib	AxiomSweepTestFixtures.Tainted.NativeNames	AxiomSweepTestFixtures.Tainted.Generated._native.native_decide.ax_12_34	native_decide	False	FAILED	other		1542768	1		nt_lines=0
+arklib	AxiomSweepTestFixtures.Tainted.NativeNames	AxiomSweepTestFixtures.Tainted.Collision._native.native_decide.ax_12_extra	native_decide	False	FAILED	other		1539804	1		nt_lines=0
+arklib	AxiomSweepTestFixtures.Tainted.NativeNames	AxiomSweepTestFixtures.Tainted.Collision._native.native_decide.ax_12_34.extra	native_decide	False	FAILED	other		1540408	1		nt_lines=0
+arklib	AxiomSweepTestFixtures.Tainted.NativeNames	AxiomSweepTestFixtures.Tainted.Collision._native.native_decide.ax_x_34	native_decide	False	FAILED	other		1539888	1		nt_lines=0

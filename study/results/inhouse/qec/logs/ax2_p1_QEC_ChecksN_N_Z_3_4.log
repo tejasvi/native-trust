@@ -1,0 +1,19 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksN_N_Z_3_4.olean F2_p1_QEC_ChecksN_N_Z_3_4.lean
+NT start nty_Z_3_2_1._native.native_decide.ax_1_1
+NT nested nty_Z_3_2_1._native.native_decide.ax_1_1 ms=13 rebuilt_defs=0 visited=768
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1 structure all-by-index length=4 pieces=4
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_0 eval_ms=1166
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_1 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_1 eval_ms=2087
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_2 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_2 eval_ms=2066
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_3 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1.p_3 eval_ms=1127
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1 pieces=4
+PROVED `nty_Z_3_2_1._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1`: kernel_ms=7756 native_axioms=1 rebuilt=0 copies=0 total_ms=7771 acc_fallback=0 pieces=4
+PROVED `nty_Z_3_2_1._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksN_N_Z_3_4.nty_Z_3_2_1._kernel.native_decide.ax_1_1`: kernel_ms=7756 native_axioms=1 rebuilt=0 copies=0 total_ms=7771 acc_fallback=0 pieces=4
+maxrss_kb 4282256
+rc=0 secs=10 cg_cpu_s=9.5 cg_peak_kb=780056 cg_oom_kill=0

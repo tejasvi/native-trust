@@ -1,0 +1,317 @@
+{
+ "name": "s_zcash_ironwood",
+ "pkg": "/home/ntbuild/repos_s/zcash_ironwood",
+ "toolchain": "v4.30.0",
+ "uses": 328,
+ "replaced": 126,
+ "replaced_known": 126,
+ "replaced_unknown": 0,
+ "replaced_facts": 126,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: Zcash.Meta.Tests.AxiomCheck.Genuine.owner reaches no native_decide axiom; drop the '+native(...)' flag": 6,
+  "FAILED/false_in_logic (Nat.decEq;Zcash.Meta.Tests.CompiledOverride.capturedData)": 1,
+  "build: Zcash.Meta.Tests.NativeSurface.honestMatch reaches no native_decide axiom; drop the '+native(...)' flag": 3,
+  "FAILED/blocked (Zcash.Meta.Tests.NativeSurface.capturedPartial)": 1,
+  "ERROR/memory": 191
+ },
+ "native_axioms_before": 332,
+ "native_axioms_after": 206,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": false,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [
+  "Zcash.Meta.Tests.AxiomCheck.NonexistentOwner.owner._native.native_decide.ax_1_1",
+  "Zcash.Meta.Tests.AxiomCheck.GenuineAutoParam.owner._native.native_decide.ax_1",
+  "Zcash.Meta.Tests.AxiomCheck.UnrelatedOwner.owner._native.native_decide.ax_1_1",
+  "Zcash.Meta.Tests.AxiomCheck.MacroForged.owner._native.native_decide.ax_1_1",
+  "Zcash.Meta.Tests.AxiomCheck.ForgedDependency.owner._native.native_decide.ax_1_1"
+ ],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 4190,
+ "native_dependent_decls_after": 4072,
+ "rewritten_decls": 118,
+ "rewritten_decls_still_native": 4,
+ "still_native_why": {
+  "Zcash.Snark.FixtureRandom.vkSymbolicFacts": "1 unconverted native facts of its own",
+  "Zcash.Snark.FixtureRandom2.vkSymbolicFacts": "1 unconverted native facts of its own",
+  "Zcash.Snark.Keygen.instanceCommitment_capturedActionInputs": "depends on another native-dependent declaration",
+  "Zcash.Snark.Keygen.publicInputRows_capturedActionInputs": "depends on another native-dependent declaration"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 123.48,
+   "cpu": 585.1,
+   "n_errors": 12,
+   "reverted": 9,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 8,
+   "peak_rss_gb": 6.2,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 1.28,
+   "cpu": 1.7,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 96.03,
+  "cpu": 427.9,
+  "n_built": 23,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 4.2,
+  "peak_rss_sum_gb": 22.4
+ },
+ "time1": {
+  "wall": 116.97,
+  "cpu": 519.4,
+  "n_built": 23,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 6.3,
+  "peak_rss_sum_gb": 27.1
+ },
+ "default_build": {
+  "rc": 1,
+  "wall": 118.17,
+  "cpu": 252.0,
+  "n_built": 19,
+  "peak_lean": 8,
+  "peak_rss_gb": 4.0,
+  "peak_rss_sum_gb": 23.6,
+  "errors": [
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 28,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedPointCoordinatesValid_eq_true reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 30,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedUrsG_length reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 32,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 54,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.captured_list_lengths_match_shape reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 56,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.query_layout_columns_in_range reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 58,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.vk_expression_refs_in_range reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 60,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.permutation_chunks_match_shape reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 62,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.vk_domain_size_matches_shape reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 70,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 80,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_postNu63 reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 82,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_canonicalVk reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 86,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 88,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 90,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 92,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 94,
+    "col": 0,
+    "msg": "Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 101,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 114,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 116,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag"
+   },
+   {
+    "file": "Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean",
+    "line": 118,
+    "col": 0,
+    "msg": "Zcash.Snark.FixtureRandom2.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag"
+   }
+  ]
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 23,
+ "replaced_modules": 21,
+ "unmatched_axioms": 5,
+ "module_times_sum": [
+  344.6,
+  444.8
+ ],
+ "module_times_slower": [
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Random.Epsilon",
+   4.3,
+   33.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Random.Epsilon",
+   4.0,
+   22.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.PostNu63Random",
+   4.8,
+   22.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Random.FiatShamir",
+   2.3,
+   16.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Honest.FiatShamir",
+   3.8,
+   17.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.PostNu63",
+   5.3,
+   17.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Random.FiatShamir",
+   4.0,
+   10.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Honest.FiatShamir",
+   4.1,
+   10.0
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Honest.Negative",
+   20.0,
+   16.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Honest.Faithfulness",
+   3.7,
+   1.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Random.Faithfulness",
+   4.1,
+   1.5
+  ],
+  [
+   "Zcash.Snark.Keygen.InstanceCapture",
+   4.3,
+   2.1
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Random.Fixture",
+   67.0,
+   65.0
+  ],
+  [
+   "Zcash.Snark.Fixtures.SingleAction.Honest.StaticChecks",
+   4.0,
+   2.1
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Honest.Degree",
+   3.4,
+   1.6
+  ],
+  [
+   "Zcash.Snark.Fixtures.MultiAction.Honest.Fixture",
+   65.0,
+   64.0
+  ]
+ ]
+}

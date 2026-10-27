@@ -1,0 +1,142 @@
+{
+ "name": "formal-conjectures",
+ "pkg": "/home/ntbuild/repos/formal-conjectures",
+ "toolchain": "v4.33.1",
+ "uses": 209,
+ "replaced": 166,
+ "replaced_known": 155,
+ "replaced_unknown": 11,
+ "replaced_facts": 579,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "module not built": 2,
+  "ERROR/memory (+2 more facts)": 1,
+  "plain FAILED/blocked (WellFounded.fix)": 15,
+  "build: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached": 1,
+  "ERROR/memory": 5,
+  "TIMEOUT/900s": 9,
+  "build: Tactic `decide` failed for proposition": 1,
+  "FAILED/blocked (WellFounded.fix)": 3,
+  "build: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit": 2,
+  "ERROR/memory (+4 more facts)": 1,
+  "ERROR/maxRecDepth": 1,
+  "FAILED/other": 2
+ },
+ "native_axioms_before": 690,
+ "native_axioms_after": 111,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 172,
+ "native_dependent_decls_after": 40,
+ "rewritten_decls": 135,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 228.83,
+   "cpu": 796.2,
+   "n_errors": 4,
+   "reverted": 4,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 26.4,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 6.27,
+   "cpu": 10.8,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 3.1,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 44.77,
+  "cpu": 176.0,
+  "n_built": 43,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 3.7,
+  "peak_rss_sum_gb": 13.0
+ },
+ "time1": {
+  "wall": 210.65,
+  "cpu": 639.1,
+  "n_built": 43,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 26.4,
+  "peak_rss_sum_gb": 56.1
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 2.45,
+  "cpu": 4.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 43,
+ "replaced_modules": 41,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  61.0,
+  130.8
+ ],
+ "module_times_slower": [
+  [
+   "FormalConjectures.WrittenOnTheWallII.Test",
+   15.0,
+   61.0
+  ],
+  [
+   "FormalConjectures.WrittenOnTheWallII.GraphConjecture36",
+   12.0,
+   23.0
+  ],
+  [
+   "FormalConjectures.WrittenOnTheWallII.GraphConjecture103",
+   19.0,
+   28.0
+  ],
+  [
+   "FormalConjectures.Wikipedia.DedekindNumber",
+   5.1,
+   8.2
+  ],
+  [
+   "FormalConjectures.Paper.MonochromaticQuantumGraph",
+   3.9,
+   5.2
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "FormalConjectures.Wikipedia.SteinerSystem",
+   3.6,
+   3.0
+  ]
+ ]
+}

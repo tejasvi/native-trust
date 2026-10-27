@@ -1,0 +1,28 @@
+== preps 07:59:53: VB108 VB23 VB15 VB83
+prep VB23 rc=0 start=07:59:53 end=08:03:09 TIME wall=196.13 s user=195.09 s maxrss=7260356 KB
+prep VB15 rc=0 start=07:59:53 end=08:04:21 TIME wall=267.71 s user=266.53 s maxrss=8282696 KB
+prep VB83 rc=0 start=08:03:09 end=08:08:00 TIME wall=291.18 s user=290.11 s maxrss=8295816 KB
+prep VB108 rc=0 start=07:59:53 end=08:09:04 TIME wall=550.49 s user=548.89 s maxrss=12092500 KB
+== shards 08:09:04
+shard VB108_S2 rc=0 start=08:09:04 end=08:18:31 TIME wall=567.05 s user=550.65 s maxrss=7276964 KB
+shard VB108_S1 rc=0 start=08:09:04 end=08:19:10 TIME wall=606.23 s user=587.00 s maxrss=9160064 KB
+shard VB108_S0 rc=0 start=08:09:04 end=08:19:57 TIME wall=653.07 s user=635.44 s maxrss=15216052 KB
+shard VB23_S1 rc=0 start=08:19:57 end=08:26:15 TIME wall=378.70 s user=365.93 s maxrss=7277972 KB
+shard VB23_S0 rc=0 start=08:19:10 end=08:26:23 TIME wall=432.94 s user=420.84 s maxrss=15074504 KB
+shard VB108_S3 rc=0 start=08:18:31 end=08:28:35 TIME wall=603.97 s user=585.03 s maxrss=7273244 KB
+shard VB23_S2 rc=0 start=08:26:15 end=08:31:58 TIME wall=342.98 s user=329.86 s maxrss=7257780 KB
+shard VB23_S3 rc=0 start=08:26:23 end=08:32:25 TIME wall=362.06 s user=346.97 s maxrss=7265144 KB
+shard VB15_S0 rc=0 start=08:28:35 end=08:36:40 TIME wall=484.84 s user=460.66 s maxrss=11032376 KB
+shard VB15_S1 rc=0 start=08:31:58 end=08:39:27 TIME wall=448.28 s user=433.33 s maxrss=7235000 KB
+shard VB15_S2 rc=0 start=08:32:25 end=08:39:31 TIME wall=425.70 s user=411.81 s maxrss=7248492 KB
+shard VB15_S3 rc=0 start=08:36:40 end=08:43:45 TIME wall=425.04 s user=412.03 s maxrss=7234792 KB
+shard VB83_S1 rc=0 start=08:39:31 end=08:46:35 TIME wall=424.06 s user=410.20 s maxrss=7258232 KB
+shard VB83_S0 rc=0 start=08:39:27 end=08:46:53 TIME wall=446.75 s user=433.73 s maxrss=11072924 KB
+shard VB83_S2 rc=0 start=08:43:45 end=08:50:19 TIME wall=394.83 s user=381.33 s maxrss=7248576 KB
+shard VB83_S3 rc=0 start=08:46:35 end=08:53:03 TIME wall=388.38 s user=377.16 s maxrss=7237872 KB
+== finals 08:53:03
+final VB108_Final rc=0 start=08:53:03 end=08:53:09 TIME wall=6.05 s user=5.76 s maxrss=3150540 KB
+final VB15_Final rc=0 start=08:53:03 end=08:53:15 TIME wall=11.90 s user=11.54 s maxrss=4384576 KB
+final VB23_Final rc=0 start=08:53:03 end=08:53:20 TIME wall=16.52 s user=16.04 s maxrss=5418744 KB
+final VB83_Final rc=0 start=08:53:09 end=08:53:23 TIME wall=14.18 s user=13.76 s maxrss=4141280 KB
+== done 08:53:23

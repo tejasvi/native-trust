@@ -1,0 +1,21 @@
+$ lean Comb_be0.lean tc=v4.34.0-rc2 ntlib=/home/ntbuild/nt_fix7/v4.34.0-rc2/.lake/build/lib/lean start=2026-10-24T07:49:37Z
+Comb_be0.lean:1:0: error: unknown module prefix 'F2sh_be0_20'
+
+No directory 'F2sh_be0_20' or file 'F2sh_be0_20.olean' in the search path entries:
+/home/ntbuild/nt_fix7/v4.34.0-rc2/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/Cli/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/batteries/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/Qq/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/aesop/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/proofwidgets/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/importGraph/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/plausible/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/packages/mathlib/.lake/build/lib/lean
+/home/ntbuild/repos/berry-esseen/.lake/build/lib/lean
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0-rc2/lib/lean
+/home/ntbuild/work_resv8/shard/be0
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0-rc2/lib/lean
+Command exited with non-zero status 1
+maxrss_kb 1347124 secs 0.86
+rc=1 end=2026-10-24T07:49:38Z

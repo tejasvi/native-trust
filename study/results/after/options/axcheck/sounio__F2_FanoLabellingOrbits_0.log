@@ -1,0 +1,4 @@
+$ lean sounio__F2_FanoLabellingOrbits_0.lean tc=v4.30.0-rc2 ntlib=/home/ntbuild/work_shared/nt22/v4.30.0-rc2/.lake/build/lib/lean start=2026-10-25T16:20:37Z
+PROVED `Sounio.FanoLabellingOrbits.lagrange_consistency._native.native_decide.ax_1_1` as `_ktr.sounio__F2_FanoLabellingOrbits_0.Sounio.FanoLabellingOrbits.lagrange_consistency._kernel.native_decide.ax_1_1`: kernel_ms=338353 native_axioms=1 rebuilt=0 copies=0 total_ms=338365 acc_fallback=0 pieces=44
+'_ktr.sounio__F2_FanoLabellingOrbits_0.Sounio.FanoLabellingOrbits.lagrange_consistency._kernel.native_decide.ax_1_1' depends on axioms: [propext]
+rc=0 end=2026-10-25T16:26:16Z

@@ -1,0 +1,13 @@
+toolchain leanprover/lean4:v4.35.0; start 2026-10-25T00:09:29Z
+BVS.LratBits rc=0 0.24	491716
+BVS.LratBitsSound rc=0 0.29	531076
+BVS.Blast rc=0 0.50	702008
+BVS.Lrat.Trie rc=134 0.24	683580
+FAILED at BVS.Lrat.Trie
+end 2026-10-25T00:09:30Z
+run Err1.lean on bvs_r8; start 2026-10-25T00:09:30Z
+rc=1 time_s,maxrss_kb=0.07,193628 end 2026-10-25T00:09:30Z
+run Neg1.lean on bvs_r8; start 2026-10-25T00:09:30Z
+rc=1 time_s,maxrss_kb=0.06,193508 end 2026-10-25T00:09:30Z
+run Check1.lean on bvs_r8; start 2026-10-25T00:09:30Z
+rc=1 time_s,maxrss_kb=0.06,193632 end 2026-10-25T00:09:30Z

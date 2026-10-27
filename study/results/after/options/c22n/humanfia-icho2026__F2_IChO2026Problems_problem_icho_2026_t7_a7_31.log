@@ -1,0 +1,9 @@
+$ lean humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t7_a7_31.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T21:32:20Z
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 33888660 secs 142.37
+rc=1 end=2026-10-24T21:34:42Z
+blems.ProblemIChO2026T7A7.productIdentificationSearchAudit._native.native_decide.ax_1_4 ms=9 rebuilt_defs=0 visited=551
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t7_a7_31».IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit._kernel.native_decide.ax_1_4 blockers_ms=0 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t7_a7_31».IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit._kernel.native_decide.ax_1_4 quick whole-term attempt did not finish; structured check
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t7_a7_31».IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit._kernel.native_decide.ax_1_4.p_0 blockers_ms=2 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

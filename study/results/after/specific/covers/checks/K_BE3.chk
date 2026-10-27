@@ -1,0 +1,1 @@
+K_BE3 thms=[BerryOpt.BE3.final] export_rc=0 lines=800806 nanoda_rc=0 [Checked 6869 declarations with no typechecker errors] conron_rc=0 [accepted 6396 declarations]  nanoda: 64.56 s 5131324 KB con-ron: 30.21 s 8768916 KB

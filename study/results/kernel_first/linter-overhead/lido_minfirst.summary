@@ -1,0 +1,7 @@
+orig native axioms: 6 native axioms in `NTV.MinFirstAmountTxMutants`
+kf native axioms: 0 native axioms in `NTV.MinFirstAmountTxMutants`
+orig: wall_med=1.11 cpu_med=1.18 rss_kb_max=2323860 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=1.12 cpu_med=1.21 rss_kb_max=2327580 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=1.15 cpu_med=1.25 rss_kb_max=2348260 runs=3 rc=0 warnings=6 unnecessary=6 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=1.13 cpu_med=1.24 rss_kb_max=2343076 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=1.11 cpu_med=1.2 rss_kb_max=2332880 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

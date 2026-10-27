@@ -1,0 +1,6 @@
+2026-10-26T08:09:09Z ax pkg=/home/ntbuild/work_migsample/inhouse/light/tpupper tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=46 modules=46
+native axioms=0 inner=0 outer_todo=0
+2026-10-26T08:09:09Z summary 
+2026-10-26T08:53:38Z ax pkg=/home/ntbuild/work_migsample/inhouse/light/tpupper tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=46 modules=46
+native axioms=65 inner=0 outer_todo=65
+2026-10-26T09:25:40Z summary ERROR=8 PROVED=3 TIMEOUT=1

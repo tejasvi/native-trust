@@ -1,0 +1,18 @@
+2026-10-23T23:41:10Z humanfia-icho2026: tc=v4.31.0 files=89 modules=89 built=37 plain=humanfia-icho2026-plain study=humanfia-icho2026
+2026-10-23T23:41:17Z census before: 1864 native axioms, 424 native-dependent declarations, modules=37, failed=[]
+2026-10-23T23:41:17Z plan: 693 occurrences; {"rewrite": 689, "keep: ERROR/memory": 3, "keep: TIMEOUT/900s": 1}; unmatched axioms=0; affected modules=34
+2026-10-23T23:43:16Z humanfia-icho2026: tc=v4.31.0 files=89 modules=89 built=37 plain=humanfia-icho2026-plain study=humanfia-icho2026
+2026-10-23T23:43:16Z census before: 1864 native axioms, 424 native-dependent declarations, modules=37, failed=[]
+2026-10-23T23:43:16Z plan: 693 occurrences; {"rewrite": 689, "keep: ERROR/memory": 3, "keep: TIMEOUT/900s": 1}; unmatched axioms=0; affected modules=34
+2026-10-23T23:45:13Z time0: rc=1 wall=117.3 cpu=489.1 built=31 peak_lean=3 errors=0
+2026-10-23T23:49:30Z humanfia-icho2026: tc=v4.31.0 files=89 modules=89 built=31 plain=humanfia-icho2026-plain study=humanfia-icho2026
+2026-10-23T23:49:30Z census before: 1864 native axioms, 424 native-dependent declarations, modules=37, failed=[]
+2026-10-23T23:49:30Z plan: 693 occurrences; {"rewrite": 689, "keep: ERROR/memory": 3, "keep: TIMEOUT/900s": 1}; unmatched axioms=0; affected modules=34
+2026-10-23T23:51:05Z time0: rc=0 wall=94.45 cpu=506.0 built=34 peak_lean=4 peak_rss_gb=8.1 sum=28.1 errors=0
+2026-10-23T23:58:41Z build round 0: rc=1 wall=456.46 errors=4 revert=16 unattributed=0 peak_lean=4
+2026-10-23T23:59:32Z build round 1: rc=0 wall=51.23 errors=0 revert=0 unattributed=0 peak_lean=3
+2026-10-24T00:07:22Z time1: rc=0 wall=469.51 cpu=1214.3 built=34 peak_lean=4 peak_rss_gb=21.1 sum=34.4 errors=0
+2026-10-24T00:07:25Z default build: rc=0 wall=3.43 built=0 errors=0
+2026-10-24T00:07:31Z summary {"uses": 693, "replaced": 673, "replaced_facts": 1719, "native_axioms_before": 1864, "native_axioms_after": 145, "axioms_after_as_expected": false, "native_dependent_decls_before": 424, "native_dependent_decls_after": 25, "rewritten_decls_still_native": 9, "build_ok": true}
+2026-10-24T00:09:52Z summary {"uses": 693, "replaced": 673, "replaced_facts": 1719, "native_axioms_before": 1864, "native_axioms_after": 145, "axioms_after_as_expected": true, "native_dependent_decls_before": 424, "native_dependent_decls_after": 25, "rewritten_decls_still_native": 9, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 693, "replaced": 673, "replaced_facts": 1719, "native_axioms_before": 1864, "native_axioms_after": 145, "axioms_after_as_expected": true, "native_dependent_decls_before": 424, "native_dependent_decls_after": 25, "rewritten_decls_still_native": 9, "build_ok": true}

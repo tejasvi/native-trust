@@ -1,0 +1,226 @@
+{
+"plan": {
+"n_occ": 10,
+"affected": [
+"Formal.QuarantineCorrectness"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"keep: plain FAILED/other": 1,
+"rewrite": 9
+}
+},
+"occs": [
+{
+"file": "Formal/Lattice/Zq.lean",
+"start": 221,
+"end": 234,
+"line": 12,
+"col": 37,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Formal.Lattice.Zq",
+"facts": [
+"GoyaFormal.instFactPrimeQ._native.native_decide.ax_1"
+],
+"status": "keep",
+"reason": "plain FAILED/other",
+"active": false,
+"new_col": 37,
+"new_end": 50
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1393,
+"end": 1406,
+"line": 46,
+"col": 50,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"mldsa_not_in_classical_list._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 50,
+"new_end": 64
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1500,
+"end": 1513,
+"line": 49,
+"col": 53,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"slhdsa_not_in_classical_list._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 53,
+"new_end": 67
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1600,
+"end": 1613,
+"line": 52,
+"col": 49,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"ed25519_in_classical_list._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 49,
+"new_end": 63
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1717,
+"end": 1730,
+"line": 55,
+"col": 58,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"pqc_prevents_quarantine_singleton._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 58,
+"new_end": 72
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1839,
+"end": 1852,
+"line": 58,
+"col": 67,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"pqc_prevents_quarantine_mixed._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 67,
+"new_end": 81
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 1946,
+"end": 1959,
+"line": 61,
+"col": 57,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 6,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"ed25519_only_quarantined._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 57,
+"new_end": 71
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 2062,
+"end": 2075,
+"line": 64,
+"col": 66,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 7,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"ed25519_pair_quarantined._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 66,
+"new_end": 80
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 2156,
+"end": 2169,
+"line": 67,
+"col": 53,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 8,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"rsa_quarantined._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 53,
+"new_end": 67
+},
+{
+"file": "Formal/QuarantineCorrectness.lean",
+"start": 2262,
+"end": 2275,
+"line": 70,
+"col": 50,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 9,
+"module": "Formal.QuarantineCorrectness",
+"facts": [
+"empty_is_vacuously_quarantined._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 50,
+"new_end": 64
+}
+]
+}

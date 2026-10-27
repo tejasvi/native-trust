@@ -1,0 +1,2 @@
+orig: native axioms: 169 native axioms in `NTV.IsClosedRec` | wall_med=34.64 cpu_med=89.77 rss_kb_max=2818864 runs=1 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.IsClosedRec` | wall_med=31.02 cpu_med=93.09 rss_kb_max=2828768 runs=1 rc=0 errors=0 kf_fallback=0

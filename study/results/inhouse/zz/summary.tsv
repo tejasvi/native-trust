@@ -1,0 +1,12 @@
+project	Zhang-Zagier v3 (zz82a), MainN
+source	supp 10.5281/zenodo.23552588 (zhang-zagier-lower-bound-v3 @ba1ba10fee07)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	1 (ZZChk.N.check_native), used by the 2 theorems of MainN.lean (zz_main', zz_essMin'; lean/README.md:9-18)
+converted	0 of 1; 0 of 2 theorems
+nt_cpu_h	0.47 (process time: pass 1 101 s, heavy 1,596 s)
+nt_wall_min	28
+native_build_cpu_h	lake build ZZ82a.MainN on the box: 88 s wall, 340 s user
+hand_track	ZZ82a.MainK (286 modules in lean/ZZChk/K/)
+hand_build_cpu_h	about 55 CPU-hours (README.md:100)
+checks	driver pass 1: out of memory at 48 GiB after 101 s; heavy (3,600 s, 96 GiB): out of memory at 92 GiB after 1,596 s

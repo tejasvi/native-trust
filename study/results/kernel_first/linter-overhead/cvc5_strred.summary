@@ -1,0 +1,7 @@
+orig native axioms: count_orig.lean:1:0: error: object file '/home/ntbuild/work_linter/real5/cvc5_strred/orig/NTV/String_reduction.olean' of module NTV.String_reduction does not exist
+kf native axioms: count_kf.lean:1:0: error: object file '/home/ntbuild/work_linter/real5/cvc5_strred/kf/NTV/String_reduction.olean' of module NTV.String_reduction does not exist
+orig: wall_med=65.06 cpu_med=69.35 rss_kb_max=2728008 runs=3 rc=1 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=2
+lint_off: wall_med=64.87 cpu_med=69.07 rss_kb_max=2735392 runs=3 rc=1 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=3
+lint_on: wall_med=64.29 cpu_med=68.72 rss_kb_max=2732408 runs=3 rc=1 warnings=16 unnecessary=16 blocked=0 kf_fallback=0 errors=3
+lint_old: wall_med=64.19 cpu_med=68.46 rss_kb_max=2725584 runs=3 rc=1 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=3
+kf: wall_med=64.54 cpu_med=69.11 rss_kb_max=2732432 runs=3 rc=1 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=2

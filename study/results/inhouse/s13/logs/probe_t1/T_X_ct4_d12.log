@@ -1,0 +1,18 @@
+$ lean T_X_ct4_d12.lean start=2026-10-26T01:20:52Z timeout=900
+START T_X_ct4_d12
+STATEMENT_MS 1
+TRIAGE T_X_ct4_d12: 0 blocker(s), 17 ms
+T_X_ct4_d12.lean:22:6: warning: Variable name `ax` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ax
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+T_X_ct4_d12.lean:23:6: warning: Variable name `name` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _name
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+maxrss_kb 1589936 secs 0.72
+rc=0 end=2026-10-26T01:20:52Z

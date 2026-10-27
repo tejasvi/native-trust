@@ -1,0 +1,688 @@
+--- a/Graff/BashPolicy.lean
++++ b/Graff/BashPolicy.lean
+@@ -94,7 +94,7 @@
+ def allowedCells : Nat := (commands.filter readOnlyAllowed).length
+ def externalCells : Nat := (commands.filter readOnlyExternal).length
+ 
+-theorem bash_cube : bashCells = 32 := by native_decide
++theorem bash_cube : bashCells = 32 := by decide +kernel
+ 
+ theorem cube_allowed_implies_simple :
+     commands.all (fun c => !(readOnlyAllowed c) || isSimple (trimST c)) := by native_decide
+@@ -108,9 +108,9 @@
+ theorem cube_external_never_allowed :
+     commands.all (fun c => !(readOnlyAllowed c && readOnlyExternal c)) := by native_decide
+ 
+-example : isSimple "ls -la" = true := by native_decide
+-example : isSimple "ls; rm x" = false := by native_decide
+-example : isSimple "echo $HOME" = false := by native_decide
++example : isSimple "ls -la" = true := by decide +kernel
++example : isSimple "ls; rm x" = false := by decide +kernel
++example : isSimple "echo $HOME" = false := by decide +kernel
+ example : escapesCwd "cat src/main.zig" = false := by native_decide
+ example : escapesCwd "cat /etc/passwd" = true := by native_decide
+ example : escapesCwd "cat ../outside" = true := by native_decide
+@@ -123,7 +123,7 @@
+ example : readOnlyAllowed "cat /etc/passwd" = false := by native_decide
+ example : readOnlyExternal "ls ~/projects" = true := by native_decide
+ example : readOnlyExternal "cat src/main.zig" = false := by native_decide
+-example : matchesPrefix "lsof" "ls" = false := by native_decide
+-example : matchesPrefix "ls -la" "ls" = true := by native_decide
++example : matchesPrefix "lsof" "ls" = false := by decide +kernel
++example : matchesPrefix "ls -la" "ls" = true := by decide +kernel
+ 
+ end Graff.BashPolicy
+--- a/Graff/GoalLoop.lean
++++ b/Graff/GoalLoop.lean
+@@ -88,9 +88,9 @@
+ def refuseNoPlanCells : Nat :=
+   (allStates.filter (fun s => completionGate s == .refuseNoPlan)).length
+ 
+-theorem goal_cube : goalCells = 360 := by native_decide
+-theorem refuse_open_count : refuseOpenCells = 4 := by native_decide
+-theorem refuse_no_plan_count : refuseNoPlanCells = 4 := by native_decide
++theorem goal_cube : goalCells = 360 := by decide +kernel
++theorem refuse_open_count : refuseOpenCells = 4 := by decide +kernel
++theorem refuse_no_plan_count : refuseNoPlanCells = 4 := by decide +kernel
+ 
+ /-! General facts. -/
+ 
+@@ -265,28 +265,28 @@
+ 
+ /-! Concrete cells the harness also checks. -/
+ 
+-example : completionGate {} = .accept := by native_decide
+-example : completionGate { goal := .active } = .refuseNoPlan := by native_decide
+-example : completionGate { goal := .active, checklist := .open } = .refuseOpen := by native_decide
+-example : completionGate { goal := .active, checklist := .allCompleted } = .accept := by native_decide
+-example : completionGate { goal := .active, checklist := .open, armed := true } = .accept := by native_decide
+-example : completionGate { goal := .active, seat := .sub, checklist := .open } = .accept := by native_decide
+-example : completionGate { goal := .active, seat := .review, checklist := .none } = .accept := by native_decide
+-example : completionGate { goal := .paused, checklist := .open } = .accept := by native_decide
+-example : checklistFinished { checklist := .allCompleted, dirty := false } = false := by native_decide
+-example : checklistFinished { checklist := .allCompleted, dirty := true } = true := by native_decide
+-example : retiresOnAccept { goal := .active } = true := by native_decide
+-example : retiresOnAccept { goal := .active, standing := true } = false := by native_decide
++example : completionGate {} = .accept := by decide +kernel
++example : completionGate { goal := .active } = .refuseNoPlan := by decide +kernel
++example : completionGate { goal := .active, checklist := .open } = .refuseOpen := by decide +kernel
++example : completionGate { goal := .active, checklist := .allCompleted } = .accept := by decide +kernel
++example : completionGate { goal := .active, checklist := .open, armed := true } = .accept := by decide +kernel
++example : completionGate { goal := .active, seat := .sub, checklist := .open } = .accept := by decide +kernel
++example : completionGate { goal := .active, seat := .review, checklist := .none } = .accept := by decide +kernel
++example : completionGate { goal := .paused, checklist := .open } = .accept := by decide +kernel
++example : checklistFinished { checklist := .allCompleted, dirty := false } = false := by decide +kernel
++example : checklistFinished { checklist := .allCompleted, dirty := true } = true := by decide +kernel
++example : retiresOnAccept { goal := .active } = true := by decide +kernel
++example : retiresOnAccept { goal := .active, standing := true } = false := by decide +kernel
+ 
+ /-! Traces of `step`. Double-check = refuse then accept; standing has no retire. -/
+ 
+-example : (run {} [.setGoal false, .attempt]).armed = true := by native_decide
+-example : (run {} [.setGoal false, .attempt]).goal = .active := by native_decide
+-example : (run {} [.setGoal false, .attempt, .attempt]).goal = .complete := by native_decide
+-example : (run {} [.setGoal true, .attempt, .attempt]).goal = .active := by native_decide
+-example : (run {} [.setGoal false, .write .allCompleted, .attempt]).goal = .complete := by native_decide
+-example : (run {} [.setGoal true, .write .allCompleted, .attempt]).goal = .active := by native_decide
+-example : checklistFinished (run {} [.setGoal false, .write .open, .attempt]) = false := by native_decide
++example : (run {} [.setGoal false, .attempt]).armed = true := by decide +kernel
++example : (run {} [.setGoal false, .attempt]).goal = .active := by decide +kernel
++example : (run {} [.setGoal false, .attempt, .attempt]).goal = .complete := by decide +kernel
++example : (run {} [.setGoal true, .attempt, .attempt]).goal = .active := by decide +kernel
++example : (run {} [.setGoal false, .write .allCompleted, .attempt]).goal = .complete := by decide +kernel
++example : (run {} [.setGoal true, .write .allCompleted, .attempt]).goal = .active := by decide +kernel
++example : checklistFinished (run {} [.setGoal false, .write .open, .attempt]) = false := by decide +kernel
+ 
+ /-! Tiny list model for `allDone` / replace, so empty ≠ done is not just an enum. -/
+ 
+@@ -330,13 +330,13 @@
+ def writeRejected (incoming : List String) : Bool :=
+   incoming.isEmpty
+ 
+-example : classify [] 1 = .none := by native_decide
+-example : classify [{ content := "a", status := .completed, retired := true }] 1 = .none := by native_decide
+-example : classify [{ content := "a", status := .pending }] 1 = .open := by native_decide
+-example : classify [{ content := "a", status := .completed }] 1 = .allCompleted := by native_decide
+-example : classify [{ content := "a", status := .completed }, { content := "b", status := .pending }] 1 = .open := by native_decide
+-example : allDoneItems [] 1 = false := by native_decide
+-example : writeRejected [] = true := by native_decide
+-example : writeRejected ["a"] = false := by native_decide
++example : classify [] 1 = .none := by decide +kernel
++example : classify [{ content := "a", status := .completed, retired := true }] 1 = .none := by decide +kernel
++example : classify [{ content := "a", status := .pending }] 1 = .open := by decide +kernel
++example : classify [{ content := "a", status := .completed }] 1 = .allCompleted := by decide +kernel
++example : classify [{ content := "a", status := .completed }, { content := "b", status := .pending }] 1 = .open := by decide +kernel
++example : allDoneItems [] 1 = false := by decide +kernel
++example : writeRejected [] = true := by decide +kernel
++example : writeRejected ["a"] = false := by decide +kernel
+ 
+ end Graff.GoalLoop
+--- a/Graff/PathConfine.lean
++++ b/Graff/PathConfine.lean
+@@ -95,11 +95,11 @@
+ def leaseCells : Nat := allLeases.length
+ def warnCells : Nat := (allLeases.filter (fun l => warns (ownerVerdict l))).length
+ 
+-theorem lease_cube : leaseCells = 80 := by native_decide
++theorem lease_cube : leaseCells = 80 := by decide +kernel
+ 
+ example : confined "src/main.zig" = true := by native_decide
+-example : confined "" = false := by native_decide
+-example : confined "/etc/passwd" = false := by native_decide
++example : confined "" = false := by decide +kernel
++example : confined "/etc/passwd" = false := by decide +kernel
+ example : confined "../outside" = false := by native_decide
+ example : confined "a/../../b" = false := by native_decide
+ example : confined "a/./b" = true := by native_decide
+@@ -108,22 +108,22 @@
+ 
+ example : fileToolOk "src/a.zig" [] = true := by native_decide
+ example : fileToolOk "evil/passwd" ["evil"] = false := by native_decide
+-example : fileToolOk "/etc/passwd" [] = false := by native_decide
++example : fileToolOk "/etc/passwd" [] = false := by decide +kernel
+ 
+-example : destructiveGitAllowed true false = true := by native_decide
+-example : destructiveGitAllowed true true = false := by native_decide
+-example : destructiveGitAllowed false false = false := by native_decide
+-
+-example : ownerVerdict {} = .liveForeign := by native_decide
+-example : ownerVerdict { pidSelf := true } = .self := by native_decide
+-example : ownerVerdict { identities := .differ } = .otherWorktree := by native_decide
+-example : ownerVerdict { probe := .gone } = .staleDead := by native_decide
+-example : ownerVerdict { probe := .mismatch } = .staleDead := by native_decide
+-example : ownerVerdict { startZero := true } = .staleUnverifiable := by native_decide
+-example : ownerVerdict { probe := .unknown } = .liveUnverified := by native_decide
+-example : ownerVerdict { probe := .unknown, pidSelf := true } = .self := by native_decide
+-example : warns (ownerVerdict {}) = true := by native_decide
+-example : warns (ownerVerdict { probe := .gone }) = false := by native_decide
++example : destructiveGitAllowed true false = true := by decide +kernel
++example : destructiveGitAllowed true true = false := by decide +kernel
++example : destructiveGitAllowed false false = false := by decide +kernel
++
++example : ownerVerdict {} = .liveForeign := by decide +kernel
++example : ownerVerdict { pidSelf := true } = .self := by decide +kernel
++example : ownerVerdict { identities := .differ } = .otherWorktree := by decide +kernel
++example : ownerVerdict { probe := .gone } = .staleDead := by decide +kernel
++example : ownerVerdict { probe := .mismatch } = .staleDead := by decide +kernel
++example : ownerVerdict { startZero := true } = .staleUnverifiable := by decide +kernel
++example : ownerVerdict { probe := .unknown } = .liveUnverified := by decide +kernel
++example : ownerVerdict { probe := .unknown, pidSelf := true } = .self := by decide +kernel
++example : warns (ownerVerdict {}) = true := by decide +kernel
++example : warns (ownerVerdict { probe := .gone }) = false := by decide +kernel
+ 
+ theorem yolo_does_not_free_sub (yolo : Bool) :
+     destructiveGitAllowed yolo true = false := by
+@@ -194,9 +194,9 @@
+     step s (Event.component c) = s := by
+   simp [step, h]
+ 
+-theorem empty_walk_not_confined : confinedWalk {} = false := by native_decide
++theorem empty_walk_not_confined : confinedWalk {} = false := by decide +kernel
+ 
+-theorem safe_is_confined : confinedWalk { walk := Walk.safe } = true := by native_decide
++theorem safe_is_confined : confinedWalk { walk := Walk.safe } = true := by decide +kernel
+ 
+ theorem walk_matches_snapshot : (samplePaths.all agrees) = true := by native_decide
+ 
+--- a/Graff/PromptCache.lean
++++ b/Graff/PromptCache.lean
+@@ -78,9 +78,9 @@
+ def spawnOkCells : Nat := (allCells.filter (fun c => spawnOk c.seat)).length
+ def keyCells : Nat := (allCells.filter (fun c => emitKey c.wire)).length
+ 
+-theorem cache_cube : cacheCells = 48 := by native_decide
+-theorem spawn_ok_count : spawnOkCells = 24 := by native_decide
+-theorem key_count : keyCells = 32 := by native_decide
++theorem cache_cube : cacheCells = 48 := by decide +kernel
++theorem spawn_ok_count : spawnOkCells = 24 := by decide +kernel
++theorem key_count : keyCells = 32 := by decide +kernel
+ 
+ theorem anthropic_never_key (c : Cell) (h : c.wire = .anthropic) :
+     emitKey c.wire = false := by
+@@ -184,20 +184,20 @@
+ 
+ theorem run_spawn_join_restores :
+     run {} [.spawn false .sharedCwd, .join] = rootOf .sharedCwd := by
+-  native_decide
++  decide +kernel
+ 
+ theorem run_sub_spawn_stays :
+     run (childOf .sharedCwd) [.spawn true .worktree, .turn] =
+       childOf .sharedCwd := by
+-  native_decide
++  decide +kernel
+ 
+-example : emitKey .anthropic = false := by native_decide
+-example : emitKey .responses = true := by native_decide
+-example : partitionOf .main .worktree = .root := by native_decide
+-example : partitionOf .other .sharedCwd = .child := by native_decide
+-example : spawnOk .sub = false := by native_decide
+-example : (step {} (.spawn false .worktree)).partition = .child := by native_decide
+-example : (step (childOf .sharedCwd) .join).partition = .root := by native_decide
+-example : step (childOf .sharedCwd) (.spawn false .worktree) = childOf .sharedCwd := by native_decide
++example : emitKey .anthropic = false := by decide +kernel
++example : emitKey .responses = true := by decide +kernel
++example : partitionOf .main .worktree = .root := by decide +kernel
++example : partitionOf .other .sharedCwd = .child := by decide +kernel
++example : spawnOk .sub = false := by decide +kernel
++example : (step {} (.spawn false .worktree)).partition = .child := by decide +kernel
++example : (step (childOf .sharedCwd) .join).partition = .root := by decide +kernel
++example : step (childOf .sharedCwd) (.spawn false .worktree) = childOf .sharedCwd := by decide +kernel
+ 
+ end Graff.PromptCache
+--- a/Graff/PromptStable.lean
++++ b/Graff/PromptStable.lean
+@@ -66,28 +66,28 @@
+ def stableCells : Nat := allCells.length
+ def keepCells : Nat := (allCells.filter keep).length
+ 
+-theorem stable_cube : stableCells = 20 := by native_decide
+-theorem keep_count : keepCells = 5 := by native_decide
++theorem stable_cube : stableCells = 20 := by decide +kernel
++theorem keep_count : keepCells = 5 := by decide +kernel
+ 
+ theorem history_keeps (e : Event) (h : land e = .history) :
+     keep { event := e, land := .history } = decide (verdict e = .keep) := by
+   simp [keep, h]
+ 
+ theorem skill_in_prefix_misses :
+-    keep { event := .skillInject, land := .prefix } = false := by native_decide
++    keep { event := .skillInject, land := .prefix } = false := by decide +kernel
+ 
+ theorem clock_in_prefix_illegal :
+     verdict .clockTick = .illegal ∧
+-      keep { event := .clockTick, land := .prefix } = false := by native_decide
++      keep { event := .clockTick, land := .prefix } = false := by decide +kernel
+ 
+ theorem rewrite_illegal :
+-    verdict .toolsetRewrite = .illegal := by native_decide
++    verdict .toolsetRewrite = .illegal := by decide +kernel
+ 
+ theorem append_keeps_prefix :
+-    keep { event := .toolsetAppend, land := .prefix } = true := by native_decide
++    keep { event := .toolsetAppend, land := .prefix } = true := by decide +kernel
+ 
+ theorem compact_keeps :
+-    keep { event := .compact, land := .prefix } = true := by native_decide
++    keep { event := .compact, land := .prefix } = true := by decide +kernel
+ 
+ /-! The machine. Snapshot predicates above; these are the edges. -/
+ 
+@@ -129,46 +129,46 @@
+ 
+ theorem skill_id :
+     step (step {} .start) (.ev .skillInject) = step {} .start := by
+-  native_decide
++  decide +kernel
+ 
+ theorem append_id :
+     step (step {} .start) (.ev .toolsetAppend) = step {} .start := by
+-  native_decide
++  decide +kernel
+ 
+ theorem compact_repins :
+     hitOk (run {} [.start, .ev .setSystemPrompt, .ev .compact]) = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem set_system_busts :
+     hitOk (run {} [.start, .ev .setSystemPrompt]) = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem standing_busts :
+     hitOk (run {} [.start, .ev .standingChange]) = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem clock_busts :
+     hitOk (run {} [.start, .ev .clockTick]) = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem rewrite_busts :
+     hitOk (run {} [.start, .ev .toolsetRewrite]) = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem memory_reload_busts :
+     hitOk (run {} [.start, .ev .memoryReload]) = false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Gauss must-nots plus skill/schema/append/turn/compact stay on the HIT. -/
+ theorem maximizing_walk :
+     hitOk (run {} [
+       .start, .ev .turn, .ev .skillInject, .ev .schemaLoad,
+       .ev .toolsetAppend, .ev .compact]) = true := by
+-  native_decide
++  decide +kernel
+ 
+-example : verdict .skillInject = .keep := by native_decide
+-example : land .skillInject = .history := by native_decide
+-example : verdict .clockTick = .illegal := by native_decide
+-example : keep { event := .compact, land := .history } = false := by native_decide
++example : verdict .skillInject = .keep := by decide +kernel
++example : land .skillInject = .history := by decide +kernel
++example : verdict .clockTick = .illegal := by decide +kernel
++example : keep { event := .compact, land := .history } = false := by decide +kernel
+ 
+ end Graff.PromptStable
+--- a/Graff/Provider.lean
++++ b/Graff/Provider.lean
+@@ -90,16 +90,16 @@
+ 
+ def providerRows : Nat := specs.length
+ 
+-theorem provider_cube : providerRows = 25 := by native_decide
+-theorem responses_vendors : responsesCount = 3 := by native_decide
+-theorem one_x_api_key : xApiKeyCount = 1 := by native_decide
++theorem provider_cube : providerRows = 25 := by decide +kernel
++theorem responses_vendors : responsesCount = 3 := by decide +kernel
++theorem one_x_api_key : xApiKeyCount = 1 := by decide +kernel
+ 
+-theorem unique_ids : unique ids = true := by native_decide
++theorem unique_ids : unique ids = true := by decide +kernel
+ theorem only_codex_ws_capable :
+-    (specs.filter wsCapable).map (·.id) = ["codex"] := by native_decide
+-theorem anthropic_not_ws : (find "anthropic").map wsCapable = some false := by native_decide
++    (specs.filter wsCapable).map (·.id) = ["codex"] := by decide +kernel
++theorem anthropic_not_ws : (find "anthropic").map wsCapable = some false := by decide +kernel
+ theorem minimax_is_anthropic_bearer :
+-    (find "minimax").map (fun r => r.kind == .anthropic && r.auth == .bearer) = some true := by native_decide
+-theorem xai_no_effort : (find "xai").map (fun r => r.takesEffort) = some false := by native_decide
++    (find "minimax").map (fun r => r.kind == .anthropic && r.auth == .bearer) = some true := by decide +kernel
++theorem xai_no_effort : (find "xai").map (fun r => r.takesEffort) = some false := by decide +kernel
+ 
+ end Graff.Provider
+--- a/Graff/Score.lean
++++ b/Graff/Score.lean
+@@ -51,7 +51,7 @@
+ 
+ theorem ten_slots : canonicalSlots.length = 10 := rfl
+ 
+-theorem none_not_canonical : canonicalSlots.contains Slot.none = false := by native_decide
++theorem none_not_canonical : canonicalSlots.contains Slot.none = false := by decide +kernel
+ 
+ /-- Label wins; empty label falls back to the niche word. `roleOf`. -/
+ def roleOf (label niche : Slot) : Slot :=
+@@ -85,11 +85,11 @@
+ 
+ theorem signal_is_stageScore (s : Signal) :
+     hasSignal s = (stageScore (signalCounts s).1 (signalCounts s).2).isSome := by
+-  cases s <;> native_decide
++  cases s <;> decide +kernel
+ 
+ theorem stage_unreached : stageScore 0 0 = none := rfl
+ theorem stage_all_fail : stageScore 1 0 = none := rfl
+-theorem stage_overflow : stageScore 1 2 = none := by native_decide
++theorem stage_overflow : stageScore 1 2 = none := by decide +kernel
+ theorem stage_clean : stageScore 2 2 = some 1000 := rfl
+ theorem stage_fraction : stageScore 5 4 = some 800 := rfl
+ 
+@@ -137,8 +137,8 @@
+     they do not decide whether a row is filed. -/
+ def celled (slot : Slot) : Bool := decide (slot ≠ Slot.none)
+ 
+-theorem none_not_celled : celled Slot.none = false := by native_decide
+-theorem find_is_celled : celled Slot.find = true := by native_decide
++theorem none_not_celled : celled Slot.none = false := by decide +kernel
++theorem find_is_celled : celled Slot.find = true := by decide +kernel
+ 
+ structure Cell where
+   niche : Niche := .reviewer
+@@ -196,7 +196,7 @@
+ 
+ theorem unit_interval_accepted :
+     accepted .zero = true ∧ accepted .half = true ∧ accepted .one = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem one_not_divided : normalize .one = some 1000 := rfl
+ theorem pct_divides : normalize .fortyThree = some 430 := rfl
+@@ -243,7 +243,7 @@
+ theorem cjk_leading_uncelled : titleSlot .cjkReview = Slot.none := rfl
+ 
+ theorem off_vocab_titles_uncelled :
+-    titleSlot .ponder = Slot.none ∧ titleSlot .empty = Slot.none := by native_decide
++    titleSlot .ponder = Slot.none ∧ titleSlot .empty = Slot.none := by decide +kernel
+ 
+ /-- Needle half of `providerClass`. Most-specific first. Price fallback
+     is out: unmatched models stay `.unknown` and are not a maintained tier. -/
+@@ -335,7 +335,7 @@
+   unfold maintainedCell knownTier; simp [h]
+ 
+ theorem mid_find_maintained :
+-    maintainedCell {} = true := by native_decide
++    maintainedCell {} = true := by decide +kernel
+ 
+ structure FileCase where
+   fleet : Bool
+@@ -366,52 +366,52 @@
+   (allFileCases.filter (fun c => files c.fleet c.label c.niche c.sig)).length
+ 
+ /-- 2 fleets × 11 slots × 11 niches × 5 signals. -/
+-theorem score_cube : scoreCells = 1210 := by native_decide
++theorem score_cube : scoreCells = 1210 := by decide +kernel
+ 
+ /-- Fleet-on × 120 celled (label, niche) pairs × 2 live signals. -/
+-theorem filed_count : filedCells = 240 := by native_decide
++theorem filed_count : filedCells = 240 := by decide +kernel
+ 
+ /-- Every filed cell of the cube is celled, fleet-on, and has a stageScore. -/
+ theorem cube_filed_is_celled :
+     allFileCases.all (fun c =>
+       !(files c.fleet c.label c.niche c.sig) ||
+-        celled (roleOf c.label c.niche)) := by native_decide
++        celled (roleOf c.label c.niche)) := by decide +kernel
+ 
+ theorem cube_filed_fleet_on :
+     allFileCases.all (fun c =>
+-      !(files c.fleet c.label c.niche c.sig) || c.fleet) := by native_decide
++      !(files c.fleet c.label c.niche c.sig) || c.fleet) := by decide +kernel
+ 
+ theorem cube_filed_has_stage :
+     allFileCases.all (fun c =>
+       !(files c.fleet c.label c.niche c.sig) ||
+         (stageScore (signalCounts c.sig).1 (signalCounts c.sig).2).isSome) := by
+-  native_decide
++  decide +kernel
+ 
+ theorem cube_files_iff_stage :
+     allFileCases.all (fun c =>
+       files c.fleet c.label c.niche c.sig ==
+         (c.fleet && decide (roleOf c.label c.niche ≠ Slot.none) &&
+           (stageScore (signalCounts c.sig).1 (signalCounts c.sig).2).isSome)) := by
+-  native_decide
++  decide +kernel
+ 
+ /-! Concrete cells the harness also checks. -/
+ 
+-example : files true Slot.transform Slot.none Signal.clean = true := by native_decide
+-example : files true Slot.none Slot.transform Signal.clean = true := by native_decide
+-example : files true Slot.none Slot.none Signal.clean = false := by native_decide
+-example : files true Slot.transform Slot.none Signal.allFail = false := by native_decide
+-example : files true Slot.transform Slot.none Signal.unreached = false := by native_decide
+-example : files true Slot.transform Slot.none Signal.overflow = false := by native_decide
+-example : files false Slot.transform Slot.none Signal.clean = false := by native_decide
+-example : roleOf Slot.none Slot.transform = Slot.transform := by native_decide
+-example : roleOf Slot.review Slot.find = Slot.review := by native_decide
+-example : sameCell {} { slot := Slot.verify } = false := by native_decide
++example : files true Slot.transform Slot.none Signal.clean = true := by decide +kernel
++example : files true Slot.none Slot.transform Signal.clean = true := by decide +kernel
++example : files true Slot.none Slot.none Signal.clean = false := by decide +kernel
++example : files true Slot.transform Slot.none Signal.allFail = false := by decide +kernel
++example : files true Slot.transform Slot.none Signal.unreached = false := by decide +kernel
++example : files true Slot.transform Slot.none Signal.overflow = false := by decide +kernel
++example : files false Slot.transform Slot.none Signal.clean = false := by decide +kernel
++example : roleOf Slot.none Slot.transform = Slot.transform := by decide +kernel
++example : roleOf Slot.review Slot.find = Slot.review := by decide +kernel
++example : sameCell {} { slot := Slot.verify } = false := by decide +kernel
+ example : classOf .opus = Tier.frontier := by native_decide
+ example : classOf .haiku = Tier.small := by native_decide
+ example : classOf .sonnet = Tier.mid := by native_decide
+ example : classOf .minimax = Tier.frontier := by native_decide
+-example : titleSlot .findBugs = Slot.find := by native_decide
+-example : titleSlot .sweepPadded = Slot.sweep := by native_decide
++example : titleSlot .findBugs = Slot.find := by decide +kernel
++example : titleSlot .sweepPadded = Slot.sweep := by decide +kernel
+ 
+ /-! The machine. Snapshot predicates above; these are the edges. -/
+ 
+@@ -470,10 +470,10 @@
+ 
+ theorem items_do_not_file :
+     (run {} [Event.fleetOn, Event.setSlot Slot.transform, Event.attempt true, Event.attempt true]).filed = false := by
+-  native_decide
++  decide +kernel
+ 
+ theorem clean_capture_files :
+     (run {} [Event.fleetOn, Event.setSlot Slot.transform, Event.attempt true, Event.attempt true, Event.capture]).filed = true := by
+-  native_decide
++  decide +kernel
+ 
+ end Graff.Score
+--- a/Graff/Shape.lean
++++ b/Graff/Shape.lean
+@@ -106,14 +106,14 @@
+   if cap = 0 then true
+   else decide (remaining - totalReserve cap ≥ fleetFloor shape)
+ 
+-theorem adhoc_floor_lt_design : fleetFloor .adhoc < fleetFloor .design := by native_decide
++theorem adhoc_floor_lt_design : fleetFloor .adhoc < fleetFloor .design := by decide +kernel
+ 
+ /-- remaining=30, cap=100 → spendable 9: adhoc (9) fits, design (18) does not. -/
+-theorem split_admits_adhoc : fleetFits .adhoc 30 100 = true := by native_decide
+-theorem split_refuses_design : fleetFits .design 30 100 = false := by native_decide
++theorem split_admits_adhoc : fleetFits .adhoc 30 100 = true := by decide +kernel
++theorem split_refuses_design : fleetFits .design 30 100 = false := by decide +kernel
+ 
+ theorem unlimited_fits (s : Shape) : fleetFits s 0 0 = true := by
+-  cases s <;> native_decide
++  cases s <;> decide +kernel
+ 
+ structure Observables where
+   shape        : Shape := .adhoc
+@@ -224,28 +224,28 @@
+ 
+ /-! Concrete cells the harness also checks. -/
+ 
+-example : parseShape "ponder" = .adhoc := by native_decide
+-example : parseShape "review" = .review := by native_decide
+-example : classOf {} = .other := by native_decide
+-example : honourExplicit .R3 = .R3 := by native_decide
+-example : honourExplicit .R0 = .R2 := by native_decide
+-example : ladderRung { shape := .feature, filesLt3 := true } = .R0 := by native_decide
+-example : ladderRung { audit := true, remaining := 1000000, cap := 1000000 } = .R3 := by native_decide
+-example : ladderRung { audit := true, remaining := 0, cap := 100 } ≠ .R3 := by native_decide
+-example : ladderRung { shape := .research, filesLt3 := false, widestGe2 := true } = .R1 := by native_decide
+-example : ladderRung { shape := .research, audit := true, remaining := 1000000, cap := 1000000 } = .R3 := by native_decide
+-example : ladderRung { filesLt3 := false, widestGe2 := true, remaining := 1000000, cap := 1000000 } = .R2 := by native_decide
++example : parseShape "ponder" = .adhoc := by decide +kernel
++example : parseShape "review" = .review := by decide +kernel
++example : classOf {} = .other := by decide +kernel
++example : honourExplicit .R3 = .R3 := by decide +kernel
++example : honourExplicit .R0 = .R2 := by decide +kernel
++example : ladderRung { shape := .feature, filesLt3 := true } = .R0 := by decide +kernel
++example : ladderRung { audit := true, remaining := 1000000, cap := 1000000 } = .R3 := by decide +kernel
++example : ladderRung { audit := true, remaining := 0, cap := 100 } ≠ .R3 := by decide +kernel
++example : ladderRung { shape := .research, filesLt3 := false, widestGe2 := true } = .R1 := by decide +kernel
++example : ladderRung { shape := .research, audit := true, remaining := 1000000, cap := 1000000 } = .R3 := by decide +kernel
++example : ladderRung { filesLt3 := false, widestGe2 := true, remaining := 1000000, cap := 1000000 } = .R2 := by decide +kernel
+ example : ladderRung {
+     shape := .adhoc, filesLt3 := false, widestGe2 := true,
+-    remaining := 30, cap := 100 } = .R2 := by native_decide
++    remaining := 30, cap := 100 } = .R2 := by decide +kernel
+ example : ladderRung {
+     shape := .design, filesLt3 := false, widestGe2 := true,
+-    remaining := 30, cap := 100 } = .R0 := by native_decide
++    remaining := 30, cap := 100 } = .R0 := by decide +kernel
+ example : ladderRung {
+     filesLt3 := true, priorFailure := true, priorCount := 1,
+-    hasVerifier := true, audit := false } = .R0d := by native_decide
++    hasVerifier := true, audit := false } = .R0d := by decide +kernel
+ example : ladderRung {
+     filesLt3 := true, priorFailure := true, priorCount := 2,
+-    hasVerifier := true, remaining := 1000000, cap := 1000000 } = .R3 := by native_decide
++    hasVerifier := true, remaining := 1000000, cap := 1000000 } = .R3 := by decide +kernel
+ 
+ end Graff.Shape
+--- a/Graff/ToolCatalog.lean
++++ b/Graff/ToolCatalog.lean
+@@ -102,57 +102,57 @@
+ 
+ def catalogCells : Nat := allFlags.length
+ 
+-theorem catalog_cube : catalogCells = 64 := by native_decide
++theorem catalog_cube : catalogCells = 64 := by decide +kernel
+ 
+ /-- Exhaustive over the cube Lean built. These are real ∀-on-the-finite-space
+ claims, not one-off examples. -/
+ theorem cube_imagegen_off :
+     (allFlags.filter (fun f => !f.imagegen)).all
+-      (fun f => !advertised f "imagegen") = true := by native_decide
++      (fun f => !advertised f "imagegen") = true := by decide +kernel
+ 
+ theorem cube_no_local_drops_shell :
+     (allFlags.filter (fun f => f.noLocal)).all
+-      (fun f => !advertised f "shell") = true := by native_decide
++      (fun f => !advertised f "shell") = true := by decide +kernel
+ 
+ theorem cube_never_advertises_bash_aliases :
+     allFlags.all (fun f =>
+-      (!advertised f "bash" && !advertised f "bash_output" && !advertised f "bash_kill")) = true := by native_decide
++      (!advertised f "bash" && !advertised f "bash_output" && !advertised f "bash_kill")) = true := by decide +kernel
+ 
+ theorem cube_sub_never_subagent :
+     (allFlags.filter (fun f => f.isSub)).all
+-      (fun f => !advertised f "subagent") = true := by native_decide
++      (fun f => !advertised f "subagent") = true := by decide +kernel
+ 
+ theorem cube_webfetch_survives_no_local_unless_lean :
+     (allFlags.filter (fun f => f.noLocal && !(f.lean && !f.isSub))).all
+-      (fun f => advertised f "webfetch") = true := by native_decide
++      (fun f => advertised f "webfetch") = true := by decide +kernel
+ 
+ theorem cube_unique :
+-    allFlags.all (fun f => unique (catalog f)) = true := by native_decide
++    allFlags.all (fun f => unique (catalog f)) = true := by decide +kernel
+ 
+-example : mem "webfetch" localTools = false := by native_decide
+-example : mem "imagegen" localTools = true := by native_decide
+-example : mem "imagegen" leanTools = false := by native_decide
+-example : mem "subagent" leanTools = true := by native_decide
+-example : unique (baseTools ++ metaTools ++ rootExtras) = true := by native_decide
++example : mem "webfetch" localTools = false := by decide +kernel
++example : mem "imagegen" localTools = true := by decide +kernel
++example : mem "imagegen" leanTools = false := by decide +kernel
++example : mem "subagent" leanTools = true := by decide +kernel
++example : unique (baseTools ++ metaTools ++ rootExtras) = true := by decide +kernel
+ 
+ example : catalog {} =
+     (baseTools ++
+       ["todo_write", "todo_read", "eval", "note_constraint", "ask_user",
+        "attempt_completion", "load_tool_schemas", "mcp_search_tools",
+        "mcp_select_tool"] ++
+-       ["subagent", "workflow", "agent_output", "agent_message", "peer_message", "workspace", "yield_turn"]) := by native_decide
++       ["subagent", "workflow", "agent_output", "agent_message", "peer_message", "workspace", "yield_turn"]) := by decide +kernel
+ 
+ example : catalog { imagegen := true } =
+-    catalog {} ++ ["imagegen"] := by native_decide
++    catalog {} ++ ["imagegen"] := by decide +kernel
+ 
+-example : advertised {} "shell" = true := by native_decide
+-example : advertised {} "bash" = false := by native_decide
+-example : advertised { noLocal := true } "shell" = false := by native_decide
+-example : advertised { noLocal := true } "webfetch" = true := by native_decide
+-example : advertised { noLocal := true, imagegen := true } "imagegen" = false := by native_decide
+-example : advertised { lean := true, imagegen := true } "imagegen" = false := by native_decide
+-example : advertised { isSub := true } "subagent" = false := by native_decide
+-example : blocked { imagegen := false } "imagegen" = true := by native_decide
+-example : blocked { lean := true } "todo_write" = false := by native_decide
++example : advertised {} "shell" = true := by decide +kernel
++example : advertised {} "bash" = false := by decide +kernel
++example : advertised { noLocal := true } "shell" = false := by decide +kernel
++example : advertised { noLocal := true } "webfetch" = true := by decide +kernel
++example : advertised { noLocal := true, imagegen := true } "imagegen" = false := by decide +kernel
++example : advertised { lean := true, imagegen := true } "imagegen" = false := by decide +kernel
++example : advertised { isSub := true } "subagent" = false := by decide +kernel
++example : blocked { imagegen := false } "imagegen" = true := by decide +kernel
++example : blocked { lean := true } "todo_write" = false := by decide +kernel
+ 
+ end Graff.ToolCatalog
+--- a/Graff/Transport.lean
++++ b/Graff/Transport.lean
+@@ -111,21 +111,21 @@
+ def transportCells : Nat := allTurns.length
+ def wsCells : Nat := (allTurns.filter eligible).length
+ 
+-theorem transport_cube : transportCells = 96 := by native_decide
+-theorem one_ws_cell : wsCells = 1 := by native_decide
++theorem transport_cube : transportCells = 96 := by decide +kernel
++theorem one_ws_cell : wsCells = 1 := by decide +kernel
+ 
+ /-!  The one inhabited WS cell, and the default turn (openai root) is SSE. -/
+ 
+-example : eligible {} = false := by native_decide
+-example : pipe {} = .sse := by native_decide
+-example : eligible { kind := .responses } = true := by native_decide
+-example : pipe { kind := .responses } = .ws := by native_decide
+-example : eligible { kind := .responses, isSub := true } = false := by native_decide
+-example : eligible { kind := .responses, quiet := true } = false := by native_decide
+-example : eligible { kind := .responses, wsOff := true } = false := by native_decide
+-example : eligible { kind := .anthropic, codexWs := true, hasOut := true } = false := by native_decide
+-example : idleExpired 100 0 100 = false := by native_decide
+-example : idleExpired 101 0 100 = true := by native_decide
++example : eligible {} = false := by decide +kernel
++example : pipe {} = .sse := by decide +kernel
++example : eligible { kind := .responses } = true := by decide +kernel
++example : pipe { kind := .responses } = .ws := by decide +kernel
++example : eligible { kind := .responses, isSub := true } = false := by decide +kernel
++example : eligible { kind := .responses, quiet := true } = false := by decide +kernel
++example : eligible { kind := .responses, wsOff := true } = false := by decide +kernel
++example : eligible { kind := .anthropic, codexWs := true, hasOut := true } = false := by decide +kernel
++example : idleExpired 100 0 100 = false := by decide +kernel
++example : idleExpired 101 0 100 = true := by decide +kernel
+ 
+ /-! The machine. Snapshot predicates above; these are the edges. -/
+ 

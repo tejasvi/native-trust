@@ -1,0 +1,3 @@
+TIMES tag=hrrows P=21 shards_wall_from_queue=3975.43 combine_wall=1.73455
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._native.native_decide.ax_1_1` as `_ktshard.RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1`: 
+max_rss_kb 44558900 sum_secs 6028.96

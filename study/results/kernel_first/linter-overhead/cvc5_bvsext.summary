@@ -1,0 +1,7 @@
+orig native axioms: 29 native axioms in `NTV.BitVecSignExtend`
+kf native axioms: 0 native axioms in `NTV.BitVecSignExtend`
+orig: wall_med=1.52 cpu_med=2.39 rss_kb_max=1954336 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=1.51 cpu_med=2.45 rss_kb_max=1965712 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=1.55 cpu_med=2.57 rss_kb_max=1971924 runs=3 rc=0 warnings=15 unnecessary=15 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=1.52 cpu_med=2.51 rss_kb_max=1972344 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=1.49 cpu_med=2.46 rss_kb_max=1966548 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

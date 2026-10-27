@@ -1,0 +1,22 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_RuleSupport_StrOverlapSupport_0.lean
+NT start _private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._native.native_decide.ax_1_1
+NT nested _private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._native.native_decide.ax_1_1 ms=130 rebuilt_defs=0 visited=3009
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=1 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=10 eq_ms=13 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_list_repeat_rec._f defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_list_repeat_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_list_repeat defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__str_flatten._f defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__str_flatten defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_list_singleton_intro defn_ms=0 eq_ms=0 congr=true
+NT copy __str_nary_intro defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Cpc_Proofs_RuleSupport_StrOverlapSupport_0._private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._kernel.native_decide.ax_1_1.p_0 blockers_ms=19 bounded=false copy_ms=56 copies=13 copy_kernel_ms=29
+NT _ktr.F2_Cpc_Proofs_RuleSupport_StrOverlapSupport_0._private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._kernel.native_decide.ax_1_1.p_0 eval_ms=4
+PROVED `_private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._native.native_decide.ax_1_1` as `_ktr.F2_Cpc_Proofs_RuleSupport_StrOverlapSupport_0._private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._kernel.native_decide.ax_1_1`: kernel_ms=99 native_axioms=1 rebuilt=0 copies=13 total_ms=229
+PROVED `_private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._native.native_decide.ax_1_1` as `_ktr.F2_Cpc_Proofs_RuleSupport_StrOverlapSupport_0._private.Cpc.Proofs.RuleSupport.StrOverlapSupport.0.RuleProofs.str_flatten_nary_intro_explicitCharEmpty_stuck._kernel.native_decide.ax_1_1`: kernel_ms=99 native_axioms=1 rebuilt=0 copies=13 total_ms=229
+maxrss_kb 1855816
+rc=0 secs=1

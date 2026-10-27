@@ -1,0 +1,2 @@
+orig: native axioms: 29 native axioms in `NTV.BitVecSignExtend` | wall_med=1.64 cpu_med=3.24 rss_kb_max=982908 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.BitVecSignExtend` | wall_med=1.64 cpu_med=3.18 rss_kb_max=1095384 runs=3 rc=0 errors=0 kf_fallback=0

@@ -1,0 +1,14 @@
+61 native facts behind `QEC.Circ.thm11_circuit_native`
+kernelize: `QEC.Circ.thm11_circuit_native.kernel` proves the statement of `QEC.Circ.thm11_circuit_native` with axioms [propext,
+'QEC.Circ.thm11_circuit_native' depends on axioms: [propext,
+'QEC.Circ.thm11_circuit_native.kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+statements identical (Expr ==): true
+final: 2.97 s wall 2.56 s user 3949332 KB
+final exit 0
+61
+export lines 0
+    "Unable to print axioms",
+]
+nanoda: 0.00 s 2348 KB
+con-ron: accepted 0 declarations (--verified)
+con-ron: 0.00 s 20376 KB

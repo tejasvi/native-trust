@@ -1,0 +1,11 @@
+trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	
+rust-binomial	/home/ntbuild/repos/llm-rust-lean-pipeline/proof_patterns/binomial_u64_modified/proofs/lean/extraction	
+lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	
+sparkle	/home/ntbuild/repos/sparkle/proofs	
+sounio	/home/ntbuild/repos/sounio/formal	
+program-guide	/home/ntbuild/repos/program_guide/lean4	
+uft	/home/ntbuild/repos/UFT	
+asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	
+tetrasemaphore	/home/ntbuild/repos/tetrasemaphore/proofs	
+sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	
+fx	/home/ntbuild/repos/FX/lean-fx-3	

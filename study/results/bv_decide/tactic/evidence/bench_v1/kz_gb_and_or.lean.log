@@ -1,0 +1,2 @@
+bvs gb_and_or #1: 198 nodes, 545 clauses, 198 vars; 130 steps, 1187 hints, 1 chunks; solve 15 ms, prep+defs 7 ms; kernel: base 140 ms, chunks 260 ms (max 260 ms); total 425 ms
+bvs: added gb_and_or.bvs4 (7 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

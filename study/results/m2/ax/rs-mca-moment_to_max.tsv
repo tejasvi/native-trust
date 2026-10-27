@@ -1,0 +1,33 @@
+rs-mca-moment_to_max	MomentToMax	MomentToMax.hyp_expanded._proof_1_1	KERNELIZED		0	5954000	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.Mtot_value._proof_1_1	KERNELIZED		0	5955776	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.maxN_value._proof_1_1	KERNELIZED		0	5973168	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.barN_exact._proof_1_1	KERNELIZED		0	5997712	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.q_to_sp_expanded._proof_1_1	KERNELIZED		0	6007188	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.tight_concl._proof_1_1	KERNELIZED		0	6219184	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.tight_hyp._proof_1_1	KERNELIZED		0	6105080	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.q_to_sp_cleared._proof_1_1	KERNELIZED		0	6095452	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.barN_value._proof_1_1	KERNELIZED		0	6237636	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.kappa_bar_vs_max._proof_1_1	KERNELIZED		0	6224668	3		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.bare_max_bound._proof_1_1	KERNELIZED		0	6234896	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.loose_hyp._proof_1_1	KERNELIZED		0	6216000	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.q_to_sp_cleared_expanded._proof_1_1	KERNELIZED		0	6233312	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.hyp_max_le_kappa_barN._proof_1_1	KERNELIZED		0	6234372	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.loose_concl._proof_1_1	KERNELIZED		0	6185508	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.sumN2_value._proof_1_1	KERNELIZED		0	6228308	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.L_value._proof_1_1	KERNELIZED		0	6232320	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.q_to_sp_conclusion._proof_1_1	KERNELIZED		0	6215244	4		1	2	
+rs-mca-moment_to_max	MomentToMax	MomentToMax.tight_eq._proof_1_1	KERNELIZED		0	6218908	4		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.prouhet_gadget_values._proof_1_1	KERNELIZED		0	5979672	5		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.k5_window_beats_k5_flat._proof_1_1	KERNELIZED		0	5972308	5		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.minimalProuhet_trade._proof_1_1	KERNELIZED		0	5978800	5		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_beats_k3._proof_1_1	KERNELIZED		0	6234224	5		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_beats_k5_window._proof_1_1	KERNELIZED		0	5963588	4		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_beats_k5_flat._proof_1_1	KERNELIZED		0	6240176	4		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_beats_k2._proof_1_1	KERNELIZED		0	6241284	4		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.minimalProuhet_disjoint._proof_1_1	KERNELIZED		0	5972048	4		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_ceiling_on_reportedRows._proof_1_1	ERROR			10593696	61		1	2	
+rs-mca-moment_to_max	MomentToMax.PTEClusterPacking	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	ERROR			45715068	213		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_ceiling_on_reportedRows._proof_1_1	ERROR	maxRecDepth		10476216	61		1	2	
+rs-mca-moment_to_max	MomentToMax.PTEClusterPacking	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	ERROR	memory		45593104	218		1	2	
+rs-mca-moment_to_max	MomentToMax.CombTradeChampion	MomentToMax.CombTradeChampion.champion_ceiling_on_reportedRows._proof_1_1	ERROR	maxRecDepth		10526304	59		1	2	
+rs-mca-moment_to_max	MomentToMax.PTEClusterPacking	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	KERNELIZED		0	54722368	992		1	2	

@@ -1,0 +1,9 @@
+2026-10-24T00:37:40Z s_batmeezy918_chronofold: tc=v4.29.0 files=124 modules=124 built=1 plain=s_batmeezy918_chronofold study=s_batmeezy918_chronofold
+2026-10-24T00:37:44Z census before: 11 native axioms, 11 native-dependent declarations, modules=1, failed=[]
+2026-10-24T00:37:44Z plan: 11 occurrences; {"rewrite": 11}; unmatched axioms=0; affected modules=1
+2026-10-24T00:37:45Z time0: rc=0 wall=0.6 cpu=0.7 built=1 peak_lean=1 peak_rss_gb=0.5 sum=0.5 errors=0
+2026-10-24T00:37:46Z build round 0: rc=0 wall=0.6 errors=0 revert=0 bump=0 unattributed=0 peak_lean=1 peak_rss_gb=0.5
+2026-10-24T00:37:46Z time1: rc=0 wall=0.64 cpu=0.8 built=1 peak_lean=1 peak_rss_gb=0.5 sum=0.5 errors=0
+2026-10-24T00:37:47Z default build: rc=0 wall=0.39 built=0 errors=0
+2026-10-24T00:37:48Z summary {"uses": 11, "replaced": 11, "replaced_facts": 11, "native_axioms_before": 11, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 11, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 11, "replaced": 11, "replaced_facts": 11, "native_axioms_before": 11, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 11, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}

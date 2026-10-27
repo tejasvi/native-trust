@@ -1,0 +1,143 @@
+{
+ "name": "Natuvea_tacenta_core_tacenta_proofs",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs",
+ "copy_root": "/home/ntbuild/repos_s/Natuvea_tacenta-core",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.31.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T03:51:14Z",
+ "toolchain": "v4.31.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.7,
+  "built": []
+ },
+ "modules": 8,
+ "before": {
+  "total": 1,
+  "by_tactic": {
+   "bv_decide": 1
+  },
+  "failed": [],
+  "dirty": 5
+ },
+ "native_files": 3,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.39,
+   "cpu": 5.5,
+   "n_built": 8,
+   "peak_lean": 6,
+   "peak_rss_gb": 0.7,
+   "peak_rss_sum_gb": 2.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.17,
+   "cpu": 6.4,
+   "n_built": 8,
+   "peak_lean": 6,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 4.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.28,
+   "cpu": 5.7,
+   "n_built": 8,
+   "peak_lean": 6,
+   "peak_rss_gb": 0.7,
+   "peak_rss_sum_gb": 2.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.18,
+   "cpu": 6.7,
+   "n_built": 8,
+   "peak_lean": 5,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 3.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.39,
+   "cpu": 5.8,
+   "n_built": 8,
+   "peak_lean": 4,
+   "peak_rss_gb": 0.7,
+   "peak_rss_sum_gb": 2.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 56,
+   "rc": 0,
+   "wall": 2.18,
+   "cpu": 6.4,
+   "n_built": 8,
+   "peak_lean": 6,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 4.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 1,
+  "by_tactic": {
+   "bv_decide": 1
+  },
+  "failed": [],
+  "dirty": 5
+ },
+ "fallbacks": {},
+ "fallback_examples": {},
+ "reps": 3,
+ "orig_wall_med": 2.39,
+ "orig_cpu_med": 5.7,
+ "kf_wall_med": 2.18,
+ "kf_cpu_med": 6.4,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T03:51:45Z"
+}

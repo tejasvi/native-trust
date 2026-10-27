@@ -1,0 +1,9 @@
+start 2026-10-26T01:12:31Z jobs 4 targets: +S45Final.Main.Header +S45Final.Main.Bfs.D00C000 +S45Final.Main.Bfs.D24C000
+✔ [103/147] Built S45DataMain:c.o (36ms)
+✔ [144/147] Built S45DataMain:shared (661ms)
+✔ [145/147] Built S45Final.Main.Bfs.D24C000 (2.9s)
+✔ [146/147] Built S45Final.Main.Bfs.D00C000 (3.0s)
+✔ [147/147] Built S45Final.Main.Header (5.3s)
+Build completed successfully (147 jobs).
+maxrss_kb 2445896 secs 6.52 user 10.91 sys 6.42
+end 2026-10-26T01:12:38Z rc=0

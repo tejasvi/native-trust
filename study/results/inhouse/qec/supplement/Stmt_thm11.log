@@ -1,0 +1,2 @@
+STMT same=1 defeq=0 diff=0 missing=0 nonstd_axioms=0 control_originals_nonstd=1
+stmt_check: 2.23 s wall 1.80 s user 0.42 s sys 3912580 KB

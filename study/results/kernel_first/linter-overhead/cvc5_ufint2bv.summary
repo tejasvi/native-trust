@@ -1,0 +1,7 @@
+orig native axioms: 25 native axioms in `NTV.Uf_int2bv_bvult_equiv`
+kf native axioms: 0 native axioms in `NTV.Uf_int2bv_bvult_equiv`
+orig: wall_med=4.27 cpu_med=6.14 rss_kb_max=1963688 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=4.27 cpu_med=6.14 rss_kb_max=1971368 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=4.23 cpu_med=6.28 rss_kb_max=1975376 runs=3 rc=0 warnings=2 unnecessary=2 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=4.27 cpu_med=6.29 rss_kb_max=1981896 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=4.17 cpu_med=5.94 rss_kb_max=1966684 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

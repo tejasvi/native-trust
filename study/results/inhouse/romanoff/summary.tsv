@@ -1,0 +1,12 @@
+project	Romanoff 45a v10, native version
+source	supp 10.5281/zenodo.23609840 (romanoff-constant-v10 @5ecf564857b9)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	11 (lean: RCert.M3.NCheck 3, RCert.Cert45Check 2; lean_u3g: RCert.M3G.NCheck 4, RCert.G.BCheck 1, Romanoff.G.S2.Native 1)
+converted	0 of 11; 0 theorems
+nt_cpu_h	0.84 (final runs of the 5 fact modules; 0.87 with the superseded runs)
+nt_wall_min	50
+native_build_cpu_h	about 0.22 for lean/ (lake build Romanoff.Theorems, about 800 CPU-seconds for 72 modules; lean/README.md:79-80); lean_u3g Native.lean not stated
+hand_track	lean_kernel (U2/v3 bounds); lean_u3g_kernel (U3g/V4g bounds)
+hand_build_cpu_h	10.3 (lean_kernel/README.md:46) + 2494 (README.md:301)
+checks	kdecide on the statements of all 5 fact modules (900 s, MemoryMax 100G): all out of memory after 267-852 s; earlier, RCert.M3.NCheck at 3,600 s: out of memory at 96 GiB after about 14 min

@@ -1,0 +1,12 @@
+project	smale6 six bodies v4, native version (sections6-9, sections3-5)
+source	supp 10.5281/zenodo.23472605 (repository tejasvi/smale6-six-bodies-generic-v4, the earlier study's copy)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	native headline (version 2 CC6Compose.main_theorem): 3,158 native axioms (lean/full/README.md:99-103); in the modules built here: sections6-9: 534 native axioms in the native build (524 in the theorem closures of axioms_all.log); sections3-5: 1,097 in the release's axiom logs (F1 8, F2 429, F2S 660), of which 12 in the native build
+converted	56 facts (sections6-9 54, sections3-5 2); 18 theorems fully converted (15 + 3) of 97 with native axioms
+nt_cpu_h	15.6 (unit CPU time of both runs: pass 1 on the stratified sample + heavy pass); converted facts: 0.44 h of process time
+nt_wall_min	357
+native_build_cpu_h	not stated in the release
+hand_track	v4 kernel checks: lean6 (sections3-5), lean6_special, sections6-9 stage dim
+hand_build_cpu_h	1178.3 (963 + 45.0 + 170.3; lean/full/README.md:335-336, 342-343, 284)
+checks	pass 1 (900 s, 48 GiB): 178 facts (sections6-9: all 126 non-memory facts of the study + 40 of its 408 memory failures, seed 20261026; sections3-5: all 12); heavy (3,600 s, 96 GiB): 37 facts

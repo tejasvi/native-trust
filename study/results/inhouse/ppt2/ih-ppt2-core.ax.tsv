@@ -1,0 +1,859 @@
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap024	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap040	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap045	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3094	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3105	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap4.G4CoreControls	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.Kernel.New109	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.Kernel.New113	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New057	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New058	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New059	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New060	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New061	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New080	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New081	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New082	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New083	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New103	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New104	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New105	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New106	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New107	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New108	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New109	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New110	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New111	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New112	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New113	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New114	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New115	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New116	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New117	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New118	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New119	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New120	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New121	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New122	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New123	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New124	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New125	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New126	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New127	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New128	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New129	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New130	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New131	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New132	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New133	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New134	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr25_s1_pow6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578164	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr24_s1_pow4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1601372	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr24_s1_pow4_wB._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1601380	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC5_s1sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1839036	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC5_wB._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1836644	5		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC4_s1sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1826868	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC4_s1sq_wB._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1828916	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC5_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1767736	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr25_s1_pow6_wB._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1660928	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_c7QC5_s2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1761520	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Basic	PPT2Cert.Calib.gr36_s1_pow9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1997048	4		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_grassBundle._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1968164	6		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_grass36._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2085368	7		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.grassBundle_point._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1601804	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_projBundle._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1697220	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.control_corrupted._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1599624	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_prod._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2195232	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_flag135._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2866372	16		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.segre_P2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1609996	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.flag_two_ways._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1653016	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.vanish_flag236._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5784268	45		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Calib.Consistency	PPT2Cert.Calib.Consistency.hirzebruch._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1589128	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU012	PPT2Cert.PU012.lambda_degree0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1605496	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU020	PPT2Cert.PU020.kappa._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2511508	11		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU025	PPT2Cert.PU025.cU._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1624036	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU025	PPT2Cert.PU025.c3_FX._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1716108	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU036	PPT2Cert.PU036.gamma_theta._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1938524	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU041	PPT2Cert.PU041.uperp_classes._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2083896	7		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU045	PPT2Cert.PU045.multiplicities._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2166036	7		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU051	PPT2Cert.PU051.cU._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1625232	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU075	PPT2Cert.PU075.Ez_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1615084	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU075	PPT2Cert.PU075.triples._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1598676	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU076	PPT2Cert.PU076.tp_class._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1924964	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU080	PPT2Cert.PU080.twist._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1679800	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU091	PPT2Cert.PU091.c1_St._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1732508	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU091	PPT2Cert.PU091.c6_V._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6883776	50		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU097	PPT2Cert.PU097.forms_g8._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155220	149		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.PU097	PPT2Cert.PU097.forms_g5._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156800	144		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.PU005	PPT2Cert.PU005.class_identities._native.native_decide.ax_1_1	native_decide	False	PROVED		0	20696464	405		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.PU097	PPT2Cert.PU097.forms_g6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156844	144		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.PU097	PPT2Cert.PU097.forms_g7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156100	144		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.PU103	PPT2Cert.PU103.c4_Q49._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1929728	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PU123	PPT2Cert.PU123.deg_fibre._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1658848	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU143	PPT2Cert.PU143.sigma2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1770124	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU155	PPT2Cert.PU155.c3_coker._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1796596	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PU103	PPT2Cert.PU103.forms_g6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158932	146		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.PUca	PPT2Cert.PUca.tp_s44str._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1646088	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.PUca	PPT2Cert.PUca.c1_St_affine._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1928548	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.PUca	PPT2Cert.PUca.fam565._native.native_decide.ax_1_1	native_decide	False	PROVED		0	22377900	206		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.N23_9_9_6_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46180240	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576116	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.N23_4_6_4_4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13325860	110		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.N23_8_8_6_5._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46177548	143		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.N23_8_8_5_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46177904	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1923460	4		nt_lines=15 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.duality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3383840	10		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row002	PPT2Cert.Row002.N23_7_7_5_5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	37015376	354		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.class_pairings._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46150676	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.coefficients_w1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	30733748	126		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.Fz_class._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1637700	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.Fz_chern._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1643836	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.dim_Fz._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576276	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row003	PPT2Cert.Row003.coefficients_w2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	30719412	127		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row004	PPT2Cert.Row004.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578304	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row004	PPT2Cert.Row004.N34_12_9_6_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46193452	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row004	PPT2Cert.Row004.N23_9_9_5_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46189628	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row005	PPT2Cert.Row005.int_c15FY_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6143800	42		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row005	PPT2Cert.Row005.int_c15FX_s2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5406340	35		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row005	PPT2Cert.Row005.int_c15FY_s2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6082280	43		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row005	PPT2Cert.Row005.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1699052	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row005	PPT2Cert.Row005.int_c15FX_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5465724	37		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row006	PPT2Cert.Row006.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576236	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row006	PPT2Cert.Row006.N23_12_6_5_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46187104	146		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.pieri_s1sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1896568	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.class_identity_pairings._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2017968	6		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.int_c7_s2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1923364	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583724	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.duality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1915256	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.int_c7_s1sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1860548	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row006	PPT2Cert.Row006.N23_a_18ma_5_6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188144	145		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row008	PPT2Cert.Row008.int_c7_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1922268	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.coefficients._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1806808	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1603140	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.class_identity_pairings._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2005888	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.int_c7QC4_s1sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1919032	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.int_c7QC5_alpha._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1921080	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row010	PPT2Cert.Row010.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576692	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row009	PPT2Cert.Row009.int_c7QC4_alpha._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1921392	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row010	PPT2Cert.Row010.c2_case._native.native_decide.ax_1_1	native_decide	False	PROVED		0	16479740	140		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row010	PPT2Cert.Row010.table666_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153620	143		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row011	PPT2Cert.Row011.int_s3._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194076	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row010	PPT2Cert.Row010.table666_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153268	143		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row011	PPT2Cert.Row011.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578696	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row011	PPT2Cert.Row011.int_c3E._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46190316	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row012	PPT2Cert.Row012.N23_10_11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46196724	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row012	PPT2Cert.Row012.N34_10_11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194512	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row012	PPT2Cert.Row012.N23_11_10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46196580	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row012	PPT2Cert.Row012.N34_11_10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194348	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row013	PPT2Cert.Row013.int23_h1zeta._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46187264	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row013	PPT2Cert.Row013.int23_h1s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46187940	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row013	PPT2Cert.Row013.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578796	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row013	PPT2Cert.Row013.int34_zero._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46185656	136		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.int23_h2s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46189844	138		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.tests_valid._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1962956	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.int34_h1s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46186096	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.int34_h2s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46186888	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.forms_tests._native.native_decide.ax_1_1	native_decide	False	PROVED		0	46054560	458		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.tests_uvals._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1769416	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579880	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row019	PPT2Cert.Row019.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1837504	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row019	PPT2Cert.Row019.class_pairings._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6336484	46		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row019	PPT2Cert.Row019.duality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1734204	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row014	PPT2Cert.Row014.int23_h1s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46189892	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.int34_h2s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188188	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row019	PPT2Cert.Row019.coefficients._native.native_decide.ax_1_1	native_decide	False	PROVED		0	34728112	335		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.tests_uvals_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1792820	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.combination_s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46189520	139		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.int23_h2s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46191048	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.int23_h1s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46190432	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.tau_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1947960	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.dim_fib._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579120	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.tau_formula._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3153528	9		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.int34_h1s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188984	139		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.combination_s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46189204	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.dim_MX._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577248	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.int_MX_h1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7664912	55		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.sym2_chern._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1665228	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583356	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.Ustar_chern._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1638604	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row022	PPT2Cert.Row022.contrib_poly._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1915960	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row027	PPT2Cert.Row027.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1685652	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row027	PPT2Cert.Row027.int_c1eps_formula._native.native_decide.ax_1_1	native_decide	False	PROVED		0	14702860	58		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row020	PPT2Cert.Row020.forms_tests_s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153040	151		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row027	PPT2Cert.Row027.int_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8726740	71		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row027	PPT2Cert.Row027.int_c1eps._native.native_decide.ax_1_1	native_decide	False	PROVED		0	14702856	127		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row028	PPT2Cert.Row028.int_12_12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13453396	116		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row028	PPT2Cert.Row028.int_11_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	11554060	97		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row027	PPT2Cert.Row027.int_remark._native.native_decide.ax_1_1	native_decide	False	PROVED		0	32616656	311		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row028	PPT2Cert.Row028.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1831336	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4067536	12		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row028	PPT2Cert.Row028.int_11_12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13422512	109		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.int_11_12_25._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46210124	141		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.int_11_11_24._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46208376	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.int_12_11_25._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46210912	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.int_12_10_24._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46209156	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.int_50._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5972060	38		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1927928	4		nt_lines=16 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row029	PPT2Cert.Row029.int_10_12_24._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46206664	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.int_c2epsH._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19887824	174		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.comb_values._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155684	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.I4s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	17427276	71		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.int_75._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8052828	58		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row030	PPT2Cert.Row030.I41_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	27886144	247		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row035	PPT2Cert.Row035.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2038860	5		nt_lines=15 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row035	PPT2Cert.Row035.int_474._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46204832	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row037	PPT2Cert.Row037.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583288	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row037	PPT2Cert.Row037.E_12_s25._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1776248	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row037	PPT2Cert.Row037.E00_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1946532	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.combination._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2152764	4		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.pushforward1_w2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1941560	4		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579340	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.base_det._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1599804	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.pushforward2_w1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1909424	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.pushforward1_w1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1939616	4		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.base_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1657168	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row038	PPT2Cert.Row038.pushforward2_w2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1913200	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.fibre_22._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1915664	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1631064	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row035	PPT2Cert.Row035.int_474_formula._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46168732	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.dim_Pi._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579364	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.fibre_13._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1918580	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.not_mod9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577284	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row039	PPT2Cert.Row039.int_12_10_25._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46211888	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row046	PPT2Cert.Row046.int_10_11_24._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46207432	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row046	PPT2Cert.Row046.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577284	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row046	PPT2Cert.Row046.int_11_10_24._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46207904	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row046	PPT2Cert.Row046.mod9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577284	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row048	PPT2Cert.Row048.not_mod9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577276	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row048	PPT2Cert.Row048.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1631084	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row046	PPT2Cert.Row046.calib_474._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46204888	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row048	PPT2Cert.Row048.int_11_11_25._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46210200	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46161736	141		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m8._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46170908	141		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m9._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46182468	139		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46200312	140		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577748	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.N2_6_6_8_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3679244	20		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.N2_6_7_10_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3791904	21		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.windows_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1604088	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46193432	140		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.excluded_two._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1605980	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.N2_6_7_9_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3744244	20		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m12._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46205012	142		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_11_9_6_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46183976	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_10_8_5_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46179908	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_11_11_7_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188540	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row052	PPT2Cert.Row052.nonzero_m6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	22230992	664		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_10_12_7_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46187772	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_12_10_7_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46186668	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.schubert_s2sq_s1four._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2208036	10		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.degrees._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3150484	14		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.c4_rem469._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2000544	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row053	PPT2Cert.Row053.N23_10_10_6_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46184204	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.schubert_Q._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1966328	8		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.schubert_Udual._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1954076	8		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.c2H2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3348396	16		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.det_rem474._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2589812	10		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577332	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.degrees_rem474._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3671056	19		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row054	PPT2Cert.Row054.c3_h3H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2680696	11		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row055	PPT2Cert.Row055.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577268	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row055	PPT2Cert.Row055.int_6_7_10_9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2456972	9		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row055	PPT2Cert.Row055.int_7_7_10_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3195872	15		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row055	PPT2Cert.Row055.int_7_7_11_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2974508	13		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row055	PPT2Cert.Row055.int_7_7_10_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3214156	15		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row056	PPT2Cert.Row056.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577260	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row056	PPT2Cert.Row056.int_c6_c10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4293752	24		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row057	PPT2Cert.Row057.int_10_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6794056	45		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row057	PPT2Cert.Row057.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577268	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row057	PPT2Cert.Row057.int_10_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7705508	53		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row058	PPT2Cert.Row058.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577276	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row057	PPT2Cert.Row057.int_11_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6898460	46		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row058	PPT2Cert.Row058.int_10_10_t5_H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	14826584	120		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row058	PPT2Cert.Row058.int_10_10_t6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15017176	120		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row058	PPT2Cert.Row058.int_11_10_t6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15171228	123		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row059	PPT2Cert.Row059.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577264	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row059	PPT2Cert.Row059.int_dual_giambelli._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7015416	36		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row058	PPT2Cert.Row058.int_10_11_t7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	17501144	151		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row059	PPT2Cert.Row059.int_s31._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4319136	24		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row059	PPT2Cert.Row059.int_det_s111._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7268572	50		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.identity_g6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	28071852	237		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2760508	7		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.duality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4060188	74		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.delta2_gr36._native.native_decide.ax_1_1	native_decide	False	PROVED		0	38786784	367		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.delta7_is_hat._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583700	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.pieri._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7255212	71		nt_lines=21 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.delta2_gr37_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151708	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.identity_g4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	24028600	203		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.identity_g5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	24004008	204		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_c4SH._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2691092	11		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_s4_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2594648	10		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row060	PPT2Cert.Row060.delta2_gr37_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46152096	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_hm3H_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3061828	25		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.fsigma1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3944904	73		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_3Hmh5_b10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3631928	19		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_s3_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2703320	20		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.int_s4_b10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4648084	31		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row061	PPT2Cert.Row061.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4057268	21		nt_lines=14 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.int_b10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4597064	36		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.int_monomials_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4236252	24		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.int_s4_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2595008	10		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.porteous_class2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1750248	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1645952	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.int_52_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3588996	18		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.UR_relations._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2390852	20		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.int_L_s4_b10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4066280	22		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.porteous_class1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3877544	73		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.linear_system._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580212	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row062	PPT2Cert.Row062.cU_identities._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19821172	302		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.int_V_type34._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157404	276		nt_lines=11 last=blockers_ms=51 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.type34_substitution._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4401372	36		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.int_Z0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1765180	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.alpha_Z0_zero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1738040	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.jump_c_47._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1931340	4		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.dim_V._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1790640	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.jump_equations_37._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6106608	92		nt_lines=25 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.delta_47._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1927876	10		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.jump_a_37._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1823616	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.jump_a_47_first._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1929288	5		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.jump_equations_47._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2012300	9		nt_lines=25 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.delta_37._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1938140	9		nt_lines=19 last=pieces=6
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1591960	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.N_formulas._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1937484	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.N_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1812548	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row064	PPT2Cert.Row064.int_V_s31_s22._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9401360	143		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row067	PPT2Cert.Row067.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577316	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row067	PPT2Cert.Row067.int_s3_11_18._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46206340	136		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row067	PPT2Cert.Row067.int_s3_12_17._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46206984	136		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row068	PPT2Cert.Row068.int34_16_11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46200088	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row068	PPT2Cert.Row068.int23_zero._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46201980	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row068	PPT2Cert.Row068.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579836	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row069	PPT2Cert.Row069.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1651164	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row068	PPT2Cert.Row068.int34_17_10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46200244	135		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row069	PPT2Cert.Row069.first_n7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	35301740	418		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row069	PPT2Cert.Row069.second_vals._native.native_decide.ax_1_1	native_decide	False	PROVED		0	26453100	302		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row070	PPT2Cert.Row070.int_c4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	18617920	142		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row070	PPT2Cert.Row070.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1655072	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row069	PPT2Cert.Row069.first_n6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	26707820	303		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.identity_gr37six._native.native_decide.ax_1_1	native_decide	False	PROVED		0	24051188	204		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.pieri_six._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2981744	23		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.values_gr37six._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19115276	200		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.integrals_cB._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153308	139		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1660204	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row071	PPT2Cert.Row071.monomials._native.native_decide.ax_1_1	native_decide	False	PROVED		0	34503232	504		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row072	PPT2Cert.Row072.schur_forms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6107612	37		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row072	PPT2Cert.Row072.int_schur._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10354616	72		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row072	PPT2Cert.Row072.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1665328	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row072	PPT2Cert.Row072.int_aH._native.native_decide.ax_1_1	native_decide	False	PROVED		0	44275272	501		nt_lines=14 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.monomials._native.native_decide.ax_1_1	native_decide	False	PROVED		0	18831376	240		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.blowup_consistency._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2079200	8		nt_lines=19 last=pieces=6
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.closed_forms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	25162904	337		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.values_b12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	20542956	185		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1628744	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.cB2_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5194388	17		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.blowup_coefficients._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15896004	272		nt_lines=19 last=pieces=6
+ih-ppt2-core	PPT2Cert.Rows.Row074	PPT2Cert.Row074.int_s3_12_14._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46199512	135		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row073	PPT2Cert.Row073.blowup_identity._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=13 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row074	PPT2Cert.Row074.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580192	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row074	PPT2Cert.Row074.int_c3E_17_10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46197284	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row074	PPT2Cert.Row074.N23_a_23ma_6_7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46200612	143		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.eps_10_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4097100	23		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577452	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.pairs_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1595844	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row074	PPT2Cert.Row074.int_s3_11_15._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46201112	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.vals29_nonzero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577456	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.eps29_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151760	146		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row074b	PPT2Cert.Row074b.eps29_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151156	145		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row075	PPT2Cert.Row075.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579392	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row075	PPT2Cert.Row075.int34._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188048	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.trips_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1690952	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row075	PPT2Cert.Row075.int23_zero._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46186976	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit14_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46169176	145		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.c4_values_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46200620	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit11_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166008	145		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit12_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46167212	144		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit10_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46165200	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit10_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162052	139		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit11_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166188	139		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit14_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46165172	139		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580288	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit12_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163984	139		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.c4_values_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46183512	138		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit13_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163664	139		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row076	PPT2Cert.Row076.wit13_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46168532	139		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.wit11_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163588	138		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.trips_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1598660	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580180	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.quoted_on_Gr25._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46205732	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap024	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap040	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap.Gap045	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3094	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3105	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap4.G4CoreControls	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.Kernel.New109	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.Kernel.New113	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New057	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New058	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New059	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New060	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New061	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New080	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New081	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New082	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New083	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New103	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New104	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New105	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New106	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New107	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New108	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New109	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New110	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New111	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New112	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New113	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New114	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New115	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New116	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New117	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New118	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New119	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New120	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New121	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New122	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New123	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New124	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New125	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New126	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New127	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New128	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New129	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New130	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New131	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New132	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New133	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.RowsNew.New134	-			NOT_BUILT						
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.wit12_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46083472	140		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.quoted._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46106576	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row078	PPT2Cert.Row078.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577344	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.wit11_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162168	143		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row078	PPT2Cert.Row078.value_7_5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5414616	62		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row078	PPT2Cert.Row078.monomials._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8710120	65		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row077	PPT2Cert.Row077.wit12_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46168700	145		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.identity_g5._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156792	143		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.identity_g8._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156796	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.identity_g7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154348	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.delta2_class_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155828	141		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row078	PPT2Cert.Row078.range_check._native.native_decide.ax_1_1	native_decide	False	PROVED		0	11594696	394		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.identity_g6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156724	142		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2540644	9		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.delta2_class_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155912	141		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079	PPT2Cert.Row079.products._native.native_decide.ax_1_1	native_decide	False	PROVED		0	20719596	179		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row079b	PPT2Cert.Row079b.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1699204	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row079b	PPT2Cert.Row079b.tp_class_w2a._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162896	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row079b	PPT2Cert.Row079b.tp_class_w1b._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162940	141		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row080	PPT2Cert.Row080.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578180	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row080	PPT2Cert.Row080.value_6_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1966120	5		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row080	PPT2Cert.Row080.monomials._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2407688	9		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row080	PPT2Cert.Row080.range_check._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2371036	26		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row082	PPT2Cert.Row082.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577992	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row079b	PPT2Cert.Row079b.tp_class_w1a._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162364	139		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row082	PPT2Cert.Row082.int_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3753496	37		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row079b	PPT2Cert.Row079b.tp_class_w2b._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46164284	142		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row082	PPT2Cert.Row082.int_h_3H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3608116	19		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row084	PPT2Cert.Row084.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577992	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.g7_form_nonneg._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580532	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row084	PPT2Cert.Row084.int_c1V4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3753736	28		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row082	PPT2Cert.Row082.int_s12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3755704	37		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.identity_g6._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158928	140		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3458388	17		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.delta2_class_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156468	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.b14_nu6H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9803244	80		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.b14_nu7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7807880	54		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.pairs_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1582368	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.schur5_negative._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8813356	276		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.identity_g7._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157212	140		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.delta2_class_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158152	139		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085b	PPT2Cert.Row085b.tp_class_w1b._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46172764	141		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085b	PPT2Cert.Row085b.tp_class_w2b._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46172268	138		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085b	PPT2Cert.Row085b.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1842652	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row085b	PPT2Cert.Row085b.tp_class_w2a._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46173560	142		nt_lines=6 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row085b	PPT2Cert.Row085b.tp_class_w1a._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46172780	142		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row086	PPT2Cert.Row086.g_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1844196	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row086	PPT2Cert.Row086.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1578220	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row086	PPT2Cert.Row086.R_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6376456	45		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row086	PPT2Cert.Row086.component_729._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1707124	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row086	PPT2Cert.Row086.int_h_3H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6197020	42		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row087	PPT2Cert.Row087.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1670260	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row087	PPT2Cert.Row087.int_b12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5116736	32		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1629452	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row087	PPT2Cert.Row087.int_b11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4275992	25		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row085	PPT2Cert.Row085.schur6_negative._native.native_decide.ax_1_1	native_decide	False	PROVED		0	23333572	772		nt_lines=23 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.int_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	18526208	172		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.int_s12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	18544904	173		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.blowup_ring._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1656108	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.blowup_lowerVanish._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1929540	5		nt_lines=16 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row090	PPT2Cert.Row090.int_s12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3841756	39		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row090	PPT2Cert.Row090.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1629220	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.int_segre_form._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13638432	115		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row091	PPT2Cert.Row091.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1671504	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row090	PPT2Cert.Row090.int_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3837628	39		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row091	PPT2Cert.Row091.int_T._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3830856	40		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row091	PPT2Cert.Row091.int_TPi._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4504764	50		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.int_s31._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4326180	25		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row089	PPT2Cert.Row089.control._native.native_decide.ax_1_1	native_decide	False	PROVED		0	17545152	158		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.int_s1_s111._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5347008	34		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1682440	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.int_H_s111._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5330668	34		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.int_fibre._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1653824	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.sigma_conventions._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5622500	36		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.int_ample._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10644396	87		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1682468	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.int_schubert._native.native_decide.ax_1_1	native_decide	False	PROVED		0	14816920	126		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.int_c2eps._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10211216	82		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row092	PPT2Cert.Row092.int_combination._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9867768	235		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.Rows.Row095	PPT2Cert.Row095.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1929604	3		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row093	PPT2Cert.Row093.int_X._native.native_decide.ax_1_1	native_decide	False	PROVED		0	16776288	141		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row095	PPT2Cert.Row095.pushforward_class._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153280	145		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row095	PPT2Cert.Row095.int_theta._native.native_decide.ax_1_1	native_decide	False	PROVED		0	17448664	161		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row096	PPT2Cert.Row096.int_H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5831496	41		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row096	PPT2Cert.Row096.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1681728	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row100	PPT2Cert.Row100.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1725348	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row100	PPT2Cert.Row100.integrals_localisation._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2108028	10		nt_lines=14 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row101	PPT2Cert.Row101.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1594168	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row101	PPT2Cert.Row101.nonvacuous._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1904088	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row096	PPT2Cert.Row096.int_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5854772	42		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row101	PPT2Cert.Row101.identities_blowup._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1929364	5		nt_lines=16 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row102	PPT2Cert.Row102.values_localisation._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3682576	40		nt_lines=14 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row102	PPT2Cert.Row102.L_F._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1692284	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row102	PPT2Cert.Row102.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1795560	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row095	PPT2Cert.Row095.int_porteous._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46152972	147		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row103	PPT2Cert.Row103.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2077696	4		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row102	PPT2Cert.Row102.L_H._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155720	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row102	PPT2Cert.Row102.L_ω._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154864	147		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row103	PPT2Cert.Row103.int_Zpp._native.native_decide.ax_1_1	native_decide	False	PROVED		0	25529460	257		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row103	PPT2Cert.Row103.int_b11_b12._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46161180	502		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row104	PPT2Cert.Row104.int_Z0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1767740	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row103	PPT2Cert.Row103.int_b10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158104	466		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row104	PPT2Cert.Row104.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1937960	3		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row104	PPT2Cert.Row104.alpha_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	24216312	456		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row104	PPT2Cert.Row104.int_b9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	39810024	287		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row104	PPT2Cert.Row104.int_b10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	30805972	304		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2742816	7		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_finite._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162140	526		nt_lines=11 last=blockers_ms=5 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_V'_b11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163576	494		nt_lines=11 last=blockers_ms=5 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46160456	574		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_annihilator._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157504	141		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.pf_vanish_rank3._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153384	140		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_Zu_P5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2169488	5		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.int_V'_b12._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162688	401		nt_lines=9 last=blockers_ms=3 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.pf_vanish_rank4._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155352	149		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row105	PPT2Cert.Row105.pf_terms._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46129068	146		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.pf_gamma._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157060	151		nt_lines=9 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.int_finite._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166952	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.pf_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155088	149		nt_lines=11 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3692544	13		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.int_beta._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158716	146		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.int_grass_case._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163228	144		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.int_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156444	149		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row106	PPT2Cert.Row106.pf_beta._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154308	150		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.delta_coeffs._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3428924	21		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.int_Z0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1837816	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1790068	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.certificate_unique._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2498004	6		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.pf_six._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46134368	151		nt_lines=7 last=blockers_ms=5 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.certMatrix_computed._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1846592	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.value_848t._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1683544	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.int_V._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155792	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.pf_C._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155860	142		nt_lines=13 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.value_848r._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1603652	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2042920	5		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row108	PPT2Cert.Row108.certificate._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46090956	578		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.int_K._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157952	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row118	PPT2Cert.Row118.int_V._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166860	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row118	PPT2Cert.Row118.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3185204	11		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.int_Zu_zeta._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155532	555		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row118	PPT2Cert.Row118.values_949xv._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9401744	75		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.Rows.Row116	PPT2Cert.Row116.int_s2222._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157808	361		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row118	PPT2Cert.Row118.zu_restriction_443_all._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153772	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.value_a12._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1602992	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.values_V46._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2099840	8		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1938108	4		nt_lines=15 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.pf_C4._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154656	142		nt_lines=13 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.value_a11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1669872	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row118	PPT2Cert.Row118.zu_restrictions._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46152704	801		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row119	PPT2Cert.Row119.int_K._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157756	703		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row120	PPT2Cert.Row120.int_combinations._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156072	142		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row120	PPT2Cert.Row120.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2384132	5		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3918564	12		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row120	PPT2Cert.Row120.int_b11_b12._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158864	752		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.pf_rank4._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154828	143		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.int_b11_alpha1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46160940	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.int_Zu._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151792	443		nt_lines=11 last=blockers_ms=5 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.pf_rank4_free._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46159232	139		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row120	PPT2Cert.Row120.int_b10._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157644	676		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.int_b14._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163604	145		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.pf_grass._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46159460	147		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.int_alpha2_alpha3._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46161752	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row121	PPT2Cert.Row121.zu_model._native.native_decide.ax_1_1	native_decide	False	PROVED		0	44753836	187		nt_lines=15 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.int_certificates._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155912	145		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.values_949w._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5007136	32		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3782756	11		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.pf_alpha_free._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46165160	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.int_terms_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46158796	144		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.pf_grass._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155676	148		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.delta_pen._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1794680	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.pf_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154020	151		nt_lines=15 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.fa_rank._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154456	148		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=12 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2140120	6		nt_lines=15 last=pieces=5
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.fa_counts._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1899328	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row124	PPT2Cert.Row124.int_Zu._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156720	510		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.fa_control_zu._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1652768	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.fa_control_pf._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156516	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.int_Zu_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157160	533		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.int_alpha_terms._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46159300	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.pf_alpha._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153772	143		nt_lines=9 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.int_HC._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46163568	137		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.int_Zu_C._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153668	461		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap036	PPT2Cert.Gap036.fibres._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2164720	7		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap036	PPT2Cert.Gap036.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580260	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.Rows.Row126	PPT2Cert.Row126.pstar_R3._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46160952	153		nt_lines=11 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.Rows.Row126Rank	PPT2Cert.Row126Rank.certs_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46000812	139		nt_lines=11 last=blockers_ms=8 bounded=false copy_ms=16 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int23_zs1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46120864	141		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int23_h1s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46118228	142		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int34_zs1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188832	140		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int23_s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46187720	141		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int34_h1s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188916	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int34_h2s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46188936	141		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581760	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.intY_s11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13844176	112		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int23_s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46195340	138		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.intX_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7675544	52		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.intY_h2s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	11681356	91		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int23_h2s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46191184	138		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int34_s11._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46185684	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.intY_s2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9745028	77		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap015	PPT2Cert.Gap015.int34_s2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46193636	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.intY_h2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8815948	65		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int23_h1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194828	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581692	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.intX_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7675520	52		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int23_s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194692	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int34_s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46192248	136		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.intX_h1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7669404	53		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int23_h2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194776	138		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int34_h1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46192360	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.intY_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8818604	65		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int34_z._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46192224	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int34_h2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46192320	137		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap016	PPT2Cert.Gap016.int23_z._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46193884	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.int23_h1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194016	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581704	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.int23_h2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46193992	138		nt_lines=5 last=blockers_ms=5 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.int23_s1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46194684	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.intX_one._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6931744	45		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap024	PPT2Cert.Gap024.contribS_poly._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1907976	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	PPT2Cert.Gap031.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1688132	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap017	PPT2Cert.Gap017.int34_h2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46192320	138		nt_lines=5 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	PPT2Cert.Gap031.duality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15601884	129		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	PPT2Cert.Gap031.I0H4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	16294704	136		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	PPT2Cert.Gap031.c1_identity._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19543428	174		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap040	PPT2Cert.Gap040.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583788	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap040	PPT2Cert.Gap040.J25._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3027180	15		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap040	PPT2Cert.Gap040.J24._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3012740	15		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap.Gap045	PPT2Cert.Gap045.E_12_s24._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1772168	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap.Gap031	PPT2Cert.Gap031.I41._native.native_decide.ax_1_1	native_decide	False	PROVED		0	12839360	106		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3094	PPT2Cert.Gap3094.tab_pairs._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583008	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3094	PPT2Cert.Gap3094.schur5_all._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151344	148		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3105	PPT2Cert.Gap3105.vals107_in_table._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1690276	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3105	PPT2Cert.Gap3105.rows_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4955516	16		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3094	PPT2Cert.Gap3094.schur6_all._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46151516	156		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap4.G4CoreControls	PPT2Cert.Gap4001.Controls.neg_engine._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7273576	45		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsGap4.G4CoreControls	PPT2Cert.Gap4001.Controls.neg_box._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579732	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap3.Gap3105	PPT2Cert.Gap3105.scan_values._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46152632	145		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	PPT2Cert.Gap4001.porteous_box._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8282456	45		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	PPT2Cert.Gap4001.degrees_closed_form._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577708	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	PPT2Cert.Gap4001.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577704	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.relation_model._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1787156	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.chern_Y._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1653324	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.model_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1663588	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.degree_two._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1781016	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581656	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New057	PPT2Cert.New057.pairing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1669740	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New058	PPT2Cert.New058.sym_split._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1942080	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New058	PPT2Cert.New058.sym_model._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1911544	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New058	PPT2Cert.New058.c2_roots._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1592012	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsGap4.Gap4001	PPT2Cert.Gap4001.degrees_engine._native.native_decide.ax_1_1	native_decide	False	PROVED		0	12921188	125		nt_lines=18 last=pieces=6
+ih-ppt2-core	PPT2Cert.RowsNew.New059	PPT2Cert.New059.instance_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580528	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New059	PPT2Cert.New059.unimodular._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1623568	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New059	PPT2Cert.New059.orders_adapted._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1902464	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New059	PPT2Cert.New059.orders_general._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1898364	8		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New060	PPT2Cert.New060.segre._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1913572	3		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New060	PPT2Cert.New060.porteous._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1638084	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New061	PPT2Cert.New061.chern_classes._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1610272	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New061	PPT2Cert.New061.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581588	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New061	PPT2Cert.New061.porteous_36._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1620516	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New080	PPT2Cert.New080.chern_classes._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1750144	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New080	PPT2Cert.New080.class_575cm._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1655284	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New080	PPT2Cert.New080.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1583592	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New080	PPT2Cert.New080.class_575s4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1651196	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New081	PPT2Cert.New081.value_175._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5859616	73		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New081	PPT2Cert.New081.monomials._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8349552	60		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New060	PPT2Cert.New060.local_lengths._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19098720	155		nt_lines=18 last=pieces=6
+ih-ppt2-core	PPT2Cert.RowsNew.New081	PPT2Cert.New081.dim_inc._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1620544	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New081	PPT2Cert.New081.dim_T._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1632776	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New081	PPT2Cert.New081.degZ1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5373956	35		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.c3_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10412600	87		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.pushforward_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1614576	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1632952	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.PM_H5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8486808	64		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.orientation_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1661580	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New082	PPT2Cert.New082.delta_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	12551068	198		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.no_points._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1580460	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.blowup_consistency._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2102048	9		nt_lines=17 last=pieces=6
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.c7_expansion._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=14 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.chi_controls._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1785984	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.cJ._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1905580	11		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.chi_J._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1808804	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.identity_b13_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155588	861		nt_lines=20 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.identity_b14_w1._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=20 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.minima._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1608028	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1743636	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.identity_b13_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157336	857		nt_lines=20 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.one_point._native.native_decide.ax_1_1	native_decide	False	PROVED		0	23795928	197		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.decomposition._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46157296	144		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.int_60._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3301952	17		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1633788	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.total._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19044832	180		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.blowup_consistency._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4248476	40		nt_lines=17 last=pieces=6
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.delta._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4709908	29		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New103	PPT2Cert.New103.k_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1584636	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New104	PPT2Cert.New104.scan_w1._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46154132	190		nt_lines=14 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New104	PPT2Cert.New104.scan_w2._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46153776	189		nt_lines=14 last=blockers_ms=5 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New083	PPT2Cert.New083.identity_b14_w2._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=20 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New104	PPT2Cert.New104.layer_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5143928	46		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New105	PPT2Cert.New105.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9663412	279		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New104	PPT2Cert.New104.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	16301604	388		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New105	PPT2Cert.New105.layer_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4982908	31		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New106	PPT2Cert.New106.layer_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4965184	16		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New105	PPT2Cert.New105.scan_both._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155572	171		nt_lines=14 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New106	PPT2Cert.New106.scan_both._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46155712	242		nt_lines=15 last=blockers_ms=4 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New107	PPT2Cert.New107.scan_negative_cells._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156880	181		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New106	PPT2Cert.New106.values._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=20 last=blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New107	PPT2Cert.New107.layer_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4985716	31		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New107	PPT2Cert.New107.scan_all._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46128116	146		nt_lines=6 last=blockers_ms=4 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New108	PPT2Cert.New108.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5351480	34		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New108	PPT2Cert.New108.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1604364	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New108	PPT2Cert.New108.example_7_15._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2186980	7		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New109	PPT2Cert.New109.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1631092	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New109	PPT2Cert.New109.W_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4938156	30		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New109	PPT2Cert.New109.triples._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10869384	89		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New109	PPT2Cert.New109.fibre_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1654400	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New110	PPT2Cert.New110.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1630856	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New107	PPT2Cert.New107.values._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=18 last=blockers_ms=5 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New111	PPT2Cert.New111.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	17880400	294		nt_lines=17 last=pieces=5
+ih-ppt2-core	PPT2Cert.RowsNew.New110	PPT2Cert.New110.I6_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	28309864	325		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New112	PPT2Cert.New112.table_entries_native._native.native_decide.ax_1_1	native_decide	False	PROVED		0	8487732	34		nt_lines=7 last=pieces=1
+ih-ppt2-core	PPT2Cert.RowsNew.New113	PPT2Cert.New113.nu4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1964964	5		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New113	PPT2Cert.New113.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1598040	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New113	PPT2Cert.New113.nu2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2072484	6		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New113	PPT2Cert.New113.nu3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1993220	6		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New114	PPT2Cert.New114.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2309936	13		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New114	PPT2Cert.New114.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1598192	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New115	PPT2Cert.New115.closed_forms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2814716	41		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New115	PPT2Cert.New115.values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2117560	7		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New114	PPT2Cert.New114.closed_forms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3831896	67		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New115	PPT2Cert.New115.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1591908	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New115	PPT2Cert.New115.gam1_as_c1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2563836	15		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New116	PPT2Cert.New116.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1628784	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New116	PPT2Cert.New116.h3H_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4289916	25		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New116	PPT2Cert.New116.delta_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5756972	60		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New117	PPT2Cert.New117.delta_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6216280	71		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New117	PPT2Cert.New117.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1637088	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New117	PPT2Cert.New117.blowup_checks._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1702704	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New117	PPT2Cert.New117.controls._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5661596	73		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.convention_he3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1610536	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1614620	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.gam1_as_c1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3163584	29		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.case64._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2603284	11		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.blowup_checks._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1702700	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New119	PPT2Cert.New119.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1616524	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New118	PPT2Cert.New118.case52._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2492956	17		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1723232	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New119	PPT2Cert.New119.delta_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4937364	51		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.s11_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7755392	55		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.control_s1_pow8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1903088	4		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.s2_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7700088	54		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.control_H2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9926036	82		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New121	PPT2Cert.New121.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1739732	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New121	PPT2Cert.New121.s1_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6641180	68		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New121	PPT2Cert.New121.H_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6620708	69		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New121	PPT2Cert.New121.c16_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	19303104	176		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New122	PPT2Cert.New122.terms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1643200	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New122	PPT2Cert.New122.length_D7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1647292	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New122	PPT2Cert.New122.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581744	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New122	PPT2Cert.New122.length_D7_det._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1620668	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New120	PPT2Cert.New120.c16_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	26553844	338		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.blowup_lowerVanish._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3123052	23		nt_lines=22 last=pieces=8
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.int_k1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	11748852	97		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.int_formula._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46172168	145		nt_lines=5 last=blockers_ms=3 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.blowup_numbers._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3579808	20		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.blowup_numbers_w2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3605012	21		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1914668	3		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.int_k0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7671588	85		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New124	PPT2Cert.New124.class_10h2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1694296	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New124	PPT2Cert.New124.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577544	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New123	PPT2Cert.New123.int_k2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	21383936	199		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New124	PPT2Cert.New124.porteous_form._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1634924	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New125	PPT2Cert.New125.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577636	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New125	PPT2Cert.New125.class_Estar_P3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1661552	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New125	PPT2Cert.New125.c5_kernel._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1657508	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New125	PPT2Cert.New125.class_Estar_min._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1643168	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New126	PPT2Cert.New126.int_s1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6612460	80		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New126	PPT2Cert.New126.int_H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6608364	80		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New126	PPT2Cert.New126.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1686112	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New127	PPT2Cert.New127.int_Omega_giambelli._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3747156	21		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New127	PPT2Cert.New127.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577876	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New127	PPT2Cert.New127.orientation_50._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4239300	25		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New128	PPT2Cert.New128.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1613848	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New127	PPT2Cert.New127.int_Omega._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4468392	26		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New128	PPT2Cert.New128.case2_k0._native.native_decide.ax_1_1	native_decide	False	PROVED		0	5377712	31		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New128	PPT2Cert.New128.case1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3121660	15		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New128	PPT2Cert.New128.case2_x._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15844368	89		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New129	PPT2Cert.New129.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577572	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New129	PPT2Cert.New129.class_Gamma._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1649296	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577708	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New128	PPT2Cert.New128.case2_H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	15834192	90		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.deg_porteous'._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6614132	46		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.line_chern._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1641148	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.contribution._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1637092	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.deg_porteous._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6599784	65		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New131	PPT2Cert.New131.c2_coefficients._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1916692	6		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New131	PPT2Cert.New131.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1590148	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New131	PPT2Cert.New131.c1_coefficients._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1921512	5		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New131	PPT2Cert.New131.int_minus60._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1914996	6		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New131	PPT2Cert.New131.chern_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1670044	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New130	PPT2Cert.New130.deg_resolution._native.native_decide.ax_1_1	native_decide	False	PROVED		0	10603796	89		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New132	PPT2Cert.New132.case2_H._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9551768	55		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New132	PPT2Cert.New132.case1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2554280	10		nt_lines=9 last=pieces=2
+ih-ppt2-core	PPT2Cert.RowsNew.New132	PPT2Cert.New132.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1606544	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New133	PPT2Cert.New133.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577636	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New133	PPT2Cert.New133.length_R._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1862640	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New133	PPT2Cert.New133.length_R_transposed._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1764004	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New132	PPT2Cert.New132.case2_x._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9559956	56		nt_lines=11 last=pieces=3
+ih-ppt2-core	PPT2Cert.RowsNew.New133	PPT2Cert.New133.chern_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1918032	5		nt_lines=13 last=pieces=4
+ih-ppt2-core	PPT2Cert.RowsNew.New134	PPT2Cert.New134.class_D7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1815276	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New134	PPT2Cert.New134.control_120._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1620612	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New134	PPT2Cert.New134.dim_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577688	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-core	PPT2Cert.RowsNew.New133	PPT2Cert.New133.degree_P23._native.native_decide.ax_1_1	native_decide	False	PROVED		0	6018140	40		nt_lines=9 last=pieces=2

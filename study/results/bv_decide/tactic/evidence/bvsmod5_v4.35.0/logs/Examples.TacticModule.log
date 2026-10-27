@@ -1,0 +1,4 @@
+'km_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'km_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'km_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'km_use' depends on axioms: [propext, Classical.choice, Quot.sound]

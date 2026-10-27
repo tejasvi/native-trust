@@ -1,0 +1,12 @@
+BVS_STATS	Veir.Interpreter.Memory	0	nodes=320	clauses=575	steps=130	hints=386	chunks=1	base_ms=221	chunk_ms=127
+BVS_UNSAT	Veir.Interpreter.Memory	0	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5	130	0	348	378	bvsg_Veir_Interpreter_Memory_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Interpreter.Memory	1	nodes=40	clauses=71	steps=18	hints=50	chunks=1	base_ms=22	chunk_ms=10
+BVS_UNSAT	Veir.Interpreter.Memory	1	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._native.bv_decide.ax_8	18	0	32	54	bvsg_Veir_Interpreter_Memory_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._proof_1	bvsg_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._proof_1	bvsg_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.MemoryState.loadByte64	bvsg_3	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.MemoryState.llvmLoad	bvsg_4	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.MemoryState.memcpy	bvsg_5	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.MemoryState.memmove	bvsg_6	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_DONE	[Veir.Interpreter.Memory]	facts=2	converted=2	all_unsat_ok=true	users=6	users_std=6	users_axiom_left=0	users_failed=0
+TIME wall=1.12 s user=0.81 s maxrss=1709864 KB

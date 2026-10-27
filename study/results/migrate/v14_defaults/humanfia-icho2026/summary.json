@@ -1,0 +1,201 @@
+{
+ "name": "v14_humanfia-icho2026",
+ "pkg": "/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization",
+ "toolchain": "v4.31.0",
+ "uses": 693,
+ "replaced": 633,
+ "replaced_known": 633,
+ "replaced_unknown": 0,
+ "replaced_facts": 1670,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 47,
+  "build: module build 6.9 s > 2 x original 3.3 s (--max-slowdown)": 5,
+  "build: module build 22.0 s > 2 x original 5.8 s (--max-slowdown)": 8
+ },
+ "native_axioms_before": 1864,
+ "native_axioms_after": 194,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 424,
+ "native_dependent_decls_after": 99,
+ "rewritten_decls": 248,
+ "rewritten_decls_still_native": 29,
+ "still_native_why": {
+  "IChO2026Problems.Icho2026T1A1.compound6_to_compound3_compatible": "depends on another native-dependent declaration",
+  "IChO2026Problems.Icho2026T1A1.compound6_to_compound3_witness": "depends on another native-dependent declaration",
+  "IChO2026Problems.Icho2026T3A5.macrocycle_repeat_reported_result": "depends on another native-dependent declaration",
+  "IChO2026Problems.Icho2026T6A5.structure_f_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_g_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_h_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_i_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_j_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_k_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A5.structure_l_output": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A6.structure_o": "2 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A6.structure_p": "2 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A6.structure_q": "2 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T6A6.structure_r": "2 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.previous_part_a5_derived": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.structure_o": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.structure_p": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.structure_q": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.structure_r": "1 unconverted native facts of its own",
+  "IChO2026Problems.Icho2026T9A8.structure_s": "1 unconverted native facts of its own",
+  "IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit": "1 unconverted native facts of its own",
+  "IChO2026Problems.ProblemIChO2026T7A7.quantitativeMaterialStageDerivation": "depends on another native-dependent declaration",
+  "IChO2026Problems.ProblemIChO2026T7A7.rawResultDerivation": "depends on another native-dependent declaration",
+  "IChO2026Problems.T9A4.structureY_exact_symbolic_report": "depends on another native-dependent declaration",
+  "_private.IChO2026Problems.problem_icho_2026_t3_a5.0.IChO2026Problems.Icho2026T3A5.macrocycleRepeatRawProof": "4 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.monoanionY_sourceSpecification": "1 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.monoanionY_wellFormed": "2 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.pl1Enantiomer_sourceSpecification": "1 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.pl1Enantiomer_wellFormed": "2 unconverted native facts of its own"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 98.7,
+   "cpu": 450.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 8.1,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 8.43,
+   "cpu": 15.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 6.2,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 93.56,
+  "cpu": 411.2,
+  "n_built": 34,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 8.0,
+  "peak_rss_sum_gb": 27.6
+ },
+ "time1": {
+  "wall": 95.28,
+  "cpu": 432.3,
+  "n_built": 34,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 8.0,
+  "peak_rss_sum_gb": 27.7
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 2.44,
+  "cpu": 3.8,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 34,
+ "replaced_modules": 32,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 1817,
+   "EXPENSIVE": 47
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "IChO2026Problems.problem_icho_2026_t3_a3",
+  "IChO2026Problems.problem_icho_2026_t9_a2"
+ ],
+ "module_times_sum": [
+  326.6,
+  345.2
+ ],
+ "module_times_slower": [
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a2",
+   11.0,
+   14.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t5_a2",
+   7.7,
+   10.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t5_a6",
+   12.0,
+   14.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a6",
+   13.0,
+   15.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a5",
+   5.7,
+   7.4
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t8_a3",
+   3.9,
+   5.6
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a7",
+   5.9,
+   7.4
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a5",
+   91.0,
+   92.0
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a1",
+   3.8,
+   3.6
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a2",
+   4.9,
+   4.8
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a6",
+   3.6,
+   3.5
+  ]
+ ]
+}

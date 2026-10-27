@@ -1,0 +1,7 @@
+orig native axioms: 2 native axioms in `NTV.AllocCapacityPhase3Mutants`
+kf native axioms: 0 native axioms in `NTV.AllocCapacityPhase3Mutants`
+orig: wall_med=1.16 cpu_med=1.28 rss_kb_max=2355232 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=1.13 cpu_med=1.24 rss_kb_max=2358112 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=1.15 cpu_med=1.28 rss_kb_max=2359196 runs=3 rc=0 warnings=2 unnecessary=2 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=1.16 cpu_med=1.27 rss_kb_max=2357264 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=1.12 cpu_med=1.25 rss_kb_max=2353140 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

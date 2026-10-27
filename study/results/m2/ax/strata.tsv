@@ -1,0 +1,66 @@
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_mem	REJECTED	blocked		1559292	1	String.hash;System.Platform.getNumBits	1	1	native_decide:1
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_output	REJECTED	blocked		1502072	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_output	REJECTED	blocked		1500928	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_name	REJECTED	blocked		1560264	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_name	REJECTED	blocked		1499308	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_input_tys	REJECTED	blocked		1505468	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_name	REJECTED	blocked		1591180	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem	REJECTED	blocked		1515236	1	String.hash;System.Platform.getNumBits	1	1	native_decide:1
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_interp	REJECTED	blocked		1524340	1	String.Internal.append;String.hash;System.Platform.getNumBits	4	9	native_decide:9
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_interp	REJECTED	blocked		1514656	1	String.Internal.append;String.hash;System.Platform.getNumBits	4	9	native_decide:9
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_interp	REJECTED	blocked		1504528	1	String.Internal.append;String.hash;System.Platform.getNumBits	2	7	native_decide:7
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_interp	REJECTED	blocked		1592860	1	String.Internal.append;String.hash;System.Platform.getNumBits	4	9	native_decide:9
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_mem	REJECTED	blocked		1510196	1	String.hash;System.Platform.getNumBits	1	1	native_decide:1
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_input_tys	REJECTED	blocked		1516176	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_has_ceval	REJECTED	blocked		1516000	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_output	REJECTED	blocked		1519716	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_has_ceval	REJECTED	blocked		1513944	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_has_ceval	REJECTED	blocked		1516900	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_mem	REJECTED	blocked		1596668	1	String.hash;System.Platform.getNumBits	1	1	native_decide:1
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_input_tys	REJECTED	blocked		1594936	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_output	REJECTED	blocked		1597724	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_or_input_tys	REJECTED	blocked		1596580	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_implies_has_ceval	REJECTED	blocked		1596220	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.Lambda.Denote.Tautologies	_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_not_name	REJECTED	blocked		1596036	1	String.Internal.append;String.hash;System.Platform.getNumBits	1	2	native_decide:2
+strata	StrataTest.DL.SMT.DenoteTests	_private.StrataTest.DL.SMT.DenoteTests.0.hashset_empty_isEmpty	KERNELIZED		3	1689868	1	String.hash	1	1	native_decide:1
+strata	StrataTest.DL.SMT.EncoderTests	_private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_isDigit	KERNELIZED		21	1759968	1		10	10	native_decide:10
+strata	StrataTest.DL.SMT.EncoderTests	_private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val	KERNELIZED		19	1759452	1		10	10	native_decide:10
+strata	StrataTest.DL.SMT.EncoderTests	_private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.breakDisambiguated_disambiguate	KERNELIZED		46	1702252	1		2	22	native_decide:22
+strata	Strata.Languages.Core.Factory	Core.intLt_isNameInFactory	KERNELIZED		6308	2249208	11	Classical.choice;String.Internal.append;String.Internal.length;String.Internal.pushn;String.hash;System.Platform.getNumBits;WellFounded.fix;_private.Init.Data.Format.Basic.0.Std.Format.be;mixHash	1	1	native_decide:1
+strata	Strata.Languages.Core.Factory	Core.boolNot_isNameInFactory	KERNELIZED		6538	2162676	11	Classical.choice;String.Internal.append;String.Internal.length;String.Internal.pushn;String.hash;System.Platform.getNumBits;WellFounded.fix;_private.Init.Data.Format.Basic.0.Std.Format.be;mixHash	1	1	native_decide:1
+strata	Strata.Languages.Core.Factory	Core.WFFactory._proof_2	KERNELIZED		62329	8248904	64	Classical.choice;String.Internal.append;String.Internal.length;String.Internal.pushn;String.hash;System.Platform.getNumBits;WellFounded.fix;_private.Init.Data.Format.Basic.0.Std.Format.be;mixHash	1	1	native_decide:1
+strata	Strata.Languages.Core.Factory	Core.WFFactoryArray_func_name_nodup	KERNELIZED		77848	9886316	80	Classical.choice;String.Internal.append;String.Internal.length;String.Internal.pushn;String.hash;System.Platform.getNumBits;WellFounded.fix;_private.Init.Data.Format.Basic.0.Std.Format.be;mixHash	1	1	native_decide:1
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.blk1Inner_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.offByOne_post_clause	TIMEOUT	900s			900		1	2	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.chk_meets_contract	TIMEOUT	900s			900		3	8	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.initVar_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.loopForever_meets_contract	TIMEOUT	900s			900		4	8	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopForeverGuard_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.ite1_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.exitBlk_meets_contract	TIMEOUT	900s			900		5	8	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.keep_meets_contract	TIMEOUT	900s			900		4	5	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.ite1Else_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopTermRhs_shape	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.set1_meets_contract	TIMEOUT	900s			900		3	5	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.noReq_violates_contract	TIMEOUT	900s			900		4	7	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.chk_input_mem	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopTermGuard_shape	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.set2_meets_contract	TIMEOUT	900s			900		4	6	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.exitBlk_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopForeverInner_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.loopTerm_meets_contract	TIMEOUT	900s			900		5	11	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.set2_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.set1_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.freeOk_meets_contract	TIMEOUT	900s			900		4	5	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.blk1_meets_contract	TIMEOUT	900s			900		5	8	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopTermInner_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.ite1_meets_contract	TIMEOUT	900s			900		6	10	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.chk_body_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.noReq_post_clause	TIMEOUT	900s			900		1	2	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.exitBlkInner_eq	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.HoareCall	_private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16ULeApp_eq	KERNELIZED		28	1826264	2		1	1	native_decide:1
+strata	StrataTest.Languages.Core.Tests.Logic.HoareCall	_private.StrataTest.Languages.Core.Tests.Logic.HoareCall.0.Strata.bv16_bitHack_max	KERNELIZED		3	1814276	1		1	1	native_decide:1
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	Strata.offByOne_violates_contract	TIMEOUT	900s			900		4	7	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.chk_ensures_expr	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.chk_expr_shape	TIMEOUT	900s			900		1	1	
+strata	StrataTest.Languages.Core.Tests.Logic.Hoare	_private.StrataTest.Languages.Core.Tests.Logic.Hoare.0.Strata.loopTerm_body_eq	TIMEOUT	900s			900		1	1	

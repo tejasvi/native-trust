@@ -1,0 +1,25 @@
+package	files	guard_print	guard_native	assert_cmd	assert_native	assert_compiled	meta_audit	example
+zcash_ironwood	492	32	32	1293	750	0	4	Zcash/TrustBoundary.lean:203
+emberian_minidregg	1641	4258	43	4301	40	227	3	Compiler/CredentialSignatureAdmission.lean:654
+opencompl_veir	415	6	0	0	0	0	0	
+Provenance_Works_Radix	188	0	0	0	0	0	0	
+Rob1Ham_btc_lean_spec_proofs	427	1494	0	0	0	0	0	
+dappalumbo91_FSOT_2_1_Neural_formal	15	0	0	0	0	0	0	
+justrach_codegraff_lean_proofs	15	0	0	0	0	0	0	
+Rob1Ham_btc_lean_spec_runners	22	0	0	0	0	0	0	
+V_Sekai_fire_interactor_spatial_oracle	27	0	0	0	0	0	0	
+cedar_policy_cedar_spec_cedar_lean	387	0	0	0	0	0	0	
+FrederickPu_Zag	93	0	0	0	0	0	0	
+BobDyLean_bobdylean_paper_artifact	95	25	14	0	0	0	0	Examples/SignedDHKEM/SanityChecks.lean:105
+sun123zxy_ninegates_lean4	32	0	0	0	0	0	0	
+moggedhedien_rimalloc_verify	7	0	0	0	0	0	0	
+batmeezy918_chronofold	124	0	0	0	0	0	0	
+clementefalcone_goya_ledger_formal	11	0	0	0	0	0	0	
+rusch95_cakec_proofs_lean	6	0	0	0	0	0	0	
+leanprover_community_physlib	1479	0	0	0	0	0	0	
+WyattAu_OmniLaTeX_template_specs_proofs	27	0	0	0	0	0	0	
+Natuvea_tacenta_core_tacenta_model	43	0	0	0	0	0	0	
+pandaman64_lean_regex_correctness	74	0	0	0	0	0	0	
+Flaman55_StructuralSieve	18	0	0	0	0	0	0	
+Natuvea_tacenta_core_tacenta_proofs	228	1673	12	0	0	0	0	Proofs/TrustedBase.lean:719
+RianKoja_novacula	8	0	0	0	0	0	0	

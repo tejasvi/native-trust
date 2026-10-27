@@ -1,0 +1,8 @@
+$ lean s_clementefalcone_goya_ledger_formal__F1_Formal_Lattice_Zq_0.lean tc=v4.34.0-rc2 ntlib=/home/ntbuild/work_shared/nt22/v4.34.0-rc2/.lake/build/lib/lean start=2026-10-24T19:57:25Z
+PROVED `GoyaFormal.instFactPrimeQ._native.native_decide.ax_1` as `_ktr.s_clementefalcone_goya_ledger_formal__F1_Formal_Lattice_Zq_0.GoyaFormal.instFactPrimeQ._kernel.native_decide.ax_1`: kernel_ms=82 native_axioms=1 rebuilt=0 copies=0 total_ms=133 acc_fallback=0 pieces=1
+maxrss_kb 2336956 secs 1.15
+rc=0 end=2026-10-24T19:57:26Z
+py_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_clementefalcone_goya_ledger_formal__F1_Formal_Lattice_Zq_0.GoyaFormal.instFactPrimeQ._kernel.native_decide.ax_1 eval_ms=79
+NT _ktr.s_clementefalcone_goya_ledger_formal__F1_Formal_Lattice_Zq_0.GoyaFormal.instFactPrimeQ._kernel.native_decide.ax_1 quick whole-term attempt proved it
+PROVED `GoyaFormal.instFactPrimeQ._native.native_decide.ax_1` as `_ktr.s_clementefalcone_goya_ledger_formal__F1_Formal_Lattice_Zq_0.GoyaFormal.instFactPrimeQ._kernel.native_decide.ax_1`: kernel_ms=82 native_axioms=1 rebuilt=0 copies=0 total_ms=133 acc_fallback=0 pieces=1

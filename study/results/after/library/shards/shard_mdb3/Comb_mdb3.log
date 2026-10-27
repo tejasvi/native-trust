@@ -1,0 +1,21 @@
+$ lean Comb_mdb3.lean tc=v4.30.0 ntlib=/home/ntbuild/nt_fix7/v4.30.0/.lake/build/lib/lean start=2026-10-24T13:49:57Z
+Comb_mdb3.lean:1:0: error: unknown module prefix 'F2sh_mdb3_18'
+
+No directory 'F2sh_mdb3_18' or file 'F2sh_mdb3_18.olean' in the search path entries:
+/home/ntbuild/nt_fix7/v4.30.0/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/Cli/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/batteries/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/Qq/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/aesop/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/proofwidgets/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/importGraph/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/plausible/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/packages/mathlib/.lake/build/lib/lean
+/home/ntbuild/repos_s/emberian_minidregg/.lake/build/lib/lean
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/lib/lean
+/home/ntbuild/work_resv8/shard/mdb3
+/home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/lib/lean
+Command exited with non-zero status 1
+maxrss_kb 515208 secs 0.22
+rc=1 end=2026-10-24T13:49:58Z

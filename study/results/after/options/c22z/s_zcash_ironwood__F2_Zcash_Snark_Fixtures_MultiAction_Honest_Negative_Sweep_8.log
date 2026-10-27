@@ -1,0 +1,27 @@
+$ lean s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.lean tc=v4.30.0 ntlib=/home/ntbuild/work_shared/nt22/v4.30.0/.lake/build/lib/lean start=2026-10-24T20:56:39Z
+PROVED `Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._native.native_decide.ax_1_1` as `_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1`: kernel_ms=186014 native_axioms=1 rebuilt=0 copies=0 total_ms=187582 acc_fallback=0 pieces=1
+maxrss_kb 32215388 secs 188.88
+rc=0 end=2026-10-24T20:59:48Z
+s=0 congr=true
+NT copying Zcash.Snark.Fixture2.commitLagrange
+NT copy Zcash.Snark.Fixture2.commitLagrange defn_ms=1 eq_ms=0 congr=true
+NT copying Zcash.Snark.Fixture2.derivedInstanceCommitment
+NT copy Zcash.Snark.Fixture2.derivedInstanceCommitment defn_ms=0 eq_ms=1 congr=true
+NT copying Zcash.Snark.Fixture2.ps
+NT copy Zcash.Snark.Fixture2.ps defn_ms=0 eq_ms=2 congr=true
+NT copying Zcash.Snark.Fixture2.psSweepPermutationProductLastProof
+NT copy Zcash.Snark.Fixture2.psSweepPermutationProductLastProof defn_ms=0 eq_ms=1 congr=true
+NT copying Zcash.Snark.Fixture2.capturedMsm
+NT copy Zcash.Snark.Fixture2.capturedMsm defn_ms=16 eq_ms=65 congr=true
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=166 copies=7 copy_kernel_ms=93 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 structure witness not-and right
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=25 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 stage constants=0 staged=0 ms=370
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 stage subterms=0 staged=0 congr=false ms=1
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 blockers_ms=31 bounded=false copy_ms=23 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1.p_0 eval_ms=177899
+NT _ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1 pieces=1
+PROVED `Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._native.native_decide.ax_1_1` as `_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_MultiAction_Honest_Negative_Sweep_8.Zcash.Snark.Fixture2.sweep_permutation_product_last_proof_mismatch._kernel.native_decide.ax_1_1`: kernel_ms=186014 native_axioms=1 rebuilt=0 copies=0 total_ms=187582 acc_fallback=0 pieces=1

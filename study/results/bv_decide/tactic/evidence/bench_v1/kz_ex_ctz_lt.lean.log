@@ -1,0 +1,2 @@
+bvs ex_ctz_lt #1: 136 nodes, 359 clauses, 136 vars; 47 steps, 110 hints, 1 chunks; solve 15 ms, prep+defs 2 ms; kernel: base 147 ms, chunks 25 ms (max 25 ms); total 193 ms
+bvs: added ex_ctz_lt.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

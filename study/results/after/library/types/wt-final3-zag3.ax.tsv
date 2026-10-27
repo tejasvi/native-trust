@@ -1,0 +1,5 @@
+wt-final3-zag3	Test.Autocorres.Examples.AllBlocks	-			NOT_BUILT						
+wt-final3-zag3	Test.Autocorres.Examples.Alloc	-			NOT_BUILT						
+wt-final3-zag3	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_stG_stH_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1885424	1		nt_lines=81 last=pieces=1
+wt-final3-zag3	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_optJ_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1799192	2		nt_lines=81 last=pieces=1
+wt-final3-zag3	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_stI_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		15	1820416	2		nt_lines=81 last=pieces=1

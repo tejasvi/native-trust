@@ -1,0 +1,18 @@
+compile AO8k rc=0 start=08:51:21 end=08:51:26 TIME wall=5.10 s user=4.89 s maxrss=1094604 KB
+compile AO16k rc=0 start=08:51:26 end=08:51:36 TIME wall=10.38 s user=10.06 s maxrss=1523264 KB
+== preps 08:51:36: VAO8k VAO16k
+prep VAO8k rc=0 start=08:51:36 end=08:55:10 TIME wall=213.40 s user=212.14 s maxrss=8411224 KB
+prep VAO16k rc=0 start=08:51:36 end=09:00:05 TIME wall=509.11 s user=506.73 s maxrss=15164188 KB
+== shards 09:00:05
+shard VAO8k_S1 rc=0 start=09:00:05 end=09:06:39 TIME wall=393.78 s user=381.33 s maxrss=7278664 KB
+shard VAO8k_S0 rc=0 start=09:00:05 end=09:07:43 TIME wall=458.18 s user=445.14 s maxrss=11517100 KB
+shard VAO8k_S2 rc=0 start=09:06:39 end=09:13:59 TIME wall=439.78 s user=421.19 s maxrss=7287580 KB
+shard VAO8k_S3 rc=0 start=09:07:43 end=09:15:18 TIME wall=454.66 s user=437.23 s maxrss=7342240 KB
+shard VAO16k_S1 rc=0 start=09:15:18 end=09:28:56 TIME wall=817.90 s user=788.32 s maxrss=7467332 KB
+shard VAO16k_S0 rc=0 start=09:13:59 end=09:30:11 TIME wall=972.08 s user=937.65 s maxrss=21380744 KB
+shard VAO16k_S2 rc=0 start=09:28:56 end=09:43:16 TIME wall=859.65 s user=830.73 s maxrss=7490988 KB
+shard VAO16k_S3 rc=0 start=09:30:11 end=09:43:57 TIME wall=826.01 s user=800.16 s maxrss=7362840 KB
+== finals 09:43:57
+final VAO8k_Final rc=0 start=09:43:57 end=09:44:30 TIME wall=32.56 s user=31.76 s maxrss=9283832 KB
+final VAO16k_Final rc=0 start=09:43:57 end=09:45:01 TIME wall=64.47 s user=63.21 s maxrss=16960660 KB
+== done 09:45:01

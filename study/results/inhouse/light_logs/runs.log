@@ -1,0 +1,52 @@
+2026-10-26T07:50:31Z light poinc build start: Poincare11a.CertN Poincare11a.MainN
+2026-10-26T07:50:54Z light poinc build rc=0 TIME wall=22.64 user=63.26 sys=5.62 maxrss_kb=3736444
+2026-10-26T07:50:54Z light poinc pass1 start
+2026-10-26T08:05:56Z light poinc pass1 rc=0
+2026-10-26T08:05:56Z light zz build start: ZZ82a.MainN
+2026-10-26T08:07:24Z light zz build rc=0 TIME wall=88.12 user=339.76 sys=47.46 maxrss_kb=7208520
+2026-10-26T08:07:24Z light zz pass1 start
+2026-10-26T08:09:09Z light zz pass1 rc=0
+2026-10-26T08:09:09Z light tpupper build start: TPUpper.FinalN TPUpper.Statement
+2026-10-26T08:09:09Z light tpupper build rc=1 TIME wall=0.03 user=0.02 sys=0.00 maxrss_kb=105488
+2026-10-26T08:09:09Z light tpupper pass1 start
+2026-10-26T08:09:09Z light tpupper pass1 rc=0
+2026-10-26T08:09:09Z light tplower build start: TPMahler.UncondN TPMahler.StatementCor
+2026-10-26T08:11:43Z light tplower build rc=0 TIME wall=153.40 user=566.84 sys=32.89 maxrss_kb=7396752
+2026-10-26T08:11:43Z light tplower pass1 start
+2026-10-26T08:49:09Z light2 zz heavy ERROR start
+2026-10-26T08:49:09Z light2 avw3sum build start: KoszulCert.AllN
+2026-10-26T08:49:18Z light2 avw3sum build rc=0 TIME wall=8.94 user=13.43 sys=1.79 maxrss_kb=957648
+2026-10-26T08:49:18Z light2 avw3sum pass1 start 
+2026-10-26T08:50:02Z light2 avw3sum pass1 rc=0
+2026-10-26T08:50:02Z light2 tpupper build start: TPUpper.FinalN TPUpper.Statement
+2026-10-26T08:53:38Z light2 tpupper build rc=0 TIME wall=216.00 user=533.18 sys=44.11 maxrss_kb=7398700
+2026-10-26T08:53:38Z light2 tpupper pass1 start --sample 12 --seed 20261026
+2026-10-26T09:15:54Z light2 zz heavy ERROR rc=0
+2026-10-26T09:15:54Z light2 poinc heavy TIMEOUT start
+2026-10-26T09:25:40Z light2 tpupper pass1 rc=0
+2026-10-26T09:25:40Z light2 tplower pass1 start --sample 6 --seed 20261026
+2026-10-26T10:11:02Z light2 tplower pass1 rc=0
+2026-10-26T10:11:02Z light2 maxterm2 build start: Mt51aData.Main
+2026-10-26T10:15:57Z light2 poinc heavy TIMEOUT rc=0
+2026-10-26T10:21:57Z light2 maxterm2 build rc=0 TIME wall=654.64 user=1174.17 sys=19.31 maxrss_kb=3296236
+2026-10-26T10:21:57Z light2 maxterm2 pass1 start --sample 12 --seed 20261026
+2026-10-26T10:35:32Z light2 maxterm2 pass1 rc=0
+2026-10-26T10:35:32Z light2 lane B done
+2026-10-26T10:35:57Z light2 avw3sum heavy ERROR start
+2026-10-26T10:36:05Z light2 avw3sum heavy ERROR rc=0
+2026-10-26T10:36:05Z light2 avw3sum heavy TIMEOUT start
+2026-10-26T10:36:12Z light2 avw3sum heavy TIMEOUT rc=0
+2026-10-26T10:36:12Z light2 tpupper heavy ERROR start
+2026-10-26T11:21:59Z light2 tpupper heavy ERROR rc=0
+2026-10-26T11:21:59Z light2 tpupper heavy TIMEOUT start
+2026-10-26T12:22:41Z light2 tpupper heavy TIMEOUT rc=0
+2026-10-26T12:22:41Z light2 tplower heavy ERROR start
+2026-10-26T12:23:22Z light2 tplower heavy ERROR rc=0
+2026-10-26T12:23:22Z light2 tplower heavy TIMEOUT start
+2026-10-26T14:24:05Z light2 tplower heavy TIMEOUT rc=0
+2026-10-26T14:24:05Z light2 maxterm2 heavy ERROR start
+2026-10-26T14:32:57Z light2 maxterm2 heavy ERROR rc=0
+2026-10-26T14:32:57Z light2 maxterm2 heavy TIMEOUT start
+2026-10-26T14:33:24Z light2 maxterm2 heavy TIMEOUT rc=0
+2026-10-26T14:33:24Z light2 lane A done
+2026-10-26T14:33:24Z light2 ALL DONE

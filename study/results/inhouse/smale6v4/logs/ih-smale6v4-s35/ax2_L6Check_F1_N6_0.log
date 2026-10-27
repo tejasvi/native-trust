@@ -1,0 +1,38 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_L6Check_F1_N6_0.lean
+NT start L6F1.check_n6._native.native_decide.ax_1_1
+NT nested L6F1.check_n6._native.native_decide.ax_1_1 ms=212 rebuilt_defs=0 visited=4056
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=0 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.sortNat
+NT copy L6F1.sortNat defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkEdges
+NT copy L6F1.checkEdges defn_ms=1 eq_ms=0 congr=true
+NT copying L6F1.checkSearch
+NT copy L6F1.checkSearch defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.isPermOf
+NT copy L6F1.isPermOf defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkPerms
+NT copy L6F1.checkPerms defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.orbitCodes
+NT copy L6F1.orbitCodes defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkClass
+NT copy L6F1.checkClass defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkFile
+NT copy L6F1.checkFile defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkAll
+NT copy L6F1.checkAll defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.n6json
+NT copy L6F1.n6json defn_ms=13 eq_ms=35 congr=true
+NT _ktr.F2_L6Check_F1_N6_0.L6F1.check_n6._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=93 copies=14 copy_kernel_ms=58 fast_lits=0 string_args=false
+NT _ktr.F2_L6Check_F1_N6_0.L6F1.check_n6._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_L6Check_F1_N6_0.L6F1.check_n6._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 96539724
+rc=1 secs=471

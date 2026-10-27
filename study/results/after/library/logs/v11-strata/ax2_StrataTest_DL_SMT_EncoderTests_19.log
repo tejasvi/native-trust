@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_DL_SMT_EncoderTests_19.lean
+NT start _private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._native.native_decide.ax_1_6
+NT nested _private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._native.native_decide.ax_1_6 ms=5 rebuilt_defs=0 visited=212
+NT _ktr.F2_StrataTest_DL_SMT_EncoderTests_19._private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._kernel.native_decide.ax_1_6 blockers_ms=0 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_StrataTest_DL_SMT_EncoderTests_19._private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._kernel.native_decide.ax_1_6 eval_ms=0
+NT _ktr.F2_StrataTest_DL_SMT_EncoderTests_19._private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._kernel.native_decide.ax_1_6 quick whole-term attempt proved it
+PROVED `_private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._native.native_decide.ax_1_6` as `_ktr.F2_StrataTest_DL_SMT_EncoderTests_19._private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._kernel.native_decide.ax_1_6`: kernel_ms=4 native_axioms=1 rebuilt=0 copies=0 total_ms=9 acc_fallback=0 pieces=1
+PROVED `_private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._native.native_decide.ax_1_6` as `_ktr.F2_StrataTest_DL_SMT_EncoderTests_19._private.StrataTest.DL.SMT.EncoderTests.0.Strata.SMT.Encoder.Nat.digitChar_val._kernel.native_decide.ax_1_6`: kernel_ms=4 native_axioms=1 rebuilt=0 copies=0 total_ms=9 acc_fallback=0 pieces=1
+maxrss_kb 1769932
+rc=0 secs=1

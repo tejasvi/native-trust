@@ -1,0 +1,12 @@
+project	char-2 homological percolation v6, Char2Native
+source	supp 10.5281/zenodo.23631702
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	native_decide facts in 17 Char2Native modules (58 occurrences in the tree)
+converted	0 of 23 facts in the 6 sampled modules
+nt_cpu_h	0.79 (the 6 kdecide runs: 635 + 163 + 900 + 34 + 198 + 900 s)
+nt_wall_min	47
+native_build_cpu_h	complete build of lean/ about 4.3 CPU-hours (lean/README.md:77-78)
+hand_track	lean_kernel (D24 base case), lean_kernel_nets (Lemma 30), lean_kernel_ct25 (Remark 2)
+hand_build_cpu_h	lean_kernel_ct25 about 115 CPU-hours (supplement/README.md:51); the others not stated
+checks	kdecide on the statements (900 s, MemoryMax 90G): Nets (9 facts) out of memory at 91 GiB after 635 s; CT25Extra (5) and D24Extra (1) kernel deep recursion after 163 and 34 s; D24Base (4) and CT25_z4a0 (3) timed out; D24C23_0 (1) deep recursion, and blocked: while loops (Lean.Loop.forIn), mixHash and USize (HashMap/HashSet) have no kernel definition

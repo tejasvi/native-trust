@@ -1,0 +1,279 @@
+{
+ "name": "zcash_ironwood",
+ "pkg": "/home/ntbuild/repos_s/zcash_ironwood",
+ "copy_root": "/home/ntbuild/repos_s/zcash_ironwood",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.30.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T04:00:56Z",
+ "toolchain": "v4.30.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 3.14,
+  "built": []
+ },
+ "modules": 461,
+ "before": {
+  "total": 332,
+  "by_tactic": {
+   "native_decide": 332
+  },
+  "failed": [],
+  "dirty": 4195
+ },
+ "native_files": 30,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 3227,
+   "rc": 0,
+   "wall": 778.98,
+   "cpu": 3794.2,
+   "n_built": 461,
+   "peak_lean": 8,
+   "peak_rss_gb": 8.3,
+   "peak_rss_sum_gb": 28.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 3227,
+   "rc": 1,
+   "wall": 723.61,
+   "cpu": 3748.6,
+   "n_built": 454,
+   "peak_lean": 8,
+   "peak_rss_gb": 8.3,
+   "peak_rss_sum_gb": 28.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 31,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.honestMatch reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 73,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.sealedMatch reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 104,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.csimpCert reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 103,
+     "col": 0,
+     "msg": "\u274c\ufe0f Docstring on `#guard_msgs` does not match generated message:"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 20,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.Genuine.owner reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 39,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.GenuineAutoParam.owner reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 120,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 119,
+     "col": 0,
+     "msg": "\u274c\ufe0f Docstring on `#guard_msgs` does not match generated message:"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 123,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 151,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    }
+   ],
+   "failed_mods": [
+    "Zcash.Meta.Tests.AxiomCheck",
+    "Zcash.Meta.Tests.NativeSurface",
+    "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+    "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary",
+    "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+    "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+    "Zcash.TrustBoundary"
+   ],
+   "tail": "stBoundary.lean:901:0: Zcash.Security.Ledger.OrchardExtractionExperiment.runKnowledgeFailure_measure_le_of_dlogProfile: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom\nerror: Zcash/TrustBoundary.lean:910:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceIntegrityExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom\nerror: Zcash/TrustBoundary.lean:919:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceConservationExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom\nerror: Zcash/TrustBoundary.lean:928:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardShieldedBalanceCapExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Zcash.Meta.Tests.NativeSurface\n- Zcash.Meta.Tests.AxiomCheck\n- Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary\n- Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary\n- Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary\n- Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary\n- Zcash.TrustBoundary\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=723.61 user=3553.86 sys=194.70 maxrss_kb=8716472\n"
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 3178,
+   "rc": 1,
+   "wall": 1355.9,
+   "cpu": 5507.9,
+   "n_built": 454,
+   "peak_lean": 8,
+   "peak_rss_gb": 13.3,
+   "peak_rss_sum_gb": 42.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 33,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.honestMatch reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 75,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.sealedMatch reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 106,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.NativeSurface.csimpCert reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/NativeSurface.lean",
+     "line": 105,
+     "col": 0,
+     "msg": "\u274c\ufe0f Docstring on `#guard_msgs` does not match generated message:"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 22,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.Genuine.owner reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 41,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.GenuineAutoParam.owner reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 122,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 121,
+     "col": 0,
+     "msg": "\u274c\ufe0f Docstring on `#guard_msgs` does not match generated message:"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 125,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    },
+    {
+     "file": "Zcash/Meta/Tests/AxiomCheck.lean",
+     "line": 153,
+     "col": 0,
+     "msg": "Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target reaches no native_decide axiom; drop the '+native(...)' flag"
+    }
+   ],
+   "failed_mods": [
+    "Zcash.Meta.Tests.AxiomCheck",
+    "Zcash.Meta.Tests.NativeSurface",
+    "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+    "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary",
+    "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+    "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+    "Zcash.TrustBoundary"
+   ],
+   "tail": "but that declaration owns no native_decide axiom\nerror: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:542:0: Zcash.Snark.Contract.actionKnowledgeContract: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom\nerror: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:554:0: Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag\nerror: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:564:0: Zcash.Snark.PostNu63Fixture.captures_urs_point_references_in_bounds reaches no native_decide axiom; drop the '+native(...)' flag\nerror: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:568:0: Zcash.Snark.PostNu63Fixture.captures_use_same_wu reaches no native_decide axiom; drop the '+native(...)' flag\nerror: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:570:0: maximum number of errors (100; from option `maxErrors`) reached, exiting\nerror: Lean exited with code 1\nSome required targets logged failures:\n- Zcash.Meta.Tests.NativeSurface\n- Zcash.Meta.Tests.AxiomCheck\n- Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary\n- Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary\n- Zcash.TrustBoundary\n- Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary\n- Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary\nerror: build failed\nCommand exited with non-zero status 1\nTIME wall=1355.90 user=5270.26 sys=237.59 maxrss_kb=13968384\n"
+  }
+ ],
+ "after": {
+  "total": 214,
+  "by_tactic": {
+   "native_decide": 214
+  },
+  "failed": [
+   "Zcash.Meta.Tests.AxiomCheck",
+   "Zcash.Meta.Tests.NativeSurface",
+   "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+   "Zcash.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary"
+  ],
+  "dirty": 4085
+ },
+ "fallbacks": {
+  "blocked: Zcash.Meta.Tests.NativeSurface.capturedPartial": 1,
+  "not reduced to true: (kernel) application type mismatch": 1,
+  "budget (heartbeats)": 210,
+  "blocked: _private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked": 3
+ },
+ "fallback_examples": {
+  "blocked: Zcash.Meta.Tests.NativeSurface.capturedPartial": "info: Zcash/Meta/Tests/NativeSurface.lean:46:57: kernel-first: native_decide used compiled evaluation: blocked: reaches `Zcash.Meta.Tests.NativeSurface.capturedPartial` (no kernel definition)",
+  "not reduced to true: (kernel) application type mismatch": "info: Zcash/Meta/Tests/CompiledOverride.lean:67:55: kernel-first: native_decide used compiled evaluation: the kernel does not reduce the decision procedure to `true`: (kernel) application type mismatch",
+  "budget (heartbeats)": "info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:34:91: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6564 ms)",
+  "blocked: _private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked": "info: Zcash/Snark/Fixtures/SingleAction/Honest/VkMatch.lean:80:82: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked`, `_private.Clean.Halo2.Formal.Call.0.Halo2.FormalCircuit.callPacked`, `Halo2"
+ },
+ "after_hb2": {
+  "total": 71,
+  "by_tactic": {
+   "native_decide": 71
+  },
+  "failed": [
+   "Zcash.Meta.Tests.AxiomCheck",
+   "Zcash.Meta.Tests.NativeSurface",
+   "Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary",
+   "Zcash.TrustBoundary",
+   "Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary",
+   "Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary"
+  ],
+  "dirty": 3930
+ },
+ "fallbacks_hb2": {
+  "blocked: Zcash.Meta.Tests.NativeSurface.capturedPartial": 1,
+  "not reduced to true: (kernel) application type mismatch": 1,
+  "budget (heartbeats)": 67,
+  "blocked: _private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked": 3
+ },
+ "fallback_examples_hb2": {
+  "blocked: Zcash.Meta.Tests.NativeSurface.capturedPartial": "info: Zcash/Meta/Tests/NativeSurface.lean:48:57: kernel-first: native_decide used compiled evaluation: blocked: reaches `Zcash.Meta.Tests.NativeSurface.capturedPartial` (no kernel definition)",
+  "not reduced to true: (kernel) application type mismatch": "info: Zcash/Meta/Tests/CompiledOverride.lean:69:55: kernel-first: native_decide used compiled evaluation: the kernel does not reduce the decision procedure to `true`: (kernel) application type mismatch",
+  "budget (heartbeats)": "info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:97:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (28632 ms)",
+  "blocked: _private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked": "info: Zcash/Snark/Fixtures/SingleAction/Honest/VkMatch.lean:82:82: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked`, `_private.Clean.Halo2.Formal.Call.0.Halo2.FormalCircuit.callPacked`, `Halo2"
+ },
+ "reps": 1,
+ "orig_wall_med": 778.98,
+ "orig_cpu_med": 3794.2,
+ "kf_wall_med": null,
+ "kf_cpu_med": null,
+ "orig_build_ok": true,
+ "kf_build_ok": false,
+ "kf_hb2_build_ok": false,
+ "finished": "2026-10-24T04:52:44Z"
+}

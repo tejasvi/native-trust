@@ -1,0 +1,124 @@
+{
+ "name": "b200_V_Sekai_fire_interactor_spatial_oracle",
+ "pkg": "/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle",
+ "toolchain": "v4.30.0",
+ "uses": 43,
+ "replaced": 30,
+ "replaced_known": 30,
+ "replaced_unknown": 0,
+ "replaced_facts": 30,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 200: EXPENSIVE (no blocker, but the kernel did not finish within 200 thousand heartbeats (`set_option nativeTrust.ke)": 6,
+  "budget 200: EXPENSIVE (needs NativeTrust's transformations (well-founded recursion via CurveDuality.totalClusters \u2192 CurveDu)": 5,
+  "budget 200: EXPENSIVE (needs NativeTrust's transformations (well-founded recursion via CurveDuality.worstWindow \u2192 CurveDual)": 1,
+  "budget 200: EXPENSIVE (needs NativeTrust's transformations (well-founded recursion via CurveDuality.clusters \u2192 List.mergeSo)": 1
+ },
+ "native_axioms_before": 43,
+ "native_axioms_after": 13,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 43,
+ "native_dependent_decls_after": 13,
+ "rewritten_decls": 30,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 2.64,
+   "cpu": 4.1,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.6,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 2.65,
+  "cpu": 4.1,
+  "n_built": 6,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 1.6,
+  "peak_rss_sum_gb": 1.6
+ },
+ "time1": {
+  "wall": 2.64,
+  "cpu": 4.1,
+  "n_built": 6,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 1.6,
+  "peak_rss_sum_gb": 1.6
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.43,
+  "cpu": 0.5,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 6,
+ "replaced_modules": 6,
+ "unmatched_axioms": 0,
+ "fact_budget": 200,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 30,
+   "EXPENSIVE": 13
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  3.3,
+  3.4
+ ],
+ "module_times_slower": [
+  [
+   "PredictiveBvh.core.HilbertRoundtrip",
+   0.9480000000000001,
+   0.969
+  ],
+  [
+   "PredictiveBvh.core.ScaleContradictions",
+   0.231,
+   0.23600000000000002
+  ],
+  [
+   "PredictiveBvh.core.ScaleProofs",
+   0.222,
+   0.226
+  ],
+  [
+   "PredictiveBvh.adapters.GodotBinary",
+   0.636,
+   0.639
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "PredictiveBvh.core.CurveContract",
+   0.202,
+   0.194
+  ]
+ ]
+}

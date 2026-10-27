@@ -1,0 +1,6 @@
+name=formal-conjectures toolchain=v4.33.1 sampled=30 proved_again=30 failed=0 compile_rc=0 compile_s=120
+export_rc=0 export_lines=361085 export_s=3
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 45.31 s 5133836 KB
+con-ron_rc=0 :: con-ron: accepted 4367 declarations (--verified) | con-ron: 29.18 s 8842332 KB
+checkers_s=75
+VERDICT nanoda=PASS(4839 decls) con-ron=PASS(4367 decls) kernel_theorems=30

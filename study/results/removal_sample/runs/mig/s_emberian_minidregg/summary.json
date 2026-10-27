@@ -1,0 +1,192 @@
+{
+ "name": "s_emberian_minidregg",
+ "pkg": "/home/ntbuild/repos_s/emberian_minidregg",
+ "toolchain": "v4.30.0",
+ "uses": 246,
+ "replaced": 7,
+ "replaced_known": 7,
+ "replaced_unknown": 0,
+ "replaced_facts": 7,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "plain FAILED/blocked (WellFounded.fix)": 5,
+  "build: compiled-pin REFUSED: Minidregg.Assurance.NativeProviderHistoryAdmission.pinned_accepted_at_height rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Assurance.NativeProviderHistoryAdmission.pinned_accepted_at_height`. Labelling a kerne": 16,
+  "ERROR/memory": 62,
+  "build: compiled-pin REFUSED: Minidregg.Assurance.ObjectiveDemandPhysicalChecks.source_natural_overflow_refuses_before_graph rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Assurance.ObjectiveDemandPhysicalChecks.source_natural_overflow_refu": 1,
+  "build: compiled-pin REFUSED: Minidregg.Assurance.ObliviousNetworkChecks.read_and_census rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Assurance.ObliviousNetworkChecks.read_and_census`. Labelling a kernel-clean fact 'compiled' throws away ": 5,
+  "TIMEOUT/900s": 5,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.BendCommittedNetworkChecks.invalid_payload_map_refuses rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.BendCommittedNetworkChecks.invalid_payload_map_refuses`. Labelling a kernel-clea": 1,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.Blake3.fn_store_identity_request_trailer rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.Blake3.fn_store_identity_request_trailer`. Labelling a kernel-clean fact 'compiled' throws awa": 2,
+  "FAILED/blocked (_private.Lean.Data.Json.Basic.0.Lean.Json.beq')": 5,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.CarryConfigurationChecks.missing_birth_slack_refused rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.CarryConfigurationChecks.missing_birth_slack_refused`. Labelling a kernel-clean fa": 1,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.DurableIndex.Probe.wrong_root_refused rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.DurableIndex.Probe.wrong_root_refused`. Labelling a kernel-clean fact 'compiled' throws away its ": 1,
+  "FAILED/blocked (Lean.Json.Parser.anyCore;Minidregg.Compiler.FnWire.grammarOf)": 12,
+  "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)": 5,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.FnWire.identity_binds_pinned_store rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.FnWire.identity_binds_pinned_store`. Labelling a kernel-clean fact 'compiled' throws away its real p": 5,
+  "FAILED/blocked (WellFounded.fix)": 1,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.LegacyStoreCarryChecks.current_frame_old_payload_refused rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.LegacyStoreCarryChecks.current_frame_old_payload_refused`. Labelling a kernel-": 2,
+  "FAILED/blocked (String.hash;System.Platform.getNumBits)": 5,
+  "FAILED/blocked (Lean.Loop.forIn;String.hash;System.Platform.getNumBits;WellF)": 14,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.ObjectiveBendSpecificationClosure.builtin_parses rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.ObjectiveBendSpecificationClosure.builtin_parses`. Labelling a kernel-clean fact 'comp": 1,
+  "build: compiled-pin REFUSED: Minidregg.Compiler.ObliviousUnrollChecks.three_ticks rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Compiler.ObliviousUnrollChecks.three_ticks`. Labelling a kernel-clean fact 'compiled' throws away its real pin": 3,
+  "plain FAILED/blocked (String.Internal.append;String.Internal.foldl;String.Internal)": 5,
+  "FAILED/blocked (Lean.Loop.forIn)": 4,
+  "build: \u274c\ufe0f Docstring on `#guard_msgs` does not match generated message:": 10,
+  "module not built": 18,
+  "FAILED/blocked (Minidregg.Host.Json.predicate;WellFounded.extrinsicFix\u2083;Well)": 7,
+  "FAILED/blocked (Lean.Json.Parser.anyCore;Lean.Json.render;Minidregg.Compiler)": 1,
+  "build: compiled-pin REFUSED: Minidregg.Host.FnOutcome.ackStatus_samples rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Host.FnOutcome.ackStatus_samples`. Labelling a kernel-clean fact 'compiled' throws away its real pin": 2,
+  "build: compiled-pin REFUSED: Minidregg.Host.KeyRotationInspectionChecks.canonical_plan_accepted rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Host.KeyRotationInspectionChecks.canonical_plan_accepted`. Labelling a kernel-clean fact 'compil": 4,
+  "FAILED/blocked (Lean.Json.Parser.anyCore;String.Internal.append;String.Inter)": 3,
+  "build: compiled-pin REFUSED: Minidregg.Kernel.ReceivingLawFixture.durable_loads rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Kernel.ReceivingLawFixture.durable_loads`. Labelling a kernel-clean fact 'compiled' throws away its real pin": 2,
+  "build: [Error pretty printing: maximum recursion depth has been reached": 1,
+  "build: compiled-pin REFUSED: Minidregg.Kernel.WorldKindChecks.rom_create_after_birth_refused rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Kernel.WorldKindChecks.rom_create_after_birth_refused`. Labelling a kernel-clean fact 'compiled' th": 8,
+  "ERROR/maxRecDepth": 18,
+  "build: compiled-pin REFUSED: Minidregg.Theory.ObjectiveBendDigestChecks.sealed_lowBit_not_vote rests on NO compiled-evaluation oracle \u2014 it is kernel-clean, so pin it with the STRONGER `#assert_axioms Minidregg.Theory.ObjectiveBendDigestChecks.sealed_lowBit_not_vote`. Labelling a kernel-clean fact 'compiled": 4
+ },
+ "native_axioms_before": 228,
+ "native_axioms_after": 221,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 331,
+ "native_dependent_decls_after": 324,
+ "rewritten_decls": 7,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 372.56,
+   "cpu": 983.0,
+   "n_errors": 26,
+   "reverted": 25,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 8,
+   "peak_rss_gb": 31.9,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 744.95,
+   "cpu": 1938.8,
+   "n_errors": 69,
+   "reverted": 44,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 8,
+   "peak_rss_gb": 30.1,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 0,
+   "wall": 1.12,
+   "cpu": 1.6,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 233.12,
+  "cpu": 294.3,
+  "n_built": 23,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 13.0,
+  "peak_rss_sum_gb": 26.4
+ },
+ "time1": {
+  "wall": 242.45,
+  "cpu": 310.9,
+  "n_built": 23,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 13.0,
+  "peak_rss_sum_gb": 26.4
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 52.57,
+  "cpu": 281.6,
+  "n_built": 61,
+  "peak_lean": 8,
+  "peak_rss_gb": 7.2,
+  "peak_rss_sum_gb": 33.1,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 23,
+ "replaced_modules": 3,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  292.7,
+  313.1
+ ],
+ "module_times_slower": [
+  [
+   "Compiler.DurableIndex",
+   225.0,
+   234.0
+  ],
+  [
+   "Compiler.ObjectiveBendSpecificationClosure",
+   4.0,
+   5.9
+  ],
+  [
+   "Selvage.ZkmlSuiteRegistry",
+   1.2,
+   2.7
+  ],
+  [
+   "Kernel.ReceivingLawFixture",
+   4.9,
+   6.0
+  ],
+  [
+   "Kernel.WorldBench",
+   14.0,
+   15.0
+  ],
+  [
+   "Compiler.RefusalReason",
+   4.5,
+   5.4
+  ],
+  [
+   "Assurance.NativeProviderHistoryAdmission",
+   2.5,
+   3.3
+  ],
+  [
+   "Host.ApplicationManagedPolicyAuthoringCheck",
+   2.5,
+   3.3
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Theory.ObjectiveBendDigestChecks",
+   0.9420000000000001,
+   0.8240000000000001
+  ]
+ ]
+}

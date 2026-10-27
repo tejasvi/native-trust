@@ -1,0 +1,1 @@
+facts 634: converted 77, blocked 0, resource 32, resource_sampled 525, other 0, not_run 0; heavy re-runs 17; CPU of fact runs 9.36 h (pass 1 6.89 h, heavy 2.47 h, uncapped 4.13 h); theorems 16; facts with static blockers 400

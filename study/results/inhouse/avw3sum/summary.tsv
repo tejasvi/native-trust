@@ -1,0 +1,12 @@
+project	3SUM/APSP v3 (avw3sum), the native certificate checks
+source	supp 10.5281/zenodo.23609700 (survive-3sum-apsp-supplement)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	11 (KoszulCert.N.*_check), used by 14 theorems (results/axioms_N.txt)
+converted	11 of 11; 14 of 14 theorems fully converted
+nt_cpu_h	0.014 (52 s: the sum of the per-fact check processes' wall seconds; longest G3344 41 s, kernel 39.9 s, 5.3 GiB)
+nt_wall_min	1
+native_build_cpu_h	the 11 native check modules 2.4 s in the release's clean build log (lean/logs/clean_build_lv3_r2.txt)
+hand_track	kernel versions in lean/KoszulCert/K/ (11 modules): decide +kernel on checkF, a separately written kernel-friendly checker (KoszulCert/Fast.lean, 163 lines, checkF_eq : checkF = check); K/*.lean 231 lines; AllK.lean 14 lines
+hand_build_cpu_h	42.8 s for the 11 kernel modules (clean_build_lv3_r2.txt; whole clean build 64.13 s wall on one core, README.md:53-56)
+checks	driver pass 1 (900 s, 48 GiB): all 11 PROVED (10 in 1-2 s each, G3344 in 41 s); no heavy pass needed

@@ -1,0 +1,1118 @@
+`coverHe_0_11._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_13._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_15._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_17._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_19._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_21._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_23._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_25._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_27._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_29._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_3._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_5._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_7._native.native_decide.ax_1_1`: no blocker
+`coverHe_0_9._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_11._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_13._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_15._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_17._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_19._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_21._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_23._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_25._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_27._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_29._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_3._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_5._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_7._native.native_decide.ax_1_1`: no blocker
+`coverHe_1_9._native.native_decide.ax_1_1`: no blocker
+`heads8_size._native.native_decide.ax_1_1`: no blocker
+`headsHe_0._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_1._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_10._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_11._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_12._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_13._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_14._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_15._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_16._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_17._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_18._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_19._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_2._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_20._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_21._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_22._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_23._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_24._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_25._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_26._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_27._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_28._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_29._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_3._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_30._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_31._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_32._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_33._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_34._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_35._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_36._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_37._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_38._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_39._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_4._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_5._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_6._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_7._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_8._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHe_9._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`nfl_X_13._native.native_decide.ax_1_1`: no blocker
+`nfl_X_3._native.native_decide.ax_1_1`: no blocker
+`nfl_X_5._native.native_decide.ax_1_1`: no blocker
+`nfl_X_7._native.native_decide.ax_1_1`: no blocker
+`nfl_X_9._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_13._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_3._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_5._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_7._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_9._native.native_decide.ax_1_1`: no blocker
+`nmaxOKHe._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_3_2._native.native_decide.ax_1_1`: no blocker
+`tabCheckHe._native.native_decide.ax_1_1`: no blocker
+`wOKHe._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_11._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_13._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_15._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_17._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_19._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_21._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_23._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_25._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_27._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_29._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_3._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_5._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_7._native.native_decide.ax_1_1`: no blocker
+`coverHl_0_9._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_11._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_13._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_15._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_17._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_19._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_21._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_23._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_25._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_27._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_29._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_3._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_5._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_7._native.native_decide.ax_1_1`: no blocker
+`coverHl_1_9._native.native_decide.ax_1_1`: no blocker
+`heads8_size._native.native_decide.ax_1_1`: no blocker
+`headsHl_0._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_1._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_10._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_11._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_12._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_13._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_14._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_15._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_16._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_17._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_18._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_19._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_2._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_20._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_21._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_22._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_23._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_24._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_25._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_26._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_27._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_28._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_29._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_3._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_30._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_31._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_32._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_33._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_34._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_35._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_36._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_37._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_38._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_39._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_4._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_5._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_6._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_7._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_8._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsHl_9._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`nfl_X_13._native.native_decide.ax_1_1`: no blocker
+`nfl_X_3._native.native_decide.ax_1_1`: no blocker
+`nfl_X_5._native.native_decide.ax_1_1`: no blocker
+`nfl_X_7._native.native_decide.ax_1_1`: no blocker
+`nfl_X_9._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_13._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_3._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_5._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_7._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_9._native.native_decide.ax_1_1`: no blocker
+`nmaxOKHl._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_3_2._native.native_decide.ax_1_1`: no blocker
+`tabCheckHl._native.native_decide.ax_1_1`: no blocker
+`wOKHl._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_11._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_13._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_15._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_17._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_19._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_21._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_23._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_25._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_27._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_29._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_3._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_5._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_7._native.native_decide.ax_1_1`: no blocker
+`coverH2_0_9._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_11._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_13._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_15._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_17._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_19._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_21._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_23._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_25._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_27._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_29._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_3._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_5._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_7._native.native_decide.ax_1_1`: no blocker
+`coverH2_1_9._native.native_decide.ax_1_1`: no blocker
+`heads8_size._native.native_decide.ax_1_1`: no blocker
+`headsH2_0._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_1._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_10._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_11._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_12._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_13._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_14._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_15._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_16._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_17._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_18._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_19._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_2._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_20._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_21._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_22._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_23._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_24._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_25._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_26._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_27._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_28._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_29._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_3._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_30._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_31._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_32._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_33._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_34._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_35._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_36._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_37._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_38._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_39._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_4._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_5._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_6._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_7._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_8._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`headsH2_9._native.native_decide.ax_1_1`: blockers:
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → instHashableList → mixHash
+• `Float.log`: primitive implemented in C (`@[extern]`) with no definition
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.hintsAll → QECComp.searchC → QECComp.searchM → QECComp.testF → QECComp.flog → Float.log
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via QECComp.headsOK → QECComp.rowsOK → QECComp.mkBall → Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+`nfl_X_13._native.native_decide.ax_1_1`: no blocker
+`nfl_X_3._native.native_decide.ax_1_1`: no blocker
+`nfl_X_5._native.native_decide.ax_1_1`: no blocker
+`nfl_X_7._native.native_decide.ax_1_1`: no blocker
+`nfl_X_9._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_13._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_3._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_5._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_7._native.native_decide.ax_1_1`: no blocker
+`nfl_Z_9._native.native_decide.ax_1_1`: no blocker
+`nmaxOKH2._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_X_9_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_13_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_3_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_5_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_7_3_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_0._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_1_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_1._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_2_2._native.native_decide.ax_1_1`: no blocker
+`nty_Z_9_3_2._native.native_decide.ax_1_1`: no blocker
+`tabCheckH2._native.native_decide.ax_1_1`: no blocker
+`wOKH2._native.native_decide.ax_1_1`: no blocker
+blockers: 3.64 s wall 3.04 s user 3889588 KB
+rc=0

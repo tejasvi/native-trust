@@ -1,0 +1,156 @@
+{
+ "name": "sounio",
+ "pkg": "/home/ntbuild/repos/sounio/formal",
+ "toolchain": "v4.30.0-rc2",
+ "uses": 741,
+ "replaced": 70,
+ "replaced_known": 70,
+ "replaced_unknown": 0,
+ "replaced_facts": 70,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "ERROR/memory": 2,
+  "module not built": 664,
+  "TIMEOUT/900s": 4,
+  "FAILED/blocked (Float.decLe;Float.ofScientific;floatSpec)": 1
+ },
+ "native_axioms_before": 77,
+ "native_axioms_after": 7,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 90,
+ "native_dependent_decls_after": 10,
+ "rewritten_decls": 68,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 202.4,
+   "cpu": 223.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 29.7,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 6.84,
+  "cpu": 16.0,
+  "n_built": 15,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 1.4
+ },
+ "time1": {
+  "wall": 205.01,
+  "cpu": 226.1,
+  "n_built": 15,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 29.7,
+  "peak_rss_sum_gb": 29.7
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.35,
+  "cpu": 0.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 15,
+ "replaced_modules": 15,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  10.5,
+  218.9
+ ],
+ "module_times_slower": [
+  [
+   "OntologyELPlusNormalization",
+   0.715,
+   153.0
+  ],
+  [
+   "OntologyELPlusClosureComplete",
+   1.4,
+   37.0
+  ],
+  [
+   "FanoLabellingOrbits",
+   2.4,
+   13.0
+  ],
+  [
+   "OntologyELPlus",
+   0.507,
+   4.3
+  ],
+  [
+   "OntologyELReasoner",
+   0.293,
+   3.6
+  ],
+  [
+   "OntologyELClosureVerified",
+   0.335,
+   3.2
+  ],
+  [
+   "OntologyEvolutionRepair",
+   0.23800000000000002,
+   0.252
+  ],
+  [
+   "OntologyAlignmentRepair",
+   0.231,
+   0.242
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "OntologyRepairEquivalence",
+   0.375,
+   0.361
+  ],
+  [
+   "OntologyRepairTies",
+   0.391,
+   0.378
+  ],
+  [
+   "OntologyMinimalRepair",
+   0.241,
+   0.228
+  ],
+  [
+   "ClaimStatusInterval",
+   0.31,
+   0.299
+  ],
+  [
+   "OntologyClaimStatus",
+   0.181,
+   0.179
+  ]
+ ]
+}

@@ -1,0 +1,7 @@
+orig native axioms: 26 native axioms in `NTV.Bv_ite_equal_children`
+kf native axioms: 0 native axioms in `NTV.Bv_ite_equal_children`
+orig: wall_med=5.89 cpu_med=8.84 rss_kb_max=2211876 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=5.86 cpu_med=8.73 rss_kb_max=2221968 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=5.91 cpu_med=8.94 rss_kb_max=2228948 runs=3 rc=0 warnings=3 unnecessary=3 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=5.83 cpu_med=8.84 rss_kb_max=2226132 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=5.82 cpu_med=8.7 rss_kb_max=2217652 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

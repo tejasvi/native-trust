@@ -1,0 +1,6 @@
+51	trace_add_comm_manual	bv_decide	yes
+105	trace_zero_zero_extend	bv_decide	yes
+159	trace_zero_zero_extend_conj	bv_decide	yes
+203	trace_zero_sign_extend	bv_decide	yes
+215	trace_zero_sign_extend	bv_decide	yes
+262	trace_append	bv_decide	yes

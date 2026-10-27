@@ -1,0 +1,20 @@
+2026-10-26T01:16:33Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=534
+2026-10-26T01:27:54Z summary PROVED=54
+2026-10-26T01:27:54Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=480
+2026-10-26T01:50:49Z summary ERROR=12 FAILED=59
+2026-10-26T01:50:50Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=409
+2026-10-26T02:07:15Z summary TIMEOUT=1
+2026-10-26T02:07:16Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=408
+2026-10-26T02:49:17Z summary ERROR=40
+2026-10-26T02:57:17Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=480
+2026-10-26T05:09:17Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=14
+2026-10-26T05:43:09Z summary ERROR=6
+2026-10-26T06:08:41Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=484 modules=484
+native axioms=534 inner=0 outer_todo=480
+2026-10-26T07:14:04Z summary TIMEOUT=1

@@ -1,0 +1,14 @@
+Scripts of the same-box Theorem 1.1 measurement, the counts and the con-ron attempt, with the sha256 of each as it
+ran. The copies here differ from the scripts as run only in their headers and unit names (no run or team names);
+the artifact's copies also have the box root replaced by ${NT_BOX}.
+
+t11_box_v1.sh	6e5111846688ae9681c3c65b48b7dc8992ec0bba4c5c4948b38b2adadcd6e77f
+t11_box_v2.sh	fca6463e7d2fc2a335ed181269a4f6edf43011499b1ad3086c1ab5c3b52a3497
+t11_launch_v1.sh	c52409f01fe238de07caa7aedd5044a0f2f942f4e778a773006aa371572d8bfd
+t11_launch_v2.sh	f386c99cb02c9dbffd2c81a85cb19a1d3fe6232aa644a9fd33cd3df4081975eb
+t11_table_v1.py	99a66e0c81244bbe9628513d4ecb5e7af74f6d4c83bebe05aa805753c08b0d4b
+count_t11_v1.py	0820c8f1e1e37791c6a01f6bac1c298f4fabd7075b90b09162646fbfe6db2a98
+count_t11_v2.py	45f0b2c5a7ace3c855bfcf43d0b71e23d7887ae1f49c946773b27a1562ebaa40
+coreh_guard_v2.py	c2217ca1fc212b6a6768124dc58be52dd960666539f37179f2f6de69c201c3b9
+conron_launch_v1.sh	374097783039b87019db90d4ea1735e6e210455c183a0b9dcb19b315919045de
+conron_launch_v2.sh	24c0935915f69dbe1dc7bed6849837a9320e28b84398fd9caf775eea2f7d7b84

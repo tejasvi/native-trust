@@ -1,0 +1,8 @@
+bvs Clean.Gadgets.ByteDecomposition.Theorems: 1 bv_decide axioms
+bvs _private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6: 22035 nodes, 65720 clauses, 22035 vars; 31056 steps, 959442 hints, 54 chunks; solve 654 ms, prep+defs 9149 ms; kernel: base 28477 ms, chunks 245707 ms (max 8852 ms); total 293248 ms; axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs Gadgets.ByteDecomposition.Theorems.soundness: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=302.93 s user=301.51 s maxrss=8231976 KB

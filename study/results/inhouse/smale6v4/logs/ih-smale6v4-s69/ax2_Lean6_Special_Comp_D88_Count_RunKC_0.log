@@ -1,0 +1,46 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_D88_Count_RunKC_0.lean
+NT start Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1
+NT nested Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1 ms=121 rebuilt_defs=0 visited=3049
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encodeInput
+NT copy Lean6.Special.Comp.Count.encodeInput defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encInputs
+NT copy Lean6.Special.Comp.Count.encInputs defn_ms=1 eq_ms=0 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=6 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=0 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.symbolic
+NT copy Lean6.Special.Comp.Count.symbolic defn_ms=1 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.echelon
+NT copy Lean6.Special.Comp.Count.echelon defn_ms=1 eq_ms=5 congr=true
+NT copying Lean6.Special.Comp.Count.addElem
+NT copy Lean6.Special.Comp.Count.addElem defn_ms=1 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.finish
+NT copy Lean6.Special.Comp.Count.finish defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.step
+NT copy Lean6.Special.Comp.Count.step defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.loop._f
+NT copy Lean6.Special.Comp.Count.loop._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.loop
+NT copy Lean6.Special.Comp.Count.loop defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.init
+NT copy Lean6.Special.Comp.Count.init defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.f4State
+NT copy-rejected Lean6.Special.Comp.Count.f4State: (kernel) declaration type mismatch, '_kt.F2_Lean6_Special_Comp_D88_Count_RunKC_0.Lean6.Special.Comp.Count.f4State' has type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p         (_kt.F2_Lean6_Special_Comp_D88_Count_RunKC_0.Lean6.Special.Comp.Count.encInputs c F) but it is expected to have type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p (Lean6.Special.Comp.Count.encInputs c F)
+NT copying Lean6.Special.Comp.Count.f4Basis
+NT copy-rejected Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunKC_0.Lean6.Special.Comp.Count.kc_f4_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=95 copies=18 copy_kernel_ms=32 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunKC_0.Lean6.Special.Comp.Count.kc_f4_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+rc=124 secs=3600

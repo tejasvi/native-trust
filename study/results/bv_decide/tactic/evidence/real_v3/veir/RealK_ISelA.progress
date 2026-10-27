@@ -1,0 +1,907 @@
+[26989166] bv_kdecide [Veir.Data.RISCV.poisonConst_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 882 MiB, kernel route 883 MiB
+[26989269] bv_kdecide [Veir.Data.RISCV.addw_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 904 MiB, kernel route 904 MiB
+[26989286] bv_kdecide [Veir.Data.RISCV.and_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 904 MiB, kernel route 904 MiB
+[26989330] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_32._bvk_1: 260 nodes, CNF 581 clauses
+[26989358] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_32._bvk_1: 132 steps, 518 hints, 1 chunks, 0 segments; SAT 23 ms
+[26989509] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_32._bvk_1: base check 151 ms
+[26989650] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_32._bvk_1: chunk 0 (132 steps from id 582) 141 ms
+[26989659] bv_kdecide [Veir.Data.RISCV.and_refinement_32]: bv_decide 27 ms; 260 nodes, 581 clauses, 132 LRAT steps, 518 hints, 1 chunks; SAT 23 ms, data 6 ms; kernel: base 151 ms, chunks 141 ms (max 141 ms), assembly 3 ms; total 361 ms; peak RSS: bv_decide 904 MiB, kernel route 955 MiB
+[26989707] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_8._bvk_1: 68 nodes, CNF 149 clauses
+[26989732] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_8._bvk_1: 36 steps, 134 hints, 1 chunks, 0 segments; SAT 23 ms
+[26989774] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_8._bvk_1: base check 42 ms
+[26989802] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_8._bvk_1: chunk 0 (36 steps from id 150) 28 ms
+[26989808] bv_kdecide [Veir.Data.RISCV.and_refinement_8]: bv_decide 29 ms; 68 nodes, 149 clauses, 36 LRAT steps, 134 hints, 1 chunks; SAT 23 ms, data 2 ms; kernel: base 42 ms, chunks 28 ms (max 28 ms), assembly 1 ms; total 133 ms; peak RSS: bv_decide 955 MiB, kernel route 954 MiB
+[26989848] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_1._bvk_1: 12 nodes, CNF 23 clauses
+[26989868] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_1._bvk_1: 8 steps, 22 hints, 1 chunks, 0 segments; SAT 20 ms
+[26989885] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_1._bvk_1: base check 16 ms
+[26989889] _private.RealK.ISelA.0.Veir.Data.RISCV.and_refinement_1._bvk_1: chunk 0 (8 steps from id 24) 4 ms
+[26989894] bv_kdecide [Veir.Data.RISCV.and_refinement_1]: bv_decide 21 ms; 12 nodes, 23 clauses, 8 LRAT steps, 22 hints, 1 chunks; SAT 20 ms, data 0 ms; kernel: base 17 ms, chunks 4 ms (max 4 ms), assembly 0 ms; total 69 ms; peak RSS: bv_decide 920 MiB, kernel route 920 MiB
+[26990004] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement._bvk_1: 66 nodes, CNF 2 clauses
+[26990020] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 24 ms
+[26990220] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement._bvk_1: base check 200 ms
+[26990221] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[26990228] bv_kdecide [Veir.Data.RISCV.bitreverse_refinement]: bv_decide 33 ms; 66 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 24 ms, data 0 ms; kernel: base 200 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 274 ms; peak RSS: bv_decide 920 MiB, kernel route 968 MiB
+[26990342] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: 13943 nodes, CNF 41438 clauses
+[26999230] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: 35517 steps, 958895 hints, 61 chunks, 0 segments; SAT 6890 ms
+[27013722] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: base check 14491 ms
+[27015386] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 0 (2000 steps from id 41439) 1664 ms
+[27021341] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 1 (2000 steps from id 43439) 5955 ms
+[27030732] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 2 (84 steps from id 45439) 9391 ms
+[27037395] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 3 (40 steps from id 45523) 6663 ms
+[27047407] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 4 (1594 steps from id 45563) 10012 ms
+[27049934] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 5 (2000 steps from id 47157) 2527 ms
+[27052468] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 6 (2000 steps from id 49157) 2534 ms
+[27063129] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 7 (1870 steps from id 51157) 10661 ms
+[27069418] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 8 (24 steps from id 53027) 6289 ms
+[27078769] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 9 (65 steps from id 53051) 9351 ms
+[27086071] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 10 (103 steps from id 53116) 7302 ms
+[27092321] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 11 (12 steps from id 53219) 6250 ms
+[27099832] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 12 (101 steps from id 53231) 7511 ms
+[27110056] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 13 (122 steps from id 53332) 10224 ms
+[27120252] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 14 (127 steps from id 53454) 10196 ms
+[27128970] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 15 (131 steps from id 53581) 8717 ms
+[27136249] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 16 (129 steps from id 53712) 7279 ms
+[27143451] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 17 (130 steps from id 53841) 7202 ms
+[27150795] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 18 (131 steps from id 53971) 7343 ms
+[27161143] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 19 (124 steps from id 54102) 10348 ms
+[27169537] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 20 (80 steps from id 54226) 8394 ms
+[27177839] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 21 (65 steps from id 54306) 8301 ms
+[27185729] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 22 (78 steps from id 54371) 7889 ms
+[27195698] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 23 (93 steps from id 54449) 9969 ms
+[27206186] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 24 (117 steps from id 54542) 10488 ms
+[27214813] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 25 (69 steps from id 54659) 8626 ms
+[27222776] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 26 (31 steps from id 54728) 7963 ms
+[27231999] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 27 (81 steps from id 54759) 9223 ms
+[27237082] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 28 (97 steps from id 54840) 5083 ms
+[27247210] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 29 (93 steps from id 54937) 10128 ms
+[27255569] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 30 (58 steps from id 55030) 8359 ms
+[27265408] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 31 (90 steps from id 55088) 9839 ms
+[27275252] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 32 (102 steps from id 55178) 9843 ms
+[27284448] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 33 (454 steps from id 55280) 9196 ms
+[27292973] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 34 (65 steps from id 55734) 8524 ms
+[27303120] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 35 (107 steps from id 55799) 10146 ms
+[27312077] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 36 (43 steps from id 55906) 8957 ms
+[27321126] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 37 (58 steps from id 55949) 9049 ms
+[27330029] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 38 (117 steps from id 56007) 8903 ms
+[27340576] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 39 (93 steps from id 56124) 10547 ms
+[27348999] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 40 (31 steps from id 56217) 8423 ms
+[27356952] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 41 (34 steps from id 56248) 7953 ms
+[27367172] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 42 (34 steps from id 56282) 10220 ms
+[27377603] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 43 (86 steps from id 56316) 10431 ms
+[27386549] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 44 (47 steps from id 56402) 8946 ms
+[27395611] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 45 (57 steps from id 56449) 9062 ms
+[27403777] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 46 (87 steps from id 56506) 8165 ms
+[27411773] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 47 (28 steps from id 56593) 7996 ms
+[27418784] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 48 (126 steps from id 56621) 7011 ms
+[27426950] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 49 (57 steps from id 56747) 8165 ms
+[27433721] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 50 (2000 steps from id 56804) 6771 ms
+[27436186] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 51 (2000 steps from id 58804) 2465 ms
+[27438602] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 52 (2000 steps from id 60804) 2416 ms
+[27441042] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 53 (2000 steps from id 62804) 2440 ms
+[27443480] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 54 (2000 steps from id 64804) 2438 ms
+[27445929] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 55 (2000 steps from id 66804) 2449 ms
+[27448346] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 56 (2000 steps from id 68804) 2417 ms
+[27450939] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 57 (2000 steps from id 70804) 2592 ms
+[27453638] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 58 (2000 steps from id 72804) 2699 ms
+[27457109] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 59 (2000 steps from id 74804) 3471 ms
+[27457532] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement._bvk_1: chunk 60 (152 steps from id 76804) 423 ms
+[27461330] bv_kdecide [Veir.Data.RISCV.ashr_refinement]: bv_decide 57 ms; 13943 nodes, 41438 clauses, 35517 LRAT steps, 958895 hints, 61 chunks; SAT 6890 ms, data 2024 ms; kernel: base 14492 ms, chunks 443799 ms (max 10661 ms), assembly 1175 ms; total 471074 ms; peak RSS: bv_decide 968 MiB, kernel route 4268 MiB
+[27461406] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_1._bvk_1: 15 nodes, CNF 32 clauses
+[27461434] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_1._bvk_1: 11 steps, 30 hints, 1 chunks, 0 segments; SAT 28 ms
+[27461494] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_1._bvk_1: base check 60 ms
+[27461499] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_1._bvk_1: chunk 0 (11 steps from id 33) 5 ms
+[27461505] bv_kdecide [Veir.Data.RISCV.ashr_refinement_1]: bv_decide 50 ms; 15 nodes, 32 clauses, 11 LRAT steps, 30 hints, 1 chunks; SAT 28 ms, data 1 ms; kernel: base 60 ms, chunks 5 ms (max 5 ms), assembly 1 ms; total 153 ms; peak RSS: bv_decide 1420 MiB, kernel route 1433 MiB
+[27461531] bv_kdecide [Veir.Data.RISCV.icmp_refinement_eq]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1433 MiB, kernel route 1433 MiB
+[27461552] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ne]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1433 MiB, kernel route 1433 MiB
+[27461570] bv_kdecide [Veir.Data.RISCV.icmp_refinement_eq_zero_rhs]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1433 MiB, kernel route 1433 MiB
+[27461588] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ne_zero_rhs]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1433 MiB, kernel route 1433 MiB
+[27461610] bv_kdecide [Veir.Data.RISCV.icmp_refinement_slt]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1433 MiB, kernel route 1433 MiB
+[27461685] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle._bvk_1: 1702 nodes, CNF 4709 clauses
+[27461817] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle._bvk_1: 966 steps, 4367 hints, 1 chunks, 0 segments; SAT 97 ms
+[27463434] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle._bvk_1: base check 1617 ms
+[27465275] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle._bvk_1: chunk 0 (966 steps from id 4710) 1841 ms
+[27465316] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sle]: bv_decide 51 ms; 1702 nodes, 4709 clauses, 966 LRAT steps, 4367 hints, 1 chunks; SAT 97 ms, data 38 ms; kernel: base 1617 ms, chunks 1841 ms (max 1841 ms), assembly 21 ms; total 3692 ms; peak RSS: bv_decide 1433 MiB, kernel route 1762 MiB
+[27465342] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sgt]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1744 MiB, kernel route 1744 MiB
+[27465423] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge._bvk_1: 1702 nodes, CNF 4709 clauses
+[27465548] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge._bvk_1: 966 steps, 4367 hints, 1 chunks, 0 segments; SAT 90 ms
+[27467165] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge._bvk_1: base check 1617 ms
+[27469065] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge._bvk_1: chunk 0 (966 steps from id 4710) 1900 ms
+[27469103] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sge]: bv_decide 56 ms; 1702 nodes, 4709 clauses, 966 LRAT steps, 4367 hints, 1 chunks; SAT 90 ms, data 39 ms; kernel: base 1617 ms, chunks 1900 ms (max 1900 ms), assembly 20 ms; total 3746 ms; peak RSS: bv_decide 1742 MiB, kernel route 1748 MiB
+[27469128] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ult]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 1748 MiB, kernel route 1748 MiB
+[27469203] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule._bvk_1: 1678 nodes, CNF 4637 clauses
+[27469525] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule._bvk_1: 739 steps, 35100 hints, 2 chunks, 0 segments; SAT 249 ms
+[27471064] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule._bvk_1: base check 1539 ms
+[27474568] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule._bvk_1: chunk 0 (705 steps from id 4638) 3504 ms
+[27476140] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule._bvk_1: chunk 1 (34 steps from id 5343) 1570 ms
+[27476205] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ule]: bv_decide 55 ms; 1678 nodes, 4637 clauses, 739 LRAT steps, 35100 hints, 2 chunks; SAT 249 ms, data 76 ms; kernel: base 1539 ms, chunks 5074 ms (max 3504 ms), assembly 15 ms; total 7064 ms; peak RSS: bv_decide 1748 MiB, kernel route 1999 MiB
+[27476228] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ugt]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 1707 MiB, kernel route 1707 MiB
+[27476305] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge._bvk_1: 1678 nodes, CNF 4637 clauses
+[27476641] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge._bvk_1: 739 steps, 35100 hints, 2 chunks, 0 segments; SAT 262 ms
+[27478188] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge._bvk_1: base check 1546 ms
+[27481766] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge._bvk_1: chunk 0 (705 steps from id 4638) 3578 ms
+[27483360] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge._bvk_1: chunk 1 (34 steps from id 5343) 1592 ms
+[27483426] bv_kdecide [Veir.Data.RISCV.icmp_refinement_uge]: bv_decide 55 ms; 1678 nodes, 4637 clauses, 739 LRAT steps, 35100 hints, 2 chunks; SAT 262 ms, data 78 ms; kernel: base 1547 ms, chunks 5170 ms (max 3578 ms), assembly 15 ms; total 7183 ms; peak RSS: bv_decide 1707 MiB, kernel route 2010 MiB
+[27483511] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_imm._bvk_1: 1806 nodes, CNF 5024 clauses
+[27483630] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_imm._bvk_1: 208 steps, 4592 hints, 1 chunks, 0 segments; SAT 90 ms
+[27485393] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_imm._bvk_1: base check 1763 ms
+[27486826] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_imm._bvk_1: chunk 0 (208 steps from id 5025) 1432 ms
+[27486848] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sge_imm]: bv_decide 56 ms; 1806 nodes, 5024 clauses, 208 LRAT steps, 4592 hints, 1 chunks; SAT 90 ms, data 34 ms; kernel: base 1763 ms, chunks 1432 ms (max 1432 ms), assembly 4 ms; total 3404 ms; peak RSS: bv_decide 1719 MiB, kernel route 1796 MiB
+[27486917] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_imm._bvk_1: 1782 nodes, CNF 4952 clauses
+[27487039] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_imm._bvk_1: 180 steps, 5654 hints, 1 chunks, 0 segments; SAT 92 ms
+[27488728] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_imm._bvk_1: base check 1689 ms
+[27490310] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_imm._bvk_1: chunk 0 (180 steps from id 4953) 1582 ms
+[27490334] bv_kdecide [Veir.Data.RISCV.icmp_refinement_uge_imm]: bv_decide 40 ms; 1782 nodes, 4952 clauses, 180 LRAT steps, 5654 hints, 1 chunks; SAT 92 ms, data 35 ms; kernel: base 1689 ms, chunks 1582 ms (max 1582 ms), assembly 4 ms; total 3466 ms; peak RSS: bv_decide 1709 MiB, kernel route 1794 MiB
+[27490437] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_imm._bvk_1: 2121 nodes, CNF 5969 clauses
+[27490718] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_imm._bvk_1: 822 steps, 24056 hints, 2 chunks, 0 segments; SAT 208 ms
+[27492999] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_imm._bvk_1: base check 2280 ms
+[27496967] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_imm._bvk_1: chunk 0 (317 steps from id 5970) 3968 ms
+[27498429] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_imm._bvk_1: chunk 1 (505 steps from id 6287) 1460 ms
+[27498490] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sle_imm]: bv_decide 72 ms; 2121 nodes, 5969 clauses, 822 LRAT steps, 24056 hints, 2 chunks; SAT 208 ms, data 79 ms; kernel: base 2281 ms, chunks 5428 ms (max 3968 ms), assembly 17 ms; total 8137 ms; peak RSS: bv_decide 1723 MiB, kernel route 2093 MiB
+[27498584] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_imm._bvk_1: 2109 nodes, CNF 5933 clauses
+[27498767] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_imm._bvk_1: 275 steps, 11243 hints, 1 chunks, 0 segments; SAT 136 ms
+[27501088] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_imm._bvk_1: base check 2321 ms
+[27503726] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_imm._bvk_1: chunk 0 (275 steps from id 5934) 2637 ms
+[27503760] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ule_imm]: bv_decide 61 ms; 2109 nodes, 5933 clauses, 275 LRAT steps, 11243 hints, 1 chunks; SAT 136 ms, data 53 ms; kernel: base 2321 ms, chunks 2637 ms (max 2637 ms), assembly 6 ms; total 5248 ms; peak RSS: bv_decide 1712 MiB, kernel route 1889 MiB
+[27503786] bv_kdecide [Veir.Data.RISCV.or_refinement]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 1889 MiB, kernel route 1889 MiB
+[27503863] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_32._bvk_1: 260 nodes, CNF 581 clauses
+[27503912] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_32._bvk_1: 132 steps, 518 hints, 1 chunks, 0 segments; SAT 44 ms
+[27504126] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_32._bvk_1: base check 214 ms
+[27504302] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_32._bvk_1: chunk 0 (132 steps from id 582) 174 ms
+[27504311] bv_kdecide [Veir.Data.RISCV.or_refinement_32]: bv_decide 57 ms; 260 nodes, 581 clauses, 132 LRAT steps, 518 hints, 1 chunks; SAT 44 ms, data 6 ms; kernel: base 214 ms, chunks 174 ms (max 174 ms), assembly 3 ms; total 510 ms; peak RSS: bv_decide 1889 MiB, kernel route 1886 MiB
+[27504371] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_8._bvk_1: 68 nodes, CNF 149 clauses
+[27504402] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_8._bvk_1: 36 steps, 134 hints, 1 chunks, 0 segments; SAT 30 ms
+[27504457] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_8._bvk_1: base check 55 ms
+[27504490] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_8._bvk_1: chunk 0 (36 steps from id 150) 32 ms
+[27504496] bv_kdecide [Veir.Data.RISCV.or_refinement_8]: bv_decide 36 ms; 68 nodes, 149 clauses, 36 LRAT steps, 134 hints, 1 chunks; SAT 30 ms, data 2 ms; kernel: base 55 ms, chunks 32 ms (max 32 ms), assembly 1 ms; total 165 ms; peak RSS: bv_decide 1522 MiB, kernel route 1522 MiB
+[27504570] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_1._bvk_1: 12 nodes, CNF 23 clauses
+[27504607] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_1._bvk_1: 8 steps, 22 hints, 1 chunks, 0 segments; SAT 36 ms
+[27504628] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_1._bvk_1: base check 21 ms
+[27504632] _private.RealK.ISelA.0.Veir.Data.RISCV.or_refinement_1._bvk_1: chunk 0 (8 steps from id 24) 4 ms
+[27504637] bv_kdecide [Veir.Data.RISCV.or_refinement_1]: bv_decide 51 ms; 12 nodes, 23 clauses, 8 LRAT steps, 22 hints, 1 chunks; SAT 36 ms, data 1 ms; kernel: base 21 ms, chunks 4 ms (max 4 ms), assembly 1 ms; total 122 ms; peak RSS: bv_decide 1522 MiB, kernel route 1522 MiB
+[27504659] bv_kdecide [Veir.Data.RISCV.xor_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 1522 MiB, kernel route 1522 MiB
+[27504711] _private.RealK.ISelA.0.Veir.Data.RISCV.xor_refinement_32._bvk_1: 388 nodes, CNF 965 clauses
+[27504759] _private.RealK.ISelA.0.Veir.Data.RISCV.xor_refinement_32._bvk_1: 199 steps, 970 hints, 1 chunks, 0 segments; SAT 41 ms
+[27505069] _private.RealK.ISelA.0.Veir.Data.RISCV.xor_refinement_32._bvk_1: base check 310 ms
+[27505450] _private.RealK.ISelA.0.Veir.Data.RISCV.xor_refinement_32._bvk_1: chunk 0 (199 steps from id 966) 381 ms
+[27505462] bv_kdecide [Veir.Data.RISCV.xor_refinement_32]: bv_decide 35 ms; 388 nodes, 965 clauses, 199 LRAT steps, 970 hints, 1 chunks; SAT 41 ms, data 8 ms; kernel: base 310 ms, chunks 381 ms (max 381 ms), assembly 5 ms; total 789 ms; peak RSS: bv_decide 1522 MiB, kernel route 1550 MiB
+[27505515] bv_kdecide [Veir.Data.RISCV.sdiv_refinement]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 10 ms; peak RSS: bv_decide 1550 MiB, kernel route 1550 MiB
+[27505545] bv_kdecide [Veir.Data.RISCV.udiv_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1550 MiB, kernel route 1550 MiB
+[27516478] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: 4702 nodes, CNF 13892 clauses
+[27518113] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: 6542 steps, 188905 hints, 10 chunks, 0 segments; SAT 1193 ms
+[27523716] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: base check 5603 ms
+[27528747] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 0 (1775 steps from id 13893) 5031 ms
+[27533076] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 1 (687 steps from id 15668) 4328 ms
+[27537349] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 2 (390 steps from id 16355) 4272 ms
+[27541092] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 3 (386 steps from id 16745) 3743 ms
+[27544845] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 4 (437 steps from id 17131) 3753 ms
+[27549940] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 5 (657 steps from id 17568) 5095 ms
+[27555146] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 6 (506 steps from id 18225) 5206 ms
+[27560532] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 7 (501 steps from id 18731) 5386 ms
+[27565812] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 8 (755 steps from id 19232) 5280 ms
+[27568786] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_pos_refinement._bvk_1: chunk 9 (448 steps from id 19987) 2974 ms
+[27569249] bv_kdecide [Veir.Data.RISCV.sdivPow2_pos_refinement]: bv_decide 292 ms; 4702 nodes, 13892 clauses, 6542 LRAT steps, 188905 hints, 10 chunks; SAT 1193 ms, data 465 ms; kernel: base 5603 ms, chunks 45068 ms (max 5386 ms), assembly 168 ms; total 53096 ms; peak RSS: bv_decide 1692 MiB, kernel route 2625 MiB
+[27569644] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: 4696 nodes, CNF 13874 clauses
+[27571275] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: 7041 steps, 187304 hints, 10 chunks, 0 segments; SAT 1188 ms
+[27576735] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: base check 5460 ms
+[27581638] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 0 (1724 steps from id 13875) 4903 ms
+[27586472] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 1 (678 steps from id 15599) 4834 ms
+[27590713] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 2 (432 steps from id 16277) 4241 ms
+[27595812] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 3 (464 steps from id 16709) 5099 ms
+[27600712] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 4 (448 steps from id 17173) 4900 ms
+[27606080] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 5 (471 steps from id 17621) 5368 ms
+[27611537] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 6 (984 steps from id 18092) 5456 ms
+[27616390] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 7 (466 steps from id 19076) 4853 ms
+[27621432] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 8 (759 steps from id 19542) 5042 ms
+[27624016] _private.RealK.ISelA.0.Veir.Data.RISCV.sdivPow2_neg_refinement._bvk_1: chunk 9 (615 steps from id 20301) 2584 ms
+[27624506] bv_kdecide [Veir.Data.RISCV.sdivPow2_neg_refinement]: bv_decide 324 ms; 4696 nodes, 13874 clauses, 7041 LRAT steps, 187304 hints, 10 chunks; SAT 1188 ms, data 457 ms; kernel: base 5460 ms, chunks 47280 ms (max 5456 ms), assembly 178 ms; total 55209 ms; peak RSS: bv_decide 2074 MiB, kernel route 2687 MiB
+[27624587] bv_kdecide [Veir.Data.RISCV.subw_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 1661 MiB, kernel route 1661 MiB
+[27624675] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: 1949 nodes, CNF 5648 clauses
+[27625332] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: 2827 steps, 79280 hints, 4 chunks, 0 segments; SAT 478 ms
+[27627714] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: base check 2381 ms
+[27631527] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: chunk 0 (368 steps from id 5649) 3813 ms
+[27635823] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: chunk 1 (1006 steps from id 6017) 4296 ms
+[27639627] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: chunk 2 (750 steps from id 7023) 3802 ms
+[27642896] _private.RealK.ISelA.0.Veir.Data.RISCV.sllw_refinement._bvk_1: chunk 3 (703 steps from id 7773) 3269 ms
+[27643068] bv_kdecide [Veir.Data.RISCV.sllw_refinement]: bv_decide 57 ms; 1949 nodes, 5648 clauses, 2827 LRAT steps, 79280 hints, 4 chunks; SAT 478 ms, data 185 ms; kernel: base 2382 ms, chunks 15180 ms (max 4296 ms), assembly 67 ms; total 18458 ms; peak RSS: bv_decide 1661 MiB, kernel route 2356 MiB
+[27643168] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: 1949 nodes, CNF 5648 clauses
+[27643892] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: 2791 steps, 84497 hints, 5 chunks, 0 segments; SAT 521 ms
+[27646247] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: base check 2355 ms
+[27649896] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: chunk 0 (319 steps from id 5649) 3649 ms
+[27653826] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: chunk 1 (1019 steps from id 5968) 3930 ms
+[27657641] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: chunk 2 (312 steps from id 6987) 3814 ms
+[27661737] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: chunk 3 (768 steps from id 7299) 4096 ms
+[27663597] _private.RealK.ISelA.0.Veir.Data.RISCV.srlw_refinement._bvk_1: chunk 4 (373 steps from id 8067) 1860 ms
+[27663791] bv_kdecide [Veir.Data.RISCV.srlw_refinement]: bv_decide 65 ms; 1949 nodes, 5648 clauses, 2791 LRAT steps, 84497 hints, 5 chunks; SAT 521 ms, data 209 ms; kernel: base 2356 ms, chunks 17349 ms (max 4096 ms), assembly 89 ms; total 20698 ms; peak RSS: bv_decide 2190 MiB, kernel route 2375 MiB
+[27663869] _private.RealK.ISelA.0.Veir.Data.RISCV.andn_refinement._bvk_1: 196 nodes, CNF 197 clauses
+[27663903] _private.RealK.ISelA.0.Veir.Data.RISCV.andn_refinement._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 33 ms
+[27664032] _private.RealK.ISelA.0.Veir.Data.RISCV.andn_refinement._bvk_1: base check 129 ms
+[27664033] _private.RealK.ISelA.0.Veir.Data.RISCV.andn_refinement._bvk_1: chunk 0 (1 steps from id 198) 1 ms
+[27664038] bv_kdecide [Veir.Data.RISCV.andn_refinement]: bv_decide 53 ms; 196 nodes, 197 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 33 ms, data 2 ms; kernel: base 129 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 226 ms; peak RSS: bv_decide 1732 MiB, kernel route 1745 MiB
+[27664118] _private.RealK.ISelA.0.Veir.Data.RISCV.orn_refinement._bvk_1: 196 nodes, CNF 197 clauses
+[27664159] _private.RealK.ISelA.0.Veir.Data.RISCV.orn_refinement._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 41 ms
+[27664302] _private.RealK.ISelA.0.Veir.Data.RISCV.orn_refinement._bvk_1: base check 142 ms
+[27664303] _private.RealK.ISelA.0.Veir.Data.RISCV.orn_refinement._bvk_1: chunk 0 (1 steps from id 198) 0 ms
+[27664309] bv_kdecide [Veir.Data.RISCV.orn_refinement]: bv_decide 54 ms; 196 nodes, 197 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 41 ms, data 1 ms; kernel: base 144 ms, chunks 0 ms (max 0 ms), assembly 1 ms; total 249 ms; peak RSS: bv_decide 1746 MiB, kernel route 1748 MiB
+[27664390] _private.RealK.ISelA.0.Veir.Data.RISCV.xnor_refinement._bvk_1: 772 nodes, CNF 1925 clauses
+[27664475] _private.RealK.ISelA.0.Veir.Data.RISCV.xnor_refinement._bvk_1: 391 steps, 1995 hints, 1 chunks, 0 segments; SAT 62 ms
+[27665175] _private.RealK.ISelA.0.Veir.Data.RISCV.xnor_refinement._bvk_1: base check 700 ms
+[27666039] _private.RealK.ISelA.0.Veir.Data.RISCV.xnor_refinement._bvk_1: chunk 0 (391 steps from id 1926) 864 ms
+[27666059] bv_kdecide [Veir.Data.RISCV.xnor_refinement]: bv_decide 56 ms; 772 nodes, 1925 clauses, 391 LRAT steps, 1995 hints, 1 chunks; SAT 62 ms, data 25 ms; kernel: base 700 ms, chunks 864 ms (max 864 ms), assembly 9 ms; total 1730 ms; peak RSS: bv_decide 1748 MiB, kernel route 1878 MiB
+[27666157] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement._bvk_1: 1100 nodes, CNF 2714 clauses
+[27666328] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement._bvk_1: 466 steps, 15002 hints, 1 chunks, 0 segments; SAT 134 ms
+[27667429] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement._bvk_1: base check 1101 ms
+[27669472] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement._bvk_1: chunk 0 (466 steps from id 2715) 2042 ms
+[27669511] bv_kdecide [Veir.Data.RISCV.select_czeroeqz_refinement]: bv_decide 60 ms; 1100 nodes, 2714 clauses, 466 LRAT steps, 15002 hints, 1 chunks; SAT 134 ms, data 41 ms; kernel: base 1101 ms, chunks 2042 ms (max 2042 ms), assembly 11 ms; total 3423 ms; peak RSS: bv_decide 1878 MiB, kernel route 2052 MiB
+[27669615] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement._bvk_1: 1100 nodes, CNF 2714 clauses
+[27669815] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement._bvk_1: 466 steps, 15002 hints, 1 chunks, 0 segments; SAT 136 ms
+[27670894] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement._bvk_1: base check 1079 ms
+[27672837] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement._bvk_1: chunk 0 (466 steps from id 2715) 1943 ms
+[27672892] bv_kdecide [Veir.Data.RISCV.select_czeronez_refinement]: bv_decide 64 ms; 1100 nodes, 2714 clauses, 466 LRAT steps, 15002 hints, 1 chunks; SAT 136 ms, data 67 ms; kernel: base 1079 ms, chunks 1943 ms (max 1943 ms), assembly 10 ms; total 3348 ms; peak RSS: bv_decide 2052 MiB, kernel route 2055 MiB
+[27673031] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement._bvk_1: 1811 nodes, CNF 4460 clauses
+[27673180] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement._bvk_1: 1197 steps, 5814 hints, 1 chunks, 0 segments; SAT 108 ms
+[27674918] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement._bvk_1: base check 1738 ms
+[27677294] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement._bvk_1: chunk 0 (1197 steps from id 4461) 2376 ms
+[27677343] bv_kdecide [Veir.Data.RISCV.select_refinement]: bv_decide 93 ms; 1811 nodes, 4460 clauses, 1197 LRAT steps, 5814 hints, 1 chunks; SAT 108 ms, data 46 ms; kernel: base 1738 ms, chunks 2376 ms (max 2376 ms), assembly 26 ms; total 4416 ms; peak RSS: bv_decide 1727 MiB, kernel route 2141 MiB
+[27677489] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y0._bvk_1: 650 nodes, CNF 1562 clauses
+[27677568] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y0._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 68 ms
+[27678290] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y0._bvk_1: base check 722 ms
+[27678833] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y0._bvk_1: chunk 0 (152 steps from id 1563) 543 ms
+[27678849] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y0]: bv_decide 70 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 68 ms, data 14 ms; kernel: base 722 ms, chunks 543 ms (max 543 ms), assembly 4 ms; total 1445 ms; peak RSS: bv_decide 2140 MiB, kernel route 2139 MiB
+[27679043] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y1._bvk_1: 650 nodes, CNF 1562 clauses
+[27679129] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y1._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 75 ms
+[27679852] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y1._bvk_1: base check 723 ms
+[27680394] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y1._bvk_1: chunk 0 (152 steps from id 1563) 542 ms
+[27680410] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y1]: bv_decide 100 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 75 ms, data 14 ms; kernel: base 723 ms, chunks 542 ms (max 542 ms), assembly 3 ms; total 1482 ms; peak RSS: bv_decide 1887 MiB, kernel route 1888 MiB
+[27680572] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y2._bvk_1: 650 nodes, CNF 1562 clauses
+[27680645] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y2._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 62 ms
+[27681389] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y2._bvk_1: base check 744 ms
+[27681945] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y2._bvk_1: chunk 0 (152 steps from id 1563) 556 ms
+[27681962] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y2]: bv_decide 67 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 62 ms, data 14 ms; kernel: base 744 ms, chunks 556 ms (max 556 ms), assembly 4 ms; total 1472 ms; peak RSS: bv_decide 1843 MiB, kernel route 1891 MiB
+[27682159] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y3._bvk_1: 650 nodes, CNF 1562 clauses
+[27682232] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y3._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 62 ms
+[27682975] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y3._bvk_1: base check 743 ms
+[27683568] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y3._bvk_1: chunk 0 (152 steps from id 1563) 593 ms
+[27683586] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y3]: bv_decide 100 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 62 ms, data 13 ms; kernel: base 743 ms, chunks 593 ms (max 593 ms), assembly 4 ms; total 1542 ms; peak RSS: bv_decide 1862 MiB, kernel route 1893 MiB
+[27683789] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y4._bvk_1: 650 nodes, CNF 1562 clauses
+[27683876] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y4._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 76 ms
+[27684626] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y4._bvk_1: base check 749 ms
+[27685198] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y4._bvk_1: chunk 0 (152 steps from id 1563) 572 ms
+[27685214] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y4]: bv_decide 99 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 76 ms, data 13 ms; kernel: base 750 ms, chunks 572 ms (max 572 ms), assembly 4 ms; total 1539 ms; peak RSS: bv_decide 1849 MiB, kernel route 1897 MiB
+[27685380] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y5._bvk_1: 650 nodes, CNF 1562 clauses
+[27685454] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y5._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 64 ms
+[27686229] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y5._bvk_1: base check 775 ms
+[27686808] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y5._bvk_1: chunk 0 (152 steps from id 1563) 579 ms
+[27686824] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y5]: bv_decide 67 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 64 ms, data 13 ms; kernel: base 775 ms, chunks 579 ms (max 579 ms), assembly 3 ms; total 1528 ms; peak RSS: bv_decide 1897 MiB, kernel route 1897 MiB
+[27687019] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y6._bvk_1: 650 nodes, CNF 1562 clauses
+[27687102] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y6._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 72 ms
+[27687834] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y6._bvk_1: base check 732 ms
+[27688393] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y6._bvk_1: chunk 0 (152 steps from id 1563) 559 ms
+[27688409] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y6]: bv_decide 99 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 72 ms, data 13 ms; kernel: base 732 ms, chunks 559 ms (max 559 ms), assembly 4 ms; total 1504 ms; peak RSS: bv_decide 1853 MiB, kernel route 1902 MiB
+[27688609] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y7._bvk_1: 650 nodes, CNF 1562 clauses
+[27688698] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y7._bvk_1: 152 steps, 2086 hints, 1 chunks, 0 segments; SAT 78 ms
+[27689474] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y7._bvk_1: base check 776 ms
+[27690066] _private.RealK.ISelA.0.Veir.Data.RISCV.orcb_refinement_y7._bvk_1: chunk 0 (152 steps from id 1563) 592 ms
+[27690082] bv_kdecide [Veir.Data.RISCV.orcb_refinement_y7]: bv_decide 100 ms; 650 nodes, 1562 clauses, 152 LRAT steps, 2086 hints, 1 chunks; SAT 78 ms, data 14 ms; kernel: base 776 ms, chunks 592 ms (max 592 ms), assembly 4 ms; total 1588 ms; peak RSS: bv_decide 1902 MiB, kernel route 1902 MiB
+[27690185] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_16._bvk_1: 13 nodes, CNF 8 clauses
+[27690222] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_16._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 36 ms
+[27690239] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_16._bvk_1: base check 17 ms
+[27690240] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_16._bvk_1: chunk 0 (1 steps from id 9) 1 ms
+[27690246] bv_kdecide [Veir.Data.RISCV.zext_refinement_8_16]: bv_decide 56 ms; 13 nodes, 8 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 36 ms, data 1 ms; kernel: base 17 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 122 ms; peak RSS: bv_decide 1858 MiB, kernel route 1858 MiB
+[27690325] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_32._bvk_1: 13 nodes, CNF 8 clauses
+[27690375] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_32._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 49 ms
+[27690398] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_32._bvk_1: base check 23 ms
+[27690399] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_32._bvk_1: chunk 0 (1 steps from id 9) 1 ms
+[27690404] bv_kdecide [Veir.Data.RISCV.zext_refinement_8_32]: bv_decide 56 ms; 13 nodes, 8 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 49 ms, data 1 ms; kernel: base 23 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 139 ms; peak RSS: bv_decide 1858 MiB, kernel route 1858 MiB
+[27690483] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_64._bvk_1: 13 nodes, CNF 8 clauses
+[27690519] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_64._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 36 ms
+[27690550] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_64._bvk_1: base check 30 ms
+[27690550] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_8_64._bvk_1: chunk 0 (1 steps from id 9) 0 ms
+[27690556] bv_kdecide [Veir.Data.RISCV.zext_refinement_8_64]: bv_decide 55 ms; 13 nodes, 8 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 36 ms, data 1 ms; kernel: base 31 ms, chunks 0 ms (max 0 ms), assembly 1 ms; total 132 ms; peak RSS: bv_decide 1858 MiB, kernel route 1858 MiB
+[27690635] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_16_32._bvk_1: 21 nodes, CNF 8 clauses
+[27690684] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_16_32._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 49 ms
+[27690704] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_16_32._bvk_1: base check 20 ms
+[27690705] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_16_32._bvk_1: chunk 0 (1 steps from id 9) 1 ms
+[27690710] bv_kdecide [Veir.Data.RISCV.zext_refinement_16_32]: bv_decide 55 ms; 21 nodes, 8 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 49 ms, data 1 ms; kernel: base 20 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 135 ms; peak RSS: bv_decide 1858 MiB, kernel route 1856 MiB
+[27690736] bv_kdecide [Veir.Data.RISCV.zext_refinement_16_64]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1749 MiB, kernel route 1749 MiB
+[27690759] bv_kdecide [Veir.Data.RISCV.zext_refinement_32_64]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1749 MiB, kernel route 1749 MiB
+[27690832] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_1_64._bvk_1: 6 nodes, CNF 8 clauses
+[27690866] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_1_64._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 33 ms
+[27690893] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_1_64._bvk_1: base check 27 ms
+[27690894] _private.RealK.ISelA.0.Veir.Data.RISCV.zext_refinement_1_64._bvk_1: chunk 0 (1 steps from id 9) 1 ms
+[27690899] bv_kdecide [Veir.Data.RISCV.zext_refinement_1_64]: bv_decide 53 ms; 6 nodes, 8 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 33 ms, data 1 ms; kernel: base 27 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 124 ms; peak RSS: bv_decide 1749 MiB, kernel route 1752 MiB
+[27690978] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_16._bvk_1: 238 nodes, CNF 494 clauses
+[27691032] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_16._bvk_1: 58 steps, 321 hints, 1 chunks, 0 segments; SAT 51 ms
+[27691236] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_16._bvk_1: base check 204 ms
+[27691294] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_16._bvk_1: chunk 0 (58 steps from id 495) 58 ms
+[27691302] bv_kdecide [Veir.Data.RISCV.sext_refinement_8_16]: bv_decide 56 ms; 238 nodes, 494 clauses, 58 LRAT steps, 321 hints, 1 chunks; SAT 51 ms, data 4 ms; kernel: base 204 ms, chunks 58 ms (max 58 ms), assembly 2 ms; total 387 ms; peak RSS: bv_decide 1752 MiB, kernel route 1797 MiB
+[27691383] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_32._bvk_1: 350 nodes, CNF 782 clauses
+[27691438] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_32._bvk_1: 154 steps, 1697 hints, 1 chunks, 0 segments; SAT 49 ms
+[27691739] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_32._bvk_1: base check 301 ms
+[27691984] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_8_32._bvk_1: chunk 0 (154 steps from id 783) 245 ms
+[27691996] bv_kdecide [Veir.Data.RISCV.sext_refinement_8_32]: bv_decide 57 ms; 350 nodes, 782 clauses, 154 LRAT steps, 1697 hints, 1 chunks; SAT 49 ms, data 7 ms; kernel: base 301 ms, chunks 245 ms (max 245 ms), assembly 3 ms; total 677 ms; peak RSS: bv_decide 1797 MiB, kernel route 1830 MiB
+[27692021] bv_kdecide [Veir.Data.RISCV.sext_refinement_8_64]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 1830 MiB, kernel route 1830 MiB
+[27692097] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_16_32._bvk_1: 278 nodes, CNF 590 clauses
+[27692159] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_16_32._bvk_1: 106 steps, 881 hints, 1 chunks, 0 segments; SAT 57 ms
+[27692385] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_16_32._bvk_1: base check 226 ms
+[27692512] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_16_32._bvk_1: chunk 0 (106 steps from id 591) 127 ms
+[27692522] bv_kdecide [Veir.Data.RISCV.sext_refinement_16_32]: bv_decide 58 ms; 278 nodes, 590 clauses, 106 LRAT steps, 881 hints, 1 chunks; SAT 57 ms, data 6 ms; kernel: base 226 ms, chunks 127 ms (max 127 ms), assembly 3 ms; total 489 ms; peak RSS: bv_decide 1830 MiB, kernel route 1832 MiB
+[27692548] bv_kdecide [Veir.Data.RISCV.sext_refinement_16_64]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 1832 MiB, kernel route 1832 MiB
+[27692567] bv_kdecide [Veir.Data.RISCV.sext_refinement_32_64]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1832 MiB, kernel route 1832 MiB
+[27692642] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_64._bvk_1: 446 nodes, CNF 1142 clauses
+[27692722] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_64._bvk_1: 320 steps, 4985 hints, 1 chunks, 0 segments; SAT 68 ms
+[27693131] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_64._bvk_1: base check 409 ms
+[27693802] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_64._bvk_1: chunk 0 (320 steps from id 1143) 671 ms
+[27693820] bv_kdecide [Veir.Data.RISCV.sext_refinement_1_64]: bv_decide 57 ms; 446 nodes, 1142 clauses, 320 LRAT steps, 4985 hints, 1 chunks; SAT 68 ms, data 14 ms; kernel: base 409 ms, chunks 671 ms (max 671 ms), assembly 7 ms; total 1241 ms; peak RSS: bv_decide 1832 MiB, kernel route 1885 MiB
+[27693932] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_32._bvk_1: 222 nodes, CNF 566 clauses
+[27693998] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_32._bvk_1: 160 steps, 1465 hints, 1 chunks, 0 segments; SAT 61 ms
+[27694187] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_32._bvk_1: base check 188 ms
+[27694403] _private.RealK.ISelA.0.Veir.Data.RISCV.sext_refinement_1_32._bvk_1: chunk 0 (160 steps from id 567) 216 ms
+[27694414] bv_kdecide [Veir.Data.RISCV.sext_refinement_1_32]: bv_decide 89 ms; 222 nodes, 566 clauses, 160 LRAT steps, 1465 hints, 1 chunks; SAT 61 ms, data 6 ms; kernel: base 189 ms, chunks 216 ms (max 216 ms), assembly 3 ms; total 578 ms; peak RSS: bv_decide 1883 MiB, kernel route 1883 MiB
+[27694558] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement._bvk_1: 3100 nodes, CNF 8525 clauses
+[27694995] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement._bvk_1: 2402 steps, 34819 hints, 2 chunks, 0 segments; SAT 325 ms
+[27698151] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement._bvk_1: base check 3156 ms
+[27703280] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement._bvk_1: chunk 0 (1412 steps from id 8526) 5129 ms
+[27707222] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement._bvk_1: chunk 1 (990 steps from id 9938) 3941 ms
+[27707354] bv_kdecide [Veir.Data.RISCV.smax_refinement]: bv_decide 62 ms; 3100 nodes, 8525 clauses, 2402 LRAT steps, 34819 hints, 2 chunks; SAT 325 ms, data 118 ms; kernel: base 3156 ms, chunks 9070 ms (max 5129 ms), assembly 59 ms; total 12869 ms; peak RSS: bv_decide 1884 MiB, kernel route 2605 MiB
+[27707566] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: 3100 nodes, CNF 8525 clauses
+[27708325] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: 5408 steps, 46935 hints, 3 chunks, 0 segments; SAT 503 ms
+[27711383] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: base check 3058 ms
+[27717008] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: chunk 0 (1685 steps from id 8526) 5625 ms
+[27722626] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: chunk 1 (2000 steps from id 10211) 5618 ms
+[27726166] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement._bvk_1: chunk 2 (1723 steps from id 12211) 3540 ms
+[27726556] bv_kdecide [Veir.Data.RISCV.smin_refinement]: bv_decide 175 ms; 3100 nodes, 8525 clauses, 5408 LRAT steps, 46935 hints, 3 chunks; SAT 503 ms, data 264 ms; kernel: base 3058 ms, chunks 14783 ms (max 5625 ms), assembly 133 ms; total 19178 ms; peak RSS: bv_decide 2193 MiB, kernel route 2742 MiB
+[27726584] bv_kdecide [Veir.Data.RISCV.umax_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 2440 MiB, kernel route 2440 MiB
+[27726786] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement._bvk_1: 3076 nodes, CNF 8453 clauses
+[27727251] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement._bvk_1: 1820 steps, 31096 hints, 2 chunks, 0 segments; SAT 359 ms
+[27730311] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement._bvk_1: base check 3060 ms
+[27735457] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement._bvk_1: chunk 0 (1498 steps from id 8454) 5146 ms
+[27737629] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement._bvk_1: chunk 1 (322 steps from id 9952) 2172 ms
+[27737725] bv_kdecide [Veir.Data.RISCV.umin_refinement]: bv_decide 173 ms; 3076 nodes, 8453 clauses, 1820 LRAT steps, 31096 hints, 2 chunks; SAT 359 ms, data 114 ms; kernel: base 3060 ms, chunks 7318 ms (max 5146 ms), assembly 38 ms; total 11124 ms; peak RSS: bv_decide 2440 MiB, kernel route 2658 MiB
+[27737892] _private.RealK.ISelA.0.Veir.Data.RISCV.saddSat_refinement._bvk_1: 3376 nodes, CNF 8966 clauses
+[27738183] _private.RealK.ISelA.0.Veir.Data.RISCV.saddSat_refinement._bvk_1: 1246 steps, 14499 hints, 1 chunks, 0 segments; SAT 222 ms
+[27741678] _private.RealK.ISelA.0.Veir.Data.RISCV.saddSat_refinement._bvk_1: base check 3495 ms
+[27746652] _private.RealK.ISelA.0.Veir.Data.RISCV.saddSat_refinement._bvk_1: chunk 0 (1246 steps from id 8967) 4974 ms
+[27746722] bv_kdecide [Veir.Data.RISCV.saddSat_refinement]: bv_decide 112 ms; 3376 nodes, 8966 clauses, 1246 LRAT steps, 14499 hints, 1 chunks; SAT 222 ms, data 80 ms; kernel: base 3495 ms, chunks 4974 ms (max 4974 ms), assembly 27 ms; total 8962 ms; peak RSS: bv_decide 2192 MiB, kernel route 2629 MiB
+[27746905] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: 3624 nodes, CNF 9710 clauses
+[27747420] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: 1401 steps, 48885 hints, 3 chunks, 0 segments; SAT 407 ms
+[27751365] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: base check 3945 ms
+[27755304] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: chunk 0 (554 steps from id 9711) 3939 ms
+[27759024] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: chunk 1 (357 steps from id 10265) 3720 ms
+[27761815] _private.RealK.ISelA.0.Veir.Data.RISCV.ssubSat_refinement._bvk_1: chunk 2 (490 steps from id 10622) 2791 ms
+[27761920] bv_kdecide [Veir.Data.RISCV.ssubSat_refinement]: bv_decide 119 ms; 3624 nodes, 9710 clauses, 1401 LRAT steps, 48885 hints, 3 chunks; SAT 407 ms, data 119 ms; kernel: base 3945 ms, chunks 10450 ms (max 3939 ms), assembly 29 ms; total 15155 ms; peak RSS: bv_decide 2623 MiB, kernel route 2621 MiB
+[27762105] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: 3831 nodes, CNF 10718 clauses
+[27763130] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: 11583 steps, 52155 hints, 6 chunks, 0 segments; SAT 683 ms
+[27767084] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: base check 3954 ms
+[27771992] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 0 (2000 steps from id 10719) 4908 ms
+[27774883] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 1 (2000 steps from id 12719) 2891 ms
+[27777533] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 2 (2000 steps from id 14719) 2650 ms
+[27781463] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 3 (2000 steps from id 16719) 3929 ms
+[27785048] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 4 (2000 steps from id 18719) 3585 ms
+[27790304] _private.RealK.ISelA.0.Veir.Data.RISCV.uaddSat_refinement._bvk_1: chunk 5 (1583 steps from id 20719) 5256 ms
+[27791413] bv_kdecide [Veir.Data.RISCV.uaddSat_refinement]: bv_decide 109 ms; 3831 nodes, 10718 clauses, 11583 LRAT steps, 52155 hints, 6 chunks; SAT 683 ms, data 352 ms; kernel: base 3954 ms, chunks 23219 ms (max 5256 ms), assembly 331 ms; total 29434 ms; peak RSS: bv_decide 1856 MiB, kernel route 2733 MiB
+[27791670] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: 4278 nodes, CNF 12059 clauses
+[27794478] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: 19966 steps, 207946 hints, 14 chunks, 0 segments; SAT 1984 ms
+[27799273] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: base check 4795 ms
+[27806315] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 0 (2000 steps from id 12060) 7042 ms
+[27809974] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 1 (2000 steps from id 14060) 3659 ms
+[27812829] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 2 (2000 steps from id 16060) 2855 ms
+[27815641] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 3 (2000 steps from id 18060) 2812 ms
+[27821952] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 4 (2000 steps from id 20060) 6311 ms
+[27826026] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 5 (2000 steps from id 22060) 4074 ms
+[27831346] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 6 (767 steps from id 24060) 5320 ms
+[27837038] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 7 (1552 steps from id 24827) 5692 ms
+[27841922] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 8 (994 steps from id 26379) 4884 ms
+[27847127] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 9 (1532 steps from id 27373) 5204 ms
+[27852516] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 10 (1024 steps from id 28905) 5389 ms
+[27856303] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 11 (983 steps from id 29929) 3786 ms
+[27860060] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 12 (645 steps from id 30912) 3757 ms
+[27862603] _private.RealK.ISelA.0.Veir.Data.RISCV.usubSat_refinement._bvk_1: chunk 13 (469 steps from id 31557) 2542 ms
+[27866543] bv_kdecide [Veir.Data.RISCV.usubSat_refinement]: bv_decide 212 ms; 4278 nodes, 12059 clauses, 19966 LRAT steps, 207946 hints, 14 chunks; SAT 1984 ms, data 836 ms; kernel: base 4795 ms, chunks 63327 ms (max 7042 ms), assembly 658 ms; total 75102 ms; peak RSS: bv_decide 1947 MiB, kernel route 3152 MiB
+[27868162] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: 30798 nodes, CNF 91808 clauses
+[27886963] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: 78008 steps, 1483947 hints, 98 chunks, 0 segments; SAT 15054 ms
+[27925281] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: base check 38316 ms
+[27936496] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 0 (293 steps from id 91809) 11215 ms
+[27945495] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 1 (2000 steps from id 92102) 8999 ms
+[27947766] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 2 (2000 steps from id 94102) 2271 ms
+[27950009] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 3 (2000 steps from id 96102) 2243 ms
+[27952043] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 4 (2000 steps from id 98102) 2034 ms
+[27954088] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 5 (2000 steps from id 100102) 2045 ms
+[27965418] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 6 (1531 steps from id 102102) 11330 ms
+[27975727] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 7 (154 steps from id 103633) 10308 ms
+[27987588] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 8 (149 steps from id 103787) 11861 ms
+[27993685] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 9 (149 steps from id 103936) 6097 ms
+[27997135] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 10 (34 steps from id 104085) 3450 ms
+[28000482] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 11 (35 steps from id 104119) 3347 ms
+[28009508] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 12 (130 steps from id 104154) 9026 ms
+[28013834] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 13 (6 steps from id 104284) 4326 ms
+[28018279] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 14 (8 steps from id 104290) 4445 ms
+[28022570] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 15 (5 steps from id 104298) 4291 ms
+[28026912] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 16 (6 steps from id 104303) 4342 ms
+[28031341] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 17 (6 steps from id 104309) 4429 ms
+[28035690] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 18 (4 steps from id 104315) 4349 ms
+[28040213] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 19 (6 steps from id 104319) 4523 ms
+[28044657] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 20 (5 steps from id 104325) 4443 ms
+[28048997] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 21 (5 steps from id 104330) 4340 ms
+[28053444] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 22 (5 steps from id 104335) 4447 ms
+[28059422] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 23 (10 steps from id 104340) 5978 ms
+[28069107] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 24 (149 steps from id 104350) 9685 ms
+[28072831] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 25 (42 steps from id 104499) 3724 ms
+[28078835] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 26 (6 steps from id 104541) 6004 ms
+[28086510] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 27 (52 steps from id 104547) 7674 ms
+[28094673] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 28 (109 steps from id 104599) 8162 ms
+[28098387] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 29 (6 steps from id 104708) 3714 ms
+[28102073] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 30 (4 steps from id 104714) 3686 ms
+[28108745] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 31 (33 steps from id 104718) 6672 ms
+[28114698] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 32 (95 steps from id 104751) 5953 ms
+[28121510] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 33 (2000 steps from id 104846) 6812 ms
+[28124168] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 34 (2000 steps from id 106846) 2658 ms
+[28126873] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 35 (2000 steps from id 108846) 2705 ms
+[28129473] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 36 (2000 steps from id 110846) 2599 ms
+[28132133] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 37 (2000 steps from id 112846) 2659 ms
+[28134770] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 38 (2000 steps from id 114846) 2637 ms
+[28137454] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 39 (2000 steps from id 116846) 2684 ms
+[28140211] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 40 (2000 steps from id 118846) 2757 ms
+[28143011] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 41 (2000 steps from id 120846) 2800 ms
+[28145756] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 42 (2000 steps from id 122846) 2745 ms
+[28148472] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 43 (2000 steps from id 124846) 2716 ms
+[28151168] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 44 (2000 steps from id 126846) 2696 ms
+[28153855] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 45 (2000 steps from id 128846) 2686 ms
+[28156697] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 46 (2000 steps from id 130846) 2842 ms
+[28159754] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 47 (2000 steps from id 132846) 3057 ms
+[28162832] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 48 (2000 steps from id 134846) 3078 ms
+[28165962] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 49 (2000 steps from id 136846) 3130 ms
+[28168878] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 50 (2000 steps from id 138846) 2916 ms
+[28171930] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 51 (2000 steps from id 140846) 3052 ms
+[28175009] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 52 (2000 steps from id 142846) 3079 ms
+[28177917] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 53 (2000 steps from id 144846) 2908 ms
+[28180675] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 54 (2000 steps from id 146846) 2758 ms
+[28184498] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 55 (2000 steps from id 148846) 3823 ms
+[28189194] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 56 (513 steps from id 150846) 4696 ms
+[28192145] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 57 (141 steps from id 151359) 2951 ms
+[28194995] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 58 (134 steps from id 151500) 2850 ms
+[28198206] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 59 (193 steps from id 151634) 3211 ms
+[28201277] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 60 (207 steps from id 151827) 3071 ms
+[28204397] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 61 (150 steps from id 152034) 3119 ms
+[28208313] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 62 (1090 steps from id 152184) 3916 ms
+[28211216] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 63 (105 steps from id 153274) 2903 ms
+[28215116] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 64 (451 steps from id 153379) 3900 ms
+[28217326] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 65 (68 steps from id 153830) 2209 ms
+[28221431] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 66 (398 steps from id 153898) 4105 ms
+[28226833] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 67 (545 steps from id 154296) 5401 ms
+[28230157] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 68 (268 steps from id 154841) 3324 ms
+[28233743] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 69 (272 steps from id 155109) 3585 ms
+[28238081] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 70 (477 steps from id 155381) 4338 ms
+[28241472] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 71 (220 steps from id 155858) 3391 ms
+[28245272] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 72 (326 steps from id 156078) 3799 ms
+[28248760] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 73 (226 steps from id 156404) 3488 ms
+[28252920] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 74 (522 steps from id 156630) 4160 ms
+[28256021] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 75 (144 steps from id 157152) 3101 ms
+[28258910] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 76 (263 steps from id 157296) 2889 ms
+[28265133] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 77 (758 steps from id 157559) 6223 ms
+[28268295] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 78 (183 steps from id 158317) 3162 ms
+[28271548] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 79 (189 steps from id 158500) 3253 ms
+[28277161] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 80 (744 steps from id 158689) 5613 ms
+[28279924] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 81 (110 steps from id 159433) 2762 ms
+[28284181] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 82 (408 steps from id 159543) 4257 ms
+[28287512] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 83 (239 steps from id 159951) 3330 ms
+[28290028] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 84 (91 steps from id 160190) 2516 ms
+[28292852] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 85 (163 steps from id 160281) 2824 ms
+[28296147] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 86 (226 steps from id 160444) 3294 ms
+[28299220] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 87 (161 steps from id 160670) 3073 ms
+[28302840] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 88 (2000 steps from id 160831) 3620 ms
+[28308434] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 89 (2000 steps from id 162831) 5594 ms
+[28312371] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 90 (461 steps from id 164831) 3937 ms
+[28318029] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 91 (1160 steps from id 165292) 5658 ms
+[28323296] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 92 (750 steps from id 166452) 5266 ms
+[28325788] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 93 (76 steps from id 167202) 2492 ms
+[28329160] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 94 (355 steps from id 167278) 3372 ms
+[28333887] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 95 (1631 steps from id 167633) 4726 ms
+[28337719] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 96 (406 steps from id 169264) 3832 ms
+[28339793] _private.RealK.ISelA.0.Veir.Data.RISCV.ushlSat_refinement._bvk_1: chunk 97 (147 steps from id 169670) 2074 ms
+[28352246] bv_kdecide [Veir.Data.RISCV.ushlSat_refinement]: bv_decide 686 ms; 30798 nodes, 91808 clauses, 78008 LRAT steps, 1483947 hints, 98 chunks; SAT 15054 ms, data 3863 ms; kernel: base 38318 ms, chunks 414495 ms (max 11861 ms), assembly 2906 ms; total 484893 ms; peak RSS: bv_decide 2102 MiB, kernel route 9964 MiB
+[28352395] _private.RealK.ISelA.0.Veir.Data.RISCV.abs_refinement._bvk_1: 2562 nodes, CNF 7103 clauses
+[28352691] _private.RealK.ISelA.0.Veir.Data.RISCV.abs_refinement._bvk_1: 873 steps, 19636 hints, 1 chunks, 0 segments; SAT 221 ms
+[28355556] _private.RealK.ISelA.0.Veir.Data.RISCV.abs_refinement._bvk_1: base check 2865 ms
+[28359570] _private.RealK.ISelA.0.Veir.Data.RISCV.abs_refinement._bvk_1: chunk 0 (873 steps from id 7104) 4014 ms
+[28359634] bv_kdecide [Veir.Data.RISCV.abs_refinement]: bv_decide 108 ms; 2562 nodes, 7103 clauses, 873 LRAT steps, 19636 hints, 1 chunks; SAT 221 ms, data 81 ms; kernel: base 2865 ms, chunks 4014 ms (max 4014 ms), assembly 21 ms; total 7359 ms; peak RSS: bv_decide 2796 MiB, kernel route 3389 MiB
+[28360079] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: 10705 nodes, CNF 31724 clauses
+[28364416] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: 21596 steps, 324193 hints, 21 chunks, 0 segments; SAT 3292 ms
+[28384074] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: base check 19658 ms
+[28390094] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 0 (437 steps from id 31725) 6020 ms
+[28395800] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 1 (338 steps from id 32162) 5706 ms
+[28401570] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 2 (346 steps from id 32500) 5770 ms
+[28406700] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 3 (318 steps from id 32846) 5130 ms
+[28411832] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 4 (283 steps from id 33164) 5132 ms
+[28417204] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 5 (285 steps from id 33447) 5372 ms
+[28422800] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 6 (329 steps from id 33732) 5596 ms
+[28428317] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 7 (314 steps from id 34061) 5517 ms
+[28431458] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 8 (2000 steps from id 34375) 3141 ms
+[28434258] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 9 (2000 steps from id 36375) 2800 ms
+[28437298] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 10 (2000 steps from id 38375) 3039 ms
+[28440268] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 11 (2000 steps from id 40375) 2970 ms
+[28443825] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 12 (2000 steps from id 42375) 3556 ms
+[28447902] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 13 (701 steps from id 44375) 4077 ms
+[28451646] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 14 (715 steps from id 45076) 3743 ms
+[28454938] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 15 (2000 steps from id 45791) 3292 ms
+[28460259] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 16 (1726 steps from id 47791) 5321 ms
+[28464739] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 17 (973 steps from id 49517) 4480 ms
+[28468524] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 18 (825 steps from id 50490) 3784 ms
+[28472542] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 19 (1220 steps from id 51315) 4018 ms
+[28475068] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement._bvk_1: chunk 20 (786 steps from id 52535) 2526 ms
+[28477411] bv_kdecide [Veir.Data.RISCV.fshl_rol_refinement]: bv_decide 340 ms; 10705 nodes, 31724 clauses, 21596 LRAT steps, 324193 hints, 21 chunks; SAT 3292 ms, data 1120 ms; kernel: base 19658 ms, chunks 90990 ms (max 6020 ms), assembly 659 ms; total 117752 ms; peak RSS: bv_decide 3386 MiB, kernel route 6284 MiB
+[28477841] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: 10705 nodes, CNF 31724 clauses
+[28481817] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: 22533 steps, 300026 hints, 19 chunks, 0 segments; SAT 2928 ms
+[28502045] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: base check 20228 ms
+[28509236] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 0 (541 steps from id 31725) 7191 ms
+[28515640] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 1 (349 steps from id 32266) 6404 ms
+[28521523] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 2 (369 steps from id 32615) 5883 ms
+[28527419] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 3 (337 steps from id 32984) 5896 ms
+[28533086] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 4 (322 steps from id 33321) 5667 ms
+[28539048] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 5 (327 steps from id 33643) 5962 ms
+[28544799] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 6 (2000 steps from id 33970) 5751 ms
+[28547531] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 7 (2000 steps from id 35970) 2732 ms
+[28550489] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 8 (2000 steps from id 37970) 2958 ms
+[28553447] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 9 (2000 steps from id 39970) 2957 ms
+[28555971] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 10 (2000 steps from id 41970) 2523 ms
+[28559998] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 11 (859 steps from id 43970) 4027 ms
+[28563780] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 12 (670 steps from id 44829) 3781 ms
+[28567790] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 13 (2000 steps from id 45499) 4010 ms
+[28573338] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 14 (2000 steps from id 47499) 5548 ms
+[28577551] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 15 (914 steps from id 49499) 4213 ms
+[28581880] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 16 (873 steps from id 50413) 4329 ms
+[28587186] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 17 (2000 steps from id 51286) 5306 ms
+[28591012] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement._bvk_1: chunk 18 (972 steps from id 53286) 3826 ms
+[28593791] bv_kdecide [Veir.Data.RISCV.fshr_ror_refinement]: bv_decide 330 ms; 10705 nodes, 31724 clauses, 22533 LRAT steps, 300026 hints, 19 chunks; SAT 2928 ms, data 1120 ms; kernel: base 20228 ms, chunks 88964 ms (max 7191 ms), assembly 813 ms; total 116358 ms; peak RSS: bv_decide 2981 MiB, kernel route 6486 MiB
+[28594219] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: 10705 nodes, CNF 31724 clauses
+[28598119] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: 22533 steps, 300026 hints, 19 chunks, 0 segments; SAT 2910 ms
+[28618437] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: base check 20318 ms
+[28625365] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 0 (541 steps from id 31725) 6928 ms
+[28631595] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 1 (349 steps from id 32266) 6230 ms
+[28637505] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 2 (369 steps from id 32615) 5910 ms
+[28643365] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 3 (337 steps from id 32984) 5860 ms
+[28649184] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 4 (322 steps from id 33321) 5819 ms
+[28655284] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 5 (327 steps from id 33643) 6100 ms
+[28661211] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 6 (2000 steps from id 33970) 5927 ms
+[28664057] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 7 (2000 steps from id 35970) 2846 ms
+[28667363] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 8 (2000 steps from id 37970) 3306 ms
+[28670579] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 9 (2000 steps from id 39970) 3216 ms
+[28673073] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 10 (2000 steps from id 41970) 2494 ms
+[28677176] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 11 (859 steps from id 43970) 4103 ms
+[28680964] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 12 (670 steps from id 44829) 3788 ms
+[28684934] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 13 (2000 steps from id 45499) 3970 ms
+[28690484] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 14 (2000 steps from id 47499) 5550 ms
+[28694937] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 15 (914 steps from id 49499) 4453 ms
+[28699307] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 16 (873 steps from id 50413) 4370 ms
+[28704515] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 17 (2000 steps from id 51286) 5208 ms
+[28708257] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_rori_refinement._bvk_1: chunk 18 (972 steps from id 53286) 3742 ms
+[28710806] bv_kdecide [Veir.Data.RISCV.fshr_rori_refinement]: bv_decide 332 ms; 10705 nodes, 31724 clauses, 22533 LRAT steps, 300026 hints, 19 chunks; SAT 2910 ms, data 1060 ms; kernel: base 20318 ms, chunks 89820 ms (max 6928 ms), assembly 718 ms; total 116993 ms; peak RSS: bv_decide 3096 MiB, kernel route 6622 MiB
+[28711243] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: 10705 nodes, CNF 31724 clauses
+[28715286] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: 21713 steps, 319978 hints, 20 chunks, 0 segments; SAT 3079 ms
+[28735426] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: base check 20140 ms
+[28741383] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 0 (437 steps from id 31725) 5957 ms
+[28746682] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 1 (322 steps from id 32162) 5299 ms
+[28751992] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 2 (314 steps from id 32484) 5309 ms
+[28757562] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 3 (301 steps from id 32798) 5569 ms
+[28762805] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 4 (301 steps from id 33099) 5243 ms
+[28768352] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 5 (315 steps from id 33400) 5546 ms
+[28773497] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 6 (309 steps from id 33715) 5145 ms
+[28780712] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 7 (2000 steps from id 34024) 7215 ms
+[28783543] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 8 (2000 steps from id 36024) 2830 ms
+[28786619] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 9 (2000 steps from id 38024) 3076 ms
+[28789672] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 10 (2000 steps from id 40024) 3053 ms
+[28792296] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 11 (2000 steps from id 42024) 2624 ms
+[28796415] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 12 (764 steps from id 44024) 4119 ms
+[28800591] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 13 (660 steps from id 44788) 4176 ms
+[28805819] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 14 (2000 steps from id 45448) 5228 ms
+[28811588] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 15 (2000 steps from id 47448) 5769 ms
+[28816693] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 16 (1112 steps from id 49448) 5105 ms
+[28820898] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 17 (908 steps from id 50560) 4205 ms
+[28825478] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 18 (1283 steps from id 51468) 4580 ms
+[28827333] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rori_refinement._bvk_1: chunk 19 (687 steps from id 52751) 1854 ms
+[28830277] bv_kdecide [Veir.Data.RISCV.fshl_rori_refinement]: bv_decide 330 ms; 10705 nodes, 31724 clauses, 21713 LRAT steps, 319978 hints, 20 chunks; SAT 3079 ms, data 1043 ms; kernel: base 20140 ms, chunks 91902 ms (max 7215 ms), assembly 795 ms; total 119448 ms; peak RSS: bv_decide 3214 MiB, kernel route 6703 MiB
+[28830457] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: 3436 nodes, CNF 10109 clauses
+[28831493] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: 3452 steps, 100343 hints, 6 chunks, 0 segments; SAT 761 ms
+[28837185] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: base check 5692 ms
+[28841739] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 0 (481 steps from id 10110) 4554 ms
+[28846266] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 1 (407 steps from id 10591) 4527 ms
+[28850650] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 2 (480 steps from id 10998) 4382 ms
+[28854990] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 3 (743 steps from id 11478) 4340 ms
+[28860019] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 4 (1280 steps from id 12221) 5029 ms
+[28860225] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_roriw_refinement._bvk_1: chunk 5 (61 steps from id 13501) 205 ms
+[28860461] bv_kdecide [Veir.Data.RISCV.fshr_roriw_refinement]: bv_decide 130 ms; 3436 nodes, 10109 clauses, 3452 LRAT steps, 100343 hints, 6 chunks; SAT 761 ms, data 294 ms; kernel: base 5692 ms, chunks 23037 ms (max 5029 ms), assembly 82 ms; total 30160 ms; peak RSS: bv_decide 3378 MiB, kernel route 4353 MiB
+[28860717] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: 3436 nodes, CNF 10109 clauses
+[28861827] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: 3329 steps, 101087 hints, 6 chunks, 0 segments; SAT 829 ms
+[28867467] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: base check 5640 ms
+[28871441] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 0 (448 steps from id 10110) 3973 ms
+[28875467] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 1 (379 steps from id 10558) 4026 ms
+[28879567] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 2 (497 steps from id 10937) 4099 ms
+[28884045] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 3 (668 steps from id 11434) 4478 ms
+[28889202] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 4 (1239 steps from id 12102) 5157 ms
+[28889763] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_roriw_refinement._bvk_1: chunk 5 (98 steps from id 13341) 561 ms
+[28890000] bv_kdecide [Veir.Data.RISCV.fshl_roriw_refinement]: bv_decide 205 ms; 3436 nodes, 10109 clauses, 3329 LRAT steps, 101087 hints, 6 chunks; SAT 829 ms, data 300 ms; kernel: base 5640 ms, chunks 22294 ms (max 5157 ms), assembly 86 ms; total 29514 ms; peak RSS: bv_decide 4109 MiB, kernel route 4377 MiB
+[28890472] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: 10732 nodes, CNF 31610 clauses
+[28894048] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: 23582 steps, 268913 hints, 19 chunks, 0 segments; SAT 2669 ms
+[28914387] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: base check 20339 ms
+[28920208] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 0 (418 steps from id 31611) 5821 ms
+[28925546] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 1 (340 steps from id 32029) 5338 ms
+[28932357] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 2 (419 steps from id 32369) 6810 ms
+[28939029] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 3 (359 steps from id 32788) 6672 ms
+[28944842] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 4 (377 steps from id 33147) 5812 ms
+[28950760] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 5 (369 steps from id 33524) 5918 ms
+[28957550] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 6 (818 steps from id 33893) 6790 ms
+[28960442] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 7 (2000 steps from id 34711) 2892 ms
+[28963404] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 8 (2000 steps from id 36711) 2961 ms
+[28966458] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 9 (2000 steps from id 38711) 3054 ms
+[28969514] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 10 (2000 steps from id 40711) 3056 ms
+[28973686] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 11 (2000 steps from id 42711) 4172 ms
+[28978005] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 12 (803 steps from id 44711) 4318 ms
+[28982834] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 13 (2000 steps from id 45514) 4828 ms
+[28984897] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 14 (2000 steps from id 47514) 2063 ms
+[28990186] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 15 (2000 steps from id 49514) 5289 ms
+[28995551] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 16 (1437 steps from id 51514) 5365 ms
+[29000855] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 17 (2000 steps from id 52951) 5304 ms
+[29001755] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneral_refinement._bvk_1: chunk 18 (242 steps from id 54951) 900 ms
+[29004369] bv_kdecide [Veir.Data.RISCV.fshlGeneral_refinement]: bv_decide 357 ms; 10732 nodes, 31610 clauses, 23582 LRAT steps, 268913 hints, 19 chunks; SAT 2669 ms, data 988 ms; kernel: base 20339 ms, chunks 87363 ms (max 6810 ms), assembly 755 ms; total 114342 ms; peak RSS: bv_decide 4147 MiB, kernel route 6906 MiB
+[29004812] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: 10732 nodes, CNF 31610 clauses
+[29008406] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: 19321 steps, 271401 hints, 18 chunks, 0 segments; SAT 2680 ms
+[29029280] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: base check 20873 ms
+[29035650] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 0 (549 steps from id 31611) 6370 ms
+[29041358] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 1 (425 steps from id 32160) 5708 ms
+[29047354] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 2 (376 steps from id 32585) 5995 ms
+[29053097] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 3 (389 steps from id 32961) 5743 ms
+[29058822] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 4 (389 steps from id 33350) 5724 ms
+[29064077] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 5 (359 steps from id 33739) 5255 ms
+[29069947] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 6 (855 steps from id 34098) 5870 ms
+[29072853] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 7 (2000 steps from id 34953) 2905 ms
+[29075912] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 8 (2000 steps from id 36953) 3058 ms
+[29078990] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 9 (2000 steps from id 38953) 3078 ms
+[29082296] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 10 (2000 steps from id 40953) 3306 ms
+[29086707] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 11 (837 steps from id 42953) 4411 ms
+[29091184] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 12 (803 steps from id 43790) 4477 ms
+[29093988] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 13 (2000 steps from id 44593) 2803 ms
+[29099302] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 14 (1616 steps from id 46593) 5314 ms
+[29103780] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 15 (1150 steps from id 48209) 4478 ms
+[29107812] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 16 (1044 steps from id 49359) 4032 ms
+[29109686] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneral_refinement._bvk_1: chunk 17 (529 steps from id 50403) 1874 ms
+[29112175] bv_kdecide [Veir.Data.RISCV.fshrGeneral_refinement]: bv_decide 337 ms; 10732 nodes, 31610 clauses, 19321 LRAT steps, 271401 hints, 18 chunks; SAT 2680 ms, data 987 ms; kernel: base 20874 ms, chunks 80401 ms (max 6370 ms), assembly 642 ms; total 107779 ms; peak RSS: bv_decide 3578 MiB, kernel route 7095 MiB
+[29112375] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: 5305 nodes, CNF 15425 clauses
+[29113377] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: 3164 steps, 85991 hints, 5 chunks, 0 segments; SAT 737 ms
+[29121058] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: base check 7681 ms
+[29125566] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: chunk 0 (542 steps from id 15426) 4508 ms
+[29129957] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: chunk 1 (438 steps from id 15968) 4391 ms
+[29134524] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: chunk 2 (607 steps from id 16406) 4567 ms
+[29139622] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: chunk 3 (1169 steps from id 17013) 5098 ms
+[29141444] _private.RealK.ISelA.0.Veir.Data.RISCV.fshlGeneralw_refinement._bvk_1: chunk 4 (408 steps from id 18182) 1821 ms
+[29141696] bv_kdecide [Veir.Data.RISCV.fshlGeneralw_refinement]: bv_decide 137 ms; 5305 nodes, 15425 clauses, 3164 LRAT steps, 85991 hints, 5 chunks; SAT 737 ms, data 290 ms; kernel: base 7681 ms, chunks 20385 ms (max 5098 ms), assembly 76 ms; total 29492 ms; peak RSS: bv_decide 3704 MiB, kernel route 5063 MiB
+[29141978] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: 5308 nodes, CNF 15434 clauses
+[29143157] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: 3306 steps, 86164 hints, 5 chunks, 0 segments; SAT 921 ms
+[29150991] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: base check 7834 ms
+[29154939] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: chunk 0 (496 steps from id 15435) 3947 ms
+[29159198] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: chunk 1 (477 steps from id 15931) 4259 ms
+[29163745] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: chunk 2 (634 steps from id 16408) 4547 ms
+[29168152] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: chunk 3 (962 steps from id 17042) 4406 ms
+[29170206] _private.RealK.ISelA.0.Veir.Data.RISCV.fshrGeneralw_refinement._bvk_1: chunk 4 (737 steps from id 18004) 2054 ms
+[29170427] bv_kdecide [Veir.Data.RISCV.fshrGeneralw_refinement]: bv_decide 213 ms; 5308 nodes, 15434 clauses, 3306 LRAT steps, 86164 hints, 5 chunks; SAT 921 ms, data 284 ms; kernel: base 7834 ms, chunks 19213 ms (max 4547 ms), assembly 75 ms; total 28697 ms; peak RSS: bv_decide 3799 MiB, kernel route 5115 MiB
+[29170468] bv_kdecide [Veir.Data.RISCV.fold_sll_li_to_slli_sound]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 4066 MiB, kernel route 4066 MiB
+[29170479] bv_kdecide [Veir.Data.RISCV.fold_srl_li_to_srli_sound]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 4066 MiB, kernel route 4066 MiB
+[29170490] bv_kdecide [Veir.Data.RISCV.fold_sra_li_to_srai_sound]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 4066 MiB, kernel route 4066 MiB
+[29170624] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._bvk_1: 1252 nodes, CNF 3179 clauses
+[29170864] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._bvk_1: 538 steps, 13307 hints, 1 chunks, 0 segments; SAT 199 ms
+[29172142] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._bvk_1: base check 1278 ms
+[29174774] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._bvk_1: chunk 0 (538 steps from id 3180) 2632 ms
+[29174921] bv_kdecide [Veir.Data.RISCV.fold_addw_li_to_addiw_sound]: bv_decide 120 ms; 1252 nodes, 3179 clauses, 538 LRAT steps, 13307 hints, 1 chunks; SAT 199 ms, data 45 ms; kernel: base 1278 ms, chunks 2632 ms (max 2632 ms), assembly 10 ms; total 4426 ms; peak RSS: bv_decide 4066 MiB, kernel route 4157 MiB
+[29175065] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: 3029 nodes, CNF 8687 clauses
+[29175660] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: 1499 steps, 56868 hints, 3 chunks, 0 segments; SAT 467 ms
+[29178952] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: base check 3292 ms
+[29182405] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: chunk 0 (533 steps from id 8688) 3453 ms
+[29185627] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: chunk 1 (469 steps from id 9221) 3221 ms
+[29188420] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._bvk_1: chunk 2 (497 steps from id 9690) 2793 ms
+[29188533] bv_kdecide [Veir.Data.RISCV.fold_sllw_li_to_slliw_sound]: bv_decide 120 ms; 3029 nodes, 8687 clauses, 1499 LRAT steps, 56868 hints, 3 chunks; SAT 467 ms, data 137 ms; kernel: base 3292 ms, chunks 9467 ms (max 3453 ms), assembly 34 ms; total 13601 ms; peak RSS: bv_decide 4157 MiB, kernel route 4374 MiB
+[29188678] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: 3029 nodes, CNF 8687 clauses
+[29189204] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: 1910 steps, 45422 hints, 3 chunks, 0 segments; SAT 409 ms
+[29192437] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: base check 3233 ms
+[29195640] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: chunk 0 (412 steps from id 8688) 3202 ms
+[29199781] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: chunk 1 (1104 steps from id 9100) 4141 ms
+[29201293] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._bvk_1: chunk 2 (394 steps from id 10204) 1512 ms
+[29201409] bv_kdecide [Veir.Data.RISCV.fold_srlw_li_to_srliw_sound]: bv_decide 122 ms; 3029 nodes, 8687 clauses, 1910 LRAT steps, 45422 hints, 3 chunks; SAT 409 ms, data 126 ms; kernel: base 3233 ms, chunks 8855 ms (max 4141 ms), assembly 45 ms; total 12866 ms; peak RSS: bv_decide 4190 MiB, kernel route 4415 MiB
+[29201428] bv_kdecide [Veir.Data.RISCV.fold_sraw_li_to_sraiw_sound]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 4017 MiB, kernel route 4017 MiB
+[29201446] bv_kdecide [Veir.Data.RISCV.fold_rorw_li_to_roriw_sound]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 4017 MiB, kernel route 4017 MiB
+[29201458] bv_kdecide [Veir.Data.RISCV.fold_or_singlebit_to_bseti_sound]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 4017 MiB, kernel route 4017 MiB
+[29201467] bv_kdecide [Veir.Data.RISCV.fold_xor_singlebit_to_binvi_sound]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 4017 MiB, kernel route 4017 MiB
+[29201476] bv_kdecide [Veir.Data.RISCV.fold_and_clearbit_to_bclri_sound]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 4017 MiB, kernel route 4017 MiB
+[29201610] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_bexti_sound._bvk_1: 1607 nodes, CNF 4607 clauses
+[29201868] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_bexti_sound._bvk_1: 298 steps, 17003 hints, 1 chunks, 0 segments; SAT 212 ms
+[29203708] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_bexti_sound._bvk_1: base check 1840 ms
+[29205761] _private.RealK.ISelA.0.Veir.Data.RISCV.fold_bexti_sound._bvk_1: chunk 0 (298 steps from id 4608) 2052 ms
+[29205799] bv_kdecide [Veir.Data.RISCV.fold_bexti_sound]: bv_decide 119 ms; 1607 nodes, 4607 clauses, 298 LRAT steps, 17003 hints, 1 chunks; SAT 212 ms, data 52 ms; kernel: base 1841 ms, chunks 2052 ms (max 2052 ms), assembly 7 ms; total 4318 ms; peak RSS: bv_decide 4017 MiB, kernel route 4135 MiB
+[29205830] bv_kdecide [Veir.Data.RISCV.fold_slliuw_sound]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 3823 MiB, kernel route 3823 MiB
+[29206065] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: 3801 nodes, CNF 11204 clauses
+[29207348] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: 5040 steps, 147488 hints, 8 chunks, 0 segments; SAT 993 ms
+[29211572] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: base check 4224 ms
+[29217568] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 0 (1125 steps from id 11205) 5995 ms
+[29221865] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 1 (63 steps from id 12330) 4297 ms
+[29227766] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 2 (1801 steps from id 12393) 5901 ms
+[29231904] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 3 (174 steps from id 14194) 4138 ms
+[29236794] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 4 (224 steps from id 14368) 4890 ms
+[29240888] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 5 (238 steps from id 14592) 4094 ms
+[29245852] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 6 (470 steps from id 14830) 4964 ms
+[29248818] _private.RealK.ISelA.0.Veir.Data.RISCV.ashr_refinement_32._bvk_1: chunk 7 (945 steps from id 15300) 2966 ms
+[29249141] bv_kdecide [Veir.Data.RISCV.ashr_refinement_32]: bv_decide 185 ms; 3801 nodes, 11204 clauses, 5040 LRAT steps, 147488 hints, 8 chunks; SAT 993 ms, data 308 ms; kernel: base 4224 ms, chunks 37245 ms (max 5995 ms), assembly 135 ms; total 43286 ms; peak RSS: bv_decide 3823 MiB, kernel route 4769 MiB
+[29249172] bv_kdecide [Veir.Data.RISCV.mul_refinement_32]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 9 ms; peak RSS: bv_decide 4304 MiB, kernel route 4304 MiB
+[29249219] bv_kdecide [Veir.Data.RISCV.sdiv_refinement_32]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 4304 MiB, kernel route 4304 MiB
+[29249259] bv_kdecide [Veir.Data.RISCV.udiv_refinement_32]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 4304 MiB, kernel route 4304 MiB
+[29249288] bv_kdecide [Veir.Data.RISCV.udivwPow2_refinement]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 4304 MiB, kernel route 4304 MiB
+[29273376] bv_kdecide [Veir.Data.RISCV.srem_refinement_32]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273405] bv_kdecide [Veir.Data.RISCV.urem_refinement_32]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273427] bv_kdecide [Veir.Data.RISCV.ctlz_refinement_32]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273448] bv_kdecide [Veir.Data.RISCV.cttz_refinement_32]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273466] bv_kdecide [Veir.Data.RISCV.ctpop_refinement_32]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273492] bv_kdecide [Veir.Data.RISCV.bswap_refinement_32]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 4110 MiB, kernel route 4110 MiB
+[29273647] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement_32._bvk_1: 34 nodes, CNF 2 clauses
+[29273745] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement_32._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 101 ms
+[29273933] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement_32._bvk_1: base check 188 ms
+[29273934] _private.RealK.ISelA.0.Veir.Data.RISCV.bitreverse_refinement_32._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[29273942] bv_kdecide [Veir.Data.RISCV.bitreverse_refinement_32]: bv_decide 121 ms; 34 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 101 ms, data 1 ms; kernel: base 188 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 430 ms; peak RSS: bv_decide 4110 MiB, kernel route 4114 MiB
+[29274100] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_32._bvk_1: 1042 nodes, CNF 2729 clauses
+[29274253] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_32._bvk_1: 380 steps, 1899 hints, 1 chunks, 0 segments; SAT 133 ms
+[29275332] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_32._bvk_1: base check 1079 ms
+[29276082] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_32._bvk_1: chunk 0 (380 steps from id 2730) 750 ms
+[29276103] bv_kdecide [Veir.Data.RISCV.icmp_refinement_eq_32]: bv_decide 121 ms; 1042 nodes, 2729 clauses, 380 LRAT steps, 1899 hints, 1 chunks; SAT 133 ms, data 23 ms; kernel: base 1079 ms, chunks 750 ms (max 750 ms), assembly 9 ms; total 2134 ms; peak RSS: bv_decide 4114 MiB, kernel route 4199 MiB
+[29276260] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_32._bvk_1: 1042 nodes, CNF 2729 clauses
+[29276418] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_32._bvk_1: 380 steps, 1960 hints, 1 chunks, 0 segments; SAT 138 ms
+[29277485] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_32._bvk_1: base check 1067 ms
+[29278310] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_32._bvk_1: chunk 0 (380 steps from id 2730) 825 ms
+[29278332] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ne_32]: bv_decide 122 ms; 1042 nodes, 2729 clauses, 380 LRAT steps, 1960 hints, 1 chunks; SAT 138 ms, data 22 ms; kernel: base 1068 ms, chunks 825 ms (max 825 ms), assembly 8 ms; total 2204 ms; peak RSS: bv_decide 4199 MiB, kernel route 4201 MiB
+[29278492] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_32._bvk_1: 1450 nodes, CNF 3953 clauses
+[29278670] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_32._bvk_1: 337 steps, 4555 hints, 1 chunks, 0 segments; SAT 150 ms
+[29280155] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_32._bvk_1: base check 1485 ms
+[29281645] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_32._bvk_1: chunk 0 (337 steps from id 3954) 1490 ms
+[29281672] bv_kdecide [Veir.Data.RISCV.icmp_refinement_slt_32]: bv_decide 124 ms; 1450 nodes, 3953 clauses, 337 LRAT steps, 4555 hints, 1 chunks; SAT 150 ms, data 32 ms; kernel: base 1485 ms, chunks 1490 ms (max 1490 ms), assembly 7 ms; total 3316 ms; peak RSS: bv_decide 4199 MiB, kernel route 4281 MiB
+[29281835] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_32._bvk_1: 1450 nodes, CNF 3953 clauses
+[29282017] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_32._bvk_1: 497 steps, 3489 hints, 1 chunks, 0 segments; SAT 154 ms
+[29283496] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_32._bvk_1: base check 1479 ms
+[29284850] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_32._bvk_1: chunk 0 (497 steps from id 3954) 1354 ms
+[29284879] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sle_32]: bv_decide 125 ms; 1450 nodes, 3953 clauses, 497 LRAT steps, 3489 hints, 1 chunks; SAT 154 ms, data 32 ms; kernel: base 1479 ms, chunks 1354 ms (max 1354 ms), assembly 11 ms; total 3182 ms; peak RSS: bv_decide 4247 MiB, kernel route 4284 MiB
+[29285039] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_32._bvk_1: 1450 nodes, CNF 3953 clauses
+[29285222] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_32._bvk_1: 337 steps, 4555 hints, 1 chunks, 0 segments; SAT 156 ms
+[29286653] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_32._bvk_1: base check 1431 ms
+[29288152] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_32._bvk_1: chunk 0 (337 steps from id 3954) 1499 ms
+[29288179] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sgt_32]: bv_decide 123 ms; 1450 nodes, 3953 clauses, 337 LRAT steps, 4555 hints, 1 chunks; SAT 156 ms, data 31 ms; kernel: base 1431 ms, chunks 1499 ms (max 1499 ms), assembly 8 ms; total 3276 ms; peak RSS: bv_decide 4230 MiB, kernel route 4288 MiB
+[29288341] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_32._bvk_1: 1450 nodes, CNF 3953 clauses
+[29288523] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_32._bvk_1: 497 steps, 3489 hints, 1 chunks, 0 segments; SAT 153 ms
+[29289973] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_32._bvk_1: base check 1450 ms
+[29291340] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_32._bvk_1: chunk 0 (497 steps from id 3954) 1367 ms
+[29291368] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sge_32]: bv_decide 125 ms; 1450 nodes, 3953 clauses, 497 LRAT steps, 3489 hints, 1 chunks; SAT 153 ms, data 32 ms; kernel: base 1450 ms, chunks 1367 ms (max 1367 ms), assembly 10 ms; total 3164 ms; peak RSS: bv_decide 4255 MiB, kernel route 4292 MiB
+[29291527] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_32._bvk_1: 1426 nodes, CNF 3881 clauses
+[29291760] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_32._bvk_1: 481 steps, 12560 hints, 1 chunks, 0 segments; SAT 195 ms
+[29293143] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_32._bvk_1: base check 1383 ms
+[29295548] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_32._bvk_1: chunk 0 (481 steps from id 3882) 2405 ms
+[29295587] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ult_32]: bv_decide 124 ms; 1426 nodes, 3881 clauses, 481 LRAT steps, 12560 hints, 1 chunks; SAT 195 ms, data 42 ms; kernel: base 1383 ms, chunks 2405 ms (max 2405 ms), assembly 11 ms; total 4194 ms; peak RSS: bv_decide 4237 MiB, kernel route 4395 MiB
+[29295747] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_32._bvk_1: 1426 nodes, CNF 3881 clauses
+[29295982] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_32._bvk_1: 440 steps, 12265 hints, 1 chunks, 0 segments; SAT 196 ms
+[29297417] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_32._bvk_1: base check 1435 ms
+[29299826] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_32._bvk_1: chunk 0 (440 steps from id 3882) 2409 ms
+[29299866] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ule_32]: bv_decide 126 ms; 1426 nodes, 3881 clauses, 440 LRAT steps, 12265 hints, 1 chunks; SAT 196 ms, data 43 ms; kernel: base 1435 ms, chunks 2409 ms (max 2409 ms), assembly 10 ms; total 4254 ms; peak RSS: bv_decide 4393 MiB, kernel route 4391 MiB
+[29300090] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_32._bvk_1: 1426 nodes, CNF 3881 clauses
+[29300361] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_32._bvk_1: 481 steps, 12560 hints, 1 chunks, 0 segments; SAT 228 ms
+[29301784] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_32._bvk_1: base check 1423 ms
+[29304111] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_32._bvk_1: chunk 0 (481 steps from id 3882) 2327 ms
+[29304151] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ugt_32]: bv_decide 191 ms; 1426 nodes, 3881 clauses, 481 LRAT steps, 12560 hints, 1 chunks; SAT 228 ms, data 46 ms; kernel: base 1423 ms, chunks 2327 ms (max 2327 ms), assembly 12 ms; total 4262 ms; peak RSS: bv_decide 4389 MiB, kernel route 4407 MiB
+[29304375] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_32._bvk_1: 1426 nodes, CNF 3881 clauses
+[29304604] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_32._bvk_1: 440 steps, 12265 hints, 1 chunks, 0 segments; SAT 194 ms
+[29306033] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_32._bvk_1: base check 1429 ms
+[29308440] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_32._bvk_1: chunk 0 (440 steps from id 3882) 2407 ms
+[29308477] bv_kdecide [Veir.Data.RISCV.icmp_refinement_uge_32]: bv_decide 190 ms; 1426 nodes, 3881 clauses, 440 LRAT steps, 12265 hints, 1 chunks; SAT 194 ms, data 39 ms; kernel: base 1429 ms, chunks 2407 ms (max 2407 ms), assembly 9 ms; total 4303 ms; peak RSS: bv_decide 4405 MiB, kernel route 4404 MiB
+[29308637] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_8._bvk_1: 946 nodes, CNF 2441 clauses
+[29308779] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_8._bvk_1: 116 steps, 1299 hints, 1 chunks, 0 segments; SAT 129 ms
+[29309691] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_8._bvk_1: base check 912 ms
+[29310179] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_eq_8._bvk_1: chunk 0 (116 steps from id 2442) 488 ms
+[29310194] bv_kdecide [Veir.Data.RISCV.icmp_refinement_eq_8]: bv_decide 126 ms; 946 nodes, 2441 clauses, 116 LRAT steps, 1299 hints, 1 chunks; SAT 129 ms, data 16 ms; kernel: base 912 ms, chunks 488 ms (max 488 ms), assembly 3 ms; total 1692 ms; peak RSS: bv_decide 4401 MiB, kernel route 4399 MiB
+[29310351] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_8._bvk_1: 946 nodes, CNF 2441 clauses
+[29310491] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_8._bvk_1: 116 steps, 1408 hints, 1 chunks, 0 segments; SAT 127 ms
+[29311425] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_8._bvk_1: base check 933 ms
+[29312009] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ne_8._bvk_1: chunk 0 (116 steps from id 2442) 584 ms
+[29312025] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ne_8]: bv_decide 124 ms; 946 nodes, 2441 clauses, 116 LRAT steps, 1408 hints, 1 chunks; SAT 127 ms, data 16 ms; kernel: base 934 ms, chunks 584 ms (max 584 ms), assembly 3 ms; total 1808 ms; peak RSS: bv_decide 4222 MiB, kernel route 4222 MiB
+[29312183] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_8._bvk_1: 1258 nodes, CNF 3377 clauses
+[29312353] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_8._bvk_1: 218 steps, 4315 hints, 1 chunks, 0 segments; SAT 147 ms
+[29313653] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_8._bvk_1: base check 1300 ms
+[29314785] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_slt_8._bvk_1: chunk 0 (218 steps from id 3378) 1131 ms
+[29314806] bv_kdecide [Veir.Data.RISCV.icmp_refinement_slt_8]: bv_decide 122 ms; 1258 nodes, 3377 clauses, 218 LRAT steps, 4315 hints, 1 chunks; SAT 147 ms, data 26 ms; kernel: base 1301 ms, chunks 1131 ms (max 1131 ms), assembly 5 ms; total 2758 ms; peak RSS: bv_decide 4137 MiB, kernel route 4290 MiB
+[29314969] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_8._bvk_1: 1258 nodes, CNF 3377 clauses
+[29315129] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_8._bvk_1: 133 steps, 2650 hints, 1 chunks, 0 segments; SAT 140 ms
+[29316438] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_8._bvk_1: base check 1309 ms
+[29317243] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sle_8._bvk_1: chunk 0 (133 steps from id 3378) 805 ms
+[29317261] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sle_8]: bv_decide 124 ms; 1258 nodes, 3377 clauses, 133 LRAT steps, 2650 hints, 1 chunks; SAT 140 ms, data 23 ms; kernel: base 1309 ms, chunks 805 ms (max 805 ms), assembly 3 ms; total 2429 ms; peak RSS: bv_decide 4234 MiB, kernel route 4294 MiB
+[29317423] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_8._bvk_1: 1258 nodes, CNF 3377 clauses
+[29317596] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_8._bvk_1: 218 steps, 4315 hints, 1 chunks, 0 segments; SAT 150 ms
+[29318847] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_8._bvk_1: base check 1251 ms
+[29319903] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sgt_8._bvk_1: chunk 0 (218 steps from id 3378) 1056 ms
+[29319923] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sgt_8]: bv_decide 123 ms; 1258 nodes, 3377 clauses, 218 LRAT steps, 4315 hints, 1 chunks; SAT 150 ms, data 26 ms; kernel: base 1251 ms, chunks 1056 ms (max 1056 ms), assembly 5 ms; total 2636 ms; peak RSS: bv_decide 4186 MiB, kernel route 4297 MiB
+[29320084] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_8._bvk_1: 1258 nodes, CNF 3377 clauses
+[29320243] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_8._bvk_1: 133 steps, 2650 hints, 1 chunks, 0 segments; SAT 138 ms
+[29321476] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_8._bvk_1: base check 1233 ms
+[29322195] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_sge_8._bvk_1: chunk 0 (133 steps from id 3378) 719 ms
+[29322212] bv_kdecide [Veir.Data.RISCV.icmp_refinement_sge_8]: bv_decide 124 ms; 1258 nodes, 3377 clauses, 133 LRAT steps, 2650 hints, 1 chunks; SAT 138 ms, data 24 ms; kernel: base 1233 ms, chunks 719 ms (max 719 ms), assembly 3 ms; total 2265 ms; peak RSS: bv_decide 4240 MiB, kernel route 4300 MiB
+[29322370] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_8._bvk_1: 1234 nodes, CNF 3305 clauses
+[29322573] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_8._bvk_1: 311 steps, 10219 hints, 1 chunks, 0 segments; SAT 174 ms
+[29323771] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_8._bvk_1: base check 1198 ms
+[29325310] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ult_8._bvk_1: chunk 0 (311 steps from id 3306) 1539 ms
+[29325339] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ult_8]: bv_decide 123 ms; 1234 nodes, 3305 clauses, 311 LRAT steps, 10219 hints, 1 chunks; SAT 174 ms, data 32 ms; kernel: base 1198 ms, chunks 1539 ms (max 1539 ms), assembly 7 ms; total 3101 ms; peak RSS: bv_decide 4192 MiB, kernel route 4314 MiB
+[29325498] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_8._bvk_1: 1234 nodes, CNF 3305 clauses
+[29325659] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_8._bvk_1: 125 steps, 2559 hints, 1 chunks, 0 segments; SAT 142 ms
+[29326808] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_8._bvk_1: base check 1149 ms
+[29327498] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ule_8._bvk_1: chunk 0 (125 steps from id 3306) 690 ms
+[29327514] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ule_8]: bv_decide 125 ms; 1234 nodes, 3305 clauses, 125 LRAT steps, 2559 hints, 1 chunks; SAT 142 ms, data 23 ms; kernel: base 1149 ms, chunks 690 ms (max 690 ms), assembly 3 ms; total 2152 ms; peak RSS: bv_decide 4314 MiB, kernel route 4314 MiB
+[29327671] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_8._bvk_1: 1234 nodes, CNF 3305 clauses
+[29327898] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_8._bvk_1: 311 steps, 10219 hints, 1 chunks, 0 segments; SAT 197 ms
+[29329072] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_8._bvk_1: base check 1173 ms
+[29330514] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_ugt_8._bvk_1: chunk 0 (311 steps from id 3306) 1442 ms
+[29330543] bv_kdecide [Veir.Data.RISCV.icmp_refinement_ugt_8]: bv_decide 124 ms; 1234 nodes, 3305 clauses, 311 LRAT steps, 10219 hints, 1 chunks; SAT 197 ms, data 33 ms; kernel: base 1174 ms, chunks 1442 ms (max 1442 ms), assembly 7 ms; total 3005 ms; peak RSS: bv_decide 4195 MiB, kernel route 4323 MiB
+[29330765] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_8._bvk_1: 1234 nodes, CNF 3305 clauses
+[29330949] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_8._bvk_1: 125 steps, 2559 hints, 1 chunks, 0 segments; SAT 163 ms
+[29332166] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_8._bvk_1: base check 1217 ms
+[29332859] _private.RealK.ISelA.0.Veir.Data.RISCV.icmp_refinement_uge_8._bvk_1: chunk 0 (125 steps from id 3306) 693 ms
+[29332876] bv_kdecide [Veir.Data.RISCV.icmp_refinement_uge_8]: bv_decide 189 ms; 1234 nodes, 3305 clauses, 125 LRAT steps, 2559 hints, 1 chunks; SAT 163 ms, data 24 ms; kernel: base 1217 ms, chunks 693 ms (max 693 ms), assembly 3 ms; total 2311 ms; peak RSS: bv_decide 4321 MiB, kernel route 4324 MiB
+[29333109] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement_32._bvk_1: 2432 nodes, CNF 6617 clauses
+[29333501] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement_32._bvk_1: 1128 steps, 21645 hints, 2 chunks, 0 segments; SAT 309 ms
+[29335901] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement_32._bvk_1: base check 2400 ms
+[29340596] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement_32._bvk_1: chunk 0 (1096 steps from id 6618) 4695 ms
+[29340949] _private.RealK.ISelA.0.Veir.Data.RISCV.smax_refinement_32._bvk_1: chunk 1 (32 steps from id 7714) 353 ms
+[29341017] bv_kdecide [Veir.Data.RISCV.smax_refinement_32]: bv_decide 190 ms; 2432 nodes, 6617 clauses, 1128 LRAT steps, 21645 hints, 2 chunks; SAT 309 ms, data 87 ms; kernel: base 2400 ms, chunks 5048 ms (max 4695 ms), assembly 21 ms; total 8111 ms; peak RSS: bv_decide 4202 MiB, kernel route 4834 MiB
+[29341268] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement_32._bvk_1: 2432 nodes, CNF 6617 clauses
+[29341708] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement_32._bvk_1: 1605 steps, 23235 hints, 2 chunks, 0 segments; SAT 359 ms
+[29344126] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement_32._bvk_1: base check 2418 ms
+[29348477] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement_32._bvk_1: chunk 0 (1060 steps from id 6618) 4351 ms
+[29349374] _private.RealK.ISelA.0.Veir.Data.RISCV.smin_refinement_32._bvk_1: chunk 1 (545 steps from id 7678) 897 ms
+[29349455] bv_kdecide [Veir.Data.RISCV.smin_refinement_32]: bv_decide 205 ms; 2432 nodes, 6617 clauses, 1605 LRAT steps, 23235 hints, 2 chunks; SAT 359 ms, data 88 ms; kernel: base 2418 ms, chunks 5248 ms (max 4351 ms), assembly 34 ms; total 8407 ms; peak RSS: bv_decide 4827 MiB, kernel route 4826 MiB
+[29349637] _private.RealK.ISelA.0.Veir.Data.RISCV.umax_refinement_32._bvk_1: 1636 nodes, CNF 4421 clauses
+[29349890] _private.RealK.ISelA.0.Veir.Data.RISCV.umax_refinement_32._bvk_1: 867 steps, 11736 hints, 1 chunks, 0 segments; SAT 210 ms
+[29351445] _private.RealK.ISelA.0.Veir.Data.RISCV.umax_refinement_32._bvk_1: base check 1555 ms
+[29354321] _private.RealK.ISelA.0.Veir.Data.RISCV.umax_refinement_32._bvk_1: chunk 0 (867 steps from id 4422) 2876 ms
+[29354370] bv_kdecide [Veir.Data.RISCV.umax_refinement_32]: bv_decide 119 ms; 1636 nodes, 4421 clauses, 867 LRAT steps, 11736 hints, 1 chunks; SAT 210 ms, data 48 ms; kernel: base 1555 ms, chunks 2876 ms (max 2876 ms), assembly 20 ms; total 4862 ms; peak RSS: bv_decide 4081 MiB, kernel route 4573 MiB
+[29354535] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement_32._bvk_1: 1636 nodes, CNF 4421 clauses
+[29354808] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement_32._bvk_1: 1110 steps, 12366 hints, 1 chunks, 0 segments; SAT 229 ms
+[29356382] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement_32._bvk_1: base check 1574 ms
+[29359407] _private.RealK.ISelA.0.Veir.Data.RISCV.umin_refinement_32._bvk_1: chunk 0 (1110 steps from id 4422) 3025 ms
+[29359459] bv_kdecide [Veir.Data.RISCV.umin_refinement_32]: bv_decide 130 ms; 1636 nodes, 4421 clauses, 1110 LRAT steps, 12366 hints, 1 chunks; SAT 229 ms, data 49 ms; kernel: base 1574 ms, chunks 3025 ms (max 3025 ms), assembly 25 ms; total 5064 ms; peak RSS: bv_decide 4573 MiB, kernel route 4617 MiB
+[29359716] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: 3436 nodes, CNF 10109 clauses
+[29360760] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: 2729 steps, 110636 hints, 6 chunks, 0 segments; SAT 829 ms
+[29366157] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: base check 5396 ms
+[29370175] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 0 (476 steps from id 10110) 4018 ms
+[29374402] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 1 (394 steps from id 10586) 4227 ms
+[29378026] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 2 (371 steps from id 10980) 3624 ms
+[29381987] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 3 (457 steps from id 11351) 3961 ms
+[29386077] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 4 (424 steps from id 11808) 4090 ms
+[29388711] _private.RealK.ISelA.0.Veir.Data.RISCV.fshl_rol_refinement_32._bvk_1: chunk 5 (607 steps from id 12232) 2634 ms
+[29388913] bv_kdecide [Veir.Data.RISCV.fshl_rol_refinement_32]: bv_decide 210 ms; 3436 nodes, 10109 clauses, 2729 LRAT steps, 110636 hints, 6 chunks; SAT 829 ms, data 233 ms; kernel: base 5397 ms, chunks 22554 ms (max 4227 ms), assembly 60 ms; total 29431 ms; peak RSS: bv_decide 4613 MiB, kernel route 5135 MiB
+[29389172] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: 3436 nodes, CNF 10109 clauses
+[29390228] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: 3452 steps, 100343 hints, 6 chunks, 0 segments; SAT 814 ms
+[29395694] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: base check 5466 ms
+[29400035] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 0 (481 steps from id 10110) 4341 ms
+[29404581] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 1 (407 steps from id 10591) 4546 ms
+[29408963] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 2 (480 steps from id 10998) 4382 ms
+[29413284] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 3 (743 steps from id 11478) 4321 ms
+[29418307] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 4 (1280 steps from id 12221) 4999 ms
+[29418499] _private.RealK.ISelA.0.Veir.Data.RISCV.fshr_ror_refinement_32._bvk_1: chunk 5 (61 steps from id 13501) 192 ms
+[29418730] bv_kdecide [Veir.Data.RISCV.fshr_ror_refinement_32]: bv_decide 210 ms; 3436 nodes, 10109 clauses, 3452 LRAT steps, 100343 hints, 6 chunks; SAT 814 ms, data 261 ms; kernel: base 5466 ms, chunks 22781 ms (max 4999 ms), assembly 82 ms; total 29793 ms; peak RSS: bv_decide 4573 MiB, kernel route 5188 MiB
+[29418899] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._bvk_1: 556 nodes, CNF 1370 clauses
+[29419065] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._bvk_1: 242 steps, 4442 hints, 1 chunks, 0 segments; SAT 152 ms
+[29419658] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._bvk_1: base check 592 ms
+[29420327] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._bvk_1: chunk 0 (242 steps from id 1371) 669 ms
+[29420344] bv_kdecide [Veir.Data.RISCV.select_czeroeqz_refinement_32]: bv_decide 132 ms; 556 nodes, 1370 clauses, 242 LRAT steps, 4442 hints, 1 chunks; SAT 152 ms, data 16 ms; kernel: base 593 ms, chunks 669 ms (max 669 ms), assembly 5 ms; total 1585 ms; peak RSS: bv_decide 4943 MiB, kernel route 4943 MiB
+[29420506] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement_32._bvk_1: 556 nodes, CNF 1370 clauses
+[29420654] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement_32._bvk_1: 242 steps, 4442 hints, 1 chunks, 0 segments; SAT 134 ms
+[29421186] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement_32._bvk_1: base check 532 ms
+[29421874] _private.RealK.ISelA.0.Veir.Data.RISCV.select_czeronez_refinement_32._bvk_1: chunk 0 (242 steps from id 1371) 688 ms
+[29421892] bv_kdecide [Veir.Data.RISCV.select_czeronez_refinement_32]: bv_decide 122 ms; 556 nodes, 1370 clauses, 242 LRAT steps, 4442 hints, 1 chunks; SAT 134 ms, data 16 ms; kernel: base 532 ms, chunks 688 ms (max 688 ms), assembly 5 ms; total 1516 ms; peak RSS: bv_decide 4302 MiB, kernel route 4324 MiB
+[29422066] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_32._bvk_1: 1139 nodes, CNF 2732 clauses
+[29422234] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_32._bvk_1: 564 steps, 2871 hints, 1 chunks, 0 segments; SAT 146 ms
+[29423424] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_32._bvk_1: base check 1190 ms
+[29424538] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_32._bvk_1: chunk 0 (564 steps from id 2733) 1113 ms
+[29424565] bv_kdecide [Veir.Data.RISCV.select_refinement_32]: bv_decide 126 ms; 1139 nodes, 2732 clauses, 564 LRAT steps, 2871 hints, 1 chunks; SAT 146 ms, data 27 ms; kernel: base 1190 ms, chunks 1113 ms (max 1113 ms), assembly 13 ms; total 2637 ms; peak RSS: bv_decide 4306 MiB, kernel route 4428 MiB
+[29424738] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_1._bvk_1: 488 nodes, CNF 1058 clauses
+[29424853] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_1._bvk_1: 34 steps, 118 hints, 1 chunks, 0 segments; SAT 112 ms
+[29425390] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_1._bvk_1: base check 537 ms
+[29425419] _private.RealK.ISelA.0.Veir.Data.RISCV.select_refinement_1._bvk_1: chunk 0 (34 steps from id 1059) 29 ms
+[29425428] bv_kdecide [Veir.Data.RISCV.select_refinement_1]: bv_decide 125 ms; 488 nodes, 1058 clauses, 34 LRAT steps, 118 hints, 1 chunks; SAT 112 ms, data 6 ms; kernel: base 537 ms, chunks 29 ms (max 29 ms), assembly 1 ms; total 823 ms; peak RSS: bv_decide 4378 MiB, kernel route 4379 MiB
+[29425454] bv_kdecide [Veir.Data.RISCV.freeze_refinement_32]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 4379 MiB, kernel route 4379 MiB

@@ -1,0 +1,12 @@
+project	SAW connective constant v5 (saw38a)
+source	supp 10.5281/zenodo.23599812 (connective-constant-bound-v5 @117029916eaf)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	not run
+native_facts	169 (k28f) + 3 controls
+converted	not run
+nt_cpu_h	0
+nt_wall_min	0
+native_build_cpu_h	about 333 (180 checking steps, about 1.2e6 CPU-s), after compiling 11,497 data files into five shared libraries
+hand_track	none
+hand_build_cpu_h	-
+checks	none (see summary.md)

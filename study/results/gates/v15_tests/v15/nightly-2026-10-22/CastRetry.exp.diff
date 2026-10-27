@@ -1,0 +1,16 @@
+5c5
+< CastRetryTest.fact1: castRetry=false failed; castRetry=true proved; axioms [propext, Classical.choice, Quot.sound]
+---
+> CastRetryTest.fact1: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+8c8
+< CastRetryTest.fact4: castRetry=false failed; castRetry=true proved; axioms [propext, Classical.choice, Quot.sound]
+---
+> CastRetryTest.fact4: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+10c10
+< 'CastRetryTest.t1' depends on axioms: [propext, Classical.choice, Quot.sound]
+---
+> 'CastRetryTest.t1' depends on axioms: [propext, Quot.sound]
+12c12
+< 'CastRetryTest.t4' depends on axioms: [propext, Classical.choice, Quot.sound]
+---
+> 'CastRetryTest.t4' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,19 @@
+[54801147] mul_three._bvs4_1: 5856 nodes, CNF 16799 clauses, 5856 variables
+[54803184] mul_three._bvs4_1: 21697 steps, 183793 hints, 16 chunks; solve 253 ms
+[54812254] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 9070 ms
+[54820243] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (147 steps from id 16800) 7989 ms
+[54823125] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (13 steps from id 16947) 2882 ms
+[54825917] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (20 steps from id 16960) 2791 ms
+[54829619] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (167 steps from id 16980) 3701 ms
+[54833937] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (112 steps from id 17147) 4318 ms
+[54841173] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (1757 steps from id 17259) 7236 ms
+[54844243] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s6 (2000 steps from id 19016) 3070 ms
+[54847338] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s7 (2000 steps from id 21016) 3095 ms
+[54850276] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s8 (2000 steps from id 23016) 2938 ms
+[54853233] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s9 (2000 steps from id 25016) 2957 ms
+[54856220] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s10 (2000 steps from id 27016) 2987 ms
+[54861823] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s11 (2000 steps from id 29016) 5602 ms
+[54865550] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s12 (2000 steps from id 31016) 3727 ms
+[54867781] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s13 (2000 steps from id 33016) 2231 ms
+[54872993] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s14 (2000 steps from id 35016) 5212 ms
+[54877280] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s15 (1481 steps from id 37016) 4286 ms

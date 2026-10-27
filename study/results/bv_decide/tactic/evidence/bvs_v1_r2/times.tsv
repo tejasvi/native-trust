@@ -1,0 +1,32 @@
+BVS.LratBits	0	0.23	488696
+BVS.LratBitsSound	0	0.31	541948
+BVS.Blast	0	0.53	701840
+BVS.Lrat.Trie	0	0.45	736616
+BVS.Sound.Basic	0	0.41	711976
+BVS.Lrat.Chain	0	0.47	751580
+BVS.Sound.Circuits	0	0.58	768788
+BVS.Sound.Bits	0	0.40	729612
+BVS.Sound.Shifts	0	0.43	729812
+BVS.Sound.Unary	0	0.28	705816
+BVS.Sound.Expr	0	0.59	706140
+BVS.Sound.CNF	0	0.28	714452
+BVS.Lrat.LeafTree	0	0.43	703312
+BVS.Unsat	0	0.32	697312
+BVS.SplitBase	0	0.54	732592
+BVS.Driver.Core	0	1.70	1662324
+BVS.Driver.Select	0	1.17	1625128
+BVS.Driver.Split	0	1.11	1631008
+BVS.Driver.Group	0	0.88	1613356
+BVS.Tactic	1	1.11	1622832
+BVS.Tactic	0	1.27	1644580	bvs_r3_src.tar
+BVS	0	0.53	1573452	bvs_r3_src.tar
+Examples.Tactic	0	275.39	3377636	bvs_r3_src.tar
+BVS.Tactic	1	1.20	1625380	bvs_r4_src.tar
+BVS.Tactic	0	1.21	1650144	bvs_r5_src.tar
+BVS	0	0.58	1571848	bvs_r5_src.tar
+BVS.Tactic	0	1.29	1646132	bvs_r6_src.tar
+BVS	0	0.55	1572976	bvs_r6_src.tar
+BVS.Tactic	0	1.28	1644912	bvs_r7_src.tar
+BVS	0	0.53	1573040	bvs_r7_src.tar
+BVS.Tactic	0	1.26	1648320	bvs_r8_src.tar
+BVS	0	0.54	1573076	bvs_r8_src.tar

@@ -1,0 +1,116 @@
+EXP_FACT	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2Exact_pos_refinement._native.bv_decide.ax_1_5	nodes=196394	entries=196393	clauses=588299	mb=28	md=14	hwm_kb=1726988
+gate and: 196393 nodes
+  gate and: 195785 nodes
+    gate and: 195656 nodes
+      gate and: 195495 nodes
+        gate and: 181752 nodes
+          gate and: 167729 nodes
+            gate and: 153862 nodes
+              gate and: 139963 nodes
+                gate and: 139931 nodes
+                  gate and: 139802 nodes
+                    gate and: 139641 nodes
+                      gate and: 125834 nodes
+                        gate and: 125613 nodes
+                          gate and: 97626 nodes
+                            gate and: 69950 nodes
+                              gate and: 69761 nodes
+                                gate and: 55674 nodes
+                                  gate and: 27811 nodes
+                                    gate and: 259 nodes
+                                      gate and: 103 nodes
+                                        gate and: 11 nodes
+                                          not: 9 nodes
+                                            literal bin eq: 9 nodes
+                                          not: 1 nodes
+                                            literal getLsbD 0: 1 nodes
+                                        not: 91 nodes
+                                          literal bin eq: 91 nodes
+                                      not: 155 nodes
+                                        gate and: 155 nodes
+                                          literal bin eq: 63 nodes
+                                          literal bin eq: 91 nodes
+                                    gate or: 27551 nodes
+                                      not: 13773 nodes
+                                        literal bin eq: 13773 nodes
+                                          bin 6 w=32: 13742 nodes
+                                      literal bin eq: 13777 nodes
+                                        bin 6 w=32: 13618 nodes
+                                  gate or: 27862 nodes
+                                    literal bin eq: 13649 nodes
+                                      bin 6 w=32: 13618 nodes
+                                    literal bin eq: 14212 nodes
+                                      bin 3 w=32: 14085 nodes
+                                        bin 3 w=32: 13742 nodes
+                                          un w=32: 13618 nodes
+                                            bin 6 w=32: 13618 nodes
+                                gate or: 14086 nodes
+                                  not: 60 nodes
+                                    literal bin eq: 60 nodes
+                                  literal bin eq: 14025 nodes
+                                    bin 3 w=32: 13866 nodes
+                                      un w=32: 13742 nodes
+                                        bin 6 w=32: 13742 nodes
+                              gate or: 188 nodes
+                                literal bin eq: 60 nodes
+                                literal bin eq: 127 nodes
+                            gate or: 27675 nodes
+                              not: 13773 nodes
+                                literal bin eq: 13773 nodes
+                                  bin 6 w=32: 13742 nodes
+                              literal bin eq: 13901 nodes
+                                bin 6 w=32: 13742 nodes
+                          gate or: 27986 nodes
+                            literal bin eq: 13773 nodes
+                              bin 6 w=32: 13742 nodes
+                            literal bin eq: 14212 nodes
+                              bin 3 w=32: 14085 nodes
+                                bin 6 w=32: 13742 nodes
+                        gate or: 220 nodes
+                          not: 60 nodes
+                            literal bin eq: 60 nodes
+                          literal bin eq: 159 nodes
+                      gate or: 13806 nodes
+                        literal bin eq: 60 nodes
+                        literal bin eq: 13745 nodes
+                          bin 6 w=32: 13618 nodes
+                    gate or: 160 nodes
+                      not: 0 nodes
+                        literal bin eq: 0 nodes
+                      literal bin eq: 159 nodes
+                  gate or: 128 nodes
+                    literal bin eq: 0 nodes
+                    literal bin eq: 127 nodes
+                literal bin eq: 31 nodes
+              gate or: 13898 nodes
+                not: 60 nodes
+                  literal bin eq: 60 nodes
+                literal bin eq: 13837 nodes
+                  bin 5 w=32: 13678 nodes
+            gate or: 13866 nodes
+              literal bin eq: 60 nodes
+              literal bin eq: 13805 nodes
+                bin 3 w=32: 13678 nodes
+                  un w=32: 13554 nodes
+                    bin 5 w=32: 13554 nodes
+          gate or: 14022 nodes
+            not: 60 nodes
+              literal bin eq: 60 nodes
+            literal bin eq: 13961 nodes
+              bin 3 w=32: 13802 nodes
+                un w=32: 13678 nodes
+                  bin 5 w=32: 13678 nodes
+        gate or: 13742 nodes
+          literal bin eq: 60 nodes
+          literal bin eq: 13681 nodes
+            bin 5 w=32: 13554 nodes
+      gate or: 160 nodes
+        not: 0 nodes
+          literal bin eq: 0 nodes
+        literal bin eq: 159 nodes
+    gate or: 128 nodes
+      literal bin eq: 0 nodes
+      literal bin eq: 127 nodes
+  not: 607 nodes
+    literal bin eq: 607 nodes
+TIME wall=5.81 s user=5.61 s maxrss=1726068 KB

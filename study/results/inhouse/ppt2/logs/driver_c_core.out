@@ -1,0 +1,3 @@
+ih-ppt2-core 227 axioms: {'PROVED': 187, 'ERROR': 35, 'TIMEOUT': 5}
+ih-ppt2-core 10 axioms: {'ERROR': 9, 'PROVED': 1}
+ih-ppt2-rows_a 17 axioms: {'ERROR': 8, 'PROVED': 9}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use NativeTrust or its study data, please cite the paper."
+title: "NativeTrust"
+version: "1.0.0"
+date-released: 2026-10-27
+doi: 10.5281/zenodo.23628416
+repository-code: "https://github.com/tejasvi/native-trust"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+  - AGPL-3.0-or-later
+authors:
+  - family-names: Tomar
+    given-names: Tejasvi Singh
+    orcid: "https://orcid.org/0000-0003-4668-3639"
+preferred-citation:
+  type: article
+  title: "Re-proving native_decide facts in Lean's kernel: a study of 16 public packages and a converter"
+  authors:
+    - family-names: Tomar
+      given-names: Tejasvi Singh
+      orcid: "https://orcid.org/0000-0003-4668-3639"
+  doi: 10.5281/zenodo.23628414
+  year: 2026
+  month: 10

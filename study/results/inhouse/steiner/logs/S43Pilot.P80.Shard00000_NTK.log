@@ -1,0 +1,244 @@
+⚠ [21/37] Replayed NativeTrust.Basic
+warning: NativeTrust/Basic.lean:28:0: Definition `accGen` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [24/37] Replayed NativeTrust.Copy
+warning: NativeTrust/Copy.lean:451:42: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:452:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:557:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1031:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1032:66: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1036:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1072:62: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1085:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1089:57: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [25/37] Replayed NativeTrust.StrLib
+warning: NativeTrust/StrLib.lean:100:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:104:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:184:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:231:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:246:52: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:247:85: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [26/37] Replayed NativeTrust.CastFree
+warning: NativeTrust/CastFree.lean:235:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:352:64: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:355:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+⚠ [27/37] Replayed NativeTrust.Param
+warning: NativeTrust/Param.lean:181:58: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:195:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:199:53: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:287:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:288:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:294:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:295:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:483:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:496:49: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [29/37] Replayed NativeTrust.Kernel
+warning: NativeTrust/Kernel.lean:342:70: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:879:46: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2603:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2619:50: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2624:61: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2631:49: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+✖ [37/37] Building S43Pilot.P80.Shard00000_NTK (320s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/steiner2/src/S43Pilot/P80/Shard00000_NTK.lean -o /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean/S43Pilot/P80/Shard00000_NTK.olean -i /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean/S43Pilot/P80/Shard00000_NTK.ilean -c /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/ir/S43Pilot/P80/Shard00000_NTK.c --setup /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/ir/S43Pilot/P80/Shard00000_NTK.setup.json --json
+error: S43Pilot/P80/Shard00000_NTK.lean:15:67: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Float.scaleB`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kt.S43Pilot.P80.Shard00000_NTK.S43.walk → _kt.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kt.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kt.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kt.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.toF → Float.scaleB
+• `Float.round`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kt.S43Pilot.P80.Shard00000_NTK.S43.walk → _kt.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kt.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kt.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kt.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.ofF → Float.round
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.S43Pilot.P80.Shard00000_NTK.S43.mkCase → _kt.S43Pilot.P80.Shard00000_NTK.S43.splitsSt → _kt.S43Pilot.P80.Shard00000_NTK.S43.parseSplits → _kt.S43Pilot.P80.Shard00000_NTK.S43.parseNats → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.S43Pilot.P80.Shard00000_NTK.S43.mkCase → _kt.S43Pilot.P80.Shard00000_NTK.S43.splitsSt → _kt.S43Pilot.P80.Shard00000_NTK.S43.parseSplits → _kt.S43Pilot.P80.Shard00000_NTK.S43.parseNats → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Float.scaleB`: primitive implemented in C (`@[extern]`) with no definition
+    via _kta.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kta.S43Pilot.P80.Shard00000_NTK.S43.walk → _kta.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kta.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kta.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kta.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.toF → Float.scaleB
+• `Float.round`: primitive implemented in C (`@[extern]`) with no definition
+    via _kta.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kta.S43Pilot.P80.Shard00000_NTK.S43.walk → _kta.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kta.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kta.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kta.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.ofF → Float.round
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kta.S43Pilot.P80.Shard00000_NTK.S43.mkCase → _kta.S43Pilot.P80.Shard00000_NTK.S43.splitsSt → _kta.S43Pilot.P80.Shard00000_NTK.S43.parseSplits → _kta.S43Pilot.P80.Shard00000_NTK.S43.parseNats → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kta.S43Pilot.P80.Shard00000_NTK.S43.mkCase → _kta.S43Pilot.P80.Shard00000_NTK.S43.splitsSt → _kta.S43Pilot.P80.Shard00000_NTK.S43.parseSplits → _kta.S43Pilot.P80.Shard00000_NTK.S43.parseNats → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Float.scaleB`: primitive implemented in C (`@[extern]`) with no definition
+    via _kts.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kts.S43Pilot.P80.Shard00000_NTK.S43.walk → _kts.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kts.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kts.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kts.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.toF → Float.scaleB
+• `Float.round`: primitive implemented in C (`@[extern]`) with no definition
+    via _kts.S43Pilot.P80.Shard00000_NTK.S43.shardOKPar → _kts.S43Pilot.P80.Shard00000_NTK.S43.walk → _kts.S43Pilot.P80.Shard00000_NTK.S43.walk._f → _kts.S43Pilot.P80.Shard00000_NTK.S43.checkRecord → _kts.S43Pilot.P80.Shard00000_NTK.S43.evalVertexN → _kts.S43Pilot.P80.Shard00000_NTK.S43.spDIN → S43.smt3n → S43.fermatW → S43.ofF → Float.round
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+Some required targets logged failures:
+- S43Pilot.P80.Shard00000_NTK
+error: build failed
+Command exited with non-zero status 1
+TIME wall=320.54 user=303.61 sys=16.81 maxrss_kb=17476896

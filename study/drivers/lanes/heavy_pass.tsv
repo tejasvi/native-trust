@@ -1,0 +1,5 @@
+when_utc	run	command (run in the box root, NT_BOX)	what it re-ran
+2026-10-23T09:42	lane N	./m2_lane4.sh m2_laneN.tsv --jobs 4 --nt-root $NT_BOX/nt7 --fact-timeout 1800 --fact-mem 96	re-run with the earlier per-theorem driver (m2_repo4.py): rs-mca moment_to_max and RS_disproof_v3, with --skip-build --redo (m2_laneN.tsv)
+2026-10-23T10:16	lane P	./m2_lane_ax2.sh m2_laneP.tsv --jobs 9 --fact-timeout 3600 --fact-mem 96	heavy pass: berry-esseen (Uniform), humanfia-icho2026, sounio, with --skip-build --redo (m2_laneP.tsv)
+2026-10-23T13:24	lane Y	./m2_lane_ax3.sh m2_laneY.tsv --jobs 4 --fact-timeout 3600 --fact-mem 96	heavy pass: berry-esseen (Uniform), formal-conjectures, with --skip-build --redo (m2_laneY.tsv)
+2026-10-23T21:32	formal-conjectures-heavy2	python3 -u m2_axioms5.py formal-conjectures-heavy2 repos/formal-conjectures --skip-build --from-results formal-conjectures-fuel --from-verdict TIMEOUT --include "proportionCoverable_11_(4_3|3_4)" --fact-timeout 3600 --fact-mem 96 --jobs 2	heavy pass of the two formal-conjectures facts that time out at 900 s on the current tool

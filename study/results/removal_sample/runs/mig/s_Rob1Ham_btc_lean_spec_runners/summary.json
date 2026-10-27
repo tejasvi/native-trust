@@ -1,0 +1,106 @@
+{
+ "name": "s_Rob1Ham_btc_lean_spec_runners",
+ "pkg": "/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners",
+ "toolchain": "v4.35.0",
+ "uses": 111,
+ "replaced": 63,
+ "replaced_known": 63,
+ "replaced_unknown": 0,
+ "replaced_facts": 63,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: Tactic `decide` failed to reduce": 25,
+  "module not built": 23
+ },
+ "native_axioms_before": 63,
+ "native_axioms_after": 0,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 63,
+ "native_dependent_decls_after": 0,
+ "rewritten_decls": 63,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 53.05,
+   "cpu": 60.8,
+   "n_errors": 25,
+   "reverted": 25,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 2.5,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 52.53,
+   "cpu": 60.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 2.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 9.75,
+  "cpu": 17.3,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 1.9,
+  "peak_rss_sum_gb": 1.9
+ },
+ "time1": {
+  "wall": 51.91,
+  "cpu": 57.9,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 2.5,
+  "peak_rss_sum_gb": 2.5
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.4,
+  "cpu": 0.3,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  9.4,
+  51.0
+ ],
+ "module_times_slower": [
+  [
+   "BitcoinVectors.Gen.Compiled",
+   9.4,
+   51.0
+  ]
+ ],
+ "module_times_faster": []
+}

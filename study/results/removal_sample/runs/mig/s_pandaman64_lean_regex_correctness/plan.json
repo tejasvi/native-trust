@@ -1,0 +1,55 @@
+{
+"plan": {
+"n_occ": 2,
+"affected": [],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"keep: FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)": 2
+}
+},
+"occs": [
+{
+"file": "RegexCorrectness/Unicode/CaseFold/Data.lean",
+"start": 2051,
+"end": 2064,
+"line": 45,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "RegexCorrectness.Unicode.CaseFold.Data",
+"facts": [
+"_private.RegexCorrectness.Unicode.CaseFold.Data.0.Regex.Unicode.checkAllPairs_isLtFirst_caseFoldRepresentatives._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "RegexCorrectness/Unicode/CaseFold/Data.lean",
+"start": 2797,
+"end": 2810,
+"line": 61,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "RegexCorrectness.Unicode.CaseFold.Data",
+"facts": [
+"_private.RegexCorrectness.Unicode.CaseFold.Data.0.Regex.Unicode.checkAllPairs_noChain_caseFoldRepresentatives._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+}
+]
+}

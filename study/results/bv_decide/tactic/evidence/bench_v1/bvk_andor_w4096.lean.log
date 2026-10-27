@@ -1,0 +1,2 @@
+bv_kdecide [andor_w4096]: bv_decide 1785 ms; 106486 nodes, 294881 clauses, 461298 LRAT steps, 935026 hints, 231 chunks, split base check with 4 segments; SAT 18844 ms, data 3859 ms; kernel: base 129394 ms, chunks 665564 ms (max 5017 ms), assembly 18089 ms; total 882229 ms; peak RSS: bv_decide 1708 MiB, kernel route 7950 MiB
+'andor_w4096' depends on axioms: [propext, Classical.choice, Quot.sound]

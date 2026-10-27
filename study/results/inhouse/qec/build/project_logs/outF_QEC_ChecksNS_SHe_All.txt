@@ -1,0 +1,7 @@
+QEC/ChecksNS/SHe/All.lean:147:28: warning: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons, List.not_mem_nil, or_false] at hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

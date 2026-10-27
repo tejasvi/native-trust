@@ -1,0 +1,5 @@
+DEFEQ IChO2026Problems.ProblemIcho2026T8A3.geometry1_output_matches_coordination_evidence
+DEFEQ IChO2026Problems.ProblemIcho2026T8A3.geometry1_reported_result_specification
+DEFEQ IChO2026Problems.ProblemIcho2026T8A3.geometry1ReportedResultContract
+DEFEQ IChO2026Problems.ProblemIcho2026T8A3.geometry1_output_is_octahedral
+STMT same=12 defeq=4 diff=0 missing=0 nonstd_axioms=0 control_originals_nonstd=16

@@ -1,0 +1,2 @@
+strata	/home/ntbuild/repos/Strata	--skip-build --redo
+longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--skip-build --redo

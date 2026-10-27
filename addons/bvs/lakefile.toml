@@ -1,0 +1,13 @@
+name = "bvs"
+defaultTargets = ["BVS"]
+
+[[lean_lib]]
+name = "BVS"
+
+# Examples (not built by default): `lake build Examples` re-proves the small examples and the group example,
+# proves the examples of the tactic `bv_kdecide`,
+# and builds the fact modules used by the sharded examples in `prep/`.
+[[lean_lib]]
+name = "Examples"
+roots = ["Examples.Small", "Examples.UnaryOps", "Examples.GroupA", "Examples.GroupB", "Examples.Group",
+  "Examples.ShardFacts", "Examples.SplitFacts", "Examples.Tactic", "Examples.TacticModule"]

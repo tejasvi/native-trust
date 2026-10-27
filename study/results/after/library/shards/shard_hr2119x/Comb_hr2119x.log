@@ -1,0 +1,6 @@
+$ lean Comb_hr2119x.lean tc=v4.31.0 ntlib=/home/ntbuild/nt_fix7/v4.31.0/.lake/build/lib/lean start=2026-10-24T14:13:41Z
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119._native.native_decide.ax_1_1` as `_ktshard.RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119._kernel.native_decide.ax_1_1`: kernel_ms=62 native_axioms=1 rebuilt=0 copies=0 total_ms=181 acc_fallback=0 pieces=641
+maxrss_kb 2225080 secs 1.21
+rc=0 end=2026-10-24T14:13:42Z
+index length=640 pieces=640
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119._native.native_decide.ax_1_1` as `_ktshard.RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119._kernel.native_decide.ax_1_1`: kernel_ms=62 native_axioms=1 rebuilt=0 copies=0 total_ms=181 acc_fallback=0 pieces=641

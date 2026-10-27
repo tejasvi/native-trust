@@ -1,0 +1,217 @@
+{
+ "name": "b20000_Natuvea_tacenta_core_tacenta_model",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "toolchain": "v4.31.0",
+ "uses": 141,
+ "replaced": 114,
+ "replaced_known": 0,
+ "replaced_unknown": 114,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: [Error pretty printing: maximum recursion depth has been reached": 27
+ },
+ "native_axioms_before": 2,
+ "native_axioms_after": 2,
+ "bv_decide_axioms_before": 2,
+ "bv_decide_axioms_after": 2,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 2,
+ "native_dependent_decls_after": 2,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 145.37,
+   "cpu": 409.2,
+   "n_errors": 18,
+   "reverted": 18,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 5.0,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 170.98,
+   "cpu": 183.8,
+   "n_errors": 4,
+   "reverted": 4,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 5.1,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 1,
+   "wall": 88.44,
+   "cpu": 93.4,
+   "n_errors": 3,
+   "reverted": 3,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 5.0,
+   "rss_killed": false
+  },
+  {
+   "round": 3,
+   "rc": 1,
+   "wall": 41.19,
+   "cpu": 42.5,
+   "n_errors": 2,
+   "reverted": 2,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 4.9,
+   "rss_killed": false
+  },
+  {
+   "round": 4,
+   "rc": 0,
+   "wall": 3.14,
+   "cpu": 3.4,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 12.86,
+  "cpu": 32.8,
+  "n_built": 22,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 2.2
+ },
+ "time1": {
+  "wall": 122.46,
+  "cpu": 151.5,
+  "n_built": 19,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 4.6,
+  "peak_rss_sum_gb": 4.6
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 98.81,
+  "cpu": 103.5,
+  "n_built": 7,
+  "peak_lean": 3,
+  "peak_rss_gb": 1.5,
+  "peak_rss_sum_gb": 1.8,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 19,
+ "replaced_modules": 18,
+ "unmatched_axioms": 0,
+ "fact_budget": 20000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 2
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  21.7,
+  140.6
+ ],
+ "module_times_slower": [
+  [
+   "Model.TripleRatchet",
+   0.217,
+   57.0
+  ],
+  [
+   "Model.PersistedState",
+   2.7,
+   30.0
+  ],
+  [
+   "Model.Kdf",
+   0.255,
+   27.0
+  ],
+  [
+   "Model.Messages",
+   1.3,
+   5.9
+  ],
+  [
+   "Model.Polynomial",
+   0.605,
+   3.5
+  ],
+  [
+   "Model.Sha256",
+   0.32,
+   2.8
+  ],
+  [
+   "Model.LifecycleTrace",
+   0.796,
+   2.1
+  ],
+  [
+   "Model.SessionEstablishment",
+   0.188,
+   0.544
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Model.SparseRatchet",
+   5.6,
+   2.1
+  ],
+  [
+   "Model.Lifecycle",
+   1.9,
+   1.7
+  ],
+  [
+   "Model.Ratchet",
+   1.6,
+   1.5
+  ],
+  [
+   "Properties.Invariants",
+   0.257,
+   0.19
+  ],
+  [
+   "Model.SessionTrace",
+   0.307,
+   0.278
+  ],
+  [
+   "Difftest",
+   0.735,
+   0.727
+  ]
+ ]
+}

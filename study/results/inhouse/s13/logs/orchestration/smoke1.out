@@ -1,0 +1,7 @@
+2026-10-26T01:04:03Z batch: 2 facts, PAR=2 MEMG=48 T=900 MemAvailable=735G
+2026-10-26T01:04:03Z start X_certOK_5 unit=s13-f-x-certok-5-1792976643 MemAvailable=735G
+2026-10-26T01:04:05Z start X_ct4_d12 unit=s13-f-x-ct4-d12-1792976645 MemAvailable=734G
+2026-10-26T01:05:25Z end X_certOK_5 rc=0 | maxrss_kb 23821484 secs 81.75 | rc=0 end=2026-10-26T01:05:25Z
+Terminated
+2026-10-26T01:06:29Z end X_ct4_d12 rc=143 | NT _s13probe.X_ct4_d12 quick whole-term attempt did not finish; structured check | NT _s13probe.X_ct4_d12.p_0 blockers_ms=9 bounded=false copy_ms=18 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+2026-10-26T01:06:29Z batch done

@@ -1,0 +1,12 @@
+project	mm4 LO(16)
+source	sw 10.5281/zenodo.23604140
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	40 axioms in the main theorem (45 fact modules: 9 stages x 5 checks)
+converted	0 of 5 checked (stage NL9: c3, c4, c5, km47, at47); 0 theorems
+nt_cpu_h	0.54 (final runs; 1.06 with the superseded runs)
+nt_wall_min	26
+native_build_cpu_h	about 730 core-hours for native/ MM4.NP16, all stages (lean/README.md:108)
+hand_track	partial: kernel/ MM4.K8 (depth 8 only)
+hand_build_cpu_h	about 86 core-hours (lean/README.md:107)
+checks	kdecide on the 5 NL9 fact modules (900 s, 100G): kernel deep recursion after 234-409 s at 18-23 GiB, also with maxRecDepth 1000000; with a 4 GiB stack (lean --tstack, ulimit -s) c4 ran out of memory after 429 s

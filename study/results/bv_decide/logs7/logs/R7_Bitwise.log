@@ -1,0 +1,6 @@
+bvs Clean.Utils.Bitwise: 1 bv_decide axioms
+bvs _private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6: 65 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 35 ms, prep+defs 1 ms; kernel: base 59 ms, chunks 1 ms (max 1 ms); total 100 ms; axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs not64_eq_sub: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext, Classical.choice, Quot.sound]
+TIME wall=1.32 s user=0.93 s maxrss=2673288 KB

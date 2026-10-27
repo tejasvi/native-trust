@@ -1,0 +1,382 @@
+0: _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend._native.bv_decide.ax_1_8: 366 nodes, 977 CNF clauses; estimated bv_kdecide time 0.720256 s
+1: _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_append._native.bv_decide.ax_1_7: 4687 nodes, 13820 CNF clauses; estimated bv_kdecide time 26.095665 s
+2: _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_add_comm_manual._native.bv_decide.ax_1_6: 164 nodes, 443 CNF clauses; estimated bv_kdecide time 0.246636 s
+3: _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_sign_extend._native.bv_decide.ax_1_8: 489 nodes, 1322 CNF clauses; estimated bv_kdecide time 1.085047 s
+4: _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._native.bv_decide.ax_1_8: 366 nodes, 977 CNF clauses; estimated bv_kdecide time 0.720256 s
+Veir.Data.PBV.Examples: 5 bv_decide axioms; estimated bv_kdecide time in total 28.867861 s
+BVS_ESTIMATE	Veir.Data.PBV.Examples	0	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend._native.bv_decide.ax_1_8	366	977	0.720256
+BVS_ESTIMATE	Veir.Data.PBV.Examples	1	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_append._native.bv_decide.ax_1_7	4687	13820	26.095665
+BVS_ESTIMATE	Veir.Data.PBV.Examples	2	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_add_comm_manual._native.bv_decide.ax_1_6	164	443	0.246636
+BVS_ESTIMATE	Veir.Data.PBV.Examples	3	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_sign_extend._native.bv_decide.ax_1_8	489	1322	1.085047
+BVS_ESTIMATE	Veir.Data.PBV.Examples	4	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._native.bv_decide.ax_1_8	366	977	0.720256
+0: _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5: 320 nodes, 575 CNF clauses; estimated bv_kdecide time 0.351180 s
+1: _private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._native.bv_decide.ax_8: 40 nodes, 71 CNF clauses; estimated bv_kdecide time 0.020636 s
+Veir.Interpreter.Memory: 2 bv_decide axioms; estimated bv_kdecide time in total 0.371817 s
+BVS_ESTIMATE	Veir.Interpreter.Memory	0	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5	320	575	0.351180
+BVS_ESTIMATE	Veir.Interpreter.Memory	1	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._native.bv_decide.ax_8	40	71	0.020636
+0: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.ceildivsi_lowering._native.bv_decide.ax_1_5: 4259 nodes, 12608 CNF clauses; estimated bv_kdecide time 23.043878 s
+1: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.floordivsi_lowering._native.bv_decide.ax_1_5: 4266 nodes, 12629 CNF clauses; estimated bv_kdecide time 23.095902 s
+2: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.addui_extended_lowering._native.bv_decide.ax_1_9: 253 nodes, 707 CNF clauses; estimated bv_kdecide time 0.464669 s
+Veir.Passes.ArithToLLVM.Proofs: 3 bv_decide axioms; estimated bv_kdecide time in total 46.604448 s
+BVS_ESTIMATE	Veir.Passes.ArithToLLVM.Proofs	0	_private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.ceildivsi_lowering._native.bv_decide.ax_1_5	4259	12608	23.043878
+BVS_ESTIMATE	Veir.Passes.ArithToLLVM.Proofs	1	_private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.floordivsi_lowering._native.bv_decide.ax_1_5	4266	12629	23.095902
+BVS_ESTIMATE	Veir.Passes.ArithToLLVM.Proofs	2	_private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.addui_extended_lowering._native.bv_decide.ax_1_9	253	707	0.464669
+0: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_or._native.bv_decide.ax_1_5: 614 nodes, 1169 CNF clauses; estimated bv_kdecide time 0.918478 s
+1: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and_left._native.bv_decide.ax_1_5: 161 nodes, 98 CNF clauses; estimated bv_kdecide time 0.031937 s
+2: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+3: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_li_low32._native.bv_decide.ax_1_5: 128 nodes, 191 CNF clauses; estimated bv_kdecide time 0.078882 s
+4: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_low_bytes._native.bv_decide.ax_1_5: 129 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+5: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_or._native.bv_decide.ax_1_5: 926 nodes, 1889 CNF clauses; estimated bv_kdecide time 1.759844 s
+6: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_and._native.bv_decide.ax_1_5: 926 nodes, 1889 CNF clauses; estimated bv_kdecide time 1.759844 s
+7: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_and._native.bv_decide.ax_1_5: 614 nodes, 1169 CNF clauses; estimated bv_kdecide time 0.918478 s
+8: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_lbu._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+9: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_zextb._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+10: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_and._native.bv_decide.ax_1_5: 822 nodes, 1649 CNF clauses; estimated bv_kdecide time 1.463909 s
+11: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_and_right._native.bv_decide.ax_1_5: 137 nodes, 26 CNF clauses; estimated bv_kdecide time 0.005290 s
+12: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_li_low16._native.bv_decide.ax_1_5: 160 nodes, 287 CNF clauses; estimated bv_kdecide time 0.136965 s
+13: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_xor._native.bv_decide.ax_1_5: 1054 nodes, 2273 CNF clauses; estimated bv_kdecide time 2.261373 s
+14: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_xor._native.bv_decide.ax_1_5: 153 nodes, 74 CNF clauses; estimated bv_kdecide time 0.021827 s
+15: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.srlw_sraw_signbit._native.bv_decide.ax_1_5: 553 nodes, 1451 CNF clauses; estimated bv_kdecide time 1.230947 s
+16: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_xor._native.bv_decide.ax_1_5: 950 nodes, 2033 CNF clauses; estimated bv_kdecide time 1.944044 s
+17: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._native.bv_decide.ax_1_5: 129 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+18: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_and_left._native.bv_decide.ax_1_5: 145 nodes, 50 CNF clauses; estimated bv_kdecide time 0.012832 s
+19: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_high_bytes._native.bv_decide.ax_1_5: 129 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+20: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_or._native.bv_decide.ax_1_5: 137 nodes, 26 CNF clauses; estimated bv_kdecide time 0.005290 s
+21: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_and_right._native.bv_decide.ax_1_5: 145 nodes, 50 CNF clauses; estimated bv_kdecide time 0.012832 s
+22: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+23: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and_right._native.bv_decide.ax_1_5: 161 nodes, 98 CNF clauses; estimated bv_kdecide time 0.031937 s
+24: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_or._native.bv_decide.ax_1_5: 822 nodes, 1649 CNF clauses; estimated bv_kdecide time 1.463909 s
+25: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_xor._native.bv_decide.ax_1_5: 225 nodes, 290 CNF clauses; estimated bv_kdecide time 0.138909 s
+26: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+27: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and._native.bv_decide.ax_1_5: 161 nodes, 98 CNF clauses; estimated bv_kdecide time 0.031937 s
+28: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._native.bv_decide.ax_1_5: 129 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+29: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_li_low8._native.bv_decide.ax_1_5: 176 nodes, 335 CNF clauses; estimated bv_kdecide time 0.168895 s
+30: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_xor._native.bv_decide.ax_1_5: 177 nodes, 146 CNF clauses; estimated bv_kdecide time 0.054812 s
+31: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_or._native.bv_decide.ax_1_5: 161 nodes, 98 CNF clauses; estimated bv_kdecide time 0.031937 s
+32: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_or._native.bv_decide.ax_1_5: 145 nodes, 50 CNF clauses; estimated bv_kdecide time 0.012832 s
+33: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_and_left._native.bv_decide.ax_1_5: 137 nodes, 26 CNF clauses; estimated bv_kdecide time 0.005290 s
+34: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_xor._native.bv_decide.ax_1_5: 742 nodes, 1553 CNF clauses; estimated bv_kdecide time 1.349638 s
+35: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.drop_sextw_sb._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+36: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_zextb._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+37: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.drop_zextw_sb._native.bv_decide.ax_1_5: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+38: _private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.srl_sra_signbit._native.bv_decide.ax_1_5: 1226 nodes, 3467 CNF clauses; estimated bv_kdecide time 4.006982 s
+Veir.Passes.RISCVCombines.Proofs: 39 bv_decide axioms; estimated bv_kdecide time in total 19.861813 s
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	0	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_or._native.bv_decide.ax_1_5	614	1169	0.918478
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	1	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and_left._native.bv_decide.ax_1_5	161	98	0.031937
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	2	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	3	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_li_low32._native.bv_decide.ax_1_5	128	191	0.078882
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	4	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_low_bytes._native.bv_decide.ax_1_5	129	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	5	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_or._native.bv_decide.ax_1_5	926	1889	1.759844
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	6	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_and._native.bv_decide.ax_1_5	926	1889	1.759844
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	7	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_and._native.bv_decide.ax_1_5	614	1169	0.918478
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	8	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_lbu._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	9	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_zextb._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	10	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_and._native.bv_decide.ax_1_5	822	1649	1.463909
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	11	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_and_right._native.bv_decide.ax_1_5	137	26	0.005290
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	12	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_li_low16._native.bv_decide.ax_1_5	160	287	0.136965
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	13	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextb_xor._native.bv_decide.ax_1_5	1054	2273	2.261373
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	14	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_xor._native.bv_decide.ax_1_5	153	74	0.021827
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	15	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.srlw_sraw_signbit._native.bv_decide.ax_1_5	553	1451	1.230947
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	16	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_xor._native.bv_decide.ax_1_5	950	2033	1.944044
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	17	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._native.bv_decide.ax_1_5	129	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	18	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_and_left._native.bv_decide.ax_1_5	145	50	0.012832
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	19	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_high_bytes._native.bv_decide.ax_1_5	129	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	20	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_or._native.bv_decide.ax_1_5	137	26	0.005290
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	21	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_and_right._native.bv_decide.ax_1_5	145	50	0.012832
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	22	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	23	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and_right._native.bv_decide.ax_1_5	161	98	0.031937
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	24	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_or._native.bv_decide.ax_1_5	822	1649	1.463909
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	25	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_xor._native.bv_decide.ax_1_5	225	290	0.138909
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	26	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	27	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_and._native.bv_decide.ax_1_5	161	98	0.031937
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	28	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._native.bv_decide.ax_1_5	129	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	29	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_li_low8._native.bv_decide.ax_1_5	176	335	0.168895
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	30	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_xor._native.bv_decide.ax_1_5	177	146	0.054812
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	31	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextw_or._native.bv_decide.ax_1_5	161	98	0.031937
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	32	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zexth_or._native.bv_decide.ax_1_5	145	50	0.012832
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	33	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_and_left._native.bv_decide.ax_1_5	137	26	0.005290
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	34	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sextw_xor._native.bv_decide.ax_1_5	742	1553	1.349638
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	35	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.drop_sextw_sb._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	36	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.zextb_zextb._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	37	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.drop_zextw_sb._native.bv_decide.ax_1_5	65	2	0.000164
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Proofs	38	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.srl_sra_signbit._native.bv_decide.ax_1_5	1226	3467	4.006982
+0: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb._native.bv_decide.ax_5: 460 nodes, 923 CNF clauses; estimated bv_kdecide time 0.666850 s
+1: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw._native.bv_decide.ax_5: 1259 nodes, 3488 CNF clauses; estimated bv_kdecide time 4.039905 s
+2: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi._native.bv_decide.ax_5: 525 nodes, 1094 CNF clauses; estimated bv_kdecide time 0.839554 s
+3: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop._native.bv_decide.ax_5: 32674 nodes, 97733 CNF clauses; estimated bv_kdecide time 369.560751 s
+4: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz._native.bv_decide.ax_5: 2727 nodes, 7892 CNF clauses; estimated bv_kdecide time 12.214297 s
+5: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rorw._native.bv_decide.ax_5: 5804 nodes, 16835 CNF clauses; estimated bv_kdecide time 34.095633 s
+6: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw._native.bv_decide.ax_5: 5804 nodes, 16835 CNF clauses; estimated bv_kdecide time 34.095633 s
+7: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext._native.bv_decide.ax_5: 762 nodes, 1802 CNF clauses; estimated bv_kdecide time 1.650926 s
+8: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai._native.bv_decide.ax_5: 5033 nodes, 14792 CNF clauses; estimated bv_kdecide time 28.613199 s
+9: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb._native.bv_decide.ax_5: 404 nodes, 923 CNF clauses; estimated bv_kdecide time 0.666850 s
+10: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw._native.bv_decide.ax_5: 3460 nodes, 9803 CNF clauses; estimated bv_kdecide time 16.385942 s
+11: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli._native.bv_decide.ax_5: 4535 nodes, 13298 CNF clauses; estimated bv_kdecide time 24.769113 s
+12: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu._native.bv_decide.ax_5: 143 nodes, 284 CNF clauses; estimated bv_kdecide time 0.135029 s
+13: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz._native.bv_decide.ax_5: 2727 nodes, 7892 CNF clauses; estimated bv_kdecide time 12.214297 s
+14: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth._native.bv_decide.ax_5: 436 nodes, 875 CNF clauses; estimated bv_kdecide time 0.620299 s
+15: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori._native.bv_decide.ax_5: 525 nodes, 1094 CNF clauses; estimated bv_kdecide time 0.839554 s
+16: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw._native.bv_decide.ax_5: 5804 nodes, 16835 CNF clauses; estimated bv_kdecide time 34.095633 s
+17: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt._native.bv_decide.ax_5: 1038 nodes, 2630 CNF clauses; estimated bv_kdecide time 2.755624 s
+18: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti._native.bv_decide.ax_5: 1144 nodes, 2948 CNF clauses; estimated bv_kdecide time 3.216546 s
+19: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu._native.bv_decide.ax_5: 1026 nodes, 2594 CNF clauses; estimated bv_kdecide time 2.704639 s
+20: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw._native.bv_decide.ax_5: 8258 nodes, 24485 CNF clauses; estimated bv_kdecide time 56.642136 s
+21: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu._native.bv_decide.ax_5: 135 nodes, 284 CNF clauses; estimated bv_kdecide time 0.135029 s
+22: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw._native.bv_decide.ax_5: 1259 nodes, 3488 CNF clauses; estimated bv_kdecide time 4.039905 s
+23: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rolw._native.bv_decide.ax_5: 5804 nodes, 16835 CNF clauses; estimated bv_kdecide time 34.095633 s
+24: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu._native.bv_decide.ax_5: 1132 nodes, 2912 CNF clauses; estimated bv_kdecide time 3.163438 s
+25: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh._native.bv_decide.ax_5: 255 nodes, 284 CNF clauses; estimated bv_kdecide time 0.135029 s
+26: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh._native.bv_decide.ax_5: 388 nodes, 875 CNF clauses; estimated bv_kdecide time 0.620299 s
+27: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth._native.bv_decide.ax_5: 191 nodes, 284 CNF clauses; estimated bv_kdecide time 0.135029 s
+28: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti._native.bv_decide.ax_5: 704 nodes, 1802 CNF clauses; estimated bv_kdecide time 1.650926 s
+29: _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_sraw._native.bv_decide.ax_5: 3460 nodes, 9803 CNF clauses; estimated bv_kdecide time 16.385942 s
+Veir.Passes.RISCVCombines.Combine: 30 bv_decide axioms; estimated bv_kdecide time in total 701.183635 s
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	0	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb._native.bv_decide.ax_5	460	923	0.666850
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	1	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw._native.bv_decide.ax_5	1259	3488	4.039905
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	2	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi._native.bv_decide.ax_5	525	1094	0.839554
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	3	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop._native.bv_decide.ax_5	32674	97733	369.560751
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	4	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz._native.bv_decide.ax_5	2727	7892	12.214297
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	5	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rorw._native.bv_decide.ax_5	5804	16835	34.095633
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	6	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw._native.bv_decide.ax_5	5804	16835	34.095633
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	7	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext._native.bv_decide.ax_5	762	1802	1.650926
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	8	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai._native.bv_decide.ax_5	5033	14792	28.613199
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	9	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb._native.bv_decide.ax_5	404	923	0.666850
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	10	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw._native.bv_decide.ax_5	3460	9803	16.385942
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	11	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli._native.bv_decide.ax_5	4535	13298	24.769113
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	12	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu._native.bv_decide.ax_5	143	284	0.135029
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	13	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz._native.bv_decide.ax_5	2727	7892	12.214297
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	14	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth._native.bv_decide.ax_5	436	875	0.620299
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	15	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori._native.bv_decide.ax_5	525	1094	0.839554
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	16	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw._native.bv_decide.ax_5	5804	16835	34.095633
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	17	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt._native.bv_decide.ax_5	1038	2630	2.755624
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	18	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti._native.bv_decide.ax_5	1144	2948	3.216546
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	19	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu._native.bv_decide.ax_5	1026	2594	2.704639
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	20	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw._native.bv_decide.ax_5	8258	24485	56.642136
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	21	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu._native.bv_decide.ax_5	135	284	0.135029
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	22	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw._native.bv_decide.ax_5	1259	3488	4.039905
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	23	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rolw._native.bv_decide.ax_5	5804	16835	34.095633
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	24	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu._native.bv_decide.ax_5	1132	2912	3.163438
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	25	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh._native.bv_decide.ax_5	255	284	0.135029
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	26	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh._native.bv_decide.ax_5	388	875	0.620299
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	27	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth._native.bv_decide.ax_5	191	284	0.135029
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	28	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti._native.bv_decide.ax_5	704	1802	1.650926
+BVS_ESTIMATE	Veir.Passes.RISCVCombines.Combine	29	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_sraw._native.bv_decide.ax_5	3460	9803	16.385942
+0: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ssubSat_refinement._native.bv_decide.ax_1_5: 3624 nodes, 9710 CNF clauses; estimated bv_kdecide time 16.175661 s
+1: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_eq_32._native.bv_decide.ax_1_5: 1042 nodes, 2729 CNF clauses; estimated bv_kdecide time 2.897109 s
+2: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ult_8._native.bv_decide.ax_1_5: 1234 nodes, 3305 CNF clauses; estimated bv_kdecide time 3.755410 s
+3: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smin_refinement_32._native.bv_decide.ax_1_5: 2432 nodes, 6617 CNF clauses; estimated bv_kdecide time 9.620016 s
+4: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshlGeneral_refinement._native.bv_decide.ax_1_5: 10732 nodes, 31610 CNF clauses; estimated bv_kdecide time 80.064900 s
+5: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_32._native.bv_decide.ax_1_5: 1426 nodes, 3881 CNF clauses; estimated bv_kdecide time 4.668728 s
+6: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y7._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+7: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.xnor_refinement._native.bv_decide.ax_1_5: 772 nodes, 1925 CNF clauses; estimated bv_kdecide time 1.805442 s
+8: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_1_64._native.bv_decide.ax_1_5: 446 nodes, 1142 CNF clauses; estimated bv_kdecide time 0.889852 s
+9: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.uaddSat_refinement._native.bv_decide.ax_1_5: 3831 nodes, 10718 CNF clauses; estimated bv_kdecide time 18.492010 s
+10: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._native.bv_decide.ax_1_5: 3029 nodes, 8687 CNF clauses; estimated bv_kdecide time 13.910687 s
+11: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_ror_refinement._native.bv_decide.ax_1_5: 10705 nodes, 31724 CNF clauses; estimated bv_kdecide time 80.456407 s
+12: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.bitreverse_refinement_32._native.bv_decide.ax_1_5: 34 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+13: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ne_32._native.bv_decide.ax_1_5: 1042 nodes, 2729 CNF clauses; estimated bv_kdecide time 2.897109 s
+14: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y1._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+15: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2Exact_pos_refinement._native.bv_decide.ax_1_5: 196394 nodes, 588299 CNF clauses; estimated bv_kdecide time 4207.124976 s
+16: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rori_refinement._native.bv_decide.ax_1_5: 10705 nodes, 31724 CNF clauses; estimated bv_kdecide time 80.456407 s
+17: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ugt_8._native.bv_decide.ax_1_5: 1234 nodes, 3305 CNF clauses; estimated bv_kdecide time 3.755410 s
+18: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sllw_refinement._native.bv_decide.ax_1_5: 1949 nodes, 5648 CNF clauses; estimated bv_kdecide time 7.762422 s
+19: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rol_refinement_32._native.bv_decide.ax_1_5: 3436 nodes, 10109 CNF clauses; estimated bv_kdecide time 17.082821 s
+20: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_8._native.bv_decide.ax_1_5: 1258 nodes, 3377 CNF clauses; estimated bv_kdecide time 3.866692 s
+21: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ugt_32._native.bv_decide.ax_1_5: 1426 nodes, 3881 CNF clauses; estimated bv_kdecide time 4.668728 s
+22: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smax_refinement_32._native.bv_decide.ax_1_5: 2432 nodes, 6617 CNF clauses; estimated bv_kdecide time 9.620016 s
+23: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_pos_refinement._native.bv_decide.ax_1_5: 282991 nodes, 848183 CNF clauses; estimated bv_kdecide time 6906.902618 s
+24: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_imm._native.bv_decide.ax_1_5: 1806 nodes, 5024 CNF clauses; estimated bv_kdecide time 6.623724 s
+25: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.bitreverse_refinement._native.bv_decide.ax_1_5: 66 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+26: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshlGeneralw_refinement._native.bv_decide.ax_1_5: 5305 nodes, 15425 CNF clauses; estimated bv_kdecide time 30.284826 s
+27: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement_1._native.bv_decide.ax_1_5: 15 nodes, 32 CNF clauses; estimated bv_kdecide time 0.007009 s
+28: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_8._native.bv_decide.ax_1_5: 68 nodes, 149 CNF clauses; estimated bv_kdecide time 0.056344 s
+29: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umin_refinement_32._native.bv_decide.ax_1_5: 1636 nodes, 4421 CNF clauses; estimated bv_kdecide time 5.570065 s
+30: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_8._native.bv_decide.ax_1_5: 68 nodes, 149 CNF clauses; estimated bv_kdecide time 0.056344 s
+31: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshrGeneralw_refinement._native.bv_decide.ax_1_5: 5308 nodes, 15434 CNF clauses; estimated bv_kdecide time 30.308772 s
+32: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_rori_refinement._native.bv_decide.ax_1_5: 10705 nodes, 31724 CNF clauses; estimated bv_kdecide time 80.456407 s
+33: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umax_refinement_32._native.bv_decide.ax_1_5: 1636 nodes, 4421 CNF clauses; estimated bv_kdecide time 5.570065 s
+34: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y3._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+35: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement._native.bv_decide.ax_1_5: 13943 nodes, 41438 CNF clauses; estimated bv_kdecide time 115.546110 s
+36: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_32._native.bv_decide.ax_1_5: 260 nodes, 581 CNF clauses; estimated bv_kdecide time 0.356155 s
+37: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y5._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+38: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rol_refinement._native.bv_decide.ax_1_5: 10705 nodes, 31724 CNF clauses; estimated bv_kdecide time 80.456407 s
+39: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_roriw_refinement._native.bv_decide.ax_1_5: 3436 nodes, 10109 CNF clauses; estimated bv_kdecide time 17.082821 s
+40: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_1_64._native.bv_decide.ax_1_5: 6 nodes, 8 CNF clauses; estimated bv_kdecide time 0.001071 s
+41: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeronez_refinement._native.bv_decide.ax_1_5: 1100 nodes, 2714 CNF clauses; estimated bv_kdecide time 2.875553 s
+42: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_bexti_sound._native.bv_decide.ax_1_5: 1607 nodes, 4607 CNF clauses; estimated bv_kdecide time 5.889951 s
+43: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smax_refinement._native.bv_decide.ax_1_5: 3100 nodes, 8525 CNF clauses; estimated bv_kdecide time 13.560349 s
+44: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeronez_refinement_32._native.bv_decide.ax_1_5: 556 nodes, 1370 CNF clauses; estimated bv_kdecide time 1.138771 s
+45: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_8._native.bv_decide.ax_1_5: 1234 nodes, 3305 CNF clauses; estimated bv_kdecide time 3.755410 s
+46: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_8._native.bv_decide.ax_1_5: 1234 nodes, 3305 CNF clauses; estimated bv_kdecide time 3.755410 s
+47: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeroeqz_refinement._native.bv_decide.ax_1_5: 1100 nodes, 2714 CNF clauses; estimated bv_kdecide time 2.875553 s
+48: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.usubSat_refinement._native.bv_decide.ax_1_5: 4278 nodes, 12059 CNF clauses; estimated bv_kdecide time 21.694856 s
+49: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_ror_refinement_32._native.bv_decide.ax_1_5: 3436 nodes, 10109 CNF clauses; estimated bv_kdecide time 17.082821 s
+50: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_8_16._native.bv_decide.ax_1_5: 238 nodes, 494 CNF clauses; estimated bv_kdecide time 0.285878 s
+51: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement._native.bv_decide.ax_1_5: 1811 nodes, 4460 CNF clauses; estimated bv_kdecide time 5.636749 s
+52: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.srlw_refinement._native.bv_decide.ax_1_5: 1949 nodes, 5648 CNF clauses; estimated bv_kdecide time 7.762422 s
+53: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_32._native.bv_decide.ax_1_5: 1426 nodes, 3881 CNF clauses; estimated bv_kdecide time 4.668728 s
+54: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_8_32._native.bv_decide.ax_1_5: 350 nodes, 782 CNF clauses; estimated bv_kdecide time 0.532691 s
+55: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y6._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+56: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smin_refinement._native.bv_decide.ax_1_5: 3100 nodes, 8525 CNF clauses; estimated bv_kdecide time 13.560349 s
+57: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y0._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+58: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umin_refinement._native.bv_decide.ax_1_5: 3076 nodes, 8453 CNF clauses; estimated bv_kdecide time 13.405398 s
+59: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_roriw_refinement._native.bv_decide.ax_1_5: 3436 nodes, 10109 CNF clauses; estimated bv_kdecide time 17.082821 s
+60: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sgt_32._native.bv_decide.ax_1_5: 1450 nodes, 3953 CNF clauses; estimated bv_kdecide time 4.786475 s
+61: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y2._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+62: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_32._native.bv_decide.ax_1_5: 1450 nodes, 3953 CNF clauses; estimated bv_kdecide time 4.786475 s
+63: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_slt_32._native.bv_decide.ax_1_5: 1450 nodes, 3953 CNF clauses; estimated bv_kdecide time 4.786475 s
+64: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ult_32._native.bv_decide.ax_1_5: 1426 nodes, 3881 CNF clauses; estimated bv_kdecide time 4.668728 s
+65: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._native.bv_decide.ax_1_5: 1252 nodes, 3179 CNF clauses; estimated bv_kdecide time 3.562736 s
+66: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_imm._native.bv_decide.ax_1_5: 2109 nodes, 5933 CNF clauses; estimated bv_kdecide time 8.297872 s
+67: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.saddSat_refinement._native.bv_decide.ax_1_5: 3376 nodes, 8966 CNF clauses; estimated bv_kdecide time 14.519487 s
+68: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement_32._native.bv_decide.ax_1_5: 1139 nodes, 2732 CNF clauses; estimated bv_kdecide time 2.901425 s
+69: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement_32._native.bv_decide.ax_1_5: 3801 nodes, 11204 CNF clauses; estimated bv_kdecide time 19.637243 s
+70: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_slt_8._native.bv_decide.ax_1_5: 1258 nodes, 3377 CNF clauses; estimated bv_kdecide time 3.866692 s
+71: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_eq_8._native.bv_decide.ax_1_5: 946 nodes, 2441 CNF clauses; estimated bv_kdecide time 2.490774 s
+72: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.xor_refinement_32._native.bv_decide.ax_1_5: 388 nodes, 965 CNF clauses; estimated bv_kdecide time 0.708296 s
+73: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5: 52169 nodes, 155348 CNF clauses; estimated bv_kdecide time 692.467112 s
+74: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sgt_8._native.bv_decide.ax_1_5: 1258 nodes, 3377 CNF clauses; estimated bv_kdecide time 3.866692 s
+75: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshrGeneral_refinement._native.bv_decide.ax_1_5: 10732 nodes, 31610 CNF clauses; estimated bv_kdecide time 80.064900 s
+76: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge._native.bv_decide.ax_1_5: 1678 nodes, 4637 CNF clauses; estimated bv_kdecide time 5.941981 s
+77: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_32._native.bv_decide.ax_1_5: 13 nodes, 8 CNF clauses; estimated bv_kdecide time 0.001071 s
+78: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ushlSat_refinement._native.bv_decide.ax_1_5: 30798 nodes, 91808 CNF clauses; estimated bv_kdecide time 339.533857 s
+79: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_16_32._native.bv_decide.ax_1_5: 278 nodes, 590 CNF clauses; estimated bv_kdecide time 0.363651 s
+80: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_imm._native.bv_decide.ax_1_5: 2121 nodes, 5969 CNF clauses; estimated bv_kdecide time 8.366169 s
+81: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_1._native.bv_decide.ax_1_5: 12 nodes, 23 CNF clauses; estimated bv_kdecide time 0.004480 s
+82: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_imm._native.bv_decide.ax_1_5: 1782 nodes, 4952 CNF clauses; estimated bv_kdecide time 6.495427 s
+83: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2Exact_neg_refinement._native.bv_decide.ax_1_5: 197753 nodes, 592376 CNF clauses; estimated bv_kdecide time 4246.679887 s
+84: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge._native.bv_decide.ax_1_5: 1702 nodes, 4709 CNF clauses; estimated bv_kdecide time 6.067340 s
+85: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle._native.bv_decide.ax_1_5: 1702 nodes, 4709 CNF clauses; estimated bv_kdecide time 6.067340 s
+86: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_64._native.bv_decide.ax_1_5: 13 nodes, 8 CNF clauses; estimated bv_kdecide time 0.001071 s
+87: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._native.bv_decide.ax_1_5: 3029 nodes, 8687 CNF clauses; estimated bv_kdecide time 13.910687 s
+88: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5: 58151 nodes, 174050 CNF clauses; estimated bv_kdecide time 807.780345 s
+89: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_pos_refinement._native.bv_decide.ax_1_5: 57536 nodes, 172205 CNF clauses; estimated bv_kdecide time 796.199636 s
+90: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.abs_refinement._native.bv_decide.ax_1_5: 2562 nodes, 7103 CNF clauses; estimated bv_kdecide time 10.589699 s
+91: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_16._native.bv_decide.ax_1_5: 13 nodes, 8 CNF clauses; estimated bv_kdecide time 0.001071 s
+92: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y4._native.bv_decide.ax_1_5: 650 nodes, 1562 CNF clauses; estimated bv_kdecide time 1.360247 s
+93: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_1._native.bv_decide.ax_1_5: 12 nodes, 23 CNF clauses; estimated bv_kdecide time 0.004480 s
+94: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._native.bv_decide.ax_1_5: 556 nodes, 1370 CNF clauses; estimated bv_kdecide time 1.138771 s
+95: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2_neg_refinement._native.bv_decide.ax_1_5: 4696 nodes, 13874 CNF clauses; estimated bv_kdecide time 26.233924 s
+96: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orn_refinement._native.bv_decide.ax_1_5: 196 nodes, 197 CNF clauses; estimated bv_kdecide time 0.082259 s
+97: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_32._native.bv_decide.ax_1_5: 260 nodes, 581 CNF clauses; estimated bv_kdecide time 0.356155 s
+98: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_16_32._native.bv_decide.ax_1_5: 21 nodes, 8 CNF clauses; estimated bv_kdecide time 0.001071 s
+99: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_32._native.bv_decide.ax_1_5: 1450 nodes, 3953 CNF clauses; estimated bv_kdecide time 4.786475 s
+100: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.constant_refinement_le64._native.bv_decide.ax_1_12: 3181 nodes, 8774 CNF clauses; estimated bv_kdecide time 14.099794 s
+101: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ne_8._native.bv_decide.ax_1_5: 946 nodes, 2441 CNF clauses; estimated bv_kdecide time 2.490774 s
+102: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule._native.bv_decide.ax_1_5: 1678 nodes, 4637 CNF clauses; estimated bv_kdecide time 5.941981 s
+103: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.andn_refinement._native.bv_decide.ax_1_5: 196 nodes, 197 CNF clauses; estimated bv_kdecide time 0.082259 s
+104: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2_pos_refinement._native.bv_decide.ax_1_5: 4702 nodes, 13892 CNF clauses; estimated bv_kdecide time 26.280053 s
+105: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_8._native.bv_decide.ax_1_5: 1258 nodes, 3377 CNF clauses; estimated bv_kdecide time 3.866692 s
+106: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_1_32._native.bv_decide.ax_1_5: 222 nodes, 566 CNF clauses; estimated bv_kdecide time 0.343753 s
+107: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement_1._native.bv_decide.ax_1_5: 488 nodes, 1058 CNF clauses; estimated bv_kdecide time 0.802339 s
+108: _private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_neg_refinement._native.bv_decide.ax_1_5: 285001 nodes, 854213 CNF clauses; estimated bv_kdecide time 6973.521484 s
+Veir.Passes.InstructionSelection.Proofs: 109 bv_decide axioms; estimated bv_kdecide time in total 26155.142909 s
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	0	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ssubSat_refinement._native.bv_decide.ax_1_5	3624	9710	16.175661
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	1	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_eq_32._native.bv_decide.ax_1_5	1042	2729	2.897109
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	2	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ult_8._native.bv_decide.ax_1_5	1234	3305	3.755410
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	3	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smin_refinement_32._native.bv_decide.ax_1_5	2432	6617	9.620016
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	4	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshlGeneral_refinement._native.bv_decide.ax_1_5	10732	31610	80.064900
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	5	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_32._native.bv_decide.ax_1_5	1426	3881	4.668728
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	6	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y7._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	7	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.xnor_refinement._native.bv_decide.ax_1_5	772	1925	1.805442
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	8	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_1_64._native.bv_decide.ax_1_5	446	1142	0.889852
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	9	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.uaddSat_refinement._native.bv_decide.ax_1_5	3831	10718	18.492010
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	10	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_sllw_li_to_slliw_sound._native.bv_decide.ax_1_5	3029	8687	13.910687
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	11	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_ror_refinement._native.bv_decide.ax_1_5	10705	31724	80.456407
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	12	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.bitreverse_refinement_32._native.bv_decide.ax_1_5	34	2	0.000164
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	13	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ne_32._native.bv_decide.ax_1_5	1042	2729	2.897109
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	14	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y1._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	15	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2Exact_pos_refinement._native.bv_decide.ax_1_5	196394	588299	4207.124976
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	16	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rori_refinement._native.bv_decide.ax_1_5	10705	31724	80.456407
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	17	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ugt_8._native.bv_decide.ax_1_5	1234	3305	3.755410
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	18	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sllw_refinement._native.bv_decide.ax_1_5	1949	5648	7.762422
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	19	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rol_refinement_32._native.bv_decide.ax_1_5	3436	10109	17.082821
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	20	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_8._native.bv_decide.ax_1_5	1258	3377	3.866692
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	21	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ugt_32._native.bv_decide.ax_1_5	1426	3881	4.668728
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	22	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smax_refinement_32._native.bv_decide.ax_1_5	2432	6617	9.620016
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	23	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_pos_refinement._native.bv_decide.ax_1_5	282991	848183	6906.902618
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	24	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_imm._native.bv_decide.ax_1_5	1806	5024	6.623724
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	25	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.bitreverse_refinement._native.bv_decide.ax_1_5	66	2	0.000164
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	26	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshlGeneralw_refinement._native.bv_decide.ax_1_5	5305	15425	30.284826
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	27	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement_1._native.bv_decide.ax_1_5	15	32	0.007009
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	28	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_8._native.bv_decide.ax_1_5	68	149	0.056344
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	29	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umin_refinement_32._native.bv_decide.ax_1_5	1636	4421	5.570065
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	30	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_8._native.bv_decide.ax_1_5	68	149	0.056344
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	31	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshrGeneralw_refinement._native.bv_decide.ax_1_5	5308	15434	30.308772
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	32	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_rori_refinement._native.bv_decide.ax_1_5	10705	31724	80.456407
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	33	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umax_refinement_32._native.bv_decide.ax_1_5	1636	4421	5.570065
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	34	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y3._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	35	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement._native.bv_decide.ax_1_5	13943	41438	115.546110
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	36	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_32._native.bv_decide.ax_1_5	260	581	0.356155
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	37	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y5._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	38	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_rol_refinement._native.bv_decide.ax_1_5	10705	31724	80.456407
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	39	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_roriw_refinement._native.bv_decide.ax_1_5	3436	10109	17.082821
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	40	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_1_64._native.bv_decide.ax_1_5	6	8	0.001071
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	41	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeronez_refinement._native.bv_decide.ax_1_5	1100	2714	2.875553
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	42	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_bexti_sound._native.bv_decide.ax_1_5	1607	4607	5.889951
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	43	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smax_refinement._native.bv_decide.ax_1_5	3100	8525	13.560349
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	44	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeronez_refinement_32._native.bv_decide.ax_1_5	556	1370	1.138771
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	45	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_8._native.bv_decide.ax_1_5	1234	3305	3.755410
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	46	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_8._native.bv_decide.ax_1_5	1234	3305	3.755410
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	47	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeroeqz_refinement._native.bv_decide.ax_1_5	1100	2714	2.875553
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	48	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.usubSat_refinement._native.bv_decide.ax_1_5	4278	12059	21.694856
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	49	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshr_ror_refinement_32._native.bv_decide.ax_1_5	3436	10109	17.082821
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	50	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_8_16._native.bv_decide.ax_1_5	238	494	0.285878
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	51	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement._native.bv_decide.ax_1_5	1811	4460	5.636749
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	52	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.srlw_refinement._native.bv_decide.ax_1_5	1949	5648	7.762422
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	53	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_32._native.bv_decide.ax_1_5	1426	3881	4.668728
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	54	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_8_32._native.bv_decide.ax_1_5	350	782	0.532691
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	55	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y6._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	56	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smin_refinement._native.bv_decide.ax_1_5	3100	8525	13.560349
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	57	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y0._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	58	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.umin_refinement._native.bv_decide.ax_1_5	3076	8453	13.405398
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	59	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshl_roriw_refinement._native.bv_decide.ax_1_5	3436	10109	17.082821
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	60	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sgt_32._native.bv_decide.ax_1_5	1450	3953	4.786475
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	61	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y2._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	62	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge_32._native.bv_decide.ax_1_5	1450	3953	4.786475
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	63	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_slt_32._native.bv_decide.ax_1_5	1450	3953	4.786475
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	64	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ult_32._native.bv_decide.ax_1_5	1426	3881	4.668728
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	65	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_addw_li_to_addiw_sound._native.bv_decide.ax_1_5	1252	3179	3.562736
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	66	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule_imm._native.bv_decide.ax_1_5	2109	5933	8.297872
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	67	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.saddSat_refinement._native.bv_decide.ax_1_5	3376	8966	14.519487
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	68	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement_32._native.bv_decide.ax_1_5	1139	2732	2.901425
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	69	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ashr_refinement_32._native.bv_decide.ax_1_5	3801	11204	19.637243
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	70	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_slt_8._native.bv_decide.ax_1_5	1258	3377	3.866692
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	71	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_eq_8._native.bv_decide.ax_1_5	946	2441	2.490774
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	72	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.xor_refinement_32._native.bv_decide.ax_1_5	388	965	0.708296
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	73	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5	52169	155348	692.467112
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	74	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sgt_8._native.bv_decide.ax_1_5	1258	3377	3.866692
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	75	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fshrGeneral_refinement._native.bv_decide.ax_1_5	10732	31610	80.064900
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	76	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge._native.bv_decide.ax_1_5	1678	4637	5.941981
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	77	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_32._native.bv_decide.ax_1_5	13	8	0.001071
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	78	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.ushlSat_refinement._native.bv_decide.ax_1_5	30798	91808	339.533857
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	79	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_16_32._native.bv_decide.ax_1_5	278	590	0.363651
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	80	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_imm._native.bv_decide.ax_1_5	2121	5969	8.366169
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	81	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.and_refinement_1._native.bv_decide.ax_1_5	12	23	0.004480
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	82	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_uge_imm._native.bv_decide.ax_1_5	1782	4952	6.495427
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	83	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2Exact_neg_refinement._native.bv_decide.ax_1_5	197753	592376	4246.679887
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	84	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sge._native.bv_decide.ax_1_5	1702	4709	6.067340
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	85	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle._native.bv_decide.ax_1_5	1702	4709	6.067340
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	86	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_64._native.bv_decide.ax_1_5	13	8	0.001071
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	87	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.fold_srlw_li_to_srliw_sound._native.bv_decide.ax_1_5	3029	8687	13.910687
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	88	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5	58151	174050	807.780345
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	89	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_pos_refinement._native.bv_decide.ax_1_5	57536	172205	796.199636
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	90	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.abs_refinement._native.bv_decide.ax_1_5	2562	7103	10.589699
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	91	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_8_16._native.bv_decide.ax_1_5	13	8	0.001071
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	92	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orcb_refinement_y4._native.bv_decide.ax_1_5	650	1562	1.360247
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	93	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_1._native.bv_decide.ax_1_5	12	23	0.004480
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	94	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_czeroeqz_refinement_32._native.bv_decide.ax_1_5	556	1370	1.138771
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	95	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2_neg_refinement._native.bv_decide.ax_1_5	4696	13874	26.233924
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	96	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.orn_refinement._native.bv_decide.ax_1_5	196	197	0.082259
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	97	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.or_refinement_32._native.bv_decide.ax_1_5	260	581	0.356155
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	98	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.zext_refinement_16_32._native.bv_decide.ax_1_5	21	8	0.001071
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	99	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_32._native.bv_decide.ax_1_5	1450	3953	4.786475
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	100	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.constant_refinement_le64._native.bv_decide.ax_1_12	3181	8774	14.099794
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	101	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ne_8._native.bv_decide.ax_1_5	946	2441	2.490774
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	102	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_ule._native.bv_decide.ax_1_5	1678	4637	5.941981
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	103	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.andn_refinement._native.bv_decide.ax_1_5	196	197	0.082259
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	104	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2_pos_refinement._native.bv_decide.ax_1_5	4702	13892	26.280053
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	105	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.icmp_refinement_sle_8._native.bv_decide.ax_1_5	1258	3377	3.866692
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	106	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sext_refinement_1_32._native.bv_decide.ax_1_5	222	566	0.343753
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	107	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.select_refinement_1._native.bv_decide.ax_1_5	488	1058	0.802339
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	108	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_neg_refinement._native.bv_decide.ax_1_5	285001	854213	6973.521484

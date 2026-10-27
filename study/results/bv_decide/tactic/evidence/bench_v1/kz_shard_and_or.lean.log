@@ -1,0 +1,2 @@
+bvs shard_and_or #1: 6646 nodes, 18401 clauses, 6646 vars; 27480 steps, 56155 hints, 14 chunks; solve 137 ms, prep+defs 552 ms; kernel: base 6493 ms, chunks 33859 ms (max 2933 ms); total 41063 ms
+bvs: added shard_and_or.bvs4 (2063 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

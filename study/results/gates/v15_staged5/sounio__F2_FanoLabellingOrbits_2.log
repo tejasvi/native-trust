@@ -1,0 +1,4 @@
+$ lean sounio__F2_FanoLabellingOrbits_2.lean tc=v4.30.0-rc2 ntlib=/home/ntbuild/nt_fix14/v4.30.0-rc2/.lake/build/lib/lean start=2026-10-25T16:40:40Z
+PROVED `Sounio.FanoLabellingOrbits.fano_labelling_orbits_count._native.native_decide.ax_1_1` as `_ktr.sounio__F2_FanoLabellingOrbits_2.Sounio.FanoLabellingOrbits.fano_labelling_orbits_count._kernel.native_decide.ax_1_1`: kernel_ms=338066 native_axioms=1 rebuilt=0 copies=0 total_ms=338078 acc_fallback=0 pieces=42
+maxrss_kb 4536912 secs 338.73
+rc=0 end=2026-10-25T16:46:19Z

@@ -1,0 +1,76 @@
+import NativeTrust
+import Cpc.Proofs.Rules.Bv_comp_eliminate
+import F2_Cpc_Proofs_RuleSupport_Contract_0
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_0
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_1
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_10
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_11
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_12
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_13
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_14
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_15
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_16
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_17
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_18
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_19
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_2
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_20
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_21
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_22
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_23
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_24
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_25
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_26
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_27
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_28
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_29
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_3
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_30
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_4
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_5
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_6
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_7
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_8
+import F2_Cpc_Proofs_Rules_Bv_comp_eliminate_9
+import F2_Cpc_Proofs_Translation_Apply_0
+import F2_Cpc_Proofs_Translation_Apply_1
+import F2_Cpc_Proofs_Translation_Apply_2
+import F2_Cpc_Proofs_Translation_Apply_3
+import F2_Cpc_Proofs_Translation_Apply_4
+import F2_Cpc_Proofs_Translation_Apply_5
+import F2_Cpc_Proofs_Translation_Apply_6
+import F2_Cpc_Proofs_Translation_Base_0
+import F2_Cpc_Proofs_Translation_Base_1
+import F2_Cpc_Proofs_Translation_Base_10
+import F2_Cpc_Proofs_Translation_Base_11
+import F2_Cpc_Proofs_Translation_Base_12
+import F2_Cpc_Proofs_Translation_Base_13
+import F2_Cpc_Proofs_Translation_Base_14
+import F2_Cpc_Proofs_Translation_Base_15
+import F2_Cpc_Proofs_Translation_Base_16
+import F2_Cpc_Proofs_Translation_Base_17
+import F2_Cpc_Proofs_Translation_Base_18
+import F2_Cpc_Proofs_Translation_Base_2
+import F2_Cpc_Proofs_Translation_Base_3
+import F2_Cpc_Proofs_Translation_Base_4
+import F2_Cpc_Proofs_Translation_Base_5
+import F2_Cpc_Proofs_Translation_Base_6
+import F2_Cpc_Proofs_Translation_Base_7
+import F2_Cpc_Proofs_Translation_Base_8
+import F2_Cpc_Proofs_Translation_Base_9
+import F2_Cpc_Proofs_Translation_Datatypes_0
+import F2_Cpc_Proofs_Translation_Datatypes_1
+import F2_Cpc_Proofs_Translation_Full_0
+import F2_Cpc_Proofs_Translation_Inversions_0
+import F2_Cpc_Proofs_Translation_Inversions_1
+import F2_Cpc_Proofs_TypePreservation_Common_1
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+set_option nativeTrust.eprint true
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 0 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 1 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 2 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 3 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 4 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.Rules.Bv_comp_eliminate 5 (config := { split := 8, trace := true })

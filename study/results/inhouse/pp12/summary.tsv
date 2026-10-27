@@ -1,0 +1,12 @@
+project	PP12 order 12 v3
+source	supp 10.5281/zenodo.23643395
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	509 native_decide lines in 373 files (Z13 search slices; LRAT chunk checks)
+converted	0 of 4 checked; 0 theorems
+nt_cpu_h	0.44
+nt_wall_min	26
+native_build_cpu_h	Z13Kts slices 50-76 s each, Z13Arc slices 518-1,222 s each (build logs)
+hand_track	none
+hand_build_cpu_h	-
+checks	kdecide (900 s, 100G) on the search facts Z13Kts slice05 and facts05, Z13Arc slice3_00 (2,360 leaves) and Z13Design facts00: all out of memory after 329-518 s; the LRAT facts need the 61.5 GB of trimmed proofs that the release does not ship

@@ -1,0 +1,178 @@
+'Char2.D24.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkC1._native.native_decide.ax_1_1,
+ Char2.D24_checkInj._native.native_decide.ax_1_1]
+'Char2.D24.strip_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkC1._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_0._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_1._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_2._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_3._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_4._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_5._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_6._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_7._native.native_decide.ax_1_1,
+ Char2.D24_checkInj._native.native_decide.ax_1_1]
+'Char2.D24.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkC1._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_0._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_1._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_2._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_3._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_4._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_5._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_6._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_7._native.native_decide.ax_1_1,
+ Char2.D24_checkInj._native.native_decide.ax_1_1]
+'Char2.D24.far_from_NS' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkFar._native.native_decide.ax_1_1]
+'Char2.D24_stats' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_stats._native.native_decide.ax_1_1]
+'Char2.D24.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.D24_keyInj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkInj._native.native_decide.ax_1_1]
+'Char2.D24_checkC23H' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.D24_checkC23H_0._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_1._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_2._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_3._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_4._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_5._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_6._native.native_decide.ax_1_1,
+ Char2.D24_checkC23H_7._native.native_decide.ax_1_1]
+'Char2.CT25z8a0.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a0_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a0_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a1.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a1_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a1_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a2.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a2_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a2_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z4a0.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a0_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z4a0_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z4a1.sublevel_H1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a1_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z4a1_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a0.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a0_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a0_checkC23._native.native_decide.ax_1_1,
+ Char2.CT25z8a0_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a1.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a1_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a1_checkC23._native.native_decide.ax_1_1,
+ Char2.CT25z8a1_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a2.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a2_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z8a2_checkC23._native.native_decide.ax_1_1,
+ Char2.CT25z8a2_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z4a0.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a0_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z4a0_checkC23._native.native_decide.ax_1_1,
+ Char2.CT25z4a0_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z4a1.funnel_designs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a1_checkC1._native.native_decide.ax_1_1,
+ Char2.CT25z4a1_checkC23._native.native_decide.ax_1_1,
+ Char2.CT25z4a1_checkInj._native.native_decide.ax_1_1]
+'Char2.CT25z8a0.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a0_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.CT25z8a1.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a1_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.CT25z8a2.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z8a2_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.CT25z4a0.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a0_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.CT25z4a1.ns_available' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.CT25z4a1_checkNSAvail._native.native_decide.ax_1_1]
+'Char2.Net.n2_1_1_0_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n2_1_1_0_ok._native.native_decide.ax_1_1]
+'Char2.Net.n2_1_1_1_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n2_1_1_1_ok._native.native_decide.ax_1_1]
+'Char2.Net.n2_2_1_0_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n2_2_1_0_ok._native.native_decide.ax_1_1]
+'Char2.Net.n2_2_1_1_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n2_2_1_1_ok._native.native_decide.ax_1_1]
+'Char2.Net.n2_2_1_2_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n2_2_1_2_ok._native.native_decide.ax_1_1]
+'Char2.Net.n3_1_1_0_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n3_1_1_0_ok._native.native_decide.ax_1_1]
+'Char2.Net.n3_1_1_1_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n3_1_1_1_ok._native.native_decide.ax_1_1]
+'Char2.Net.n5_1_1_0_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n5_1_1_0_ok._native.native_decide.ax_1_1]
+'Char2.Net.n5_1_1_1_module' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Char2.Net.n5_1_1_1_ok._native.native_decide.ax_1_1]
+'Char2.funnel_designs_of_checks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.strip_H1_of_checks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.strip_H1_route_of_checks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.routeH_of_routeOK' depends on axioms: [propext, Quot.sound]
+'Char2.sublevel_H1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.Setting.prop52' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.lemma51' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.link_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Char2.Net.netOK_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

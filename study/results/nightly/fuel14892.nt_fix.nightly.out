@@ -1,0 +1,9 @@
+kernelize: `n1_fuel` proves the statement of `n1` with axioms [propext, Classical.choice, Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (77 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 4 kernel-reducible copies; 156 ms in total.
+kernelize: `n2_fuel` proves the statement of `n2` with axioms [propext, Classical.choice, Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (6 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 2 kernel-reducible copies; 63 ms in total.
+'n1_fuel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'n2_fuel' depends on axioms: [propext, Classical.choice, Quot.sound]
+kernelize: `n1_acc` proves the statement of `n1` with axioms [propext, Classical.choice, Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (0 ms of kernel evaluation); rebuilt 0 lemma(s)/definition(s); created 0 kernel-reducible copies; 77 ms in total.
+exit 0

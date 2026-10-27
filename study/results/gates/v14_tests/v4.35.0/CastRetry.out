@@ -1,0 +1,13 @@
+CastRetryTest.validDec: rule (some 1)
+CastRetryTest.instDecidableEqRes: rule (some 2)
+CastRetryTest.even'Dec: rule (some 4)
+CastRetryTest.odd'Dec: rule none
+CastRetryTest.fact1: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+CastRetryTest.fact2: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+CastRetryTest.fact2': castRetry=false proved; axioms [propext, Quot.sound]; castRetry=true proved; axioms [propext, Quot.sound]
+CastRetryTest.fact4: castRetry=false failed; castRetry=true proved; axioms [propext, Quot.sound]
+CastRetryTest.factNo: castRetry=false failed; castRetry=true failed
+'CastRetryTest.t1' depends on axioms: [propext, Quot.sound]
+'CastRetryTest.t2' depends on axioms: [propext, Quot.sound]
+'CastRetryTest.t4' depends on axioms: [propext, Quot.sound]
+rc=0

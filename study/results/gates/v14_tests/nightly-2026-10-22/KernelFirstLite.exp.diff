@@ -1,0 +1,22 @@
+4,6c4,8
+< KernelFirstLite.lean:48:32: error: Tactic `decide` failed to reduce
+<   @decide (countDown 5 = 0) (instDecidableEqNat (countDown 5) 0)
+< to `true` or `false`.
+---
+> KernelFirstLite.lean:48:32: error: Tactic `decide` failed for proposition
+>   countDown 5 = 0
+> because its `Decidable` instance
+>   instDecidableEqNat (countDown 5) 0
+> did not reduce to `isTrue` or `isFalse`.
+8,9c10,13
+< After unfolding the instances `instDecidableEqNat` and `Nat.decEq`, reduction got stuck at
+<   (countDown 5).beq 0
+---
+> After unfolding the instances `instDecidableEqNat` and `Nat.decEq`, reduction got stuck at the `Decidable` instance
+>   match h : (countDown 5).beq 0 with
+>   | true => isTrue ⋯
+>   | false => isFalse ⋯
+16c20
+< 'kl_wf' depends on axioms: [propext, Classical.choice, Quot.sound, kl_wf._native.native_decide.ax_1]
+---
+> 'kl_wf' depends on axioms: [propext, Quot.sound, kl_wf._native.native_decide.ax_1]

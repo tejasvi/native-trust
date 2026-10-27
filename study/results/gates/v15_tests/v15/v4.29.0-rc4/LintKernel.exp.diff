@@ -1,0 +1,20 @@
+9,15d8
+< LintKernel.lean:18:0: warning: native fact `lk_str._native.native_decide.ax_1_1` can never be checked by Lean's kernel: it reaches constants without a kernel definition
+< • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+<     via sumTok → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+< • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+<     via sumTok → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+< 
+< note: this linter can be disabled with `set_option linter.nativeTrust false`
+20c13
+< #native_decide_audit `LintKernel`: 10 native facts: 5 replaceable by `decide +kernel`, 2 need NativeTrust transformations, 2 blocked, 1 too expensive within the budget (2000 thousand heartbeats), 0 stuck
+---
+> #native_decide_audit `LintKernel`: 10 native facts: 5 replaceable by `decide +kernel`, 3 need NativeTrust transformations, 1 blocked, 1 too expensive within the budget (2000 thousand heartbeats), 0 stuck
+23,27c16
+< BLOCKED `lk_str._native.native_decide.ax_1_1` (native_decide): `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃`
+< • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+<     via sumTok → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+< • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+<     via sumTok → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+---
+> NATIVETRUST `lk_str._native.native_decide.ax_1_1` (native_decide): `String.Slice.foldl` has a registered @[kernel_replace] replacement; `kdecide`/`kernelize` prove it (N ms)

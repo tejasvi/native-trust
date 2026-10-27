@@ -1,0 +1,6 @@
+name=lido-srv3 toolchain=v4.31.0 sampled=30 proved_again=30 failed=0 compile_rc=0 compile_s=10
+export_rc=0 export_lines=70810 export_s=1
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 0.22 s 57240 KB
+con-ron_rc=0 :: con-ron: accepted 1412 declarations (--verified) | con-ron: 0.37 s 248372 KB
+checkers_s=1
+VERDICT nanoda=PASS(1847 decls) con-ron=PASS(1412 decls) kernel_theorems=30

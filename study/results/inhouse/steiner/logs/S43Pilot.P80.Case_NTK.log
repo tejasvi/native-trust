@@ -1,0 +1,375 @@
+can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:162:57: Unused tactic linter: `skip` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:163:2: Unused tactic linter: `all_goals (simp only [Bool.or_eq_true, beq_iff_eq] at *; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:169:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: S43/Sound/Record.lean:170:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: S43/Sound/Record.lean:169:49: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:169:57: Unused tactic linter: `skip` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:170:2: Unused tactic linter: `all_goals (simp only [Bool.or_eq_true, beq_iff_eq] at *; omega)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Record.lean:177:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Record.lean:192:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Record.lean:192:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: S43/Sound/Record.lean:230:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Record.lean:230:48: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Record.lean:231:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Record.lean:231:46: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Record.lean:308:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Record.lean:317:21: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Record.lean:318:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Record.lean:256:2: Unused tactic linter: `all_goals try (simp at h; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8990/9016] Replayed S43.Sound.Bridge
+warning: S43/Sound/Bridge.lean:168:77: Unused tactic linter: `subst_vars` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Bridge.lean:183:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:183:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:190:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:194:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:195:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:195:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:197:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:200:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:231:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:232:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:258:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:260:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:262:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:264:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:266:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:267:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:269:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:271:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: S43/Sound/Bridge.lean:273:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: S43/Sound/Bridge.lean:274:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [8991/9016] Replayed S43.Sound.Target
+warning: S43/Sound/Target.lean:84:4: Unused tactic linter: `all_goals try (simp at hv; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Target.lean:120:4: Unused tactic linter: `all_goals try (simp at hv; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8992/9016] Replayed S43.Sound.Walk
+warning: S43/Sound/Walk.lean:30:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: S43/Sound/Walk.lean:55:4: Unused tactic linter: `all_goals try (simp at h; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Walk.lean:77:4: Unused tactic linter: `all_goals try (simp at h; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: S43/Sound/Walk.lean:108:4: Unused tactic linter: `all_goals try (simp at h; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9002/9016] Replayed NativeTrust.Basic
+warning: NativeTrust/Basic.lean:28:0: Definition `accGen` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [9005/9016] Replayed NativeTrust.Copy
+warning: NativeTrust/Copy.lean:451:42: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:452:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:557:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1031:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1032:66: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1036:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1072:62: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1085:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1089:57: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [9006/9016] Replayed NativeTrust.StrLib
+warning: NativeTrust/StrLib.lean:100:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:104:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:184:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:231:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:246:52: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:247:85: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9007/9016] Replayed NativeTrust.CastFree
+warning: NativeTrust/CastFree.lean:235:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:352:64: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:355:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+⚠ [9008/9016] Replayed NativeTrust.Param
+warning: NativeTrust/Param.lean:181:58: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:195:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:199:53: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:287:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:288:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:294:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:295:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:483:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:496:49: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [9010/9016] Replayed NativeTrust.Kernel
+warning: NativeTrust/Kernel.lean:342:70: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:879:46: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2603:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2619:50: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2624:61: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2631:49: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+✖ [9016/9016] Building S43Pilot.P80.Case_NTK (302s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/steiner2/src/S43Pilot/P80/Case_NTK.lean -o /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean/S43Pilot/P80/Case_NTK.olean -i /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/lib/lean/S43Pilot/P80/Case_NTK.ilean -c /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/ir/S43Pilot/P80/Case_NTK.c --setup /home/ntbuild/work_migsample/inhouse/steiner2/src/.lake/build/ir/S43Pilot/P80/Case_NTK.setup.json --json
+error: Lean exited with code 137
+Some required targets logged failures:
+- S43Pilot.P80.Case_NTK
+error: build failed
+Command exited with non-zero status 1
+TIME wall=306.26 user=296.25 sys=10.25 maxrss_kb=110864412

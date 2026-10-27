@@ -1,0 +1,6 @@
+v13s-codegraff	Graff.PromptPrefix	-			NOT_BUILT						
+v13s-codegraff	Graff.PathConfine	Graff.PathConfine.walk_matches_snapshot._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1517528	2		nt_lines=74 last=pieces=8
+v13s-codegraff	Graff.BashPolicy	Graff.BashPolicy.cube_allowed_stays_cwd._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1700204	6		nt_lines=70 last=pieces=8
+v13s-codegraff	Graff.BashPolicy	Graff.BashPolicy.cube_allowed_implies_simple._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1613120	6		nt_lines=70 last=pieces=8
+v13s-codegraff	Graff.BashPolicy	Graff.BashPolicy.cube_external_never_allowed._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1701736	6		nt_lines=74 last=pieces=8
+v13s-codegraff	Graff.BashPolicy	Graff.BashPolicy.cube_allowed_is_verb._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1699580	6		nt_lines=70 last=pieces=8

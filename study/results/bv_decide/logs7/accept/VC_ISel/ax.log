@@ -1,0 +1,7 @@
+'bvs5fact_12.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_25.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs5_1 Veir.Data.RISCV.bitreverse_refinement true
+TYPE_IDENTICAL bvs5_2 Veir.Data.RISCV.bitreverse_refinement_32 true
+ax: wall=0.60 s maxrss=1646896 KB

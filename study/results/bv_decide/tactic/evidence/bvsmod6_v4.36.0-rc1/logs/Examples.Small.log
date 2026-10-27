@@ -1,0 +1,10 @@
+bvs ex_xor #1: 192 nodes, 479 clauses, 192 vars; 103 steps, 506 hints, 1 chunks; solve 18 ms, prep+defs 8 ms; kernel: base 122 ms, chunks 152 ms (max 152 ms); total 327 ms
+bvs: added ex_xor.bvs4 (6 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_and_or #1: 406 nodes, 1121 clauses, 406 vars; 282 steps, 3059 hints, 1 chunks; solve 19 ms, prep+defs 26 ms; kernel: base 313 ms, chunks 693 ms (max 693 ms); total 1056 ms
+bvs: added ex_and_or.bvs4 (13 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_mul_three #1: 336 nodes, 959 clauses, 336 vars; 267 steps, 5687 hints, 1 chunks; solve 21 ms, prep+defs 37 ms; kernel: base 271 ms, chunks 880 ms (max 880 ms); total 1212 ms
+bvs: added ex_mul_three.bvs4 (15 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_shift #1: 1067 nodes, 3104 clauses, 1067 vars; 1030 steps, 23740 hints, 2 chunks; solve 25 ms, prep+defs 146 ms; kernel: base 1140 ms, chunks 4009 ms (max 2947 ms); total 5326 ms
+bvs: added ex_shift.bvs4 (52 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'ex_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound, ex_mul_three._native.bv_decide.ax_1_5]
+'ex_mul_three.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]

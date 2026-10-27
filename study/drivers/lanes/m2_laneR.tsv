@@ -1,0 +1,4 @@
+sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	
+human-eval-lean	/home/ntbuild/repos/human-eval-lean	--skip-build
+veil	/home/ntbuild/repos/veil	--skip-build
+fx	/home/ntbuild/repos/FX/lean-fx-3	

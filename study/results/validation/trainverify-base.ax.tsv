@@ -1,0 +1,321 @@
+trainverify-base	denote.yoco_goals.CanonicalL21ExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.CanonicalL21Router	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.CanonicalL23Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.CanonicalL23Router	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.DistributedFaithfulRegression	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOut8007	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutB1	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutB2	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutB3	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutB4	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutB5	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutR1	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutR2	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutR3	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.FanOutS	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalFinalComposition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalToL14Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalToL15Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalToL16Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalToL17Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal1ExternalToL18Composition	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal2FaithfulFull	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal3SkipUnshuffleTransport	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulCheckpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL12BlocksCheckpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL13Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL13Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL13Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL14Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL14Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL14Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL15Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL15Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL15Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL16Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL16Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL16Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL17Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL17Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL17Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL18Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL18Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL18Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL19Assemble	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL19Attention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL19Score	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL20Checkpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL21Checkpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL22Checkpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal4PublicFaithfulL23Checkpoint	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal5Bridge_Auto	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal_1_FullRing	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Goal_3_Pins	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.IntermediateReconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L10Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L11Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12Block2ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12Block2ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12BoundaryTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulLinearChain	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulMaybeShuffle	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulMoEExpert	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulMoEGate	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulReplicatedBoundary	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulResidual	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulRouterEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulViewChain	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12MaybeShuffle	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L12ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulReplicatedBoundary	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L13ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L14ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L15ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L16ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L17ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L18ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19ZigzagMoEExpertDown	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L19ZigzagMoERouter	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L1MechanicalReconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L1MechanicalTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L1PerHeadTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L20FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L20FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L20FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L20FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L20FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L21FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L21FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L21FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L21FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L21FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L22FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L22FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L22FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L22FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L22FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulBlockTail	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulEntry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulExit	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulHead	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulLossGoals	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulMoEBranch	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulRouterProj	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L23FaithfulZigzagAttention	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L2Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L2to11FaithfulKVBoundaryA	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L2to11FaithfulKVBoundaryB	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L2to11FaithfulMultirefExits	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L3Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L4Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L5Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L6Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L7Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L8Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.L9Reconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer0DistributedMigration	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer10DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer11DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer12DistributedBoundaryContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer12DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer1DistributedMigration	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer1TokenDependencyCone	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer2DistributedMigration	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer6DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer7DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer8DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Layer9DistributedContinuation	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.MoEShardedReconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.Pattern_2_JointWitness	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ReplicaGroupWitness	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ResidualMoEReconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.RingAttnExtGears	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.RingTailBridge	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDChainCompute	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDChainHead	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7415	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7423	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7427	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7431	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7456	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7467	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7475	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7479	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFO7483	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL10C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL11C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL12BC	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL12C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL2M	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL2Ma	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL2Mb	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL6C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL7C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL8C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFSL9C	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFaithfulTransport	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDFanOutRep	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDGather4729	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMP4776	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMP4780	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMW7383	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMW7387	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMW7404	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMultirefChunk7460	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDMultirefGather8007	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDPH4685	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDPH4687	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDPH4689	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDQ7392	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDQ7396	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDQ7400	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDQKVShards	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRN4683	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRS4774	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRS4778	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRegionBridge	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRingBridge	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRingTransport	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDRotary	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDSwiglu4728	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer10C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer11C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer12BC_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer12C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer1TDC_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer2M_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer2M_1	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer2M_2	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer6C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer7C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer8C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTLayer9C_0	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTail4731	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTailEnd	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDTransportPilot	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDVW4777	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SDVW4781	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.SlidingCascade	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.YOCInputValueClasses	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.YOCOStructuralFacts	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagAttentionRegression	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagExitCuBridge	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL0Entry	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL0Residual	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL10Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL11Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL1Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL2Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL3Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL4Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL5Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL6Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL7Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL8Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagL9Body	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.ZigzagReconstruction	-			NOT_BUILT						
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_1	native_decide	True	PROVED		0	3411968	2		nt_lines=4 last=eval_ms=20
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_1	native_decide	True	PROVED		0	3268280	2		nt_lines=4 last=eval_ms=46
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_3	native_decide	True	PROVED		0	3427060	2		nt_lines=4 last=eval_ms=72
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_6	native_decide	True	PROVED		0	3294700	2		nt_lines=4 last=eval_ms=166
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_4	native_decide	True	PROVED		0	3452880	2		nt_lines=4 last=eval_ms=170
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_5	native_decide	True	PROVED		0	3322340	2		nt_lines=4 last=eval_ms=190
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_4	native_decide	True	PROVED		0	3351144	2		nt_lines=4 last=eval_ms=394
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_6	native_decide	True	PROVED		0	3494348	2		nt_lines=4 last=eval_ms=384
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_2	native_decide	True	PROVED		0	3261052	2		nt_lines=8 last=eval_ms=10
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_1	native_decide	True	PROVED		0	3427892	2		nt_lines=4 last=eval_ms=44
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_2	native_decide	True	PROVED		0	3427712	2		nt_lines=8 last=eval_ms=10
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_sm_7744_7744._native.native_decide.ax_5	native_decide	True	PROVED		0	3434676	2		nt_lines=4 last=eval_ms=81
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_6	native_decide	True	PROVED		0	3349816	2		nt_lines=4 last=eval_ms=359
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_3	native_decide	True	PROVED		0	3467192	2		nt_lines=4 last=eval_ms=198
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_5	native_decide	True	PROVED		0	3466424	2		nt_lines=4 last=eval_ms=182
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_4	native_decide	True	PROVED		0	3504720	2		nt_lines=4 last=eval_ms=380
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15446._native.native_decide.ax_2	native_decide	True	PROVED		0	3427256	2		nt_lines=8 last=eval_ms=11
+trainverify-base	denote.yoco_goals.GeneratedMultirefCertificates	TrainVerify.Denote.GeneratedPatterns.multirefCert_pm_7744_15438._native.native_decide.ax_3	native_decide	True	PROVED		0	3466912	2		nt_lines=4 last=eval_ms=190
+trainverify-base	denote.yoco_goals.CanonicalGoal3L23Routing	_private.denote.yoco_goals.CanonicalGoal3L23Routing.0.TrainVerify.Denote.GeneratedPatterns.g3l23_sm_not_written._native.native_decide.ax_1_5	native_decide	False	PROVED		0	3406040	2		nt_lines=4 last=eval_ms=25
+trainverify-base	denote.yoco_goals.CanonicalL18AttentionComposition	TrainVerify.Denote.GeneratedPatterns.canonical_l18_q_relation_from_incoming._native.native_decide.ax_1_20	native_decide	False	PROVED		0	3420240	2		nt_lines=8 last=eval_ms=48
+trainverify-base	denote.gpt_ly4_regen.Goal310Bridge	TrainVerify.Denote.GeneratedGoals.sm_frame_1064_self._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3436060	2		nt_lines=4 last=eval_ms=5
+trainverify-base	denote.yoco_goals.CanonicalL19Output	_private.denote.yoco_goals.CanonicalL19Output.0.TrainVerify.Denote.GeneratedPatterns.cL19_red_pm10254._native.native_decide.ax_1_3	native_decide	False	PROVED		0	3425764	2		nt_lines=4 last=eval_ms=71
+trainverify-base	denote.gpt_ly4_regen.Goal78Bridge	TrainVerify.Denote.GeneratedGoals.pm_full_g78_2722._native.native_decide.ax_1_7	native_decide	False	PROVED		0	3451908	2		nt_lines=4 last=eval_ms=193
+trainverify-base	denote.yoco_goals.L16ZigzagMoEResidualGate	_private.denote.yoco_goals.L16ZigzagMoEResidualGate.0.TrainVerify.Denote.GeneratedPatterns.l16ZMrg_red_pm10769._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3415728	2		nt_lines=4 last=eval_ms=127
+trainverify-base	denote.yoco_goals.L2OrdinaryMoEBoundary	_private.denote.yoco_goals.L2OrdinaryMoEBoundary.0.TrainVerify.Denote.GeneratedPatterns.l2OMO_red_pm8246._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3393920	2		nt_lines=4 last=eval_ms=47
+trainverify-base	denote.gpt_ly4_regen.Goal94Bridge	TrainVerify.Denote.GeneratedGoals.pm_frame_3072_self._native.native_decide.ax_1_2	native_decide	False	PROVED		0	3461116	2		nt_lines=4 last=eval_ms=167
+trainverify-base	denote.yoco_goals.CanonicalL3OrdinaryAttention	TrainVerify.Denote.GeneratedPatterns.l3o_residual5122_rel_of_raw._native.native_decide.ax_1_77	native_decide	False	PROVED		0	3426792	2		nt_lines=4 last=eval_ms=40
+trainverify-base	denote.yoco_goals.CanonicalL23Expert	_private.denote.yoco_goals.CanonicalL23Expert.0.TrainVerify.Denote.GeneratedPatterns.cL23e_red_pm11532._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3424108	2		nt_lines=4 last=eval_ms=57
+trainverify-base	denote.yoco_goals.CanonicalL12AttentionComposition	_private.denote.yoco_goals.CanonicalL12AttentionComposition.0.TrainVerify.Denote.GeneratedPatterns.cL12C_pm_gather_reduce._native.native_decide.ax_1_2	native_decide	False	PROVED		0	3429540	2		nt_lines=8 last=eval_ms=61
+trainverify-base	denote.yoco_goals.CanonicalL12ZigzagEntry	_private.denote.yoco_goals.CanonicalL12ZigzagEntry.0.TrainVerify.Denote.GeneratedPatterns.cL12E_red_pm15826._native.native_decide.ax_1_2	native_decide	False	PROVED		0	3464496	2		nt_lines=8 last=eval_ms=61
+trainverify-base	denote.yoco_goals.CanonicalL17KVGraph	TrainVerify.Denote.GeneratedPatterns.canonical_l17_k_pm0_reduce._native.native_decide.ax_1_28	native_decide	False	PROVED		0	3429656	2		nt_lines=8 last=eval_ms=62
+trainverify-base	denote.gpt_ly4_regen.Goal31Bridge	TrainVerify.Denote.GeneratedGoals.pm_full_g31_1703._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3418208	2		nt_lines=4 last=eval_ms=254
+trainverify-base	denote.gpt_ly4_regen.Goal177Bridge	TrainVerify.Denote.GeneratedGoals.pm_frame_2131_self._native.native_decide.ax_1_2	native_decide	False	PROVED		0	3515212	2		nt_lines=4 last=eval_ms=85
+trainverify-base	denote.gpt_ly4_regen.Goal125Bridge	TrainVerify.Denote.GeneratedGoals.pm_full_g125_1308._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3538464	2		nt_lines=4 last=eval_ms=33
+trainverify-base	denote.yoco_goals.CanonicalGoal3L13Routing	_private.denote.yoco_goals.CanonicalGoal3L13Routing.0.TrainVerify.Denote.GeneratedPatterns.g3l13_red_pm10063._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3418808	2		nt_lines=4 last=eval_ms=45
+trainverify-base	denote.yoco_goals.CanonicalL18KVGraph	TrainVerify.Denote.GeneratedPatterns.canonical_l18_v_sm_reduce._native.native_decide.ax_1_16	native_decide	False	PROVED		0	3421196	2		nt_lines=4 last=eval_ms=50
+trainverify-base	denote.yoco_goals.L3OrdinaryMoEDown	_private.denote.yoco_goals.L3OrdinaryMoEDown.0.TrainVerify.Denote.GeneratedPatterns.l3OMOd_red_pm8374._native.native_decide.ax_1_4	native_decide	False	PROVED		0	3487896	2		nt_lines=4 last=eval_ms=327
+trainverify-base	denote.yoco_goals.L2OrdinaryMoEDown	_private.denote.yoco_goals.L2OrdinaryMoEDown.0.TrainVerify.Denote.GeneratedPatterns.l2OMOd_red_sm5086._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3444996	2		nt_lines=4 last=eval_ms=142
+trainverify-base	denote.yoco_goals.CanonicalL2OrdinaryAttention	TrainVerify.Denote.GeneratedPatterns.l2o_raw5059_rel_of_qkv._native.native_decide.ax_1_14	native_decide	False	PROVED		0	3411708	1		nt_lines=4 last=eval_ms=9
+trainverify-base	denote.yoco_goals.L1OrdinaryMoEGraphReductions	TrainVerify.Denote.GeneratedPatterns.l1OMr_red_sm5019._native.native_decide.ax_1_4	native_decide	False	PROVED		0	3446180	2		nt_lines=4 last=eval_ms=146
+trainverify-base	denote.gpt_ly4_regen.Goal147Bridge	TrainVerify.Denote.GeneratedGoals.pm_inplace_g147_1678._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3533052	2		nt_lines=4 last=eval_ms=65
+trainverify-base	denote.gpt_ly4_regen.Goal122Bridge	TrainVerify.Denote.GeneratedGoals.sm_frame_738_self._native.native_decide.ax_1_6	native_decide	False	PROVED		0	3529684	2		nt_lines=4 last=eval_ms=9
+trainverify-base	denote.gpt_ly4_regen.Goal23Bridge	TrainVerify.Denote.GeneratedGoals.sm_frame_592_self._native.native_decide.ax_1_3	native_decide	False	PROVED		0	3360336	1		nt_lines=4 last=eval_ms=6
+trainverify-base	denote.yoco_goals.L0OrdinaryMoEDown	_private.denote.yoco_goals.L0OrdinaryMoEDown.0.TrainVerify.Denote.GeneratedPatterns.l0OMOd_red_pm7871._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3421008	2		nt_lines=4 last=eval_ms=44
+trainverify-base	denote.yoco_goals.CanonicalL20KVGraph	TrainVerify.Denote.GeneratedPatterns.canonical_l20_k_sm_reduce._native.native_decide.ax_1_31	native_decide	False	PROVED		0	3419812	2		nt_lines=4 last=eval_ms=48
+trainverify-base	denote.yoco_goals.L3OrdinaryMoEGraphReductions	TrainVerify.Denote.GeneratedPatterns.l3OMrg_red_sm5136._native.native_decide.ax_1_4	native_decide	False	PROVED		0	3442784	2		nt_lines=4 last=eval_ms=134
+trainverify-base	denote.gpt_ly4_regen.Goal244Bridge	TrainVerify.Denote.GeneratedGoals.pm_full_g244_3231._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3448160	2		nt_lines=4 last=eval_ms=31
+trainverify-base	denote.yoco_goals.CanonicalL10OrdinaryAttention	TrainVerify.Denote.GeneratedPatterns.l10o_residual5507_rel_from_boundary5485_of_qkv._native.native_decide.ax_1_23	native_decide	False	PROVED		0	3450812	2		nt_lines=4 last=eval_ms=164
+trainverify-base	denote.gpt_ly4_regen.Goal159Bridge	TrainVerify.Denote.GeneratedGoals.pm_frame_1818_self._native.native_decide.ax_1_7	native_decide	False	PROVED		0	3523248	2		nt_lines=4 last=eval_ms=71
+trainverify-base	denote.yoco_goals.CanonicalKVCacheOrdinaryDown	_private.denote.yoco_goals.CanonicalKVCacheOrdinaryDown.0.TrainVerify.Denote.GeneratedPatterns.cKVCOd_red_pm9685._native.native_decide.ax_1_7	native_decide	False	PROVED		0	3462464	2		nt_lines=4 last=eval_ms=207
+trainverify-base	denote.gpt_ly4_regen.Goal58Bridge	TrainVerify.Denote.GeneratedGoals.sm_frame_646_self._native.native_decide.ax_1_5	native_decide	False	PROVED		0	3392564	2		nt_lines=4 last=eval_ms=27
+trainverify-base	denote.yoco_goals.L2OrdinaryMoEDown	_private.denote.yoco_goals.L2OrdinaryMoEDown.0.TrainVerify.Denote.GeneratedPatterns.l2OMOd_red_pm12686._native.native_decide.ax_1_2	native_decide	False	PROVED		0	3421828	2		nt_lines=8 last=eval_ms=21
+trainverify-base	denote.yoco_goals.CanonicalGoal3L15Routing	_private.denote.yoco_goals.CanonicalGoal3L15Routing.0.TrainVerify.Denote.GeneratedPatterns.g3l15_pm_nodes._native.native_decide.ax_2	native_decide	False	PROVED		0	3420044	2		nt_lines=4 last=eval_ms=42
+trainverify-base	denote.yoco_goals.CanonicalL3OrdinaryAttention	TrainVerify.Denote.GeneratedPatterns.l3o_residual5122_rel_of_raw._native.native_decide.ax_1_58	native_decide	False	PROVED		0	3460288	2		nt_lines=4 last=eval_ms=170
+trainverify-base	denote.yoco_goals.CanonicalL20KVGraph	TrainVerify.Denote.GeneratedPatterns.canonical_l20_v_sm_reduce._native.native_decide.ax_1_29	native_decide	False	PROVED		0	3419268	2		nt_lines=4 last=eval_ms=42
+trainverify-base	denote.yoco_goals.CanonicalL15AttentionComposition	TrainVerify.Denote.GeneratedPatterns.canonical_l15_q_relation_from_incoming._native.native_decide.ax_1_39	native_decide	False	PROVED		0	3443660	2		nt_lines=4 last=eval_ms=127
+trainverify-base	denote.yoco_goals.L1OrdinaryMoEGraphReductions	TrainVerify.Denote.GeneratedPatterns.l1OMrg_red_pm12546._native.native_decide.ax_1_5	native_decide	False	PROVED		0	3459396	2		nt_lines=4 last=eval_ms=165
+trainverify-base	denote.gpt_ly4_regen.Goal144Bridge	TrainVerify.Denote.GeneratedGoals.pm_full_g144_1624._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3528812	2		nt_lines=4 last=eval_ms=29

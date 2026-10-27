@@ -1,0 +1,13 @@
+PrimeCerts.prime_babybear via PrimeCerts.prime_babybear._proof_1_1: kernel 4433 us (min of 5)
+PrimeCerts.prime_koalabear via PrimeCerts.prime_koalabear._proof_1_1: kernel 4768 us (min of 5)
+PrimeCerts.prime_mersenne31 via PrimeCerts.prime_mersenne31._proof_1_1: kernel 13044 us (min of 5)
+PrimeCerts.prime_goldilocks via PrimeCerts.prime_goldilocks._proof_1_1: kernel 16145 us (min of 5)
+PrimeCerts.prime_bn254_r via PrimeCerts.prime_bn254_r._proof_1_1: kernel 386110 us (min of 5)
+PrimeCerts.prime_bn254_q via PrimeCerts.prime_bn254_q._proof_1_1: kernel 425257 us (min of 5)
+PrimeCerts.prime_secp256k1_p via PrimeCerts.prime_secp256k1_p._proof_1_1: kernel 454416 us (min of 5)
+PrimeCerts.prime_secp256k1_n via PrimeCerts.prime_secp256k1_n._proof_1_1: kernel 335982 us (min of 5)
+PrimeCerts.prime_bls12_381_r via PrimeCerts.prime_bls12_381_r._proof_1_1: kernel 285960 us (min of 5)
+PrimeCerts.prime_curve25519_p via PrimeCerts.prime_curve25519_p._proof_1_1: kernel 405072 us (min of 5)
+PrimeCerts.prime_secp256k1_p_pow via PrimeCerts.prime_secp256k1_p_pow._proof_1_1: kernel 486394 us (min of 5)
+PrimeCerts.prime_curve25519_p_pow via PrimeCerts.prime_curve25519_p_pow._proof_1_1: kernel 396598 us (min of 5)
+WALL 22.45 s  MAXRSS 2251804 KB

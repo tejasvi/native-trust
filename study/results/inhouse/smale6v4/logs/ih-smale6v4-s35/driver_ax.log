@@ -1,0 +1,6 @@
+2026-10-26T02:49:20Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=1329 modules=1329
+native axioms=12 inner=0 outer_todo=12
+2026-10-26T02:57:16Z summary ERROR=9 FAILED=1 PROVED=2
+2026-10-26T05:43:10Z ax pkg=/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=1329 modules=1329
+native axioms=12 inner=0 outer_todo=10
+2026-10-26T06:08:41Z summary ERROR=4

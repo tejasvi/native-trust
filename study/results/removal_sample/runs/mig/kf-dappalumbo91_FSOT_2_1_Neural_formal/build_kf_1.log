@@ -1,0 +1,17 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +FSOTNeural.Authority +FSOTNeural.CellTypes +FSOTNeural.Certificate +FSOTNeural.Codon +FSOTNeural.CurriculumGates +FSOTNeural.Expression +FSOTNeural.FixedLattice +FSOTNeural.FullSpine +FSOTNeural.IntelBio +FSOTNeural.NeuroFold +FSOTNeural.PairWeight +FSOTNeural.WetLabGates +FSOTNeural.WetStack
+✔ [4/15] Built FSOTNeural.Expression (258ms)
+✔ [6/17] Built FSOTNeural.NeuroFold (756ms)
+✔ [7/17] Built FSOTNeural.FixedLattice (847ms)
+✔ [8/17] Built FSOTNeural.WetStack (867ms)
+✔ [9/17] Built FSOTNeural.Authority (970ms)
+✔ [10/17] Built FSOTNeural.CellTypes (948ms)
+✔ [11/17] Built FSOTNeural.WetLabGates (953ms)
+✔ [12/17] Built FSOTNeural.PairWeight (731ms)
+✔ [13/17] Built FSOTNeural.CurriculumGates (706ms)
+✔ [14/17] Built FSOTNeural.Codon (1.5s)
+✔ [15/17] Built FSOTNeural.FullSpine (695ms)
+✔ [16/17] Built FSOTNeural.IntelBio (745ms)
+✔ [17/17] Built FSOTNeural.Certificate (1.3s)
+Build completed successfully (17 jobs).
+TIME wall=3.26 user=8.64 sys=2.36 maxrss_kb=1704560
+rc=0 secs=3

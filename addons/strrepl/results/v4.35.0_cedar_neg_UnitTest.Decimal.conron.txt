@@ -1,0 +1,3 @@
+con-ron: declined: non-standard axiom [at axiom UnitTest.Decimal.test1._native.native_decide.ax_1_1, fold position 4139] (--verified) t=0.367s
+Command exited with non-zero status 2
+con-ron: 0.37 s 133304 KB

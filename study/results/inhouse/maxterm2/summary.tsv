@@ -1,0 +1,12 @@
+project	maximum term v2 (maxterm51a), the native version
+source	maxterm51a v2 record (native Mt51aData; the v3 record 10.5281/zenodo.23548812 is kernel-only, README.md:142-143)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	44 native axioms (one native_decide check per part, Mt51aData), used by the theorems listed in lean/AXIOMS.txt
+converted	0 of 12 sampled facts (seed 20261026); 0 theorems
+nt_cpu_h	see summary.md
+nt_wall_min	see summary.md
+native_build_cpu_h	lake build Mt51aData.Main on the box: 655 s wall, 1,174 s user; release: about 20 minutes on a multi-core machine (v2 README.md:139)
+hand_track	v3: Mt51aK (kernel only)
+hand_build_cpu_h	159 CPU-hours for the separate build (v3 README.md:182-183)
+checks	driver pass 1 (900 s, 48 GiB) on 12 of 44 axioms: 9 kernel deep recursion, 3 out of memory; heavy on up to 4 (if reached before the final)

@@ -1,0 +1,76 @@
+{
+ "census0": {
+  "secs": 4,
+  "failed": []
+ },
+ "time0": {
+  "rc": 0,
+  "secs": 0.6,
+  "running": [],
+  "failed_mods": [],
+  "rss_killer": null,
+  "thread_fail": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5,
+  "rss_killed": false,
+  "wall": 0.6,
+  "cpu": 0.7,
+  "maxrss_kb": 773172,
+  "peak_lean": 1,
+  "built": {
+   "Chronofold.AgdFecu": 0.275
+  },
+  "errors": [],
+  "n_built": 1,
+  "tail": "",
+  "deleted": 7
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 0.6,
+   "cpu": 0.7,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "bumps": {},
+ "time1": {
+  "rc": 0,
+  "secs": 0.6,
+  "running": [],
+  "failed_mods": [],
+  "rss_killer": null,
+  "thread_fail": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5,
+  "rss_killed": false,
+  "wall": 0.64,
+  "cpu": 0.8,
+  "maxrss_kb": 774608,
+  "peak_lean": 1,
+  "built": {
+   "Chronofold.AgdFecu": 0.262
+  },
+  "errors": [],
+  "n_built": 1,
+  "tail": "",
+  "deleted": 7
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.39,
+  "cpu": 0.3,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ }
+}

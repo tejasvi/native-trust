@@ -1,0 +1,317 @@
+03:01:10 gate ok: MemAvailable 478 >= 264
+03:01:10 macro2 rc=0 0.47	830296
+-rw-rw-r-- 1 ntbuild ntbuild   3178 Oct 25 03:01 BVDecide.ilean
+lrwxrwxrwx 1 ntbuild ntbuild     94 Oct 25 03:01 BVDecide.ilean.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.ilean.hash
+-rw-rw-r-- 1 ntbuild ntbuild  48616 Oct 25 03:01 BVDecide.ir
+lrwxrwxrwx 1 ntbuild ntbuild     91 Oct 25 03:01 BVDecide.ir.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.ir.hash
+-rw-rw-r-- 1 ntbuild ntbuild    176 Oct 25 03:01 BVDecide.ir.sig
+lrwxrwxrwx 1 ntbuild ntbuild     95 Oct 25 03:01 BVDecide.ir.sig.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.ir.sig.hash
+-rw-rw-r-- 1 ntbuild ntbuild  76792 Oct 25 03:01 BVDecide.olean
+lrwxrwxrwx 1 ntbuild ntbuild     94 Oct 25 03:01 BVDecide.olean.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.olean.hash
+-rw-rw-r-- 1 ntbuild ntbuild 132904 Oct 25 03:01 BVDecide.olean.private
+lrwxrwxrwx 1 ntbuild ntbuild    102 Oct 25 03:01 BVDecide.olean.private.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.olean.private.hash
+-rw-rw-r-- 1 ntbuild ntbuild   2472 Oct 25 03:01 BVDecide.olean.server
+lrwxrwxrwx 1 ntbuild ntbuild    101 Oct 25 03:01 BVDecide.olean.server.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.olean.server.hash
+lrwxrwxrwx 1 ntbuild ntbuild     89 Oct 25 03:01 BVDecide.trace -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/BVDecide.trace
+drwxrwxr-x 2 ntbuild ntbuild   4096 Oct 25 03:01 PBVDecide
+lrwxrwxrwx 1 ntbuild ntbuild     90 Oct 25 03:01 PBVDecide.ilean -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ilean
+lrwxrwxrwx 1 ntbuild ntbuild     95 Oct 25 03:01 PBVDecide.ilean.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ilean.hash
+lrwxrwxrwx 1 ntbuild ntbuild     87 Oct 25 03:01 PBVDecide.ir -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ir
+lrwxrwxrwx 1 ntbuild ntbuild     92 Oct 25 03:01 PBVDecide.ir.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ir.hash
+lrwxrwxrwx 1 ntbuild ntbuild     91 Oct 25 03:01 PBVDecide.ir.sig -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ir.sig
+lrwxrwxrwx 1 ntbuild ntbuild     96 Oct 25 03:01 PBVDecide.ir.sig.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.ir.sig.hash
+lrwxrwxrwx 1 ntbuild ntbuild     90 Oct 25 03:01 PBVDecide.olean -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean
+lrwxrwxrwx 1 ntbuild ntbuild     95 Oct 25 03:01 PBVDecide.olean.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean.hash
+lrwxrwxrwx 1 ntbuild ntbuild     98 Oct 25 03:01 PBVDecide.olean.private -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean.private
+lrwxrwxrwx 1 ntbuild ntbuild    103 Oct 25 03:01 PBVDecide.olean.private.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean.private.hash
+lrwxrwxrwx 1 ntbuild ntbuild     97 Oct 25 03:01 PBVDecide.olean.server -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean.server
+lrwxrwxrwx 1 ntbuild ntbuild    102 Oct 25 03:01 PBVDecide.olean.server.hash -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.olean.server.hash
+lrwxrwxrwx 1 ntbuild ntbuild     90 Oct 25 03:01 PBVDecide.trace -> /home/ntbuild/repos_s/opencompl_veir/.lake/build/lib/lean/Veir/Meta/Tactic/PBVDecide.trace
+03:01:33 realm2 rc=0 22.95	942496
+bv_kdecide calls: 68
+03:01:34 check2m2 rc=0 0.77	1597112
+CHECK2 RealM.RISCVCombinesProofs: 341 constants, 0 `_native` names; 68 theorems/definitions: 68 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+03:01:34 gate ok: MemAvailable 421 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod5_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v6/veir; start 2026-10-25T03:01:34Z
+03:35:24 RealK/ISel_sdivwPow2Exact_pos_refinement.lean rc=0 2029.87	12505496
+03:35:25 CheckK_ISel_sdivwPow2Exact_pos_refinement.lean rc=0 0.76	1638772
+progress lines: 1
+CHECK RealK.ISel_sdivwPow2Exact_pos_refinement: 1174 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T03:35:25Z
+03:35:25 gate ok: MemAvailable 335 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod5_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v6/veir; start 2026-10-25T03:35:25Z
+04:09:18 RealK/ISel_sdivwPow2Exact_neg_refinement.lean rc=0 2033.62	12661248
+04:09:19 CheckK_ISel_sdivwPow2Exact_neg_refinement.lean rc=0 0.74	1641400
+progress lines: 1
+CHECK RealK.ISel_sdivwPow2Exact_neg_refinement: 1160 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T04:09:19Z
+04:09:19 gate ok: MemAvailable 411 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod5_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v6/veir; start 2026-10-25T04:09:19Z
+04:38:36 RealK/ISel_sdivPow2Exact_pos_refinement.lean rc=0 1756.30	15734664
+04:38:36 CheckK_ISel_sdivPow2Exact_pos_refinement.lean rc=0 0.70	1635004
+progress lines: 1
+CHECK RealK.ISel_sdivPow2Exact_pos_refinement: 1058 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T04:38:36Z
+04:38:36 gate ok: MemAvailable 419 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod5_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v6/veir; start 2026-10-25T04:38:36Z
+05:30:25 RealK/ISel_sdivPow2Exact_neg_refinement.lean rc=0 3108.27	17587996
+05:30:25 CheckK_ISel_sdivPow2Exact_neg_refinement.lean rc=0 0.76	1653056
+progress lines: 1
+CHECK RealK.ISel_sdivPow2Exact_neg_refinement: 1548 constants, 108 `_native` names; 180 theorems: 72 standard axioms only, 108 with native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8, Veir.Data.RISCV.icmp_refinement_eq_32, Veir.Data.RISCV.ssubSat_refinement, Veir.Data.RISCV.ushlSat_refinement, Veir.Data.RISCV.sext_refinement_16_32, Veir.Data.RISCV.zext_refinement_1_64, Veir.Data.RISCV.fshr_roriw_refinement], 0 other []
+end 2026-10-25T05:30:25Z
+05:30:25 gate ok: MemAvailable 366 >= 264
+05:30:26 Check2K_ISel_sdivPow2Exact_neg_refinement.lean rc=0 0.85	1658672
+CHECK2 RealK.ISel_sdivPow2Exact_neg_refinement: 1548 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:30:27 Check2K_ISel_sdivPow2Exact_pos_refinement.lean rc=0 0.84	1643120
+CHECK2 RealK.ISel_sdivPow2Exact_pos_refinement: 1058 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:30:28 Check2K_ISel_sdivwPow2Exact_neg_refinement.lean rc=0 0.82	1645868
+CHECK2 RealK.ISel_sdivwPow2Exact_neg_refinement: 1160 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:30:29 Check2K_ISel_sdivwPow2Exact_pos_refinement.lean rc=0 0.80	1646000
+CHECK2 RealK.ISel_sdivwPow2Exact_pos_refinement: 1174 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:30:29 gate ok: MemAvailable 355 >= 264
+05:30:29 Check2D_CompositeHeader.lean rc=0 0.71	1529744
+CHECK2 RealD.CompositeHeader: 157 constants, 2 `_native` names; 98 theorems/definitions: 96 standard axioms only, 2 use this module's native axioms [Model.CompositeHeader.readBe16_be16, Model.CompositeHeader.readBe64_be64], 0 use only imported native axioms [], 0 other
+05:30:30 Check2K_CompositeHeader.lean rc=0 0.72	1552288
+CHECK2 RealK.CompositeHeader: 167 constants, 0 `_native` names; 98 theorems/definitions: 98 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:30:30 gate ok: MemAvailable 351 >= 264
+05:30:30 RealK2/Serialization.lean rc=1 0.07	183252
+05:30:31 Check2D_Serialization.lean rc=0 0.72	1530932
+CHECK2 RealD.Serialization: 48 constants, 1 `_native` names; 8 theorems/definitions: 3 standard axioms only, 5 use this module's native axioms [Proofs.Serialization.readBe32_be32_nil, Proofs.Serialization.readBe32_be32, Proofs.Serialization.decode_encode_composite, Proofs.Serialization.decodeBundle_encodeBundle, Proofs.Serialization.decode_encode], 0 use only imported native axioms [], 0 other
+05:30:32 Check2K_Serialization.lean rc=0 0.71	1555320
+CHECK2 RealK.Serialization: 52 constants, 0 `_native` names; 8 theorems/definitions: 6 standard axioms only, 0 use this module's native axioms [], 2 use only imported native axioms [(Proofs.Serialization.decode_encode_composite, [Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9, Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9]), (Proofs.Serialization.decode_encode, [Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9, Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9])], 0 other
+05:30:32 Check22_Serialization.lean rc=1 0.18	524976
+Check22_Serialization.lean:1:0: error: object file '/home/ntbuild/work_bvtac/real_v3/natuvea_proofs/RealK2/Serialization.olean' of module RealK2.Serialization does not exist
+05:30:32 gate ok: MemAvailable 347 >= 264
+05:30:33 Check2D_StackBoundaries.lean rc=0 0.68	1528496
+CHECK2 RealD.StackBoundaries: 570 constants, 1 `_native` names; 373 theorems/definitions: 371 standard axioms only, 2 use this module's native axioms [AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete, AsiStackProofs.StackBoundaries.unauthorized_external_action_cannot_be_admitted], 0 use only imported native axioms [], 0 other
+05:30:33 Check2K_StackBoundaries.lean rc=0 0.74	1552932
+CHECK2 RealK.StackBoundaries: 574 constants, 0 `_native` names; 373 theorems/definitions: 373 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:30:33 gate ok: MemAvailable 343 >= 264
+toolchain leanprover/lean4:v4.33.1; start 2026-10-25T05:30:33Z
+BVS.LratBits rc=0 0.25	334948
+BVS.LratBitsSound rc=0 0.33	391620
+BVS.Blast rc=0 0.54	400408
+BVS.Lrat.Trie rc=0 0.48	445496
+BVS.Sound.Basic rc=0 0.43	444656
+BVS.Lrat.Chain rc=0 0.52	451720
+BVS.Sound.Circuits rc=0 0.60	560152
+BVS.Sound.Bits rc=0 0.40	442336
+BVS.Sound.Shifts rc=0 0.46	439920
+BVS.Sound.Unary rc=0 0.25	426960
+BVS.Sound.Expr rc=0 0.62	412856
+BVS.Sound.CNF rc=0 0.26	418984
+BVS.Lrat.LeafTree rc=0 0.45	412140
+BVS.Unsat rc=0 0.30	400220
+BVS.SplitBase rc=0 0.59	458684
+BVS.Driver.Core rc=0 1.86	908220
+BVS.Driver.Select rc=0 1.11	869084
+BVS.Driver.Split rc=0 1.19	888352
+BVS.Driver.Group rc=0 0.88	858924
+BVS.Tactic rc=0 1.37	895880
+BVS rc=0 0.38	819172
+Examples.Small rc=0 9.55	2209452
+Examples.Tactic rc=0 34.65	2504596
+Examples.TacticModule rc=0 5.63	1215976
+end 2026-10-25T05:31:37Z
+05:31:37 gate ok: MemAvailable 329 >= 264
+real clean (v4.33.1) with bvsmod5_v4.33.1 in /home/ntbuild/work_bvtac/real_v6/clean; start 2026-10-25T05:31:37Z
+05:31:41 RealD/ByteDecomposition.lean rc=0 4.13	1751000
+05:31:42 CheckD_ByteDecomposition.lean rc=0 1.33	2685944
+05:36:27 RealK/ByteDecomposition.lean rc=0 284.64	7015704
+05:36:28 CheckK_ByteDecomposition.lean rc=0 1.31	2716124
+progress lines: 1
+CHECK RealD.ByteDecomposition: 10 constants, 1 `_native` names; 6 theorems: 5 standard axioms only, 1 with native axioms [Gadgets.ByteDecomposition.Theorems.soundness], 0 other []
+CHECK RealK.ByteDecomposition: 119 constants, 0 `_native` names; 5 theorems: 5 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T05:36:28Z
+05:36:28 gate ok: MemAvailable 319 >= 264
+05:36:29 Check2D_ByteDecomposition.lean rc=0 1.38	2696016
+CHECK2 RealD.ByteDecomposition: 10 constants, 1 `_native` names; 6 theorems/definitions: 5 standard axioms only, 1 use this module's native axioms [Gadgets.ByteDecomposition.Theorems.soundness], 0 use only imported native axioms [], 0 other
+05:36:31 Check2K_ByteDecomposition.lean rc=0 1.40	2722752
+CHECK2 RealK.ByteDecomposition: 119 constants, 0 `_native` names; 5 theorems/definitions: 5 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:31 gate ok: MemAvailable 310 >= 264
+05:36:32 Check2D_Bitwise.lean rc=0 1.37	2659592
+CHECK2 RealD.Bitwise: 25 constants, 1 `_native` names; 17 theorems/definitions: 16 standard axioms only, 1 use this module's native axioms [not64_eq_sub], 0 use only imported native axioms [], 0 other
+05:36:34 Check2K_Bitwise.lean rc=0 1.38	2683476
+CHECK2 RealK.Bitwise: 29 constants, 0 `_native` names; 17 theorems/definitions: 17 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:35 Check2D_And8.lean rc=0 1.41	2754828
+CHECK2 RealD.And8: 59 constants, 1 `_native` names; 29 theorems/definitions: 23 standard axioms only, 6 use this module's native axioms [Gadgets.And.And8.and_times_two_add_xor, Gadgets.And.And8.circuit, Gadgets.And.And8.xor_le_add, Gadgets.And.And8.completeness, Gadgets.And.And8.two_and_le_add, Gadgets.And.And8.soundness], 0 use only imported native axioms [], 0 other
+05:36:37 Check2K_And8.lean rc=0 1.45	2779648
+CHECK2 RealK.And8: 63 constants, 0 `_native` names; 29 theorems/definitions: 29 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:38 Check2D_Or8.lean rc=0 1.44	2755164
+CHECK2 RealD.Or8: 71 constants, 1 `_native` names; 30 theorems/definitions: 24 standard axioms only, 6 use this module's native axioms [_private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor, _private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor', Gadgets.Or.Or8.completeness, _private.RealD.Or8.0.Gadgets.Or.Or8.two_or_ge_add, Gadgets.Or.Or8.soundness, Gadgets.Or.Or8.circuit], 0 use only imported native axioms [], 0 other
+05:36:39 Check2K_Or8.lean rc=0 1.45	2782588
+CHECK2 RealK.Or8: 75 constants, 0 `_native` names; 30 theorems/definitions: 30 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:39 gate ok: MemAvailable 298 >= 264
+05:36:40 Check2D_PBVExamples.lean rc=0 0.78	1570068
+CHECK2 RealD.PBVExamples: 28 constants, 5 `_native` names; 5 theorems/definitions: 0 standard axioms only, 5 use this module's native axioms [_private.RealD.PBVExamples.0.Veir.Data.PBV.trace_append, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend], 0 use only imported native axioms [], 0 other
+05:36:41 Check2K_PBVExamples.lean rc=0 1.06	1620572
+CHECK2 RealK.PBVExamples: 86 constants, 0 `_native` names; 5 theorems/definitions: 5 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:42 Check2D_Memory.lean rc=0 0.79	1602824
+CHECK2 RealD.Memory: 117 constants, 2 `_native` names; 83 theorems/definitions: 79 standard axioms only, 4 use this module's native axioms [Veir.MemoryState.memcpy, Veir.MemoryState.llvmLoad, Veir.MemoryState.memmove, Veir.MemoryState.loadByte64], 0 use only imported native axioms [], 0 other
+05:36:43 Check2K_Memory.lean rc=0 0.77	1626968
+CHECK2 RealK.Memory: 125 constants, 0 `_native` names; 83 theorems/definitions: 83 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:44 Check2D_ArithToLLVM.lean rc=0 0.77	1580488
+CHECK2 RealD.ArithToLLVM: 36 constants, 3 `_native` names; 7 theorems/definitions: 4 standard axioms only, 3 use this module's native axioms [Veir.Data.LLVM.Int.addui_extended_lowering, Veir.Data.LLVM.Int.floordivsi_lowering, Veir.Data.LLVM.Int.ceildivsi_lowering], 0 use only imported native axioms [], 0 other
+05:36:44 Check2K_ArithToLLVM.lean rc=0 0.79	1605304
+CHECK2 RealK.ArithToLLVM: 50 constants, 0 `_native` names; 8 theorems/definitions: 8 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:45 Check2D_RISCVCombinesProofs.lean rc=0 0.76	1569808
+CHECK2 RealD.RISCVCombinesProofs: 185 constants, 39 `_native` names; 68 theorems/definitions: 29 standard axioms only, 39 use this module's native axioms [Veir.Data.RISCV.zexth_and_right, Veir.Data.RISCV.zextw_xor, Veir.Data.RISCV.drop_sextw_sb, Veir.Data.RISCV.zextb_zextb, Veir.Data.RISCV.sextw_xor, Veir.Data.RISCV.zextb_and_left], 0 use only imported native axioms [], 0 other
+05:36:46 Check2K_RISCVCombinesProofs.lean rc=0 0.81	1597584
+CHECK2 RealK.RISCVCombinesProofs: 343 constants, 0 `_native` names; 69 theorems/definitions: 69 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+05:36:47 Check2D_ISelA.lean rc=0 0.81	1597412
+CHECK2 RealD.ISelA: 508 constants, 109 `_native` names; 171 theorems/definitions: 62 standard axioms only, 109 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:36:48 Check2K_ISelA.lean rc=0 1.18	1624440
+CHECK2 RealK.ISelA: 1634 constants, 8 `_native` names; 172 theorems/definitions: 164 standard axioms only, 8 use this module's native axioms [Veir.Data.RISCV.sdivwPow2Exact_pos_refinement, Veir.Data.RISCV.constant_refinement_le64, Veir.Data.RISCV.sdivPow2Exact_pos_refinement, Veir.Data.RISCV.sdivwPow2Exact_neg_refinement, Veir.Data.RISCV.sdivwPow2_pos_refinement, Veir.Data.RISCV.sdivwPow2_neg_refinement], 0 use only imported native axioms [], 0 other
+05:36:49 Check2K_ISel_sshlSat_refinement.lean rc=0 1.00	1632180
+CHECK2 RealK.ISel_sshlSat_refinement: 860 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:36:50 Check2K_ISel_sdivwPow2_pos_refinement.lean rc=0 1.05	1632264
+CHECK2 RealK.ISel_sdivwPow2_pos_refinement: 916 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:36:51 Check2K_ISel_sdivwPow2_neg_refinement.lean rc=0 0.77	1644268
+CHECK2 RealK.ISel_sdivwPow2_neg_refinement: 1176 constants, 108 `_native` names; 172 theorems/definitions: 64 standard axioms only, 108 use this module's native axioms [Veir.Data.RISCV.fshr_ror_refinement_32, Veir.Data.RISCV.sext_refinement_8_16, Veir.Data.RISCV.select_czeroeqz_refinement, Veir.Data.RISCV.usubSat_refinement, Veir.Data.RISCV.icmp_refinement_uge_8, Veir.Data.RISCV.icmp_refinement_ule_8], 0 use only imported native axioms [], 0 other
+05:36:51 gate ok: MemAvailable 322 >= 264
+export rc=0 bytes=24032567 time,rss=1.35,1673184; native names in export: 
+nanoda rc=0 time,rss=3.23,299260: Checked 4413 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 
+05:36:56 gate ok: MemAvailable 317 >= 264
+export rc=0 bytes=81847921 time,rss=3.13,1710096; native names in export: _native 
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.64,85120: Error: export file declares unpermitted axiom "_private.RealD.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._native.bv_decide.ax_1"  run with `-h` or `--help` for help 
+05:36:59 gate ok: MemAvailable 307 >= 264
+toolchain leanprover/lean4:v4.35.0; start 2026-10-25T05:36:59Z
+BVS.LratBits rc=0 0.23	492684
+BVS.LratBitsSound rc=0 0.31	530964
+BVS.Blast rc=0 0.52	705100
+BVS.Lrat.Trie rc=0 0.44	737904
+BVS.Sound.Basic rc=0 0.41	741244
+BVS.Lrat.Chain rc=0 0.50	752096
+BVS.Sound.Circuits rc=0 0.56	788788
+BVS.Sound.Bits rc=0 0.42	731148
+BVS.Sound.Shifts rc=0 0.47	728724
+BVS.Sound.Unary rc=0 0.30	724516
+BVS.Sound.Expr rc=0 0.62	708772
+BVS.Sound.CNF rc=0 0.31	716112
+BVS.Lrat.LeafTree rc=0 0.45	713616
+BVS.Unsat rc=0 0.34	703864
+BVS.SplitBase rc=0 0.60	754240
+BVS.Driver.Core rc=0 1.77	1661016
+BVS.Driver.Select rc=0 1.22	1626952
+BVS.Driver.Split rc=0 1.18	1634676
+BVS.Driver.Group rc=0 0.90	1616148
+BVS.Tactic rc=0 1.37	1655052
+BVS rc=0 0.55	1577848
+Examples.GroupA rc=0 0.21	670864
+Examples.GroupB rc=0 0.21	675452
+Examples.Group rc=0 1.45	1652568
+Examples.ShardFacts rc=0 0.43	709612
+Examples.Small rc=0 8.65	2160140
+Examples.SplitFacts rc=0 0.38	693000
+Examples.Tactic rc=0 31.71	2353180
+Examples.UnaryOps rc=0 10.54	2274032
+end 2026-10-25T05:38:07Z
+05:38:07 gate: MemAvailable 239 < 264, waiting
+05:39:07 gate ok: MemAvailable 322 >= 264
+run Check2.lean on bvs_r12; start 2026-10-25T05:39:07Z
+rc=0 time_s,maxrss_kb=0.59,1591268 end 2026-10-25T05:39:07Z
+'k_xor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_and_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_cpop_not' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_config' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_uint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_bool' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_have' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_two_sync' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_heartbeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_enum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_struct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KEx.k_pub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ex_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound, ex_mul_three._native.bv_decide.ax_1_5]
+MODULE Examples.Tactic: 198 constants, 0 `_native` names [], 0 axioms []
+MODULE Examples.Small: 42 constants, 4 `_native` names [ex_and_or._native.bv_decide.ax_1_5, ex_xor._native.bv_decide.ax_1_5, ex_mul_three._native.bv_decide.ax_1_5, ex_shift._native.bv_decide.ax_1_5], 4 axioms [ex_and_or._native.bv_decide.ax_1_5, ex_xor._native.bv_decide.ax_1_5, ex_mul_three._native.bv_decide.ax_1_5, ex_shift._native.bv_decide.ax_1_5]
+05:39:07 gate ok: MemAvailable 320 >= 264
+export rc=0 bytes=35731453 time,rss=1.66,1690500; native names in export: 
+nanoda rc=0 time,rss=19.45,591408: Checked 4438 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 
+05:39:28 gate ok: MemAvailable 293 >= 264
+export rc=0 bytes=81555043 time,rss=3.01,1726908; native names in export: _native 
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.61,85524: Error: export file declares unpermitted axiom "ex_mul_three._native.bv_decide.ax_1_5"  run with `-h` or `--help` for help 
+05:39:32 gate ok: MemAvailable 284 >= 264
+toolchain leanprover/lean4:v4.35.0; start 2026-10-25T05:39:32Z
+BVS.LratBits rc=0 0.21	325692
+BVS.LratBitsSound rc=0 0.28	363300
+BVS.Blast rc=0 0.45	386228
+BVS.Lrat.Trie rc=0 0.42	424864
+BVS.Sound.Basic rc=0 0.38	418004
+BVS.Lrat.Chain rc=0 0.44	421416
+BVS.Sound.Circuits rc=0 0.50	468316
+BVS.Sound.Bits rc=0 0.35	413224
+BVS.Sound.Shifts rc=0 0.40	407396
+BVS.Sound.Unary rc=0 0.25	392716
+BVS.Sound.Expr rc=0 0.59	389524
+BVS.Sound.CNF rc=0 0.26	394488
+BVS.Lrat.LeafTree rc=0 0.40	401716
+BVS.Unsat rc=0 0.27	380332
+BVS.SplitBase rc=0 0.52	433728
+BVS.Driver.Core rc=0 1.73	912028
+BVS.Driver.Select rc=0 1.10	866576
+BVS.Driver.Split rc=0 1.05	876160
+BVS.Driver.Group rc=0 0.83	859268
+BVS.Tactic rc=0 1.29	889020
+BVS rc=0 0.37	817644
+Examples.GroupA rc=0 0.20	673108
+Examples.GroupB rc=0 0.21	675100
+Examples.Group rc=0 1.47	1652444
+Examples.ShardFacts rc=0 0.43	703440
+Examples.Small rc=0 9.39	2178772
+Examples.SplitFacts rc=0 0.41	692716
+Examples.Tactic rc=0 33.36	2354376
+Examples.UnaryOps rc=0 10.35	2274084
+Examples.TacticModule rc=0 5.15	1144796
+end 2026-10-25T05:40:46Z
+05:40:46 gate: MemAvailable 238 < 264, waiting
+05:41:46 gate ok: MemAvailable 300 >= 264
+audit rc=0 non-standard-empty=15/15 concl_true=3/3
+ShardPrep prep rc=0
+ShardPrep shard ShardPrep_S0.lean rc=0
+ShardPrep shard ShardPrep_S1.lean rc=0
+ShardPrep final rc=0
+BVS_UNSAT	Examples.ShardFacts	0	shard_mul_three._native.bv_decide.ax_1_5	-	0	-	28	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_UNSAT	Examples.ShardFacts	1	shard_and_or._native.bv_decide.ax_1_5	-	0	-	758	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_mul_three	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_and_or	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.ShardFacts	[0, 1]	converted=2	all_unsat_ok=true	users=2	users_std=2	users_axiom_left=0	users_failed=0
+SplitPrep prep rc=0
+SplitPrep shard SplitPrep_S0.lean rc=0
+SplitPrep shard SplitPrep_S1.lean rc=0
+SplitPrep final rc=0
+BVS_UNSAT	Examples.SplitFacts	0	split_and_or._native.bv_decide.ax_1_5	-	0	-	751	bvs6fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	split_and_or	bvs6_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=3	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.SplitFacts	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+05:43:24 gate: MemAvailable 263 < 264, waiting
+05:44:25 gate ok: MemAvailable 312 >= 264
+toolchain leanprover/lean4:v4.31.0; start 2026-10-25T05:44:25Z
+BVS.LratBits rc=0 0.24	485536
+BVS.LratBitsSound rc=0 0.34	543808
+BVS.Blast rc=0 0.55	692844
+BVS.Lrat.Trie rc=0 0.48	751264
+BVS.Sound.Basic rc=0 0.45	775348
+BVS.Lrat.Chain rc=0 0.52	753612
+BVS.Sound.Circuits rc=0 0.64	793072
+BVS.Sound.Bits rc=0 0.41	734452
+BVS.Sound.Shifts rc=0 0.48	770532
+BVS.Sound.Unary rc=0 0.30	711360
+BVS.Sound.Expr rc=0 0.62	716716
+BVS.Sound.CNF rc=0 0.28	727832
+BVS.Lrat.LeafTree rc=0 0.46	715092
+BVS.Unsat rc=0 0.32	699340
+BVS.SplitBase rc=0 0.60	761488
+BVS.Driver.Core rc=0 2.06	1615296
+BVS.Driver.Select rc=0 1.34	1582068
+BVS.Driver.Split rc=0 1.22	1595676
+BVS.Driver.Group rc=0 1.00	1570092
+BVS.Tactic rc=0 1.70	1617804
+BVS rc=0 0.51	1531180
+Examples.Small rc=0 9.01	2163560

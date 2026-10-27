@@ -1,0 +1,18 @@
+$ lean T_X_certOK_5.lean start=2026-10-26T01:20:54Z timeout=900
+START T_X_certOK_5
+STATEMENT_MS 1
+TRIAGE T_X_certOK_5: 0 blocker(s), 8 ms
+T_X_certOK_5.lean:21:6: warning: Variable name `ax` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ax
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+T_X_certOK_5.lean:22:6: warning: Variable name `name` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _name
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+maxrss_kb 1583328 secs 0.70
+rc=0 end=2026-10-26T01:20:54Z

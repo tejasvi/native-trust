@@ -1,0 +1,54 @@
+--- a/src/Chronofold/AgdFecu.lean
++++ b/src/Chronofold/AgdFecu.lean
+@@ -169,35 +169,35 @@
+ 
+ theorem fullWork_1024 :
+     fullWork 1024 1024 1024 = 2147483648 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem quotientWork_256 :
+     quotientWork 256 256 1024 = 134217728 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem canonical_work_identity :
+     fullWork 1024 1024 1024 = 16 * quotientWork 256 256 1024 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem canonical_strict_reduction :
+     quotientWork 256 256 1024 < fullWork 1024 1024 1024 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem canonical_workRatio :
+     workRatio (fullWork 1024 1024 1024) (quotientWork 256 256 1024) = 16 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem four_sq : (4 : Nat) * 4 = 16 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem dim_factorization : (1024 : Nat) = 4 * 256 := by
+-  native_decide
++  decide +kernel
+ 
+ theorem canonical_is_q_square :
+     workRatio (fullWork (4 * 256) (4 * 256) 1024) (quotientWork 256 256 1024)
+       = 4 * 4 :=
+   workRatio_outer 4 256 256 1024
+-    (by native_decide) (by native_decide) (by native_decide)
++    (by decide +kernel) (by decide +kernel) (by decide +kernel)
+ 
+ theorem work_split (a b c : Nat) (hba : b ≤ a) (hcb : c ≤ b) :
+     a - c = (a - b) + (b - c) := by
+@@ -393,6 +393,6 @@
+ theorem formal_work_is_not_runtime :
+     runtimeRatio 1596 100 ≠
+       workRatio (fullWork 1024 1024 1024) (quotientWork 256 256 1024) := by
+-  native_decide
++  decide +kernel
+ 
+ end Chronofold.AGD.FECU

@@ -1,0 +1,37 @@
+$ lean longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-25T05:01:35Z
+FAILED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_6`: kernelize: cannot prove the statement of `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_6` in the kernel:
+  decide
+      (SelectedMCA.DirectCliqueCondition
+        Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.n
+        Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.e
+        Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.g
+        Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.d
+        Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.m) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deep recursion detected
+
+No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+maxrss_kb 32039776 secs 183.50
+rc=0 end=2026-10-25T05:04:39Z
+alse copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_6.p_0 eval_ms=0
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_6 structure and
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_6.p_1 blockers_ms=0 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_6.p_1 eval_ms=0
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_71».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_6.p_2 blockers_ms=1 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+FAILED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_6`: kernelize: cannot prove the statement of `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_6` in the kernel:
+    decide
+        (SelectedMCA.DirectCliqueCondition
+          Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.n
+          Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.e
+          Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.g
+          Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.d
+          Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1.certificate.m) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) deep recursion detected
+  
+  No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.

@@ -1,0 +1,2 @@
+bv_kdecide: bv_decide 402 ms; 26614 nodes, 73697 clauses, 114328 LRAT steps, 232083 hints, 58 chunks; SAT 2566 ms, data 893 ms; kernel: base 26590 ms, chunks 150752 ms (max 3352 ms), assembly 3964 ms; total 194869 ms
+'andor_w1024' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,24 @@
+== prep 07:17:42
+bvs5: 3 facts prepared; shard files and the final file written to /home/ntbuild/work_bvscale/veir/a
+BVS_PREP	Veir.Passes.InstructionSelection.Proofs	73	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Veir.Passes.InstructionSelection.Proofs	73	chunks=174	ms=107396
+BVS_PREP	Veir.Passes.InstructionSelection.Proofs	88	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Veir.Passes.InstructionSelection.Proofs	88	chunks=332	ms=146910
+BVS_PREP	Veir.Passes.InstructionSelection.Proofs	89	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_pos_refinement._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Veir.Passes.InstructionSelection.Proofs	89	chunks=202	ms=121516
+TIME wall=630.26 s user=618.08 s maxrss=18725616 KB
+== shards 07:28:12
+S0: TIME wall=767.99 s user=744.47 s maxrss=3951308 KB 0 errors
+S1: TIME wall=726.91 s user=704.84 s maxrss=4013340 KB 0 errors
+S2: TIME wall=769.81 s user=747.01 s maxrss=4192844 KB 0 errors
+S3: TIME wall=774.35 s user=751.51 s maxrss=4209260 KB 0 errors
+== final 07:41:07
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	73	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5	-	0	-	5739	bvs5fact_73.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	88	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5	-	0	-	8115	bvs5fact_88.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	89	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_pos_refinement._native.bv_decide.ax_1_5	-	0	-	6390	bvs5fact_89.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sdivwPow2_pos_refinement	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=14	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sdivwPow2_neg_refinement	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=15	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sshlSat_refinement	bvs5_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=12	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.InstructionSelection.Proofs	[73, 88, 89]	converted=3	all_unsat_ok=true	users=3	users_std=3	users_axiom_left=0	users_failed=0
+TIME wall=21.26 s user=20.65 s maxrss=3692676 KB
+WALL prep 630276 ms, shards 774370 ms, final 21283 ms

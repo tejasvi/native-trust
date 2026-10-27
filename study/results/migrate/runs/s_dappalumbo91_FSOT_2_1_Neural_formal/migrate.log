@@ -1,0 +1,11 @@
+2026-10-24T01:10:21Z copy /home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal -> /home/ntbuild/migrate/s_dappalumbo91_FSOT_2_1_Neural_formal/pkg
+2026-10-24T01:10:21Z s_dappalumbo91_FSOT_2_1_Neural_formal: tc=v4.31.0 files=14 modules=14 built=13 plain=s_dappalumbo91_FSOT_2_1_Neural_formal study=s_dappalumbo91_FSOT_2_1_Neural_formal
+2026-10-24T01:10:22Z census before: 118 native axioms, 46 native-dependent declarations, modules=13, failed=[]
+2026-10-24T01:10:22Z plan: 52 occurrences; {"rewrite": 52}; unmatched axioms=0; affected modules=11
+2026-10-24T01:10:23Z time0: rc=0 wall=1.23 cpu=2.9 built=11 peak_lean=3 peak_rss_gb=0.5 sum=1.4 errors=0
+2026-10-24T01:10:23Z round timeout raised to 602 s (time0 wall 1.23 s)
+2026-10-24T01:10:25Z build round 0: rc=0 wall=2.03 errors=0 revert=0 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=0.5
+2026-10-24T01:10:27Z time1: rc=0 wall=1.93 cpu=3.9 built=11 peak_lean=3 peak_rss_gb=0.6 sum=1.1 errors=0
+2026-10-24T01:10:27Z default build: rc=0 wall=0.33 built=0 errors=0
+2026-10-24T01:10:28Z summary {"uses": 52, "replaced": 52, "replaced_facts": 118, "native_axioms_before": 118, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 46, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 52, "replaced": 52, "replaced_facts": 118, "native_axioms_before": 118, "native_axioms_after": 0, "axioms_after_as_expected": true, "native_dependent_decls_before": 46, "native_dependent_decls_after": 0, "rewritten_decls_still_native": 0, "build_ok": true}

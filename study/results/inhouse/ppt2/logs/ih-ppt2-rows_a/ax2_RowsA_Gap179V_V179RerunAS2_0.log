@@ -1,0 +1,27 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179V_V179RerunAS2_0.lean
+NT start RowsA.Gap179V.rerunA_shard2._native.native_decide.ax_1
+NT nested RowsA.Gap179V.rerunA_shard2._native.native_decide.ax_1 ms=106 rebuilt_defs=0 visited=2973
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=6 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=1 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179b.sortDedup
+NT copy RowsA.Gap179b.sortDedup defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179b.compositesOf
+NT copy RowsA.Gap179b.compositesOf defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179b.cgPoints
+NT copy RowsA.Gap179b.cgPoints defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179V.sepTripleV
+NT copy RowsA.Gap179V.sepTripleV defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap179V.sepOkV
+NT copy RowsA.Gap179V.sepOkV defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunAS2_0.RowsA.Gap179V.rerunA_shard2._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=34 copies=8 copy_kernel_ms=13 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunAS2_0.RowsA.Gap179V.rerunA_shard2._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179V_V179RerunAS2_0.RowsA.Gap179V.rerunA_shard2._kernel.native_decide.ax_1 structure all-by-index length=3 pieces=3
+NT _ktr.F2_RowsA_Gap179V_V179RerunAS2_0.RowsA.Gap179V.rerunA_shard2._kernel.native_decide.ax_1.p_0 blockers_ms=8 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 45971760
+rc=1 secs=140

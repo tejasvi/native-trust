@@ -1,0 +1,7 @@
+axioms rc=0 08:54:20
+'bvs6fact_15.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs6_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs6_1 Veir.Data.RISCV.sdivwPow2Exact_pos_refinement true
+ax: wall=0.61 s maxrss=1669108 KB
+export rc=0 bytes=744885193 export: wall=33.13 s maxrss=2825840 KB 08:54:53
+nanoda PASS rc=0 decls=5074 09:31:10: Checked 5074 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=2176.16 s maxrss=10405660 KB 

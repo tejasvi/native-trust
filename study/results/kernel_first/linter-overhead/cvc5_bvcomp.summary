@@ -1,0 +1,7 @@
+orig native axioms: 31 native axioms in `NTV.Bv_comp_eliminate`
+kf native axioms: 0 native axioms in `NTV.Bv_comp_eliminate`
+orig: wall_med=2.98 cpu_med=4.73 rss_kb_max=1963176 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=2.96 cpu_med=4.63 rss_kb_max=1986248 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=2.93 cpu_med=4.73 rss_kb_max=1995768 runs=3 rc=0 warnings=8 unnecessary=8 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=2.97 cpu_med=4.7 rss_kb_max=1989464 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=2.87 cpu_med=4.63 rss_kb_max=1976016 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

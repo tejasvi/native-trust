@@ -1,0 +1,100 @@
+{
+"plan": {
+"n_occ": 4,
+"affected": [
+"Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 3,
+"keep: ERROR/memory": 1
+}
+},
+"occs": [
+{
+"file": "Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean",
+"start": 3731,
+"end": 3744,
+"line": 114,
+"col": 53,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod",
+"facts": [
+"_private.Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod.0.SuperSymmetry.SU5.ChargeSpectrum.ZModCharges_three_eq._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 53,
+"new_end": 67
+},
+{
+"file": "Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean",
+"start": 3992,
+"end": 4005,
+"line": 125,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod",
+"facts": [
+"_private.Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod.0.SuperSymmetry.SU5.ChargeSpectrum.ZModCharges_four_eq._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean",
+"start": 4304,
+"end": 4317,
+"line": 136,
+"col": 52,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod",
+"facts": [
+"_private.Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod.0.SuperSymmetry.SU5.ChargeSpectrum.ZModCharges_five_eq._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 52,
+"new_end": 66
+},
+{
+"file": "Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean",
+"start": 4942,
+"end": 4955,
+"line": 151,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod",
+"facts": [
+"_private.Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod.0.SuperSymmetry.SU5.ChargeSpectrum.ZModCharges_six_eq._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+}
+]
+}

@@ -1,0 +1,18 @@
+2,3c2,3
+< PlatformCasesTest.setFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Quot.sound]
+< PlatformCasesTest.mapFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Quot.sound]
+---
+> PlatformCasesTest.setFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Classical.choice, Quot.sound]
+> PlatformCasesTest.mapFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Classical.choice, Quot.sound]
+10c10
+< bigSet: default proved; axioms [propext, Quot.sound]
+---
+> bigSet: default proved; axioms [propext, Classical.choice, Quot.sound]
+14,16c14,16
+< kernelize PlatformCasesTest.ndMap: OK; axioms [propext, Quot.sound]; PlatformCasesTest.ndMap keeps its axioms: true; PlatformCasesTest.ndMap.kernel exists: true
+< 'PlatformCasesTest.s1' depends on axioms: [propext, Quot.sound]
+< 'PlatformCasesTest.m1' depends on axioms: [propext, Quot.sound]
+---
+> kernelize PlatformCasesTest.ndMap: OK; axioms [propext, Classical.choice, Quot.sound]; PlatformCasesTest.ndMap keeps its axioms: true; PlatformCasesTest.ndMap.kernel exists: true
+> 'PlatformCasesTest.s1' depends on axioms: [propext, Classical.choice, Quot.sound]
+> 'PlatformCasesTest.m1' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+CHECK RealD.Or8: 71 constants, 1 `_native` names; 19 theorems: 14 standard axioms only, 5 with native axioms [_private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor, _private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor', Gadgets.Or.Or8.completeness, _private.RealD.Or8.0.Gadgets.Or.Or8.two_or_ge_add, Gadgets.Or.Or8.soundness], 0 other []

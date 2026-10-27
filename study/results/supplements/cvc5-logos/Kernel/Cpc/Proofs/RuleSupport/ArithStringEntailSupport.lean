@@ -1,0 +1,35 @@
+import NativeTrust
+import Cpc.Proofs.RuleSupport.ArithStringEntailSupport
+import F2_Cpc_Proofs_Canonical_Basic_0
+import F2_Cpc_Proofs_Canonical_Basic_2
+import F2_Cpc_Proofs_Canonical_Basic_4
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_0
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_1
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_2
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_3
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_4
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_5
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_6
+import F2_Cpc_Proofs_RuleSupport_ArithPolyNormSupport_7
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_0
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_1
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_2
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_3
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_4
+import F2_Cpc_Proofs_RuleSupport_ArithStringEntailSupport_5
+import F2_Cpc_Proofs_TypePreservation_Base_0
+import F2_Cpc_Proofs_TypePreservation_BitVecCore_0
+import F2_Cpc_Proofs_TypePreservation_BitVecCore_1
+import F2_Cpc_Proofs_TypePreservation_BitVecCore_2
+import F2_Cpc_Proofs_TypePreservation_BitVecCore_3
+import F2_Cpc_Proofs_TypePreservation_Common_0
+import F2_Cpc_Proofs_TypePreservation_Common_1
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+set_option nativeTrust.eprint true
+trust_check_nth Cpc.Proofs.RuleSupport.ArithStringEntailSupport 0 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.RuleSupport.ArithStringEntailSupport 1 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.RuleSupport.ArithStringEntailSupport 2 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.RuleSupport.ArithStringEntailSupport 3 (config := { split := 8, trace := true })
+trust_check_nth Cpc.Proofs.RuleSupport.ArithStringEntailSupport 4 (config := { split := 8, trace := true })

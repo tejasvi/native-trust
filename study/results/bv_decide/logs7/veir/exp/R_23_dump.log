@@ -1,0 +1,63 @@
+EXP_FACT	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_pos_refinement._native.bv_decide.ax_1_5	nodes=282991	entries=282990	clauses=848183	mb=12	md=5	hwm_kb=1763612
+gate and: 282990 nodes
+  gate and: 281582 nodes
+    gate and: 278551 nodes
+      gate and: 278225 nodes
+        gate and: 278224 nodes
+          gate and: 278160 nodes
+            gate and: 277779 nodes
+              gate and: 221948 nodes
+                gate and: 110917 nodes
+                  gate and: 517 nodes
+                    gate and: 201 nodes
+                      gate and: 13 nodes
+                        not: 11 nodes
+                          literal bin eq: 11 nodes
+                        not: 1 nodes
+                          literal getLsbD 0: 1 nodes
+                      not: 187 nodes
+                        literal bin eq: 187 nodes
+                    not: 315 nodes
+                      gate and: 315 nodes
+                        literal bin eq: 127 nodes
+                        literal bin eq: 187 nodes
+                  gate or: 110399 nodes
+                    not: 55197 nodes
+                      literal bin eq: 55197 nodes
+                        bin 6 w=64: 55134 nodes
+                    literal bin eq: 55201 nodes
+                      bin 6 w=64: 54882 nodes
+                gate or: 111030 nodes
+                  literal bin eq: 54945 nodes
+                    bin 6 w=64: 54882 nodes
+                  literal bin eq: 56084 nodes
+                    bin 3 w=64: 55829 nodes
+                      bin 3 w=64: 55134 nodes
+                        un w=64: 54882 nodes
+                          bin 6 w=64: 54882 nodes
+              gate or: 55830 nodes
+                not: 124 nodes
+                  literal bin eq: 124 nodes
+                literal bin eq: 55705 nodes
+                  bin 3 w=64: 55386 nodes
+                    un w=64: 55134 nodes
+                      bin 6 w=64: 55134 nodes
+            gate or: 380 nodes
+              literal bin eq: 124 nodes
+              literal bin eq: 255 nodes
+          literal bin eq: 63 nodes
+        literal bin eq: 0 nodes
+      gate or: 325 nodes
+        not: 5 nodes
+          literal bin eq: 5 nodes
+        literal bin eq: 319 nodes
+    gate or: 3030 nodes
+      literal bin eq: 5 nodes
+      literal bin eq: 3024 nodes
+        sar w=64: 2769 nodes
+          bin 3 w=64: 1617 nodes
+            shr w=64: 1046 nodes
+  not: 1407 nodes
+    literal bin eq: 1407 nodes
+      sar w=64: 1152 nodes
+TIME wall=6.06 s user=5.87 s maxrss=1761916 KB

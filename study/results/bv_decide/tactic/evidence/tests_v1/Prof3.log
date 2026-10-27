@@ -1,0 +1,16 @@
+bv_kdecide: bv_decide 27 ms; 192 nodes, 479 clauses, 103 LRAT steps, 506 hints, 1 chunks; SAT 19 ms, data 3 ms; kernel: base 109 ms, chunks 139 ms (max 139 ms), assembly 3 ms; total 338 ms
+bv_kdecide: bv_decide 28 ms; 406 nodes, 1121 clauses, 282 LRAT steps, 3059 hints, 1 chunks; SAT 29 ms, data 9 ms; kernel: base 279 ms, chunks 634 ms (max 634 ms), assembly 6 ms; total 1042 ms
+bv_kdecide: bv_decide 20 ms; 336 nodes, 959 clauses, 267 LRAT steps, 5687 hints, 1 chunks; SAT 35 ms, data 11 ms; kernel: base 247 ms, chunks 818 ms (max 818 ms), assembly 6 ms; total 1187 ms
+bv_kdecide: bv_decide 69 ms; 1067 nodes, 3104 clauses, 1030 LRAT steps, 23740 hints, 2 chunks; SAT 97 ms, data 42 ms; kernel: base 1073 ms, chunks 3958 ms (max 2877 ms), assembly 24 ms; total 5338 ms
+bv_kdecide: bv_decide 37 ms; 1131 nodes, 3344 clauses, 1947 LRAT steps, 40472 hints, 3 chunks; SAT 177 ms, data 76 ms; kernel: base 1212 ms, chunks 6390 ms (max 3554 ms), assembly 45 ms; total 8045 ms
+bv_kdecide: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 43 ms
+bv_kdecide: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 38 ms
+bv_kdecide: bv_decide 28 ms; 96 nodes, 239 clauses, 66 LRAT steps, 179 hints, 1 chunks; SAT 18 ms, data 2 ms; kernel: base 56 ms, chunks 41 ms (max 41 ms), assembly 2 ms; total 180 ms
+bv_kdecide: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms
+bv_kdecide: bv_decide 19 ms; 152 nodes, 431 clauses, 150 LRAT steps, 2051 hints, 1 chunks; SAT 24 ms, data 5 ms; kernel: base 114 ms, chunks 302 ms (max 302 ms), assembly 3 ms; total 512 ms
+bv_kdecide: bv_decide 29 ms; 198 nodes, 545 clauses, 130 LRAT steps, 1187 hints, 1 chunks; SAT 22 ms, data 5 ms; kernel: base 138 ms, chunks 243 ms (max 243 ms), assembly 3 ms; total 493 ms
+bv_kdecide: bv_decide 28 ms; 20 nodes, 35 clauses, 15 LRAT steps, 36 hints, 1 chunks; SAT 17 ms, data 1 ms; kernel: base 17 ms, chunks 6 ms (max 6 ms), assembly 1 ms; total 111 ms
+bv_kdecide: bv_decide 29 ms; 28 nodes, 59 clauses, 11 LRAT steps, 23 hints, 1 chunks; SAT 19 ms, data 0 ms; kernel: base 24 ms, chunks 5 ms (max 5 ms), assembly 1 ms; total 119 ms
+bv_kdecide: bv_decide 34 ms; 1654 nodes, 4577 clauses, 1258 LRAT steps, 12308 hints, 1 chunks, split base check with 4 segments; SAT 84 ms, data 43 ms; kernel: base 1307 ms, chunks 3662 ms (max 3662 ms), assembly 34 ms; total 5239 ms
+bv_kdecide: bv_decide 31 ms; 72 nodes, 167 clauses, 37 LRAT steps, 143 hints, 1 chunks; SAT 24 ms, data 2 ms; kernel: base 47 ms, chunks 35 ms (max 35 ms), assembly 1 ms; total 191 ms
+bv_kdecide: bv_decide 30 ms; 704 nodes, 2015 clauses, 600 LRAT steps, 14717 hints, 1 chunks; SAT 88 ms, data 28 ms; kernel: base 615 ms, chunks 2433 ms (max 2433 ms), assembly 14 ms; total 3272 ms

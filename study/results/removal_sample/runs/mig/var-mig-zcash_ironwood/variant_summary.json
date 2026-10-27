@@ -1,0 +1,23 @@
+{
+ "name": "zcash_ironwood",
+ "mode": "mig",
+ "key": "mig zcash_ironwood default",
+ "started": "2026-10-24T06:50:25Z",
+ "patch_rc": 0,
+ "patch_out": "ion/Honest/Fixture.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Honest/StaticChecks.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Random/Faithfulness.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Random/FiatShamir.lean\npatching file Zcash/Snark/Fixtures/SingleAction/Random/Fixture.lean\npatching file Zcash/Snark/Keygen/InstanceCapture.lean\n",
+ "modules": 461,
+ "audit_modules": 5,
+ "dependents_excluded": [],
+ "targets": 456,
+ "build": {
+  "deleted": 3227,
+  "rc": 0,
+  "wall": 715.87,
+  "cpu": 3517.2,
+  "n_built": 456,
+  "errors": [],
+  "failed_mods": [],
+  "tail": ""
+ },
+ "finished": "2026-10-24T07:03:44Z"
+}

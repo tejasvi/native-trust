@@ -1,0 +1,94 @@
+{
+ "name": "b2000_leanprover_community_physlib",
+ "pkg": "/home/ntbuild/repos_s/leanprover-community_physlib",
+ "toolchain": "v4.35.0",
+ "uses": 4,
+ "replaced": 1,
+ "replaced_known": 1,
+ "replaced_unknown": 0,
+ "replaced_facts": 1,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 3
+ },
+ "native_axioms_before": 4,
+ "native_axioms_after": 3,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 4,
+ "native_dependent_decls_after": 3,
+ "rewritten_decls": 1,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 5.69,
+   "cpu": 5.7,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 0.83,
+  "cpu": 0.7,
+  "n_built": 0,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "time1": {
+  "wall": 0.72,
+  "cpu": 0.7,
+  "n_built": 0,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.46,
+  "cpu": 0.5,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "EXPENSIVE": 3,
+   "REPLACEABLE": 1
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  0,
+  0
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

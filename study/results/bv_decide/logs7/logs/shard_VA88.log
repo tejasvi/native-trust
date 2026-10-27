@@ -1,0 +1,16 @@
+== prep 12:58:33
+bvs5: 1 facts prepared; shard files and the final file written to /home/ntbuild/work_bvscale/veir/a2
+BVS_PREP	Veir.Passes.InstructionSelection.Proofs	88	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Veir.Passes.InstructionSelection.Proofs	88	chunks=332	ms=130818
+TIME wall=230.91 s user=228.43 s maxrss=16456364 KB
+== shards 13:02:24
+S0: TIME wall=332.25 s user=322.59 s maxrss=3451572 KB 0 errors
+S1: TIME wall=318.45 s user=309.21 s maxrss=3524984 KB 0 errors
+S2: TIME wall=313.39 s user=304.53 s maxrss=3570184 KB 0 errors
+S3: TIME wall=323.56 s user=314.42 s maxrss=3514528 KB 0 errors
+== final 13:07:56
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	88	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5	-	0	-	7160	bvs5fact_88.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sdivwPow2_neg_refinement	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=14	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.InstructionSelection.Proofs	[88]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+TIME wall=7.84 s user=7.49 s maxrss=3595468 KB
+WALL prep 230923 ms, shards 332264 ms, final 7855 ms

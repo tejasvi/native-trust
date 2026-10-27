@@ -1,0 +1,5 @@
+StageAxioms.lean:23:8: warning: declaration uses 'sorry'
+pos: proved; axioms []; through the staged bridge: true
+neg: failed; non-standard axioms reported: true
+kernelize nd1 (staged): OK; axioms []
+rc=0

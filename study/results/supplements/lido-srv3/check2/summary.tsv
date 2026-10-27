@@ -1,0 +1,10 @@
+module	kernel_theorems	export_rc	nanoda	nanoda_decls	con_ron	con_ron_decls	declined
+Kernel.LidoSRv3.Audit.Verity.Tests.ConsolidationFee	1	0	PASS	855	PASS	431	
+Kernel.LidoSRv3.Tests.AccountPackedWordsMutants	2	0	PASS	761	PASS	591	
+Kernel.LidoSRv3.Tests.AllocCapacityPhase3Mutants	2	0	PASS	1243	PASS	787	
+Kernel.LidoSRv3.Tests.AllocCapacityRegression	4	0	PASS	639	PASS	528	
+Kernel.LidoSRv3.Tests.AllocationTxMutants	2	0	PASS	411	PASS	336	
+Kernel.LidoSRv3.Tests.EthWorldMutants	17	0	PASS	688	DECLINED	0	unsupported Nat.div/mod environment [at def Nat.land, fold position 542] (--veri
+Kernel.LidoSRv3.Tests.MinFirstAmountTxMutants	6	0	PASS	764	PASS	605	
+Kernel.LidoSRv3.Tests.SanityEnvelopeMutants	42	0	PASS	491	PASS	425	
+Kernel.LidoSRv3.Tests.TopupKeccakOracleMutants	8	0	PASS	1782	PASS	1372	

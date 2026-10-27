@@ -1,0 +1,16 @@
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		2	1617792	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		3	1612804	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1533648	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		3	1587584	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1540348	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		4	1585724	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		3	1616220	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.Decimal	UnitTest.Decimal.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1613804	1		nt_lines=19 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1633368	2		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		12	1632684	1		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		11	1629160	1		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		15	1616916	1		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1609268	1		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		15	1662120	2		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1667296	2		nt_lines=49 last=quick whole-term attempt proved it
+v11s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		11	1708744	2		nt_lines=49 last=quick whole-term attempt proved it

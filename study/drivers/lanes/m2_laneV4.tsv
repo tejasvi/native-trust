@@ -1,0 +1,13 @@
+cvc5-logos-plain	/home/ntbuild/repos/cvc5-logos	--from-results cvc5-logos-fuel --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+humanfia-icho2026-plain	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--from-results humanfia-icho2026 --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+lido-srv3-plain	/home/ntbuild/repos/lido-srv3-proof-closure	--from-results lido-srv3 --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+cedar-lean-plain	/home/ntbuild/repos/cedar-spec/cedar-lean	--from-results cedar-lean --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+rs-mca-m31_dyadic_weight_laws-plain	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	--from-results rs-mca-m31_dyadic_weight_laws --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+rs-mca-m31_flatness_keystone-plain	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	--from-results rs-mca-m31_flatness_keystone --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+sounio-plain	/home/ntbuild/repos/sounio/formal	--from-results sounio --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+asi-stack-book-plain	/home/ntbuild/repos/asi-stack-book/lean	--from-results asi-stack-book --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+strata-plain	/home/ntbuild/repos/Strata	--from-results strata-fuel --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+berry-esseen-plain	/home/ntbuild/repos/berry-esseen	--from-results berry-esseen --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+clean-plain	/home/ntbuild/repos/clean	--from-results clean --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+longfellow-zk-plain	/home/ntbuild/repos/longfellow-zk/formal	--from-results longfellow-zk --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false
+formal-conjectures-plain	/home/ntbuild/repos/formal-conjectures	--from-results formal-conjectures-fuel --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false

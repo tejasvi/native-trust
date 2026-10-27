@@ -1,0 +1,357 @@
+--- a/FSOTNeural/Authority.lean
++++ b/FSOTNeural/Authority.lean
+@@ -19,12 +19,12 @@
+ -/
+ def authorityPinPrefix : String := "D1D38A185487B452E470AC68ECE2EB45"
+ 
+-theorem authority_pin_prefix_len : authorityPinPrefix.length = 32 := by native_decide
++theorem authority_pin_prefix_len : authorityPinPrefix.length = 32 := by decide +kernel
+ 
+ /-- Formula string (structural identity of the law). -/
+ def scalarFormula : String := "S = K * (T1 + T2 + T3)"
+ 
+-theorem formula_nonempty : scalarFormula.length > 0 := by native_decide
++theorem formula_nonempty : scalarFormula.length > 0 := by decide +kernel
+ 
+ /-- Encode path doctrine: machine is primary body I/O. -/
+ inductive EncodePath where
+--- a/FSOTNeural/CellTypes.lean
++++ b/FSOTNeural/CellTypes.lean
+@@ -22,14 +22,14 @@
+ def isExcitatory (c : CellType) : Bool := synapseSign c > 0
+ def isInhibitory (c : CellType) : Bool := synapseSign c < 0
+ 
+-theorem pyr_exc : isExcitatory .Pyr = true := by native_decide
+-theorem pv_inh : isInhibitory .PV = true := by native_decide
+-theorem sst_inh : isInhibitory .SST = true := by native_decide
+-theorem vip_inh : isInhibitory .VIP = true := by native_decide
++theorem pyr_exc : isExcitatory .Pyr = true := by decide +kernel
++theorem pv_inh : isInhibitory .PV = true := by decide +kernel
++theorem sst_inh : isInhibitory .SST = true := by decide +kernel
++theorem vip_inh : isInhibitory .VIP = true := by decide +kernel
+ 
+ theorem only_pyr_exc (c : CellType) :
+     isExcitatory c = true ↔ c = .Pyr := by
+-  cases c <;> native_decide
++  cases c <;> decide +kernel
+ 
+ /-- Cortical fraction numerators over 100 (80/8/7/5). -/
+ def corticalFractionNum : CellType → Nat
+@@ -41,6 +41,6 @@
+ theorem fractions_sum_100 :
+     corticalFractionNum .Pyr + corticalFractionNum .PV +
+       corticalFractionNum .SST + corticalFractionNum .VIP = 100 := by
+-  native_decide
++  decide +kernel
+ 
+ end FSOTNeural
+--- a/FSOTNeural/Certificate.lean
++++ b/FSOTNeural/Certificate.lean
+@@ -111,7 +111,7 @@
+   · rfl
+   · rfl
+   · rfl
+-  · native_decide
++  · decide +kernel
+   · rfl
+   · rfl
+   · rfl
+@@ -124,12 +124,12 @@
+ def certificateName : String :=
+   "FSOT-2.1-Neural scientific_panel_ok (Lean 4 mind stack + wet-lab structural contract)"
+ 
+-theorem certificate_name_ok : certificateName.length > 10 := by native_decide
++theorem certificate_name_ok : certificateName.length > 10 := by decide +kernel
+ 
+ /-- Stamp string for GitHub / results. -/
+ def leanStampLabel : String :=
+   "LEAN4_STAMP:scientific_panel_ok:v4.31.0:0_sorry:mind_stack"
+ 
+-theorem lean_stamp_label_ok : leanStampLabel.length > 20 := by native_decide
++theorem lean_stamp_label_ok : leanStampLabel.length > 20 := by decide +kernel
+ 
+ end FSOTNeural
+--- a/FSOTNeural/Codon.lean
++++ b/FSOTNeural/Codon.lean
+@@ -37,7 +37,7 @@
+ def allCodons : List Codon := codonsFrom allBases
+ 
+ theorem allCodons_card : allCodons.length = 64 := by
+-  native_decide
++  decide +kernel
+ 
+ def primaryFiber (t : Trit × Trit × Trit) : List Codon :=
+   allCodons.filter (fun c => decide (primary c = t))
+@@ -46,7 +46,7 @@
+ theorem codon_in_own_fiber (c : Codon) : c ∈ primaryFiber (primary c) := by
+   cases c with
+   | mk b1 b2 b3 =>
+-    cases b1 <;> cases b2 <;> cases b3 <;> native_decide
++    cases b1 <;> cases b2 <;> cases b3 <;> decide +kernel
+ 
+ theorem primary_total (c : Codon) : ∃ t, primary c = t := ⟨primary c, rfl⟩
+ 
+--- a/FSOTNeural/CurriculumGates.lean
++++ b/FSOTNeural/CurriculumGates.lean
+@@ -16,9 +16,9 @@
+ def accuracyPass (score_ppt : Nat) : Bool :=
+   decide (score_ppt ≥ passThreshold_ppt)
+ 
+-theorem pass_950 : accuracyPass 950 = true := by native_decide
+-theorem pass_1000 : accuracyPass 1000 = true := by native_decide
+-theorem fail_949 : accuracyPass 949 = false := by native_decide
++theorem pass_950 : accuracyPass 950 = true := by decide +kernel
++theorem pass_1000 : accuracyPass 1000 = true := by decide +kernel
++theorem fail_949 : accuracyPass 949 = false := by decide +kernel
+ 
+ /-- Grade bands PK → G8 (structural count). -/
+ inductive GradeBand where
+@@ -31,7 +31,7 @@
+   [.preschool, .kindergarten, .grade1, .grade2, .grade3, .grade4, .grade5,
+    .grade6, .grade7, .grade8]
+ 
+-theorem ten_grade_bands : allGradeBands.length = 10 := by native_decide
++theorem ten_grade_bands : allGradeBands.length = 10 := by decide +kernel
+ 
+ /-- Curriculum domains are STEM/literacy — history excluded (policy flag). -/
+ def historyInGradeCurriculum : Bool := false
+@@ -51,6 +51,6 @@
+     (allGradeBands.length = 10) ∧
+     (historyInGradeCurriculum = false) ∧
+     (depthRequiresParaphrase = true) := by
+-  refine ⟨rfl, by native_decide, by native_decide, by native_decide, rfl, rfl⟩
++  refine ⟨rfl, by decide +kernel, by decide +kernel, by decide +kernel, rfl, rfl⟩
+ 
+ end FSOTNeural
+--- a/FSOTNeural/FixedLattice.lean
++++ b/FSOTNeural/FixedLattice.lean
+@@ -13,7 +13,7 @@
+ 
+ theorem fixed_scale_eq : fixedScale = 1000000000000 := rfl
+ 
+-theorem fixed_scale_gt_one : fixedScale > 1 := by native_decide
++theorem fixed_scale_gt_one : fixedScale > 1 := by decide +kernel
+ 
+ /-- Quantum of the lattice as reciprocal of scale (documentation Nat: 1). -/
+ def fixedQuantumReciprocal : Nat := fixedScale
+--- a/FSOTNeural/IntelBio.lean
++++ b/FSOTNeural/IntelBio.lean
+@@ -17,7 +17,7 @@
+ def allNeuromods : List NeuromodSpecies :=
+   [.dopamine, .acetylcholine, .norepinephrine, .serotonin]
+ 
+-theorem four_neuromods : allNeuromods.length = 4 := by native_decide
++theorem four_neuromods : allNeuromods.length = 4 := by decide +kernel
+ 
+ /-- Biological schedule phases (not wall-clock OS sleep). -/
+ inductive BioPhase where
+@@ -27,7 +27,7 @@
+ def allBioPhases : List BioPhase :=
+   [.wakeEncode, .wakeProbe, .wakeRest, .sleepNrem, .sleepReplay]
+ 
+-theorem five_bio_phases : allBioPhases.length = 5 := by native_decide
++theorem five_bio_phases : allBioPhases.length = 5 := by decide +kernel
+ 
+ /-- Offline consolidation uses replay + STDP (policy flags). -/
+ def sleepUsesReplay : Bool := true
+@@ -48,8 +48,8 @@
+ def claimPass (score_ppt : Nat) : Bool :=
+   decide (score_ppt ≥ claimPass_ppt)
+ 
+-theorem claim_950_ok : claimPass 950 = true := by native_decide
+-theorem claim_900_fail : claimPass 900 = false := by native_decide
++theorem claim_950_ok : claimPass 950 = true := by decide +kernel
++theorem claim_900_fail : claimPass 900 = false := by decide +kernel
+ 
+ /-- STDP η is modulated by neuromodulators (policy). -/
+ def stdpCoupledToNeuromod : Bool := true
+@@ -67,14 +67,14 @@
+ def allLoopStages : List IntelLoopStage :=
+   [.train, .retrievePractice, .probePre, .delay, .sleep, .prove]
+ 
+-theorem six_loop_stages : allLoopStages.length = 6 := by native_decide
++theorem six_loop_stages : allLoopStages.length = 6 := by decide +kernel
+ 
+ /-- Prediction-error DA and limited working-memory capacity (structural). -/
+ def usesPredictionErrorDa : Bool := true
+ def workingMemorySlots : Nat := 4
+ 
+ theorem pe_da_on : usesPredictionErrorDa = true := rfl
+-theorem wm_slots_4 : workingMemorySlots = 4 := by native_decide
++theorem wm_slots_4 : workingMemorySlots = 4 := by decide +kernel
+ 
+ /-- Multi-day frontier + curiosity selection (structural). -/
+ def multiDayFrontier : Bool := true
+@@ -101,7 +101,7 @@
+     (multiDayFrontier = true) ∧
+     (curiositySelectsNextItem = true) ∧
+     (speechReconnectPathPreserved = true) := by
+-  refine ⟨by native_decide, by native_decide, rfl, rfl, rfl, rfl, rfl, rfl, rfl,
+-    by native_decide, rfl, by native_decide, rfl, rfl, rfl⟩
++  refine ⟨by decide +kernel, by decide +kernel, rfl, rfl, rfl, rfl, rfl, rfl, rfl,
++    by decide +kernel, rfl, by decide +kernel, rfl, rfl, rfl⟩
+ 
+ end FSOTNeural
+--- a/FSOTNeural/NeuroFold.lean
++++ b/FSOTNeural/NeuroFold.lean
+@@ -35,12 +35,12 @@
+ 
+ def allChannelGenes : List ChannelGene := [.SCN, .KCN, .CACNA, .LEAK]
+ 
+-theorem four_channel_genes : allChannelGenes.length = 4 := by native_decide
++theorem four_channel_genes : allChannelGenes.length = 4 := by decide +kernel
+ 
+ /-- Resting S proxy documented in seeds (×1000 as milli-units to stay Nat-friendly). -/
+ def restingS_milli : Nat := 460  -- 0.46
+ 
+ theorem resting_in_band : restingS_milli ≥ 300 ∧ restingS_milli ≤ 650 := by
+-  native_decide
++  decide +kernel
+ 
+ end FSOTNeural
+--- a/FSOTNeural/PairWeight.lean
++++ b/FSOTNeural/PairWeight.lean
+@@ -18,7 +18,7 @@
+ 
+ def pairKernelSeeds : List PairSeed := [.pi, .e, .phi]
+ 
+-theorem three_pair_seeds : pairKernelSeeds.length = 3 := by native_decide
++theorem three_pair_seeds : pairKernelSeeds.length = 3 := by decide +kernel
+ 
+ /-- Free parameters on the genetic pair-weight formula path. -/
+ def pairWeightFreeParams : Nat := 0
+@@ -55,6 +55,6 @@
+     (baseDominatedBy .sameSign = .e) ∧
+     (baseDominatedBy .zeroish = .pi) ∧
+     (distAtLeastOne 0 = 1) := by
+-  refine ⟨rfl, by native_decide, rfl, rfl, rfl⟩
++  refine ⟨rfl, by decide +kernel, rfl, rfl, rfl⟩
+ 
+ end FSOTNeural
+--- a/FSOTNeural/WetLabGates.lean
++++ b/FSOTNeural/WetLabGates.lean
+@@ -18,13 +18,13 @@
+ 
+ def allAllenClasses : List AllenClass := [.Pyr, .PV, .SST, .VIP]
+ 
+-theorem four_allen_classes : allAllenClasses.length = 4 := by native_decide
++theorem four_allen_classes : allAllenClasses.length = 4 := by decide +kernel
+ 
+ /-- Relative error tolerance in per-mille (‰). 20‰ = 2%, 10‰ = 1%. -/
+ def tol2pct_per_mille : Nat := 20
+ def tol1pct_per_mille : Nat := 10
+ 
+-theorem tol2_gt_tol1 : tol2pct_per_mille > tol1pct_per_mille := by native_decide
++theorem tol2_gt_tol1 : tol2pct_per_mille > tol1pct_per_mille := by decide +kernel
+ 
+ /--
+   Integer model of |measured - target| / target ≤ tol.
+@@ -41,46 +41,46 @@
+ /-- Example concrete: 16.351 Hz vs 16.351 Hz within 2% (milli-Hz units). -/
+ theorem exact_match_within_2pct :
+     withinTolPerMille 16351 16351 tol2pct_per_mille = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Near-match within 2%: |16153-16351|/16351 ≈ 1.21% < 2%. -/
+ theorem pyr_example_within_2pct :
+     withinTolPerMille 16154 16351 tol2pct_per_mille = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Cortical order: PV mean rate must exceed Pyr (Allen wet-lab order). -/
+ def pvFasterThanPyr (pvMilli pyrMilli : Nat) : Bool :=
+   decide (pvMilli > pyrMilli)
+ 
+ theorem pv_order_example :
+-    pvFasterThanPyr 83350 16351 = true := by native_decide
++    pvFasterThanPyr 83350 16351 = true := by decide +kernel
+ 
+ /-- SME direction gates (Sederberg-style): encode band > rest band. -/
+ def smeDirection (encodePower restPower : Nat) : Bool :=
+   decide (encodePower > restPower)
+ 
+ theorem sme_direction_strict :
+-    smeDirection 5 3 = true ∧ smeDirection 2 2 = false := by native_decide
++    smeDirection 5 3 = true ∧ smeDirection 2 2 = false := by decide +kernel
+ 
+ /-- Memory ladder: top-1 accuracy as parts-per-thousand (625 = 0.625). -/
+ def top1GeHalf (top1_ppt : Nat) : Bool :=
+   decide (top1_ppt ≥ 500)
+ 
+-theorem top1_625_ge_half : top1GeHalf 625 = true := by native_decide
+-theorem top1_400_lt_half : top1GeHalf 400 = false := by native_decide
++theorem top1_625_ge_half : top1GeHalf 625 = true := by decide +kernel
++theorem top1_400_lt_half : top1GeHalf 400 = false := by decide +kernel
+ 
+ /-- Chance floor: top1_ppt > 1000 / n_items  (integer: top1 * n > 1000). -/
+ def aboveChance (top1_ppt nItems : Nat) : Bool :=
+   if nItems = 0 then false
+   else decide (top1_ppt * nItems > 1000)
+ 
+-theorem above_chance_8_625 : aboveChance 625 8 = true := by native_decide
++theorem above_chance_8_625 : aboveChance 625 8 = true := by decide +kernel
+ 
+ /-- Study EEG: concentrate/rest ratio as milli-ratio (1573 = 1.573). -/
+ def studyElevated (ratioMilli : Nat) : Bool :=
+   decide (ratioMilli > 1000)
+ 
+-theorem study_theta_1573 : studyElevated 1573 = true := by native_decide
++theorem study_theta_1573 : studyElevated 1573 = true := by decide +kernel
+ 
+ /-- Aggregate wet-lab structural contract (definitions compile; values from battery). -/
+ structure WetLabContract where
+@@ -113,6 +113,6 @@
+   · rfl
+   · rfl
+   · rfl
+-  · native_decide
++  · decide +kernel
+ 
+ end FSOTNeural
+--- a/FSOTNeural/WetStack.lean
++++ b/FSOTNeural/WetStack.lean
+@@ -17,7 +17,7 @@
+ /-- Channel substeps per network tick. -/
+ def channelStepsPerTick : Nat := networkTick_us / channelDt_us
+ 
+-theorem channel_steps_20 : channelStepsPerTick = 20 := by native_decide
++theorem channel_steps_20 : channelStepsPerTick = 20 := by decide +kernel
+ 
+ /-- Single-channel bank sizes (structural). -/
+ def nAmpaChannels : Nat := 48
+@@ -31,7 +31,7 @@
+ /-- Markov transition law named (not a float proof). -/
+ def markovTransitionLaw : String := "P = 1 - exp(-k*dt)"
+ 
+-theorem markov_law_named : markovTransitionLaw.length > 5 := by native_decide
++theorem markov_law_named : markovTransitionLaw.length > 5 := by decide +kernel
+ 
+ /-- Glia roles present as first-class (astro / micro / oligo). -/
+ inductive GliaRole where
+@@ -40,7 +40,7 @@
+ 
+ def allGliaRoles : List GliaRole := [.astrocyte, .microglia, .oligodendrocyte]
+ 
+-theorem three_glia : allGliaRoles.length = 3 := by native_decide
++theorem three_glia : allGliaRoles.length = 3 := by decide +kernel
+ 
+ /-- STDP sign domain: +1 LTP, -1 LTD, 0 none. -/
+ def stdpSignValid (s : Int) : Bool :=
+@@ -48,7 +48,7 @@
+ 
+ theorem stdp_signs_ok :
+     stdpSignValid 1 = true ∧ stdpSignValid (-1) = true ∧ stdpSignValid 0 = true ∧
+-    stdpSignValid 2 = false := by native_decide
++    stdpSignValid 2 = false := by decide +kernel
+ 
+ /-- All-atom MD is not the cognitive wet stack. -/
+ def wetStackUsesAllAtomMd : Bool := false
+@@ -63,6 +63,6 @@
+     (nQuantalSites = 12) ∧
+     (allGliaRoles.length = 3) ∧
+     (wetStackUsesAllAtomMd = false) := by
+-  refine ⟨by native_decide, rfl, rfl, rfl, by native_decide, rfl⟩
++  refine ⟨by decide +kernel, rfl, rfl, rfl, by decide +kernel, rfl⟩
+ 
+ end FSOTNeural

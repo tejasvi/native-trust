@@ -1,0 +1,2 @@
+orig: native axioms: 31 native axioms in `NTV.Bv_comp_eliminate` | wall_med=3.30 cpu_med=5.21 rss_kb_max=1129624 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.Bv_comp_eliminate` | wall_med=3.28 cpu_med=5.18 rss_kb_max=1228952 runs=3 rc=0 errors=0 kf_fallback=0

@@ -1,0 +1,11 @@
+INTERNAL PANIC: out of memory
+bvs mulcomm_4 #1: 182 nodes, 521 clauses, 182 vars; 407 steps, 10709 hints, 1 chunks; solve 18 ms, prep+defs 37 ms; kernel: base 130 ms, chunks 1078 ms (max 1078 ms); total 1267 ms
+bvs: added mulcomm_4.bvs4 (20 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulcomm_6 #1: 448 nodes, 1307 clauses, 448 vars; 4683 steps, 222977 hints, 12 chunks; solve 71 ms, prep+defs 788 ms; kernel: base 370 ms, chunks 25919 ms (max 3142 ms); total 27172 ms
+bvs: added mulcomm_6.bvs4 (400 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulcomm_8 #1: 834 nodes, 2453 clauses, 834 vars; 37524 steps, 1379909 hints, 70 chunks; solve 590 ms, prep+defs 6154 ms; kernel: base 1151 ms, chunks 216818 ms (max 3914 ms); total 224911 ms
+bvs: added mulcomm_8.bvs4 (9847 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulcomm_9 #1: 1072 nodes, 3161 clauses, 1072 vars; 130700 steps, 5865891 hints, 295 chunks; solve 2623 ms, prep+defs 26506 ms; kernel: base 2347 ms, chunks 1349825 ms (max 6794 ms); total 1381957 ms
+bvs: added mulcomm_9.bvs4 (52326 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+Command exited with non-zero status 1
+TIME wall=1817.63 s user=1827.10 s maxrss=11698964 KB

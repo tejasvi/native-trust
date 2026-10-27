@@ -1,0 +1,171 @@
+{
+ "name": "v14_sounio",
+ "pkg": "/home/ntbuild/repos/sounio/formal",
+ "toolchain": "v4.30.0-rc2",
+ "uses": 741,
+ "replaced": 42,
+ "replaced_known": 42,
+ "replaced_unknown": 0,
+ "replaced_facts": 42,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 10,
+  "module not built": 664,
+  "build: module build 2.7 s > 2 x original 0.4 s (--max-slowdown)": 7,
+  "build: module build 3.8 s > 2 x original 0.5 s (--max-slowdown)": 8,
+  "build: module build 3.3 s > 2 x original 0.3 s (--max-slowdown)": 9,
+  "budget 2000: BLOCKED (`Float.decLe`, `Float.ofScientific`, `floatSpec`)": 1
+ },
+ "native_axioms_before": 77,
+ "native_axioms_after": 35,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 90,
+ "native_dependent_decls_after": 45,
+ "rewritten_decls": 40,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 13.06,
+   "cpu": 20.6,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 0.8,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 4.05,
+   "cpu": 5.2,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 4.35,
+  "cpu": 10.9,
+  "n_built": 13,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 1.5
+ },
+ "time1": {
+  "wall": 4.15,
+  "cpu": 11.6,
+  "n_built": 13,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.6,
+  "peak_rss_sum_gb": 1.9
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 2.35,
+  "cpu": 3.9,
+  "n_built": 2,
+  "peak_lean": 1,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 13,
+ "replaced_modules": 10,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 66,
+   "EXPENSIVE": 10,
+   "BLOCKED": 1
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "OntologyELClosureVerified",
+  "OntologyELPlus",
+  "OntologyELReasoner"
+ ],
+ "module_times_sum": [
+  8.9,
+  9.3
+ ],
+ "module_times_slower": [
+  [
+   "FanoLabellingOrbits",
+   2.5,
+   3.3
+  ],
+  [
+   "OntologyClaimStatus",
+   0.225,
+   0.234
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "OntologyELPlusClosureVerified",
+   2.7,
+   2.6
+  ],
+  [
+   "OntologyRepairEquivalence",
+   0.467,
+   0.389
+  ],
+  [
+   "OntologyELClosureVerified",
+   0.395,
+   0.338
+  ],
+  [
+   "OntologyELPlus",
+   0.483,
+   0.436
+  ],
+  [
+   "OntologyRepairTies",
+   0.417,
+   0.381
+  ],
+  [
+   "OntologyEvolutionRepair",
+   0.28200000000000003,
+   0.253
+  ],
+  [
+   "ClaimStatusInterval",
+   0.363,
+   0.34
+  ],
+  [
+   "OntologyMinimalRepair",
+   0.249,
+   0.233
+  ]
+ ]
+}

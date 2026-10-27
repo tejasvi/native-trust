@@ -1,0 +1,1 @@
+bv_kdecide [Veir.Data.RISCV.sshlSat_refinement]: bv_decide 693 ms; 52169 nodes, 155348 clauses, 142376 LRAT steps, 2583811 hints, 174 chunks; SAT 36681 ms, data 6503 ms; kernel: base 58342 ms, chunks 686991 ms (max 12334 ms), assembly 5555 ms; total 818405 ms; peak RSS: bv_decide 1117 MiB, kernel route 13811 MiB

@@ -1,0 +1,58 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0-rc2/bin/lean -j1 --tstack=1048576 F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.lean
+NT start _private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1
+NT nested _private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1 ms=286 rebuilt_defs=0 visited=5250
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copy BerryEsseen.Upper0423.Native.parseRat defn_ms=0 eq_ms=1 congr=true
+NT copy BerryEsseen.Upper0423.Native.parsePanels._f defn_ms=0 eq_ms=1 congr=true
+NT copy BerryEsseen.Upper0423.Native.parsePanels defn_ms=0 eq_ms=0 congr=true
+NT copy BerryEsseen.Upper0423.Native.parseEnds._f defn_ms=0 eq_ms=1 congr=true
+NT copy BerryEsseen.Upper0423.Native.parseEnds defn_ms=0 eq_ms=0 congr=true
+NT copy BerryEsseen.Upper0423.Native.parseCover._f defn_ms=0 eq_ms=1 congr=true
+NT copy BerryEsseen.Upper0423.Native.parseCover defn_ms=0 eq_ms=0 congr=true
+NT copy BerryEsseen.Upper0423.Native.tokens defn_ms=0 eq_ms=0 congr=true
+NT copy BerryEsseen.Upper0423.Native.coverStringAcceptedDW defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0._private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._kernel.native_decide.ax_1_1.p_0 blockers_ms=9 bounded=true copy_ms=19 copies=12 copy_kernel_ms=7
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 224 0 1 BerryEsseen.Upper0423.Covers.Data.DW224.data = true) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0._private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 224 0 1
+        BerryEsseen.Upper0423.Covers.Data.DW224.data =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 224 0 1 BerryEsseen.Upper0423.Covers.Data.DW224.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0._private.BerryEsseen.Upper0423.Covers.Data.DW224.0.BerryEsseen.Upper0423.Covers.Data.DW224.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 224 0 1
+      BerryEsseen.Upper0423.Covers.Data.DW224.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.F2_BerryEsseen_Upper0423_Covers_Data_DW224_0.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1500716
+rc=0 secs=1

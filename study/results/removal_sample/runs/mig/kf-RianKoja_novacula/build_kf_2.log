@@ -1,0 +1,13 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Fixtures +Main +Novacula +Novacula.Chart +Novacula.Compat +Novacula.Gate +Novacula.Graph +Novacula.Term
+✔ [5/12] Built Novacula.Compat (556ms)
+⚠ [6/12] Built Fixtures (612ms)
+warning: test/Fixtures.lean:8:8: declaration uses `sorry`
+✔ [7/12] Built Novacula.Term (670ms)
+✔ [8/12] Built Novacula.Graph (852ms)
+✔ [9/12] Built Novacula.Chart (876ms)
+✔ [10/12] Built Novacula.Gate (642ms)
+✔ [11/12] Built Novacula (808ms)
+✔ [12/12] Built Main (789ms)
+Build completed successfully (12 jobs).
+TIME wall=4.44 user=4.64 sys=1.37 maxrss_kb=1594808
+rc=0 secs=4

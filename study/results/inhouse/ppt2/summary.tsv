@@ -1,0 +1,12 @@
+project	PPT2 paper 2 (deposit v5): lean/core and lean/rows_a
+source	sw 10.5281/zenodo.23651991 (deposit ppt2-paper2-deposit-v5; paper 10.5281/zenodo.23651994)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	1,790 distinct native axioms in the theorem closures (core 751, rows_a 1,039); 1,989 NATIVE theorems, of which the paper cites 998 (606 core, 392 rows_a)
+converted	core 540 of 751 (all run); rows_a 271 of 679 run (1,039 in all; 667 of the 670 cited-closure facts run); theorems fully converted: core 543 of 770, rows_a 304 of 1,219 (358 unchecked); cited: 389 of 606 + 184 of 392 = 573 of 998; rows of Table A.1 fully converted: 86 of 165
+nt_cpu_h	47.1 h of process time for all checks (core 20.1, rows_a 27.0); the successful checks of the converted facts: 11.4 h (core 7.0, rows_a 4.3); units: 37.0 CPU-h for the completion + 8.0 for the first core run (ih-ppt2 v1) + 7.4 (v2)
+nt_wall_min	about 700 (01:31-05:09 v1, 05:09-07:37 v2, 07:37-14:43 completion)
+native_build_cpu_h	core: 0.70 (default build 1,750 s user + index targets 772 s user); rows_a: 4.11 (979 s + 13,831 s user); the deposit gives about seven core-hours for the rows_a modules (README.md:232-233)
+hand_track	none (PPT2Cert/Kernel redoes some checks in the kernel alone; all its theorems are KERNEL)
+hand_build_cpu_h	-
+checks	pass 1 (900 s, 48 GiB): core 751, rows_a 679 (cited-closure facts first; stopped at the agreed 37.5 core-h); heavy (3,600 s, 96 GiB): 10 random core and 10 random rows_a memory failures, 1 and 2 converted

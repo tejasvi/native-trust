@@ -1,0 +1,10 @@
+$ lean formal-conjectures__F2_FormalConjectures_ErdosProblems_313_4.lean tc=v4.33.1 ntlib=/home/ntbuild/work_shared/nt22/v4.33.1/.lake/build/lib/lean start=2026-10-24T19:57:06Z
+formal-conjectures__F2_FormalConjectures_ErdosProblems_313_4.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_9` as `_ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_4»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_9`: kernel_ms=11 native_axioms=1 rebuilt=0 copies=0 total_ms=63 acc_fallback=0 pieces=1
+maxrss_kb 7106464 secs 2.92
+rc=0 end=2026-10-24T19:57:09Z
+.0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_9 eval_ms=7
+NT _ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_4»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_9 quick whole-term attempt proved it
+PROVED `_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_9` as `_ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_4»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_9`: kernel_ms=11 native_axioms=1 rebuilt=0 copies=0 total_ms=63 acc_fallback=0 pieces=1

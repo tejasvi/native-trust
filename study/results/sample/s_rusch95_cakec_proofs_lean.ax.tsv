@@ -1,0 +1,9 @@
+s_rusch95_cakec_proofs_lean	Grammar	add_binds_tighter_than_logand._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1372268	1		nt_lines=4 last=eval_ms=1
+s_rusch95_cakec_proofs_lean	Grammar	mul_binds_tighter_than_add._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1454356	1		nt_lines=4 last=eval_ms=0
+s_rusch95_cakec_proofs_lean	Grammar	mul_div_mod_same_precedence._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1367392	1		nt_lines=4 last=eval_ms=1
+s_rusch95_cakec_proofs_lean	Grammar	mul_div_mod_same_precedence._native.native_decide.ax_1_2	native_decide	False	PROVED		0	1379972	1		nt_lines=4 last=eval_ms=0
+s_rusch95_cakec_proofs_lean	Grammar	add_sub_same_precedence._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1454008	1		nt_lines=4 last=eval_ms=1
+s_rusch95_cakec_proofs_lean	Grammar	comparison_binds_tighter_than_equality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1455216	1		nt_lines=4 last=eval_ms=0
+s_rusch95_cakec_proofs_lean	Semantics	return_2_plus_3_evaluates._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1378808	1		nt_lines=4 last=eval_ms=1
+s_rusch95_cakec_proofs_lean	Adversarial	attack2_wrong_result._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1454340	1		nt_lines=4 last=eval_ms=1
+s_rusch95_cakec_proofs_lean	TokenSpec	decimalValue_42._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1452968	1		nt_lines=4 last=eval_ms=1

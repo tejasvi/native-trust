@@ -1,0 +1,4 @@
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 46188492 secs 225.02
+rc=134

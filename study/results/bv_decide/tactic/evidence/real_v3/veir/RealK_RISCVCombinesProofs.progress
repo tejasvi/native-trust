@@ -1,0 +1,224 @@
+[25886479] bv_kdecide [Veir.Data.RISCV.right_identity_zero_add]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 798 MiB, kernel route 799 MiB
+[25886516] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._bvk_1: 1226 nodes, CNF 3467 clauses
+[25886572] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._bvk_1: 28 steps, 82 hints, 1 chunks, 0 segments; SAT 39 ms
+[25887684] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._bvk_1: base check 1111 ms
+[25887706] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._bvk_1: chunk 0 (28 steps from id 3468) 22 ms
+[25887717] bv_kdecide [Veir.Data.RISCV.srl_sra_signbit]: bv_decide 28 ms; 1226 nodes, 3467 clauses, 28 LRAT steps, 82 hints, 1 chunks; SAT 39 ms, data 19 ms; kernel: base 1112 ms, chunks 22 ms (max 22 ms), assembly 1 ms; total 1233 ms; peak RSS: bv_decide 801 MiB, kernel route 1065 MiB
+[25887759] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srlw_sraw_signbit._bvk_1: 553 nodes, CNF 1451 clauses
+[25887788] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srlw_sraw_signbit._bvk_1: 24 steps, 70 hints, 1 chunks, 0 segments; SAT 23 ms
+[25888224] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srlw_sraw_signbit._bvk_1: base check 436 ms
+[25888242] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.srlw_sraw_signbit._bvk_1: chunk 0 (24 steps from id 1452) 18 ms
+[25888250] bv_kdecide [Veir.Data.RISCV.srlw_sraw_signbit]: bv_decide 29 ms; 553 nodes, 1451 clauses, 24 LRAT steps, 70 hints, 1 chunks; SAT 23 ms, data 8 ms; kernel: base 436 ms, chunks 18 ms (max 18 ms), assembly 1 ms; total 526 ms; peak RSS: bv_decide 1065 MiB, kernel route 1065 MiB
+[25888266] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_slt]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888277] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_sltu]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888290] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_slti]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888303] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_sltiu]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888314] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_seqz]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888324] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_snez]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888336] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_sltz]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888348] bv_kdecide [Veir.Data.RISCV.drop_slli_srli_sgtz]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888361] bv_kdecide [Veir.Data.RISCV.zextw_zextw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888397] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_zextb._bvk_1: 65 nodes, CNF 2 clauses
+[25888410] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_zextb._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 12 ms
+[25888444] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_zextb._bvk_1: base check 34 ms
+[25888445] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_zextb._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25888450] bv_kdecide [Veir.Data.RISCV.zextw_zextb]: bv_decide 27 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 12 ms, data 1 ms; kernel: base 34 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 84 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888486] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_lbu._bvk_1: 65 nodes, CNF 2 clauses
+[25888501] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_lbu._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 15 ms
+[25888531] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_lbu._bvk_1: base check 30 ms
+[25888532] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_lbu._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25888536] bv_kdecide [Veir.Data.RISCV.zextb_lbu]: bv_decide 28 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 15 ms, data 0 ms; kernel: base 30 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 80 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888579] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._bvk_1: 65 nodes, CNF 2 clauses
+[25888592] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 14 ms
+[25888628] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._bvk_1: base check 36 ms
+[25888629] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_8._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25888635] bv_kdecide [Veir.Data.RISCV.zextw_slliw_lbu_8]: bv_decide 30 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 14 ms, data 0 ms; kernel: base 36 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 92 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888672] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._bvk_1: 65 nodes, CNF 2 clauses
+[25888686] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 14 ms
+[25888720] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._bvk_1: base check 34 ms
+[25888721] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_16._bvk_1: chunk 0 (1 steps from id 3) 0 ms
+[25888727] bv_kdecide [Veir.Data.RISCV.zextw_slliw_lbu_16]: bv_decide 22 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 14 ms, data 0 ms; kernel: base 35 ms, chunks 0 ms (max 0 ms), assembly 1 ms; total 83 ms; peak RSS: bv_decide 926 MiB, kernel route 926 MiB
+[25888763] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._bvk_1: 65 nodes, CNF 2 clauses
+[25888776] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 12 ms
+[25888806] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._bvk_1: base check 30 ms
+[25888807] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_slliw_lbu_24._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25888813] bv_kdecide [Veir.Data.RISCV.zextw_slliw_lbu_24]: bv_decide 21 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 12 ms, data 1 ms; kernel: base 30 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 76 ms; peak RSS: bv_decide 928 MiB, kernel route 928 MiB
+[25888857] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes._bvk_1: 129 nodes, CNF 2 clauses
+[25888871] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 14 ms
+[25888925] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes._bvk_1: base check 54 ms
+[25888926] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes._bvk_1: chunk 0 (1 steps from id 3) 0 ms
+[25888932] bv_kdecide [Veir.Data.RISCV.packh_low_bytes]: bv_decide 29 ms; 129 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 14 ms, data 1 ms; kernel: base 54 ms, chunks 0 ms (max 0 ms), assembly 1 ms; total 110 ms; peak RSS: bv_decide 928 MiB, kernel route 928 MiB
+[25888976] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._bvk_1: 129 nodes, CNF 2 clauses
+[25888993] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25889048] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._bvk_1: base check 55 ms
+[25889049] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_low_bytes_commuted._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25889055] bv_kdecide [Veir.Data.RISCV.packh_low_bytes_commuted]: bv_decide 30 ms; 129 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 1 ms; kernel: base 55 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 114 ms; peak RSS: bv_decide 928 MiB, kernel route 928 MiB
+[25889100] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes._bvk_1: 129 nodes, CNF 2 clauses
+[25889116] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25889176] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes._bvk_1: base check 60 ms
+[25889177] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25889183] bv_kdecide [Veir.Data.RISCV.packh_high_bytes]: bv_decide 30 ms; 129 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 0 ms; kernel: base 60 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 119 ms; peak RSS: bv_decide 927 MiB, kernel route 835 MiB
+[25889229] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._bvk_1: 129 nodes, CNF 2 clauses
+[25889245] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 16 ms
+[25889302] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._bvk_1: base check 57 ms
+[25889303] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.packh_high_bytes_commuted._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25889308] bv_kdecide [Veir.Data.RISCV.packh_high_bytes_commuted]: bv_decide 30 ms; 129 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 16 ms, data 1 ms; kernel: base 57 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 115 ms; peak RSS: bv_decide 835 MiB, kernel route 837 MiB
+[25889343] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_left._bvk_1: 161 nodes, CNF 98 clauses
+[25889356] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_left._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25889423] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_left._bvk_1: base check 67 ms
+[25889424] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_left._bvk_1: chunk 0 (1 steps from id 99) 0 ms
+[25889429] bv_kdecide [Veir.Data.RISCV.zextw_and_left]: bv_decide 21 ms; 161 nodes, 98 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 1 ms; kernel: base 67 ms, chunks 0 ms (max 0 ms), assembly 0 ms; total 111 ms; peak RSS: bv_decide 837 MiB, kernel route 841 MiB
+[25889460] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_right._bvk_1: 161 nodes, CNF 98 clauses
+[25889473] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_right._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 12 ms
+[25889540] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_right._bvk_1: base check 67 ms
+[25889541] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and_right._bvk_1: chunk 0 (1 steps from id 99) 1 ms
+[25889546] bv_kdecide [Veir.Data.RISCV.zextw_and_right]: bv_decide 21 ms; 161 nodes, 98 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 12 ms, data 1 ms; kernel: base 67 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 110 ms; peak RSS: bv_decide 841 MiB, kernel route 841 MiB
+[25889587] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and._bvk_1: 161 nodes, CNF 98 clauses
+[25889601] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 14 ms
+[25889667] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and._bvk_1: base check 66 ms
+[25889668] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_and._bvk_1: chunk 0 (1 steps from id 99) 1 ms
+[25889674] bv_kdecide [Veir.Data.RISCV.zextw_and]: bv_decide 29 ms; 161 nodes, 98 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 14 ms, data 1 ms; kernel: base 66 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 119 ms; peak RSS: bv_decide 841 MiB, kernel route 841 MiB
+[25889717] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_or._bvk_1: 161 nodes, CNF 98 clauses
+[25889734] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_or._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25889810] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_or._bvk_1: base check 76 ms
+[25889811] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_or._bvk_1: chunk 0 (1 steps from id 99) 1 ms
+[25889816] bv_kdecide [Veir.Data.RISCV.zextw_or]: bv_decide 31 ms; 161 nodes, 98 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 1 ms; kernel: base 76 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 134 ms; peak RSS: bv_decide 841 MiB, kernel route 846 MiB
+[25889850] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_xor._bvk_1: 225 nodes, CNF 290 clauses
+[25889868] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_xor._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25889984] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_xor._bvk_1: base check 116 ms
+[25889985] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_xor._bvk_1: chunk 0 (1 steps from id 291) 1 ms
+[25889991] bv_kdecide [Veir.Data.RISCV.zextw_xor]: bv_decide 21 ms; 225 nodes, 290 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 2 ms; kernel: base 116 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 165 ms; peak RSS: bv_decide 846 MiB, kernel route 852 MiB
+[25890006] bv_kdecide [Veir.Data.RISCV.drop_zextw_sw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 852 MiB, kernel route 852 MiB
+[25890042] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_zextw_sb._bvk_1: 65 nodes, CNF 2 clauses
+[25890056] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_zextw_sb._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25890067] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_zextw_sb._bvk_1: base check 11 ms
+[25890068] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_zextw_sb._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25890073] bv_kdecide [Veir.Data.RISCV.drop_zextw_sb]: bv_decide 28 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 1 ms; kernel: base 11 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 62 ms; peak RSS: bv_decide 852 MiB, kernel route 852 MiB
+[25890085] bv_kdecide [Veir.Data.RISCV.zextw_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 5 ms; peak RSS: bv_decide 852 MiB, kernel route 852 MiB
+[25890122] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_li_low32._bvk_1: 128 nodes, CNF 191 clauses
+[25890144] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_li_low32._bvk_1: 95 steps, 222 hints, 1 chunks, 0 segments; SAT 20 ms
+[25890223] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_li_low32._bvk_1: base check 79 ms
+[25890272] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextw_li_low32._bvk_1: chunk 0 (95 steps from id 192) 49 ms
+[25890280] bv_kdecide [Veir.Data.RISCV.zextw_li_low32]: bv_decide 28 ms; 128 nodes, 191 clauses, 95 LRAT steps, 222 hints, 1 chunks; SAT 20 ms, data 2 ms; kernel: base 80 ms, chunks 49 ms (max 49 ms), assembly 3 ms; total 189 ms; peak RSS: bv_decide 816 MiB, kernel route 845 MiB
+[25890293] bv_kdecide [Veir.Data.RISCV.sextw_sextw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 845 MiB, kernel route 845 MiB
+[25890329] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_and._bvk_1: 614 nodes, CNF 1169 clauses
+[25890381] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_and._bvk_1: 239 steps, 4182 hints, 1 chunks, 0 segments; SAT 42 ms
+[25890857] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_and._bvk_1: base check 476 ms
+[25891409] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_and._bvk_1: chunk 0 (239 steps from id 1170) 552 ms
+[25891426] bv_kdecide [Veir.Data.RISCV.sextw_and]: bv_decide 24 ms; 614 nodes, 1169 clauses, 239 LRAT steps, 4182 hints, 1 chunks; SAT 42 ms, data 12 ms; kernel: base 476 ms, chunks 552 ms (max 552 ms), assembly 5 ms; total 1127 ms; peak RSS: bv_decide 845 MiB, kernel route 940 MiB
+[25891477] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_or._bvk_1: 614 nodes, CNF 1169 clauses
+[25891532] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_or._bvk_1: 239 steps, 4182 hints, 1 chunks, 0 segments; SAT 44 ms
+[25892011] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_or._bvk_1: base check 479 ms
+[25892577] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_or._bvk_1: chunk 0 (239 steps from id 1170) 566 ms
+[25892593] bv_kdecide [Veir.Data.RISCV.sextw_or]: bv_decide 34 ms; 614 nodes, 1169 clauses, 239 LRAT steps, 4182 hints, 1 chunks; SAT 44 ms, data 12 ms; kernel: base 480 ms, chunks 566 ms (max 566 ms), assembly 5 ms; total 1157 ms; peak RSS: bv_decide 940 MiB, kernel route 948 MiB
+[25892645] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_xor._bvk_1: 742 nodes, CNF 1553 clauses
+[25892699] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_xor._bvk_1: 426 steps, 1998 hints, 1 chunks, 0 segments; SAT 42 ms
+[25893264] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_xor._bvk_1: base check 565 ms
+[25893817] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextw_xor._bvk_1: chunk 0 (426 steps from id 1554) 553 ms
+[25893835] bv_kdecide [Veir.Data.RISCV.sextw_xor]: bv_decide 33 ms; 742 nodes, 1553 clauses, 426 LRAT steps, 1998 hints, 1 chunks; SAT 42 ms, data 15 ms; kernel: base 565 ms, chunks 553 ms (max 553 ms), assembly 9 ms; total 1231 ms; peak RSS: bv_decide 940 MiB, kernel route 966 MiB
+[25893853] bv_kdecide [Veir.Data.RISCV.drop_sextw_sw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25893890] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_sextw_sb._bvk_1: 65 nodes, CNF 2 clauses
+[25893906] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_sextw_sb._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 16 ms
+[25893919] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_sextw_sb._bvk_1: base check 13 ms
+[25893919] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.drop_sextw_sb._bvk_1: chunk 0 (1 steps from id 3) 0 ms
+[25893924] bv_kdecide [Veir.Data.RISCV.drop_sextw_sb]: bv_decide 28 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 16 ms, data 0 ms; kernel: base 13 ms, chunks 0 ms (max 0 ms), assembly 0 ms; total 66 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25893935] bv_kdecide [Veir.Data.RISCV.sextw_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 3 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25893945] bv_kdecide [Veir.Data.RISCV.sextw_li_low32]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25893980] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_zextb._bvk_1: 65 nodes, CNF 2 clauses
+[25893997] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_zextb._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25894028] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_zextb._bvk_1: base check 30 ms
+[25894029] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_zextb._bvk_1: chunk 0 (1 steps from id 3) 1 ms
+[25894033] bv_kdecide [Veir.Data.RISCV.zextb_zextb]: bv_decide 28 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 0 ms; kernel: base 31 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 83 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25894045] bv_kdecide [Veir.Data.RISCV.zexth_zexth]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25894057] bv_kdecide [Veir.Data.RISCV.sextb_sextb]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 8 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25894068] bv_kdecide [Veir.Data.RISCV.sexth_sexth]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25894095] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_left._bvk_1: 137 nodes, CNF 26 clauses
+[25894109] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_left._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 14 ms
+[25894169] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_left._bvk_1: base check 60 ms
+[25894170] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_left._bvk_1: chunk 0 (1 steps from id 27) 1 ms
+[25894175] bv_kdecide [Veir.Data.RISCV.zextb_and_left]: bv_decide 20 ms; 137 nodes, 26 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 14 ms, data 1 ms; kernel: base 60 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 103 ms; peak RSS: bv_decide 966 MiB, kernel route 966 MiB
+[25894203] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_right._bvk_1: 137 nodes, CNF 26 clauses
+[25894217] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_right._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25894281] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_right._bvk_1: base check 64 ms
+[25894282] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_and_right._bvk_1: chunk 0 (1 steps from id 27) 1 ms
+[25894287] bv_kdecide [Veir.Data.RISCV.zextb_and_right]: bv_decide 19 ms; 137 nodes, 26 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 1 ms; kernel: base 64 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 107 ms; peak RSS: bv_decide 966 MiB, kernel route 965 MiB
+[25894316] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_or._bvk_1: 137 nodes, CNF 26 clauses
+[25894328] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_or._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25894400] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_or._bvk_1: base check 72 ms
+[25894401] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_or._bvk_1: chunk 0 (1 steps from id 27) 1 ms
+[25894406] bv_kdecide [Veir.Data.RISCV.zextb_or]: bv_decide 20 ms; 137 nodes, 26 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 0 ms; kernel: base 72 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 113 ms; peak RSS: bv_decide 844 MiB, kernel route 846 MiB
+[25894444] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_xor._bvk_1: 153 nodes, CNF 74 clauses
+[25894461] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_xor._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 17 ms
+[25894539] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_xor._bvk_1: base check 78 ms
+[25894540] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_xor._bvk_1: chunk 0 (1 steps from id 75) 1 ms
+[25894545] bv_kdecide [Veir.Data.RISCV.zextb_xor]: bv_decide 28 ms; 153 nodes, 74 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 17 ms, data 1 ms; kernel: base 78 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 133 ms; peak RSS: bv_decide 846 MiB, kernel route 850 MiB
+[25894583] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_left._bvk_1: 145 nodes, CNF 50 clauses
+[25894597] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_left._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25894653] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_left._bvk_1: base check 56 ms
+[25894654] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_left._bvk_1: chunk 0 (1 steps from id 51) 1 ms
+[25894659] bv_kdecide [Veir.Data.RISCV.zexth_and_left]: bv_decide 29 ms; 145 nodes, 50 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 1 ms; kernel: base 56 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 108 ms; peak RSS: bv_decide 850 MiB, kernel route 850 MiB
+[25894689] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_right._bvk_1: 145 nodes, CNF 50 clauses
+[25894701] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_right._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25894758] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_right._bvk_1: base check 57 ms
+[25894759] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_and_right._bvk_1: chunk 0 (1 steps from id 51) 1 ms
+[25894764] bv_kdecide [Veir.Data.RISCV.zexth_and_right]: bv_decide 20 ms; 145 nodes, 50 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 0 ms; kernel: base 57 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 98 ms; peak RSS: bv_decide 850 MiB, kernel route 850 MiB
+[25894795] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_or._bvk_1: 145 nodes, CNF 50 clauses
+[25894808] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_or._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 13 ms
+[25894868] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_or._bvk_1: base check 60 ms
+[25894869] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_or._bvk_1: chunk 0 (1 steps from id 51) 1 ms
+[25894874] bv_kdecide [Veir.Data.RISCV.zexth_or]: bv_decide 21 ms; 145 nodes, 50 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 13 ms, data 1 ms; kernel: base 60 ms, chunks 1 ms (max 1 ms), assembly 0 ms; total 104 ms; peak RSS: bv_decide 850 MiB, kernel route 850 MiB
+[25894906] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_xor._bvk_1: 177 nodes, CNF 146 clauses
+[25894921] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_xor._bvk_1: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 15 ms
+[25894997] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_xor._bvk_1: base check 76 ms
+[25894998] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_xor._bvk_1: chunk 0 (1 steps from id 147) 1 ms
+[25895003] bv_kdecide [Veir.Data.RISCV.zexth_xor]: bv_decide 21 ms; 177 nodes, 146 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 15 ms, data 1 ms; kernel: base 76 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 122 ms; peak RSS: bv_decide 850 MiB, kernel route 856 MiB
+[25895043] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_and._bvk_1: 926 nodes, CNF 1889 clauses
+[25895146] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_and._bvk_1: 407 steps, 11334 hints, 1 chunks, 0 segments; SAT 82 ms
+[25895892] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_and._bvk_1: base check 746 ms
+[25897271] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_and._bvk_1: chunk 0 (407 steps from id 1890) 1379 ms
+[25897301] bv_kdecide [Veir.Data.RISCV.sextb_and]: bv_decide 25 ms; 926 nodes, 1889 clauses, 407 LRAT steps, 11334 hints, 1 chunks; SAT 82 ms, data 24 ms; kernel: base 746 ms, chunks 1379 ms (max 1379 ms), assembly 8 ms; total 2291 ms; peak RSS: bv_decide 856 MiB, kernel route 1091 MiB
+[25897356] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_or._bvk_1: 926 nodes, CNF 1889 clauses
+[25897463] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_or._bvk_1: 407 steps, 11334 hints, 1 chunks, 0 segments; SAT 86 ms
+[25898265] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_or._bvk_1: base check 802 ms
+[25899750] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_or._bvk_1: chunk 0 (407 steps from id 1890) 1485 ms
+[25899783] bv_kdecide [Veir.Data.RISCV.sextb_or]: bv_decide 36 ms; 926 nodes, 1889 clauses, 407 LRAT steps, 11334 hints, 1 chunks; SAT 86 ms, data 24 ms; kernel: base 802 ms, chunks 1485 ms (max 1485 ms), assembly 9 ms; total 2471 ms; peak RSS: bv_decide 1088 MiB, kernel route 1096 MiB
+[25899837] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_xor._bvk_1: 1054 nodes, CNF 2273 clauses
+[25899913] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_xor._bvk_1: 738 steps, 3462 hints, 1 chunks, 0 segments; SAT 57 ms
+[25900869] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_xor._bvk_1: base check 956 ms
+[25902061] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sextb_xor._bvk_1: chunk 0 (738 steps from id 2274) 1192 ms
+[25902091] bv_kdecide [Veir.Data.RISCV.sextb_xor]: bv_decide 35 ms; 1054 nodes, 2273 clauses, 738 LRAT steps, 3462 hints, 1 chunks; SAT 57 ms, data 22 ms; kernel: base 956 ms, chunks 1192 ms (max 1192 ms), assembly 15 ms; total 2296 ms; peak RSS: bv_decide 1096 MiB, kernel route 1095 MiB
+[25902144] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_and._bvk_1: 822 nodes, CNF 1649 clauses
+[25902235] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_and._bvk_1: 351 steps, 8566 hints, 1 chunks, 0 segments; SAT 72 ms
+[25902941] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_and._bvk_1: base check 706 ms
+[25904103] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_and._bvk_1: chunk 0 (351 steps from id 1650) 1162 ms
+[25904129] bv_kdecide [Veir.Data.RISCV.sexth_and]: bv_decide 36 ms; 822 nodes, 1649 clauses, 351 LRAT steps, 8566 hints, 1 chunks; SAT 72 ms, data 21 ms; kernel: base 706 ms, chunks 1162 ms (max 1162 ms), assembly 8 ms; total 2028 ms; peak RSS: bv_decide 1059 MiB, kernel route 1059 MiB
+[25904183] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_or._bvk_1: 822 nodes, CNF 1649 clauses
+[25904279] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_or._bvk_1: 351 steps, 8566 hints, 1 chunks, 0 segments; SAT 77 ms
+[25904998] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_or._bvk_1: base check 719 ms
+[25906164] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_or._bvk_1: chunk 0 (351 steps from id 1650) 1166 ms
+[25906189] bv_kdecide [Veir.Data.RISCV.sexth_or]: bv_decide 35 ms; 822 nodes, 1649 clauses, 351 LRAT steps, 8566 hints, 1 chunks; SAT 77 ms, data 21 ms; kernel: base 719 ms, chunks 1166 ms (max 1166 ms), assembly 8 ms; total 2050 ms; peak RSS: bv_decide 1052 MiB, kernel route 1055 MiB
+[25906243] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_xor._bvk_1: 950 nodes, CNF 2033 clauses
+[25906317] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_xor._bvk_1: 634 steps, 2974 hints, 1 chunks, 0 segments; SAT 57 ms
+[25907151] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_xor._bvk_1: base check 834 ms
+[25908174] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.sexth_xor._bvk_1: chunk 0 (634 steps from id 2034) 1023 ms
+[25908201] bv_kdecide [Veir.Data.RISCV.sexth_xor]: bv_decide 35 ms; 950 nodes, 2033 clauses, 634 LRAT steps, 2974 hints, 1 chunks; SAT 57 ms, data 20 ms; kernel: base 834 ms, chunks 1023 ms (max 1023 ms), assembly 13 ms; total 2000 ms; peak RSS: bv_decide 1055 MiB, kernel route 1054 MiB
+[25908218] bv_kdecide [Veir.Data.RISCV.drop_zexth_sh]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908229] bv_kdecide [Veir.Data.RISCV.drop_sexth_sh]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908240] bv_kdecide [Veir.Data.RISCV.drop_zextb_sb]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908251] bv_kdecide [Veir.Data.RISCV.drop_sextb_sb]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 7 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908258] bv_kdecide [Veir.Data.RISCV.zextb_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 3 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908266] bv_kdecide [Veir.Data.RISCV.zexth_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908273] bv_kdecide [Veir.Data.RISCV.sextb_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908281] bv_kdecide [Veir.Data.RISCV.sexth_x0]: bv_decide 1 ms; closed by the preprocessing of bv_decide (no SAT call); total 4 ms; peak RSS: bv_decide 1040 MiB, kernel route 1040 MiB
+[25908318] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_li_low8._bvk_1: 176 nodes, CNF 335 clauses
+[25908349] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_li_low8._bvk_1: 167 steps, 390 hints, 1 chunks, 0 segments; SAT 28 ms
+[25908478] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_li_low8._bvk_1: base check 129 ms
+[25908580] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zextb_li_low8._bvk_1: chunk 0 (167 steps from id 336) 102 ms
+[25908589] bv_kdecide [Veir.Data.RISCV.zextb_li_low8]: bv_decide 30 ms; 176 nodes, 335 clauses, 167 LRAT steps, 390 hints, 1 chunks; SAT 28 ms, data 4 ms; kernel: base 129 ms, chunks 102 ms (max 102 ms), assembly 3 ms; total 304 ms; peak RSS: bv_decide 1040 MiB, kernel route 1039 MiB
+[25908629] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_li_low16._bvk_1: 160 nodes, CNF 287 clauses
+[25908652] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_li_low16._bvk_1: 143 steps, 334 hints, 1 chunks, 0 segments; SAT 20 ms
+[25908762] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_li_low16._bvk_1: base check 110 ms
+[25908845] _private.RealK.RISCVCombinesProofs.0.Veir.Data.RISCV.zexth_li_low16._bvk_1: chunk 0 (143 steps from id 288) 83 ms
+[25908854] bv_kdecide [Veir.Data.RISCV.zexth_li_low16]: bv_decide 29 ms; 160 nodes, 287 clauses, 143 LRAT steps, 334 hints, 1 chunks; SAT 20 ms, data 4 ms; kernel: base 110 ms, chunks 83 ms (max 83 ms), assembly 3 ms; total 258 ms; peak RSS: bv_decide 890 MiB, kernel route 890 MiB
+[25908868] bv_kdecide [Veir.Data.RISCV.sextb_li_low8]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 890 MiB, kernel route 890 MiB
+[25908878] bv_kdecide [Veir.Data.RISCV.sexth_li_low16]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 6 ms; peak RSS: bv_decide 890 MiB, kernel route 890 MiB

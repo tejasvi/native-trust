@@ -1,0 +1,199 @@
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW105.0.BerryEsseen.Upper0423.Covers.Data.DW105.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW105.0.BerryEsseen.Upper0423.Covers.Data.DW105.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 105 0 1 BerryEsseen.Upper0423.Covers.Data.DW105.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.DW105.0.BerryEsseen.Upper0423.Covers.Data.DW105.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 105 0 1 BerryEsseen.Upper0423.Covers.Data.DW105.data = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW115.0.BerryEsseen.Upper0423.Covers.Data.DW115.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW115.0.BerryEsseen.Upper0423.Covers.Data.DW115.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 115 0 1 BerryEsseen.Upper0423.Covers.Data.DW115.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.DW115.0.BerryEsseen.Upper0423.Covers.Data.DW115.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 115 0 1 BerryEsseen.Upper0423.Covers.Data.DW115.data = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE57.0.BerryEsseen.Upper0423.Covers.Data.BE57.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE57.0.BerryEsseen.Upper0423.Covers.Data.BE57.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 57 2 (983 / 100) BerryEsseen.Upper0423.Covers.Data.BE57.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.BE57.0.BerryEsseen.Upper0423.Covers.Data.BE57.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 57 2 (983 / 100)
+      BerryEsseen.Upper0423.Covers.Data.BE57.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Small.Data.Cover46.0.BerryEsseen.Upper0423.Small.Data.Cover46.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Small.Data.Cover46.0.BerryEsseen.Upper0423.Small.Data.Cover46.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide (BerryEsseen.Upper0423.Native.coverStringAccepted 46 BerryEsseen.Upper0423.Small.Data.Cover46.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Small.Data.Cover46.0.BerryEsseen.Upper0423.Small.Data.Cover46.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAccepted 46 BerryEsseen.Upper0423.Small.Data.Cover46.data = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAccepted → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAccepted → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW198.0.BerryEsseen.Upper0423.Covers.Data.DW198.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW198.0.BerryEsseen.Upper0423.Covers.Data.DW198.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 198 0 1 BerryEsseen.Upper0423.Covers.Data.DW198.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.DW198.0.BerryEsseen.Upper0423.Covers.Data.DW198.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 198 0 1 BerryEsseen.Upper0423.Covers.Data.DW198.data = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE93.0.BerryEsseen.Upper0423.Covers.Data.BE93.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE93.0.BerryEsseen.Upper0423.Covers.Data.BE93.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 93 2 (251 / 20) BerryEsseen.Upper0423.Covers.Data.BE93.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.BE93.0.BerryEsseen.Upper0423.Covers.Data.BE93.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 93 2 (251 / 20)
+      BerryEsseen.Upper0423.Covers.Data.BE93.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW21.0.BerryEsseen.Upper0423.Covers.Data.DW21.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW21.0.BerryEsseen.Upper0423.Covers.Data.DW21.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 21 (258569 / 454000) 1
+          BerryEsseen.Upper0423.Covers.Data.DW21.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.DW21.0.BerryEsseen.Upper0423.Covers.Data.DW21.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 21 (258569 / 454000) 1
+      BerryEsseen.Upper0423.Covers.Data.DW21.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE120.0.BerryEsseen.Upper0423.Covers.Data.BE120.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE120.0.BerryEsseen.Upper0423.Covers.Data.BE120.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 120 2 (713 / 50)
+          BerryEsseen.Upper0423.Covers.Data.BE120.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.BE120.0.BerryEsseen.Upper0423.Covers.Data.BE120.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 120 2 (713 / 50)
+      BerryEsseen.Upper0423.Covers.Data.BE120.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.DW247.0.BerryEsseen.Upper0423.Covers.Data.DW247.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.DW247.0.BerryEsseen.Upper0423.Covers.Data.DW247.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedDW 247 0 1 BerryEsseen.Upper0423.Covers.Data.DW247.data = true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.DW247.0.BerryEsseen.Upper0423.Covers.Data.DW247.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW 247 0 1 BerryEsseen.Upper0423.Covers.Data.DW247.data = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedDW → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE170.0.BerryEsseen.Upper0423.Covers.Data.BE170.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE170.0.BerryEsseen.Upper0423.Covers.Data.BE170.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 170 2 (1697 / 100)
+          BerryEsseen.Upper0423.Covers.Data.BE170.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.RC._private.BerryEsseen.Upper0423.Covers.Data.BE170.0.BerryEsseen.Upper0423.Covers.Data.BE170.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 170 2 (1697 / 100)
+      BerryEsseen.Upper0423.Covers.Data.BE170.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.RC.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kt.RC.BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1595868 secs 5.18
+rc=0

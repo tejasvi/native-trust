@@ -1,0 +1,9 @@
+$ lean D_bfsD00_0.lean start=2026-10-26T01:13:05Z timeout=900
+NT start Sortnet.S45Final.Main.Bfs.D00C000.bfs._native.native_decide.ax_1_1
+NT nested Sortnet.S45Final.Main.Bfs.D00C000.bfs._native.native_decide.ax_1_1 ms=91 rebuilt_defs=0 visited=3111
+NT copying Sortnet.S45Data.Main.chunk00
+
+Stack overflow detected. Aborting.
+Command terminated by signal 6
+maxrss_kb 7460440 secs 27.57
+rc=134 end=2026-10-26T01:13:33Z

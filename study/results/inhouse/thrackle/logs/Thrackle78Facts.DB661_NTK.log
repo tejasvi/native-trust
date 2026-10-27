@@ -1,0 +1,204 @@
+rror code: 2)
+  file: data/U12f5.part9
+error: T78Data/U12.lean:29:0: no such file or directory (error code: 2)
+  file: data/U12f5.part10
+error: T78Data/U12.lean:30:0: no such file or directory (error code: 2)
+  file: data/U12f5.part11
+error: T78Data/U12.lean:31:0: no such file or directory (error code: 2)
+  file: data/U12f5.part12
+✖ [9054/9106] Building T78Data.U13 (619ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/U13.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/U13.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/U13.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/U13.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/U13.setup.json --json
+error: T78Data/U13.lean:13:0: no such file or directory (error code: 2)
+  file: data/U13m.part0
+error: T78Data/U13.lean:14:0: no such file or directory (error code: 2)
+  file: data/U13f0.part0
+error: T78Data/U13.lean:15:0: no such file or directory (error code: 2)
+  file: data/U13f1.part0
+error: T78Data/U13.lean:16:0: no such file or directory (error code: 2)
+  file: data/U13f2.part0
+error: T78Data/U13.lean:17:0: no such file or directory (error code: 2)
+  file: data/U13f3.part0
+error: T78Data/U13.lean:18:0: no such file or directory (error code: 2)
+  file: data/U13f4.part0
+error: T78Data/U13.lean:19:0: no such file or directory (error code: 2)
+  file: data/U13f5.part0
+error: T78Data/U13.lean:20:0: no such file or directory (error code: 2)
+  file: data/U13f5.part1
+error: T78Data/U13.lean:21:0: no such file or directory (error code: 2)
+  file: data/U13f5.part2
+error: T78Data/U13.lean:22:0: no such file or directory (error code: 2)
+  file: data/U13f5.part3
+error: T78Data/U13.lean:23:0: no such file or directory (error code: 2)
+  file: data/U13f5.part4
+error: T78Data/U13.lean:24:0: no such file or directory (error code: 2)
+  file: data/U13f5.part5
+error: T78Data/U13.lean:25:0: no such file or directory (error code: 2)
+  file: data/U13f5.part6
+error: T78Data/U13.lean:26:0: no such file or directory (error code: 2)
+  file: data/U13f5.part7
+error: T78Data/U13.lean:27:0: no such file or directory (error code: 2)
+  file: data/U13f5.part8
+error: T78Data/U13.lean:28:0: no such file or directory (error code: 2)
+  file: data/U13f5.part9
+error: T78Data/U13.lean:29:0: no such file or directory (error code: 2)
+  file: data/U13f5.part10
+error: T78Data/U13.lean:30:0: no such file or directory (error code: 2)
+  file: data/U13f5.part11
+error: T78Data/U13.lean:31:0: no such file or directory (error code: 2)
+  file: data/U13f5.part12
+✖ [9055/9106] Building T78Data.DB662 (612ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB662.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB662.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB662.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB662.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB662.setup.json --json
+error: T78Data/DB662.lean:9:0: no such file or directory (error code: 2)
+  file: data/DB662m.part0
+error: T78Data/DB662.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB662f0.part0
+error: T78Data/DB662.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part0
+error: T78Data/DB662.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part1
+error: T78Data/DB662.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part2
+error: T78Data/DB662.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part3
+error: T78Data/DB662.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part4
+error: T78Data/DB662.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part5
+error: T78Data/DB662.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part6
+error: T78Data/DB662.lean:18:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part7
+error: T78Data/DB662.lean:19:0: no such file or directory (error code: 2)
+  file: data/DB662f1.part8
+✖ [9056/9106] Building T78Data.DB683_0 (619ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_0.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_0.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_0.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_0.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_0.setup.json --json
+error: T78Data/DB683_0.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683m.part0
+error: T78Data/DB683_0.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683m.part1
+error: T78Data/DB683_0.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683m.part2
+error: T78Data/DB683_0.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683m.part3
+error: T78Data/DB683_0.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683m.part4
+error: T78Data/DB683_0.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683m.part5
+error: T78Data/DB683_0.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683m.part6
+error: T78Data/DB683_0.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB683m.part7
+✖ [9057/9106] Building T78Data.DB683_1 (610ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_1.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_1.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_1.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_1.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_1.setup.json --json
+error: T78Data/DB683_1.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683m.part8
+error: T78Data/DB683_1.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683m.part9
+error: T78Data/DB683_1.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683m.part10
+error: T78Data/DB683_1.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683m.part11
+error: T78Data/DB683_1.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683m.part12
+error: T78Data/DB683_1.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683m.part13
+error: T78Data/DB683_1.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683m.part14
+error: T78Data/DB683_1.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB683m.part15
+✖ [9058/9106] Building T78Data.DB683_2 (624ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_2.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_2.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_2.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_2.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_2.setup.json --json
+error: T78Data/DB683_2.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683m.part16
+error: T78Data/DB683_2.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683m.part17
+error: T78Data/DB683_2.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683m.part18
+error: T78Data/DB683_2.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683m.part19
+error: T78Data/DB683_2.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683m.part20
+error: T78Data/DB683_2.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683m.part21
+error: T78Data/DB683_2.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683m.part22
+error: T78Data/DB683_2.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB683m.part23
+✖ [9059/9106] Building T78Data.DB683_3 (639ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_3.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_3.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_3.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_3.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_3.setup.json --json
+error: T78Data/DB683_3.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683f0.part0
+error: T78Data/DB683_3.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part0
+error: T78Data/DB683_3.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part1
+error: T78Data/DB683_3.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part2
+error: T78Data/DB683_3.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part3
+error: T78Data/DB683_3.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part4
+error: T78Data/DB683_3.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part5
+error: T78Data/DB683_3.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part6
+✖ [9060/9106] Building T78Data.DB683_4 (615ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_4.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_4.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_4.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_4.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_4.setup.json --json
+error: T78Data/DB683_4.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part7
+error: T78Data/DB683_4.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part8
+error: T78Data/DB683_4.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part9
+error: T78Data/DB683_4.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part10
+error: T78Data/DB683_4.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part11
+error: T78Data/DB683_4.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683f1.part12
+error: T78Data/DB683_4.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part0
+error: T78Data/DB683_4.lean:17:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part1
+✖ [9081/9106] Building T78Data.DB683_5 (631ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/thrackle/src/T78Data/DB683_5.lean -o /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_5.olean -i /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/lib/lean/T78Data/DB683_5.ilean -c /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_5.c --setup /home/ntbuild/work_migsample/inhouse/thrackle/src/.lake/build/ir/T78Data/DB683_5.setup.json --json
+error: T78Data/DB683_5.lean:10:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part2
+error: T78Data/DB683_5.lean:11:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part3
+error: T78Data/DB683_5.lean:12:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part4
+error: T78Data/DB683_5.lean:13:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part5
+error: T78Data/DB683_5.lean:14:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part6
+error: T78Data/DB683_5.lean:15:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part7
+error: T78Data/DB683_5.lean:16:0: no such file or directory (error code: 2)
+  file: data/DB683f2.part8
+Some required targets logged failures:
+- T78Data.DB661
+- T78Data.DB663
+- T78Data.U15
+- T78Data.V4
+- T78Data.U10
+- T78Data.V5
+- T78Data.V7
+- T78Data.U14
+- T78Data.U16
+- T78Data.U7
+- T78Data.U8
+- T78Data.U9
+- T78Data.U11
+- T78Data.U12
+- T78Data.U13
+- T78Data.DB662
+- T78Data.DB683_0
+- T78Data.DB683_1
+- T78Data.DB683_2
+- T78Data.DB683_3
+- T78Data.DB683_4
+- T78Data.DB683_5
+error: build failed
+Command exited with non-zero status 1
+TIME wall=17.29 user=12.41 sys=5.18 maxrss_kb=1561732

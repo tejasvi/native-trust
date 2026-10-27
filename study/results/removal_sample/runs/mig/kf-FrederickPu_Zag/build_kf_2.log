@@ -1,0 +1,418 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +HeapAlgebra.Defs +HeapAlgebra.Peano +IncludeDir +IncludeDir.Basic +IncludeDir.Elab +IncludeDir.IO +Lib.Peano.Defs +Lib.Peano.Eval +Lib.PeanoHeap +Meta.Eval +Meta.Eval.Composition +Meta.Eval.Core +Meta.Eval.VC +Meta.Induction +Meta.UnifyType +Test.Autocorres.Examples.ACRename +Test.Autocorres.Examples.AllBlocksFirst +Test.Autocorres.Examples.BinarySearch +Test.Autocorres.Examples.CList +Test.Autocorres.Examples.Common +Test.Autocorres.Examples.ConditionGuard +Test.Autocorres.Examples.FactorialTest +Test.Autocorres.Examples.FibProof +Test.Autocorres.Examples.FunctionInfoDemo +Test.Autocorres.Examples.HeapWrap +Test.Autocorres.Examples.HeapWrapF1F7 +Test.Autocorres.Examples.HeapWrapF8 +Test.Autocorres.Examples.Incremental +Test.Autocorres.Examples.IsPrime +Test.Autocorres.Examples.Kmalloc +Test.Autocorres.Examples.ListRev +Test.Autocorres.Examples.Memcpy +Test.Autocorres.Examples.Memset +Test.Autocorres.Examples.MultByAdd +Test.Autocorres.Examples.Plus +Test.Autocorres.Examples.QuicksortProgram +Test.Autocorres.Examples.SchorrWaite +Test.Autocorres.Examples.Simple +Test.Autocorres.Examples.Str2Long +Test.Autocorres.Examples.Suzuki +Test.Autocorres.Examples.Swap +Test.Autocorres.Examples.TraceDemo +Test.Autocorres.Examples.TypeStrengthenTricks +Test.Autocorres.Examples.WordAbs +Test.EvalState +Test.Exit +Test.Gauss +Test.Gauss.Rec +Test.Heap +Test.IncludeDir +Zag.Data +Zag.EvalAttr +Zag.EvalSpecs +Zag.EvalTriple +Zag.Loop +Zag.Machine +Zag.Meta +Zag.Meta.Language +Zag.Meta.Refinement +Zag.Refinement +Zag.Syntax +Zag.Theory +Zag.VC
+✔ [436/498] Built IncludeDir.Basic (372ms)
+✔ [437/498] Built Zag.Refinement (546ms)
+✔ [438/498] Built IncludeDir.IO (216ms)
+✔ [439/498] Built Zag.EvalAttr (945ms)
+✔ [440/498] Built IncludeDir.Elab (756ms)
+✔ [441/498] Built HeapAlgebra.Defs (1.2s)
+✔ [442/498] Built Zag.Meta.Refinement (847ms)
+⚠ [443/498] Built Zag.Data (1.7s)
+warning: Zag/Data.lean:380:30: Variable name `h` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [444/498] Built IncludeDir (625ms)
+✔ [445/498] Built Zag.Theory (451ms)
+ℹ [446/498] Built Test.IncludeDir (774ms)
+info: Test/IncludeDir.lean:14:39: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.fileCount` (no kernel definition)
+info: Test/IncludeDir.lean:19:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₂` (no kernel definition)
+info: Test/IncludeDir.lean:23:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₂` (no kernel definition)
+info: Test/IncludeDir.lean:26:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₂` (no kernel definition)
+info: Test/IncludeDir.lean:30:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `WellFounded.extrinsicFix₂`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque` (no kernel definition)
+info: Test/IncludeDir.lean:34:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.instBEqFileTree.beq`, `System.Platform.getIsWindows`, `WellFounded.extrinsicFix₂` (no kernel definition)
+info: Test/IncludeDir.lean:37:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.filesAt` (no kernel definition)
+info: Test/IncludeDir.lean:41:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `WellFounded.extrinsicFix₂`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque` (no kernel definition)
+info: Test/IncludeDir.lean:47:40: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)
+info: Test/IncludeDir.lean:54:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)
+info: Test/IncludeDir.lean:61:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)
+info: Test/IncludeDir.lean:66:59: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.instBEqFileTree.beq` (no kernel definition)
+info: Test/IncludeDir.lean:77:67: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `WellFounded.extrinsicFix₂`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque` (no kernel definition)
+info: Test/IncludeDir.lean:80:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `WellFounded.extrinsicFix₂`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque` (no kernel definition)
+info: Test/IncludeDir.lean:87:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)
+✔ [447/498] Built Zag.Syntax (995ms)
+✔ [448/498] Built Zag.Machine (1.1s)
+✔ [449/498] Built Lib.Peano.Defs (710ms)
+✔ [450/498] Built Test.Exit (798ms)
+⚠ [451/498] Built Zag.EvalTriple (1.0s)
+warning: Zag/EvalTriple.lean:1033:27: This simp argument is unused:
+  hop
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵o̵p̵,̵ ̵OptionT.fail, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1035:21: This simp argument is unused:
+  hop
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵h̵o̵p̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1038:25: This simp argument is unused:
+  hactionDef
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵a̵c̵t̵i̵o̵n̵D̵e̵f̵,̵ ̵Machine.driveSelectedOp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1040:35: This simp argument is unused:
+  hbody
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵b̵o̵d̵y̵,̵ ̵OptionT.fail, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1042:29: This simp argument is unused:
+  hbody
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵b̵o̵d̵y̵,̵ ̵Machine.ofOption, OptionT.run_mk, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1046:25: This simp argument is unused:
+  hactionDef
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵h̵a̵c̵t̵i̵o̵n̵D̵e̵f̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1076:27: This simp argument is unused:
+  hop
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵o̵p̵,̵ ̵OptionT.fail, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1078:21: This simp argument is unused:
+  hop
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵o̵p̵,̵ ̵Machine.driveSelectedOp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1080:31: This simp argument is unused:
+  hbody
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵b̵o̵d̵y̵,̵ ̵OptionT.fail, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Zag/EvalTriple.lean:1082:25: This simp argument is unused:
+  hbody
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵b̵o̵d̵y̵,̵ ̵Machine.ofOption, OptionT.run_mk, runId]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [452/498] Built Zag.VC (682ms)
+✔ [453/498] Built Zag.Meta.Language (878ms)
+✔ [454/498] Built Zag.Loop (1.1s)
+✔ [455/498] Built Zag.Meta (1.2s)
+✔ [456/498] Built Meta.Eval.VC (1.9s)
+✔ [457/498] Built Meta.UnifyType (1.4s)
+✔ [458/498] Built Zag.EvalSpecs (2.5s)
+✔ [459/498] Built Meta.Eval.Core (2.7s)
+✔ [460/498] Built Meta.Induction (1.7s)
+✔ [461/498] Built Lib.Peano.Eval (2.2s)
+✔ [462/498] Built Meta.Eval.Composition (2.1s)
+✔ [463/498] Built Meta.Eval (620ms)
+✔ [464/498] Built Test.Gauss (1.1s)
+✔ [465/498] Built Lib.PeanoHeap (1.7s)
+✔ [466/498] Built Test.Gauss.Rec (1.2s)
+✔ [467/498] Built HeapAlgebra.Peano (1.0s)
+ℹ [468/498] Built Test.Heap (975ms)
+info: Test/Heap.lean:52:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Heap.lean:124:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Heap.lean:131:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [469/498] Built Test.Autocorres.Examples.Common (2.1s)
+⚠ [470/498] Built Test.EvalState (3.3s)
+info: Test/EvalState.lean:191:52: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Zag.Machine.evalFuel → Zag.Machine.evalConfigFuel → Zag.Machine.evalConfigFuel._f → Zag.Machine.step): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Test/EvalState.lean:204:53: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Zag.Machine.evalFuel → Zag.Machine.evalConfigFuel → Zag.Machine.evalConfigFuel._f → Zag.Machine.step): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Test/EvalState.lean:266:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via _private.Test.EvalState.0.Zag.Test.EvalState.effectfulSequence → Zag.Machine.evalFuel → Zag.Machine.evalConfigFuel → Zag.Machine.evalConfigFuel._f): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+warning: Test/EvalState.lean:301:52: This simp argument is unused:
+  effectCtx
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, e̵f̵f̵e̵c̵t̵C̵t̵x̵,̵OptionT.mk, OptionT.run, OptionT.lift,
+  ̲  ̲ ̲ ̲OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure, StateT.map,
+      StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:302:29: This simp argument is unused:
+  OptionT.lift
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲O̵p̵t̵i̵o̵n̵T̵.̵l̵i̵f̵t̵,̵ ̵OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure, StateT.map,
+  ̲  ̲ ̲ ̲StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:302:57: This simp argument is unused:
+  OptionT.pure
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, O̵p̵t̵i̵o̵n̵T̵.̵p̵u̵r̵e̵,̵ ̵StateT.mk, StateT.run, StateT.bind, StateT.pure, StateT.map,
+  ̲  ̲ ̲ ̲StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:302:71: This simp argument is unused:
+  StateT.mk
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, S̵t̵a̵t̵e̵T̵.̵m̵k̵,̵ ̵StateT.run, StateT.bind, StateT.pure, StateT.map,
+  ̲  ̲ ̲ ̲StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:303:17: This simp argument is unused:
+  StateT.pure
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, S̵t̵a̵t̵e̵T̵.̵p̵u̵r̵e̵,̵StateT.map,
+      StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:304:4: This simp argument is unused:
+  StateT.map
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      S̵t̵a̵t̵e̵T̵.̵m̵a̵p̵,̵ ̵StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:304:16: This simp argument is unused:
+  StateT.run_bind
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, S̵t̵a̵t̵e̵T̵.̵r̵u̵n̵_̵b̵i̵n̵d̵,̵ ̵StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:304:33: This simp argument is unused:
+  StateT.run_pure
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, S̵t̵a̵t̵e̵T̵.̵r̵u̵n̵_̵p̵u̵r̵e̵,̵ ̵Id.run, Id.run_bind, Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:304:58: This simp argument is unused:
+  Id.run_bind
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, I̵d̵.̵r̵u̵n̵_̵b̵i̵n̵d̵,̵ ̵Id.run_pure, Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:304:71: This simp argument is unused:
+  Id.run_pure
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, I̵d̵.̵r̵u̵n̵_̵p̵u̵r̵e̵,̵Bind.bind, Functor.map,
+  ̲  ̲ ̲ ̲Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:305:15: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind,
+  ̲  ̲ ̲ ̲F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵ ̵Option.elimM, monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:305:28: This simp argument is unused:
+  Option.elimM
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind,
+  ̲  ̲ ̲ ̲Functor.map, O̵p̵t̵i̵o̵n̵.̵e̵l̵i̵m̵M̵,̵ ̵monadLift, MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:305:42: This simp argument is unused:
+  monadLift
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind,
+  ̲  ̲ ̲ ̲Functor.map, Option.elimM, m̵o̵n̵a̵d̵L̵i̵f̵t̵,̵ ̵MonadLift.monadLift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/EvalState.lean:305:53: This simp argument is unused:
+  MonadLift.monadLift
+
+Hint: Omit it from the simp argument list.
+  simp [Std.Do.Triple, Std.Do.wp, twoTicksM, tickM, effectCtx, OptionT.mk, OptionT.run,
+  ̲  ̲ ̲ ̲OptionT.lift, OptionT.bind, OptionT.pure, StateT.mk, StateT.run, StateT.bind, StateT.pure,
+      StateT.map, StateT.run_bind, StateT.run_pure, Id.run, Id.run_bind, Id.run_pure, Bind.bind,
+  ̲  ̲ ̲ ̲Functor.map, Option.elimM, m̵o̵n̵a̵d̵L̵i̵f̵t̵,̵ ̵M̵o̵n̵a̵d̵L̵i̵f̵t̵.̵m̵o̵n̵a̵d̵L̵i̵f̵t̵]̵m̲o̲n̲a̲d̲L̲i̲f̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [471/498] Built Test.Autocorres.Examples.TraceDemo (1.8s)
+ℹ [472/498] Built Test.Autocorres.Examples.Kmalloc (2.7s)
+info: Test/Autocorres/Examples/Kmalloc.lean:270:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Autocorres/Examples/Kmalloc.lean:279:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [473/498] Built Test.Autocorres.Examples.FunctionInfoDemo (2.3s)
+ℹ [474/498] Built Test.Autocorres.Examples.TypeStrengthenTricks (6.5s)
+info: Test/Autocorres/Examples/TypeStrengthenTricks.lean:164:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [475/498] Built Test.Autocorres.Examples.ConditionGuard (2.9s)
+✔ [476/498] Built Test.Autocorres.Examples.WordAbs (10s)
+ℹ [477/498] Built Test.Autocorres.Examples.Suzuki (12s)
+info: Test/Autocorres/Examples/Suzuki.lean:254:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [478/498] Built Test.Autocorres.Examples.QuicksortProgram (2.4s)
+⚠ [479/498] Built Test.Autocorres.Examples.HeapWrapF1F7 (12s)
+warning: Test/Autocorres/Examples/HeapWrapF1F7.lean:619:16: This simp argument is unused:
+  HeapAlgebra.Peano.Heap.read_write_of_ne
+
+Hint: Omit it from the simp argument list.
+  simp [heapWrapF5Model, thingField, H̵e̵a̵p̵A̵l̵g̵e̵b̵r̵a̵.̵P̵e̵a̵n̵o̵.̵H̵e̵a̵p̵.̵r̵e̵a̵d̵_̵w̵r̵i̵t̵e̵_̵s̵a̵m̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵H̵e̵a̵p̵A̵l̵g̵e̵b̵r̵a̵.̵P̵e̵a̵n̵o̵.̵H̵e̵a̵p̵.̵r̵e̵a̵d̵_̵w̵r̵i̵t̵e̵_̵o̵f̵_̵n̵e̵]̵H̲e̲a̲p̲A̲l̲g̲e̲b̲r̲a̲.̲P̲e̲a̲n̲o̲.̲H̲e̲a̲p̲.̲r̲e̲a̲d̲_̲w̲r̲i̲t̲e̲_̲s̲a̲m̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Test/Autocorres/Examples/HeapWrapF1F7.lean:693:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+⚠ [480/498] Built Test.Autocorres.Examples.CList (8.7s)
+warning: Test/Autocorres/Examples/CList.lean:565:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Test/Autocorres/Examples/CList.lean:563:16: 'apply EvalTriple.State.EvaluatesFrom.step (middle := (cListRevappendModel nextHeap nodes node).1)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Test/Autocorres/Examples/CList.lean:565:16: '·
+  simp [Machine.step, Machine.ofOption, Machine.resumeFrame, Machine.driveOp, Op.Body.resume?]
+  rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Test/Autocorres/Examples/CList.lean:689:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [481/498] Built Test.Autocorres.Examples.Plus (2.4s)
+⚠ [482/498] Built Test.Autocorres.Examples.Memset (2.3s)
+warning: Test/Autocorres/Examples/Memset.lean:80:28: This simp argument is unused:
+  memsetPost
+
+Hint: Omit it from the simp argument list.
+  simp only [Heap.fill, m̵e̵m̵s̵e̵t̵P̵o̵s̵t̵,̵ ̵segment, memsetByte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/Autocorres/Examples/Memset.lean:80:40: This simp argument is unused:
+  segment
+
+Hint: Omit it from the simp argument list.
+  simp only [Heap.fill, memsetPost, s̵e̵g̵men̵t̵,̵ ̵me̵m̵setByte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Test/Autocorres/Examples/Memset.lean:141:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+⚠ [483/498] Built Test.Autocorres.Examples.MultByAdd (3.2s)
+warning: Test/Autocorres/Examples/MultByAdd.lean:206:4: The `mvcgen` tactic is experimental and still under development. Avoid using it in production projects.
+warning: Test/Autocorres/Examples/MultByAdd.lean:288:2: The `mvcgen` tactic is experimental and still under development. Avoid using it in production projects.
+ℹ [484/498] Built Test.Autocorres.Examples.Memcpy (3.8s)
+info: Test/Autocorres/Examples/Memcpy.lean:877:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+⚠ [485/498] Built Test.Autocorres.Examples.SchorrWaite (20s)
+warning: Test/Autocorres/Examples/SchorrWaite.lean:899:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Test/Autocorres/Examples/SchorrWaite.lean:908:17: This simp argument is unused:
+  Bool.if_true_right
+
+Hint: Omit it from the simp argument list.
+  simp only [B̵o̵o̵l̵.̵i̵f̵_̵t̵r̵u̵e̵_̵r̵i̵g̵h̵t̵,̵ ̵↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Test/Autocorres/Examples/SchorrWaite.lean:1111:16: This simp argument is unused:
+  hxt
+
+Hint: Omit it from the simp argument list.
+  simp [hx̵t̵,̵ ̵h̵p, hrec]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Test/Autocorres/Examples/SchorrWaite.lean:2057:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+⚠ [486/498] Built Test.Autocorres.Examples.Incremental (19s)
+warning: Test/Autocorres/Examples/Incremental.lean:634:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Test/Autocorres/Examples/Incremental.lean:800:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Test/Autocorres/Examples/Incremental.lean:628:10: 'repeat
+  first
+  | exact EvalTriple.State.EvaluatesFrom.return_through_done_call
+  | apply EvalTriple.State.EvaluatesFrom.step (middle := heap)
+    · simp [Machine.step, Machine.ofOption, Machine.resumeFrame, Machine.driveOp, Op.Body.resume?, hordered]
+      rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Test/Autocorres/Examples/Incremental.lean:794:10: 'repeat
+  first
+  | exact EvalTriple.State.EvaluatesFrom.return_through_done_call
+  | apply EvalTriple.State.EvaluatesFrom.step (middle := heap)
+    · simp [Machine.step, Machine.ofOption, Machine.resumeFrame, Machine.driveOp, Op.Body.resume?, hless]
+      rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Test/Autocorres/Examples/Incremental.lean:1067:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Autocorres/Examples/Incremental.lean:1084:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Autocorres/Examples/Incremental.lean:1114:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+info: Test/Autocorres/Examples/Incremental.lean:1118:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [487/498] Built Test.Autocorres.Examples.Simple (12s)
+ℹ [488/498] Built Test.Autocorres.Examples.Swap (1.8s)
+info: Test/Autocorres/Examples/Swap.lean:107:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+ℹ [489/498] Built Test.Autocorres.Examples.ACRename (2.2s)
+info: Test/Autocorres/Examples/ACRename.lean:148:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [490/498] Built Test.Autocorres.Examples.FactorialTest (9.0s)
+⚠ [491/498] Built Test.Autocorres.Examples.ListRev (4.9s)
+warning: Test/Autocorres/Examples/ListRev.lean:294:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Test/Autocorres/Examples/ListRev.lean:292:16: 'apply EvalTriple.State.EvaluatesFrom.step (middle := (listRevLoopModel nextHeap nodes node).1)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Test/Autocorres/Examples/ListRev.lean:294:16: '·
+  simp [Machine.step, Machine.ofOption, Machine.resumeFrame, Machine.driveOp, Op.Body.resume?]
+  rfl' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Test/Autocorres/Examples/ListRev.lean:397:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)
+✔ [492/498] Built Test.Autocorres.Examples.IsPrime (13s)
+✔ [493/498] Built Test.Autocorres.Examples.HeapWrapF8 (8.0s)
+✔ [494/498] Built Test.Autocorres.Examples.HeapWrap (791ms)
+✔ [495/498] Built Test.Autocorres.Examples.FibProof (16s)
+⚠ [496/498] Built Test.Autocorres.Examples.BinarySearch (15s)
+warning: Test/Autocorres/Examples/BinarySearch.lean:55:26: This simp argument is unused:
+  PrimitiveCtx.toPrimitiveValue
+
+Hint: Omit it from the simp argument list.
+  simp [toArray, ofArray,̵ ̵P̵r̵i̵m̵i̵t̵i̵v̵e̵C̵t̵x̵.̵t̵o̵P̵r̵i̵m̵i̵t̵i̵v̵e̵V̵a̵l̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [497/498] Built Test.Autocorres.Examples.AllBlocksFirst (2.0s)
+⚠ [498/498] Built Test.Autocorres.Examples.Str2Long (80s)
+warning: Test/Autocorres/Examples/Str2Long.lean:125:26: This simp argument is unused:
+  PrimitiveCtx.toPrimitiveValue
+
+Hint: Omit it from the simp argument list.
+  simp [toArray, ofArray,̵ ̵P̵r̵i̵m̵i̵t̵i̵v̵e̵C̵t̵x̵.̵t̵o̵P̵r̵i̵m̵i̵t̵i̵v̵e̵V̵a̵l̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (498 jobs).
+TIME wall=96.50 user=340.76 sys=14.69 maxrss_kb=2272456
+rc=0 secs=97

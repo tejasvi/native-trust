@@ -1,0 +1,2 @@
+bvs mulassoc_w4 #1: 344 nodes, 995 clauses, 344 vars; 1888 steps, 117903 hints, 6 chunks; solve 48 ms, prep+defs 426 ms; kernel: base 312 ms, chunks 13464 ms (max 2351 ms); total 14254 ms
+bvs: added mulassoc_w4.bvs4 (161 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

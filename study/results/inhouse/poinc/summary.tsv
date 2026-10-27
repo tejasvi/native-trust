@@ -1,0 +1,12 @@
+project	Hamming cube Poincare v2 (poinc11a), Track N
+source	supp 10.5281/zenodo.23533351 (hamming-cube-poincare-v2 @e83fdab3e211)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	3 (Poincare11a.CertN: lib_allPos, ivs_partOK, tree_check), used by the 4 theorems of MainN.lean (N.poincare_L1, N.C11a_le, N.one_le_C11a, N.K_le)
+converted	2 of 3 facts; 0 of 4 theorems (tree_check is not converted)
+nt_cpu_h	1.26 (process time: pass 1 925 s + heavy pass on tree_check 3,600 s)
+nt_wall_min	77
+native_build_cpu_h	native build of CertN + MainN on the box: 22.6 s wall, 63 s user
+hand_track	Track K (CertK, MainK, MainPaper): kernel evaluation of the certificate
+hand_build_cpu_h	about 20 CPU-minutes for the 49 CertK modules (lean/README.md:60-61); CertK/ is 51 files, 1,097 lines
+checks	driver pass 1 (900 s, 48 GiB): ivs_partOK PROVED 4 s, lib_allPos PROVED 21 s, tree_check timed out; heavy (3,600 s, 96 GiB): tree_check timed out again

@@ -1,0 +1,4 @@
+GMemory rc=0 start=13:48:12 end=13:48:13 TIME wall=1.12 s user=0.81 s maxrss=1709864 KB
+GMemory accept done 13:48:19: nanoda PASS rc=0 decls=7058 13:48:19: Checked 7058 declarations with no typechecker errors, 1 pretty printer errors: [ n
+GNatuvea rc=0 start=13:48:19 end=13:49:12 TIME wall=53.24 s user=52.17 s maxrss=9092564 KB
+GNatuvea accept done 13:50:00: nanoda PASS rc=0 decls=4519 13:50:00: Checked 4519 declarations with no typechecker errors, 1 pretty printer errors: [ n

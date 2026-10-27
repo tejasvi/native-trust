@@ -1,0 +1,25 @@
+v12-zag-all	Test.Autocorres.Examples.AllBlocks	-			NOT_BUILT						
+v12-zag-all	Test.Autocorres.Examples.Alloc	-			NOT_BUILT						
+v12-zag-all	Test.Autocorres.Examples.Kmalloc	Zag.Test.Autocorres.Examples.kmalloc_1025_uses_one_chunk_and_retains_successor._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1851808	1		nt_lines=5 last=quick whole-term attempt proved it
+v12-zag-all	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_pureF_callable._native.native_decide.ax_1_1	native_decide	False	PROVED		17	1864356	1		nt_lines=43 last=quick whole-term attempt proved it
+v12-zag-all	Test.Autocorres.Examples.ACRename	Zag.Test.Autocorres.Examples.rename_set_run._native.native_decide.ax_1_1	native_decide	False	PROVED		32	1872224	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_stI_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		18	1912952	2		nt_lines=81 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_optJ_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		18	1842760	2		nt_lines=81 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Incremental	Zag.Test.Autocorres.Examples.incremental_stG_stH_callable_through_extensions._native.native_decide.ax_1_1	native_decide	False	PROVED		28	1890580	2		nt_lines=81 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Kmalloc	Zag.Test.Autocorres.Examples.kmallocFresh_run._native.native_decide.ax_1_1	native_decide	False	PROVED		25	1872508	1		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.HeapWrapF1F7	Zag.Test.Autocorres.Examples.heapWrapF5_run._native.native_decide.ax_1_1	native_decide	False	PROVED		22	1845380	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Kmalloc	Zag.Test.Autocorres.Examples.kfreeErase_run._native.native_decide.ax_1_1	native_decide	False	PROVED		23	1870800	1		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Kmalloc	Zag.Test.Autocorres.Examples.kmalloc_two_chunk_tail_is_not_allocatable._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1852528	1		nt_lines=5 last=quick whole-term attempt proved it
+v12-zag-all	Test.Autocorres.Examples.Kmalloc	Zag.Test.Autocorres.Examples.kmalloc_non_power_two_uses_source_mask._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1852468	1		nt_lines=5 last=quick whole-term attempt proved it
+v12-zag-all	Test.Autocorres.Examples.CList	Zag.Test.Autocorres.Examples.cListReverse_run._native.native_decide.ax_1_1	native_decide	False	PROVED		31	1917516	3		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Memset	Zag.Test.Autocorres.Examples.memsetMemory_run._native.native_decide.ax_1_1	native_decide	False	PROVED		24	1882248	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Memcpy	Zag.Test.Autocorres.Examples.memcpyMemory_run._native.native_decide.ax_1_1	native_decide	False	PROVED		19	1910216	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.ListRev	Zag.Test.Autocorres.Examples.listRevReverse_run._native.native_decide.ax_1_1	native_decide	False	PROVED		23	1912404	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.Swap	Zag.Test.Autocorres.Examples.swap_run._native.native_decide.ax_1_1	native_decide	False	PROVED		23	1873800	1		nt_lines=74 last=pieces=1
+v12-zag-all	Test.EvalState	Zag.Test.EvalState.effectfulSequence_run._native.native_decide.ax_1_1	native_decide	False	PROVED		20	1564272	1		nt_lines=31 last=quick whole-term attempt proved it
+v12-zag-all	Test.Autocorres.Examples.Suzuki	Zag.Test.Autocorres.Examples.suzuki_run._native.native_decide.ax_1_1	native_decide	False	PROVED		19	1903304	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.TypeStrengthenTricks	Zag.Test.Autocorres.Examples.write42_run._native.native_decide.ax_1_1	native_decide	False	PROVED		33	1878348	2		nt_lines=74 last=pieces=1
+v12-zag-all	Test.Autocorres.Examples.SchorrWaite	Zag.Test.Autocorres.Examples.schorrWaiteSample_run._native.native_decide.ax_1_1	native_decide	False	PROVED		29	3714956	32		nt_lines=84 last=pieces=1
+v12-zag-all	Test.Heap	Zag.Test.Heap.allocStoreReadRun_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		15	3061732	74		nt_lines=80 last=pieces=1
+v12-zag-all	Test.Heap	Zag.Test.Heap.matchingExit_machine_run._native.native_decide.ax_1_1	native_decide	False	PROVED		15	5354976	97		nt_lines=70 last=pieces=1
+v12-zag-all	Test.Heap	Zag.Test.Heap.nonmatchingExit_machine_failure_preserves_heap._native.native_decide.ax_1_1	native_decide	False	PROVED		16	5354264	97		nt_lines=70 last=pieces=1

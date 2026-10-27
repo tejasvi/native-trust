@@ -1,0 +1,3 @@
+2026-10-26T11:21:54Z ax pkg=/home/ntbuild/work_migsample/inhouse/ppt2/ppt2-paper2-deposit/lean/rows_a tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=201 modules=201
+native axioms=1036 inner=7 outer_todo=1029
+2026-10-26T12:41:18Z summary ERROR=8 PROVED=9

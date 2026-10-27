@@ -1,0 +1,6 @@
+$ lean s_zcash_ironwood__F2_Zcash_Snark_Fixtures_PostNu63Random_5.lean tc=v4.30.0 ntlib=/home/ntbuild/work_shared/nt22/v4.30.0/.lake/build/lib/lean start=2026-10-25T16:26:23Z
+PROVED `Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1` as `_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_PostNu63Random_5.Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._kernel.native_decide.ax_1_1`: kernel_ms=214028 native_axioms=1 rebuilt=0 copies=0 total_ms=214421 acc_fallback=0 pieces=75
+'_ktr.s_zcash_ironwood__F2_Zcash_Snark_Fixtures_PostNu63Random_5.Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._kernel.native_decide.ax_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+rc=0 end=2026-10-25T16:29:59Z

@@ -1,0 +1,19 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_FormalConjectures_OEIS_237271_2.lean
+NT start _private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._native.native_decide.ax_1_1
+NT nested _private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._native.native_decide.ax_1_1 ms=191 rebuilt_defs=0 visited=3106
+NT copy List.merge._unary defn_ms=1 eq_ms=4 congr=true
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=5 congr=true
+NT copy List.mergeSort defn_ms=1 eq_ms=0 congr=true
+NT copy Multiset.sort defn_ms=2 eq_ms=4 congr=false
+NT copy Finset.sort defn_ms=1 eq_ms=0 congr=true
+NT copy OeisA237271.a defn_ms=1 eq_ms=1 congr=true
+NT _ktr.F2_FormalConjectures_OEIS_237271_2._private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=false copy_ms=26 copies=7 copy_kernel_ms=22
+NT _ktr.F2_FormalConjectures_OEIS_237271_2._private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._kernel.native_decide.ax_1_1.p_0 eval_ms=2
+PROVED `_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._native.native_decide.ax_1_1` as `_ktr.F2_FormalConjectures_OEIS_237271_2._private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._kernel.native_decide.ax_1_1`: kernel_ms=36 native_axioms=1 rebuilt=0 copies=7 total_ms=228
+F2_FormalConjectures_OEIS_237271_2.lean:5:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._native.native_decide.ax_1_1` as `_ktr.F2_FormalConjectures_OEIS_237271_2._private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_1._kernel.native_decide.ax_1_1`: kernel_ms=36 native_axioms=1 rebuilt=0 copies=7 total_ms=228
+maxrss_kb 6895152
+rc=0 secs=5

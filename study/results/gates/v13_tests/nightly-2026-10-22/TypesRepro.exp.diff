@@ -1,0 +1,12 @@
+2c2
+< OK	TR.t1	TR.t1.kernel	axioms=[propext, Classical.choice, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0
+---
+> OK	TR.t1	TR.t1.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0
+4c4
+< OK	TR.t2	TR.t2.kernel	axioms=[propext, Classical.choice, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=2	total_ms=_	acc_fallback=0
+---
+> OK	TR.t2	TR.t2.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=2	total_ms=_	acc_fallback=0
+6c6
+< OK	TR.t3	TR.t3.kernel	axioms=[propext, Classical.choice, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0
+---
+> OK	TR.t3	TR.t3.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0

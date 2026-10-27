@@ -1,0 +1,24 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_heavy_QEC_ChecksNS_SH2_W_0.olean F2_heavy_QEC_ChecksNS_SH2_W_0.lean
+NT start wOKSH2._native.native_decide.ax_1_1
+NT nested wOKSH2._native.native_decide.ax_1_1 ms=46 rebuilt_defs=0 visited=1590
+NT copying QECComp.clsHexH2S
+NT copy QECComp.clsHexH2S defn_ms=1313 eq_ms=5139 congr=true
+NT copying QECComp.potHexH2S
+NT copy-rejected QECComp.potHexH2S: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying QECComp.wEHexH2S
+NT copy QECComp.wEHexH2S defn_ms=12 eq_ms=34 congr=true
+NT copying QECComp.wEH2S
+NT copy QECComp.wEH2S defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.wCHexH2S
+NT copy QECComp.wCHexH2S defn_ms=12 eq_ms=38 congr=true
+NT copying QECComp.wCH2S
+NT copy QECComp.wCH2S defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.certH2S
+NT copy QECComp.certH2S defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_heavy_QEC_ChecksNS_SH2_W_0.wOKSH2._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=28101 copies=6 copy_kernel_ms=6549 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_QEC_ChecksNS_SH2_W_0.wOKSH2._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_heavy_QEC_ChecksNS_SH2_W_0.wOKSH2._kernel.native_decide.ax_1_1 structure all-by-index length=3601 pieces=8
+NT _ktr.F2_heavy_QEC_ChecksNS_SH2_W_0.wOKSH2._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+Command terminated by signal 9
+maxrss_kb 101831632
+rc=137 secs=332 cg_cpu_s=331.9 cg_peak_kb=100663296 cg_oom_kill=1

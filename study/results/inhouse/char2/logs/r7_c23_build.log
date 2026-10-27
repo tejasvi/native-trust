@@ -1,0 +1,13 @@
+✔ [24/31] Built Char2Native.D24C23_0 (603s)
+✔ [25/31] Built Char2Native.D24C23_4 (609s)
+✔ [26/31] Built Char2Native.D24C23_6 (762s)
+✔ [27/31] Built Char2Native.D24C23_2 (808s)
+✔ [28/31] Built Char2Native.D24C23_1 (852s)
+✔ [29/31] Built Char2Native.D24C23_5 (859s)
+✔ [30/31] Built Char2Native.D24C23_7 (1043s)
+✔ [31/31] Built Char2Native.D24C23_3 (1076s)
+Build completed successfully (31 jobs).
+
+real	17m57.897s
+user	109m2.231s
+sys	0m12.811s

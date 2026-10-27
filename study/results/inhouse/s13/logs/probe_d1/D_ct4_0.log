@@ -1,0 +1,15 @@
+$ lean D_ct4_0.lean start=2026-10-26T01:13:09Z timeout=900
+NT start Sortnet.S45.BFS.ct4_bfs_d12._native.native_decide.ax_1_1
+NT nested Sortnet.S45.BFS.ct4_bfs_d12._native.native_decide.ax_1_1 ms=92 rebuilt_defs=0 visited=3096
+NT copying Sortnet.S45Data.Ct4.chunk00
+NT copy Sortnet.S45Data.Ct4.chunk00 defn_ms=4 eq_ms=8 congr=true
+NT copying Sortnet.S45Data.Ct4.chunks
+NT copy Sortnet.S45Data.Ct4.chunks defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S45Data.Ct4.dataByte
+NT copy Sortnet.S45Data.Ct4.dataByte defn_ms=1 eq_ms=0 congr=true
+NT _ktr.D_ct4_0.Sortnet.S45.BFS.ct4_bfs_d12._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=39 copies=3 copy_kernel_ms=13 fast_lits=0 string_args=false
+NT _ktr.D_ct4_0.Sortnet.S45.BFS.ct4_bfs_d12._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.D_ct4_0.Sortnet.S45.BFS.ct4_bfs_d12._kernel.native_decide.ax_1_1.p_0 blockers_ms=10 bounded=false copy_ms=20 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+Command terminated by signal 9
+maxrss_kb 51659220 secs 148.84
+rc=137 end=2026-10-26T01:15:38Z

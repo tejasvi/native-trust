@@ -1,0 +1,3 @@
+cvc5-logos-fuel	/home/ntbuild/repos/cvc5-logos	--skip-build
+formal-conjectures-fuel	/home/ntbuild/repos/formal-conjectures	--skip-build
+strata-fuel	/home/ntbuild/repos/Strata	--skip-build

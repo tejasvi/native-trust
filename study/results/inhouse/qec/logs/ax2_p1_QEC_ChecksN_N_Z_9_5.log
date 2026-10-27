@@ -1,0 +1,27 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksN_N_Z_9_5.olean F2_p1_QEC_ChecksN_N_Z_9_5.lean
+NT start nty_Z_9_1_1._native.native_decide.ax_1_1
+NT nested nty_Z_9_1_1._native.native_decide.ax_1_1 ms=14 rebuilt_defs=0 visited=768
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1 structure all-by-index length=40 pieces=8
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_0 eval_ms=5272
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_1 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_1 eval_ms=8989
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_2 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_2 eval_ms=9466
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_3 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_3 eval_ms=9604
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_4 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_4 eval_ms=9886
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_5 blockers_ms=4 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_5 eval_ms=9555
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_6 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_6 eval_ms=9272
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_7 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1.p_7 eval_ms=4635
+NT _ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1 pieces=8
+PROVED `nty_Z_9_1_1._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1`: kernel_ms=67977 native_axioms=1 rebuilt=0 copies=0 total_ms=67991 acc_fallback=0 pieces=8
+PROVED `nty_Z_9_1_1._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksN_N_Z_9_5.nty_Z_9_1_1._kernel.native_decide.ax_1_1`: kernel_ms=67977 native_axioms=1 rebuilt=0 copies=0 total_ms=67991 acc_fallback=0 pieces=8
+maxrss_kb 5544872
+rc=0 secs=70 cg_cpu_s=69.7 cg_peak_kb=2037088 cg_oom_kill=0

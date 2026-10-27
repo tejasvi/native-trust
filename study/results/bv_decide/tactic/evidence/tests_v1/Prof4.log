@@ -1,0 +1,1 @@
+bv_kdecide: bv_decide 19 ms; 192 nodes, 479 clauses, 103 LRAT steps, 506 hints, 1 chunks; SAT 18 ms, data 4 ms; kernel: base 118 ms, chunks 153 ms (max 153 ms), assembly 3 ms; total 353 ms

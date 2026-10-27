@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_Rules_Int_tight_lb_2.lean
+NT start _private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._native.native_decide.ax_1_3
+NT nested _private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._native.native_decide.ax_1_3 ms=185 rebuilt_defs=0 visited=2944
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=13 eq_ms=15 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_Cpc_Proofs_Rules_Int_tight_lb_2._private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._kernel.native_decide.ax_1_3.p_0 blockers_ms=18 bounded=false copy_ms=54 copies=6 copy_kernel_ms=30
+NT _ktr.F2_Cpc_Proofs_Rules_Int_tight_lb_2._private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._kernel.native_decide.ax_1_3.p_0 eval_ms=1
+PROVED `_private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._native.native_decide.ax_1_3` as `_ktr.F2_Cpc_Proofs_Rules_Int_tight_lb_2._private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._kernel.native_decide.ax_1_3`: kernel_ms=82 native_axioms=1 rebuilt=0 copies=6 total_ms=268
+PROVED `_private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._native.native_decide.ax_1_3` as `_ktr.F2_Cpc_Proofs_Rules_Int_tight_lb_2._private.Cpc.Proofs.Rules.Int_tight_lb.0.cmd_step_int_tight_lb_properties._kernel.native_decide.ax_1_3`: kernel_ms=82 native_axioms=1 rebuilt=0 copies=6 total_ms=268
+maxrss_kb 1769032
+rc=0 secs=1

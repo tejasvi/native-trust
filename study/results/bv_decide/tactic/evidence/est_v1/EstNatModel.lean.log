@@ -1,0 +1,5 @@
+0: Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9: 18768 nodes, 56111 CNF clauses; estimated bv_kdecide time 174.236856 s
+1: Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9: 324 nodes, 923 CNF clauses; estimated bv_kdecide time 0.666850 s
+Model.CompositeHeader: 2 bv_decide axioms; estimated bv_kdecide time in total 174.903706 s
+BVS_ESTIMATE	Model.CompositeHeader	0	Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9	18768	56111	174.236856
+BVS_ESTIMATE	Model.CompositeHeader	1	Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9	324	923	0.666850

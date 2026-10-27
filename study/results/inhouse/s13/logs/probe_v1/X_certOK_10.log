@@ -1,0 +1,17 @@
+$ lean X_certOK_10.lean start=2026-10-26T01:08:48Z timeout=900
+NT copying Sortnet.S11Small.chunk10
+NT copy Sortnet.S11Small.chunk10 defn_ms=722 eq_ms=2691 congr=true
+NT copying Sortnet.S11Small.byte10
+NT copy Sortnet.S11Small.byte10 defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S11Small.count10
+NT copy Sortnet.S11Small.count10 defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S11Small.offsets10
+NT copy Sortnet.S11Small.offsets10 defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S11Small.cert10
+NT copy Sortnet.S11Small.cert10 defn_ms=0 eq_ms=0 congr=true
+NT _s13probe.X_certOK_10 blockers_ms=0 bounded=false copy_ms=3849 copies=5 copy_kernel_ms=3415 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_10 quick whole-term attempt did not finish; structured check
+NT _s13probe.X_certOK_10.p_0 blockers_ms=2 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+Command terminated by signal 9
+maxrss_kb 51664096 secs 158.76
+rc=137 end=2026-10-26T01:11:27Z

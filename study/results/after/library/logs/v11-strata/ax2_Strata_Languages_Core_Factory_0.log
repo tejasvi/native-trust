@@ -1,0 +1,16 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_Strata_Languages_Core_Factory_0.lean
+NT start _private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._native.native_decide.ax_1_1
+NT nested _private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._native.native_decide.ax_1_1 ms=741 rebuilt_defs=0 visited=8405
+NT copying Core.FactoryFuncNames
+NT copy Core.FactoryFuncNames defn_ms=0 eq_ms=1 congr=true
+NT copying Core.isNameInFactory
+NT copy Core.isNameInFactory defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=12 copies=2 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1.p_0 blockers_ms=68 bounded=true copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1.p_0 eval_ms=2901
+NT _ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1 pieces=1
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1`: kernel_ms=5708 native_axioms=1 rebuilt=0 copies=0 total_ms=6473 acc_fallback=0 pieces=1
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_0._private.Strata.Languages.Core.Factory.0.Core.intLt_isNameInFactory._kernel.native_decide.ax_1_1`: kernel_ms=5708 native_axioms=1 rebuilt=0 copies=0 total_ms=6473 acc_fallback=0 pieces=1
+maxrss_kb 2155736
+rc=0 secs=7

@@ -1,0 +1,221 @@
+✔ [8957/9027] Built AuxCore.LogK (226ms)
+✔ [8958/9027] Built AuxCore.Log (226ms)
+✔ [8960/9070] Built ZZChk.Fix (308ms)
+✔ [8961/9070] Built ZZChk.Chunk (216ms)
+✔ [8962/9070] Built ZZChk.Chunk:c.o (43ms)
+✔ [8963/9070] Built ZZChk.Chunk:dynlib (32ms)
+✔ [8964/9070] Built AuxCore.Log:c.o (130ms)
+✔ [8965/9070] Built AuxCore.LogK:c.o (147ms)
+✔ [8966/9070] Built AuxCore.Log:dynlib (34ms)
+✔ [8967/9070] Built AuxCore.LogK:dynlib (44ms)
+✔ [8968/9070] Built ZZChk.Tree (360ms)
+✔ [8969/9070] Built ZZChk.Tree:c.o (111ms)
+✔ [8970/9070] Built ZZChk.Tree:dynlib (33ms)
+✔ [8971/9070] Built ZZChk.Fix:c.o (246ms)
+✔ [8972/9070] Built ZZChk.Fix:dynlib (39ms)
+✔ [8973/9070] Built AuxCore (168ms)
+✔ [8974/9070] Built AuxCore:c.o (40ms)
+✔ [8975/9070] Built AuxCore:shared (35ms)
+✔ [8976/9070] Built ZZChk.Trig (206ms)
+✔ [8977/9070] Built ZZChk.Trig:c.o (138ms)
+✔ [8979/9070] Built ZZChk.Trig:dynlib (33ms)
+✔ [8980/9070] Built ZZChk.Data (1.1s)
+✔ [8981/9070] Built ZZChk.Clausen (348ms)
+✔ [8982/9070] Built ZZChk.Clausen:c.o (223ms)
+✔ [8983/9070] Built ZZChk.Clausen:dynlib (37ms)
+✔ [8984/9070] Built AuxCommon.Basic (2.9s)
+✔ [8985/9070] Built ZZChk.Data:c.o (2.9s)
+✔ [8986/9070] Built ZZChk.Tiling (4.3s)
+✔ [8987/9070] Built ZZChk.Data:dynlib (52ms)
+✔ [8988/9070] Built AuxCommon.Energy.Kernel (3.6s)
+✔ [8989/9070] Built ZZChk.Tiling:c.o (330ms)
+✔ [8990/9070] Built AuxCommon.Energy.MinPrinciple (3.0s)
+✔ [8991/9070] Built ZZChk.Tiling:dynlib (57ms)
+✔ [8992/9070] Built ZZChk.Fourier (583ms)
+✔ [8993/9070] Built ZZChk.Fourier:c.o (344ms)
+✔ [8994/9070] Built ZZChk.Fourier:dynlib (52ms)
+✔ [8995/9070] Built ZZ82a.Fourier (4.6s)
+✔ [8996/9070] Built ZZChk.Poly (298ms)
+✔ [8997/9070] Built ZZChk.Energy (351ms)
+✔ [8998/9070] Built ZZChk.Energy:c.o (286ms)
+✔ [8999/9070] Built ZZChk.Poly:c.o (254ms)
+✔ [9000/9070] Built ZZChk.Poly:dynlib (39ms)
+✔ [9001/9070] Built ZZChk.Energy:dynlib (36ms)
+✔ [9002/9070] Built AuxCommon.LogSound (5.5s)
+✔ [9003/9070] Built TPMahler.Statement (2.7s)
+✔ [9004/9070] Built ZZChk.Leaf (417ms)
+✔ [9005/9070] Built AuxCommon.Northcott (2.0s)
+✔ [9006/9070] Built ZZChk.Leaf:c.o (649ms)
+✔ [9007/9070] Built ZZChk.Leaf:dynlib (37ms)
+✔ [9008/9070] Built AuxCommon.Resultant (3.7s)
+✔ [9009/9070] Built ZZChk.Check (359ms)
+✔ [9010/9070] Built AuxCommon.Energy.Gauss (3.1s)
+✔ [9011/9070] Built ZZChk.Check:c.o (142ms)
+✔ [9012/9070] Built ZZChk.Check:dynlib (32ms)
+✔ [9013/9070] Built ZZChk (398ms)
+✔ [9014/9070] Built ZZChk:c.o (43ms)
+✔ [9015/9070] Built ZZChk:shared (58ms)
+✔ [9016/9070] Built ZZChk.K.JGroup (490ms)
+✔ [9017/9070] Built ZZ82a.Statement (3.0s)
+✔ [9018/9070] Built TPMahler.Measure (3.5s)
+✔ [9019/9070] Built AuxCommon.Energy.PosDef (3.4s)
+✔ [9020/9070] Built AuxCommon.Averaging (4.8s)
+✔ [9021/9070] Built TPMahler.ClosedForm (4.1s)
+✔ [9022/9070] Built AuxCommon.Energy.Circle (5.1s)
+✔ [9023/9070] Built ZZ82a.Sound.Fix (7.9s)
+✔ [9024/9070] Built ZZ82a.Reduction (5.2s)
+✔ [9025/9070] Built ZZ82a.Coeff (3.0s)
+✔ [9026/9070] Built ZZ82a.Clausen (9.5s)
+✔ [9027/9070] Built ZZ82a.SuperharmonicProof (9.6s)
+⚠ [9028/9070] Built AuxCommon.LogKSound (13s)
+warning: AuxCommon/LogKSound.lean:439:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: AuxCommon/LogKSound.lean:443:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9029/9070] Built ZZ82a.Sound.Fold (4.1s)
+✔ [9030/9070] Built ZZ82a.Sound.Trig (5.2s)
+✔ [9031/9070] Built ZZ82a.CircleForms (3.4s)
+✔ [9032/9070] Built AuxCommon.Energy.Nu (3.9s)
+✔ [9033/9070] Built ZZ82a.ClausenSeries (3.6s)
+✔ [9034/9070] Built ZZ82a.UCirc (2.8s)
+✔ [9035/9070] Built AuxCommon.EnergyProof (4.2s)
+✔ [9036/9070] Built ZZ82a.Sound.Poly (5.6s)
+✔ [9037/9070] Built ZZ82a.Nu (3.5s)
+✔ [9038/9070] Built ZZ82a.Sound.PolyBridge (3.1s)
+✔ [9039/9070] Built ZZ82a.Sound.LeafPoly (3.4s)
+✔ [9040/9070] Built ZZ82a.Cross (3.4s)
+✔ [9041/9070] Built ZZ82a.Sound.Cert (2.7s)
+✔ [9042/9070] Built ZZ82a.FDef (3.2s)
+✔ [9043/9070] Built ZZ82a.Sound.CertM0 (4.4s)
+⚠ [9044/9070] Built ZZ82a.Sound.LeafSing (7.3s)
+warning: ZZ82a/Sound/LeafSing.lean:372:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9045/9070] Built ZZ82a.JMoments (6.8s)
+⚠ [9046/9070] Built ZZ82a.Sound.Clausen (8.7s)
+warning: ZZ82a/Sound/Clausen.lean:186:6: exponent 272 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+✔ [9047/9070] Built ZZ82a.LeafCalc (5.4s)
+✔ [9048/9070] Built ZZ82a.Sound.Energy (4.8s)
+✔ [9049/9070] Built ZZ82a.LeafPairs (4.2s)
+⚠ [9050/9070] Built ZZ82a.Sound.Fourier (5.5s)
+warning: ZZ82a/Sound/Fourier.lean:125:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/Fourier.lean:125:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:125:40: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:127:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:127:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/Fourier.lean:127:40: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:127:59: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/Fourier.lean:176:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:177:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/Fourier.lean:217:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/Fourier.lean:220:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/Fourier.lean:296:35: This simp argument is unused:
+  Int.cast_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.ofNat_eq_natCast]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9051/9070] Built ZZ82a.Main (2.7s)
+✔ [9052/9070] Built ZZ82a.LeafCross (4.0s)
+✔ [9053/9070] Built ZZChk.N.Check (41s)
+✔ [9054/9070] Built ZZ82a.Sound.EnergyCtx (3.2s)
+⚠ [9055/9070] Built ZZ82a.Sound.Ctx (3.3s)
+warning: ZZ82a/Sound/Ctx.lean:43:4: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: ZZ82a/Sound/Ctx.lean:53:4: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: ZZ82a/Sound/Ctx.lean:63:98: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: ZZ82a/Sound/Ctx.lean:67:88: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9056/9070] Built ZZ82a.LeafBounds (3.9s)
+✔ [9057/9070] Built ZZ82a.Sound.SingCtx (2.9s)
+⚠ [9058/9070] Built ZZ82a.Sound.Gap (3.0s)
+warning: ZZ82a/Sound/Gap.lean:61:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ZZ82a/Sound/Gap.lean:73:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9059/9070] Built ZZ82a.Sound.LeafUC (3.3s)
+warning: ZZ82a/Sound/LeafUC.lean:71:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: ZZ82a/Sound/LeafUC.lean:71:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/LeafUC.lean:78:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: ZZ82a/Sound/LeafUC.lean:78:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9060/9070] Built ZZ82a.Leaf (7.5s)
+✔ [9061/9070] Built ZZ82a.Sound.FPoint (2.8s)
+✔ [9062/9070] Built ZZ82a.Sound.MxLx (3.4s)
+✔ [9063/9070] Built ZZ82a.LeafWindow (3.9s)
+✔ [9064/9070] Built ZZ82a.Sound.LeafGlueVar (6.3s)
+✔ [9065/9070] Built ZZ82a.Sound.LeafGlue (4.4s)
+✔ [9066/9070] Built ZZ82a.Sound.Chord (3.5s)
+✔ [9067/9070] Built ZZ82a.Sound.LeafPiece (2.6s)
+✔ [9068/9070] Built ZZ82a.Sound.CheckSound (2.0s)
+✔ [9069/9070] Built ZZ82a.MainCheck (2.5s)
+✔ [9070/9070] Built ZZ82a.MainN (2.5s)
+Build completed successfully (9070 jobs).
+TIME wall=88.12 user=339.76 sys=47.46 maxrss_kb=7208520

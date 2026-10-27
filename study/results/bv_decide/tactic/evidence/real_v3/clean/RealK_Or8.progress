@@ -1,0 +1,5 @@
+[26149206] _private.RealK.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._bvk_1: 434 nodes, CNF 1205 clauses
+[26149287] _private.RealK.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._bvk_1: 385 steps, 5319 hints, 1 chunks, 0 segments; SAT 65 ms
+[26149656] _private.RealK.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._bvk_1: base check 369 ms
+[26150821] _private.RealK.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._bvk_1: chunk 0 (385 steps from id 1206) 1164 ms
+[26150844] bv_kdecide [_private.RealK.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor]: bv_decide 78 ms; 434 nodes, 1205 clauses, 385 LRAT steps, 5319 hints, 1 chunks; SAT 65 ms, data 17 ms; kernel: base 369 ms, chunks 1164 ms (max 1164 ms), assembly 9 ms; total 1721 ms; peak RSS: bv_decide 1557 MiB, kernel route 1774 MiB

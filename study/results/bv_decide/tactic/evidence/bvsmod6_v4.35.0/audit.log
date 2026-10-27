@@ -1,0 +1,37 @@
+AUDIT BVS.unsat_of_cnf: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.blastBool_spec: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.blastUn_spec: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.blastClz_spec: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.blastCpop_spec: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.bitsOf_reverse: axioms [propext, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.chkUR_sound: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.bvs_unsat4: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.blastCk_sound: axioms [propext]; non-standard []; kind theorem
+AUDIT BVS.agreeFrom_sound: axioms [propext, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.agreeSeg_sound: axioms [propext, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.wfEs_append: axioms [propext]; non-standard []; kind theorem
+AUDIT BVS.gateLeaves_append: axioms [propext]; non-standard []; kind theorem
+AUDIT BVS.acc_step: axioms [propext, Quot.sound]; non-standard []; kind theorem
+AUDIT BVS.bvs_unsat5: axioms [propext, Classical.choice, Quot.sound]; non-standard []; kind theorem
+BVS.bvs_unsat4 : ∀ (bv : Std.Tactic.BVDecide.BVLogicalExpr) (T : BVS.LTree) (D H L N : Nat),
+  BVS.check4 bv T D H L = Bool.true →
+    BVS.ChainL (BVS.look4 T H) (L + 1) (N + 1) → BVS.stepEmpty4 T D H N = Bool.true → bv.Unsat
+BVS.bvs_unsat5 : ∀ (bv : Std.Tactic.BVDecide.BVLogicalExpr) (T : BVS.LTree) (D H L N n out lenG : Nat)
+  (es : List BVS.Ent),
+  BVS.blastCk bv es n out = Bool.true →
+    BVS.dimsOK D H = Bool.true →
+      BVS.EntsOK T H es lenG n →
+        BVS.agreeSeg T D 1 [BVS.Leaf.cl [BVS.litC out], BVS.Leaf.cl [(0, Bool.false)]] = Bool.true →
+          L.beq (lenG + 2) = Bool.true →
+            BVS.ChainL (BVS.look4 T H) (L + 1) (N + 1) → BVS.stepEmpty4 T D H N = Bool.true → bv.Unsat
+BVS.unsat_of_cnf : ∀ (bv : Std.Tactic.BVDecide.BVLogicalExpr),
+  BVS.supportedBool bv = Bool.true →
+    BVS.wfEs (BVS.blastBool BVS.St.empty bv).fst.es (BVS.blastBool BVS.St.empty bv).fst.n = Bool.true →
+      (∀ (a : Nat → Bool),
+          ((BVS.cnfOf (BVS.blastBool BVS.St.empty bv).fst.es (BVS.blastBool BVS.St.empty bv).snd).all fun c =>
+              c.any fun l => a l.fst == l.snd) =
+            Bool.false) →
+        bv.Unsat
+AUDIT conclusion of BVS.bvs_unsat4 is Std.Tactic.BVDecide.BVLogicalExpr.Unsat: true
+AUDIT conclusion of BVS.bvs_unsat5 is Std.Tactic.BVDecide.BVLogicalExpr.Unsat: true
+AUDIT conclusion of BVS.unsat_of_cnf is Std.Tactic.BVDecide.BVLogicalExpr.Unsat: true

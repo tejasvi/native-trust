@@ -1,0 +1,14 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Mt51aData_RtabN_2.lean
+NT start Mt51aRtab.grid_length._native.native_decide.ax_1_1
+NT nested Mt51aRtab.grid_length._native.native_decide.ax_1_1 ms=188 rebuilt_defs=0 visited=3437
+NT copying Mt51aRtab.gridStr
+NT copy Mt51aRtab.gridStr defn_ms=3 eq_ms=6 congr=true
+NT copying Mt51aRtab.grid
+NT copy Mt51aRtab.grid defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Mt51aData_RtabN_2.Mt51aRtab.grid_length._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=19 copies=2 copy_kernel_ms=10 fast_lits=0 string_args=false
+NT _ktr.F2_Mt51aData_RtabN_2.Mt51aRtab.grid_length._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Mt51aData_RtabN_2.Mt51aRtab.grid_length._kernel.native_decide.ax_1_1.p_0 blockers_ms=3 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46194692
+rc=1 secs=103

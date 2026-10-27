@@ -1,0 +1,2213 @@
+✔ [1401/2092] Built QEC.Data.Types (260ms)
+✔ [3200/3248] Built QECComp.Basic (271ms)
+✔ [3202/3379] Built QECComp.Basic:c.o (307ms)
+✔ [3203/3379] Built QECComp.Basic:dynlib (31ms)
+⚠ [3204/3379] Built QEC.Graph.Basic (1.1s)
+warning: QEC/Graph/Basic.lean:59:0: automatically included section variable(s) unused in theorem `QEC.decGraph_adj`:
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Graph/Basic.lean:62:0: automatically included section variable(s) unused in theorem `QEC.decGraph_mono`:
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Graph/Basic.lean:154:4: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Graph/Basic.lean:176:0: automatically included section variable(s) unused in theorem `QEC.ledges_subset_of_chain`:
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Graph/Basic.lean:260:46: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [3205/3379] Built QEC.Criterion.TypeCheck (1.5s)
+✔ [3206/3379] Built QEC.Prob.Tilt (1.5s)
+✔ [3207/3379] Built QECComp.Rows (876ms)
+✔ [3208/3379] Built QEC.Graph.PathExists (844ms)
+⚠ [3209/3379] Built QEC.Circuit.Frame (1.8s)
+warning: QEC/Circuit/Frame.lean:185:40: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Frame.lean:185:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Frame.lean:196:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Frame.lean:206:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Frame.lean:349:32: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Frame.lean:359:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Frame.lean:359:32: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hcx, if_false, zero_add] at hL ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Frame.lean:358:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3210/3379] Built QECComp.Data.TypesL (1.3s)
+✔ [3211/3379] Built QECComp.Data.TypesHe (1.3s)
+✔ [3212/3379] Built QECComp.Data.Types8 (1.3s)
+✔ [3213/3379] Built QECComp.Data.TypesHl (1.3s)
+✔ [3214/3379] Built QECComp.Data.TypesH2 (1.4s)
+✔ [3215/3379] Built QECComp.Data.Types8:c.o (169ms)
+✔ [3216/3379] Built QECComp.Data.TypesL:c.o (170ms)
+✔ [3217/3379] Built QECComp.Data.TypesHe:c.o (170ms)
+✔ [3218/3379] Built QECComp.Data.TypesHe:dynlib (50ms)
+✔ [3219/3379] Built QECComp.Data.TypesHl:c.o (168ms)
+⚠ [3220/3379] Built QEC.Prob.FaultModel (1.3s)
+warning: QEC/Prob/FaultModel.lean:55:0: automatically included section variable(s) unused in theorem `QEC.p1_nonneg`:
+  [Fintype L]
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype L] [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:59:0: automatically included section variable(s) unused in theorem `QEC.sum_p1`:
+  [Fintype L]
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype L] [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:66:0: automatically included section variable(s) unused in theorem `QEC.Pr_eq_sum_ite`:
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:96:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Prob/FaultModel.lean:125:79: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Prob/FaultModel.lean:140:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: QEC/Prob/FaultModel.lean:145:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Prob/FaultModel.lean:226:0: automatically included section variable(s) unused in theorem `QEC.Model.eOf_eq_some`:
+  [Fintype L]
+  [DecidableEq L]
+  [(ℓ : L) → Fintype (O ℓ)]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype
+  L] [DecidableEq L] [(ℓ : L) → Fintype (O ℓ)] [(ℓ : L) → DecidableEq (O ℓ)] [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:255:63: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Prob/FaultModel.lean:231:0: automatically included section variable(s) unused in theorem `QEC.Model.odd_card_iff`:
+  [DecidableEq L]
+  [(ℓ : L) → Fintype (O ℓ)]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → Fintype (O ℓ)] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:312:0: automatically included section variable(s) unused in theorem `QEC.Model.Eg_not_diag`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:318:0: automatically included section variable(s) unused in theorem `QEC.Model.not_adj_b1_b2`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Prob/FaultModel.lean:324:0: automatically included section variable(s) unused in theorem `QEC.Model.q_eq_sum`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3221/3379] Built QECComp.Data.Types8:dynlib (46ms)
+✔ [3222/3379] Built QECComp.Data.TypesL:dynlib (46ms)
+✔ [3223/3379] Built QECComp.Data.TypesHl:dynlib (48ms)
+✔ [3224/3379] Built QECComp.Data.TypesH2:c.o (175ms)
+✔ [3225/3379] Built QECComp.Data.TypesH2:dynlib (47ms)
+⚠ [3226/3379] Built QEC.Graph.Criterion (1.4s)
+warning: QEC/Graph/Criterion.lean:60:0: automatically included section variable(s) unused in theorem `QEC.NB_cons_cons`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Graph/Criterion.lean:210:0: automatically included section variable(s) unused in theorem `QEC.NB_of_path`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Graph/Criterion.lean:305:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Graph/Criterion.lean:305:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3227/3379] Built QEC.Circuit.Record (1.4s)
+warning: QEC/Circuit/Record.lean:99:26: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Record.lean:133:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Record.lean:133:35: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Record.lean:142:75: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Record.lean:142:85: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Record.lean:148:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Record.lean:131:36: This simp argument is unused:
+  show (0 : ℕ) ≠ e.ρ + 1 by omega
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hlt 0 this, Ne.symm hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Record.lean:154:16: This simp argument is unused:
+  show r ≠ e.ρ by omega
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [show r = e.ρ + 1 by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3228/3379] Built QECComp.Rows:c.o (1.8s)
+✔ [3229/3379] Built QECComp.Rows:dynlib (32ms)
+✔ [3230/3379] Built QECComp.Cover (232ms)
+⚠ [3231/3379] Built QEC.Decoder.Reduction (1.4s)
+warning: QEC/Decoder/Reduction.lean:51:0: automatically included section variable(s) unused in theorem `QEC.Model.mem_paths`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Decoder/Reduction.lean:59:0: automatically included section variable(s) unused in theorem `QEC.Model.pedges_subset_Eg`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3232/3379] Built QECComp.Cover:c.o (128ms)
+✔ [3233/3379] Built QECComp.Cover:dynlib (35ms)
+✔ [3234/3379] Built QECComp.RowsS (306ms)
+✔ [3235/3379] Built QECComp.Data.Balls8 (287ms)
+✔ [3236/3379] Built QECComp.Data.Balls8:c.o (65ms)
+✔ [3237/3379] Built QECComp.Data.Balls8:dynlib (33ms)
+✔ [3238/3379] Built QECComp.Data.CertL (873ms)
+✔ [3239/3379] Built QECComp.Data.CertHl (851ms)
+✔ [3240/3379] Built QECComp.Data.CertH2 (858ms)
+✔ [3241/3379] Built QECComp.Data.Cert8S (889ms)
+✔ [3242/3379] Built QECComp.Data.CertLS (845ms)
+✔ [3243/3379] Built QECComp.Data.CertHlS (826ms)
+✔ [3244/3379] Built QECComp.Data.CertH2S (873ms)
+✔ [3245/3379] Built QECComp.RowsS:c.o (278ms)
+✔ [3246/3379] Built QECComp.Data.Cert8 (903ms)
+✔ [3247/3379] Built QECComp.Data.CertHe (967ms)
+✔ [3248/3379] Built QECComp.Data.CertH2:c.o (133ms)
+✔ [3249/3379] Built QECComp.Data.CertLS:c.o (129ms)
+✔ [3250/3379] Built QECComp.Data.CertHeS (918ms)
+✔ [3251/3379] Built QECComp.Data.CertHlS:c.o (124ms)
+✔ [3252/3379] Built QECComp.Data.Cert8:c.o (191ms)
+✔ [3253/3379] Built QECComp.Data.CertL:c.o (138ms)
+✔ [3254/3379] Built QECComp.Data.CertL:dynlib (48ms)
+✔ [3255/3379] Built QECComp.Data.CertHl:c.o (153ms)
+✔ [3256/3379] Built QECComp.Data.CertHl:dynlib (61ms)
+✔ [3257/3379] Built QECComp.Data.CertH2:dynlib (87ms)
+✔ [3258/3379] Built QECComp.RowsS:dynlib (42ms)
+✔ [3259/3379] Built QECComp.Data.Cert8S:c.o (196ms)
+✔ [3260/3379] Built QECComp.Data.CertLS:dynlib (104ms)
+✔ [3261/3379] Built QECComp.Data.CertHeS:c.o (148ms)
+✔ [3262/3379] Built QECComp.Data.CertHlS:dynlib (61ms)
+✔ [3263/3379] Built QECComp.Data.CertH2S:c.o (138ms)
+✔ [3264/3379] Built QECComp.Data.CertH2S:dynlib (55ms)
+✔ [3265/3379] Built QECComp.Data.CertHe:c.o (139ms)
+✔ [3266/3379] Built QECComp.Data.CertHe:dynlib (43ms)
+✔ [3267/3379] Built QECComp.Data.Cert8S:dynlib (43ms)
+✔ [3268/3379] Built QECComp.Data.CertHeS:dynlib (53ms)
+✔ [3269/3379] Built QECComp.Data.Cert8:dynlib (39ms)
+✔ [3270/3379] Built QECComp.ModelL (274ms)
+✔ [3271/3379] Built QECComp.ModelL:c.o (43ms)
+✔ [3272/3379] Built QECComp.ModelHl (284ms)
+✔ [3273/3379] Built QECComp.ModelHl:c.o (43ms)
+✔ [3274/3379] Built QECComp.ModelH2 (283ms)
+✔ [3275/3379] Built QECComp.ModelHe (295ms)
+✔ [3276/3379] Built QECComp.ModelHe:c.o (43ms)
+✔ [3277/3379] Built QECComp.ModelH2:c.o (42ms)
+✔ [3278/3379] Built QECComp.ModelL:dynlib (36ms)
+✔ [3279/3379] Built QECComp.ModelHl:dynlib (34ms)
+✔ [3280/3379] Built QECComp.ModelH2:dynlib (36ms)
+✔ [3281/3379] Built QECComp.ModelHe:dynlib (35ms)
+✔ [3282/3379] Built QECComp.Data.Prof8 (643ms)
+✔ [3283/3379] Built QECComp.Data.ProfL (591ms)
+✔ [3284/3379] Built QECComp.Data.ProfL:c.o (58ms)
+✔ [3285/3379] Built QECComp.Data.ProfHl (675ms)
+✔ [3286/3379] Built QECComp.Data.ProfH2 (667ms)
+✔ [3287/3379] Built QECComp.Data.Prof8:c.o (55ms)
+✔ [3288/3379] Built QECComp.Data.Prof8:dynlib (34ms)
+✔ [3289/3379] Built QECComp.Data.ProfL:dynlib (35ms)
+✔ [3290/3379] Built QECComp.Data.ProfHe (684ms)
+✔ [3291/3379] Built QECComp.Data.ProfHe:c.o (62ms)
+✔ [3292/3379] Built QECComp.Data.ProfHe:dynlib (32ms)
+✔ [3293/3379] Built QECComp.Data.ProfHl:c.o (57ms)
+✔ [3294/3379] Built QECComp.Data.ProfHl:dynlib (35ms)
+✔ [3295/3379] Built QECComp.Data.ProfH2:c.o (56ms)
+✔ [3296/3379] Built QECComp.Data.ProfH2:dynlib (36ms)
+✔ [3297/3379] Built QECComp.ModelLS (278ms)
+✔ [3298/3379] Built QECComp.Model8S (291ms)
+✔ [3299/3379] Built QECComp.Model8S:c.o (41ms)
+✔ [3300/3379] Built QECComp.ModelLS:c.o (42ms)
+✔ [3301/3379] Built QECComp.ModelHeS (293ms)
+✔ [3302/3379] Built QECComp.ModelHlS (286ms)
+✔ [3303/3379] Built QECComp.ModelH2S (289ms)
+✔ [3304/3379] Built QECComp.ModelLS:dynlib (35ms)
+✔ [3305/3379] Built QECComp.ModelHeS:c.o (41ms)
+✔ [3306/3379] Built QECComp.ModelHlS:c.o (44ms)
+✔ [3307/3379] Built QECComp.ModelH2S:c.o (42ms)
+✔ [3308/3379] Built QECComp.Model8S:dynlib (40ms)
+✔ [3309/3379] Built QECComp.ModelHeS:dynlib (31ms)
+✔ [3310/3379] Built QECComp.ModelHlS:dynlib (34ms)
+✔ [3311/3379] Built QECComp.ModelH2S:dynlib (32ms)
+⚠ [3312/3379] Built QEC.Refined.Excl (2.2s)
+warning: QEC/Refined/Excl.lean:38:0: automatically included section variable(s) unused in theorem `QEC.oddE_nil`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:40:0: automatically included section variable(s) unused in theorem `QEC.oddE_cons`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:57:0: automatically included section variable(s) unused in theorem `QEC.ldeg_cons`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:84:0: automatically included section variable(s) unused in theorem `QEC.oddE_subset`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:86:0: automatically included section variable(s) unused in theorem `QEC.oddE_of_nodup`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:99:0: automatically included section variable(s) unused in theorem `QEC.wsum_symmDiff_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:139:46: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Excl.lean:145:46: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Excl.lean:247:0: automatically included section variable(s) unused in theorem `QEC.swap_le`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:325:0: automatically included section variable(s) unused in theorem `QEC.mult_of_swap`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Excl.lean:355:0: automatically included section variable(s) unused in theorem `QEC.core_contra`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3313/3379] Built QECComp (844ms)
+✔ [3314/3379] Built QECComp:c.o (42ms)
+✔ [3316/3379] Built QECComp:shared (156ms)
+⚠ [3317/3379] Built QEC.Thm11.Main (3.4s)
+warning: QEC/Thm11/Main.lean:50:0: automatically included section variable(s) unused in theorem `QEC.Circuit.model_Eg`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Thm11/Main.lean:51:0: automatically included section variable(s) unused in theorem `QEC.Circuit.model_G`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Thm11/Main.lean:53:0: automatically included section variable(s) unused in theorem `QEC.Circuit.model_q`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Thm11/Main.lean:87:28: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Thm11/Main.lean:104:28: Variable name `hp0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Thm11/Main.lean:213:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3318/3379] Built QEC.Refined.Memory (1.7s)
+warning: QEC/Refined/Memory.lean:29:0: automatically included section variable(s) unused in theorem `QEC.WinOK.tail`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:32:0: automatically included section variable(s) unused in theorem `QEC.WinOK.head`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:78:0: automatically included section variable(s) unused in theorem `QEC.St.Valid.shift`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:108:0: automatically included section variable(s) unused in theorem `QEC.cw_nonneg`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:193:0: automatically included section variable(s) unused in theorem `QEC.contOf_length`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:197:0: automatically included section variable(s) unused in theorem `QEC.contOf_fst`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:202:0: automatically included section variable(s) unused in theorem `QEC.labOf_eq`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:315:0: automatically included section variable(s) unused in theorem `QEC.path_shape`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Memory.lean:393:34: This simp argument is unused:
+  Vx.det.injEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stOf, St.mk.injEq] at hst
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3319/3379] Built QEC.Circuit.LocalType (1.1s)
+warning: QEC/Circuit/LocalType.lean:39:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/LocalType.lean:34:0: automatically included section variable(s) unused in theorem `QEC.Circuit.edge_eq_other`:
+  [Fintype L]
+  [DecidableEq L]
+  [(ℓ : L) → Fintype (O ℓ)]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype L] [DecidableEq L] [(ℓ : L) → Fintype (O ℓ)] [(ℓ : L) → DecidableEq (O ℓ)] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Circuit/LocalType.lean:59:15: This simp argument is unused:
+  Circuit.Eg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Model.Eg, mem_filter, mem_univ, true_and] at hmem
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/LocalType.lean:72:15: This simp argument is unused:
+  Circuit.Eg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Model.Eg, mem_filter, mem_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/LocalType.lean:92:19: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/LocalType.lean:75:54: Variable name `hy` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3320/3379] Built QEC.Circuit.Surface (5.5s)
+warning: QEC/Circuit/Surface.lean:71:18: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Surface.lean:112:66: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hx, hx', false_and, not_false_eq_true, true_and, not_true_eq_false, Prod.fst_add, Prod.snd_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Surface.lean:112:76: This simp argument is unused:
+  not_true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hx, hx', false_and, not_false_eq_true, true_and, and_true, Prod.fst_add, Prod.snd_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3321/3379] Built QEC.Refined.Labelled (1.7s)
+warning: QEC/Refined/Labelled.lean:46:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Labelled.lean:54:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/Labelled.lean:63:0: automatically included section variable(s) unused in theorem `QEC.winOK_of`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3322/3379] Built QEC.Circuit.Fault (1.3s)
+⚠ [3323/3379] Built QEC.Refined.Factors (2.3s)
+warning: QEC/Refined/Factors.lean:52:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Factors.lean:68:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [3324/3379] Built QEC.Circuit.Instance (1.6s)
+warning: QEC/Circuit/Instance.lean:103:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Instance.lean:103:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Instance.lean:118:12: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/Instance.lean:118:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Instance.lean:138:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3325/3379] Built QEC.Circuit.Bits (1.7s)
+warning: QEC/Circuit/Bits.lean:21:36: This simp argument is unused:
+  Nat.testBit_bit_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [maskOf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Bits.lean:244:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Bits.lean:252:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+✔ [3326/3379] Built QEC.Circuit.LocalSig (1.4s)
+⚠ [3327/3379] Built QEC.Refined.Assembly (4.0s)
+warning: QEC/Refined/Assembly.lean:55:0: automatically included section variable(s) unused in theorem `QEC.path_shape3`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Assembly.lean:63:47: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.nodup_cons, List.mem_cons, not_or] at hnd
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Assembly.lean:136:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Assembly.lean:163:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Assembly.lean:157:0: automatically included section variable(s) unused in theorem `QEC.q_eq_zero_of_not_mem`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Assembly.lean:167:0: automatically included section variable(s) unused in theorem `QEC.adj_mem_Eg`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/Assembly.lean:319:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Assembly.lean:321:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Assembly.lean:322:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Assembly.lean:328:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Assembly.lean:346:41: This simp argument is unused:
+  le_refl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pow_zero, one_mul, Nat.sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3328/3379] Built QEC.Circuit.Check (1.3s)
+✔ [3329/3379] Built QEC.Circuit.LitMasks (1.2s)
+⚠ [3330/3379] Built QEC.Circuit.Group (1.5s)
+warning: QEC/Circuit/Group.lean:34:34: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Group.lean:54:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Group.lean:56:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Group.lean:58:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Group.lean:69:28: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Group.lean:74:28: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Group.lean:76:28: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Group.lean:105:40: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [3331/3379] Built QEC.Circuit.Items (1.6s)
+warning: QEC/Circuit/Items.lean:131:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Items.lean:203:70: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Items.lean:203:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3332/3379] Built QEC.Circuit.Fast (1.3s)
+⚠ [3333/3379] Built QEC.Refined.AssemblyX (3.9s)
+warning: QEC/Refined/AssemblyX.lean:170:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/AssemblyX.lean:172:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/AssemblyX.lean:173:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/AssemblyX.lean:179:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/AssemblyX.lean:22:28: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/AssemblyX.lean:22:62: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/AssemblyX.lean:197:41: This simp argument is unused:
+  le_refl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pow_zero, one_mul, Nat.sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3334/3379] Built QEC.Circuit.MaskFacts (1.3s)
+warning: QEC/Circuit/MaskFacts.lean:28:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [3335/3379] Built QEC.Circuit.TypeLocal (2.6s)
+warning: QEC/Circuit/TypeLocal.lean:53:42: This simp argument is unused:
+  relDet_inj m r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [encV]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/TypeLocal.lean:69:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TypeLocal.lean:164:12: This simp argument is unused:
+  List.filterMap_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [List.filter_cons, h, filterMap_ite_eq p F l]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/TypeLocal.lean:164:33: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [List.filterMap_cons, h, filterMap_ite_eq p F l]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/TypeLocal.lean:165:12: This simp argument is unused:
+  List.filterMap_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [List.filter_cons, h, filterMap_ite_eq p F l]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/TypeLocal.lean:165:33: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [List.filterMap_cons, h, filterMap_ite_eq p F l]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3336/3379] Built QEC.Refined.ExclS (3.8s)
+warning: QEC/Refined/ExclS.lean:39:0: automatically included section variable(s) unused in theorem `QEC.phiE_det`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/ExclS.lean:72:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:84:33: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:100:0: automatically included section variable(s) unused in theorem `QEC.ldeg_cycle_even`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/ExclS.lean:119:0: automatically included section variable(s) unused in theorem `QEC.sym2_det_ne`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/ExclS.lean:206:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:206:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:225:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:225:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:226:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:226:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:227:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:227:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ExclS.lean:229:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:229:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:237:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:237:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ExclS.lean:127:0: automatically included section variable(s) unused in theorem `QEC.not_exclS`:
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/ExclS.lean:140:13: This simp argument is unused:
+  ledges_cons_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ledges, List.map_cons, List.map_nil, List.cons.injEq, and_true, decide_eq_true_eq] at hlab
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/ExclS.lean:148:44: This simp argument is unused:
+  ledges_cons_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ledges, e2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3337/3379] Built QEC.Circuit.Transfer (2.0s)
+warning: QEC/Circuit/Transfer.lean:209:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Transfer.lean:212:52: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Transfer.lean:222:45: Unused tactic linter: `(simp at hp)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Circuit/Transfer.lean:222:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: QEC/Circuit/Transfer.lean:222:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3338/3379] Built QEC.Circuit.TransferItems (1.8s)
+warning: QEC/Circuit/TransferItems.lean:73:13: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/TransferItems.lean:171:18: Variable name `hj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3339/3379] Built QEC.Circuit.LitFacts (6.0s)
+⚠ [3340/3379] Built QEC.Circuit.TransferKey (1.4s)
+warning: QEC/Circuit/TransferKey.lean:51:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:51:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:60:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:60:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:63:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:63:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:66:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:66:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:84:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:84:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:88:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:88:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:91:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:91:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:94:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:94:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:96:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:96:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/TransferKey.lean:99:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/TransferKey.lean:99:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [3341/3379] Built QEC.Circuit.FastCorrect (1.3s)
+⚠ [3342/3379] Built QEC.Circuit.FaultFacts (4.4s)
+warning: QEC/Circuit/FaultFacts.lean:18:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: QEC/Circuit/FaultFacts.lean:183:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/FaultFacts.lean:184:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/FaultFacts.lean:246:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/FaultFacts.lean:246:40: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3343/3379] Built QEC.Circuit.Consequences (2.4s)
+warning: QEC/Circuit/Consequences.lean:24:59: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:35:59: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at h1 h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:43:57: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:24:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:35:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:43:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:77:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:130:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:134:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:139:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:142:43: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:277:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:278:40: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:296:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:300:49: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:316:48: Variable name `hT` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hT
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Circuit/Consequences.lean:368:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:382:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Consequences.lean:395:59: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:408:59: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at h1 h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:421:57: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at ha hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Consequences.lean:395:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:408:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:421:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: QEC/Circuit/Consequences.lean:435:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: QEC/Circuit/Consequences.lean:501:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [3344/3379] Built QEC.Circuit.FastCheck (1.4s)
+warning: QEC/Circuit/FastCheck.lean:96:26: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3345/3379] Built QEC.Circuit.CheckCorrect (1.6s)
+warning: QEC/Circuit/CheckCorrect.lean:50:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/CheckCorrect.lean:54:47: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/CheckCorrect.lean:54:82: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/CheckCorrect.lean:76:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/CheckCorrect.lean:84:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/CheckCorrect.lean:153:12: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha, ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/CheckCorrect.lean:155:12: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [this, ih, h a List.mem_cons_self this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/CheckCorrect.lean:209:51: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Circuit/CheckCorrect.lean:338:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [3346/3379] Built QEC.Circuit.Reps (1.9s)
+⚠ [3347/3379] Built QEC.Circuit.Assembly (1.5s)
+warning: QEC/Circuit/Assembly.lean:76:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Circuit/Assembly.lean:146:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3348/3379] Built QEC.Circuit.Thm11Circ (4.3s)
+warning: QEC/Circuit/Thm11Circ.lean:95:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Thm11Circ.lean:143:61: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Circuit/Thm11Circ.lean:159:61: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [3349/3379] Built QEC.Circuit.Chunks (1.3s)
+✔ [3350/3379] Built QEC.Refined.LocalGraph (1.6s)
+⚠ [3351/3379] Built QEC.Circuit.Experiment (2.1s)
+warning: QEC/Circuit/Experiment.lean:23:29: This simp argument is unused:
+  Bool.xor_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Frame.add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Circuit/Experiment.lean:85:2: Unused tactic linter: `all_goals (ext p <;> simp [step, hLayer_x, hLayer_z, Frame.zero])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Circuit/Experiment.lean:85:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: QEC/Circuit/Experiment.lean:125:57: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Experiment.lean:134:47: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Experiment.lean:139:62: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Circuit/Experiment.lean:134:17: This simp argument is unused:
+  Nat.add_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [runInj, single, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3352/3379] Built QEC.Circuit.Experiment2 (1.8s)
+warning: QEC/Circuit/Experiment2.lean:49:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Circuit/Experiment2.lean:226:89: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [3353/3379] Built QEC.Refined.TypeTable (2.2s)
+warning: QEC/Refined/TypeTable.lean:57:4: This simp argument is unused:
+  Bool.or_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Bool.and_eq_true, beq_iff_eq, decide_eq_true_eq, Bool.not_eq_true', Bool.and_eq_false_iff,
+    nCountB_eq, and_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/TypeTable.lean:99:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/TypeTable.lean:101:19: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/TypeTable.lean:103:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/TypeTable.lean:105:21: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/TypeTable.lean:187:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3354/3379] Built QEC.Circuit.Final (1.5s)
+⚠ [3355/3379] Built QEC.Refined.LocalPk (7.9s)
+warning: QEC/Refined/LocalPk.lean:24:31: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/LocalPk.lean:28:31: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/LocalPk.lean:28:57: Variable name `hy` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3356/3379] Built QEC.Refined.Ball (2.7s)
+warning: QEC/Refined/Ball.lean:99:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Ball.lean:136:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Ball.lean:235:83: Unused tactic linter: `push_cast at hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/Ball.lean:242:60: Unused tactic linter: `push_cast at hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/Ball.lean:269:51: `List.Sublist.cons₂` has been deprecated: Use `List.Sublist.cons_cons` instead
+warning: QEC/Refined/Ball.lean:297:35: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/Ball.lean:307:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [3357/3379] Built QEC.Refined.Witness (4.0s)
+warning: QEC/Refined/Witness.lean:36:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:70:32: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/Witness.lean:107:33: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/Witness.lean:110:33: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Witness.lean:119:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:132:33: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Witness.lean:132:61: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/Witness.lean:141:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:141:40: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:152:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Witness.lean:178:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:178:40: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:208:8: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:227:82: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:227:82: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:227:82: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:227:82: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:248:22: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:224:30: This simp argument is unused:
+  ldeg_cons'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [walkEdges, ldeg, List.countP_nil, zero_add, List.headD_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:224:48: This simp argument is unused:
+  List.countP_nil
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [walkEdges, ldeg_cons', ldeg, zero_add, List.headD_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:224:65: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [walkEdges, ldeg_cons', ldeg, List.countP_nil, List.headD_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:248:45: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Xor', Nat.odd_add_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: QEC/Refined/Witness.lean:297:23: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: QEC/Refined/Witness.lean:359:43: Variable name `hpb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/Witness.lean:390:26: This simp argument is unused:
+  List.count_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:399:26: This simp argument is unused:
+  List.count_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:501:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:501:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:501:74: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:502:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:502:64: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:502:75: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:503:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:503:98: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:503:109: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:510:37: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:513:9: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:553:61: `List.getLast?_eq_getLast` has been deprecated: Use `List.getLast?_eq_some_getLast` instead
+
+Hint: Replace the deprecated name:
+  List.getLast?_eq_s̲o̲m̲e̲_̲getLast
+warning: QEC/Refined/Witness.lean:563:6: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:579:62: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:608:73: `List.getLast?_eq_getLast` has been deprecated: Use `List.getLast?_eq_some_getLast` instead
+
+Hint: Replace the deprecated name:
+  List.getLast?_eq_s̲o̲m̲e̲_̲getLast
+warning: QEC/Refined/Witness.lean:655:25: Variable name `hG` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hG
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/Witness.lean:684:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Witness.lean:686:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/Witness.lean:692:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:692:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:692:76: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:693:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:693:66: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:693:77: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:694:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:694:100: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:695:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:699:22: This simp argument is unused:
+  hx.mp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h2, hy.mp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:699:29: This simp argument is unused:
+  hy.mp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h2, hx.mp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/Witness.lean:808:13: `Xor'` has been deprecated: Use `Xor` instead
+
+Hint: Replace the deprecated name:
+  Xor'̵
+warning: QEC/Refined/Witness.lean:833:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Witness.lean:837:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Witness.lean:843:23: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/Witness.lean:809:47: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/Witness.lean:809:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3358/3379] Built QEC.Refined.RowsSem (5.7s)
+warning: QEC/Refined/RowsSem.lean:126:40: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/RowsSem.lean:132:39: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/RowsSem.lean:161:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSem.lean:250:44: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons, List.not_mem_nil, or_false] at hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:254:77: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ledges_cons_cons, ledges_single, List.mem_cons, List.not_mem_nil, or_false] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:259:44: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons, List.not_mem_nil, or_false] at hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:265:77: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ledges_cons_cons, ledges_single, List.mem_cons, List.not_mem_nil, or_false] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:270:44: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons, List.not_mem_nil, or_false] at hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:277:77: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ledges_cons_cons, ledges_single, List.mem_cons, List.not_mem_nil, or_false] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/RowsSem.lean:335:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/RowsSem.lean:381:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSem.lean:434:65: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Refined/RowsSem.lean:448:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSem.lean:460:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSem.lean:488:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSem.lean:489:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/RowsSem.lean:544:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [3359/3379] Built QEC.Refined.StartSem (5.2s)
+warning: QEC/Refined/StartSem.lean:38:56: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/StartSem.lean:193:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/StartSem.lean:263:37: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/StartSem.lean:267:67: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [3360/3379] Built QEC.Refined.Cover (4.8s)
+warning: QEC/Refined/Cover.lean:158:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Cover.lean:165:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3361/3379] Built QEC.Refined.Generic (4.1s)
+⚠ [3362/3379] Built QEC.Refined.ProfileS (2.0s)
+warning: QEC/Refined/ProfileS.lean:34:0: automatically included section variable(s) unused in theorem `QEC.Circ.ProfWeights.eq`:
+  [Fintype V]
+  [DecidableEq L]
+  [(ℓ : L) → DecidableEq (O ℓ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq L] [(ℓ : L) → DecidableEq (O ℓ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3363/3379] Built QEC.Refined.Thm12 (2.5s)
+⚠ [3364/3379] Built QEC.Refined.Weighted (3.6s)
+warning: QEC/Refined/Weighted.lean:230:51: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/Weighted.lean:294:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:294:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:303:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:303:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:306:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:306:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:309:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:309:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:327:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:327:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:331:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:331:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:335:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:335:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:338:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:338:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:340:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:340:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:344:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:344:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/Weighted.lean:420:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/Weighted.lean:507:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3365/3379] Built QEC.Refined.CritW (4.5s)
+warning: QEC/Refined/CritW.lean:105:55: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Refined/CritW.lean:145:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/CritW.lean:145:62: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/CritW.lean:150:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/CritW.lean:150:62: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/CritW.lean:105:15: This simp argument is unused:
+  Finset.coe_sort_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.coe_toFinset, Set.mem_setOf_eq] at he he'
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/CritW.lean:135:92: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/CritW.lean:138:92: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/CritW.lean:135:92: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: QEC/Refined/CritW.lean:138:92: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [3366/3379] Built QEC.Refined.Specs (1.0s)
+⚠ [3367/3379] Built QEC.Refined.RowsSemS (4.6s)
+warning: QEC/Refined/RowsSemS.lean:30:0: automatically included section variable(s) unused in theorem `QEC.Circ.pkOf_pos`:
+  I
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit I in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/RowsSemS.lean:70:0: automatically included section variable(s) unused in theorem `QEC.Circ.fval_pkOf`:
+  I
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit I in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: QEC/Refined/RowsSemS.lean:78:30: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/RowsSemS.lean:78:32: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: QEC/Refined/RowsSemS.lean:191:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/RowsSemS.lean:230:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSemS.lean:283:65: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: QEC/Refined/RowsSemS.lean:297:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSemS.lean:309:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSemS.lean:337:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/RowsSemS.lean:338:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/RowsSemS.lean:393:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [3368/3379] Built QEC.Refined.Rates (2.1s)
+⚠ [3369/3379] Built QEC.Refined.W8 (2.0s)
+warning: QEC/Refined/W8.lean:35:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/W8.lean:40:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/W8.lean:65:55: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3370/3379] Built QEC.Refined.ThmW (2.4s)
+⚠ [3371/3379] Built QEC.Refined.LeanSem (3.5s)
+warning: QEC/Refined/LeanSem.lean:181:58: This simp argument is unused:
+  Nat.zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stepGL, stepG, Nat.zero_mod, Nat.mul_zero, Nat.one_mod]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: QEC/Refined/LeanSem.lean:358:58: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/LeanSem.lean:371:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:372:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:387:8: Unused tactic linter: `(rw [Frame.add_zero])` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: QEC/Refined/LeanSem.lean:387:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: QEC/Refined/LeanSem.lean:398:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/LeanSem.lean:399:34: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/LeanSem.lean:418:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:449:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/LeanSem.lean:449:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/LeanSem.lean:451:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:451:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:453:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/LeanSem.lean:454:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/LeanSem.lean:560:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/LeanSem.lean:561:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/LeanSem.lean:714:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: QEC/Refined/LeanSem.lean:717:19: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: QEC/Refined/LeanSem.lean:730:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3372/3379] Built QEC.Refined.GenericS (4.1s)
+⚠ [3373/3379] Built QEC.Refined.ThmWa (3.3s)
+warning: QEC/Refined/ThmWa.lean:67:31: Variable name `hp0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3374/3379] Built QEC.Refined.ProfKeys (9.3s)
+warning: QEC/Refined/ProfKeys.lean:244:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfKeys.lean:244:42: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfKeys.lean:245:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfKeys.lean:245:51: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfKeys.lean:249:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfKeys.lean:141:42: Variable name `hy` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3375/3379] Built QEC.Refined.ProfTable (2.9s)
+warning: QEC/Refined/ProfTable.lean:84:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:84:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:93:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:93:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:96:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:96:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:99:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:99:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:117:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:117:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:121:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:121:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:125:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:125:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:128:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:128:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:130:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:130:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: QEC/Refined/ProfTable.lean:134:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:134:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: QEC/Refined/ProfTable.lean:234:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [3376/3379] Built QEC.Refined.ThmWS (2.0s)
+✔ [3377/3379] Built QEC.Refined.ThmS (2.5s)
+✔ [3378/3379] Built QEC (1.9s)
+Build completed successfully (3379 jobs).

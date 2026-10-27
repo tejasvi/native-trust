@@ -1,0 +1,6 @@
+2026-10-26T01:21:02Z batch: 2 facts, PAR=2 MEMG=96 T=3600 MemAvailable=689G
+2026-10-26T01:21:02Z start X_certOK_7 unit=s13-f-x-certok-7-1792977662 MemAvailable=689G
+2026-10-26T01:21:04Z start X_certOK_8 unit=s13-f-x-certok-8-1792977664 MemAvailable=688G
+2026-10-26T01:35:31Z end X_certOK_7 rc=0 | maxrss_kb 101896032 secs 868.91 | rc=137 end=2026-10-26T01:35:31Z
+2026-10-26T01:37:35Z end X_certOK_8 rc=0 | maxrss_kb 101895072 secs 990.12 | rc=137 end=2026-10-26T01:37:35Z
+2026-10-26T01:37:35Z batch done

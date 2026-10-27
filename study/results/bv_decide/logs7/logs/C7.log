@@ -1,0 +1,28 @@
+'BVS.blastUn_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BVS.blastExpr_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BVS.unsat_of_cnf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BVS.bvs_unsat4' depends on axioms: [propext, Classical.choice, Quot.sound]
+C7.lean:10:14: error(lean.unknownIdentifier): Unknown constant `BVS.bvs_unsat5`
+bvs c7_rev #1: 9 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 20 ms, prep+defs 1 ms; kernel: base 8 ms, chunks 0 ms (max 0 ms); total 99 ms
+bvs: added c7_rev.bvs4 (2 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_rev2 #1: 128 nodes, 287 clauses, 128 vars; 68 steps, 261 hints, 1 chunks; solve 19 ms, prep+defs 2 ms; kernel: base 83 ms, chunks 72 ms (max 72 ms); total 178 ms
+bvs: added c7_rev2.bvs4 (6 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_clz0 #1: 142 nodes, 377 clauses, 142 vars; 54 steps, 261 hints, 1 chunks; solve 20 ms, prep+defs 2 ms; kernel: base 148 ms, chunks 71 ms (max 71 ms); total 242 ms
+bvs: added c7_clz0.bvs4 (5 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_clz1 #1: 50 nodes, 125 clauses, 50 vars; 48 steps, 109 hints, 1 chunks; solve 19 ms, prep+defs 1 ms; kernel: base 42 ms, chunks 23 ms (max 23 ms); total 86 ms
+bvs: added c7_clz1.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_clzmsb #1: 300 nodes, 803 clauses, 300 vars; 13 steps, 32 hints, 1 chunks; solve 20 ms, prep+defs 3 ms; kernel: base 429 ms, chunks 8 ms (max 8 ms); total 464 ms
+bvs: added c7_clzmsb.bvs4 (3 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_cpop1 #1: 129 nodes, 362 clauses, 129 vars; 69 steps, 432 hints, 1 chunks; solve 20 ms, prep+defs 3 ms; kernel: base 107 ms, chunks 82 ms (max 82 ms); total 213 ms
+bvs: added c7_cpop1.bvs4 (5 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_cpop2 #1: 1131 nodes, 3344 clauses, 1131 vars; 1947 steps, 40472 hints, 3 chunks; solve 43 ms, prep+defs 170 ms; kernel: base 1329 ms, chunks 6643 ms (max 3669 ms); total 8192 ms
+bvs: added c7_cpop2.bvs4 (120 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_cpop3 #1: 4128 nodes, 12287 clauses, 4128 vars; 33106 steps, 505378 hints, 29 chunks; solve 827 ms, prep+defs 3032 ms; kernel: base 5565 ms, chunks 129070 ms (max 6263 ms); total 138517 ms
+bvs: added c7_cpop3.bvs4 (6642 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs c7_ctz #1: 136 nodes, 359 clauses, 136 vars; 47 steps, 110 hints, 1 chunks; solve 26 ms, prep+defs 2 ms; kernel: base 173 ms, chunks 27 ms (max 27 ms); total 231 ms
+bvs: added c7_ctz.bvs4 (6 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'c7_rev.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'c7_cpop3.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'c7_ctz.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]
+Command exited with non-zero status 1
+TIME wall=161.00 s user=157.33 s maxrss=2984536 KB

@@ -1,0 +1,100 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_Clean_Utils_Bitwise_0.lean
+NT start _private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6
+NT nested _private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6 ms=701 rebuilt_defs=0 visited=8586
+NT copy Std.Sat.AIG.denote.go._unary defn_ms=1 eq_ms=2 congr=true
+NT copy Std.Sat.AIG.denote.go defn_ms=0 eq_ms=0 congr=true
+NT copy Std.Sat.AIG.denote defn_ms=0 eq_ms=0 congr=true
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.cnfSatAssignment defn_ms=0 eq_ms=1 congr=true
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.Inv defn_ms=0 eq_ms=0 congr=true
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.casesOn defn_ms=0 eq_ms=1 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.addFalse.match_3 defn_ms=1 eq_ms=1 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.addFalse defn_ms=1 eq_ms=2 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.addAtom defn_ms=1 eq_ms=2 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.addGate.match_3 defn_ms=1 eq_ms=3 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.State.addGate defn_ms=2 eq_ms=3 congr=false
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.go._unary defn_ms=2 eq_ms=10 congr=true
+NT copy _private.Std.Sat.AIG.CNF.0.Std.Sat.AIG.toCNF.go defn_ms=0 eq_ms=0 congr=true
+NT copy Std.Sat.AIG.toCNF defn_ms=0 eq_ms=1 congr=true
+NT copy Std.Tactic.BVDecide.BVExpr.bitblast.goCache._mutual defn_ms=14 eq_ms=17 congr=true
+NT copy Std.Tactic.BVDecide.BVExpr.bitblast.goCache defn_ms=0 eq_ms=1 congr=true
+NT copy Std.Tactic.BVDecide.BVExpr.bitblast defn_ms=0 eq_ms=0 congr=true
+NT copy Std.Tactic.BVDecide.BVPred.bitblast defn_ms=1 eq_ms=5 congr=true
+NT copy Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go._f defn_ms=2 eq_ms=8 congr=true
+NT copy Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go defn_ms=0 eq_ms=0 congr=true
+NT copy Std.Tactic.BVDecide.BVLogicalExpr.bitblast defn_ms=0 eq_ms=0 congr=true
+NT copy Std.Tactic.BVDecide.Reflect.verifyBVExpr defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Clean_Utils_Bitwise_0._private.Clean.Utils.Bitwise.0.not64_eq_sub._kernel.bv_decide.ax_1_6.p_0 blockers_ms=24 bounded=true copy_ms=112 copies=22 copy_kernel_ms=84
+FAILED `_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6`: kernelize: cannot prove the statement of `_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6` in the kernel:
+    Std.Tactic.BVDecide.Reflect.verifyBVExpr not64_eq_sub._expr_def_1_2✝ not64_eq_sub._cert_def_1_2✝ = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Clean_Utils_Bitwise_0._private.Clean.Utils.Bitwise.0.not64_eq_sub._kernel.bv_decide.ax_1_6.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr not64_eq_sub._expr_def_1_2✝
+        not64_eq_sub._cert_def_1_2✝ =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.instHashableBVBit → Std.Tactic.BVDecide.instHashableBVBit.hash → mixHash
+  • `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions.go
+  • `Std.Internal.Parsec.manyCore`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Internal.Parsec.many → Std.Internal.Parsec.manyCore
+  • `_private.Init.Data.Format.Basic.0.Std.Format.be`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → Std.Format.prettyM → _private.Init.Data.Format.Basic.0.Std.Format.be
+  • `String.Internal.append`: primitive implemented in C (`@[extern]`) with no definition
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.append
+  • `String.Internal.length`: primitive implemented in C (`@[extern]`) with no definition
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.length
+  • `String.Internal.pushn`: primitive implemented in C (`@[extern]`) with no definition
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.pushn
+  • `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseClause → Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero.go
+  • `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseClause → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit.go
+  • `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseIdList → Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero.go
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go._f → Std.Tactic.BVDecide.BVExpr.Cache.cast → Std.DHashMap.get → Std.DHashMap.Internal.Raw₀.get → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6`: kernelize: cannot prove the statement of `_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6` in the kernel:
+  Std.Tactic.BVDecide.Reflect.verifyBVExpr not64_eq_sub._expr_def_1_2✝ not64_eq_sub._cert_def_1_2✝ = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Clean_Utils_Bitwise_0._private.Clean.Utils.Bitwise.0.not64_eq_sub._kernel.bv_decide.ax_1_6.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr not64_eq_sub._expr_def_1_2✝
+      not64_eq_sub._cert_def_1_2✝ =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.instHashableBVBit → Std.Tactic.BVDecide.instHashableBVBit.hash → mixHash
+• `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Text.parseActions.go
+• `Std.Internal.Parsec.manyCore`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Internal.Parsec.many → Std.Internal.Parsec.manyCore
+• `_private.Init.Data.Format.Basic.0.Std.Format.be`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → Std.Format.prettyM → _private.Init.Data.Format.Basic.0.Std.Format.be
+• `String.Internal.append`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.append
+• `String.Internal.length`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.length
+• `String.Internal.pushn`: primitive implemented in C (`@[extern]`) with no definition
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Internal.Parsec.ByteArray.Parser.run → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.pushn
+• `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseClause → Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillZero.go
+• `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseClause → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseLit.go
+• `_private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → Std.Tactic.BVDecide.Reflect.verifyCert → Std.Tactic.BVDecide.LRAT.parseLRATProof → Std.Tactic.BVDecide.LRAT.Parser.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseActions → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.parseAction.parseAdd → Std.Tactic.BVDecide.LRAT.Parser.Binary.parseIdList → Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero → _private.Std.Tactic.BVDecide.LRAT.Parser.0.Std.Tactic.BVDecide.LRAT.Parser.Binary.manyTillNegOrZero.go
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.Reflect.verifyBVExpr → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go → _kt.F2_Clean_Utils_Bitwise_0.Std.Tactic.BVDecide.BVLogicalExpr.bitblast.go._f → Std.Tactic.BVDecide.BVExpr.Cache.cast → Std.DHashMap.get → Std.DHashMap.Internal.Raw₀.get → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 3059652
+rc=0 secs=2

@@ -1,0 +1,7 @@
+orig native axioms: 2 native axioms in `NTV.AllocationTxMutants`
+kf native axioms: 0 native axioms in `NTV.AllocationTxMutants`
+orig: wall_med=1.30 cpu_med=1.52 rss_kb_max=2363444 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=1.31 cpu_med=1.53 rss_kb_max=2371808 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=1.33 cpu_med=1.57 rss_kb_max=2371856 runs=3 rc=0 warnings=2 unnecessary=2 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=1.32 cpu_med=1.53 rss_kb_max=2373104 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=1.55 cpu_med=1.78 rss_kb_max=2385072 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

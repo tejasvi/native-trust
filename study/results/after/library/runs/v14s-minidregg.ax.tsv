@@ -1,0 +1,18 @@
+v14s-minidregg	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+v14s-minidregg	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+v14s-minidregg	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+v14s-minidregg	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+v14s-minidregg	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+v14s-minidregg	scripts.probe-fn-portable-line	-			NOT_BUILT						
+v14s-minidregg	Compiler.RefusalReason	Minidregg.Compiler.LawLeaf.NarrowSample.narrowed_hides_uncovered_compiled._native.native_decide.ax_1_1	native_decide	False	PROVED		4	3687316	3		nt_lines=33 last=pieces=1
+v14s-minidregg	Compiler.RefusalReason	Minidregg.Compiler.LawLeaf.NarrowSample.narrowed_shows_covered_compiled._native.native_decide.ax_1_1	native_decide	False	PROVED		6	3699012	3		nt_lines=33 last=pieces=1
+v14s-minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.status_reply_teeth._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4401292	4		nt_lines=9 last=pieces=1
+v14s-minidregg	Compiler.ObjectiveBendSpecificationClosure	Minidregg.Compiler.ObjectiveBendSpecificationClosure.law_keyword_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		169	4234276	6		nt_lines=309 last=pieces=1
+v14s-minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.consumer_reply_teeth._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4787072	12		nt_lines=9 last=pieces=1
+v14s-minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.poll_reply_teeth._native.native_decide.ax_1_1	native_decide	False	PROVED		1	7144468	15		nt_lines=13 last=pieces=1
+v14s-minidregg	Host.ApplicationManagedPolicyAuthoringCheck	Minidregg.Host.ApplicationManagedPolicyAuthoringCheck.colliding_resource_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		1200	8518216	165		nt_lines=1079 last=pieces=1
+v14s-minidregg	Host.ApplicationManagedPolicyAuthoringCheck	Minidregg.Host.ApplicationManagedPolicyAuthoringCheck.unknown_kind_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		1192	8508512	165		nt_lines=1079 last=pieces=1
+v14s-minidregg	Host.ApplicationManagedPolicyAuthoringCheck	Minidregg.Host.ApplicationManagedPolicyAuthoringCheck.exact_app_bytes._native.native_decide.ax_1_1	native_decide	False	PROVED		1196	8508092	170		nt_lines=1079 last=pieces=1
+v14s-minidregg	Host.Json	Minidregg.Host.Json.grainPolicy_overbound_workers_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		1175	8507684	167		nt_lines=1083 last=pieces=1
+v14s-minidregg	Host.Json	Minidregg.Host.Json.grainPolicy_duplicate_workers_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		1136	8508916	164		nt_lines=1083 last=pieces=1
+v14s-minidregg	Host.ApplicationManagedPolicyAuthoringCheck	Minidregg.Host.ApplicationManagedPolicyAuthoringCheck.authored_predicate_has_inspectable_ast._native.native_decide.ax_1_1	native_decide	False	PROVED		1767	8510964	204		nt_lines=1509 last=pieces=1

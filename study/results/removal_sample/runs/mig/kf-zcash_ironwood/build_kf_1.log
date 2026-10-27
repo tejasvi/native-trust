@@ -1,0 +1,1247 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Zcash.Arithmetic +Zcash.Arithmetic.CommitLagrange +Zcash.Arithmetic.Domain +Zcash.Arithmetic.FastMsm +Zcash.Arithmetic.Fft +Zcash.Arithmetic.FftSpec +Zcash.Arithmetic.Field +Zcash.Arithmetic.Group +Zcash.Arithmetic.InvDft +Zcash.Arithmetic.LagrangeBasis +Zcash.Arithmetic.Msm +Zcash.Arithmetic.NatKernel +Zcash.Arithmetic.NatKernelEquiv +Zcash.Arithmetic.ScalarInvDft +Zcash.Arithmetic.VestaModule +Zcash.Circuits.Action.AddressIntegrity +Zcash.Circuits.Action.Bundle +Zcash.Circuits.Action.Circuit +Zcash.Circuits.Action.CircuitPreNU63 +Zcash.Circuits.Action.ConfigureCertificates +Zcash.Circuits.Action.DeriveNullifier +Zcash.Circuits.Action.PublicInput +Zcash.Circuits.Action.RealBases +Zcash.Circuits.Action.Separation +Zcash.Circuits.Action.Shape +Zcash.Circuits.Action.Shape.Anchors +Zcash.Circuits.Action.Shape.Compilation +Zcash.Circuits.Action.Shape.Planner +Zcash.Circuits.Action.Shape.PlannerSort +Zcash.Circuits.Action.Shape.PlannerSortBridge +Zcash.Circuits.Action.Shape.PlannerTrace +Zcash.Circuits.Action.Shape.PlannerTraceBridge +Zcash.Circuits.Action.Shape.PlannerTraceCertificate +Zcash.Circuits.Action.Shape.PlannerTraceData +Zcash.Circuits.Action.Shape.SelectorPacking +Zcash.Circuits.Action.Spec +Zcash.Circuits.Action.SpendAuthority +Zcash.Circuits.Action.TopLevel +Zcash.Circuits.Action.ValueCommit +Zcash.Circuits.CommitIvk.Bundle +Zcash.Circuits.CommitIvk.ChunkTheorems +Zcash.Circuits.CommitIvk.Composite +Zcash.Circuits.CommitIvk.Gate +Zcash.Circuits.CommitIvk.GateTheorems +Zcash.Circuits.CommitIvk.Main +Zcash.Circuits.CommitIvk.MainBundle +Zcash.Circuits.CommitIvk.MainTheorems +Zcash.Circuits.Ecc.Add +Zcash.Circuits.Ecc.AddIncomplete +Zcash.Circuits.Ecc.AddIncompleteTheorems +Zcash.Circuits.Ecc.AddTheorems +Zcash.Circuits.Ecc.Basic +Zcash.Circuits.Ecc.Chip +Zcash.Circuits.Ecc.Defs +Zcash.Circuits.Ecc.DoubleAndAdd +Zcash.Circuits.Ecc.Mul +Zcash.Circuits.Ecc.MulAssignTheorems +Zcash.Circuits.Ecc.MulComplete +Zcash.Circuits.Ecc.MulCompleteTheorems +Zcash.Circuits.Ecc.MulFixed +Zcash.Circuits.Ecc.MulFixed.BaseFieldElem +Zcash.Circuits.Ecc.MulFixed.BaseFieldElemTheorems +Zcash.Circuits.Ecc.MulFixed.CertCheck +Zcash.Circuits.Ecc.MulFixed.Certs.CommitIvkR +Zcash.Circuits.Ecc.MulFixed.Certs.NoteCommitR +Zcash.Circuits.Ecc.MulFixed.Certs.NullifierK +Zcash.Circuits.Ecc.MulFixed.Certs.SpendAuthG +Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitR +Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitV +Zcash.Circuits.Ecc.MulFixed.FullWidth +Zcash.Circuits.Ecc.MulFixed.Short +Zcash.Circuits.Ecc.MulFixed.ShortTheorems +Zcash.Circuits.Ecc.MulFixed.Theorems +Zcash.Circuits.Ecc.MulIncomplete +Zcash.Circuits.Ecc.MulIncompleteRound +Zcash.Circuits.Ecc.MulIncompleteTheorems +Zcash.Circuits.Ecc.MulOverflow +Zcash.Circuits.Ecc.MulOverflowTheorems +Zcash.Circuits.Ecc.MulTheorems +Zcash.Circuits.Ecc.WitnessPoint +Zcash.Circuits.Integration.ActionConstraintBounds +Zcash.Circuits.Integration.ActionCopyReplay +Zcash.Circuits.Integration.ActionCopyWitness +Zcash.Circuits.Integration.ActionCorrectness +Zcash.Circuits.Integration.ActionEncoding +Zcash.Circuits.Integration.ActionPermutationCycle +Zcash.Circuits.Integration.ActionPermutationDomain +Zcash.Circuits.Integration.CircuitIntegration +Zcash.Circuits.Integration.CircuitSatisfaction +Zcash.Circuits.Integration.CopyListMembership +Zcash.Circuits.Integration.ExprRich +Zcash.Circuits.Integration.FixedColumns +Zcash.Circuits.Integration.FixedLayout +Zcash.Circuits.Integration.InstanceColumns +Zcash.Circuits.Integration.ListChunks +Zcash.Circuits.Integration.LookupProjection +Zcash.Circuits.Integration.LookupSelectorRows +Zcash.Circuits.Integration.OperationCopies +Zcash.Circuits.Integration.OperationFixed +Zcash.Circuits.Integration.OperationGates +Zcash.Circuits.Integration.OperationLookups +Zcash.Circuits.Integration.PermutationColumns +Zcash.Circuits.Integration.PermutationCompiler +Zcash.Circuits.Integration.PermutationReplay +Zcash.Circuits.Integration.PolynomialEnvironment +Zcash.Circuits.Integration.ResolverGates +Zcash.Circuits.Integration.ResolverQueryEnvironment +Zcash.Circuits.Integration.SelectorCoherence +Zcash.Circuits.Integration.TopLevelAssignment +Zcash.Circuits.Integration.TopLevelBridge +Zcash.Circuits.Integration.TopLevelCircuit +Zcash.Circuits.Integration.TopLevelCoherence +Zcash.Circuits.Integration.TopLevelConstraintModel +Zcash.Circuits.Integration.TopLevelCorrectness +Zcash.Circuits.Integration.TopLevelGates +Zcash.Circuits.Integration.TopLevelInstanceCommitment +Zcash.Circuits.Integration.TopLevelLookups +Zcash.Circuits.Integration.VerifierCS +Zcash.Circuits.NoteCommit.Canonicity +Zcash.Circuits.NoteCommit.CanonicityTheorems +Zcash.Circuits.NoteCommit.Composites +Zcash.Circuits.NoteCommit.Decompose +Zcash.Circuits.NoteCommit.DecomposeTheorems +Zcash.Circuits.NoteCommit.Gates +Zcash.Circuits.NoteCommit.Main +Zcash.Circuits.NoteCommit.MainBundle +Zcash.Circuits.NoteCommit.MainTheorems +Zcash.Circuits.NoteCommit.YComposite +Zcash.Circuits.Poseidon.Constants +Zcash.Circuits.Poseidon.Hash +Zcash.Circuits.Poseidon.HashTheorems +Zcash.Circuits.Poseidon.Permute +Zcash.Circuits.Poseidon.Pow5 +Zcash.Circuits.Poseidon.Pow5Theorems +Zcash.Circuits.Poseidon.Rounds +Zcash.Circuits.Poseidon.SpongeTheorems +Zcash.Circuits.Sinsemilla.Basic +Zcash.Circuits.Sinsemilla.Chain +Zcash.Circuits.Sinsemilla.ChainTheorems +Zcash.Circuits.Sinsemilla.ChipTheorems +Zcash.Circuits.Sinsemilla.CommitDomain +Zcash.Circuits.Sinsemilla.CommitDomainTheorems +Zcash.Circuits.Sinsemilla.HVec +Zcash.Circuits.Sinsemilla.HashPiece +Zcash.Circuits.Sinsemilla.HashPieceRound +Zcash.Circuits.Sinsemilla.HashToPoint +Zcash.Circuits.Sinsemilla.Merkle +Zcash.Circuits.Specs.Bitrange +Zcash.Circuits.Specs.Pallas +Zcash.Circuits.Specs.PallasCert +Zcash.Circuits.Specs.Sinsemilla +Zcash.Circuits.Specs.SinsemillaBreak +Zcash.Circuits.Specs.SinsemillaGenerators +Zcash.Circuits.Utilities.AddChip +Zcash.Circuits.Utilities.CondSwap +Zcash.Circuits.Utilities.DecomposeRunningSum +Zcash.Circuits.Utilities.LookupRangeCheck +Zcash.Circuits.Utilities.RunningSum +Zcash.Common.CPolynomial +Zcash.Common.DiscreteLogRelation +Zcash.Common.Expr +Zcash.Common.Oracle.Hybrid +Zcash.Common.Oracle.LabeledOracleComp +Zcash.Common.Oracle.Model +Zcash.Common.Oracle.MultiOracleComp +Zcash.Common.Oracle.OracleComp +Zcash.Common.Oracle.WithReads +Zcash.Common.ParMap +Zcash.Common.ProgrammedBasis +Zcash.Common.RelationProbability +Zcash.Common.RelationProbabilityCoins +Zcash.Common.RelationWitness +Zcash.Common.Satisfying +Zcash.Common.UniformMeasure +Zcash.Meta.AxiomCheck +Zcash.Meta.EndpointCensus +Zcash.Meta.LibrarySuggestionsDeny +Zcash.Meta.Tests.AxiomCheck +Zcash.Meta.Tests.CompiledOverride +Zcash.Meta.Tests.NativeSurface +Zcash.Security.BindingSignature.Balance +Zcash.Security.BindingSignature.DiscreteLog +Zcash.Security.BindingSignature.Orchard +Zcash.Security.BindingSignature.Sapling +Zcash.Security.Common.Birthday +Zcash.Security.Common.RandomOracle +Zcash.Security.Concrete.PallasGroup +Zcash.Security.GroupHash.Indiff +Zcash.Security.GroupHash.Pasta +Zcash.Security.GroupHash.Sampler +Zcash.Security.GroupHash.Simulator +Zcash.Security.GroupHash.TwoOracle +Zcash.Security.KeyBinding.Basic +Zcash.Security.KeyBinding.Instance +Zcash.Security.KeyBinding.Pool +Zcash.Security.KeyBinding.Probability +Zcash.Security.Ledger.ActionBundleBridge +Zcash.Security.Ledger.Balance +Zcash.Security.Ledger.Bridge +Zcash.Security.Ledger.Capstone +Zcash.Security.Ledger.Completeness +Zcash.Security.Ledger.ConservationExperiment +Zcash.Security.Ledger.Effects +Zcash.Security.Ledger.ExtractionArm +Zcash.Security.Ledger.ExtractionKnowledgeError +Zcash.Security.Ledger.IntegrityExperiment +Zcash.Security.Ledger.KeyBindingArm +Zcash.Security.Ledger.KeyBindingDLR +Zcash.Security.Ledger.Merkle +Zcash.Security.Ledger.MerkleDLR +Zcash.Security.Ledger.Model +Zcash.Security.Ledger.NoteCommitDLR +Zcash.Security.Ledger.Nullifier +Zcash.Security.Ledger.NullifierDLR +Zcash.Security.Ledger.OrchardCapstone +Zcash.Security.Ledger.OrchardExtractionExperiment +Zcash.Security.Ledger.OrchardIntegrityExperiment +Zcash.Security.Ledger.Pool +Zcash.Security.Ledger.SinsemillaDLR +Zcash.Security.Ledger.SpendAuthority +Zcash.Security.Ledger.Spendability +Zcash.Security.Ledger.Statement +Zcash.Security.Ledger.Value +Zcash.Security.Ledger.ValueRelationArm +Zcash.Security.RedDSA.Basic +Zcash.Security.RedDSA.Extraction +Zcash.Security.RedDSA.KnowledgeError +Zcash.Snark +Zcash.Snark.Capstones.Action +Zcash.Snark.Capstones.Action.Base +Zcash.Snark.Capstones.Action.Budgets +Zcash.Snark.Capstones.Action.Checks +Zcash.Snark.Contract.Action +Zcash.Snark.Contract.Knowledge +Zcash.Snark.Core +Zcash.Snark.Core.Challenges +Zcash.Snark.Core.ProofString +Zcash.Snark.Core.Shape +Zcash.Snark.Core.Vesta +Zcash.Snark.Fingerprint.Epsilon +Zcash.Snark.Fingerprint.Match +Zcash.Snark.Fingerprint.Rational.Capstone +Zcash.Snark.Fingerprint.Rational.ConstraintWalk +Zcash.Snark.Fingerprint.Rational.Family +Zcash.Snark.Fingerprint.Rational.GoodEvent +Zcash.Snark.Fingerprint.Rational.GroupingTable +Zcash.Snark.Fingerprint.Rational.IpaWalk +Zcash.Snark.Fingerprint.Rational.OpeningWalk +Zcash.Snark.Fingerprint.Rational.OtherCoefficients +Zcash.Snark.Fingerprint.Rational.Representation +Zcash.Snark.Fingerprint.SampleSpace +Zcash.Snark.Fingerprint.SchwartzZippel +Zcash.Snark.Fixtures.MultiAction.Honest.Boundary +Zcash.Snark.Fixtures.MultiAction.Honest.CapturedZeroFamily +Zcash.Snark.Fixtures.MultiAction.Honest.Degree +Zcash.Snark.Fixtures.MultiAction.Honest.Faithfulness +Zcash.Snark.Fixtures.MultiAction.Honest.FiatShamir +Zcash.Snark.Fixtures.MultiAction.Honest.Fixture +Zcash.Snark.Fixtures.MultiAction.Honest.Negative +Zcash.Snark.Fixtures.MultiAction.Honest.Negative.Sweep +Zcash.Snark.Fixtures.MultiAction.Honest.Schedule +Zcash.Snark.Fixtures.MultiAction.Honest.StaticChecks +Zcash.Snark.Fixtures.MultiAction.Honest.StraightLineKnowledgeError +Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary +Zcash.Snark.Fixtures.MultiAction.Honest.VkCertificate +Zcash.Snark.Fixtures.MultiAction.Random.Boundary +Zcash.Snark.Fixtures.MultiAction.Random.Epsilon +Zcash.Snark.Fixtures.MultiAction.Random.Faithfulness +Zcash.Snark.Fixtures.MultiAction.Random.FiatShamir +Zcash.Snark.Fixtures.MultiAction.Random.Fixture +Zcash.Snark.Fixtures.MultiAction.Random.Negative +Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary +Zcash.Snark.Fixtures.MultiAction.Random.VkCertificate +Zcash.Snark.Fixtures.PostNu63 +Zcash.Snark.Fixtures.PostNu63Random +Zcash.Snark.Fixtures.Shared.ScheduleMarker +Zcash.Snark.Fixtures.Shared.TamperSweep +Zcash.Snark.Fixtures.SingleAction.Honest.Boundary +Zcash.Snark.Fixtures.SingleAction.Honest.FiatShamir +Zcash.Snark.Fixtures.SingleAction.Honest.Fixture +Zcash.Snark.Fixtures.SingleAction.Honest.Negative +Zcash.Snark.Fixtures.SingleAction.Honest.Negative.Sweep +Zcash.Snark.Fixtures.SingleAction.Honest.StaticChecks +Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary +Zcash.Snark.Fixtures.SingleAction.Honest.VkMatch +Zcash.Snark.Fixtures.SingleAction.Random.Boundary +Zcash.Snark.Fixtures.SingleAction.Random.Epsilon +Zcash.Snark.Fixtures.SingleAction.Random.Faithfulness +Zcash.Snark.Fixtures.SingleAction.Random.FiatShamir +Zcash.Snark.Fixtures.SingleAction.Random.Fixture +Zcash.Snark.Fixtures.SingleAction.Random.Negative +Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary +Zcash.Snark.Fixtures.SingleAction.Random.VkCertificate +Zcash.Snark.Keygen.Certificate +Zcash.Snark.Keygen.Commitments +Zcash.Snark.Keygen.InstanceCapture +Zcash.Snark.Keygen.Lagrange +Zcash.Snark.Keygen.Pipeline +Zcash.Snark.Soundness.AGM.Adapter +Zcash.Snark.Soundness.AGM.AdaptiveDecode +Zcash.Snark.Soundness.AGM.AdaptiveIpaSurfaces +Zcash.Snark.Soundness.AGM.AdaptiveOnline +Zcash.Snark.Soundness.AGM.AdaptiveRootCore +Zcash.Snark.Soundness.AGM.AdaptiveRootSurfaces +Zcash.Snark.Soundness.AGM.AdaptiveSurfaces +Zcash.Snark.Soundness.AGM.AlgebraicUnbatch +Zcash.Snark.Soundness.AGM.CostedOracle +Zcash.Snark.Soundness.AGM.DecodeToOpened +Zcash.Snark.Soundness.AGM.DeployedConstraintSupply +Zcash.Snark.Soundness.AGM.DeployedMultiopen +Zcash.Snark.Soundness.AGM.DeployedPinnedRoots +Zcash.Snark.Soundness.AGM.DeployedRootDecode +Zcash.Snark.Soundness.AGM.DeployedRootSets +Zcash.Snark.Soundness.AGM.DeployedSyntheticOpened +Zcash.Snark.Soundness.AGM.DeployedValueUnbatch +Zcash.Snark.Soundness.AGM.DeployedX1 +Zcash.Snark.Soundness.AGM.DirectConstraintFamily +Zcash.Snark.Soundness.AGM.DirectX4Columns +Zcash.Snark.Soundness.AGM.ExecutableDeployedRoots +Zcash.Snark.Soundness.AGM.OnlineConstraint +Zcash.Snark.Soundness.AGM.OnlineMembers +Zcash.Snark.Soundness.AGM.OnlineMultiopen +Zcash.Snark.Soundness.AGM.Peel +Zcash.Snark.Soundness.AGM.PinnedRootWitness +Zcash.Snark.Soundness.AGM.ProbabilityVesta +Zcash.Snark.Soundness.AGM.ShiftRecovery +Zcash.Snark.Soundness.AGM.StraightLineFiniteSecurity +Zcash.Snark.Soundness.AGM.StraightLineIpa +Zcash.Snark.Soundness.AGM.StraightLineOrchardConsensusBounds +Zcash.Snark.Soundness.AGM.StraightLinePinnedRoots +Zcash.Snark.Soundness.AGM.SyntheticOpened +Zcash.Snark.Soundness.AGM.ValueUnbatch +Zcash.Snark.Soundness.AGM.ZeroFamily +Zcash.Snark.Soundness.AGM.ZeroFamilyRoots +Zcash.Snark.Soundness.Action.AdaptiveStatementAccounting +Zcash.Snark.Soundness.Action.AdaptiveStatementCached +Zcash.Snark.Soundness.Action.AdaptiveStatementComplete +Zcash.Snark.Soundness.Action.AdaptiveStatementCost +Zcash.Snark.Soundness.Action.AdaptiveStatementEvent +Zcash.Snark.Soundness.Action.AdaptiveStatementInhabitant +Zcash.Snark.Soundness.Action.AdaptiveStatementKnowledge +Zcash.Snark.Soundness.Action.AdaptiveStatementModel +Zcash.Snark.Soundness.Action.AdaptiveStatementProfile +Zcash.Snark.Soundness.Action.AdaptiveStatementProvenance +Zcash.Snark.Soundness.Action.AdaptiveStatementReads +Zcash.Snark.Soundness.Action.AdaptiveStatementSemantic +Zcash.Snark.Soundness.Action.AdaptiveStatementSurfaces +Zcash.Snark.Soundness.Action.AdaptiveStatementTerminal +Zcash.Snark.Soundness.Action.AdaptiveSurfaces +Zcash.Snark.Soundness.Action.AdaptiveTerminal +Zcash.Snark.Soundness.Action.DeploymentRecord +Zcash.Snark.Soundness.Action.StraightLineBudgets +Zcash.Snark.Soundness.Action.StraightLineEvent +Zcash.Snark.Soundness.Action.StraightLineTerminal +Zcash.Snark.Soundness.Argument.GrandProduct +Zcash.Snark.Soundness.Argument.GrandProductBridge +Zcash.Snark.Soundness.Argument.Lookup +Zcash.Snark.Soundness.Argument.LookupAssembly +Zcash.Snark.Soundness.Argument.Permutation +Zcash.Snark.Soundness.Argument.PermutationConstruction +Zcash.Snark.Soundness.Argument.PermutationRows +Zcash.Snark.Soundness.Argument.RunningProduct +Zcash.Snark.Soundness.Canonical.ConstraintModel +Zcash.Snark.Soundness.Canonical.ConstraintSatisfaction +Zcash.Snark.Soundness.Canonical.DomainSelectors +Zcash.Snark.Soundness.Canonical.InstanceCommitment +Zcash.Snark.Soundness.Canonical.LookupInstantiation +Zcash.Snark.Soundness.Canonical.LookupRows +Zcash.Snark.Soundness.Canonical.LookupSemantics +Zcash.Snark.Soundness.Canonical.PermutationInstantiation +Zcash.Snark.Soundness.Canonical.PermutationSemantics +Zcash.Snark.Soundness.Canonical.PolynomialEnvironment +Zcash.Snark.Soundness.Canonical.Terminal +Zcash.Snark.Soundness.Circuit.Terminal +Zcash.Snark.Soundness.Composition.ActionBudget +Zcash.Snark.Soundness.Composition.AlgebraicRootBudget +Zcash.Snark.Soundness.Composition.AssembleGroupCost +Zcash.Snark.Soundness.Composition.Bridge +Zcash.Snark.Soundness.Composition.ChallengeReads +Zcash.Snark.Soundness.Composition.DeployedAcceptance +Zcash.Snark.Soundness.Composition.DeployedConstraintContainment +Zcash.Snark.Soundness.Composition.DeployedRootContainment +Zcash.Snark.Soundness.Composition.DeployedRuntime +Zcash.Snark.Soundness.Composition.DirectPathCost +Zcash.Snark.Soundness.Composition.OrchardConsensusBounds +Zcash.Snark.Soundness.Composition.PrefixedSqueeze +Zcash.Snark.Soundness.Composition.Quotient +Zcash.Snark.Soundness.Composition.ScheduleBudget +Zcash.Snark.Soundness.Composition.SemanticChallengeRemainder +Zcash.Snark.Soundness.Composition.SequentialLift +Zcash.Snark.Soundness.Composition.StraightLineConstraint +Zcash.Snark.Soundness.Composition.StraightLineDecodeSupply +Zcash.Snark.Soundness.Composition.StraightLineDeployed +Zcash.Snark.Soundness.Composition.StraightLineWitness +Zcash.Snark.Soundness.Composition.ZeroBasisAcceptance +Zcash.Snark.Soundness.Composition.ZeroStraightLine +Zcash.Snark.Soundness.Constraint.ConstraintCore +Zcash.Snark.Soundness.Constraint.ConstraintRouting +Zcash.Snark.Soundness.Constraint.Constraints +Zcash.Snark.Soundness.Constraint.FoldSplit +Zcash.Snark.Soundness.Constraint.VanishingSlotFold +Zcash.Snark.Soundness.Decoded.VacuityWitness +Zcash.Snark.Soundness.Decoded.Vesta +Zcash.Snark.Soundness.Deployed.Binding +Zcash.Snark.Soundness.Deployed.Fold +Zcash.Snark.Soundness.Deployed.Verification +Zcash.Snark.Soundness.FiatShamir.ActionCount +Zcash.Snark.Soundness.FiatShamir.Adversary +Zcash.Snark.Soundness.FiatShamir.Adversary.Adaptive +Zcash.Snark.Soundness.FiatShamir.Adversary.Algebraic +Zcash.Snark.Soundness.FiatShamir.Adversary.DomainReduction +Zcash.Snark.Soundness.FiatShamir.Adversary.PreIpa +Zcash.Snark.Soundness.FiatShamir.Adversary.Provenance +Zcash.Snark.Soundness.FiatShamir.Assembly +Zcash.Snark.Soundness.FiatShamir.Execution +Zcash.Snark.Soundness.FiatShamir.Ordering +Zcash.Snark.Soundness.FiatShamir.PinnedRoots +Zcash.Snark.Soundness.FiatShamir.PinnedSqueeze +Zcash.Snark.Soundness.Ipa.CommitFold +Zcash.Snark.Soundness.Ipa.Consistency +Zcash.Snark.Soundness.Ipa.Halves +Zcash.Snark.Soundness.Ipa.InnerProduct +Zcash.Snark.Soundness.Ipa.IpaSoundness +Zcash.Snark.Soundness.Main +Zcash.Snark.Soundness.Multiopen.CanonicalRelation +Zcash.Snark.Soundness.Multiopen.Compat +Zcash.Snark.Soundness.Multiopen.ConstraintResolver +Zcash.Snark.Soundness.Multiopen.Decode +Zcash.Snark.Soundness.Multiopen.Deployed +Zcash.Snark.Soundness.Multiopen.NodeBinding +Zcash.Snark.Soundness.Multiopen.Opened +Zcash.Snark.Soundness.Multiopen.RPoly +Zcash.Snark.Soundness.Multiopen.ValueCheck +Zcash.Snark.Soundness.Multiopen.ValueCheckDeployed +Zcash.Snark.Soundness.Multiopen.ZeroData +Zcash.Snark.Soundness.Oracle.Challenge255 +Zcash.Snark.Soundness.Oracle.ChallengeUniform +Zcash.Snark.Soundness.Pricing.ChallengePricing +Zcash.Snark.Soundness.Pricing.DegreeWalk +Zcash.Snark.Soundness.Pricing.GoodChallenge +Zcash.Snark.Soundness.Relation.ConstraintRelations +Zcash.Snark.Soundness.Relation.KnowledgeSoundness +Zcash.Snark.Soundness.StraightLine.Event +Zcash.Snark.Soundness.StraightLine.Terminal +Zcash.Snark.Verifier.Assemble +Zcash.Snark.Verifier.AssembleSpec +Zcash.Snark.Verifier.Checks +Zcash.Snark.Verifier.Circuit +Zcash.Snark.Verifier.ConstraintSystem +Zcash.Snark.Verifier.Deployed +Zcash.Snark.Verifier.Expressions +Zcash.Snark.Verifier.FiatShamir +Zcash.Snark.Verifier.GroupingRef +Zcash.Snark.Verifier.Instances +Zcash.Snark.Verifier.Ipa +Zcash.Snark.Verifier.Key +Zcash.Snark.Verifier.OrchardShape +Zcash.Snark.Verifier.Parametric +Zcash.Snark.Verifier.Queries +Zcash.Snark.Verifier.QueryCommitment +Zcash.TrustBoundary
+✔ [2191/2336] Built Zcash.Arithmetic.NatKernel (250ms)
+✔ [2413/2540] Built Zcash.Arithmetic.Group (543ms)
+✔ [2420/2562] Built Zcash.Common.ParMap (1.2s)
+✔ [2434/2563] Built Zcash.Arithmetic.Msm (1.4s)
+✔ [2436/2563] Built Zcash.Arithmetic.Field (2.2s)
+✔ [2437/2565] Built Zcash.Circuits.Specs.Bitrange (2.3s)
+✔ [2438/2565] Built Zcash.Circuits.Sinsemilla.HVec (2.3s)
+✔ [2440/2565] Built Zcash.Arithmetic.NatKernelEquiv (2.8s)
+✔ [2442/2568] Built Zcash.Snark.Core.Shape (1.5s)
+✔ [2443/2568] Built Zcash.Snark.Core.Challenges (1.7s)
+✔ [2444/2580] Built Zcash.Arithmetic.FastMsm (1.6s)
+✔ [2445/2600] Built Zcash.Arithmetic.VestaModule (1.4s)
+✔ [2473/2657] Built Zcash.Snark.Core.ProofString (1.1s)
+✔ [2677/2832] Built Zcash.Arithmetic (1.8s)
+✔ [2682/2832] Built Zcash.Circuits.Specs.Pallas (4.9s)
+✔ [2683/2832] Built Zcash.Common.Expr (1.7s)
+✔ [2684/2832] Built Zcash.Arithmetic.Domain (3.6s)
+✔ [2687/2836] Built Zcash.Snark.Verifier.Ipa (1.9s)
+✔ [2688/2836] Built Zcash.Snark.Soundness.Ipa.InnerProduct (2.1s)
+✔ [2689/2836] Built Zcash.Circuits.Integration.CircuitSatisfaction (2.2s)
+✔ [2690/2836] Built Zcash.Snark.Verifier.Checks (1.9s)
+✔ [2691/2836] Built Zcash.Common.DiscreteLogRelation (3.7s)
+✔ [2692/2836] Built Zcash.Circuits.Specs.PallasCert (2.2s)
+✔ [2693/2836] Built Zcash.Circuits.Utilities.RunningSum (1.9s)
+✔ [2694/2841] Built Zcash.Common.CPolynomial (3.0s)
+✔ [2698/2841] Built Zcash.Circuits.Ecc.Defs (2.8s)
+✔ [2699/2841] Built Zcash.Circuits.Ecc.DoubleAndAdd (3.1s)
+✔ [2700/2841] Built Zcash.Circuits.Specs.Sinsemilla (3.6s)
+✔ [2701/2841] Built Zcash.Snark.Verifier.Expressions (2.9s)
+✔ [2706/2841] Built Zcash.Circuits.Integration.ExprRich (2.1s)
+✔ [2707/2841] Built Zcash.Snark.Verifier.Queries (1.9s)
+✔ [2708/2841] Built Zcash.Arithmetic.Fft (2.4s)
+✔ [2709/2841] Built Zcash.Snark.Soundness.Ipa.CommitFold (1.6s)
+✔ [2710/2841] Built Zcash.Arithmetic.LagrangeBasis (2.1s)
+✔ [2711/2841] Built Zcash.Circuits.Ecc.Basic (2.2s)
+✔ [2712/2841] Built Zcash.Snark.Soundness.Argument.GrandProduct (2.9s)
+✔ [2713/2841] Built Zcash.Circuits.Ecc.MulOverflowTheorems (2.2s)
+✔ [2714/2844] Built Zcash.Circuits.Ecc.AddIncompleteTheorems (2.9s)
+✔ [2716/2844] Built Zcash.Circuits.Ecc.MulFixed.Theorems (2.0s)
+✔ [2717/2844] Built Zcash.Circuits.Ecc.AddTheorems (3.7s)
+✔ [2718/2844] Built Zcash.Circuits.Ecc.MulTheorems (2.2s)
+✔ [2719/2844] Built Zcash.Snark.Verifier.Key (1.6s)
+✔ [2720/2844] Built Zcash.Snark.Keygen.Commitments (2.0s)
+✔ [2721/2844] Built Zcash.Circuits.Specs.SinsemillaBreak (3.0s)
+✔ [2722/2844] Built Zcash.Circuits.Ecc.MulIncompleteTheorems (4.9s)
+✔ [2723/2844] Built Zcash.Arithmetic.FftSpec (5.1s)
+✔ [2724/2844] Built Zcash.Circuits.CommitIvk.Gate (3.5s)
+✔ [2725/2844] Built Zcash.Circuits.Ecc.AddIncomplete (5.8s)
+✔ [2726/2844] Built Zcash.Circuits.Ecc.WitnessPoint (6.1s)
+✔ [2727/2844] Built Zcash.Snark.Soundness.Argument.Lookup (1.7s)
+✔ [2728/2847] Built Zcash.Circuits.NoteCommit.Gates (7.0s)
+✔ [2731/2847] Built Zcash.Snark.Soundness.Argument.Permutation (2.4s)
+✔ [2732/2847] Built Zcash.Circuits.Utilities.AddChip (6.6s)
+✔ [2733/2847] Built Zcash.Snark.Soundness.Argument.RunningProduct (2.4s)
+✔ [2734/2847] Built Zcash.Circuits.Utilities.CondSwap (8.1s)
+✔ [2735/2847] Built Zcash.Circuits.Ecc.MulFixed.ShortTheorems (3.8s)
+✔ [2736/2847] Built Zcash.Snark.Verifier.ConstraintSystem (2.1s)
+✔ [2737/2847] Built Zcash.Circuits.Utilities.DecomposeRunningSum (7.6s)
+✔ [2738/2847] Built Zcash.Circuits.Ecc.MulFixed.BaseFieldElemTheorems (4.0s)
+✔ [2741/2847] Built Zcash.Snark.Soundness.Argument.PermutationConstruction (2.6s)
+✔ [2742/2847] Built Zcash.Arithmetic.InvDft (3.1s)
+✔ [2745/2849] Built Zcash.Circuits.Ecc.MulCompleteTheorems (3.9s)
+✔ [2749/2850] Built Zcash.Circuits.Integration.VerifierCS (1.8s)
+✔ [2754/2855] Built Zcash.Snark.Verifier.Assemble (6.0s)
+✔ [2759/2855] Built Zcash.Arithmetic.ScalarInvDft (1.7s)
+✔ [2762/2856] Built Zcash.Circuits.Ecc.MulFixed.CertCheck (4.9s)
+✔ [2764/2856] Built Zcash.Snark.Verifier.Circuit (1.4s)
+✔ [2765/2856] Built Zcash.Arithmetic.CommitLagrange (1.6s)
+✔ [2766/2856] Built Zcash.Snark.Soundness.Constraint.Constraints (2.9s)
+✔ [2767/2856] Built Zcash.Circuits.Ecc.MulAssignTheorems (4.3s)
+✔ [2768/2856] Built Zcash.Circuits.Specs.SinsemillaGenerators (3.2s)
+✔ [2769/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitV (2.9s)
+✔ [2770/2856] Built Zcash.Circuits.Ecc.Add (15s)
+✔ [2773/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.NoteCommitR (8.3s)
+✔ [2774/2856] Built Zcash.Snark.Keygen.Pipeline (2.0s)
+✔ [2775/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.CommitIvkR (8.0s)
+✔ [2776/2856] Built Zcash.Circuits.Utilities.LookupRangeCheck (23s)
+✔ [2777/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitR (8.1s)
+✔ [2778/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.SpendAuthG (8.1s)
+✔ [2779/2856] Built Zcash.Circuits.Ecc.MulFixed.Certs.NullifierK (8.1s)
+✔ [2780/2856] Built Zcash.Snark.Soundness.Relation.KnowledgeSoundness (1.0s)
+✔ [2781/2857] Built Zcash.Snark.Soundness.Argument.GrandProductBridge (2.5s)
+✔ [2783/2857] Built Zcash.Snark.Soundness.Constraint.FoldSplit (2.3s)
+✔ [2785/2857] Built Zcash.Circuits.Sinsemilla.ChipTheorems (2.1s)
+✔ [2786/2859] Built Zcash.Circuits.Poseidon.Constants (2.5s)
+✔ [2787/2859] Built Zcash.Snark.Soundness.Canonical.ConstraintSatisfaction (2.9s)
+✔ [2788/2862] Built Zcash.Snark.Soundness.Argument.PermutationRows (5.4s)
+✔ [2790/2864] Built Zcash.Circuits.Ecc.MulFixed (7.0s)
+✔ [2791/2867] Built Zcash.Circuits.Sinsemilla.ChainTheorems (5.4s)
+✔ [2794/2867] Built Zcash.Circuits.Poseidon.Pow5Theorems (3.7s)
+✔ [2795/2867] Built Zcash.Circuits.Ecc.MulIncompleteRound (9.9s)
+✔ [2796/2867] Built Zcash.Circuits.Integration.OperationGates (2.1s)
+✔ [2797/2868] Built Zcash.Circuits.NoteCommit.CanonicityTheorems (10s)
+✔ [2798/2868] Built Zcash.Snark.Soundness.Argument.LookupAssembly (3.6s)
+✔ [2799/2871] Built Zcash.Circuits.Ecc.MulOverflow (10s)
+✔ [2803/2871] Built Zcash.Circuits.Sinsemilla.CommitDomainTheorems (2.7s)
+✔ [2804/2871] Built Zcash.Circuits.CommitIvk.ChunkTheorems (4.6s)
+✔ [2805/2871] Built Zcash.Circuits.Poseidon.SpongeTheorems (2.9s)
+✔ [2806/2871] Built Zcash.Circuits.Sinsemilla.Basic (3.9s)
+✔ [2807/2871] Built Zcash.Circuits.NoteCommit.DecomposeTheorems (3.1s)
+✔ [2811/2871] Built Zcash.Circuits.CommitIvk.GateTheorems (5.7s)
+✔ [2812/2871] Built Zcash.Circuits.Poseidon.HashTheorems (2.1s)
+✔ [2813/2871] Built Zcash.Circuits.Ecc.MulFixed.Short (17s)
+✔ [2814/2872] Built Zcash.Circuits.Sinsemilla.HashPieceRound (8.4s)
+✔ [2816/2872] Built Zcash.Circuits.Ecc.MulFixed.BaseFieldElem (20s)
+✔ [2817/2872] Built Zcash.Circuits.Ecc.MulFixed.FullWidth (20s)
+✔ [2818/2872] Built Zcash.Circuits.NoteCommit.Canonicity (16s)
+✔ [2819/2873] Built Zcash.Circuits.Ecc.MulIncomplete (18s)
+✔ [2822/2873] Built Zcash.Circuits.CommitIvk.Bundle (6.4s)
+✔ [2823/2873] Built Zcash.Circuits.NoteCommit.MainTheorems (14s)
+✔ [2824/2873] Built Zcash.Circuits.Poseidon.Pow5 (4.4s)
+✔ [2825/2873] Built Zcash.Circuits.Action.SpendAuthority (3.9s)
+✔ [2826/2874] Built Zcash.Circuits.CommitIvk.MainTheorems (8.1s)
+✔ [2829/2875] Built Zcash.Circuits.Action.ValueCommit (4.8s)
+✔ [2830/2881] Built Zcash.Circuits.NoteCommit.Decompose (15s)
+✔ [3038/3088] Built Zcash.Circuits.CommitIvk.Composite (8.8s)
+✔ [3041/3088] Built Zcash.Common.RelationWitness (478ms)
+✔ [3042/3088] Built Zcash.Circuits.NoteCommit.YComposite (11s)
+✔ [3043/3089] Built Zcash.Snark.Soundness.Oracle.ChallengeUniform (1.7s)
+✔ [3044/3091] Built Zcash.Common.Oracle.Model (2.2s)
+✔ [3045/3095] Built Zcash.Snark.Verifier.AssembleSpec (1.6s)
+✔ [3046/3096] Built Zcash.Circuits.Poseidon.Rounds (10s)
+✔ [3047/3096] Built Zcash.Circuits.Sinsemilla.HashPiece (19s)
+✔ [3048/3096] Built Zcash.Snark.Soundness.Ipa.Halves (1.2s)
+✔ [3049/3096] Built Zcash.Snark.Soundness.Pricing.GoodChallenge (2.3s)
+✔ [3050/3103] Built Zcash.Circuits.NoteCommit.Composites (16s)
+✔ [3051/3109] Built Zcash.Snark.Soundness.Ipa.Consistency (1.6s)
+✔ [3054/3109] Built Zcash.Snark.Soundness.Ipa.IpaSoundness (1.7s)
+✔ [3055/3112] Built Zcash.Circuits.Ecc.MulComplete (17s)
+✔ [3056/3112] Built Zcash.Snark.Verifier.QueryCommitment (2.6s)
+✔ [3057/3112] Built Zcash.Circuits.Poseidon.Permute (5.7s)
+✔ [3058/3112] Built Zcash.Common.UniformMeasure (2.4s)
+✔ [3059/3116] Built Zcash.Snark.Soundness.Multiopen.Decode (2.3s)
+✔ [3060/3116] Built Zcash.Snark.Soundness.Canonical.LookupRows (4.0s)
+✔ [3061/3116] Built Zcash.Snark.Soundness.Deployed.Fold (1.9s)
+✔ [3062/3117] Built Zcash.Snark.Soundness.Canonical.PolynomialEnvironment (2.3s)
+✔ [3063/3118] Built Zcash.Circuits.Integration.OperationLookups (3.5s)
+✔ [3064/3118] Built Zcash.Snark.Soundness.Deployed.Verification (2.6s)
+✔ [3065/3120] Built Zcash.Snark.Verifier.FiatShamir (18s)
+✔ [3066/3120] Built Zcash.Circuits.Integration.PolynomialEnvironment (2.7s)
+✔ [3067/3120] Built Zcash.Snark.Soundness.Main (2.2s)
+✔ [3068/3126] Built Zcash.Circuits.Integration.TopLevelCoherence (2.7s)
+✔ [3069/3126] Built Zcash.Snark.Soundness.Canonical.DomainSelectors (2.9s)
+✔ [3070/3126] Built Zcash.Snark.Soundness.Multiopen.Compat (2.4s)
+✔ [3071/3128] Built Zcash.Circuits.Integration.ListChunks (2.4s)
+✔ [3072/3131] Built Zcash.Circuits.Integration.TopLevelAssignment (2.8s)
+✔ [3073/3133] Built Zcash.Circuits.Sinsemilla.Chain (15s)
+✔ [3074/3136] Built Zcash.Snark.Soundness.Deployed.Binding (1.5s)
+✔ [3075/3136] Built Zcash.Circuits.Integration.OperationFixed (2.1s)
+✔ [3078/3151] Built Zcash.Circuits.Integration.FixedLayout (2.1s)
+✔ [3079/3161] Built Zcash.Common.Satisfying (202ms)
+✔ [3080/3163] Built Zcash.Snark.Soundness.Canonical.InstanceCommitment (3.6s)
+✔ [3081/3163] Built Zcash.Snark.Keygen.Lagrange (2.4s)
+✔ [3082/3165] Built Zcash.Common.Oracle.MultiOracleComp (2.0s)
+✔ [3083/3166] Built Zcash.Circuits.Poseidon.Hash (18s)
+✔ [3084/3168] Built Zcash.Snark.Soundness.Multiopen.Deployed (10s)
+✔ [3085/3168] Built Zcash.Common.ProgrammedBasis (1.7s)
+✔ [3086/3169] Built Zcash.Snark.Soundness.Multiopen.RPoly (2.5s)
+✔ [3087/3170] Built Zcash.Circuits.Sinsemilla.HashToPoint (11s)
+✔ [3088/3170] Built Zcash.Meta.EndpointCensus (391ms)
+✔ [3089/3170] Built Zcash.Circuits.Action.DeriveNullifier (4.9s)
+✔ [3090/3170] Built Zcash.Snark.Verifier.Parametric (19s)
+✔ [3091/3170] Built Zcash.Snark.Soundness.Multiopen.Opened (3.6s)
+✔ [3092/3173] Built Zcash.Snark.Soundness.Multiopen.ValueCheck (1.0s)
+✔ [3094/3174] Built Zcash.Meta.LibrarySuggestionsDeny (744ms)
+✔ [3095/3174] Built Zcash.Common.RelationProbability (2.7s)
+✔ [3096/3176] Built Zcash.Meta.AxiomCheck (990ms)
+✔ [3098/3176] Built Zcash.Snark.Soundness.Multiopen.ValueCheckDeployed (1.0s)
+✔ [3100/3176] Built Zcash.Snark.Soundness.Canonical.LookupInstantiation (2.0s)
+✔ [3101/3176] Built Zcash.Common.RelationProbabilityCoins (2.0s)
+✖ [3102/3176] Building Zcash.Meta.Tests.NativeSurface (918ms)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Meta/Tests/NativeSurface.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Meta/Tests/NativeSurface.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Meta/Tests/NativeSurface.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Meta/Tests/NativeSurface.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Meta/Tests/NativeSurface.setup.json --json
+error: Zcash/Meta/Tests/NativeSurface.lean:31:0: Zcash.Meta.Tests.NativeSurface.honestMatch reaches no native_decide axiom; drop the '+native(...)' flag
+info: Zcash/Meta/Tests/NativeSurface.lean:46:57: kernel-first: native_decide used compiled evaluation: blocked: reaches `Zcash.Meta.Tests.NativeSurface.capturedPartial` (no kernel definition)
+error: Zcash/Meta/Tests/NativeSurface.lean:73:0: Zcash.Meta.Tests.NativeSurface.sealedMatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/NativeSurface.lean:104:0: Zcash.Meta.Tests.NativeSurface.csimpCert reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/NativeSurface.lean:103:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- error: Zcash.Meta.Tests.NativeSurface.csimpCert: the native_decide certificate evaluated the `partial` declaration(s) [Zcash.Meta.Tests.NativeSurface.hiddenBehindCsimp], whose compiled body is an unsafe implementation the kernel never sees and whose kernel constant has no body at all. Nothing relates what ran to what the certificate says. Give the evaluated data an ordinary `def`.
++ error: Zcash.Meta.Tests.NativeSurface.csimpCert reaches no native_decide axiom; drop the '+native(...)' flag
+error: Lean exited with code 1
+✔ [3103/3176] Built Zcash.Security.BindingSignature.Balance (2.3s)
+✔ [3104/3177] Built Zcash.Circuits.Sinsemilla.CommitDomain (5.1s)
+ℹ [3105/3177] Built Zcash.Meta.Tests.CompiledOverride (1.1s)
+info: Zcash/Meta/Tests/CompiledOverride.lean:67:55: kernel-first: native_decide used compiled evaluation: the kernel does not reduce the decision procedure to `true`: (kernel) application type mismatch
+✔ [3106/3177] Built Zcash.Snark.Soundness.Multiopen.NodeBinding (2.8s)
+✖ [3107/3177] Building Zcash.Meta.Tests.AxiomCheck (1.2s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Meta/Tests/AxiomCheck.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Meta/Tests/AxiomCheck.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Meta/Tests/AxiomCheck.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Meta/Tests/AxiomCheck.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Meta/Tests/AxiomCheck.setup.json --json
+error: Zcash/Meta/Tests/AxiomCheck.lean:20:0: Zcash.Meta.Tests.AxiomCheck.Genuine.owner reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:39:0: Zcash.Meta.Tests.AxiomCheck.GenuineAutoParam.owner reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:120:0: Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:119:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- error: Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target: '+native' names [Zcash.Meta.Tests.AxiomCheck.SecondCertificate.first] but the native_decide axiom(s) present are owned by [Zcash.Meta.Tests.AxiomCheck.SecondCertificate.first, Zcash.Meta.Tests.AxiomCheck.SecondCertificate.second]; write '+native(Zcash.Meta.Tests.AxiomCheck.SecondCertificate.first, Zcash.Meta.Tests.AxiomCheck.SecondCertificate.second)'
++ error: Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:123:0: Zcash.Meta.Tests.AxiomCheck.SecondCertificate.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:151:0: Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:150:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- error: Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target: '+native' names [Zcash.Meta.Tests.AxiomCheck.AliasedOwner.owner] but the native_decide axiom(s) present are owned by [Zcash.Meta.Tests.AxiomCheck.AliasedOwner.owner, Zcash.Meta.Tests.AxiomCheck.AliasedOwner.owner.native_decide.smuggled]; write '+native(Zcash.Meta.Tests.AxiomCheck.AliasedOwner.owner, Zcash.Meta.Tests.AxiomCheck.AliasedOwner.owner.native_decide.smuggled)'
++ error: Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Meta/Tests/AxiomCheck.lean:156:0: Zcash.Meta.Tests.AxiomCheck.AliasedOwner.target reaches no native_decide axiom; drop the '+native(...)' flag
+error: Lean exited with code 1
+✔ [3108/3182] Built Zcash.Snark.Soundness.Canonical.LookupSemantics (2.5s)
+✔ [3110/3183] Built Zcash.Security.BindingSignature.Orchard (2.3s)
+✔ [3111/3183] Built Zcash.Security.BindingSignature.Sapling (2.7s)
+✔ [3112/3183] Built Zcash.Security.Common.RandomOracle (2.3s)
+✔ [3113/3183] Built Zcash.Snark.Soundness.Multiopen.ConstraintResolver (5.3s)
+✔ [3114/3183] Built Zcash.Security.Common.Birthday (1.4s)
+✔ [3115/3183] Built Zcash.Security.BindingSignature.DiscreteLog (2.2s)
+✔ [3158/3271] Built Zcash.Security.Concrete.PallasGroup (3.1s)
+✔ [3610/3694] Built Zcash.Security.KeyBinding.Basic (2.9s)
+✔ [3616/3698] Built Zcash.Snark.Soundness.Canonical.PermutationInstantiation (4.5s)
+✔ [3618/3698] Built Zcash.Security.Ledger.Merkle (3.3s)
+✔ [3620/3698] Built Zcash.Security.RedDSA.Basic (1.4s)
+✔ [3621/3698] Built Zcash.Circuits.Integration.ResolverQueryEnvironment (2.5s)
+✔ [3622/3698] Built Zcash.Security.Ledger.Statement (2.0s)
+✔ [3623/3698] Built Zcash.Snark.Soundness.Canonical.PermutationSemantics (3.4s)
+✔ [3624/3698] Built Zcash.Circuits.Integration.LookupProjection (2.6s)
+✔ [3625/3698] Built Zcash.Security.GroupHash.Sampler (3.4s)
+✔ [3626/3698] Built Zcash.Circuits.Integration.PermutationCompiler (2.7s)
+✔ [3627/3698] Built Zcash.Circuits.NoteCommit.Main (18s)
+✔ [3628/3698] Built Zcash.Security.KeyBinding.Pool (1.2s)
+✔ [3629/3698] Built Zcash.Circuits.Integration.ResolverGates (2.6s)
+✔ [3630/3698] Built Zcash.Circuits.Integration.OperationCopies (2.5s)
+✔ [3631/3698] Built Zcash.Snark.Soundness.Canonical.ConstraintModel (2.7s)
+✔ [3632/3698] Built Zcash.Snark.Soundness.Pricing.ChallengePricing (4.8s)
+✔ [3633/3698] Built Zcash.Security.GroupHash.Simulator (2.9s)
+✔ [3634/3698] Built Zcash.Circuits.Action.Shape.PlannerSort (151s)
+✔ [3635/3698] Built Zcash.Security.Ledger.Pool (2.3s)
+✔ [3636/3698] Built Zcash.Circuits.Integration.SelectorCoherence (2.9s)
+✔ [3637/3698] Built Zcash.Circuits.Integration.CircuitIntegration (2.4s)
+✔ [3638/3698] Built Zcash.Circuits.CommitIvk.Main (6.4s)
+✔ [3639/3698] Built Zcash.Circuits.Integration.TopLevelConstraintModel (2.2s)
+✔ [3640/3700] Built Zcash.Snark.Soundness.Multiopen.CanonicalRelation (2.0s)
+✔ [3641/3700] Built Zcash.Security.GroupHash.Pasta (2.3s)
+✔ [3642/3700] Built Zcash.Snark.Soundness.FiatShamir.Ordering (44s)
+✔ [3643/3700] Built Zcash.Circuits.Integration.TopLevelCircuit (2.0s)
+✔ [3644/3702] Built Zcash.Circuits.Integration.TopLevelGates (2.2s)
+✔ [3645/3702] Built Zcash.Circuits.Integration.InstanceColumns (2.4s)
+✔ [3646/3704] Built Zcash.Circuits.CommitIvk.MainBundle (3.3s)
+✔ [3647/3704] Built Zcash.Snark.Core.Vesta (1.5s)
+✔ [3648/3707] Built Zcash.Circuits.Ecc.Mul (61s)
+✔ [3649/3707] Built Zcash.Snark.Soundness.FiatShamir.Execution (1.8s)
+✔ [3650/3707] Built Zcash.Circuits.Integration.FixedColumns (3.0s)
+✔ [3651/3707] Built Zcash.Snark.Soundness.AGM.Adapter (1.5s)
+✔ [3652/3707] Built Zcash.Snark.Soundness.Decoded.Vesta (2.0s)
+✔ [3653/3713] Built Zcash.Circuits.Integration.TopLevelLookups (4.2s)
+✔ [3654/3713] Built Zcash.Circuits.NoteCommit.MainBundle (14s)
+✔ [3655/3713] Built Zcash.Snark.Soundness.AGM.ProbabilityVesta (2.5s)
+✔ [3656/3716] Built Zcash.Circuits.Integration.PermutationColumns (3.2s)
+✔ [3657/3716] Built Zcash.Common.Oracle.OracleComp (3.9s)
+✔ [3658/3716] Built Zcash.Circuits.Action.AddressIntegrity (4.9s)
+✔ [3659/3716] Built Zcash.Snark.Soundness.AGM.Peel (1.4s)
+✔ [3660/3716] Built Zcash.Circuits.Integration.TopLevelBridge (1.7s)
+✔ [3661/3716] Built Zcash.Circuits.Integration.LookupSelectorRows (2.2s)
+✔ [3662/3716] Built Zcash.Snark.Verifier.Instances (1.6s)
+✔ [3663/3716] Built Zcash.Snark.Soundness.FiatShamir.Adversary.Adaptive (2.2s)
+✔ [3664/3716] Built Zcash.Common.Oracle.WithReads (2.1s)
+✔ [3665/3716] Built Zcash.Common.Oracle.LabeledOracleComp (2.3s)
+✔ [3666/3716] Built Zcash.Common.Oracle.Hybrid (2.3s)
+✔ [3667/3716] Built Zcash.Security.KeyBinding.Probability (3.5s)
+✔ [3668/3716] Built Zcash.Circuits.Integration.PermutationReplay (4.0s)
+✔ [3669/3716] Built Zcash.Snark.Verifier.Deployed (1.5s)
+✔ [3670/3716] Built Zcash.Circuits.Integration.TopLevelCorrectness (2.0s)
+✔ [3671/3725] Built Zcash.Snark.Soundness.FiatShamir.Adversary.DomainReduction (1.9s)
+✔ [3672/3726] Built Zcash.Security.KeyBinding.Instance (1.7s)
+✔ [3673/3726] Built Zcash.Security.GroupHash.Indiff (2.5s)
+✔ [3674/3733] Built Zcash.Circuits.Integration.CopyListMembership (2.6s)
+✔ [3675/3737] Built Zcash.Circuits.Integration.TopLevelInstanceCommitment (2.5s)
+✔ [3676/3737] Built Zcash.Snark.Soundness.Composition.ActionBudget (2.6s)
+✔ [3677/3741] Built Zcash.Snark.Soundness.AGM.ShiftRecovery (2.5s)
+✔ [3678/3747] Built Zcash.Security.GroupHash.TwoOracle (2.4s)
+✔ [3679/3747] Built Zcash.Snark.Soundness.FiatShamir.Adversary.PreIpa (5.8s)
+✔ [3680/3747] Built Zcash.Snark.Soundness.FiatShamir.PinnedSqueeze (2.2s)
+✔ [3681/3770] Built Zcash.Snark.Soundness.FiatShamir.Assembly (2.2s)
+✔ [3682/3781] Built Zcash.Snark.Soundness.Composition.AlgebraicRootBudget (1.8s)
+✔ [3683/3783] Built Zcash.Circuits.Ecc.Chip (15s)
+✔ [3684/3783] Built Zcash.Snark.Soundness.Constraint.ConstraintCore (1.9s)
+✔ [3685/3792] Built Zcash.Snark.Soundness.FiatShamir.PinnedRoots (1.8s)
+✔ [3686/3793] Built Zcash.Security.Ledger.Model (1.4s)
+✔ [3687/3794] Built Zcash.Snark.Soundness.Composition.ChallengeReads (2.0s)
+✔ [3688/3802] Built Zcash.Snark.Soundness.Composition.Quotient (2.4s)
+✔ [3689/3814] Built Zcash.Security.Ledger.Effects (1.3s)
+✔ [3690/3814] Built Zcash.Security.RedDSA.Extraction (1.7s)
+✔ [3691/3814] Built Zcash.Snark.Core (1.1s)
+✔ [3695/3822] Built Zcash.Snark.Soundness.Constraint.ConstraintRouting (2.3s)
+✔ [3696/3822] Built Zcash.Security.Ledger.SpendAuthority (1.8s)
+✔ [3697/3822] Built Zcash.Snark.Soundness.Constraint.VanishingSlotFold (2.4s)
+✔ [3698/3826] Built Zcash.Snark.Soundness.FiatShamir.Adversary.Algebraic (4.1s)
+✔ [3699/3826] Built Zcash.Snark.Fingerprint.SchwartzZippel (1.7s)
+✔ [3700/3826] Built Zcash.Snark.Soundness.Pricing.DegreeWalk (2.5s)
+✔ [3701/3833] Built Zcash.Snark.Verifier.GroupingRef (2.9s)
+✔ [3702/3833] Built Zcash.Snark.Soundness.Composition.AssembleGroupCost (2.6s)
+✔ [3704/3833] Built Zcash.Snark.Soundness.FiatShamir.Adversary.Provenance (2.4s)
+✔ [3705/3833] Built Zcash.Snark.Soundness.Canonical.Terminal (3.3s)
+✔ [3706/3833] Built Zcash.Security.Ledger.Balance (3.6s)
+✔ [3707/3833] Built Zcash.Snark.Soundness.Composition.Bridge (2.1s)
+✔ [3708/3833] Built Zcash.Snark.Contract.Knowledge (1.8s)
+✔ [3709/3838] Built Zcash.Snark.Soundness.Oracle.Challenge255 (2.2s)
+✔ [3710/3838] Built Zcash.Security.Ledger.Value (1.6s)
+✔ [3711/3838] Built Zcash.Snark.Fingerprint.Match (2.3s)
+✔ [3712/3838] Built Zcash.Security.Ledger.Spendability (1.5s)
+✔ [3713/3839] Built Zcash.Security.Ledger.KeyBindingArm (2.0s)
+✔ [3714/3839] Built Zcash.Snark.Soundness.AGM.OnlineMultiopen (4.3s)
+✔ [3715/3839] Built Zcash.Snark (1.3s)
+✔ [3716/3842] Built Zcash.Snark.Soundness.Composition.DeployedAcceptance (1.7s)
+✔ [3717/3842] Built Zcash.Snark.Soundness.Circuit.Terminal (2.3s)
+✔ [3718/3844] Built Zcash.Security.Ledger.Capstone (3.1s)
+✔ [3719/3844] Built Zcash.Security.Ledger.Completeness (2.3s)
+✔ [3720/3844] Built Zcash.Security.Ledger.Nullifier (1.9s)
+✔ [3721/3844] Built Zcash.Snark.Fingerprint.SampleSpace (3.6s)
+✔ [3722/3845] Built Zcash.Snark.Soundness.Composition.DeployedRuntime (2.0s)
+✔ [3723/3847] Built Zcash.Snark.Soundness.AGM.AlgebraicUnbatch (2.7s)
+✔ [3724/3847] Built Zcash.Snark.Soundness.AGM.StraightLineIpa (3.2s)
+✔ [3725/3847] Built Zcash.Security.Ledger.ExtractionArm (2.7s)
+✔ [3726/3847] Built Zcash.Snark.Soundness.Composition.PrefixedSqueeze (2.0s)
+✔ [3727/3850] Built Zcash.Snark.Soundness.AGM.ValueUnbatch (2.5s)
+✔ [3728/3850] Built Zcash.Snark.Soundness.AGM.DeployedMultiopen (2.4s)
+✔ [3729/3855] Built Zcash.Snark.Fixtures.Shared.ScheduleMarker (1.7s)
+✔ [3730/3859] Built Zcash.Snark.Fingerprint.Rational.GoodEvent (6.4s)
+✔ [3731/3859] Built Zcash.Snark.Soundness.AGM.StraightLinePinnedRoots (2.0s)
+✔ [3732/3861] Built Zcash.Snark.Soundness.AGM.DeployedX1 (2.7s)
+✔ [3733/3861] Built Zcash.Snark.Soundness.Multiopen.ZeroData (2.3s)
+✔ [3734/3861] Built Zcash.Snark.Fingerprint.Rational.Representation (2.3s)
+✔ [3735/3863] Built Zcash.Snark.Soundness.AGM.OnlineMembers (4.0s)
+✔ [3736/3864] Built Zcash.Snark.Soundness.AGM.DeployedValueUnbatch (4.4s)
+✔ [3737/3864] Built Zcash.Snark.Fingerprint.Rational.Family (2.2s)
+✔ [3738/3864] Built Zcash.Snark.Fingerprint.Rational.ConstraintWalk (4.2s)
+✔ [3739/3866] Built Zcash.Snark.Fingerprint.Rational.GroupingTable (7.5s)
+✔ [3740/3866] Built Zcash.Snark.Fixtures.Shared.TamperSweep (1.3s)
+✔ [3741/3866] Built Zcash.Snark.Soundness.AGM.SyntheticOpened (2.4s)
+✔ [3742/3866] Built Zcash.Snark.Fingerprint.Epsilon (3.5s)
+✔ [3743/3868] Built Zcash.Snark.Verifier.OrchardShape (19s)
+✔ [3744/3872] Built Zcash.Snark.Fingerprint.Rational.IpaWalk (2.7s)
+✔ [3745/3874] Built Zcash.Snark.Soundness.AGM.DeployedSyntheticOpened (2.6s)
+✔ [3746/3875] Built Zcash.Snark.Soundness.AGM.DeployedRootSets (5.1s)
+✔ [3747/3876] Built Zcash.Snark.Soundness.AGM.AdaptiveOnline (14s)
+✔ [3748/3876] Built Zcash.Snark.Soundness.AGM.DeployedRootDecode (5.8s)
+✔ [3749/3876] Built Zcash.Snark.Soundness.AGM.CostedOracle (3.6s)
+✔ [3750/3879] Built Zcash.Circuits.Sinsemilla.Merkle (97s)
+✔ [3751/3879] Built Zcash.Snark.Soundness.AGM.AdaptiveSurfaces (3.3s)
+✔ [3752/3879] Built Zcash.Security.RedDSA.KnowledgeError (3.8s)
+✔ [3753/3879] Built Zcash.Snark.Fingerprint.Rational.OpeningWalk (19s)
+✔ [3754/3881] Built Zcash.Snark.Soundness.AGM.DecodeToOpened (3.5s)
+✔ [3755/3881] Built Zcash.Snark.Soundness.AGM.DeployedPinnedRoots (3.4s)
+✔ [3756/3883] Built Zcash.Snark.Fingerprint.Rational.OtherCoefficients (3.2s)
+✔ [3757/3883] Built Zcash.Security.Ledger.ExtractionKnowledgeError (4.7s)
+✔ [3758/3883] Built Zcash.Snark.Soundness.AGM.DeployedConstraintSupply (15s)
+✔ [3759/3883] Built Zcash.Snark.Soundness.Composition.DeployedRootContainment (3.7s)
+✔ [3760/3883] Built Zcash.Snark.Soundness.AGM.DirectX4Columns (20s)
+✔ [3761/3883] Built Zcash.Security.Ledger.ValueRelationArm (3.1s)
+✔ [3762/3883] Built Zcash.Snark.Soundness.AGM.OnlineConstraint (4.5s)
+ℹ [3763/3883] Built Zcash.Snark.Fixtures.SingleAction.Honest.Fixture (72s)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:34:91: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6564 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:95:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (8939 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:195:103: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (10448 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Fixture.lean:197:77: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (13038 ms)
+✔ [3764/3884] Built Zcash.Snark.Soundness.Composition.DirectPathCost (1.0s)
+✔ [3765/3886] Built Zcash.Security.Ledger.ConservationExperiment (2.8s)
+✔ [3766/3886] Built Zcash.Snark.Soundness.AGM.PinnedRootWitness (35s)
+✔ [3767/3886] Built Zcash.Snark.Soundness.Composition.DeployedConstraintContainment (2.7s)
+✔ [3768/3888] Built Zcash.Security.Ledger.IntegrityExperiment (2.2s)
+ℹ [3769/3888] Built Zcash.Snark.Fixtures.SingleAction.Honest.FiatShamir (5.3s)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/FiatShamir.lean:66:59: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3263 ms)
+✔ [3770/3888] Built Zcash.Circuits.Action.Circuit (52s)
+ℹ [3771/3888] Built Zcash.Snark.Fixtures.MultiAction.Honest.Fixture (88s)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Fixture.lean:34:91: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6708 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Fixture.lean:95:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (8771 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Fixture.lean:195:103: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (10687 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Fixture.lean:197:77: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (14415 ms)
+ℹ [3772/3890] Built Zcash.Snark.Fixtures.SingleAction.Random.Fixture (72s)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Fixture.lean:39:91: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (8350 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Fixture.lean:100:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9658 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Fixture.lean:200:103: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9898 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Fixture.lean:205:80: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (14043 ms)
+✔ [3773/3890] Built Zcash.Snark.Soundness.Composition.OrchardConsensusBounds (1.0s)
+✔ [3774/3890] Built Zcash.Snark.Soundness.Composition.StraightLineDeployed (8.5s)
+✔ [3775/3890] Built Zcash.Snark.Soundness.Composition.ScheduleBudget (2.4s)
+✔ [3776/3890] Built Zcash.Snark.Soundness.AGM.AdaptiveRootSurfaces (23s)
+✔ [3777/3890] Built Zcash.Snark.Soundness.AGM.ZeroFamily (12s)
+✔ [3778/3890] Built Zcash.Circuits.Action.CircuitPreNU63 (1.7s)
+✔ [3779/3890] Built Zcash.Snark.Fixtures.MultiAction.Honest.Degree (1.8s)
+✔ [3780/3890] Built Zcash.Snark.Fixtures.MultiAction.Honest.StaticChecks (1.7s)
+ℹ [3781/3890] Built Zcash.Snark.Fixtures.MultiAction.Honest.FiatShamir (4.8s)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/FiatShamir.lean:68:59: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3059 ms)
+ℹ [3782/3892] Built Zcash.Snark.Fixtures.SingleAction.Random.FiatShamir (4.2s)
+info: Zcash/Snark/Fixtures/SingleAction/Random/FiatShamir.lean:66:59: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2403 ms)
+✔ [3783/3892] Built Zcash.Snark.Fixtures.SingleAction.Random.Faithfulness (1.6s)
+✔ [3784/3892] Built Zcash.Snark.Soundness.Composition.StraightLineWitness (2.1s)
+✔ [3785/3892] Built Zcash.Snark.Fingerprint.Rational.Capstone (49s)
+ℹ [3786/3892] Built Zcash.Snark.Fixtures.MultiAction.Random.Fixture (85s)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Fixture.lean:39:91: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (7600 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Fixture.lean:100:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9913 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Fixture.lean:200:103: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9639 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Fixture.lean:205:80: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (17240 ms)
+✔ [3787/3892] Built Zcash.Snark.Soundness.Composition.SequentialLift (2.9s)
+ℹ [3788/3892] Built Zcash.Snark.Fixtures.PostNu63 (12s)
+info: Zcash/Snark/Fixtures/PostNu63.lean:88:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1486 ms)
+info: Zcash/Snark/Fixtures/PostNu63.lean:92:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3496 ms)
+info: Zcash/Snark/Fixtures/PostNu63.lean:109:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (7984 ms)
+info: Zcash/Snark/Fixtures/PostNu63.lean:117:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (10789 ms)
+✔ [3789/3892] Built Zcash.Snark.Fixtures.MultiAction.Honest.Schedule (1.0s)
+✔ [3790/3892] Built Zcash.Snark.Soundness.AGM.ZeroFamilyRoots (10s)
+✔ [3791/3892] Built Zcash.Circuits.Action.ConfigureCertificates (26s)
+✔ [3792/3893] Built Zcash.Snark.Soundness.AGM.DirectConstraintFamily (1.5s)
+✔ [3793/3894] Built Zcash.Snark.Fixtures.MultiAction.Random.Faithfulness (1.5s)
+✔ [3794/3894] Built Zcash.Snark.Soundness.AGM.AdaptiveRootCore (18s)
+ℹ [3795/3894] Built Zcash.Snark.Fixtures.SingleAction.Random.Negative (8.9s)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Negative.lean:31:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1444 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Negative.lean:46:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3976 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Negative.lean:50:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6441 ms)
+✔ [3796/3894] Built Zcash.Snark.Soundness.Composition.ZeroStraightLine (2.1s)
+ℹ [3797/3894] Built Zcash.Snark.Fixtures.SingleAction.Honest.Negative (34s)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:27:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1983 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:81:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6692 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:105:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9593 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:109:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12459 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:152:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (20072 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:156:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (22225 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:168:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (24446 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:172:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (26695 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:183:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (28925 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative.lean:187:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (31218 ms)
+ℹ [3798/3895] Built Zcash.Snark.Fixtures.MultiAction.Random.FiatShamir (4.6s)
+info: Zcash/Snark/Fixtures/MultiAction/Random/FiatShamir.lean:67:59: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2936 ms)
+✔ [3799/3896] Built Zcash.Snark.Soundness.Composition.ZeroBasisAcceptance (1.5s)
+✔ [3800/3896] Built Zcash.Snark.Soundness.Composition.StraightLineConstraint (26s)
+✔ [3801/3896] Built Zcash.Snark.Soundness.Decoded.VacuityWitness (2.7s)
+✔ [3802/3896] Built Zcash.Snark.Soundness.AGM.AdaptiveIpaSurfaces (13s)
+✔ [3803/3896] Built Zcash.Snark.Fixtures.MultiAction.Honest.CapturedZeroFamily (1.7s)
+ℹ [3804/3896] Built Zcash.Snark.Fixtures.SingleAction.Random.Epsilon (17s)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean:52:7: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3353 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean:63:68: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9057 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean:66:61: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (10830 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean:69:52: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12743 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Random/Epsilon.lean:258:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (15129 ms)
+ℹ [3805/3897] Built Zcash.Snark.Fixtures.PostNu63Random (26s)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:39:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1905 ms)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:55:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (8521 ms)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:62:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12988 ms)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:101:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (16741 ms)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:114:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (22207 ms)
+info: Zcash/Snark/Fixtures/PostNu63Random.lean:119:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (24621 ms)
+✔ [3806/3897] Built Zcash.Snark.Soundness.FiatShamir.ActionCount (1.0s)
+✔ [3808/3898] Built Zcash.Snark.Soundness.FiatShamir.Adversary (1.4s)
+✔ [3809/3898] Built Zcash.Snark.Soundness.Composition.SemanticChallengeRemainder (2.1s)
+✔ [3810/3898] Built Zcash.Snark.Soundness.AGM.StraightLineFiniteSecurity (2.2s)
+✔ [3811/3898] Built Zcash.Snark.Soundness.Composition.StraightLineDecodeSupply (1.8s)
+ℹ [3812/3898] Built Zcash.Snark.Fixtures.MultiAction.Random.Negative (11s)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Negative.lean:31:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1403 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Negative.lean:46:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (4485 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Negative.lean:50:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (7914 ms)
+✔ [3813/3898] Built Zcash.Snark.Soundness.Relation.ConstraintRelations (2.1s)
+✔ [3814/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.StraightLineKnowledgeError (2.1s)
+✔ [3815/3898] Built Zcash.Snark.Soundness.StraightLine.Terminal (2.4s)
+✔ [3816/3898] Built Zcash.Snark.Soundness.AGM.StraightLineOrchardConsensusBounds (2.8s)
+✔ [3817/3898] Built Zcash.Snark.Soundness.StraightLine.Event (2.0s)
+ℹ [3818/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.Negative (56s)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:23:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2248 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:77:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9358 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:101:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12127 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:105:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (14999 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:113:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (18210 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:136:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (26161 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:155:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (29454 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:159:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (32742 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:182:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (36319 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:186:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (39176 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:198:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (42011 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:202:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (45800 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:213:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (49010 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative.lean:217:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (51671 ms)
+ℹ [3819/3898] Built Zcash.Snark.Fixtures.MultiAction.Random.Epsilon (13s)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:51:78: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1519 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:52:7: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1569 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:63:68: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (5762 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:66:61: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (7695 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:69:52: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9329 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Random/Epsilon.lean:258:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (11544 ms)
+✔ [3820/3898] Built Zcash.Snark.Soundness.AGM.AdaptiveDecode (79s)
+✔ [3821/3898] Built Zcash.Snark.Soundness.AGM.ExecutableDeployedRoots (4.9s)
+ℹ [3822/3898] Built Zcash.Snark.Fixtures.SingleAction.Honest.Negative.Sweep (169s)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:58:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1992 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:65:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (4652 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:74:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (7232 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:81:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9873 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:90:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12730 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:97:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (16350 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:106:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (19721 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:113:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (22192 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:122:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (24550 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:129:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (27076 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:138:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (29442 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:147:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (31885 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:154:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (34472 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:163:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (38753 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:172:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (43961 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:179:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (48158 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:188:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (51409 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:195:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (53731 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:204:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (56294 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:213:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (58753 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:220:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (61769 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:230:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (64741 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:238:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (67234 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:246:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (69921 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:256:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (72175 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:266:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (74461 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:274:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (76739 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:282:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (79571 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:290:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (81977 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:298:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (84536 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:306:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (87568 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:315:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (89805 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:324:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (92101 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:331:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (94430 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:340:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (96820 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:349:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (99035 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:356:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (101311 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:363:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (103612 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:373:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (105915 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:380:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (108171 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:388:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (110485 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:394:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (112691 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:400:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (115016 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:406:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (117379 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:415:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (119674 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:419:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (121918 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:425:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (124163 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:431:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (126508 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:438:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (128775 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:442:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (131022 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:448:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (133353 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:454:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (135680 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:460:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (137933 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:467:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (140286 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:471:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (142631 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:475:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (144896 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:479:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (147184 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:483:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (149396 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:487:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (151691 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:491:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (153991 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:495:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (156266 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:499:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (158462 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:503:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (160765 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:507:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (163199 ms)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/Negative/Sweep.lean:528:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (165503 ms)
+✔ [3823/3898] Built Zcash.Circuits.Action.Bundle (197s)
+✔ [3824/3898] Built Zcash.Circuits.Action.RealBases (1.4s)
+✔ [3825/3898] Built Zcash.Circuits.Action.PublicInput (2.1s)
+✔ [3826/3898] Built Zcash.Circuits.Action.Spec (1.6s)
+ℹ [3827/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.Negative.Sweep (222s)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:56:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (3196 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:63:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6225 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:70:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9063 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:79:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (12127 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:86:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (15004 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:93:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (18460 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:102:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (23258 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:109:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (29335 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:116:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (34228 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:125:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (37476 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:132:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (40552 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:139:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (43402 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:148:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (46774 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:155:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (50012 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:162:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (53449 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:171:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (56145 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:180:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (59018 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:187:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (61735 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:196:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (64863 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:203:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (67840 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:212:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (71714 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:219:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (74474 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:226:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (77143 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:235:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (79965 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:242:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (82789 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:251:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (85395 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:260:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (88075 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:267:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (90837 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:277:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (93613 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:285:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (96290 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:293:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (99034 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:301:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (101796 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:311:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (104570 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:321:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (107261 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:329:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (110013 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:337:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (112735 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:345:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (115437 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:353:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (118235 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:361:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (120979 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:369:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (123758 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:378:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (126461 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:387:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (129158 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:394:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (131972 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:403:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (134618 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:412:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (137376 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:419:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (140094 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:426:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (142816 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:436:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (145558 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:443:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (148232 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:451:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (150958 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:457:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (153712 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:463:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (156466 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:469:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (159206 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:478:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (161966 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:482:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (164622 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:488:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (167342 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:494:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (170090 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:501:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (172880 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:505:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (175540 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:511:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (178336 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:517:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (181115 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:523:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (183841 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:530:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (186580 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:534:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (189481 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:538:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (192301 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:542:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (195080 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:546:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (197820 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:550:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (200607 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:554:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (203332 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:558:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (206239 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:562:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (209075 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:566:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (211867 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:570:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (214691 ms)
+info: Zcash/Snark/Fixtures/MultiAction/Honest/Negative/Sweep.lean:591:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (217404 ms)
+✔ [3828/3898] Built Zcash.Circuits.Action.Separation (1.5s)
+✔ [3829/3898] Built Zcash.Security.Ledger.Bridge (3.0s)
+✔ [3830/3898] Built Zcash.Security.Ledger.SinsemillaDLR (3.1s)
+✔ [3831/3898] Built Zcash.Security.Ledger.NoteCommitDLR (1.8s)
+✔ [3832/3898] Built Zcash.Security.Ledger.KeyBindingDLR (1.9s)
+✔ [3833/3898] Built Zcash.Security.Ledger.MerkleDLR (2.7s)
+✔ [3834/3898] Built Zcash.Security.Ledger.NullifierDLR (1.7s)
+✔ [3835/3898] Built Zcash.Security.Ledger.OrchardCapstone (2.0s)
+✔ [3836/3898] Built Zcash.Security.Ledger.OrchardIntegrityExperiment (2.5s)
+✔ [3837/3898] Built Zcash.Circuits.Action.TopLevel (14s)
+✔ [3838/3898] Built Zcash.Circuits.Action.Shape.Compilation (3.5s)
+✔ [3839/3898] Built Zcash.Circuits.Action.Shape.Planner (3.2s)
+✔ [3840/3898] Built Zcash.Circuits.Action.Shape.Anchors (1.5s)
+✔ [3841/3898] Built Zcash.Circuits.Action.Shape.PlannerTraceData (1.8s)
+✔ [3842/3898] Built Zcash.Circuits.Action.Shape.PlannerSortBridge (11s)
+✔ [3843/3898] Built Zcash.Circuits.Action.Shape.PlannerTraceCertificate (30s)
+✔ [3844/3898] Built Zcash.Circuits.Action.Shape.PlannerTraceBridge (5.0s)
+✔ [3845/3898] Built Zcash.Circuits.Action.Shape.PlannerTrace (5.7s)
+✔ [3846/3898] Built Zcash.Circuits.Action.Shape.SelectorPacking (18s)
+✔ [3847/3898] Built Zcash.Circuits.Action.Shape (4.5s)
+✔ [3848/3898] Built Zcash.Circuits.Integration.ActionConstraintBounds (1.7s)
+✔ [3849/3898] Built Zcash.Circuits.Integration.ActionPermutationDomain (2.1s)
+ℹ [3850/3898] Built Zcash.Snark.Fixtures.SingleAction.Honest.VkMatch (4.0s)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/VkMatch.lean:80:82: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked`, `_private.Clean.Halo2.Formal.Call.0.Halo2.FormalCircuit.callPacked`, `Halo2.FloorPlanner.V1.wrapped._@.Clean.Halo2.Keygen.FloorPlanner.V1.363973000._hygCtx._hyg.2` (no kernel definition)
+info: Zcash/Snark/Fixtures/SingleAction/Honest/VkMatch.lean:138:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked`, `_private.Clean.Halo2.Formal.Call.0.Halo2.FormalCircuit.callPacked`, `Halo2.FloorPlanner.V1.wrapped._@.Clean.Halo2.Keygen.FloorPlanner.V1.363973000._hygCtx._hyg.2` (no kernel definition)
+✔ [3851/3898] Built Zcash.Circuits.Integration.ActionCopyWitness (2.7s)
+✔ [3852/3898] Built Zcash.Circuits.Integration.ActionPermutationCycle (2.3s)
+✔ [3853/3898] Built Zcash.Circuits.Integration.ActionCopyReplay (1.8s)
+✔ [3854/3898] Built Zcash.Circuits.Integration.ActionEncoding (1.9s)
+✔ [3855/3898] Built Zcash.Circuits.Integration.ActionCorrectness (1.8s)
+✔ [3856/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementModel (2.6s)
+✔ [3857/3898] Built Zcash.Snark.Soundness.Action.StraightLineTerminal (3.1s)
+✔ [3858/3898] Built Zcash.Snark.Soundness.Action.AdaptiveTerminal (2.3s)
+✔ [3859/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementInhabitant (3.9s)
+✔ [3860/3898] Built Zcash.Snark.Soundness.Action.StraightLineEvent (4.2s)
+✔ [3861/3898] Built Zcash.Snark.Soundness.Action.StraightLineBudgets (4.5s)
+✔ [3862/3898] Built Zcash.Snark.Soundness.Action.AdaptiveSurfaces (10s)
+✔ [3863/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementAccounting (2.2s)
+✔ [3864/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementTerminal (11s)
+ℹ [3865/3898] Built Zcash.Snark.Keygen.Certificate (63s)
+info: Zcash/Snark/Keygen/Certificate.lean:229:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Zcash.Circuits.Action.TopLevel.0.Zcash.Circuits.Action.actionCircuitPacked`, `Halo2.FloorPlanner.V1.wrapped._@.Clean.Halo2.Keygen.FloorPlanner.V1.363973000._hygCtx._hyg.2`, `_private.Clean.Halo2.Formal.Call.0.Halo2.FormalCircuit.callPacked` (no kernel definition)
+✔ [3866/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.VkCertificate (1.9s)
+✔ [3867/3898] Built Zcash.Snark.Fixtures.MultiAction.Random.VkCertificate (1.8s)
+✔ [3868/3898] Built Zcash.Snark.Fixtures.SingleAction.Random.VkCertificate (1.8s)
+✔ [3869/3898] Built Zcash.Snark.Fixtures.SingleAction.Honest.StaticChecks (2.0s)
+✔ [3870/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.Faithfulness (2.1s)
+✔ [3871/3898] Built Zcash.Snark.Keygen.InstanceCapture (2.1s)
+✔ [3872/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementSurfaces (15s)
+✔ [3873/3898] Built Zcash.Snark.Fixtures.MultiAction.Honest.Boundary (1.5s)
+✔ [3874/3898] Built Zcash.Snark.Fixtures.MultiAction.Random.Boundary (1.6s)
+✔ [3875/3898] Built Zcash.Snark.Fixtures.SingleAction.Random.Boundary (1.6s)
+✔ [3876/3898] Built Zcash.Snark.Fixtures.SingleAction.Honest.Boundary (1.9s)
+✔ [3877/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementProvenance (2.0s)
+✖ [3878/3898] Building Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary (2.3s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:30:0: Zcash.Snark.FixtureRandom.capturedUrsG_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:32:0: Zcash.Snark.FixtureRandom.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:54:0: Zcash.Snark.FixtureRandom.captured_list_lengths_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:56:0: Zcash.Snark.FixtureRandom.query_layout_columns_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:58:0: Zcash.Snark.FixtureRandom.vk_expression_refs_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:60:0: Zcash.Snark.FixtureRandom.permutation_chunks_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:62:0: Zcash.Snark.FixtureRandom.vk_domain_size_matches_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:70:0: Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:80:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_postNu63 reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:82:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_canonicalVk reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:86:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:88:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:94:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:101:0: Zcash.Snark.FixtureRandom.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:114:0: Zcash.Snark.FixtureRandom.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:116:0: Zcash.Snark.FixtureRandom.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:118:0: Zcash.Snark.FixtureRandom.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:120:0: Zcash.Snark.FixtureRandom.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:145:0: Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:174:0: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:173:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:192:0: 'Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:191:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_fixedCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:207:0: Zcash.Snark.FixtureRandom.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:209:0: Zcash.Snark.FixtureRandom.vk_chunks_length_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:217:0: Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:222:0: Zcash.Snark.FixtureRandom.coefficientFamily: '+native' names 'Zcash.Snark.FixtureRandom.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:226:0: Zcash.Snark.FixtureRandom.capturedPoint_goodEvent reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:228:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le: '+native' names 'Zcash.Snark.FixtureRandom.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:234:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly: '+native' names 'Zcash.Snark.FixtureRandom.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:240:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure: '+native' names 'Zcash.Snark.FixtureRandom.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:247:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure: '+native' names 'Zcash.Snark.FixtureRandom.vk_chunk_width_le', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:269:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:268:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:286:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:285:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:304:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:303:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:322:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:321:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:326:0: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:325:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom.capturedPoint_goodEvent._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Lean exited with code 1
+✖ [3879/3898] Building Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary (2.4s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:30:0: Zcash.Snark.FixtureRandom2.capturedUrsG_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:32:0: Zcash.Snark.FixtureRandom2.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:54:0: Zcash.Snark.FixtureRandom2.captured_list_lengths_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:56:0: Zcash.Snark.FixtureRandom2.query_layout_columns_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:58:0: Zcash.Snark.FixtureRandom2.vk_expression_refs_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:60:0: Zcash.Snark.FixtureRandom2.permutation_chunks_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:62:0: Zcash.Snark.FixtureRandom2.vk_domain_size_matches_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:70:0: Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:80:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_postNu63 reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:82:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_canonicalVk reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:86:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:88:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:94:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:101:0: Zcash.Snark.FixtureRandom2.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:114:0: Zcash.Snark.FixtureRandom2.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:116:0: Zcash.Snark.FixtureRandom2.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:118:0: Zcash.Snark.FixtureRandom2.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:120:0: Zcash.Snark.FixtureRandom2.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:145:0: Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:174:0: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:173:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:192:0: 'Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:191:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:207:0: Zcash.Snark.FixtureRandom2.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:209:0: Zcash.Snark.FixtureRandom2.vk_chunks_length_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:217:0: Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:222:0: Zcash.Snark.FixtureRandom2.coefficientFamily: '+native' names 'Zcash.Snark.FixtureRandom2.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:226:0: Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:228:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le: '+native' names 'Zcash.Snark.FixtureRandom2.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:234:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly: '+native' names 'Zcash.Snark.FixtureRandom2.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:240:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure: '+native' names 'Zcash.Snark.FixtureRandom2.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:247:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure: '+native' names 'Zcash.Snark.FixtureRandom2.vk_chunk_width_le', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:269:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:268:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:286:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:285:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:304:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:303:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:322:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+ Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:321:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
++  Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:326:0: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:325:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Lean exited with code 1
+✔ [3880/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementSemantic (6.1s)
+✔ [3881/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementComplete (2.7s)
+✖ [3882/3898] Building Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary (7.2s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:60:0: Zcash.Snark.Fixture.vk_gates_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:61:0: Zcash.Snark.Fixture.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:62:0: Zcash.Snark.Fixture.vk_lookup_input_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:64:0: Zcash.Snark.Fixture.vk_lookup_table_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:73:0: Zcash.Snark.Fixture.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:116:0: Zcash.Snark.Fixture.unexpected_last_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:118:0: Zcash.Snark.Fixture.missing_nonlast_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:120:0: Zcash.Snark.Fixture.x_power_one_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:124:0: Zcash.Snark.Fixture.duplicate_advice_query_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:130:0: Zcash.Snark.Fixture.malformed_u_count_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:132:0: Zcash.Snark.Fixture.swapped_lookup_permuted_breaks_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:291:0: Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:315:0: Zcash.Snark.Fixture.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:317:0: Zcash.Snark.Fixture.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:319:0: Zcash.Snark.Fixture.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:321:0: Zcash.Snark.Fixture.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:343:0: Zcash.Snark.Fixture.nonInteractiveFingerprint_matches_derived_inputs: '+native' names 'Zcash.Snark.Keygen.instanceCommitment_capturedActionInputs', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:370:0: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:369:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Lean exited with code 1
+✔ [3883/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementEvent (14s)
+✔ [3884/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementKnowledge (2.7s)
+✔ [3885/3898] Built Zcash.Security.Ledger.ActionBundleBridge (1.9s)
+✔ [3886/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementProfile (2.4s)
+✔ [3887/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementCached (2.5s)
+✔ [3888/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementReads (1.9s)
+✔ [3889/3898] Built Zcash.Snark.Soundness.Action.DeploymentRecord (2.2s)
+✔ [3890/3898] Built Zcash.Snark.Capstones.Action.Base (1.7s)
+✔ [3891/3898] Built Zcash.Snark.Capstones.Action.Checks (1.0s)
+✔ [3892/3898] Built Zcash.Snark.Soundness.Action.AdaptiveStatementCost (4.9s)
+✔ [3893/3898] Built Zcash.Snark.Capstones.Action.Budgets (3.8s)
+✔ [3894/3898] Built Zcash.Snark.Capstones.Action (2.5s)
+✔ [3895/3898] Built Zcash.Snark.Contract.Action (1.7s)
+✔ [3896/3898] Built Zcash.Security.Ledger.OrchardExtractionExperiment (2.8s)
+✖ [3897/3898] Building Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary (8.4s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:82:0: Zcash.Snark.Fixture2.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:127:0: Zcash.Snark.Fixture2.unexpected_last_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:129:0: Zcash.Snark.Fixture2.missing_nonlast_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:131:0: Zcash.Snark.Fixture2.x_power_one_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:135:0: Zcash.Snark.Fixture2.duplicate_advice_query_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:143:0: Zcash.Snark.Fixture2.swapped_advice_absorb_breaks_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:323:0: Zcash.Snark.Fixture2.vk_gates_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:325:0: Zcash.Snark.Fixture2.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:327:0: Zcash.Snark.Fixture2.vk_lookup_input_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:329:0: Zcash.Snark.Fixture2.vk_lookup_table_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:331:0: Zcash.Snark.Fixture2.vk_quotient_tail_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:333:0: Zcash.Snark.Fixture2.vk_n_pred_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:334:0: Zcash.Snark.Fixture2.shape_k_pred_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:339:0: Zcash.Snark.Fixture2.vk_advice_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:341:0: Zcash.Snark.Fixture2.vk_instance_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:343:0: Zcash.Snark.Fixture2.vk_fixed_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:345:0: Zcash.Snark.Fixture2.vk_omega_order reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:346:0: Zcash.Snark.Fixture2.vk_n_cast_ne_zero reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:348:0: Zcash.Snark.Fixture2.deployedConstraintStaticChecks_of_captured: '+native' names 'Zcash.Snark.Fixture2.vk_advice_layout_length', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:358:0: Zcash.Snark.Fixture2.deployedConstraintXSqueezeSchedule_captured: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:371:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:385:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_generatorRO_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:401:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_direct_generatorRO_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:440:0: Zcash.Snark.Capstone.adaptiveActionXDegree_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:467:0: Zcash.Snark.Capstone.capturedActionXSqueezeSchedule: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:480:0: Zcash.Snark.Capstone.orchard_adaptiveActionStatementSurface_measure_le_for: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:489:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:495:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_certified_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:506:0: Zcash.Snark.Capstone.adaptiveStatementKnowledgeFailure_le_at_2pow123: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:516:0: Zcash.Snark.Capstone.adaptiveStatementDeployedKnowledgeFailure_le_jointCharge: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:523:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_deployed_2pow123_knowledge_finite_security: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:529:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_certified_2pow125_knowledge_finite_security: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:542:0: Zcash.Snark.Contract.actionKnowledgeContract: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:554:0: Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:564:0: Zcash.Snark.PostNu63Fixture.captures_urs_point_references_in_bounds reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:568:0: Zcash.Snark.PostNu63Fixture.captures_use_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:570:0: Zcash.Snark.PostNu63Fixture.captures_use_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:576:0: Zcash.Snark.PostNu63Fixture.captures_use_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.captures_use_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:583:0: Zcash.Snark.Fixture2.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.captures_use_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:592:0: Zcash.Snark.Fixture2.vk_eq_toVerifierKey: '+native' names 'Zcash.Snark.PostNu63Fixture.captures_use_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:605:0: Zcash.Snark.Fixture2.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:607:0: Zcash.Snark.Fixture2.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:609:0: Zcash.Snark.Fixture2.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:611:0: Zcash.Snark.Fixture2.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:625:0: Zcash.Snark.Fixture2.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.captures_use_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:648:0: Zcash.Snark.Fixture2.capturedZeroStaticChecks: '+native' names 'Zcash.Snark.Fixture2.vk_advice_layout_length', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:660:0: Zcash.Snark.Fixture2.capturedLiveZeroStaticChecks: '+native' names 'Zcash.Snark.Fixture2.vk_advice_layout_length', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:701:0: 'Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:700:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:719:0: 'Zcash.Snark.Fixture2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+ Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.Fixture2.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.captures_use_same_fixedCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.captures_use_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.captures_use_same_ursG._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:718:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.Fixture2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.Fixture2.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.captures_use_same_fixedCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.captures_use_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.captures_use_same_ursG._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.captures_use_same_wu._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
++  Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.Fixture2.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.captures_use_same_fixedCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.captures_use_same_permutationCommonCommitments._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.captures_use_same_ursG._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Lean exited with code 1
+✖ [3898/3898] Building Zcash.TrustBoundary (10s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/ntlib/v4.30.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/Zcash/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/kf-zcash_ironwood/pkg/.lake/build/ir/Zcash/TrustBoundary.setup.json --json
+error: Zcash/TrustBoundary.lean:891:0: Zcash.Security.Ledger.OrchardExtractionExperiment.knowledgeFailureUnion_measure_le: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:901:0: Zcash.Security.Ledger.OrchardExtractionExperiment.runKnowledgeFailure_measure_le_of_dlogProfile: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:910:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceIntegrityExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:919:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceConservationExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:928:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardShieldedBalanceCapExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Lean exited with code 1
+Some required targets logged failures:
+- Zcash.Meta.Tests.NativeSurface
+- Zcash.Meta.Tests.AxiomCheck
+- Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary
+- Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary
+- Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary
+- Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary
+- Zcash.TrustBoundary
+error: build failed
+Command exited with non-zero status 1
+TIME wall=723.61 user=3553.86 sys=194.70 maxrss_kb=8716472
+rc=1 secs=724

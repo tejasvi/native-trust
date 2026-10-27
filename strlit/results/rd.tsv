@@ -1,0 +1,5 @@
+## summary.v4.34.0-rc2.tsv
+start (tstack 1GB, ulimit -s unlimited) 22:01:37
+cnt_250_ubs_dk_nomrd	TIME 1.32 s 740724 KB	rc=0
+cnt_500_ubs_dk_nomrd	TIME 5.35 s 1527904 KB	rc=0
+Repro_nomrd	TIME 19.20 s 4657836 KB	rc=0

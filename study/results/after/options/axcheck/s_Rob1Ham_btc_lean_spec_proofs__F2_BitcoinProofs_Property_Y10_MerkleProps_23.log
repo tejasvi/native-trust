@@ -1,0 +1,6 @@
+$ lean s_Rob1Ham_btc_lean_spec_proofs__F2_BitcoinProofs_Property_Y10_MerkleProps_23.lean tc=v4.35.0 ntlib=/home/ntbuild/work_shared/nt22/v4.35.0/.lake/build/lib/lean start=2026-10-25T16:20:33Z
+PROVED `BitcoinProofs.Property.Y10.MerkleProps.casea23._native.native_decide.ax_1_1` as `_ktr.s_Rob1Ham_btc_lean_spec_proofs__F2_BitcoinProofs_Property_Y10_MerkleProps_23.BitcoinProofs.Property.Y10.MerkleProps.casea23._kernel.native_decide.ax_1_1`: kernel_ms=903889 native_axioms=1 rebuilt=0 copies=0 total_ms=904091 acc_fallback=0 pieces=209
+'_ktr.s_Rob1Ham_btc_lean_spec_proofs__F2_BitcoinProofs_Property_Y10_MerkleProps_23.BitcoinProofs.Property.Y10.MerkleProps.casea23._kernel.native_decide.ax_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+rc=0 end=2026-10-25T16:35:37Z

@@ -1,0 +1,9 @@
+$ lean longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-25T05:03:41Z
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 34472804 secs 164.94
+rc=1 end=2026-10-25T05:06:26Z
+arks.HahnRateSixteenth.construct._native.native_decide.ax_1_7 ms=72 rebuilt_defs=0 visited=2038
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7 blockers_ms=0 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_0».RecursivePolygero.Benchmarks.HahnRateSixteenth.construct._kernel.native_decide.ax_1_7.p_0 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

@@ -1,0 +1,12 @@
+project	BHH TSP constant v8 (bhh12a)
+source	supp 10.5281/zenodo.23602654 (bhh-constant-bound-v8 @92a0454d4011)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	not run
+native_facts	lean/native: 5536 axioms (beta >= 0.6491725104); lean/native_v3: 5671 axioms (beta >= 0.6496497227)
+converted	not run
+nt_cpu_h	0
+nt_wall_min	0
+native_build_cpu_h	the 5,520 ranges of lean/native: about 3 h on up to 60 machines with 96 threads (README.md:295-296)
+hand_track	lean/kernel: a weaker bound, beta >= 0.6440396 (kernel build of 105,255 generated modules)
+hand_build_cpu_h	about 5,250 h (C_3, C_4) + 9,570 h (C_5) of single-threaded time
+checks	none (see summary.md)

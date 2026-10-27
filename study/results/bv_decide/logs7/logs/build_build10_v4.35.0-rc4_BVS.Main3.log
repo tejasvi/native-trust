@@ -1,0 +1,8 @@
+BVS/Main3.lean:40:13: warning: This simp argument is unused:
+  Bool.and_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+TIME wall=0.37 s user=0.34 s maxrss=716296 KB

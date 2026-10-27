@@ -1,0 +1,585 @@
+837	Tianshi-Xu/tainverify_lean	3	2026-09-15	2025-12-15	50450	false	false	Lean	-
+579	CoolRmal/BerryEsseen	0	2026-09-13	2026-09-12	48790	false	false	Lean	Mathlib formalization of rigorous bounds on the universal iid Berry–Esseen constant (in progress)
+200	cvc5/logos	1	2026-10-16	2026-03-03	25550	false	false	Lean	A Lean-based verified proof checker for Eunoia
+156	tobiaskrogh-ship-it/llm-rust-lean-pipeline	0	2026-06-06	2026-06-06	12146	false	false	Lean	An LLM-driven pipeline for verifying Rust programs in Lean (Bachelor thesis, Aarhus University)
+103	CrystalToe/CrystalAgent	1	2026-04-15	2026-03-26	173040	false	false	Haskell	198 physical constants from two primes. Zero free parameters. Quantum simulation in Haskell/Rust/Pyt
+82	jwilger/claude-factory	0	2026-07-05	2026-07-01	23135	false	false	Lean	Plugin for Claude Code to create a semi-inverted AI development workflow that relies on deterministi
+77	lusing/program_guide	0	2026-10-18	2026-09-12	84565	false	false	C++	编程指南
+54	iarnoldy/UFT	1	2026-03-22	2026-03-07	33582	false	false	Lean	-
+51	przchojecki/rs-mca	17	2026-07-29	2026-06-13	45071	false	false	Python	Proximity Prize for Smooth Reed-Solomon Domains
+51	Sounio-lang/sounio	12	2026-10-23	2025-12-24	1552981	false	false	Lean	An epistemic systems language for scientific computing — uncertainty, units and effects, with a self
+50	corbensorenson/asi-stack-book	3	2026-08-31	2026-06-24	193342	false	false	Python	A governed systems architecture for advanced AI, with ASI as the stress case—living book, reference,
+44	GrigoryEvko/FX	44	2026-07-21	2026-02-02	66172	false	false	Lean	FX is a compiler, proof assistant and a programming language built on graded dependent type theory
+38	IT-Help-San-Diego/tetrasemaphore	0	2026-10-23	2026-09-30	76834	false	false	Lean	The Tetrasemaphore: four self-identifying glyphs of the Klein four-group — a finite algebra of epist
+35	unnamedlambda/base	0	2026-10-22	2025-12-30	31436	false	false	Lean	-
+34	umpolungfish/p4rakernel	1	2026-10-22	2026-06-02	71824	false	false	Lean	Paraconsistent Lean 4 formalization | 4⊙4 ---> 16_3 | Imscribing Grammar
+33	niirmataa/free_falcon_sign	0	2026-10-22	2026-04-29	951040	false	false	Lean	Free FT: ternary lattice signatures (FT768/1536/3072, q=18433) with security arguments bound to the 
+32	proofbundle/proofbundle	0	2026-10-13	2026-07-16	91341	false	false	JavaScript	Local files, signed cryptographic receipts, encryption, and verifiable history.
+31	npflueger/brill-noether-graphs	5	2026-10-20	2026-09-02	12367	false	false	Lean	Lean 4 formalization of miscellaneous results on combinatorial Brill-Noether theory
+31	leanprover/lean4	9633	2026-10-23	2018-04-15	7383629	false	false	Lean	Lean 4 programming language and theorem prover
+31	dwijayuda/pskernel	0	2026-10-23	2026-09-22	376116	false	false	HTML	-
+31	dennj/solana-lean	3	2026-07-01	2026-05-12	5168379	false	false	Lean	Lean4 compiler modified to generate WASM, Solana and system programming code
+30	google-deepmind/formal-conjectures	1332	2026-10-23	2025-05-12	13599	false	false	Lean	A collection of formalized statements of conjectures in Lean.
+26	competemath/tengoku	1	2026-10-23	2026-09-10	835828	false	false	Lean	An AI-first formal mathematics library for Lean 4 agentic theorem provers.
+24	longfellow-zk/longfellow-zk	1322	2026-10-21	2025-04-29	59107	false	false	Lean	Implementation of the Google Zero-Knowledge library for Identity Protocols.
+23	leanprover/human-eval-lean	32	2026-03-27	2025-04-30	507	false	false	Lean	Hand-written verified Lean solutions for the HumanEval benchmark
+22	CitizenGardens/Foundry	0	2026-09-13	2026-09-13	142811	false	false	-	The foundational monorepo for UOR. Contains the core Rust engine, Lean 4 formal verification layer (
+20	justinlietz93/cortex-engine	2	2026-07-21	2026-07-12	146772	false	false	HTML	Phase Calculus world simulation engine for physics, video games, AI models, operating systems, robot
+19	ZhangJun1972/Lean4	1	2026-05-12	2026-05-11	5690144	false	false	Lean	-
+18	justinfleek/ComfyUI-Lattice-Compositor	0	2026-03-02	2026-02-02	1595135	false	false	C	A Motion Graphics suite inside of ComfyUI
+18	aidoruao/orthogonal-engineering	1	2026-10-20	2026-01-18	214557	false	false	Python	Sovereign realizability topos and non-RLHF agentic AI kernel. 254 domains.  λ < 1 λ<1 contraction-to
+17	soohyuk-cho/COS598B-Final-Project-Verilog-To-Lean	0	2026-05-03	2026-03-25	1480	false	false	Lean	-
+16	wuzbak/Unitary-Manifold-	2	2026-10-10	2026-04-08	300337	false	false	Python	UnitaryManifold
+16	siqnole/bpp	0	2026-05-21	2026-03-09	37780	false	false	C++	bronx bot in D++
+16	SurmountSystems/systems-lean	8	2026-10-18	2026-07-21	12678	false	false	Lean	Freestanding high assurance Lean 4 implemented with no runtime GC and linear type multiplicities, co
+16	LeanPool/lean-pool	141	2026-10-22	2026-05-09	220361	false	false	Lean	-
+15	tothedarktowercame/futon2	1	2026-10-23	2025-11-12	69701	false	false	Clojure	AIF ants in clojure
+15	ktynski/church-of-coherence	0	2026-03-16	2026-03-16	483	false	false	Lean	Church of Coherence — Where All Paths Converge. Website + formal Lean proof work.
+15	girving/aks	6	2026-07-16	2026-03-06	17394	false	false	Lean	Seiferas's simplified construction of the AKS O(log n) depth sorting network, formalised in Lean
+15	elementalcollision/leibniz-daemon	1	2026-10-13	2026-06-21	4975	false	false	Python	Leibniz agent daemon — Calculemus. Discovers novel, tractable, kernel-proven theorems; LLMs propose,
+15	Verified-zkEVM/evm-asm	58	2026-10-22	2026-02-06	95944	false	false	Lean	-
+15	VarunVejalla/sorting-network	1	2026-10-20	2026-09-27	24079	false	false	Lean	Sorting network project
+13	petersm3/roae	2	2026-10-23	2025-07-12	110983	false	false	Python	Received Order Analysis Engine (ROAE) of the King Wen sequence
+13	lfglabs-dev/lido-srv3-proof-closure	0	2026-09-22	2026-06-22	40424	false	false	Lean	Private Lido SRv3 formal methods final report package
+13	gersh/ternary-goldbach-lean	6	2026-09-02	2026-07-16	68480	false	false	Lean	A Lean 4 formalization of the ternary (weak) Goldbach theorem, with an explicit audited finite and c
+13	fw-ai/nexus-cli	56	2026-10-23	2026-06-12	2062	false	false	JavaScript	Use Fireworks AI models in Claude Code, Codex, Cursor, VS Code, Copilot, and other coding agents.
+13	cirosantilli/formalsw	0	2026-10-23	2026-07-07	615	false	false	Lean	Formally prove properties of Python code with the Lean proof assistant.
+13	Verified-zkEVM/clean	205	2026-10-23	2024-08-01	51139	false	false	Lean	Lean circuit DSL
+12	emberian/dregg	38	2026-10-02	2026-05-20	712835	false	false	Lean	Distributed object-capability authorization with ZK proofs
+11	eliottcassidy2000/math	6	2026-10-23	2026-03-05	1335592	false	false	Python	-
+11	competemath/emissary-archangel	1	2026-10-22	2026-09-12	2505187	false	false	Lean	Translates verified Lean theorems into the Tengoku tree: Leak IV compile gate + Archangel kernel-che
+11	CBirkbeck/AINTLIB	7	2026-10-23	2026-06-09	107860	false	false	Lean	Atlas of formalised number theory in Lean (Verso blueprint)
+10	umpolungfish/mOMonadOS	3	2026-10-21	2026-06-10	100094	false	false	Lean	m⊙²: The Self-Imscribing Bare-Metal Kernel — a Rust OS with no processes, scheduler, or filesystem h
+10	dappalumbo91/FSOT-2.1-Neural	1	2026-10-02	2026-07-18	7607	false	false	Python	FSOT 2.1 micro-neuron / neural substrate: GPU-CPU batch, Allen bio lock, failure boundaries, Morse+c
+10	Tahlor/rsa-factorization-paper-portfolio	0	2026-05-27	2026-05-27	9118	false	false	Python	LaTeX paper portfolio for RSA factorization research artifacts.
+10	SimonVitzethum/Gabbro	0	2026-10-23	2026-08-13	98521	false	false	Lean	-
+9	zblore/csd-lean4	4	2026-10-22	2026-03-27	36802	false	false	Lean	Lean 4 formalisation of a deterministic reconstruction of finite-dimensional quantum mechanics: the 
+9	vasnesterov/Lean4trace	1	2024-07-19	2024-07-19	1111915	false	false	Lean	-
+9	transreal/LeanAssist	0	2026-10-21	2026-10-17	2352	false	false	Lean	Lean 4 assisted proofs from the Wolfram Language: Mathematica computes certificates (Groebner cofact
+9	leanprover/lean4-ci-test	0	2024-05-11	2024-04-22	1231251	false	false	Lean	A copy of the lean4 repository to test changes to the repository and CI setup
+9	justrach/codegraff	301	2026-10-23	2026-06-14	89920	false	false	Zig	graff — a fast agentic coding harness in Zig: multi-provider, MCP, workflows, DGM evolution loop, TS
+9	cosmosapjw-quantum/htt_base	0	2026-10-23	2026-07-17	3358071	false	false	Python	-
+9	Saleh1967/Mashru	0	2026-10-22	2026-10-15	10112	false	false	Lean	Mantoq to mafhoum 
+8	szl-holdings/lutar-lean	0	2026-10-22	2026-05-12	4532	false	false	Lean	Lean 4 + Mathlib formalization of the Λ aggregator — Λ uniqueness as Conjecture 1 (not a closed theo
+8	straylight-archive/PURESCRIPT_FORGE	0	2026-02-09	2026-01-30	140678	false	false	PureScript	A fork of opencode written in PureScript and Haskell with lean4 theorems
+8	strata-org/Strata	281	2026-10-23	2025-07-23	97440	false	false	Lean	-
+8	lecopivo/NumLean	5	2026-08-25	2026-06-07	1322	false	false	Lean	Library for numerical linear algebra in Lean 4
+8	inaciovasquez2020/zero_day_restricted_closures	0	2026-10-20	2026-07-06	1807	false	false	Lean	Conditional Zero Day restricted closure boundary surfaces
+8	epoch-research/LeanOpenProblems-results	1	2026-09-16	2026-08-10	389418	false	false	Lean	-
+8	bjoernkjoshanssen/clfa	0	2026-09-27	2026-09-27	515	false	false	Lean	Lean 4 code for representing L_7 and #61 as congruence lattices of finite algebras
+8	Yasuo-Higano/Quantum-Relational-Network	0	2026-08-12	2026-07-03	13004	false	false	Rust	量子情報網理論(Quantum Relational Network, QRN)の研究
+8	ActiveInferenceInstitute/fep_formal	6	2026-10-23	2026-04-14	37631	false	false	Python	Standalone catalog of formally verified theorems spanning the Free Energy Principle, Active Inferenc
+7	typednotes/linen	6	2026-10-04	2026-06-16	9293	false	false	Lean	Lean Standard Library
+7	spitters/ParamTransfer	1	2026-10-12	2026-06-22	329	false	false	Lean	Relational proof transfer in Lean 4 — a confluence of parametricity (Trocq), congruence closure, fun
+7	ormastes/simple	2	2026-10-23	2026-03-08	1542308	false	false	Rust	Self-hosted programming language and toolchain with Python-like syntax, native compilation, integrat
+7	danbri/factoidal-core	0	2026-10-23	2026-08-27	57163	false	false	Lean	factoidal-core
+7	FormalizedFormalLogic/goodstein-independence	4	2026-10-06	2026-07-02	5277	false	false	Lean	EXPERIMENTAL: Kirby-Paris Theorem formalized in Lean 4
+7	Arthur742Ramos/Metatheory	8	2026-09-01	2025-12-08	1698	false	false	Lean	-
+6	tom7/noperts	7	2026-10-17	2026-10-09	33407	false	false	Lean	Reproducible nopert proofs
+6	nickgou-nuke/info-geometry-lean	1	2026-10-23	2026-02-12	480219	false	false	Lean	-
+6	meta-introspector/erdfa-publish	0	2026-04-01	2026-03-18	8274	false	false	Rust	Semantic UI components as CBOR shards with Conformal Field Tower text decomposition
+6	lean-dojo/FloatLib	71	2026-10-23	2026-09-14	67938	false	false	SMT	Arbitrary verified fast precision floating point arithmetic in Lean, with proofs, optimized backends
+6	kturkoglu0701/jacobian_conj	0	2026-08-27	2026-08-26	2811	false	false	Lean	-
+6	kern-project/kern	49	2026-07-12	2026-03-07	9441	false	false	Rust	A systems programming language for kernels, firmware, and freestanding software.
+6	gobbleyourdong/open_problems	4	2026-06-19	2026-04-09	61047	false	false	Python	OPEN PROBLEMS WANT TO STAY OPEN
+6	ekg/typelean	0	2026-07-09	2026-07-07	171	false	false	Lean	-
+6	alexwelcing/lupine-rhizo	0	2026-10-17	2026-06-18	73136	false	false	Forth	The Lupine science root system: Lean/Rust experiments, MLIP loops, evidence generation, agents, and 
+6	KitaKen1/erdos-404-p2-landscape	0	2026-07-07	2026-07-07	154	false	false	HTML	Exact p=2 landscape for Erdős Problem #404: values of f(a,2) for 1≤a≤256, including the spike f(34,2
+6	Jiyuan-Tan/CausalSmith	72	2026-10-12	2026-07-20	112251	false	false	Lean	A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference
+6	CharlesHoskinson/jolt-tla	8	2026-01-10	2026-01-09	935	false	false	Lean	Formal specification for Jolt zkVM continuations: Prose spec (requirements) + TLA+ (model checking) 
+5	spitters/hax-lean	3	2026-10-22	2026-02-23	1990	false	false	Lean	Verified hax compiler phases in Lean 4: AST, semantics, 4 phases, end-to-end pipeline correctness
+5	lean-ja/lean-by-example	192	2026-10-20	2023-09-15	4391	false	false	Lean	コード例で学ぶ Lean 言語
+5	jmikedupont2/solfunmeme-introspector	1	2026-03-25	2025-04-28	8124	false	false	Lean	-
+5	danbri/factoidal	2	2026-10-22	2026-03-05	20565872	false	false	Lean	Factoidal KGX toolkit
+5	bergmannjg/regex	20	2026-10-16	2024-01-12	1141	false	false	Lean	A PCRE2 compatible regular expression engine written in Lean 4.
+5	SmallAIOS/SmallAIOS	2	2026-10-17	2026-02-10	6450	false	false	Rust	-
+5	SamuelSchlesinger/complexitylib-v1	29	2026-10-22	2026-03-06	17736	false	false	Lean	Legacy Complexitylib V1; development continues at cslib-community/complexitylib.
+5	NewYorkImperialist/heptagon-intersections	0	2026-10-18	2026-09-13	19874	false	false	Lean	Candidate computer-assisted proof that f(7,7)=38, the maximum number of boundary intersections of tw
+5	HrushikeshPawar/openenv-lean-migrate	0	2026-07-02	2026-04-08	2679	false	false	Python	-
+5	BoltonBailey/moser	0	2026-09-10	2026-02-06	1503	false	false	Lean	-
+5	BeniersD/Apeiron	1	2026-05-15	2026-04-18	254620	false	false	Python	Apeiron
+5	AlexandervonWu/ACGN	0	2026-10-17	2024-07-02	572704	false	false	Alloy	ACGN: Alloy Code Generative Network Lab code & misc. 
+4	yhu1729/tutorial-lean	0	2026-10-04	2026-10-04	93	false	false	Lean	Lean tutorials
+4	unbalancedparentheses/lean4-baremetal	3	2026-03-09	2026-03-08	265	false	false	Lean	Lean 4 freestanding runtime for bare-metal targets. Run verified Lean programs directly on hardware.
+4	teal-sea/zeta-lab	6	2026-10-22	2026-08-02	121973	false	false	Lean	Computational number theory and Lean 4 formalization around the Riemann zeta function: a kernel-chec
+4	plasma-ai/erdos	15	2026-10-19	2026-10-08	88162	false	false	Python	An open record of the Erdős problems.
+4	matt-w-horn/overload	1	2026-10-22	2026-07-28	1136	false	false	Lean	Lean 4 + Mathlib formalization of retry amplification and congestion collapse over fixed capacity
+4	longyi1207/score-seeking-eval	0	2026-09-26	2026-08-28	13170	false	false	Python	Reward-hacking / score-seeking propensity eval for LLM agents on long-horizon tasks (AD ranges + con
+4	kim-em/hex-dev	22	2026-10-22	2026-04-22	462638	false	false	Lean	Development monorepo for Hex: verified computational algebra in Lean 4 (polynomial factoring, LLL, a
+4	justinlietz93/Taoism-Mathematics-Research-Project-Internal	0	2026-07-12	2026-06-24	666807	false	false	Jupyter Notebook	A collection of research artifacts exploring Phase Calculus and connections to Taoist texts and rela
+4	htlou/veriop	0	2026-10-16	2026-10-02	250884	false	false	LLVM	-
+4	hacker6284/cryptoys	0	2026-10-22	2026-09-23	31860	false	false	Lean	Toy cryptography algorithms
+4	grapheneaffiliate/e8-phi-constants	0	2026-09-18	2026-01-12	5529	false	false	Python	58 fundamental constants derived from E₈ → H₄ icosahedral geometry with zero free parameters — inclu
+4	brettkoonce/lean4-mlir	46	2026-10-23	2026-04-03	250240	false	false	MLIR	Lean specification of neural architectures with verified GPU codegen.
+4	alexwelcing/lupine	2	2026-10-16	2026-04-15	1747344	false	false	Forth	materials 
+4	Verilean/sparkle	158	2026-10-20	2026-01-16	23287	false	false	Lean	A type-safe, formally verifiable HDL compiler in Lean 4. Inspired by Clash, built for high-assurance
+4	Verified-zkEVM/CompPoly	48	2026-10-20	2025-10-22	4138	false	false	Lean	Computable Polynomials in Lean.
+4	V-Sekai-fire/interactor-weft	1	2026-10-10	2026-08-09	4107	false	false	Elixir	-
+4	V-Sekai-fire/interactor-tool-godot-curvenet	1	2026-10-16	2026-05-09	70736	false	false	Makefile	Pixar-style CurveNet profile-curve deformer for Godot, with on-the-fly tri-to-quad fusion via LEMON 
+4	V-Sekai-fire/interactor-flow	2	2026-10-19	2026-05-23	4716	false	false	C++	-
+4	V-Sekai-fire/entities-order-independent-transparency	0	2026-10-05	2026-09-17	76	false	false	GDScript	A test stack that draws the engine's froxel order-independent transparency and checks it against sor
+4	The-Last-Math-Competition/The-Last-Math-Competition	74	2026-10-19	2026-09-11	304979	false	false	Lean	-
+4	Sounio-lang/pireus	0	2026-09-28	2026-09-24	1486	false	false	Python	PIREUS: Autonomous operator foundry, hardware-capability ontology, and verifiable reinforcement lear
+4	Seasawher/test-for-lean-update	0	2025-11-24	2025-09-19	3317	false	false	Lean	this is test for lean-update action (big issue body)
+4	Provenance-Works/Radix	0	2026-07-06	2026-03-14	2068	false	false	Lean	-
+4	Pauli-Group/Hegemon	16	2026-10-14	2025-11-15	628799	false	false	Lean	Quantum resistant and private blockchain
+4	JamesPagetButler/QBP	1	2026-10-23	2026-02-01	19538	false	false	Python	Quaternion-Based Physics: A collaborative research project
+4	Flaman55/StructuralSieve	0	2026-10-02	2026-09-21	946	false	false	Lean	-
+3	verse-lab/veil	344	2026-10-23	2025-02-01	52998	false	false	Lean	A verifier for automated and interactive proofs about transition systems.
+3	theoriclabs/t-grad	3	2026-07-30	2026-06-30	3255	false	false	Lean	-
+3	tejasvi/smale6-six-bodies-generic-v4	0	2026-10-19	2026-10-19	58591	false	false	Lean	Programs, certificates and the Lean 4 formalization for the paper: Smale's sixth problem for six bod
+3	tejasvi/smale6-six-bodies-generic-v3	0	2026-10-18	2026-10-18	56292	false	false	Lean	Programs, certificates and the Lean 4 formalization for the paper: Smale's sixth problem for six bod
+3	tejasvi/smale6-six-bodies-generic-v2	0	2026-10-17	2026-10-17	33342	false	false	Lean	Programs, certificates and the Lean 4 formalization for the paper: Smale's sixth problem for six bod
+3	tejasvi/smale6-six-bodies-generic	0	2026-10-17	2026-10-17	32545	false	false	Lean	Programs, certificates and Lean 4 checks for the paper: Smale's sixth problem for six bodies in the 
+3	tejasvi/bhh-constant-bound-v7	0	2026-10-22	2026-10-22	7058	false	false	Lean	Checker, programs, logs and Lean proofs for the lower bound 0.6508 for the Beardwood-Halton-Hammersl
+3	tejasvi/bhh-constant-bound-v6	0	2026-10-22	2026-10-22	7494	false	false	Lean	Checker, programs, logs and Lean proofs for the lower bound 0.6508 for the Beardwood-Halton-Hammersl
+3	tejasvi/bhh-constant-bound-v5	0	2026-10-22	2026-10-22	12554	false	false	Lean	Checker, programs, logs and Lean proofs for the lower bound 0.6508 for the Beardwood-Halton-Hammersl
+3	taeyool/lean-flag-algebras	8	2026-10-14	2024-09-09	82818	false	false	Lean	-
+3	sidprasad/spytial-lean	2	2026-09-14	2026-04-08	3263	false	false	Lean	Spytial integration for Lean 4 — visualize data structures as spatial diagrams in the VS Code infovi
+3	shrec/UltrafastSecp256k1	59	2026-10-22	2026-02-02	799192	false	false	C++	Ultra high-performance secp256k1 ECC engine | Python, Node.js, Rust, Go, C#, Swift, Java bindings | 
+3	sharmaeklavya2/lean-projects	0	2026-08-18	2026-06-16	369	false	false	Lean	A collection of my personal lean projects
+3	sahibzada-allahyar/Formal-Verification-RSI	2852	2026-10-22	2025-02-22	10334	false	false	Python	Formal verification for AI: a Lean 4 + Dafny proof checker that catches fake AI proofs (reward hacki
+3	rue-language/rue	1216	2026-10-22	2025-06-05	259207	false	false	Rust	A programming language that is higher level than Rust but lower level than Go. Someday, anyways.
+3	rudi-cilibrasi/leanos	16	2026-10-19	2026-07-14	17859	false	false	Lean	experimental LeanOS formally verified OS
+3	rollroyces/erdos-125	0	2026-09-13	2026-09-07	1338	false	false	Lean	Lean 4 + Mathlib4 progress on Erdős #125 (sumset / density). Main theorem verified, log 3/log 4 irra
+3	py2many/py2many	1339	2026-10-22	2021-01-24	2721	false	false	Python	Transpiler of Python to many other languages
+3	project-numina/kakeya-3d	31	2026-09-09	2026-09-08	6070	false	false	Lean	-
+3	phibkro/bang	1	2026-08-24	2026-06-24	53471	false	false	Lean	-
+3	ndbroadbent/lean_experiment	1	2026-01-06	2025-12-13	814	false	false	Lean	Learning how to use Lean to verify a simple Rust program
+3	nasa-jpl/PropertyKindCalculus	11	2026-10-23	2026-09-17	54850	false	false	Lean	A Lean 4 formalization of René Dybkær's An Ontology on Property for Physical, Chemical, and Biologic
+3	nasa-jpl/L4YAML	12	2026-10-23	2026-04-19	61391	false	false	Lean	A YAML 1.2.2 parser in Lean 4 with the goal of **verified correctness**
+3	motanova84/P-NP	1	2026-10-15	2025-10-10	44531	false	false	Python	El repositorio P-NP proporciona un marco investigativo original, sólido, y potencialmente revolucion
+3	leanprover/downstream-lean4	6	2026-10-22	2026-05-08	119111	false	false	Lean	A collection of packages downstream of Lean 4.
+3	leanprover/con-leche	140	2026-10-21	2026-08-19	92749	false	false	Lean	An external lean checker with a proof of consistency
+3	leanprover-community/mathlib4	4342	2026-10-23	2021-05-09	518940	false	false	Lean	The math library of Lean 4
+3	kristianmk/839	0	2026-10-09	2026-10-04	4453	false	false	Lean	-
+3	ken-okabe/8bit-theory	0	2026-02-28	2014-06-28	26084	false	false	HTML	It from 8-Bit: Standard Model Parameters, Gauge Unification, and Λ>0 de Sitter Cosmology from E8 Non
+3	jagg-ix/zil-lean	34	2026-10-23	2026-07-27	1170	false	false	Clojure	Zil lang DSL for Lean 4
+3	jagg-ix/catept-main	0	2026-05-28	2026-04-20	39277	false	false	Lean	Nagao-Nielsen Complex Action  - Entropic Time Lean4 formalization
+3	hanwenzhu/wang_zahl_kakeya_dimH	0	2026-09-15	2026-09-15	22100	false	false	Lean	Formalization of the Kakeya conjecture in R^3 (Wang--Zahl) for lean-eval submission
+3	evanlhatch/lean-rust-wasm	0	2026-10-07	2026-09-08	6423	false	false	Lean	Lean schema language → WASM components → Rust host. Proofs at compile time, byte-tie codegen, kernel
+3	etheorem/etheorem	31	2026-10-19	2026-05-23	6586	false	false	Lean	A Lean 4 implementation of the Ethereum consensus specification for the Fulu, Gloas, Heze forks.
+3	erpax/erpax	3	2026-10-03	2026-05-07	202453	false	false	TypeScript	quantum computer content-addressed in trinities double-entry ledger runnable on any 64bit hardware.
+3	dwrensha/NopertTriakisTetrahedron	4	2026-10-13	2026-10-08	2508	false	false	Lean	proof that the 11/20 Triakis Tetrahedron does not have the Rupert property
+3	dappalumbo91/FSOT-Quantum	1	2026-10-02	2026-08-11	1991	false	false	Python	FSOT alternative quantum computing on GPU — trinary spins, pin D1D38A, zero free parameters. Runtime
+3	danbri/wikifn-fstar	0	2026-09-08	2026-08-13	52181	false	false	Lean	wikifunctions.org and F*
+3	ceccec/millennium-solutions	2	2026-10-23	2026-08-06	27920	false	false	TeX	ℤ/9 vortex framework + classical quantum-algorithm — recomputable, self-auditing proof of concept. F
+3	cahlen/idontknow	0	2026-07-22	2026-03-28	118335	false	false	Cuda	GPU-accelerated computational mathematics: Zaremba's Conjecture (A=5) proof via 210B brute force + M
+3	brando90/free-energy	1	2026-09-14	2026-04-25	89658	false	false	Python	The transformer is a local optimum. Softmax and the partition function are design choices, not facts
+3	blentz/artifactsmmo	1	2026-10-20	2024-07-30	29927	false	false	Python	ArtifactsMMO AI Player
+3	batmeezy918/Speedup	0	2026-10-22	2026-09-08	31097	false	false	Python	All verified Proven. Silicon speedups/ and Optimzer 
+3	argumentcomputer/Blake3.lean	9	2026-10-22	2021-10-08	193	false	false	Lean	Lean4 bindings to Blake3
+3	andyprevalsky/auto-math	0	2026-07-26	2026-07-26	89480	false	false	Lean	-
+3	adpena/molt	8	2026-10-23	2026-01-02	554742	false	false	Python	High-performance Python subset compiler for native binaries and WASM.
+3	aburan28/crypto-lean	0	2026-10-19	2026-10-16	52	false	false	Lean	Shared Lean 4 library and proof gate for crypto, cryptanalysis and crypto-autoresearcher
+3	YellowKidokc/AI-CREW	0	2026-08-12	2026-07-21	2567	false	false	HTML	-
+3	VladimirReshetnikov/Shenanigans	5	2026-08-21	2026-07-31	1972	false	false	Rocq Prover	Every known way to get a proof of False accepted in Lean 4 and Rocq/Coq, organised by what the route
+3	Verified-zkEVM/riscv-zkvm	12	2026-10-22	2026-08-25	1019	false	false	Lean	Lean extraction of the Sail RISC-V specification for verified zkVM projects
+3	V-Sekai/TOOL_cloth_dynamics	10	2026-05-15	2022-10-17	270439	false	false	C++	-
+3	V-Sekai-fire/interactor-drape	0	2026-10-18	2026-09-30	473	false	false	C++	The drape stage as a godot-sandbox guest: AVBD cloth from Lean kernels on the CPU and on RenderingDe
+3	TristenHarr/thegoldenalgebra	2	2026-07-03	2025-06-14	59576	false	false	Lean	-
+3	TheDarkLightX/ZenoDEX	0	2026-10-09	2025-12-20	79815	false	false	Python	Decentralized autonomous exchange for Tau Net. 
+3	Raoof128/Project-Simurgh	3	2026-10-23	2026-05-03	36846	false	false	JavaScript	Sovereign Shield for AI integrity: capture-evasion detection, metadata-only proofs, audit receipts, 
+3	QinxiangCao/QualifiedCProgramming	49	2026-10-15	2026-03-28	307764	false	false	Rocq Prover	QCP (Qualified C Programming), a C program verification tool
+3	PoorlyDefinedBehaviour/lean4-study	0	2026-06-24	2024-02-01	105	false	false	Lean	-
+3	O6lvl4/lean-lang-sandbox	0	2026-02-24	2026-02-23	90	false	false	Lean	Lean 4 learning sandbox with step-by-step tutorials in Japanese
+3	MosesRahnama/The-Orientation-Boundary	1	2026-10-21	2026-09-18	5223	false	false	Lean	The Orientation Boundary Research Program Public Repository
+3	M32026/3d-sticky-kakeya	37	2026-09-08	2026-09-07	26221	false	false	Lean	-
+3	CharlesHoskinson/defiformal	1	2026-09-20	2026-08-05	863897	false	false	Lean	An algebra of mechanism composition for decentralised finance: 58 mechanisms, 72 protocols, and what
+3	COINjecture-Network/COINjecture2.0	1	2026-08-04	2026-03-28	80170	false	false	Rust	Mathematics-Backed Peer to Peer Network — Rust node, marketplace, Lean 4 verified math
+3	AlexenderSokolov/cross-theory-formal-database	1	2026-10-21	2026-09-29	9361594	false	false	TeX	-
+3	AhmedMostafa16/adjquad	0	2026-10-01	2026-10-01	1660	false	false	Lean	-
+2	zcash/ironwood	22	2026-10-22	2026-06-09	29623	false	false	Lean	Formal Verification of the Zcash Protocol and Documentation for the Ironwood Pool
+2	yokoyama-lab/small-machine-zoo	0	2026-10-10	2026-10-10	1687	false	false	Lean	-
+2	yihuang/lean4-tactics	0	2026-06-24	2026-06-23	83	false	false	Lean	Interactive, executable documentation for Lean 4 tactics.
+2	ycmath/price-of-not-on-d4	0	2026-08-10	2026-08-04	1036	false	false	Lean	The Price of NOT on D4 — exact negation complexity nu(f)=dec(f) on the resolved face; paper + Lean 4
+2	ycmath/odd-flat-selector-count	0	2026-08-10	2026-08-10	341	false	false	TeX	Exact selector counting on the odd flat carrier — refutation of the linear routing law and the count
+2	ycmath/finite-energy-epistemic-logic	0	2026-08-10	2026-08-04	574	false	false	TeX	Finite-Energy Epistemic Logic with Conservative Pointed Extension and Negation Geometry — paper + Le
+2	ycmath/dual-rail-crown	0	2026-08-10	2026-08-10	354	false	false	Lean	The resolved-face crown of the dual-rail carrier — self-dual completeness, the exact count 2^(2^(n-1
+2	xy7365527-lang/NewChanlun	1	2026-10-21	2026-02-05	550298	false	false	Rust	-
+2	umpolungfish/MillenniumAnkh	1	2026-06-01	2026-03-28	22888	false	false	HTML	Primitives Become Lean4 Inductive Types    |    Lattice Operations Become Machine-Verified Theorems 
+2	ucsd-salad/OLIVE	0	2026-10-20	2026-01-25	10878	false	false	Python	Research on how LLM and AI can be verified when making medical decisions in triage and first aid sit
+2	tejasvi/sortnet13-two-value-v5	0	2026-10-20	2026-10-20	24151	false	false	Lean	Programs, logs, independent checks and Lean proofs for the paper 'Sorting networks on 13 inputs need
+2	tejasvi/rank333-f2	1	2026-10-08	2026-10-08	221241	false	false	Lean	Programs, data and Lean formalization: the rank of 3x3 matrix multiplication over F2 is 23
+2	tejasvi/bhh-constant-bound-v4	0	2026-10-21	2026-10-21	10227	false	false	Lean	Checker, programs, logs and Lean proofs for the lower bound 0.6508 for the Beardwood-Halton-Hammersl
+2	teerthsharma/Aether-Lang	11	2026-10-22	2026-01-22	4150	false	false	Rust	Aether-Lang: Rust runtime for topological ML — manifold embeddings, persistent homology, Lean 4 veri
+2	suyc24/DL-project	0	2026-06-05	2026-05-01	56044	false	false	Python	-
+2	sun123zxy/ninegates-lean4	1	2026-10-21	2026-09-02	1191	false	false	Lean	Classification of full-sided waits and uniqueness of the Nine Gates (九蓮宝燈) live full-sided wait in t
+2	spitters/CatCrypt-core	6	2026-10-22	2026-04-23	5836	false	false	Lean	Core of Catcrypt
+2	shntnu/expected_ap	0	2026-10-10	2025-09-07	1991	false	false	Lean	Exact mean and variance of average precision under random ranking, with Lean proofs and a reproducib
+2	schmittj/prop51-formal	0	2026-06-25	2026-06-20	6921	false	false	Lean	Formally verified (Lean 4 + Mathlib) proof of the Chen–Larson Proposition 5.1 coefficient negativity
+2	roed-math/gq2-lean	3	2026-10-19	2026-07-03	20740	false	false	Lean	AI assisted lean proof of an explicit presentation for the absolute Galois group of Q2.
+2	rhennigan/LeanTesting	0	2026-01-13	2026-01-13	20	false	false	Lean	-
+2	phiferd/lean-assurance-lab	0	2026-10-21	2026-08-23	191759	false	false	Lean	-
+2	pandaman64/Tables	8	2026-05-01	2026-04-29	122	false	false	Lean	-
+2	oxidecomputer/rumors	8	2026-10-21	2026-04-13	113008	false	false	Rust	-
+2	momonpya/eggshell	26	2026-10-23	2026-08-29	14092	false	false	Lean	Local memory for Codex. Reuse work across chats without LLM calls to organize it.
+2	moggedhedien/rimalloc	28	2026-06-15	2026-06-15	304	false	false	Rust	A pure-Rust port of mimalloc — Lean-verified arithmetic, loom-modeled concurrency, fuzzed, and bench
+2	mkaratarakis/mathlibtest	0	2025-11-22	2023-07-13	271190	false	false	Lean	Work in progress mathlib port for lean 4
+2	mizchi/formal-methods-playground	10	2026-10-05	2026-07-03	539	false	false	Alloy	Playground for comparing formal methods tools on realistic app-engineering cases
+2	meta-introspector/lean-worker	6	2026-10-14	2026-09-17	6534	false	false	C	a lean mean worker in lean mean lean
+2	meta-introspector/dashi_lean4	1	2026-03-23	2026-03-22	22	false	false	Lean	Lean4 proofs: moonshine earning, phase transition from Agda via perf side channel
+2	math-proof/lemma	4	2026-10-23	2025-10-02	159139	false	false	Lean	This is Lean4 project for machine/deep/reinforcement learning 
+2	lnds/kaikai	2	2026-10-23	2023-06-19	68406	false	false	C	KaiKai programming language
+2	leonardopedro/timepiece	0	2026-10-22	2023-04-04	40285	false	false	Lean	-
+2	leemiracle/work4ai	2	2026-09-09	2026-07-31	368396	false	false	Python	-
+2	leanprover-community/physlib	805	2026-10-23	2024-04-16	20570	false	false	Lean	A project to digitalise results from physics into Lean.
+2	konard/p-vs-np	3	2026-10-07	2025-10-13	18740	false	false	Rocq Prover	Experiment to prove/disprove P ? NP
+2	jessealama/thales	67	2026-10-12	2026-04-23	765	false	false	Lean	TypeScript compiler and JavaScript engine in Lean
+2	ilblackdragon/near-proof-arena	1	2026-10-23	2026-10-03	331110	false	false	Lean	NEAR Proof Arena: judge + leaderboard for formally certified NEAR state-transition provers
+2	gvakhrushev/d0_15	0	2026-10-23	2026-06-06	54363	false	false	Lean	-
+2	gersh/mathlib-bonsai	1	2026-08-07	2026-08-05	27174	false	false	Lean	Cultivating smaller Mathlib proofs in search of THE BOOK
+2	fairflow/lax-logic-in-lean	2	2026-10-22	2025-05-15	16045	false	false	Lean	-
+2	endomorphosis/ipfs_datasets_py	24	2026-10-23	2024-04-07	3650792	false	false	Python	a decentralized dataset generator and manipulator.
+2	emberian/dragons-clutch	0	2026-09-26	2026-08-18	83930	false	false	Rust	permissionless protocol for fully collateralized, liquidation-free claims over objective onchain fac
+2	duong-ngo/mathlib4	0	2026-02-28	2026-01-05	316317	false	false	Lean	The math library of Lean 4
+2	cslib-community/complexitylib	5	2026-10-23	2026-10-15	29017	false	false	Lean	Computational complexity theory in Lean built on top of CSLib.
+2	coproduct-opensource/nucleus	22	2026-10-22	2026-01-31	263852	false	false	Rust	Enforced permissions for AI agents - policy + enforcement in one stack
+2	clocksmith/doppler	3	2026-10-22	2025-12-24	1508547	false	false	JavaScript	Zero-dependency JS+WGSL runtime for AI workloads
+2	cirosantilli/project-euler-statements	0	2026-10-20	2025-12-17	8231	false	false	HTML	Problem statements for Project Euler problems, downloaded and convert to Markdown format for your fa
+2	cedar-policy/cedar-spec	217	2026-10-22	2023-04-25	11194	false	false	Lean	Definitional implementation of Cedar language and utilities for DRT
+2	briangmilnes/ScottLean4	0	2026-08-21	2026-07-31	222860	false	false	Lean	A setup on a mac for an LLM and Lean4 for Dana Scott
+2	asarkar17812/qsd_response_geometry_public	0	2026-06-26	2026-06-17	2085	false	false	Jupyter Notebook	Live in Cuba (2015)...
+2	argumentcomputer/ix	105	2026-10-22	2025-01-31	133961	false	false	Rust	a zero-knowledge proof-carrying code protocol for Lean 4
+2	anoma/lean-risc0-init	0	2025-10-31	2025-10-29	1258	false	false	Lean	Lean4 Init library for RISC0
+2	alpaylan/cedar-etna	0	2026-06-23	2026-04-28	4779	false	false	Lean	ETNA workload built from cedar-policy/cedar-spec: 9 mutation+property+witness atoms exercising Cedar
+2	ai-openshell/cedar-spec	0	2026-10-13	2026-10-12	5568	false	false	Lean	-
+2	WyattAu/OmniLaTeX-template	0	2026-09-07	2025-06-23	18586	false	false	TeX	A LaTeX template design to provide a universal template matching formatting needs for different inst
+2	WillEhrendreich/SageFs	83	2026-10-23	2026-02-14	75759	false	false	F#	Sage Mode for F# development — REPL with solution or project loading, Live Testing for FREE, Hot Rel
+2	Verified-zkEVM/VCVio	165	2026-10-22	2024-03-11	65517	false	false	Lean	A Lean library for machine-checked cryptographic proofs.
+2	Verified-zkEVM/ArkLib	347	2026-10-22	2024-12-18	82368	false	false	Lean	Formally Verified Arguments of Knowledge in Lean
+2	V-Sekai-fire/interactor-tool-godot-curvenet-archive	0	2026-10-10	2026-05-10	49	false	false	C++	Retired algorithm specs and benches from TOOL_godot_curvenet. Tombstoned solver families (multilevel
+2	Theophilus1030/NeoMathlib	2	2026-07-28	2026-07-28	10121	false	false	Lean	-
+2	SurmountSystems/beastdb	2	2026-07-19	2026-07-15	877	false	false	Lean	High-assurance, high-performance embedded KV store in Systems Lean / Nix (wip)
+2	ReverseZoom2151/theoremata	3	2026-07-21	2026-07-06	5343	false	false	Rust	The AI mathematician that breaks conjectures before proving them, discharges every step inside a pro
+2	Pinperepette/signal.pirate	27	2026-08-23	2026-02-14	170446	false	false	HTML	-
+2	Nomos-N4s/nomos	4	2026-10-15	2026-07-11	14973	false	false	Python	Formal framework for self-governing AI — Neural Parliament, Ulysses Contracts, Identity Layer. Refer
+2	NgoiSigma/MetaHarmonyState-Millennium-Theorem	0	2026-10-11	2026-09-29	560	false	false	Lean	MetaHarmonyState Millennium Theorem
+2	NgoiSigma/Harmony-Development	0	2026-10-14	2024-09-11	532	false	false	Lean	Language based on Formal Dialectical Logic for resolving contradictions and system analysis
+2	Morten-Ness/Leaner	0	2026-04-06	2026-04-04	35047	false	false	Lean	-
+2	IT-Help-San-Diego/dns-tool-proofs	0	2026-08-18	2026-08-17	17	false	false	Lean	-
+2	FragileTech/hypostructure	0	2026-10-18	2026-08-04	123313	false	false	Lean	-
+2	EthereumPhone/PQ1	29	2026-10-23	2026-04-06	129234	false	false	eC	-
+2	Esummins/packing	0	2026-10-22	2026-09-01	2297296	false	false	Lean	-
+2	EmergenceAI/agenl	0	2026-05-22	2026-05-22	244	false	false	HTML	-
+2	DeSciX/EGPT	0	2026-10-23	2026-09-14	11625	false	false	HTML	Evidentiary base for the Rota report and the All-In update letter. Private by default.
+2	BobDyLean/dylean	22	2026-10-15	2025-07-30	396	false	false	Lean	DyLean, a framework for the symbolic analysis of cryptographic protocols
+2	BobDyLean/bobdylean-paper-artifact	2	2026-07-17	2026-07-17	152	false	false	Lean	Artifact for the paper "Bob DyLean: A Framework for the Symbolic Analysis of Cryptographic Protocols
+2	Beneficial-AI-Foundation/cedar-lean	0	2026-06-24	2026-06-24	1193	false	false	Lean	Lean formalization of, and proofs about, Cedar (derived from cedar-policy/cedar-spec)
+2	BatmansKitchen/bkctf-challenges-2026-public	3	2026-03-04	2026-02-25	100696	false	false	Python	The public repository for BKCTF Challenges, with writeups
+2	BasisResearch/VerifiedJS	9	2026-04-12	2026-03-08	86675	false	false	Lean	A vibe-slopped verified compiler maybe?
+2	Axiomatic-AI/mathlib4	0	2026-08-05	2026-05-08	379776	false	false	Lean	The math library of Lean 4
+2	AeneasVerif/aeneas	1090	2026-10-23	2021-11-02	20062	false	false	OCaml	A verification toolchain for Rust programs
+1	zksecurity/comppoly-rabin-replay-repro	0	2026-08-18	2026-08-17	107	false	false	Python	Minimal resource-bounded reproduction of the CompPoly Rabin cold-replay pathology
+1	zengjiajun0623/everett	1	2026-08-15	2026-08-13	5047	false	false	HTML	Ethereum's Everett branch: the counterfactual PoW chain where the Merge was never the plan. Constitu
+1	zariuq/ai-agents	4	2026-06-12	2025-10-15	91088	false	false	Gnuplot	-
+1	yokoyama-lab/periodic-tm	0	2026-10-11	2026-07-22	668	false	false	Lean	Periodic Turing machines: generalising involutory TMs — Python prototypes + Lean 4/mathlib proofs
+1	ylxdzsw/dlftk	0	2026-09-03	2026-06-17	217	false	false	Lean	DeadLock Formalizaition ToolKit
+1	ycmath/cohomological-price-of-not	0	2026-08-10	2026-08-03	338	false	false	Lean	The decrease invariant of negation complexity acquires a cohomological address: unique pricing chara
+1	yVieta/testing-the-agentic-stack_open-testing-agents	0	2026-10-15	2026-10-07	15337	false	false	Python	The lean solution from previuos commits from codeberg
+1	xunfeng1980/loom	0	2026-06-12	2026-06-07	8258	false	false	Rust	-
+1	wstrinz/plane-jacobian-72-108	0	2026-08-23	2026-07-23	16288	false	false	MAXScript	An independent structural proof excluding the (72,108) case of the plane Jacobian Conjecture (GGHV, 
+1	weiyangzen/awesome_theorems	3	2026-08-24	2026-04-05	194528	false	false	Python	-
+1	vzaliva/bc-lean	0	2026-06-13	2026-06-04	429	false	false	Lean	bc unix language formalized in Lean
+1	vnadendla1/frfp-formal-verification	0	2026-10-07	2026-07-01	15843	false	false	TeX	-
+1	vidick/MIPRE-formalization	5	2026-10-21	2026-07-22	39444	false	false	Lean	Lean 4 formalization of MIP* = RE (Ji, Natarajan, Vidick, Wright, Yuen)
+1	verse-lab/velvet	131	2026-10-21	2026-02-13	4022	false	false	Lean	An auto-active program verifier in Lean
+1	velvetmonkey/seal	0	2026-10-23	2026-07-05	9193	false	false	JavaScript	A local MCP approval gate for Claude Code: exact-call prompts, at-most-once approval, drift refusal,
+1	unorsk/chamelean	0	2026-09-29	2026-09-22	157	false	false	Lean	A library for Chameleon Ultra in Lean 4
+1	unitaryfoundation/stabrank	3	2026-10-21	2026-05-26	35635	false	false	Python	Tools for stabilizer-rank bounds on quantum magic states.
+1	unbalancedparentheses/concrete2	16	2026-10-23	2025-12-22	34864	false	false	Shell	Systems programming language designed for safe and predictable code, with semantics defined by a sma
+1	ttj/fmaiv	2	2026-05-29	2026-05-15	1164	false	false	Lean	Formal Methods & AI-Assisted Verification — course materials and setup
+1	tsuka-ryu/my-lean-book	0	2026-10-12	2026-09-19	62	false	false	Lean	-
+1	totobusnello/unit-gap-artefacts	0	2026-10-13	2026-07-27	20905	false	false	Python	Machine-checkable artefacts for refutations of Theorems 2 & 7 of arXiv:2603.08033 — DRAT certificate
+1	toolate28/LogOS	0	2026-10-22	2026-03-03	71164	false	false	Rust	LogOS A closed-loop cognitive Operating surface: written in Rust, deployed via self-verifying 'narro
+1	tomdif/RamanujanLean	0	2026-10-04	2026-05-02	1087	false	false	Lean	Lean 4 + Mathlib formalization of Ramanujan's τ. Computable τ : ℕ → ℤ via truncated Euler product; m
+1	todaymint/SCxML	0	2026-06-14	2025-12-01	179	false	false	Lean	Symblic Computation and Machine Learning
+1	thupa-pro/verax-core	0	2026-07-04	2026-07-04	665	false	false	Rust	Verax: mathematically sound digital provenance. Pure DAG, deterministic CBOR, CT-log anchoring, cryp
+1	thiagopatzdorf/Matematica	1	2026-10-15	2026-10-01	69858	false	false	Lean	A machine-checked ledger of covering-code upper bounds K_q(n,R), with formally certified exact entri
+1	thevilledev/ocaml-curve448	0	2026-09-26	2026-09-13	639	false	false	OCaml	X448 key agreement and Ed448/Ed448ph signatures for OCaml, with pure OCaml and C backends.
+1	the-omega-institute/automath	73	2026-08-28	2026-03-26	244265	false	false	TeX	LEAN4 AUTO YOUTUBE LIVING
+1	tejasvi/totally-positive-mahler-upper-v2	0	2026-10-21	2026-10-21	2306	false	false	Lean	Certificate, checkers and Lean proofs for an upper bound on the smallest limit point of the absolute
+1	tejasvi/totally-positive-mahler-measure-v2	0	2026-10-21	2026-10-21	725	false	false	Lean	Certificate, checkers and Lean proof for a lower bound on the smallest limit point of the absolute M
+1	tejasvi/sortnet13-two-value-v4	0	2026-10-20	2026-10-20	14645	false	false	Lean	Programs, logs, independent checks and Lean proofs for the paper 'Sorting networks on 13 inputs need
+1	tejasvi/schur-siegel-smyth-trace-bounds	0	2026-10-21	2026-10-21	1502	false	false	Lean	Certificates, checkers and Lean proofs for upper and lower bounds on the Schur–Siegel–Smyth trace co
+1	tejasvi/rank333-f2-kernel	0	2026-10-12	2026-10-12	182872	false	false	Lean	Kernel-only Lean 4 proof: the rank of 3x3 matrix multiplication over F2 is 23
+1	tejasvi/maximum-term-bound-v3	0	2026-10-22	2026-10-22	40700	false	false	Lean	Certificates, checkers and Lean proof for an explicit bound below 2/π for the maximum term of an ent
+1	tejasvi/maximum-term-bound-v2	0	2026-10-21	2026-10-21	24331	false	false	Lean	Certificates, checkers and Lean proof for an explicit bound below 2/π for the maximum term of an ent
+1	tejasvi/autocorrelation-lower-bounds-v8	0	2026-10-22	2026-10-22	63030	false	false	Lean	Certificates, checkers and Lean proofs for lower bounds on the first and the signed third autocorrel
+1	tejasvi/autocorrelation-lower-bounds-v7	0	2026-10-22	2026-10-22	59884	false	false	Python	Certificates, checkers and Lean proofs for lower bounds on the first and the signed third autocorrel
+1	tejasvi/autocorrelation-lower-bounds-v6	0	2026-10-22	2026-10-22	59883	false	false	Python	Certificates, checkers and Lean proofs for lower bounds on the first and the signed third autocorrel
+1	tejasvi/autocorrelation-lower-bounds-v5	0	2026-10-21	2026-10-21	59710	false	false	Python	Certificates, checkers and Lean proofs for lower bounds on the first and the signed third autocorrel
+1	tejasvi/areal-mahler-measure-v8	0	2026-10-22	2026-10-22	21897	false	false	Lean	Certificates, checkers and Lean proofs for bounds on the smallest limit point of the areal Mahler me
+1	tejasvi/areal-mahler-measure-v4	0	2026-10-21	2026-10-21	14020	false	false	Lean	Certificates, checkers and Lean proofs for bounds on the smallest limit point of the areal Mahler me
+1	tejasvi/areal-mahler-measure-v3	0	2026-10-21	2026-10-21	3657	false	false	Lean	Certificates, checkers and Lean proofs for bounds on the smallest limit point of the areal Mahler me
+1	taeyool/lean-flag-algebras-release	3	2026-10-03	2026-07-14	2169	false	false	Lean	-
+1	szl-holdings/a11oy	1	2026-10-23	2026-04-30	54884	false	false	Python	a11oy — governed-AI Command Center. Deny by default. Signed receipts. Trust ceiling 0.97. Λ = Conjec
+1	sylee957/deepwiki	0	2026-07-24	2026-06-04	13832	false	false	Lean	An AI-generated wiki of autoformalized mathematics (Lean 4 + Mathlib)
+1	swissyai/theotetus	0	2026-07-23	2026-03-30	291	false	false	Python	Adversarial discovery engine: propose, formalize, verify with real tools, attack, learn
+1	sw1sh/vibe-proof	0	2026-10-22	2026-10-15	5523	false	false	Lean	Machine-checked math in Lean 4: Hofstadter Q-tilde totality and Rule 30 Prize partial results
+1	straylight-software/straylight-llm	0	2026-03-07	2026-02-27	278078	false	false	Haskell	Production-grade OpenAI-compatible LLM gateway with verified types, effect tracking, and cryptograph
+1	straylight-software/foundry	0	2026-03-07	2026-03-05	3051	false	false	Haskell	playwright fix with node.purs and a brand scraper that parses hydrogen atom configs
+1	strata-org/Strata-Python	2	2026-10-23	2026-06-01	6701	false	false	Lean	-
+1	stefanopalmieri/Kamea	1	2026-07-24	2026-02-21	12437	false	false	Python	Engineering artifacts derived from "Pairwise Independence of Representation, Classification, and Com
+1	standardgalactic/memnet	0	2026-10-19	2026-10-07	728081	false	false	TeX	Semantic-state architecture for adaptive-information rerouting
+1	splch/blog	1	2026-05-03	2021-10-02	409194	false	false	Lean	personal site
+1	souspilot/PhysProofBench	0	2026-10-13	2026-09-18	5999	false	false	Python	WIP
+1	siliconjungle/ink-knowledge	0	2026-10-17	2026-10-09	396991	false	false	Python	Independently versioned proof packages and optimisation knowledge for Ink
+1	siddhartha-gadgil/PlasmaLean	1	2026-10-21	2026-10-10	17934	false	false	Lean	Attempts to use Lean and AI to build theories that enable designing stellarators and showing stabili
+1	selfreferencing/erdos993-palomar	1	2026-10-21	2026-10-09	27432	false	false	Lean	Lean 4 formalization: the independence sequence of every finite forest is unimodal (Erdős Problem 99
+1	seanyih/clean	0	2026-10-20	2026-10-16	1355	false	false	C++	C-style syntax sugar for LEAN
+1	sdiehl/zero-to-qed	128	2026-10-17	2025-12-13	3104	false	false	Lean	From Zero to QED: An informal introduction to formality with Lean 4
+1	scottnarmstrong/Superdiffusion	8	2026-10-21	2026-08-21	12633	false	false	Lean	Lean 4 formalization of superdiffusion and anomalous regularization in self-similar random incompres
+1	scidonia/SpecAMQP	1	2026-09-25	2026-09-22	5721	false	false	Lean	Full specification in Lean for AMQP 1.0
+1	rwst/bbchallenge	1	2026-06-20	2026-03-24	41778	false	false	Lean	public files related to the Busy Beaver challenge
+1	rwst/Subspace-Theorems	4	2026-10-18	2026-09-15	6914	false	false	Lean	-
+1	rusch95/cakec	0	2026-03-25	2026-03-25	25	false	false	Lean	Verified C89 compiler targeting x86-64 (Rust + Lean 4)
+1	rjwalters/lean-genius	6	2026-10-22	2025-12-21	3773360	false	false	Lean	Annotations for Lean Proofs
+1	rj-calvin/sodium	6	2026-08-03	2025-08-04	389	false	false	Lean	Lean4 bindings for LibSodium.
+1	riventic/air2lean	1	2026-10-21	2026-09-24	49613	false	false	Lean	Translate a pure subset of Zig (via compiler AIR) to Lean 4 for machine-checked proofs
+1	riemann-guass/test_sgs_chuang	0	2026-10-06	2026-09-16	11937	false	false	Python	-
+1	rfielding/leanFM	1	2026-10-23	2026-08-21	116766	false	false	Lean	Lean Formal Methods, based on communicating heirarchial processes.
+1	revofusion/ETHCryptoLean	2	2026-09-24	2026-03-20	2736	false	false	Lean	Pure Lean 4 implementations of every EVM precompiled contract cryptographic primitive.
+1	resolutionorg/hironaka	3	2026-10-20	2026-09-30	6618	false	false	Lean	Hironaka's resolution of singularities in characteristic zero, formalized in Lean 4 over Mathlib
+1	rdrake/vibebot	2	2026-10-22	2025-12-18	79398	false	false	Python	-
+1	rbeauchamp/acorn	1	2026-10-14	2026-09-15	5100	false	false	Lean	Building agents that learn and plan from experience to achieve goals in big worlds, pursuing Oak Lab
+1	raeq/disarm	2	2026-10-21	2026-03-04	32013	false	false	Python	Canonicalize and neutralize adversarial Unicode — homoglyph/bidi/zalgo/invisibles — before it reache
+1	qqq-wisc/tzap	48	2026-10-16	2026-04-02	7346	false	false	Rust	A very fast and scalable quantum circuit optimizer
+1	qizwiz/rule30-ski-research	0	2026-07-08	2026-02-25	14233	false	false	Lean	-
+1	pyca/verified-garbage	11	2026-10-23	2026-09-27	411364	false	false	Rust	-
+1	psinary-sketch/SIDE-spinor-calibration	0	2026-06-06	2026-05-19	10	false	false	Lean	Lean 4 kernel for PLACE TO STAND programme. Topic: THE_SPINOR_CALIBRATION_v0_1.
+1	psinary-sketch/SIDE-effects	0	2026-10-13	2026-04-29	65	false	false	Lean	SIDE Exclusion method in Lean 4: the abstract exclusion engine, genuine Type-D exclusion via CRT exh
+1	priyasiddharth/formal-urchin	1	2026-10-10	2025-02-06	12779	false	false	Lean	Formalize SeaUrchin semantics
+1	powdr-labs/elf-opt	0	2026-06-10	2026-06-02	165	false	false	Lean	-
+1	phyter1/proving-ground	1	2026-08-23	2026-06-06	490	false	false	Python	A benchmark for LLMs on provably unsolved problems: kernel-verified partial credit for partial progr
+1	parcadei/Continuous-Claude-v3	3945	2026-01-26	2025-12-23	1525	false	false	Python	Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution wit
+1	parabamoghv/ChessProver	3	2026-09-25	2026-06-18	3135	false	false	Lean	Proof friendly chess engine
+1	pannous/hyper-lean	5	2026-10-02	2024-06-12	6030	false	false	Lean	Hyperreal Numbers in Lean 4 
+1	pandaman64/lean-regex	111	2026-10-20	2023-12-29	2361	false	false	Lean	-
+1	paiml/microgpt	1	2026-04-08	2026-04-08	315	false	false	Rust	Karpathy's microGPT ported to Rust with aprender — a 4,192-parameter GPT that generates names
+1	opencompl/veir	127	2026-10-23	2025-12-08	187921	false	false	Lean	Verified Intermediate Representation
+1	oddharsh/site	0	2026-10-23	2026-06-02	224136	false	false	TypeScript	aadharsh's personal site and lab bench for internet things
+1	oOo0oOo/LeanParanoia	5	2026-10-09	2025-10-31	199	false	false	Python	Lean 4 proof verification without reference
+1	nomeata/leaning-in-2025	4	2025-03-12	2025-03-12	8	false	false	Lean	-
+1	nomeata/lean-cwp	4	2026-05-21	2026-05-21	401	false	false	Lean	-
+1	neoneye/vibe-coding-lab	6	2026-10-22	2026-02-27	82106	false	false	HTML	Experiments, unfinished stuff
+1	nealmcb/openai-math-lean-tooling	0	2026-10-23	2026-10-10	20084	false	false	Python	OpenAI Math: Lean? Tools & experience on a laptop - CPU-days, disk, mmap requirements
+1	nconsigny/leanKohaku	1	2026-05-10	2026-04-19	2653	false	false	Lean	Formally-verified Ethereum wallet daemon + CLI in Lean 4 — inspired by kohaku-ai
+1	nathan-albin/discrete-modulus	1	2026-10-09	2019-04-04	16476	false	false	Lean	Reference implementations of discrete modulus algorithms, with an accompanying book.
+1	nasqret/bruck-palomar	0	2026-10-11	2026-10-11	333	false	false	Lean	A short displacement proof of the Phillips–Stanovský Bruck-loop theorem, formalized in Lean with an 
+1	mrrahman1517/lean-program-verification	0	2025-11-06	2025-10-27	123	false	false	Lean	-
+1	motanova84/141hz	1	2026-10-17	2025-09-18	133344	false	false	Python	 Primera constante universal derivada desde teoría de números. Search for a Persistent 141.7 Hz Comp
+1	moreal/rxui	0	2026-08-30	2026-08-22	2869	false	false	Lean	WIP: Frontend Framework for Lean
+1	mit-pdos/xv6iris	41	2026-10-23	2026-06-24	784966	false	false	Lean	-
+1	miosync-masa/LagTwoPositivity	0	2026-09-09	2026-08-24	53	false	false	Lean	-
+1	meta-introspector/bach-goedel-escher-bott-conway	0	2026-04-06	2026-04-05	829	false	false	Python	-
+1	meta-introspector/aristotle-cli-rs	6	2026-10-21	2026-06-14	26538	false	false	Rust	aristotle.harmonic.fun cli in rust
+1	mbrcic/ai-safety-formalization-atlas	13	2026-10-19	2026-07-18	5524	false	false	Lean	The open workbench for AI safety, made formal. Turn safety questions into machine-checked Lean proof
+1	mattrobball/explicit-unirational	0	2026-09-09	2026-07-26	400	false	false	Lean	-
+1	matheus-fsc/KnightMove	0	2026-09-17	2025-09-14	14467	false	false	Python	Passeio do cavalo: do backtracking ao espaco de ciclos GF(2) e ao invariante de deficit Q(n)=3, com 
+1	marcellop71/EM	0	2026-09-24	2026-02-14	3336	false	false	Lean	-
+1	madlean-hub/madlean-sessions	3	2026-06-22	2026-02-27	13171	false	false	JavaScript	Code and presentations of the MadLean sessions
+1	m1el/riscv-fv-bootstrap	6	2026-08-03	2026-06-02	7071	false	false	Lean	-
+1	m1el/rearm-barrier	0	2026-09-16	2026-09-15	871	false	false	Lean	-
+1	lv300-max/HelixNID	0	2026-08-01	2026-06-19	238	false	false	Python	Exact Absolute Global EVIDENCE
+1	luxontw/coq2lean	0	2026-04-18	2026-03-31	5495	false	false	Rocq Prover	-
+1	lumc01/Lumvorax	0	2026-08-22	2025-09-05	1044356	false	false	Python	-
+1	lucasccordeiro/pytorch	0	2026-10-06	2026-06-04	1891	false	false	HTML	-
+1	lua-lunet/uvrr-core	0	2026-10-16	2026-08-08	77472	false	false	Rust	Unbounded Viewstamped Replication Revisited (uVRR) as an embeddable replication core, FFI-friendly a
+1	lrspeiser/Invariant	0	2026-09-07	2026-08-12	945044	false	false	Python	A compiler for discovering, falsifying, and formally verifying new mathematical and scientific laws.
+1	loefflerd/KN-scratch	1	2026-10-22	2026-09-27	24586	false	false	Lean	Lean formalization of Mazur-Tate-Teitelbaum and Kriz-Nordentoft
+1	lfglabs-dev/verity	148	2026-10-22	2026-02-08	41318	false	false	Lean	Formally verified smart contracts gives mathematical certainty across all inputs and execution paths
+1	lfglabs-dev/lean-silicon	3	2026-10-23	2026-07-24	50988	false	false	Python	A formally verified physical scalar coprocessor for leanVM-b.
+1	lfglabs-dev/eip-8282-proof-closure	0	2026-09-15	2026-08-19	9033	false	false	Lean	Lean evidence for three EIP-8282 builder deposit/exit predeploy guarantees (abstract model CHECKED; 
+1	leanprover/hex-poly-fp-theory	1	2026-10-15	2026-08-21	67	false	false	Lean	Mathlib correspondence proofs for hex-poly-fp
+1	leanprover/hex-graph-iso	4	2026-10-15	2026-09-03	3463	false	false	Lean	Coloured graph canonical labelling and isomorphism testing for the hex project (verified nauty-seman
+1	leanprover/hex-arith	0	2026-10-15	2026-07-31	152	false	false	Lean	Verified executable arithmetic primitives for Lean 4
+1	leanprover/LNSym	119	2026-07-08	2024-01-04	476402	false	false	Lean	Armv8 Native Code Symbolic Simulator in Lean
+1	lambdaclass/trust-lean	8	2026-06-10	2026-03-10	582	false	false	Lean	Verified codegen framework for cryptographic primitives — Lean 4, 0 sorry
+1	lambdaclass/concrete	340	2026-10-22	2023-12-28	53249	false	false	Lean	Concrete is a simple programming language specifically crafted for creating highly scalable systems 
+1	kylemath/GraphColourDeductiveSolver	0	2026-10-23	2026-05-14	794852	false	false	Lean	-
+1	kturkoglu0701/Ruzsa-Szemeredi-decomposition	0	2026-09-06	2026-09-06	45045	false	false	TeX	-
+1	kt3k/hprint	0	2026-09-11	2026-08-29	4	false	false	Lean	pretty printer for humans
+1	kleinwaks/masked-digit-sum-difference-bound	0	2026-08-14	2026-07-24	6018	false	false	Lean	Proof and verification package for lower bound on Gyarmati-Hennecart-Ruzsa sum-difference constant v
+1	kirisaki/rle	0	2025-05-05	2025-05-05	2	false	false	Lean	-
+1	kiranandcode/solidity-verification-with-leanpy	0	2026-06-01	2026-06-01	114	false	false	Python	Solidity verification with Lean.py
+1	kim-em/lean-minimizer	5	2026-08-26	2025-12-18	389	false	false	Lean	Lean test case minimizer using delta debugging
+1	kevinsullivan/DMT1F25	0	2026-04-27	2025-08-24	6149	false	false	Lean	-
+1	kbak/clafer-semantics	0	2026-10-20	2026-10-16	1805	false	false	Lean	Formal semantics of Clafer in Lean 4, grounded in the SoSyM paper.
+1	kazuph/obails	2	2026-09-15	2026-01-16	45489	false	false	TypeScript	Lightweight Obsidian alternative built with Wails v3 + Go + TypeScript
+1	justinfleek/hydrogen	0	2026-03-05	2026-02-22	197323	false	false	Haskell	purescript modules for web design
+1	jsiek/AI-for-pl	11	2026-10-09	2026-03-03	52823	false	false	Agda	experiments in using AI to do PL metatheory
+1	jsboige/CoursIA	16	2026-10-23	2022-08-19	3079030	false	false	Jupyter Notebook	Dépôt contenant les ressources et TPs d'un cours en IA en Python, C# et en Lean4
+1	jpablo/vibe-verify	0	2026-08-25	2026-08-25	509	false	false	Quint	Testing and verification guides — the ladder of evidence from types and formal models to property te
+1	jpablo/mini-kyo-lean	0	2026-02-08	2024-12-25	83	false	false	Lean	-
+1	johnynek/bosatsu	234	2026-10-18	2017-10-19	604503	false	false	Scala	A python-ish pure and total functional programming language
+1	joewatt95/leanplayground	1	2026-10-21	2023-05-21	582	false	false	Lean	-
+1	jasisz/aver	64	2026-10-22	2026-02-24	70943	false	false	Rust	Aver is a programming language for auditable AI-written code
+1	itsromack/lean-tutorial	0	2026-08-06	2026-08-06	32	false	false	Python	-
+1	itsHabib/parley	0	2026-09-20	2026-08-13	160	false	false	Haskell	-
+1	inaciovasquez2020/chronos-urf-rr	0	2026-10-23	2026-01-25	24686	false	false	Python	Flagship executable URF/Chronos implementation with verified build and test surface
+1	igrep/lean-workshop	4	2026-10-20	2024-01-29	240	false	false	Lean	SF.lean勉強会でigrepが書いたコードの記録
+1	icellan/runar	30	2026-09-19	2026-02-28	64053	false	false	Lean	Write Bitcoin smart contracts in TypeScript, Go, Rust, Solidity, or Move. Compile to Bitcoin Script
+1	ibrahimmian36/Optio	0	2026-09-28	2026-07-22	663	false	false	Lean	Kernel-certified verification of Erdős problem 364 (three consecutive powerful numbers) to 10^14, wi
+1	ian-m-griffiths/Lattice-AI-memory---build-tools---language-and-math	0	2026-10-18	2026-08-18	12489	false	false	Lean	Lattice AI memory - build tools - language and math, unified math framework, new math framework to m
+1	hyperpolymath/protocol-squisher	2	2026-10-17	2026-01-03	4799	false	false	Rust	Protocol squisher
+1	hxrts/telltale	9	2026-10-19	2026-01-31	15369	false	false	Rust	Multi-party session-typed program environment
+1	hatter6822/seLe4n	12	2026-10-23	2026-02-14	174431	false	false	Lean	A capability-based microkernel written in Lean 4
+1	halcyonic-systems/systems-science-foundations	1	2026-10-10	2026-04-20	3243	false	false	Lean	Machine-verified commuting triangle of systems ontology: Klir, Bunge, Mobus in Lean 4
+1	guillochon/lane-emden	0	2026-09-03	2026-09-03	156	false	false	TeX	LaTeX source, figures, and Lean certificates for Guillochon & Prochaska on non-algebraicity of the L
+1	girving/interval	29	2026-10-14	2024-05-26	1215	false	false	Lean	Conservative floating point interval arithmetic in Lean
+1	gersh/leancompcert	3	2026-09-01	2026-07-28	26190	false	false	Lean	Experimental Lean-to-CompCert pipeline with verified decision procedures and explicit assurance boun
+1	gersh/attested-compute	3	2026-09-01	2026-07-19	11284	false	false	Python	-
+1	gents-ai/gents	21	2026-10-23	2026-04-08	84491	false	false	Rust	Verifiable, multiplayer coding agents 🤖🦾
+1	fradamt/verified-consensus	31	2026-10-12	2026-05-13	4444	false	false	Lean	-
+1	femboy2112/lean-scratch2	0	2026-05-23	2026-05-13	1878	false	false	Python	-
+1	fabio-rovai/open-ontologies	1228	2026-10-17	2026-03-09	231950	false	false	Rust	Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof a
+1	evacchi/cnl-playground	0	2026-08-04	2026-08-04	233	false	false	Python	-
+1	ertwro/one_third_two_thirds	0	2026-03-15	2026-03-12	482	false	false	Lean	-
+1	ericfode/hoid	0	2026-04-18	2026-02-28	64653	false	false	Go	-
+1	ericfode/dolt-cell	0	2026-03-29	2026-03-14	201838	false	false	Lean	-
+1	emberian/minidregg	0	2026-10-23	2026-08-07	111220	false	false	Lean	Condensed & experimental proof systems for zk/fhe and semantics for agent coordination
+1	eigenq-xyz/quant-proofs	0	2026-07-09	2026-05-19	12609	false	false	Python	Formally verified quantitative finance — Lean 4 proofs + Python/Cython execution
+1	edlontech/einsof	2	2026-08-28	2026-03-03	1870	false	false	Lean	A Formaly Verified agents security
+1	edemaine/lean-canny	1	2026-10-23	2026-10-22	3836	false	false	Lean	∃ℝ ⊆ PSPACE formalized in Lean
+1	dzackgarza/lean-categories	0	2026-10-21	2026-07-22	23286	false	false	HTML	Lean 4 formalization of integral lattices and related geometric categories
+1	dsyme/raft-lean-squad	8	2026-06-03	2026-03-18	7841	false	false	Lean	FV squad
+1	dsm054/kasami_cyclic_additive	3	2026-09-28	2026-08-29	87	false	false	Lean	Self-contained Lean proof of Carlet's Kasami cyclic-additive conjecture (Palomar layout)
+1	dmytro-yemelianov/hoba.work	0	2026-10-02	2026-08-26	5944	false	false	TypeScript	hoba — Hiring Obstacles & Barriers Atlas: a versioned, machine-readable knowledge graph of hiring ob
+1	dmbs335/pc-sast-lean	0	2026-05-20	2026-05-20	275	false	false	Lean	Proof-carrying SAST research scaffold (Lean 4)
+1	djdarcy/Prime-Square-Sum	0	2026-10-04	2015-03-15	1902	false	false	Wolfram Language	A python script that squares primes and sums them together to determine if the base number of elemen
+1	deepai-org/loom	3	2026-08-25	2026-08-25	5964	false	false	Lean	-
+1	deepai-org/lean_hw	1	2026-08-25	2026-07-03	6265	false	false	Lean	-
+1	dbccpage/theory_of_finite_quantum_mechanics	0	2026-10-23	2026-10-17	260932	false	false	Python	A priced map of how far finite, exact constructions reach toward quantum mechanics, starting from an
+1	davidichalfyorov-wq/sct-theory	7	2026-04-11	2026-03-13	135576	false	false	Python	Spectral Causal Theory: derivations, verification, analysis, and publications.
+1	danielsmithdevelopment/ClawQL	13	2026-10-23	2026-03-19	65194	false	false	TypeScript	MCP server: search + execute over OpenAPI 3, Swagger 2, or Google Discovery, with optional internal 
+1	daira/CompElliptic	9	2026-09-25	2026-06-08	540	false	false	Lean	Computable elliptic-curve abstractions for Lean 4
+1	d6g8k5htny-coder/main	0	2026-10-23	2025-12-16	550006	false	false	Python	Public research front door: Gaussian random fields, persistent homology, pinned proofs, reproducible
+1	d-xo/filament	0	2026-09-21	2026-09-20	565	false	false	Lean	-
+1	ctiller/gasm	0	2026-09-01	2026-08-27	5760	false	false	Lean	verified assembly generation
+1	cr4bbz/4PEL-Lean-Formalization	1	2026-09-25	2026-06-19	4921	false	false	Lean	-
+1	connorads/dotfiles	17	2026-10-22	2023-07-09	37425	false	false	TypeScript	@connorads dotfiles 🟢
+1	clementefalcone/goya-ledger	0	2026-10-21	2026-06-18	25541	false	false	Rust	Goya Ledger — enterprise blockchain node
+1	cameronfreer/LeanDepViz	10	2026-01-12	2025-11-01	34642	false	false	Python	Dependency visualization and verification for Lean 4 projects
+1	bzyzz/mertens_bound	1	2026-10-22	2026-10-15	502	false	false	Python	Computer-assisted Pintz-type bound: the smallest Mertens counterexample is below exp(3.485e18). Not 
+1	burkh4rt/Local-Conjugacy-Formalized	1	2026-09-30	2026-09-30	239	false	false	Lean	-
+1	bryangingechen/CombinatorialRigidity	0	2026-10-23	2026-05-13	31377	false	false	Python	-
+1	bosticry90/ToE	1	2026-09-08	2026-02-05	173518	false	false	Python	-
+1	bjornpagen/idris-mlir	1	2026-10-23	2026-09-23	217751	false	false	TeX	A whole-program compiler from Idris 2 to native code through MLIR, where the types are promises abou
+1	binhaotian/nesylink-mathematical-logic	0	2026-07-08	2026-07-08	456	false	false	Python	-
+1	beepbopbeepboop/fire	0	2026-10-23	2026-10-03	89956	false	false	Python	Fire compiler, compatible with python and mojo(r)
+1	batmeezy918/chronofold	1	2026-10-22	2026-03-15	3357	false	false	Python	-
+1	batchatco/flt-vandiver	0	2026-09-24	2026-07-05	730	false	false	Lean	The Case I/II engine: FLT for prime exponents via Washington's Thm 9.5 small-witness descent, weaken
+1	az9713/lean-proofread	0	2026-08-25	2026-08-25	69	false	false	Lean	A compiler grades the prose: proofs from math/physics explainer articles, machine-checked in Lean 4 
+1	aygp-dr/ascii-armor	0	2026-04-08	2026-04-08	1348	false	false	Shell	Binary-in-text encoding validation suite: uuencode, MIME Base64, XBM/XPM, X-Face, Ascii85, data URIs
+1	axelcool1234/Software-Foundations-Lean	1	2026-04-08	2026-03-07	5582	false	false	HTML	LLM Translation from Rocq to Lean
+1	auths-dev/capsec	16	2026-07-28	2026-03-17	955	false	false	Rust	Compile-time capability-based security for Rust
+1	artificial-intelligence-edge/lorentzian-classification	72	2026-10-19	2026-06-25	2129	false	false	Python	Official AI Edge open-source Lorentzian Classification ports
+1	anulum/director-ai	2	2026-10-22	2026-02-15	41369	false	false	Python	Real-time LLM hallucination guardrail — NLI + RAG fact-checking with opt-in claim-level streaming co
+1	andrey-kokoev/cicsc	1	2026-02-19	2026-02-11	2805	false	false	TypeScript	An executable compiler substrate for invariant-preserving evolution of socio-technical systems (CIS)
+1	amaybaum/incompleteness	1	2026-10-23	2026-02-12	609131	false	false	Lean	-
+1	alok/beads-lean4	1	2026-01-02	2025-12-01	7393	false	false	Lean	Git-backed issue tracker in Lean 4 - agent-friendly CLI with JSON output
+1	alok/PPM	1	2025-11-28	2025-11-28	24	false	false	Lean	PPM (Portable Pixmap) DSL for Lean 4 with custom syntax and ProofWidgets integration
+1	alerad/leancert	50	2026-10-21	2026-01-02	4711	false	false	Lean	Verified interval arithmetic for Lean 4 — prove bounds on exp, sin, cos, find roots, all machine-che
+1	alabsystems/trust	1	2026-10-21	2026-07-18	131478	false	false	Rust	Trusted Rust +  Lean compiler toolchain for AI. Faster, fixes your bugs, drop-in works for all Rust 
+1	agenticsnz/unsorry	44	2026-10-07	2026-06-09	44017	false	false	Lean	Autonomous agents proving theorems in Lean 4 - SETI@Home but for maths proofs using LLMs. Git is the
+1	agalatan/grothendieck-lean	0	2026-10-23	2026-10-08	51233	false	false	Lean	-
+1	aberration-technology/burn_dragon	2	2026-09-06	2026-04-12	5930	false	false	Rust	burn inference and training of dragon models 🔥🐉
+1	a-tiny-project/problib	1	2026-10-14	2026-09-06	3355	false	false	Lean	Formalization library for measure-theoretic probability and probabilistic programming
+1	Ztang-Yit-Xiaang/mathproof-skill	0	2026-10-22	2026-08-12	375	false	false	Lean	Have a well-defined math problem? This AI agent skill helps you prove or disprove it, and checks the
+1	WyattAu/clawdius	2	2026-10-22	2026-03-01	8610	false	false	Rust	Faster then openclaw, remote agentic coding without worries with wasm sandbox and system bubble wrap
+1	Volland/lean-tiramemsu	0	2026-10-03	2026-10-01	1153	false	false	Lean	-
+1	Vinh-CHUC/sandbox	0	2026-10-19	2023-02-25	2027	false	false	Python	My lab around various PLs: C++, Python, Haskell, Rust, Idris but also some maths: stats, type theory
+1	Verified-zkEVM/PolyFun	17	2026-10-22	2026-05-08	5640	false	false	Lean	Lean 4 library for polynomial functors, interaction trees, and frameworks for modeling interactive a
+1	VadimSokolov/collatz	0	2026-10-18	2026-10-13	17905	false	false	TeX	Why the Collatz (3x+1) conjecture resists proof: the map as a random walk, an optimizer and a Diopha
+1	V-Sekai-fire/interactor-spatial-oracle	0	2026-10-05	2026-06-22	254	false	false	Lean	Predictive spatial-oracle hexagon: ghost-expansion + SAH proofs, emitting predictive_bvh.h via AmoLe
+1	V-Sekai-fire/interactor-mujoco-sandbox-demo	0	2026-10-19	2026-09-21	75566	false	false	GDScript	-
+1	V-Sekai-fire/interactor-crowd	0	2026-10-10	2026-08-10	30398	false	false	Python	The weft crowd plane: a thousand people in one venue, simulated at 60 Hz and published at 20 Hz, one
+1	V-Sekai-fire/entities-humanoid-rom	0	2026-10-10	2026-06-22	155	false	false	Lean	Humanoid range-of-motion / IK-constraint hexagon: ROM math, Kusudama, muscle/prismatic constraints
+1	V-Sekai-fire/entities-godot-mujoco	0	2026-10-05	2026-09-22	73563	false	false	C++	MuJoCo physics for Godot as a PhysicsServer3DExtension that delegates stepping to the godot-sandbox 
+1	V-Sekai-fire/contract-zone-backend	1	2026-10-18	2026-04-19	100553	false	false	Lean	-
+1	V-Sekai-fire/contract-swing-twist-kusudama	0	2026-10-10	2026-06-14	133	false	false	Lean	Lean4+Plausible sim of SwingTwistIK3D + kusudama limitations on a Godot scene tree (JSON-LD input); 
+1	V-Sekai-fire/contract-protocol	0	2026-10-05	2026-06-22	46	false	false	Lean	Fabric networking / SLA hexagon: saturation, waypoint bounds, abyssal SLA
+1	V-Sekai-fire/contract-lean-hinge-exact	0	2026-10-10	2026-08-24	18	false	false	Lean	A hinge-sum piecewise linear approximation has slope exactly s m on segment m. Proved over Int, no M
+1	V-Sekai-fire/contract-interest-mgmt	0	2026-10-05	2026-06-22	62	false	false	Lean	Authority-interest + solve-order hexagon: who-sees-whom and solve sequencing
+1	UOR-Foundation/LexLean	5	2026-10-23	2026-08-16	169951	false	false	TeX	Speak Truth
+1	UOR-Foundation/F1	9	2026-08-27	2026-06-06	7787	false	false	Lean	Lean 4 research base: the 𝔽₁ square Spec ℤ ×_𝔽₁ Spec ℤ whose Hodge-index positivity is the Riemann H
+1	TheDarkLightX/TauLang-Experiments	0	2026-10-06	2026-04-13	46155	false	false	Python	This contains the results of my educational experiments with Tau Language. This repo contains proven
+1	Th0rgal/turbo-lean	2	2026-10-23	2026-10-18	3336	false	false	Rust	High-performance, distributed build, verification, and counterexample tooling for Lean 4
+1	Takeo140/yamamoto-meta-axioms	0	2026-10-20	2026-03-07	1544	false	false	Lean	Formal verification of Yamamoto Meta-Axioms (F-Theory) in Lean 4. Provides a structural $O(1)$ resol
+1	TOTOGT/AXLE	2	2026-10-20	2026-03-08	48032	false	false	HTML	AXLE NEWS - THE ORTHOGONAL OBSERVER AKA IMAGINARY ORIGIN (IO) - THE MOTTO “i, the rotation; o, the p
+1	Suryansh-23/leaning	0	2026-05-03	2026-04-26	273	false	false	Lean	-
+1	Sounio-lang/sounio-pbpk-sedation-weaning	0	2026-08-17	2026-08-16	2223	false	false	Lean	Proof-Carrying Weaning PBPK/PD for pediatric ICU sedation (μ-opioid + α2 occupancy, Lean F5c)
+1	SharathSPhD/kundali	0	2026-07-08	2026-07-04	1669	false	false	Python	-
+1	Seasawher/LeaningIn2025-ja	0	2025-03-16	2025-03-16	14	false	false	Lean	-
+1	SamuelSchlesinger/HashMath	26	2026-03-20	2026-03-08	3271	false	false	Lean	A proof of concept of a shared mathematical environment without need for version control or naming s
+1	Rob1Ham/btc-lean	3	2026-10-21	2026-10-18	12434	false	false	Lean	-
+1	RianKoja/novacula	0	2026-10-17	2026-09-16	166	false	false	Lean	-
+1	RemyDegenne/meaning-graph	2	2026-09-22	2026-09-01	43	false	false	Lean	Computation of the meaning graph of a Lean declaration
+1	Quiller-Anonymous/Triple-interface	0	2026-10-22	2025-12-16	1630862	false	false	Lean	Primes experiments
+1	Qiuzhen-CFSG/CFSG	17	2026-10-03	2026-07-19	52291	false	false	Lean	Lean formalization of CFSG
+1	QEDGen/qedsvm	20	2026-10-01	2026-05-12	5260	false	false	Lean	Execute and verify compiled Solana sBPF programs with a Lean 4 reference model
+1	Panta-Rhei-Research/taulib	4	2026-07-30	2026-03-15	6932	false	false	Lean	Lean 4 formalization surface; current metrics and trusted-base details live in the Release Manifest.
+1	P4suta/windows-spawn	0	2026-10-21	2026-08-02	727	false	false	Rust	Windows process creation with explicit handle ownership, Jobs, and pseudoconsoles
+1	Oscario0/LeanBisection	3	2026-05-07	2025-09-19	65	false	false	Lean	The Bisection method is the simplest numerical approximation approach in mathematics that applies to
+1	O6lvl4/codopsy	0	2026-10-15	2026-03-10	415	false	false	Rust	AST-level code quality analyzer for 35 languages with 182 lint rules
+1	Nova-Violet-Role/RoT-MoE	2	2026-10-07	2026-08-01	8465	false	false	Shell	The Role of Thoughts: a Dynamic Cognitive Mixture-of-Experts router for Claude Code. 9 expert lenses
+1	NoahWLono/Noahs-GPT-6-Astra-math-problems-solved	1	2026-10-13	2026-10-09	58647	false	false	Lean	Mathematical research with Lean proofs, LaTeX papers, and reproducible verification. Completed resul
+1	Neuroca-Inc/cortex-engine	0	2026-08-26	2026-08-10	147588	false	false	Jupyter Notebook	Phase Calculus world simulation engine for physics, video games, AI models, operating systems, robot
+1	Natuvea/tacenta-core	1	2026-10-23	2026-09-08	15674	false	false	Lean	Protocol core built from published PQXDH and ratchet designs, with machine-checked proofs over its n
+1	NON-OS/zkolang	4	2026-10-03	2026-07-20	3978	false	false	Rust	zKolang, a verifiable-compute language proven by the NONOS transparent STARK
+1	MichaelStollBayreuth/EllipticCurves	2	2026-10-19	2026-07-20	1676	false	false	Lean	Formalization in Lean of basic results from the theory of elliptic curves
+1	Mesabloo/fugue	5	2026-10-02	2026-02-14	3828	false	false	Lean	🎼 A compiler to native Go code for Distributed PlusCal, an extension of Lamport's PlusCal featuring 
+1	MdRahman22/CS6501-Final-Project	0	2026-04-26	2026-04-26	3630	false	false	Lean	-
+1	Maokami/tpl-in-lean	0	2026-10-02	2026-08-20	1133	false	false	Lean	John C. Reynolds, Theories of Programming Languages (1998) 를 Lean 4 로 따라 읽는 스터디 저장소
+1	Maar10Herr/Gaussian-CI-a5-Equals-4-Public	0	2026-10-17	2026-08-18	702	false	false	Lean	Exact verification of the five-variable Gaussian CI antecedent threshold a5 = 4.
+1	LukasCainResearch/drift-core-sim	1	2026-06-03	2025-11-23	22841	false	false	Lean	-
+1	LorenzoLuccioli/KE92ErdosProblems	0	2026-05-10	2026-05-08	47	false	false	Lean	Lean formalizations of Erdős problems 192 and 231
+1	LeanTrustBuilders/meaning-graph	0	2026-10-16	2026-09-25	229	false	false	Lean	What every declaration of a Lean project rests on, computed from the compiled environment
+1	KeyAIGit/ecdlp-lean-verification	0	2026-10-22	2026-06-21	25438	false	false	Python	-
+1	Kdevos12/seshat	0	2026-10-21	2026-10-14	1885	false	false	TypeScript	-
+1	JoshuaJewell/paint-type	2	2026-10-19	2026-04-13	10288	false	false	Rust	The open, cross-platform image editor Paint.NET users are actually asking for!
+1	JohnnyTeutonic/scqm	0	2026-04-10	2026-04-10	195	false	false	Lean	-
+1	JohnnyTeutonic/lean_proofs_sm	0	2026-04-12	2025-12-10	516	false	false	Lean	-
+1	JewJitsu11B/lean42	0	2026-02-19	2026-02-19	36	false	false	TeX	-
+1	JacobAsmuth/qed	25	2026-09-23	2026-05-29	988	false	false	Lean	A formally-verified web frontend framework in Lean 4
+1	JD-Jones-ASES/qubit-cloning-lean	2	2026-10-12	2026-10-11	221	false	false	Lean	Universal 1 -> 2 qubit cloning: (F1 + F2)/2 <= 5/6 with the Buzek-Hillery channel as its unique opti
+1	JD-Jones-ASES/ob-lean	2	2026-10-19	2026-10-09	158	false	false	Lean	Barker sequences of odd length have length 1, 3, 5, 7, 11 or 13.
+1	IamMikeHelsel/lean-erdos-proofs	0	2026-10-18	2026-10-18	183	false	false	Lean	Kernel-checked Lean 4 proofs of recently settled problems (Erdős 216/Horton, Kourovka, MathOverflow)
+1	Hrrsmjd/math	0	2026-10-07	2026-10-07	384	false	false	TeX	-
+1	Hardonian/GRAPH-Lab	0	2026-10-23	2026-10-16	3118	false	false	Rust	Graph-theoretic discovery and formal verification laboratory: an exact enumeration/counterexample en
+1	HaoZeke/anneal	6	2026-10-22	2023-02-05	15065	false	false	Rust	A python package for simmulated annealing and quenching
+1	HansBug/lean-learning	0	2026-09-14	2026-09-14	87	false	false	Lean	Lean 4 中文学习仓库：可运行的示例、Lean 与 Z3 实测对照、pyfcstm 状态机到 Lean 归纳证明的原型
+1	Hakkadaikon/websocket-vibe	1	2026-06-22	2026-06-21	224	false	false	C	-
+1	GasStationManager/SafeVerifyAgent	0	2026-10-09	2026-08-25	8593	false	false	Python	-
+1	GageBachik/sour-verification	0	2026-06-04	2026-05-05	26601	false	false	Makefile	Formal verification of sour finance maths
+1	GZGavinZhao/LeanMenhir	0	2026-07-29	2026-06-20	455	false	false	Lean	A formally verified LR(1) parser interpreter + validator for Lean 4, along with an untrusted LR(1)/S
+1	FrederickPu/pullback	1	2026-06-03	2025-06-18	320	false	false	Lean	Formally verified code to code translation using LLMs and Lean4
+1	FrederickPu/Zag	0	2026-08-27	2026-07-20	1289	false	false	Lean	-
+1	FormalizedFormalLogic/ProvabilityLogic	6	2026-09-22	2026-05-13	1005	false	false	Lean	Lean 4 Mechanization about Provability Logics
+1	FloatingPragma/observer-patch-holography	754	2026-10-23	2026-01-18	1125008	false	false	Python	Observer Patch Holography is a working, mathematically explicit approach to reconstructing physics f
+1	Feralthedogg/Fo	2	2026-04-13	2026-04-10	1867	false	false	Rocq Prover	-
+1	FawadHa1der/leanui	2	2026-10-22	2026-10-19	1262	false	false	Lean	Web user interfaces written in Lean 4, compiled to WebAssembly (Memory64), with a native Lean server
+1	FaezehShakouri/modu_arithmatic	0	2026-05-25	2026-05-23	10	false	false	Rust	-
+1	Escaped-RDFa/erdfa-publish-rs	2	2026-06-17	2026-03-17	8287	false	false	Rust	-
+1	EQUENOS-2/Push-Limit-2	3	2026-10-11	2025-12-20	607	false	false	Lean	Is a flying machine engine possible with push limit 2 in minecraft? Chasing the answer, we decided t
+1	Divkix/Alita_Robot	251	2026-10-23	2020-10-26	11004	false	false	Go	🤖 Alita is a Telegram Group management bot made using Gotgbot and Go, which makes it modern and ⏩ fa
+1	Develata/lean4-learn	0	2026-10-19	2026-10-19	153	false	false	Lean	-
+1	DURUII/Replica-TS-DPP	0	2026-10-13	2026-09-18	17973	false	false	Lean	🥷Machine-checked refutation of an INFOCOM'26 AoI crowdsensing paper's Lemma, in Lean 4
+1	CharlesCNorton/bottlesofbeer-verified	0	2026-01-10	2025-12-10	162	false	false	Rocq Prover	Formalizing the song "99 Bottles"
+1	Certora/zlib-inflate-table-fv	1	2026-09-08	2026-09-08	1782	false	false	C	-
+1	Certora/clean	3	2026-09-08	2026-08-19	2659	false	false	Rocq Prover	C-to-Lean framework based on CompCert
+1	Cartilage-Stairwells/babybear-core-verified	0	2026-10-08	2026-10-08	21	false	false	Lean	The verification artifact for the paper on the BabyBear scalar arithmetic kernel: Montgomery algebra
+1	Beneficial-AI-Foundation/kvac-mergequeue-test	0	2026-08-17	2026-08-14	7138	false	false	Lean	Throwaway copy of KVAC model repo to test merge-queue config (#102). Delete when done.
+1	Beneficial-AI-Foundation/KeyedVerificationAnonymousCredential-model	0	2026-10-22	2026-05-04	7582	false	false	Lean	Formalization of keyed-verification anonymous credential (KVAC) framework of Orrù, Revisiting Keyed-
+1	BasisResearch/paralean	0	2026-10-21	2026-10-03	5399	false	false	Lean	Design and formal verification for distributed Lean proof development
+1	BaDaaS/lean4-courses	47	2026-06-26	2026-03-30	325	false	false	Lean	-
+1	AshishKumar4/TSLean	3	2026-09-23	2026-04-07	7392	false	false	HTML	-
+1	Arrow7000/fhm	21	2026-10-20	2026-06-23	8461	false	false	Lean	A Hindley-Milner language formalised in Lean 4 – proven type-safe, and runnable
+1	Aqua-218/SecCamp-AIAgent	0	2026-10-19	2026-08-10	3444	false	false	Rust	-
+1	AndroidGoLab/binder	9	2026-04-06	2026-03-14	195694	false	false	Go	Go bindings (+ CLI) for ~14K methods across 1500+ Android interfaces via Binder IPC — pure Go, no Ja
+1	AfonsoBitoque/LeanServer	5	2026-05-14	2026-02-20	579	false	false	Lean	Verified HTTPS server in Lean 4 — TLS 1.3, HTTP/2, QUIC, WebSocket, gRPC — 914 machine-checked theor
+1	AdaMartin18010/FormalScience	2	2026-04-14	2025-06-10	109592	false	false	Python	Formal Science content.
+1	A2DR1/LeanQC_AI	1	2026-03-27	2025-09-05	11722	false	false	Lean	-
+1	0x1F980/PSS_plausible_secret_sharing	0	2026-06-30	2026-06-30	72	false	false	Rust	The reverse SSS.. You choose your transposed data. then k of n a sum of those. It's as ITS as SSS (e
+1	0al-spec/Hypercode	0	2026-10-03	2025-07-13	428	false	false	Swift	Declarative programming paradigm for context-aware systems

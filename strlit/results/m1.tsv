@@ -1,0 +1,25 @@
+## summary.v4.34.0-rc2.tsv
+start 21:47:19
+per64_2000_ubs_dk	TIME 6.14 s 1615396 KB	rc=0
+per16_2000_ubs_dk	TIME 2.15 s 834320 KB	rc=0
+rep8_2000_ubs_dk	TIME 1.24 s 702708 KB	rc=0
+rep8_4000_ubs_dk	TIME 3.05 s 934736 KB	rc=0
+per256_2000_ubs_dk	TIME 22.26 s 4547360 KB	rc=0
+a_4000_ubs_dk	TIME 1.48 s 698364 KB	rc=0
+a_8000_ubs_dk	TIME 3.09 s 924860 KB	rc=0
+per64_1000_ubs_dk	TIME 4.10 s 1031532 KB	rc=0
+per256_1000_ubs_dk	TIME 10.79 s 2374612 KB	rc=0
+rnd_250_ubs_dk	TIME 1.65 s 740792 KB	rc=0
+rnd_500_ubs_dk	TIME 5.04 s 1529968 KB	rc=0
+rep8_8000_ubs_dk	TIME 51.58 s 1397132 KB	rc=0
+dig_1000_ubs_dk	TIME 20.57 s 4659888 KB	rc=0
+per1024_2000_ubs_dk	TIME 69.98 s 13272824 KB	rc=0
+sp_1000_ubs_dk	TIME 0.46 s 533644 KB	rc=0
+nl_1000_ubs_dk	TIME 0.36 s 534476 KB	rc=0
+na2_250_ubs_dk	TIME 5.63 s 1521764 KB	rc=0
+dw_2000_ubs_dk	TIME 84.31 s 16366880 KB	rc=0
+bin_1000_ubs_dk	TIME 21.23 s 4605412 KB	rc=0
+punct_1000_ubs_dk	TIME 19.27 s 4666828 KB	rc=0
+na3_250_ubs_dk	TIME 12.96 s 2739824 KB	rc=0
+na4_250_ubs_dk	TIME 19.00 s 4618664 KB	rc=0
+end 21:49:02

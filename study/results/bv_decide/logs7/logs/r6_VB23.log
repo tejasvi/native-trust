@@ -1,0 +1,4 @@
+bvs6: prepared; shard files and the final file written to /home/ntbuild/work_bvscale/veir/b
+BVS_PREP	Veir.Passes.InstructionSelection.Proofs	23	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_pos_refinement._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Veir.Passes.InstructionSelection.Proofs	23	segments=10	chunks=263	ms=95549
+TIME wall=196.13 s user=195.09 s maxrss=7260356 KB

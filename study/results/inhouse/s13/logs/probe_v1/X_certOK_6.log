@@ -1,0 +1,29 @@
+$ lean X_certOK_6.lean start=2026-10-26T01:08:40Z timeout=900
+NT copying Sortnet.S11Small.chunk6
+NT copy Sortnet.S11Small.chunk6 defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S11Small.byte6
+NT copy Sortnet.S11Small.byte6 defn_ms=1 eq_ms=0 congr=true
+NT copying Sortnet.S11Small.count6
+NT copy Sortnet.S11Small.count6 defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S11Small.offsets6
+NT copy Sortnet.S11Small.offsets6 defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S11Small.cert6
+NT copy Sortnet.S11Small.cert6 defn_ms=0 eq_ms=0 congr=true
+NT _s13probe.X_certOK_6 blockers_ms=0 bounded=false copy_ms=12 copies=5 copy_kernel_ms=3 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6 quick whole-term attempt did not finish; structured check
+NT _s13probe.X_certOK_6.p_0 blockers_ms=1 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6.p_0 eval_ms=964
+NT _s13probe.X_certOK_6.p_1 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6.p_1 eval_ms=941
+NT _s13probe.X_certOK_6.p_2 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6.p_2 eval_ms=3992
+NT _s13probe.X_certOK_6.p_3 blockers_ms=2 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6.p_3 eval_ms=919
+NT _s13probe.X_certOK_6.p_4 blockers_ms=4 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_6.p_4 eval_ms=92354
+NT _s13probe.X_certOK_6 pieces=5
+START X_certOK_6
+STATEMENT_MS 1
+PROVED `Sortnet.certOK_6._native.native_decide.ax_1_1` as `_s13probe.X_certOK_6`: kernel_ms=99170 copies=0 total_ms=101540 pieces=5 axioms=[propext, Quot.sound]
+maxrss_kb 28452740 secs 102.27
+rc=0 end=2026-10-26T01:10:22Z

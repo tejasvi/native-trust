@@ -1,0 +1,147 @@
+{
+ "name": "humanfia-icho2026",
+ "pkg": "/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization",
+ "toolchain": "v4.31.0",
+ "uses": 693,
+ "replaced": 673,
+ "replaced_known": 673,
+ "replaced_unknown": 0,
+ "replaced_facts": 1719,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "ERROR/memory": 3,
+  "build: (deterministic) timeout at `\u00absynthesize pending MVars\u00bb`, maximum number of heartbeats (200000) has been reached": 8,
+  "build: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached": 8,
+  "TIMEOUT/900s": 1
+ },
+ "native_axioms_before": 1864,
+ "native_axioms_after": 145,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 424,
+ "native_dependent_decls_after": 25,
+ "rewritten_decls": 270,
+ "rewritten_decls_still_native": 9,
+ "still_native_why": {
+  "IChO2026Problems.Icho2026T3A5.macrocycle_repeat_reported_result": "depends on another native-dependent declaration",
+  "IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit": "1 unconverted native facts of its own",
+  "IChO2026Problems.ProblemIChO2026T7A7.quantitativeMaterialStageDerivation": "depends on another native-dependent declaration",
+  "IChO2026Problems.ProblemIChO2026T7A7.rawResultDerivation": "depends on another native-dependent declaration",
+  "_private.IChO2026Problems.problem_icho_2026_t3_a5.0.IChO2026Problems.Icho2026T3A5.macrocycleRepeatRawProof": "2 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.monoanionY_sourceSpecification": "depends on another native-dependent declaration",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.monoanionY_wellFormed": "4 unconverted native facts of its own",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.pl1Enantiomer_sourceSpecification": "depends on another native-dependent declaration",
+  "_private.IChO2026Problems.problem_icho_2026_t5_a2.0.IChO2026Problems.ProblemIcho2026T5A2.pl1Enantiomer_wellFormed": "4 unconverted native facts of its own"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 456.46,
+   "cpu": 1214.2,
+   "n_errors": 4,
+   "reverted": 16,
+   "unattributed": [],
+   "peak_lean": 4
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 51.23,
+   "cpu": 107.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "unattributed": [],
+   "peak_lean": 3
+  }
+ ],
+ "time0": {
+  "wall": 94.45,
+  "cpu": 506.0,
+  "n_built": 34,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 8.1,
+  "peak_rss_sum_gb": 28.1
+ },
+ "time1": {
+  "wall": 469.51,
+  "cpu": 1214.3,
+  "n_built": 34,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 21.1,
+  "peak_rss_sum_gb": 34.4
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 3.43,
+  "cpu": 5.5,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 34,
+ "replaced_modules": 34,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  344.9,
+  1023.1
+ ],
+ "module_times_slower": [
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a8",
+   5.0,
+   311.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a5",
+   4.9,
+   80.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t5_a2",
+   6.5,
+   61.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a7",
+   6.2,
+   59.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a5",
+   91.0,
+   131.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a6",
+   14.0,
+   54.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a4",
+   5.3,
+   28.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a2",
+   12.0,
+   22.0
+  ]
+ ],
+ "module_times_faster": []
+}

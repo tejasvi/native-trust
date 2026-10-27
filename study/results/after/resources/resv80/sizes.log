@@ -1,0 +1,8 @@
+# lake env lean /home/ntbuild/work_shared/resv80/sizes.lean (in repos_s/emberian_minidregg, toolchain leanprover/lean4:v4.30.0) 2026-10-25T12:35:30Z
+"cshake_bounded gates=607242 inputs=1225"
+"keccak gates=199768 inputs=1600"
+"frame gates=4950"
+"zk_literal_graph gates=1928"
+"forge_jam bytes=566499"
+maxrss_kb 4278732 secs 3.27
+rc=0 end=2026-10-25T12:35:33Z

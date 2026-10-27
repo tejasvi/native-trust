@@ -1,0 +1,4 @@
+Checked 503 declarations with no typechecker errors, 1 pretty printer errors: [
+    "Unable to print axioms",
+]
+nanoda: 0.09 s 28124 KB

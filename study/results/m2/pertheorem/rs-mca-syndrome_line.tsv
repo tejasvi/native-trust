@@ -1,0 +1,12 @@
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.isBad_0._proof_1_1	KERNELIZED		0	5941976	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.isBad_2._proof_1_1	KERNELIZED		0	5914520	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.countBad_value._proof_1_1	KERNELIZED		0	6103712	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.isBad_3._proof_1_1	KERNELIZED		0	5993464	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.isBad_4._proof_1_1	KERNELIZED		0	6131748	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.s0_not_in_VE._proof_1_1	KERNELIZED		0	5920048	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.uniqueness._proof_1_1	KERNELIZED		0	5994092	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.uniqueness_exact._proof_1_1	KERNELIZED		0	5933204	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.nonContainment._proof_1_1	KERNELIZED		0	6027252	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.linePt_4._proof_1_1	KERNELIZED		0	5933140	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.s1_not_in_VE._proof_1_1	KERNELIZED		0	6199012	3		1	2	
+rs-mca-syndrome_line	SyndromeLine	SyndromeLine.isBad_1._proof_1_1	KERNELIZED		0	6229524	3		1	2	

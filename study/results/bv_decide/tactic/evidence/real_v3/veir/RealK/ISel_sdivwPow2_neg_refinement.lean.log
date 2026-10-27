@@ -1,0 +1,1 @@
+bv_kdecide [Veir.Data.RISCV.sdivwPow2_neg_refinement]: bv_decide 7071 ms; 58151 nodes, 174050 clauses, 215574 LRAT steps, 5433741 hints, 332 chunks; SAT 70280 ms, data 11474 ms; kernel: base 61697 ms, chunks 1330184 ms (max 8200 ms), assembly 8378 ms; total 1528949 ms; peak RSS: bv_decide 1712 MiB, kernel route 15657 MiB

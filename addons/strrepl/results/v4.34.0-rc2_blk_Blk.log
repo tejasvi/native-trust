@@ -1,0 +1,11 @@
+`BerryEsseen.Upper0423.Native.parseRat`: no blocker
+`BerryEsseen.Upper0423.Native.parseCover`: no blocker
+`BerryEsseen.Upper0423.Native.tokens`: blockers:
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+`BerryEsseen.Upper0423.Native.coverAcceptedBE`: no blocker
+`BerryEsseen.Upper0423.Native.coverAccepted`: no blocker
+maxrss_kb 1576576 secs 0.79
+rc=0

@@ -1,0 +1,201 @@
+{
+ "name": "FrederickPu_Zag",
+ "pkg": "/home/ntbuild/repos_s/FrederickPu_Zag",
+ "copy_root": "/home/ntbuild/repos_s/FrederickPu_Zag",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.32.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:40:14Z",
+ "toolchain": "v4.32.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.39,
+  "built": []
+ },
+ "modules": 63,
+ "before": {
+  "total": 23,
+  "by_tactic": {
+   "native_decide": 23
+  },
+  "failed": [],
+  "dirty": 27
+ },
+ "native_files": 15,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 97.14,
+   "cpu": 362.6,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 15.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 95.12,
+   "cpu": 355.0,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 15.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 95.41,
+   "cpu": 355.9,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 15.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 96.5,
+   "cpu": 355.4,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 15.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 95.49,
+   "cpu": 354.9,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 15.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 94.55,
+   "cpu": 350.7,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 15.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 441,
+   "rc": 0,
+   "wall": 95.16,
+   "cpu": 353.9,
+   "n_built": 63,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 15.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 20,
+  "by_tactic": {
+   "native_decide": 20
+  },
+  "failed": [],
+  "dirty": 24
+ },
+ "fallbacks": {
+  "blocked: IncludeDir.FileTree.fileCount": 1,
+  "blocked: System.Platform.getIsWindows": 7,
+  "blocked: IncludeDir.instBEqFileTree.beq": 2,
+  "blocked: IncludeDir.FileTree.filesAt": 1,
+  "blocked: IncludeDir.loadClosure.go": 4,
+  "blocked: String.Internal.length": 19,
+  "well-founded recursion": 3
+ },
+ "fallback_examples": {
+  "blocked: IncludeDir.FileTree.fileCount": "info: Test/IncludeDir.lean:14:39: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.fileCount` (no kernel definition)",
+  "blocked: System.Platform.getIsWindows": "info: Test/IncludeDir.lean:19:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2082` (no kernel definition)",
+  "blocked: IncludeDir.instBEqFileTree.beq": "info: Test/IncludeDir.lean:34:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.instBEqFileTree.beq`, `System.Platform.getIsWindows`, `WellFounded.extrinsicFix\u2082` (no kernel definition)",
+  "blocked: IncludeDir.FileTree.filesAt": "info: Test/IncludeDir.lean:37:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.filesAt` (no kernel definition)",
+  "blocked: IncludeDir.loadClosure.go": "info: Test/IncludeDir.lean:47:40: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)",
+  "blocked: String.Internal.length": "info: Test/Heap.lean:52:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)",
+  "well-founded recursion": "info: Test/EvalState.lean:191:52: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Zag.Machine.evalFuel \u2192 Zag.Machine.evalConfigFuel \u2192 Zag.Machine.evalConfigFuel._f \u2192 Zag.Machine.step): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` ca"
+ },
+ "after_hb2": {
+  "total": 20,
+  "by_tactic": {
+   "native_decide": 20
+  },
+  "failed": [],
+  "dirty": 24
+ },
+ "fallbacks_hb2": {
+  "blocked: IncludeDir.FileTree.fileCount": 1,
+  "blocked: System.Platform.getIsWindows": 7,
+  "blocked: IncludeDir.instBEqFileTree.beq": 2,
+  "blocked: IncludeDir.FileTree.filesAt": 1,
+  "blocked: IncludeDir.loadClosure.go": 4,
+  "blocked: String.Internal.length": 19,
+  "well-founded recursion": 3
+ },
+ "fallback_examples_hb2": {
+  "blocked: IncludeDir.FileTree.fileCount": "info: Test/IncludeDir.lean:16:39: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.fileCount` (no kernel definition)",
+  "blocked: System.Platform.getIsWindows": "info: Test/IncludeDir.lean:21:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getIsWindows`, `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2082` (no kernel definition)",
+  "blocked: IncludeDir.instBEqFileTree.beq": "info: Test/IncludeDir.lean:36:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.instBEqFileTree.beq`, `System.Platform.getIsWindows`, `WellFounded.extrinsicFix\u2082` (no kernel definition)",
+  "blocked: IncludeDir.FileTree.filesAt": "info: Test/IncludeDir.lean:39:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.FileTree.filesAt` (no kernel definition)",
+  "blocked: IncludeDir.loadClosure.go": "info: Test/IncludeDir.lean:49:40: kernel-first: native_decide used compiled evaluation: blocked: reaches `IncludeDir.loadClosure.go` (no kernel definition)",
+  "blocked: String.Internal.length": "info: Test/Heap.lean:54:2: kernel-first: native_decide used compiled evaluation: blocked: reaches `String.Internal.length` (no kernel definition)",
+  "well-founded recursion": "info: Test/EvalState.lean:193:52: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Zag.Machine.evalFuel \u2192 Zag.Machine.evalConfigFuel \u2192 Zag.Machine.evalConfigFuel._f \u2192 Zag.Machine.step): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` ca"
+ },
+ "reps": 3,
+ "orig_wall_med": 95.49,
+ "orig_cpu_med": 355.9,
+ "kf_wall_med": 95.12,
+ "kf_cpu_med": 355.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:51:37Z"
+}

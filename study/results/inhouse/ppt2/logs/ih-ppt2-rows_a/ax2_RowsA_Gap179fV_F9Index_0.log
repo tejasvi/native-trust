@@ -1,0 +1,74 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179fV_F9Index_0.lean
+NT start RowsA.Gap179fV.F9.sep_cover._native.native_decide.ax_1
+NT nested RowsA.Gap179fV.F9.sep_cover._native.native_decide.ax_1 ms=246 rebuilt_defs=0 visited=4247
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRow
+NT copy RowsA.Gap179.parseNatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRows
+NT copy RowsA.Gap179.parseNatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.PGL9.Sep0.suppS
+NT copy RowsA.Gap179.PGL9.Sep0.suppS defn_ms=491 eq_ms=1824 congr=true
+NT copying RowsA.Gap179.PGL9.Sep0.supp
+NT copy RowsA.Gap179.PGL9.Sep0.supp defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.PGL9.Sep1.suppS
+NT copy RowsA.Gap179.PGL9.Sep1.suppS defn_ms=476 eq_ms=1806 congr=true
+NT copying RowsA.Gap179.PGL9.Sep1.supp
+NT copy RowsA.Gap179.PGL9.Sep1.supp defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.PGL9.Sep2.suppS
+NT copy RowsA.Gap179.PGL9.Sep2.suppS defn_ms=467 eq_ms=1827 congr=true
+NT copying RowsA.Gap179.PGL9.Sep2.supp
+NT copy RowsA.Gap179.PGL9.Sep2.supp defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.PGL9.Sep3.suppS
+NT copy RowsA.Gap179.PGL9.Sep3.suppS defn_ms=474 eq_ms=1769 congr=true
+NT copying RowsA.Gap179.PGL9.Sep3.supp
+NT copy RowsA.Gap179.PGL9.Sep3.supp defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.PGL9.Sep4.suppS
+NT copy RowsA.Gap179.PGL9.Sep4.suppS defn_ms=457 eq_ms=1845 congr=true
+NT copying RowsA.Gap179.PGL9.Sep4.supp
+NT copy RowsA.Gap179.PGL9.Sep4.supp defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.PGL9.Sep5.suppS
+NT copy RowsA.Gap179.PGL9.Sep5.suppS defn_ms=459 eq_ms=1811 congr=true
+NT copying RowsA.Gap179.PGL9.Sep5.supp
+NT copy RowsA.Gap179.PGL9.Sep5.supp defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=15743 copies=19 copy_kernel_ms=13712 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1.p_0 blockers_ms=0 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1.p_0 eval_ms=0
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1.p_1 blockers_ms=5 bounded=true copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1.p_1 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRow
+NT copy RowsA.Gap179.parseNatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseNatRows
+NT copy RowsA.Gap179.parseNatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.PGL9.Sep0.suppS
+NT copy RowsA.Gap179.PGL9.Sep0.suppS defn_ms=450 eq_ms=1791 congr=true
+NT copying RowsA.Gap179.PGL9.Sep0.supp
+NT copy RowsA.Gap179.PGL9.Sep0.supp defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap179fV_F9Index_0.RowsA.Gap179fV.F9.sep_cover._kernel.native_decide.ax_1.p_1 blockers_ms=6 bounded=false copy_ms=2580 copies=11 copy_kernel_ms=2244 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46294496
+rc=1 secs=197

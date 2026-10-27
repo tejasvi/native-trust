@@ -1,0 +1,185 @@
+{
+ "name": "v14_Provenance_Works_Radix",
+ "pkg": "/home/ntbuild/repos_s/Provenance-Works_Radix",
+ "toolchain": "v4.29.0-rc4",
+ "uses": 218,
+ "replaced": 163,
+ "replaced_known": 76,
+ "replaced_unknown": 87,
+ "replaced_facts": 76,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: module build 31.0 s > 2 x original 1.7 s (--max-slowdown)": 51,
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 4
+ },
+ "native_axioms_before": 145,
+ "native_axioms_after": 69,
+ "bv_decide_axioms_before": 17,
+ "bv_decide_axioms_after": 17,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 168,
+ "native_dependent_decls_after": 92,
+ "rewritten_decls": 76,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 119.13,
+   "cpu": 216.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 5,
+   "peak_rss_gb": 4.6,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 6.21,
+   "cpu": 25.6,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 3.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 116.63,
+  "cpu": 177.4,
+  "n_built": 20,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 4.5,
+  "peak_rss_sum_gb": 12.1
+ },
+ "time1": {
+  "wall": 117.63,
+  "cpu": 178.5,
+  "n_built": 20,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 4.6,
+  "peak_rss_sum_gb": 12.2
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.81,
+  "cpu": 1.1,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 20,
+ "replaced_modules": 19,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 124,
+   "BLOCKED": 17,
+   "EXPENSIVE": 4
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "Radix.CRC.Lemmas"
+ ],
+ "module_times_sum": [
+  137.4,
+  139.2
+ ],
+ "module_times_slower": [
+  [
+   "Radix.ECC.Spec",
+   98.0,
+   100.0
+  ],
+  [
+   "Radix.CRC.Spec",
+   0.441,
+   0.648
+  ],
+  [
+   "Radix.Memory.Layout",
+   1.1,
+   1.2
+  ],
+  [
+   "Radix.RingBuffer.Lemmas",
+   1.1,
+   1.2
+  ],
+  [
+   "Radix.Alignment.Spec",
+   0.447,
+   0.47200000000000003
+  ],
+  [
+   "Radix.BareMetal.Lemmas",
+   0.34400000000000003,
+   0.34600000000000003
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Radix.CRC.Lemmas",
+   1.7,
+   1.5
+  ],
+  [
+   "Radix.Binary.Lemmas",
+   1.4,
+   1.2
+  ],
+  [
+   "Radix.DMA.Spec",
+   2.5,
+   2.4
+  ],
+  [
+   "Radix.Bytes.Lemmas",
+   2.0,
+   1.9
+  ],
+  [
+   "Radix.Bitmap.Lemmas",
+   0.989,
+   0.923
+  ],
+  [
+   "Radix.Bitmap.Spec",
+   0.452,
+   0.439
+  ],
+  [
+   "Radix.MemoryPool.Spec",
+   0.438,
+   0.432
+  ],
+  [
+   "Radix.Alignment.Lemmas",
+   1.0,
+   0.996
+  ]
+ ]
+}

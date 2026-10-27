@@ -1,0 +1,29 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_FormalConjectures_WrittenOnTheWallII_Test_5.lean
+NT start _private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1
+NT nested _private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1 ms=93 rebuilt_defs=0 visited=2852
+NT _ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_5._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._kernel.decide.ax_1_1.p_0 blockers_ms=3 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0
+FAILED `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1`: kernelize: cannot prove the statement of `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1` in the kernel:
+    decide (WrittenOnTheWallII.Test.HouseGraph.edgeFinset.card = 6) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_5._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._kernel.decide.ax_1_1.p_0' has type
+    true = true
+  but it is expected to have type
+    decide (WrittenOnTheWallII.Test.HouseGraph.edgeFinset.card = 6) = true
+  
+  No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+F2_FormalConjectures_WrittenOnTheWallII_Test_5.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+FAILED `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1`: kernelize: cannot prove the statement of `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1` in the kernel:
+  decide (WrittenOnTheWallII.Test.HouseGraph.edgeFinset.card = 6) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_5._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._kernel.decide.ax_1_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (WrittenOnTheWallII.Test.HouseGraph.edgeFinset.card = 6) = true
+
+No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+maxrss_kb 6897452
+rc=0 secs=3

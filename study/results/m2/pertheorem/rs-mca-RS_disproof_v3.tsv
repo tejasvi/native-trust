@@ -1,0 +1,11 @@
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_eq_subgroup._proof_1_1	KERNELIZED		0	6249544	10		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_card._proof_1_1	KERNELIZED		0	6246268	11		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_card._proof_1_1	KERNELIZED		0	6241592	11		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r5._proof_1_1	KERNELIZED		0	6276848	12		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r3._proof_1_1	KERNELIZED		0	5987708	12		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_eq_subgroup._proof_1_1	KERNELIZED		0	6055904	12		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_lb._proof_1_1	KERNELIZED		0	16069300	91		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_ub._proof_1_1	KERNELIZED		0	15777176	91		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p257_r9._proof_1_1	TIMEOUT				900		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p257_r9._proof_1_1	TIMEOUT	900s			900		1	2	
+rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p257_r9._proof_1_1	REJECTED	blocked		37322840	1184	Quot.sound	1	2	

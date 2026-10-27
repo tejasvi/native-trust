@@ -1,0 +1,10 @@
+# 2026-10-24 ~03:02Z: AxCheck.lean, one build per toolchain, output condensed
+v4.29.0-rc4: unsat_list_of_checkBits, unsat_of_checkBits, kb_unsat depend on axioms: [propext, Classical.choice, Quot.sound]
+v4.31.0:     same three, [propext, Classical.choice, Quot.sound]
+v4.33.1:     same three, [propext, Classical.choice, Quot.sound]
+v4.35.0-rc4: same three, [propext, Classical.choice, Quot.sound]
+kb_unsat : ∀ (bv : BVLogicalExpr) (acts : List (List LratBits.BAct)), LratBits.checkBits (LratBits.toL (KC.Std.Sat.AIG.toCNF (KC.Std.Tactic.BVDecide.BVLogicalExpr.bitblast bv).relabelNat)) acts = true → bv.Unsat
+# 2026-10-24 ~04:43Z: builds of the bit-blaster route (one per toolchain; on v4.29.0-rc4
+# BVS/Sound4.lean = the original + `dsimp only` before 3 shift-add rewrites), AxBvs.lean:
+v4.29.0-rc4, v4.31.0, v4.33.1, v4.35.0-rc4: BVS.bvs_unsat4, BVS.unsat_of_cnf, BVS.chkUR_sound depend on [propext, Classical.choice, Quot.sound]; BVS.ChainL.trans on no axioms
+bvs_unsat4 : ∀ bv T D H L N, check4 bv T D H L = true → ChainL (look4 T H) (L + 1) (N + 1) → stepEmpty4 T D H N = true → bv.Unsat

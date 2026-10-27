@@ -1,0 +1,4 @@
+kernelize: `nfl_X_7.kernel` proves the statement of `nfl_X_7` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (160894 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 160908 ms in total.
+time 162.43 s wall 160.19 s user 6189200 KB
+exit 0

@@ -1,0 +1,103 @@
+start 2026-10-24T04:50:10Z tc=v4.33.1 nt=/home/ntbuild/work_casts/ntc/c1
+SELECTED 84
+ROW	AList.instDecidableEq	PQ	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	AddAction.instDecidablePredMemSetFixedByAddOfDecidableEq	PQ	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	CategoryTheory.BiconeHom.decidableEq	PQ	Decidable	rule=none	declared=no	-	no-args
+ROW	CategoryTheory.Limits.WalkingParallelFamily.instDecidableEqHom.decEq	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	CategoryTheory.Limits.WidePullbackShape.fintypeHom	PQ	Fintype	rule=none	declared=no	-	orig=eval new=- nt_off=proved nt_on=proved nt_on2=proved
+ROW	CategoryTheory.Limits.WidePushoutShape.fintypeHom	PQ	Fintype	rule=none	declared=no	-	orig=eval new=- nt_off=proved nt_on=proved nt_on2=proved
+ROW	CategoryTheory.finBiconeHom	other	Fintype	rule=none	declared=no	-	orig=eval new=- nt_off=proved nt_on=proved nt_on2=proved
+ROW	CategoryTheory.instDecidableEqBicone.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	CategoryTheory.instDecidableEqPairwise.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	ClassGroup.fintypeOfAdmissibleOfFinite	PQ	Fintype	rule=none	declared=no	-	no-args
+ROW	Computability.instDecidableEqΓ'.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	Finset.instFintypeSubtypeMemSubgroupInvMulSubgroup	PQ	Fintype	rule=none	declared=no	-	orig=stuck new=- nt_off=failed nt_on=failed nt_on2=failed
+ROW	FirstOrder.Language.Term.instDecidableEq._f	other	Decidable	rule=none	declared=no	-	no-args
+ROW	FirstOrder.Language.Term.instDecidableEq._sunfold	other	Decidable	rule=1	declared=yes	cast-free	no-args
+ROW	FractionRing.instDecidableEq	PQ	Decidable	rule=4	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	MulAction.instDecidablePredMemSetFixedByOfDecidableEq	PQ	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	Nat.instDecidableEqPartition.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	ONote.decidableTopBelow	other	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	PSigma.Lex.decidable	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	Polynomial.fintypeSubtypeMonicDvd	PQ	Fintype	rule=none	declared=no	-	orig=stuck new=- nt_off=failed nt_on=failed nt_on2=failed
+ROW	QuotientAddGroup.leftRelDecidable	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	QuotientAddGroup.rightRelDecidable	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	QuotientGroup.leftRelDecidable	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	QuotientGroup.rightRelDecidable	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	Set.decidableMemNSMul	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	Set.decidableMemPow	PQ	Decidable	rule=4	declared=yes	cast-free	no-args
+ROW	Set.fintypeImage2	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	Set.fintypeLENat	PQ	Fintype	rule=3	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	Set.fintypeSeq	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	Set.fintypeSubset	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	Set.fintypesUnion	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	Set.powersetCard.instFintypeElemFinset	PQ	Fintype	rule=3	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	Sigma.Lex.decidable	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	SimpleGraph.Walk.instDecidableIsPathOfDecidableEq	PQ	Decidable	rule=4	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	SimpleGraph.fintypeEdgeSetBot	PQ	Fintype	rule=3	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	SimpleGraph.fintypeEdgeSetInf	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	SimpleGraph.fintypeEdgeSetSdiff	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	SimpleGraph.fintypeEdgeSetSup	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	SimpleGraph.instDecidableEqDart.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	SimpleGraph.instDecidableEqWalk.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	SimpleGraph.instDecidableEqWalk.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	SimpleGraph.instDecidableRelAdjEdge	PQ	Decidable	rule=4	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	SimpleGraph.instFintypeElemSym2EdgeSetEdge	PQ	Fintype	rule=3	declared=yes	cast-free	orig=stuck new=stuck nt_off=failed nt_on=proved nt_on2=proved
+ROW	SimpleGraph.instFintypeElemSym2EdgeSetFromEdgeSetOfDecidableEq	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+ROW	Thunk.instDecidableEq_mathlib	PQ	Decidable	rule=2	declared=yes	cast-free	orig=stuck new=eval nt_off=failed nt_on=proved nt_on2=proved
+ROW	Turing.PartrecToTM2.instDecidableEqCont'.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	Turing.PartrecToTM2.instDecidableEqCont'.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	Turing.PartrecToTM2.Λ'.instDecidableEq	other	Decidable	rule=none	declared=no	-	orig=eval new=- nt_off=proved nt_on=proved nt_on2=proved
+ROW	Turing.ToPartrec.instDecidableEqCode.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	Turing.ToPartrec.instDecidableEqCode.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	WeierstrassCurve.Affine.instDecidableEqPoint.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	WithTopology.instDecidableEq.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	_private.Mathlib.Tactic.Linter.FlexibleLinter.0.Mathlib.Linter.Flexible.instDecidableEqStained.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqBinaryTree.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqBinaryTree.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqComposition.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqCompositionAsSet.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqContextFreeRule.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	instDecidableEqDihedralGroup.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqDyckWord.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	instDecidableEqFinpartition.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	instDecidableEqFreeAddMagma.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqFreeAddMagma.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqFreeMagma.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqFreeMagma.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqLists'.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqLists'.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqNum.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqNzsNum.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqNzsNum.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqONote.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqONote.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqOrderedFinpartition.decEq	HYP	Decidable	rule=none	declared=no	-	orig=eval new=- nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqPosNum.decEq._f	HYP	Decidable	rule=none	declared=no	-	no-args
+ROW	instDecidableEqPosNum.decEq._sunfold	HYP	Decidable	rule=1	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqQuadraticAlgebra.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqQuaternionGroup.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqSNum.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqSemidirectProduct.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqSymbol.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	no-args
+ROW	instDecidableEqTwoPointing.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqZNum.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instDecidableEqZsqrtd.decEq	HYP	Decidable	rule=2	declared=yes	cast-free	orig=eval new=eval nt_off=proved nt_on=proved nt_on2=proved
+ROW	instFintypeElemImageCoeFinsetOfDecidableEqOfSingletonSet	PQ	Fintype	rule=3	declared=yes	cast-free	no-args
+CensusC1.lean:78:98: warning: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+CensusC1.lean:100:39: warning: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+CensusC1.lean:105:39: warning: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+CensusC1.lean:114:62: warning: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+CensusC1.lean:165:41: warning: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+maxrss_kb 7155048 secs 5.61
+rc=0 end=2026-10-24T04:50:15Z

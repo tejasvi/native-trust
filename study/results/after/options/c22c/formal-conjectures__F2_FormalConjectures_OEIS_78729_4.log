@@ -1,0 +1,9 @@
+$ lean formal-conjectures__F2_FormalConjectures_OEIS_78729_4.lean tc=v4.33.1 ntlib=/home/ntbuild/work_shared/nt22/v4.33.1/.lake/build/lib/lean start=2026-10-24T19:57:16Z
+formal-conjectures__F2_FormalConjectures_OEIS_78729_4.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._native.decide.ax_1_1` as `_ktr.«formal-conjectures__F2_FormalConjectures_OEIS_78729_4»._private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._kernel.decide.ax_1_1`: kernel_ms=16 native_axioms=1 rebuilt=0 copies=0 total_ms=79 acc_fallback=0 pieces=1
+maxrss_kb 7107140 secs 2.89
+rc=0 end=2026-10-24T19:57:19Z
+__F2_FormalConjectures_OEIS_78729_4»._private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._kernel.decide.ax_1_1 quick whole-term attempt proved it
+PROVED `_private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._native.decide.ax_1_1` as `_ktr.«formal-conjectures__F2_FormalConjectures_OEIS_78729_4»._private.FormalConjectures.OEIS.«78729».0.OeisA78729.a_6._kernel.decide.ax_1_1`: kernel_ms=16 native_axioms=1 rebuilt=0 copies=0 total_ms=79 acc_fallback=0 pieces=1

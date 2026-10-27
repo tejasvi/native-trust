@@ -1,0 +1,72 @@
+BVS/Lrat3.lean:80:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+BVS/Lrat3.lean:81:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+BVS/Lrat3.lean:173:37: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:176:39: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:181:42: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:200:39: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:205:42: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:223:37: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Bool.and_eq_true] at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:526:23: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:528:25: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Lrat3.lean:534:25: warning: This simp argument is unused:
+  cond
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+TIME wall=0.57 s user=1.22 s maxrss=754024 KB

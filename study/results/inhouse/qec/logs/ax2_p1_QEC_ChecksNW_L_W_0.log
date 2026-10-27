@@ -1,0 +1,41 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksNW_L_W_0.olean F2_p1_QEC_ChecksNW_L_W_0.lean
+NT start wOKL._native.native_decide.ax_1_1
+NT nested wOKL._native.native_decide.ax_1_1 ms=48 rebuilt_defs=0 visited=1590
+NT copying QECComp.clsHexL
+NT copy QECComp.clsHexL defn_ms=1641 eq_ms=5977 congr=true
+NT copying QECComp.potHexL
+NT copy-rejected QECComp.potHexL: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying QECComp.wEHexL
+NT copy QECComp.wEHexL defn_ms=1 eq_ms=1 congr=true
+NT copying QECComp.wEL
+NT copy QECComp.wEL defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.wCHexL
+NT copy QECComp.wCHexL defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.wCL
+NT copy QECComp.wCL defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.certL
+NT copy QECComp.certL defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=29434 copies=6 copy_kernel_ms=7623 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1 structure all-by-index length=95 pieces=8
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_0 eval_ms=1516
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_1 blockers_ms=3 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_1 eval_ms=3937
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_2 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_2 eval_ms=6300
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_3 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_3 eval_ms=8377
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_4 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_4 eval_ms=10251
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_5 blockers_ms=3 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_5 eval_ms=12844
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_6 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_6 eval_ms=14853
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_7 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1.p_7 eval_ms=16740
+NT _ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1 pieces=8
+PROVED `wOKL._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1`: kernel_ms=242294 native_axioms=1 rebuilt=0 copies=0 total_ms=242342 acc_fallback=0 pieces=8
+PROVED `wOKL._native.native_decide.ax_1_1` as `_ktr.F2_p1_QEC_ChecksNW_L_W_0.wOKL._kernel.native_decide.ax_1_1`: kernel_ms=242294 native_axioms=1 rebuilt=0 copies=0 total_ms=242342 acc_fallback=0 pieces=8
+maxrss_kb 7974088
+rc=0 secs=257 cg_cpu_s=256.2 cg_peak_kb=6564892 cg_oom_kill=0

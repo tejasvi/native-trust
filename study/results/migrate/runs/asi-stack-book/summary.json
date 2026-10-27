@@ -1,0 +1,170 @@
+{
+ "name": "asi-stack-book",
+ "pkg": "/home/ntbuild/repos/asi-stack-book/lean",
+ "toolchain": "v4.31.0",
+ "uses": 382,
+ "replaced": 374,
+ "replaced_known": 374,
+ "replaced_unknown": 0,
+ "replaced_facts": 382,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "FAILED/other": 8
+ },
+ "native_axioms_before": 392,
+ "native_axioms_after": 10,
+ "bv_decide_axioms_before": 1,
+ "bv_decide_axioms_after": 1,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 366,
+ "native_dependent_decls_after": 10,
+ "rewritten_decls": 351,
+ "rewritten_decls_still_native": 1,
+ "still_native_why": {
+  "AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective": "1 unconverted native facts of its own"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 28.57,
+   "cpu": 136.5,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 0.7,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 29.66,
+  "cpu": 138.9,
+  "n_built": 55,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 1.7
+ },
+ "time1": {
+  "wall": 28.67,
+  "cpu": 138.0,
+  "n_built": 55,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 1.7
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.34,
+  "cpu": 0.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 55,
+ "replaced_modules": 55,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  82.3,
+  81.0
+ ],
+ "module_times_slower": [
+  [
+   "AsiStackProofs.GovernedModelTraining",
+   3.4,
+   4.5
+  ],
+  [
+   "AsiStackProofs.OpenEndedImprovementRefinement",
+   2.0,
+   2.9
+  ],
+  [
+   "AsiStackProofs.ArtifactCompressionRefinement",
+   1.4,
+   1.5
+  ],
+  [
+   "AsiStackProofs.CompactGenerationRefinement",
+   2.0,
+   2.1
+  ],
+  [
+   "AsiStackProofs.AuthorityEffectRefinement",
+   0.8150000000000001,
+   0.866
+  ],
+  [
+   "AsiStackProofs.SafetyCaseRefinement",
+   0.712,
+   0.731
+  ],
+  [
+   "AsiStackProofs.GovernedOperations",
+   0.904,
+   0.921
+  ],
+  [
+   "AsiStackProofs.VerificationBandwidthRefinement",
+   0.898,
+   0.905
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "AsiStackProofs.SelfImprovementRefinement",
+   6.5,
+   6.0
+  ],
+  [
+   "AsiStackProofs.ResourceEconomicsRefinement",
+   2.2,
+   2.0
+  ],
+  [
+   "AsiStackProofs.HumanAIOrganizations",
+   2.5,
+   2.3
+  ],
+  [
+   "AsiStackProofs.HiveLifecycleRefinement",
+   1.6,
+   1.4
+  ],
+  [
+   "AsiStackProofs.DataEngineLifecycleRefinement",
+   3.5,
+   3.3
+  ],
+  [
+   "AsiStackProofs.ScalableOversightRefinement",
+   1.7,
+   1.5
+  ],
+  [
+   "AsiStackProofs.GovernedWorldModels",
+   1.4,
+   1.2
+  ],
+  [
+   "AsiStackProofs.BenchmarkRatchets",
+   1.7,
+   1.5
+  ]
+ ]
+}

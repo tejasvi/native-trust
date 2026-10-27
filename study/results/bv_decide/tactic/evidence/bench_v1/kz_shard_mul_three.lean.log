@@ -1,0 +1,2 @@
+bvs shard_mul_three #1: 1440 nodes, 4127 clauses, 1440 vars; 1640 steps, 42371 hints, 3 chunks; solve 38 ms, prep+defs 168 ms; kernel: base 1428 ms, chunks 7855 ms (max 3780 ms); total 9497 ms
+bvs: added shard_mul_three.bvs4 (105 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

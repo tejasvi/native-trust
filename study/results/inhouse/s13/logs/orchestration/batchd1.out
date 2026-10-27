@@ -1,0 +1,14 @@
+2026-10-26T01:13:01Z batch: 6 facts, PAR=6 MEMG=48 T=900 MemAvailable=722G
+2026-10-26T01:13:01Z start D_header_0 unit=s13-f-d-header-0-1792977181 MemAvailable=722G
+2026-10-26T01:13:03Z start D_header_1 unit=s13-f-d-header-1-1792977183 MemAvailable=718G
+2026-10-26T01:13:05Z start D_bfsD00_0 unit=s13-f-d-bfsd00-0-1792977185 MemAvailable=715G
+2026-10-26T01:13:07Z start D_bfsD24_0 unit=s13-f-d-bfsd24-0-1792977187 MemAvailable=713G
+2026-10-26T01:13:09Z start D_ct4_0 unit=s13-f-d-ct4-0-1792977189 MemAvailable=710G
+2026-10-26T01:13:11Z start D_small_0 unit=s13-f-d-small-0-1792977191 MemAvailable=708G
+2026-10-26T01:13:29Z end D_header_0 rc=0 | maxrss_kb 7461060 secs 27.88 | rc=134 end=2026-10-26T01:13:29Z
+2026-10-26T01:13:31Z end D_header_1 rc=0 | maxrss_kb 7460620 secs 27.72 | rc=134 end=2026-10-26T01:13:31Z
+2026-10-26T01:13:33Z end D_bfsD00_0 rc=0 | maxrss_kb 7460440 secs 27.57 | rc=134 end=2026-10-26T01:13:33Z
+2026-10-26T01:13:35Z end D_bfsD24_0 rc=0 | maxrss_kb 7460552 secs 27.87 | rc=134 end=2026-10-26T01:13:35Z
+2026-10-26T01:14:35Z end D_small_0 rc=0 | maxrss_kb 24472660 secs 84.14 | rc=0 end=2026-10-26T01:14:35Z
+2026-10-26T01:15:38Z end D_ct4_0 rc=0 | maxrss_kb 51659220 secs 148.84 | rc=137 end=2026-10-26T01:15:38Z
+2026-10-26T01:15:38Z batch done

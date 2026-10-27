@@ -1,0 +1,16 @@
+rep1 dc128 build7 TIME wall=35.33 s user=34.94 s maxrss=2646588 KB
+rep1 And8 build7 TIME wall=4.51 s user=3.96 s maxrss=3032188 KB
+rep1 T6 build7 TIME wall=9.82 s user=9.29 s maxrss=2200064 KB total 7671 ms
+rep1 dc128 build10 TIME wall=34.23 s user=33.83 s maxrss=2639888 KB
+rep1 And8 build10 TIME wall=4.10 s user=3.59 s maxrss=3035340 KB
+rep1 T6 build10 TIME wall=8.24 s user=7.80 s maxrss=2203256 KB total 6495 ms
+rep2 dc128 build7 TIME wall=29.91 s user=29.49 s maxrss=2636644 KB
+rep2 And8 build7 TIME wall=4.09 s user=3.58 s maxrss=3037924 KB
+rep2 T6 build7 TIME wall=8.16 s user=7.79 s maxrss=2195504 KB total 6525 ms
+rep2 dc128 build10 TIME wall=31.43 s user=31.03 s maxrss=2639704 KB
+rep2 And8 build10 TIME wall=4.41 s user=3.88 s maxrss=3033300 KB
+rep2 T6 build10 TIME wall=9.22 s user=8.79 s maxrss=2201928 KB total 7433 ms
+rep1 divmod8 build7 TIME wall=86.26 s user=86.09 s maxrss=2581660 KB total 83106 ms
+rep1 divmod8 build10 TIME wall=84.58 s user=84.35 s maxrss=2566180 KB total 81701 ms
+rep2 divmod8 build7 TIME wall=84.97 s user=84.87 s maxrss=2575192 KB total 82079 ms
+rep2 divmod8 build10 TIME wall=86.04 s user=85.99 s maxrss=2576584 KB total 82884 ms

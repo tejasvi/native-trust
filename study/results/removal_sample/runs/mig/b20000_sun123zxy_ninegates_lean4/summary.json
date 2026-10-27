@@ -1,0 +1,94 @@
+{
+ "name": "b20000_sun123zxy_ninegates_lean4",
+ "pkg": "/home/ntbuild/repos_s/sun123zxy_ninegates-lean4",
+ "toolchain": "v4.33.0",
+ "uses": 9,
+ "replaced": 0,
+ "replaced_known": 0,
+ "replaced_unknown": 0,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 20000: BLOCKED (`System.Platform.getNumBits`) (+5 more facts)": 1,
+  "budget 20000: BLOCKED (`System.Platform.getNumBits`)": 8
+ },
+ "native_axioms_before": 14,
+ "native_axioms_after": 14,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 15,
+ "native_dependent_decls_after": 15,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 0.76,
+   "cpu": 1.1,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 5.67,
+  "cpu": 11.3,
+  "n_built": 4,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 1.6,
+  "peak_rss_sum_gb": 2.9
+ },
+ "time1": {
+  "wall": 0.76,
+  "cpu": 1.1,
+  "n_built": 0,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.78,
+  "cpu": 1.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 0,
+ "replaced_modules": 0,
+ "unmatched_axioms": 0,
+ "fact_budget": 20000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 14
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  0,
+  0
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

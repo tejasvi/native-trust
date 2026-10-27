@@ -1,0 +1,17 @@
+theorem	source_log	native_facts	converted	blocked	resource	resource_sampled	other	not_run	cpu_h_run	static_blockers(facts)	unconverted_families
+QEC.Circ.thm11_circuit_native	out_final_Thm11V2.txt	61	61	0	0	0	0	0	1.684		
+QEC.Circ.thm12_circuit_native	outF_QEC_ChecksN8_Thm12V2.txt	131	61	0	4	66	0	0	2.573	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	cover8(28);heads8(40);heads8_size(1);tabCheck_native(1)
+QEC.Circ.thm12b_circuit_native	outF_QEC_ChecksNS_Thm12bV2.txt	132	62	0	4	66	0	0	3.657	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	cover8(28);heads8_size(1);headsS8(40);tabCheckP8(1)
+QEC.Circ.thm13a_lean_native	outF_QEC_ChecksNW_Thm13aV2.txt	63	62	0	1	0	0	0	1.806		tabCheckL(1)
+QEC.Circ.thm13b_lean_native	outF_QEC_ChecksNW_Thm13bV2.txt	132	62	0	4	66	0	0	2.627	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverL(28);heads8_size(1);headsL(40);tabCheckL(1)
+QEC.Circ.thm13b_native	outF_QEC_ChecksNW_Thm13bV2.txt	132	62	0	4	66	0	0	2.627	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverL(28);heads8_size(1);headsL(40);tabCheckL(1)
+QEC.Circ.thm13c_lean_native	outF_QEC_ChecksNS_Thm13cV2.txt	132	62	0	4	66	0	0	2.632	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverL(28);heads8_size(1);headsSL(40);tabCheckPL(1)
+QEC.Circ.thm13c_native	outF_QEC_ChecksNS_Thm13cV2.txt	132	62	0	4	66	0	0	2.632	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverL(28);heads8_size(1);headsSL(40);tabCheckPL(1)
+QEC.Circ.thm81a_h2_native	outF_QEC_ChecksNW_Thm81aV2.txt	63	62	0	1	0	0	0	1.806		tabCheckH2(1)
+QEC.Circ.thm81a_helios_native	outF_QEC_ChecksNW_Thm81aV2.txt	63	62	0	1	0	0	0	1.805		tabCheckHl(1)
+QEC.Circ.thm81b_h2_native	outF_QEC_ChecksNW_Thm81bV2.txt	132	61	0	5	66	0	0	2.703	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverH2(28);heads8_size(1);headsH2(40);tabCheckH2(1);wOKH2(1)
+QEC.Circ.thm81b_helios_native	outF_QEC_ChecksNW_Thm81bV2.txt	132	61	0	5	66	0	0	2.704	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverHl(28);heads8_size(1);headsHl(40);tabCheckHl(1);wOKHl(1)
+QEC.Circ.thm81b_heron_native	outF_QEC_ChecksNW_Thm81bV2.txt	132	61	0	5	66	0	0	2.708	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverHe(28);heads8_size(1);headsHe(40);tabCheckHe(1);wOKHe(1)
+QEC.Circ.thm81c_h2_native	outF_QEC_ChecksNS_Thm81cV2.txt	132	61	0	5	66	0	0	2.703	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverH2(28);heads8_size(1);headsSH2(40);tabCheckPH2(1);wOKSH2(1)
+QEC.Circ.thm81c_helios_native	outF_QEC_ChecksNS_Thm81cV2.txt	132	61	0	5	66	0	0	2.706	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverHl(28);heads8_size(1);headsSHl(40);tabCheckPHl(1);wOKSHl(1)
+QEC.Circ.thm81c_heron_native	outF_QEC_ChecksNS_Thm81cV2.txt	132	61	0	5	66	0	0	3.001	Float.log(40);System.Platform.getNumBits(40);mixHash(40)	coverHe(28);heads8_size(1);headsSHe(40);tabCheckPHe(1);wOKSHe(1)

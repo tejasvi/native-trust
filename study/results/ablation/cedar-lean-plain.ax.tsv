@@ -1,0 +1,10 @@
+cedar-lean-plain	Cedar.Data.Int64	_private.Cedar.Data.Int64.0.Int64.toInt_nonneg_of_ge_zero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576996	1		nt_lines=4 last=eval_ms=0
+cedar-lean-plain	Cedar.Data.Int64	_private.Cedar.Data.Int64.0.Int64.toInt_neg_of_not_ge_zero._native.native_decide.ax_1_2	native_decide	False	PROVED		0	1577104	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_8	native_decide	False	PROVED		0	1579920	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_6	native_decide	False	PROVED		0	1569476	1		nt_lines=4 last=eval_ms=0
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_3	native_decide	False	PROVED		0	1568432	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_6	native_decide	False	PROVED		0	1533640	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579432	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_toInt._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579432	1		nt_lines=4 last=eval_ms=0
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_gt_one._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1579416	1		nt_lines=4 last=eval_ms=1
+cedar-lean-plain	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1530600	1		nt_lines=4 last=eval_ms=1

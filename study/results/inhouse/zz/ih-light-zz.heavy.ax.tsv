@@ -1,0 +1,2 @@
+ih-light-zz	ZZ82a.MainK	-			NOT_BUILT						
+ih-light-zz	ZZChk.N.Check	ZZChk.N.check_native._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	96510500	1596		nt_lines=15 last=blockers_ms=8 bounded=false copy_ms=22 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

@@ -1,0 +1,58 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0/bin/lean -j1 --tstack=1048576 F2_UnitTest_IPAddr_0.lean
+NT start UnitTest.IPAddr.test7._native.native_decide.ax_1_1
+NT nested UnitTest.IPAddr.test7._native.native_decide.ax_1_1 ms=294 rebuilt_defs=0 visited=4436
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=10 congr=true
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=0 congr=true
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copy String.Slice.all defn_ms=0 eq_ms=1 congr=true
+NT copy String.all defn_ms=0 eq_ms=0 congr=true
+NT copy _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseNumV6 defn_ms=0 eq_ms=0 congr=true
+NT copy _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseNumSegsV6 defn_ms=0 eq_ms=1 congr=true
+NT copy _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseSegsV6 defn_ms=0 eq_ms=1 congr=true
+NT copy _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseIPv6Net defn_ms=0 eq_ms=0 congr=true
+NT copy _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parse defn_ms=0 eq_ms=0 congr=true
+NT copy Cedar.Spec.Ext.IPAddr.ip defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_UnitTest_IPAddr_0.UnitTest.IPAddr.test7._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=true copy_ms=25 copies=14 copy_kernel_ms=17
+FAILED `UnitTest.IPAddr.test7._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `UnitTest.IPAddr.test7._native.native_decide.ax_1_1` in the kernel:
+    decide (toString (Cedar.Spec.Ext.IPAddr.ip "::ffff/128").get! = "0000:0000:0000:0000:0000:0000:0000:ffff/128") = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_UnitTest_IPAddr_0.UnitTest.IPAddr.test7._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide
+        (toString (_kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip "::ffff/128").get! =
+          "0000:0000:0000:0000:0000:0000:0000:ffff/128") =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip → _kt.F2_UnitTest_IPAddr_0._private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parse → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseIPv4Net → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parsePrefixNat → Cedar.Spec.Ext.toNat?' → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorIdSearchStepOfForwardPattern → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip → _kt.F2_UnitTest_IPAddr_0._private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parse → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseIPv4Net → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parsePrefixNat → Cedar.Spec.Ext.toNat?' → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `UnitTest.IPAddr.test7._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `UnitTest.IPAddr.test7._native.native_decide.ax_1_1` in the kernel:
+  decide (toString (Cedar.Spec.Ext.IPAddr.ip "::ffff/128").get! = "0000:0000:0000:0000:0000:0000:0000:ffff/128") = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_UnitTest_IPAddr_0.UnitTest.IPAddr.test7._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide
+      (toString (_kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip "::ffff/128").get! =
+        "0000:0000:0000:0000:0000:0000:0000:ffff/128") =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip → _kt.F2_UnitTest_IPAddr_0._private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parse → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseIPv4Net → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parsePrefixNat → Cedar.Spec.Ext.toNat?' → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorIdSearchStepOfForwardPattern → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.F2_UnitTest_IPAddr_0.Cedar.Spec.Ext.IPAddr.ip → _kt.F2_UnitTest_IPAddr_0._private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parse → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parseIPv4Net → _private.Cedar.Spec.Ext.IPAddr.0.Cedar.Spec.Ext.IPAddr.parsePrefixNat → Cedar.Spec.Ext.toNat?' → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1503104
+rc=0 secs=1

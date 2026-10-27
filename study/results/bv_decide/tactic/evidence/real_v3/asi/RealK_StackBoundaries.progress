@@ -1,0 +1,5 @@
+[26053198] AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._bvk_2: 580 nodes, CNF 1424 clauses
+[26053241] AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._bvk_2: 362 steps, 840 hints, 1 chunks, 0 segments; SAT 30 ms
+[26053871] AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._bvk_2: base check 630 ms
+[26054177] AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._bvk_2: chunk 0 (362 steps from id 1425) 306 ms
+[26054239] bv_kdecide [AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete]: bv_decide 163 ms; 580 nodes, 1424 clauses, 362 LRAT steps, 840 hints, 1 chunks; SAT 30 ms, data 14 ms; kernel: base 630 ms, chunks 306 ms (max 306 ms), assembly 7 ms; total 1260 ms; peak RSS: bv_decide 1537 MiB, kernel route 1672 MiB

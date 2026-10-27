@@ -1,0 +1,152 @@
+{
+ "name": "b20000_Rob1Ham_btc_lean_spec_proofs",
+ "pkg": "/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs",
+ "toolchain": "v4.35.0",
+ "uses": 833,
+ "replaced": 175,
+ "replaced_known": 55,
+ "replaced_unknown": 120,
+ "replaced_facts": 55,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: Tactic `decide` failed to reduce": 8,
+  "budget 20000: EXPENSIVE (no blocker, but the kernel did not finish within 20000 thousand heartbeats (`set_option nativeTrust.)": 79,
+  "module not built": 99,
+  "build: (kernel) deterministic timeout": 1,
+  "build: build of the module exceeded 900 s": 471
+ },
+ "native_axioms_before": 134,
+ "native_axioms_after": 79,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 134,
+ "native_dependent_decls_after": 79,
+ "rewritten_decls": 55,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 124,
+   "wall": null,
+   "cpu": null,
+   "n_errors": 9,
+   "reverted": 480,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 9.3,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 107.89,
+   "cpu": 192.5,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 9.2,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 55.33,
+  "cpu": 76.5,
+  "n_built": 12,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 9.3,
+  "peak_rss_sum_gb": 9.3
+ },
+ "time1": {
+  "wall": 193.67,
+  "cpu": 561.4,
+  "n_built": 12,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 9.3,
+  "peak_rss_sum_gb": 19.9
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.72,
+  "cpu": 0.9,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 12,
+ "replaced_modules": 10,
+ "unmatched_axioms": 0,
+ "fact_budget": 20000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 55,
+   "EXPENSIVE": 79
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  69.4,
+  549.6
+ ],
+ "module_times_slower": [
+  [
+   "BitcoinProofs.Property.Y10.MerkleProps",
+   2.8,
+   167.0
+  ],
+  [
+   "BitcoinProofs.Bip.B13.B13SigMsg",
+   0.9480000000000001,
+   154.0
+  ],
+  [
+   "BitcoinProofs.Property.Y03.Property",
+   2.8,
+   109.0
+  ],
+  [
+   "BitcoinProofs.Bip.B09.SigHash143",
+   0.754,
+   25.0
+  ],
+  [
+   "BitcoinProofs.Theorems.Exhaust.MerkleShapes64",
+   3.3,
+   19.0
+  ],
+  [
+   "BitcoinProofs.Property.Y08.Probe",
+   0.681,
+   12.0
+  ],
+  [
+   "BitcoinProofs.Bip.B15.Bip94Tests",
+   0.785,
+   5.1
+  ],
+  [
+   "BitcoinProofs.Property.Y08.SighashLegacyProps",
+   53.0,
+   54.0
+  ]
+ ],
+ "module_times_faster": []
+}

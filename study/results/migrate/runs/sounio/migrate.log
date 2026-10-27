@@ -1,0 +1,9 @@
+2026-10-24T00:29:14Z sounio: tc=v4.30.0-rc2 files=307 modules=306 built=19 plain=sounio-plain study=sounio
+2026-10-24T00:29:15Z census before: 77 native axioms, 90 native-dependent declarations, modules=19, failed=[]
+2026-10-24T00:29:17Z plan: 741 occurrences; {"rewrite": 70, "keep: ERROR/memory": 2, "keep: module not built": 664, "keep: TIMEOUT/900s": 4, "keep: FAILED/blocked (Float.decLe;Float.ofScientific;floatSpec)": 1}; unmatched axioms=0; affected modules=15
+2026-10-24T00:29:25Z time0: rc=0 wall=6.84 cpu=16.0 built=15 peak_lean=3 peak_rss_gb=0.5 sum=1.4 errors=0
+2026-10-24T00:32:48Z build round 0: rc=0 wall=202.4 errors=0 revert=0 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=29.7
+2026-10-24T00:36:13Z time1: rc=0 wall=205.01 cpu=226.1 built=15 peak_lean=3 peak_rss_gb=29.7 sum=29.7 errors=0
+2026-10-24T00:36:13Z default build: rc=0 wall=0.35 built=0 errors=0
+2026-10-24T00:36:14Z summary {"uses": 741, "replaced": 70, "replaced_facts": 70, "native_axioms_before": 77, "native_axioms_after": 7, "axioms_after_as_expected": true, "native_dependent_decls_before": 90, "native_dependent_decls_after": 10, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 741, "replaced": 70, "replaced_facts": 70, "native_axioms_before": 77, "native_axioms_after": 7, "axioms_after_as_expected": true, "native_dependent_decls_before": 90, "native_dependent_decls_after": 10, "rewritten_decls_still_native": 0, "build_ok": true}

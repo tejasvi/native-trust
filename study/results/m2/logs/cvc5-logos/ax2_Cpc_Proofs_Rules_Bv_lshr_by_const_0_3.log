@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_Rules_Bv_lshr_by_const_0_3.lean
+NT start _private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._native.native_decide.ax_1_27
+NT nested _private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._native.native_decide.ax_1_27 ms=131 rebuilt_defs=0 visited=2944
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=1 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=11 eq_ms=13 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_Cpc_Proofs_Rules_Bv_lshr_by_const_0_3._private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._kernel.native_decide.ax_1_27.p_0 blockers_ms=18 bounded=false copy_ms=51 copies=6 copy_kernel_ms=27
+NT _ktr.F2_Cpc_Proofs_Rules_Bv_lshr_by_const_0_3._private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._kernel.native_decide.ax_1_27.p_0 eval_ms=1
+PROVED `_private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._native.native_decide.ax_1_27` as `_ktr.F2_Cpc_Proofs_Rules_Bv_lshr_by_const_0_3._private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._kernel.native_decide.ax_1_27`: kernel_ms=81 native_axioms=1 rebuilt=0 copies=6 total_ms=212
+PROVED `_private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._native.native_decide.ax_1_27` as `_ktr.F2_Cpc_Proofs_Rules_Bv_lshr_by_const_0_3._private.Cpc.Proofs.Rules.Bv_lshr_by_const_0.0.typeof_args_of_prog_bv_lshr_by_const_0_bool._kernel.native_decide.ax_1_27`: kernel_ms=81 native_axioms=1 rebuilt=0 copies=6 total_ms=212
+maxrss_kb 1769096
+rc=0 secs=1

@@ -1,0 +1,190 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.lean
+NT start Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1
+NT nested Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1 ms=64 rebuilt_defs=0 visited=2229
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.pow._f
+NT copy Lean6.Special.Comp.Poly.pow._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.pow
+NT copy Lean6.Special.Comp.Poly.pow defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono._f
+NT copy Lean6.Special.Comp.Poly.substMono._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono
+NT copy Lean6.Special.Comp.Poly.substMono defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.subst
+NT copy Lean6.Special.Comp.Poly.subst defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.C4.chartEqs
+NT copy Lean6.Special.Comp.C4.chartEqs defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.C4.chartOK
+NT copy Lean6.Special.Comp.C4.chartOK defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=25 copies=16 copy_kernel_ms=14 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=true copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.pow._f
+NT copy Lean6.Special.Comp.Poly.pow._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.pow
+NT copy Lean6.Special.Comp.Poly.pow defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono._f
+NT copy Lean6.Special.Comp.Poly.substMono._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono
+NT copy Lean6.Special.Comp.Poly.substMono defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.subst
+NT copy Lean6.Special.Comp.Poly.subst defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.C4.chartEqs
+NT copy Lean6.Special.Comp.C4.chartEqs defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.C4.chartOK
+NT copy Lean6.Special.Comp.C4.chartOK defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=true copy_ms=23 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   _ktt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK Lean6.Spe
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen List.merge._unary roots=1 ms=0
+NT param-gen List.merge roots=1 ms=0
+NT param-gen List.mergeSort._unary roots=1 ms=1
+NT param-gen List.mergeSort roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.prep roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.init roots=1 ms=1
+NT param-gen Lean6.Special.Comp.GB.run roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.unitTest roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.normalize roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.pow._f roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.pow roots=1 ms=1
+NT param-gen Lean6.Special.Comp.Poly.substMono._f roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.substMono roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.subst roots=1 ms=0
+NT param-gen Lean6.Special.Comp.C4.chartEqs roots=1 ms=0
+NT param-gen Lean6.Special.Comp.C4.chartOK roots=1 ms=0
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=16 gen_errors=0 ms=26
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 param-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   _ktp.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK (@NativeTrust.fixFuel)       NativeTrust.fix_eq_fixFuel Lean6.Special.Comp.C4.mu1 32003 (1, 4) =     true  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): •
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.pow._f
+NT copy Lean6.Special.Comp.Poly.pow._f defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.pow
+NT copy Lean6.Special.Comp.Poly.pow defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono._f
+NT copy Lean6.Special.Comp.Poly.substMono._f defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.substMono
+NT copy Lean6.Special.Comp.Poly.substMono defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Poly.subst
+NT copy Lean6.Special.Comp.Poly.subst defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.C4.chartEqs
+NT copy Lean6.Special.Comp.C4.chartEqs defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.C4.chartOK
+NT copy Lean6.Special.Comp.C4.chartOK defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+FAILED `Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1` in the kernel:
+    decide (Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003 (1, 4) = true) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003
+        (1, 4) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.unitTest → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.run → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the accessibility-generator route (`wfAcc`), which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003
+        (1, 4) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.unitTest → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.run → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1` in the kernel:
+  decide (Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003 (1, 4) = true) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003
+      (1, 4) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.unitTest → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.run → _kt.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK Lean6.Special.Comp.C4.mu1 32003
+      (1, 4) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.C4.chartOK → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.unitTest → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.run → _kta.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_P14_0.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1745972
+rc=0 secs=23

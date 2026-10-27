@@ -1,0 +1,147 @@
+{
+ "name": "Natuvea_tacenta_core_tacenta_model",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "copy_root": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.31.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T04:41:14Z",
+ "toolchain": "v4.31.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.54,
+  "built": []
+ },
+ "modules": 41,
+ "before": {
+  "total": 2,
+  "by_tactic": {
+   "bv_decide": 2
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "native_files": 19,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 110.21,
+   "cpu": 162.9,
+   "n_built": 41,
+   "peak_lean": 8,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 4.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 126.95,
+   "cpu": 249.5,
+   "n_built": 41,
+   "peak_lean": 7,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 13.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 110.0,
+   "cpu": 162.8,
+   "n_built": 41,
+   "peak_lean": 7,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 3.7,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 125.82,
+   "cpu": 242.9,
+   "n_built": 41,
+   "peak_lean": 7,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 12.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 108.37,
+   "cpu": 161.2,
+   "n_built": 41,
+   "peak_lean": 7,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 3.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 287,
+   "rc": 0,
+   "wall": 126.13,
+   "cpu": 246.2,
+   "n_built": 41,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 13.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 2,
+  "by_tactic": {
+   "bv_decide": 2
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 38
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: Model/Kdf.lean:106:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1688 ms)"
+ },
+ "reps": 3,
+ "orig_wall_med": 110.0,
+ "orig_cpu_med": 162.8,
+ "kf_wall_med": 126.13,
+ "kf_cpu_med": 246.2,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T04:53:18Z"
+}

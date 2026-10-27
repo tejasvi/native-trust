@@ -1,0 +1,2 @@
+bvs mul3_w32 #1: 704 nodes, 2015 clauses, 704 vars; 600 steps, 14717 hints, 1 chunks; solve 22 ms, prep+defs 58 ms; kernel: base 656 ms, chunks 2479 ms (max 2479 ms); total 3221 ms
+bvs: added mul3_w32.bvs4 (35 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

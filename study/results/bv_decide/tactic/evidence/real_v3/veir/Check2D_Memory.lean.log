@@ -1,0 +1,1 @@
+CHECK2 RealD.Memory: 117 constants, 2 `_native` names; 83 theorems/definitions: 79 standard axioms only, 4 use this module's native axioms [Veir.MemoryState.memcpy, Veir.MemoryState.llvmLoad, Veir.MemoryState.memmove, Veir.MemoryState.loadByte64], 0 use only imported native axioms [], 0 other

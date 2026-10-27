@@ -1,0 +1,65 @@
+NativeTrust: library, study scripts and results
+
+This artifact includes the following third-party material.
+
+1. Lean 4 core
+
+The definition of String.Slice.isNat (12 lines) in src/Init/Data/String/Slice.lean of Lean 4
+core is copied into these files, renamed isNatList and changed to take a list of characters
+instead of a slice:
+
+  NativeTrust/StrLib.lean
+  study/library_versions/6b378a8e/NativeTrust/StrLib.lean
+  study/library_versions/918ae06c/NativeTrust/StrLib.lean
+  study/library_versions/19a2dbb3/NativeTrust/StrLib.lean
+  study/library_versions/72639b93/NativeTrust/StrLib.lean
+  study/library_versions/c35df73b/NativeTrust/StrLib.lean
+  addons/strrepl/StrRepl.lean
+  addons/berryesseen/StrRepl.lean
+
+The source file carries this notice:
+
+  Copyright (c) 2025 Lean FRO, LLC. All rights reserved.
+  Released under Apache 2.0 license as described in the file LICENSE.
+  Authors: Henrik Böving, Markus Himmel
+
+The files under study/library_versions/ are kept byte-identical to the library versions that
+were run.
+
+2. BerryEsseen
+
+addons/berryesseen/BeList.lean and addons/berryesseen/BeObs.lean restate parts of the cover
+parser of CoolRmal/BerryEsseen (commit bfb22608ad18) in order to prove the package's own
+functions equal to list-based versions, and they share a few pattern-match lines with that
+source.
+
+The parse-once add-on in addons/berryesseen_parse_once/ builds on BeList.lean. Its BoCore.lean
+reads the package's certificate format in metaprogramming code that follows the same parser,
+and states lemmas about the package's definitions. Its scripts/leaves.tsv holds counts derived
+from the package's cover data, and the generated modules under gen/ refer to the package's
+modules and declarations by name. The certificates themselves are not included: the modules
+read them from the package when they are built.
+
+The package has no license file.
+
+3. lean-regex
+
+addons/regex/NTRegexCaseFold.lean copies the definitions checkAllPairs, isLtFirst and noChain of
+pandaman64/lean-regex (commit 32af6f33d80e, correctness/RegexCorrectness/Unicode/CaseFold/Data.lean), so
+that the kernel can check them equal to the package's own private definitions. lean-regex is under the
+Apache License 2.0.
+
+4. longfellow-zk
+
+addons/longfellow/NTLfzk.lean restates some of the certificate functions of longfellow-zk/longfellow-zk
+(commit de5f9490c3d8; formal/ligero/CodingTheory/ListDecoding/HahnDelsarte.lean and HahnDelsarteTable.lean,
+formal/ligero/examples/Ligero/Certificate.lean) with a fast binomial coefficient, in order to prove the
+package's own functions equal to them, and shares a few lines with those files. longfellow-zk is under the
+Apache License 2.0 (Copyright © 2025 Google LLC).
+
+5. minidregg
+
+addons/minidregg/NTMinidreggC4.lean contains code from emberian/minidregg (commit 307b13ea0e6d;
+Compiler/ObjectiveBendC4.lean and scripts/ObjectiveManifest.lean), Copyright (C) 2026 Ember Richardson and
+contributors, licensed under the GNU Affero General Public License v3.0 or later. The add-on is therefore
+licensed under the same license; see addons/minidregg/LICENSE and addons/minidregg/NOTICE.

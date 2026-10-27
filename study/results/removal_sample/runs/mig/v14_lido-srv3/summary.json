@@ -1,0 +1,179 @@
+{
+ "name": "v14_lido-srv3",
+ "pkg": "/home/ntbuild/repos/lido-srv3-proof-closure",
+ "toolchain": "v4.31.0",
+ "uses": 372,
+ "replaced": 256,
+ "replaced_known": 70,
+ "replaced_unknown": 186,
+ "replaced_facts": 70,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: Tactic `decide` failed for proposition": 24,
+  "build: module build 7.9 s > 2 x original 1.3 s (--max-slowdown)": 58,
+  "build: module build 2.5 s > 2 x original 0.7 s (--max-slowdown)": 22,
+  "module not built": 12
+ },
+ "native_axioms_before": 70,
+ "native_axioms_after": 0,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 84,
+ "native_dependent_decls_after": 0,
+ "rewritten_decls": 68,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 42.65,
+   "cpu": 77.4,
+   "n_errors": 24,
+   "reverted": 24,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 2.3,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 1.74,
+   "cpu": 1.9,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.5,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 6.35,
+   "cpu": 24.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 2.3,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 7.14,
+  "cpu": 28.4,
+  "n_built": 26,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 2.3,
+  "peak_rss_sum_gb": 7.9
+ },
+ "time1": {
+  "wall": 7.85,
+  "cpu": 31.0,
+  "n_built": 26,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 2.3,
+  "peak_rss_sum_gb": 7.3
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 2.13,
+  "cpu": 4.0,
+  "n_built": 1,
+  "peak_lean": 1,
+  "peak_rss_gb": 2.6,
+  "peak_rss_sum_gb": 2.6,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 26,
+ "replaced_modules": 24,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 70
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "LidoSRv3.Tests.TrioConsolidation.Composition",
+  "LidoSRv3.Tests.TrioConsolidation.Gateway"
+ ],
+ "module_times_sum": [
+  25.4,
+  27.9
+ ],
+ "module_times_slower": [
+  [
+   "LidoSRv3.Tests.ConsolidationTxMutants",
+   1.1,
+   1.6
+  ],
+  [
+   "LidoSRv3.Tests.TrioConsolidation.LiveCall",
+   1.3,
+   1.8
+  ],
+  [
+   "LidoSRv3.Tests.Topup2DistributionTxMutants",
+   2.3,
+   2.6
+  ],
+  [
+   "LidoSRv3.Tests.TrioConsolidation.Predeploy",
+   1.1,
+   1.4
+  ],
+  [
+   "LidoSRv3.Tests.TrioConsolidation.Spec",
+   0.6940000000000001,
+   0.993
+  ],
+  [
+   "LidoSRv3.Tests.AllocationTxMutants",
+   1.3,
+   1.5
+  ],
+  [
+   "LidoSRv3.Tests.MinFirstDistributionTxMutants",
+   1.2,
+   1.4
+  ],
+  [
+   "LidoSRv3.Tests.TopupKeccakOracleMutants",
+   0.853,
+   0.936
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "LidoSRv3.Tests.SanityEnvelopeMutants",
+   0.764,
+   0.736
+  ],
+  [
+   "LidoSRv3.Tests.AllocCapacityRegression",
+   0.6990000000000001,
+   0.6880000000000001
+  ]
+ ]
+}

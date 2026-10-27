@@ -1,0 +1,78 @@
+{
+ "name": "lido-srv3",
+ "import_line": "import NativeTrust.KernelFirstLite",
+ "pkg": "/home/ntbuild/repos/lido-srv3-proof-closure",
+ "copy_root": "/home/ntbuild/repos/lido-srv3-proof-closure",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib_kfscope_v10/v4.31.0",
+ "hb2": null,
+ "jobs": 4,
+ "started": "2026-10-24T08:14:53Z",
+ "toolchain": "v4.31.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 3.6,
+  "built": []
+ },
+ "modules": 723,
+ "before": {
+  "total": 70,
+  "by_tactic": {
+   "native_decide": 70
+  },
+  "failed": [],
+  "dirty": 84
+ },
+ "native_files": 26,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 5061,
+   "rc": 0,
+   "wall": 359.91,
+   "cpu": 1376.5,
+   "n_built": 732,
+   "peak_lean": 4,
+   "peak_rss_gb": 3.3,
+   "peak_rss_sum_gb": 9.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 5061,
+   "rc": 0,
+   "wall": 420.78,
+   "cpu": 1537.0,
+   "n_built": 723,
+   "peak_lean": 4,
+   "peak_rss_gb": 3.3,
+   "peak_rss_sum_gb": 10.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 0,
+  "by_tactic": {},
+  "failed": [],
+  "dirty": 0
+ },
+ "fallbacks": {},
+ "fallback_examples": {},
+ "reps": 1,
+ "orig_wall_med": 359.91,
+ "orig_cpu_med": 1376.5,
+ "kf_wall_med": 420.78,
+ "kf_cpu_med": 1537.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T08:29:45Z"
+}

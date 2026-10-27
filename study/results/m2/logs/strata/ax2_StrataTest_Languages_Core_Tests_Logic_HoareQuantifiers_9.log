@@ -1,0 +1,1071 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.lean
+NT start _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1
+NT nested _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1 ms=763 rebuilt_defs=2 visited=13329
+NT copying Core.Command
+NT copy Core.Command defn_ms=0 eq_ms=1 congr=true
+NT copying Core.Procedure
+NT copy Core.Procedure defn_ms=0 eq_ms=0 congr=true
+NT copying Core.Decl.casesOn
+NT copy-rfl Core.Decl.casesOn
+NT copy Core.Decl.casesOn defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.kind.match_1
+NT copy-rfl Core.Decl.kind.match_1
+NT copy Core.Decl.kind.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.kind
+NT copy-rfl Core.Decl.kind
+NT copy Core.Decl.kind defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Decl.name.match_1
+NT copy-rfl Core.Decl.name.match_1
+NT copy Core.Decl.name.match_1 defn_ms=1 eq_ms=1 congr=false
+NT copying Core.TypeDecl.name
+NT copy-rfl Core.TypeDecl.name
+NT copy Core.TypeDecl.name defn_ms=1 eq_ms=0 congr=false
+NT copying Core.Decl.name
+NT copy-rfl Core.Decl.name
+NT copy Core.Decl.name defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Program.find?.go._f
+NT copy-rfl Core.Program.find?.go._f
+NT copy Core.Program.find?.go._f defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.find?.go
+NT copy-rfl Core.Program.find?.go
+NT copy Core.Program.find?.go defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.find?
+NT copy-rfl Core.Program.find?
+NT copy Core.Program.find? defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Decl.ctorIdx
+NT copy-rfl Core.Decl.ctorIdx
+NT copy Core.Decl.ctorIdx defn_ms=0 eq_ms=0 congr=false
+NT copying Core.Decl.getProc?._sparseCasesOn_1
+NT copy-rfl Core.Decl.getProc?._sparseCasesOn_1
+NT copy Core.Decl.getProc?._sparseCasesOn_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.getProc?.match_1
+NT copy-rfl Core.Decl.getProc?.match_1
+NT copy Core.Decl.getProc?.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Decl.getProc?
+NT copy-rfl Core.Decl.getProc?
+NT copy Core.Decl.getProc? defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.findProcByString?
+NT copy-rfl Core.Program.findProcByString?
+NT copy Core.Program.findProcByString? defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_3
+NT copy-rfl _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_3
+NT copy _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.DL.Lambda.LTy.0.Lambda.formatLMonoTy
+NT copy _private.Strata.DL.Lambda.LTy.0.Lambda.formatLMonoTy defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.instToFormatLMonoTy._private_1
+NT copy Lambda.instToFormatLMonoTy._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatLMonoTy
+NT copy Lambda.instToFormatLMonoTy defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.instToFormatLTy
+NT copy Lambda.instToFormatLTy defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatKnownType
+NT copy Lambda.instToFormatKnownType defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatKnownTypes
+NT copy Lambda.instToFormatKnownTypes defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LExpr.inferConst
+NT copy Lambda.LExpr.inferConst defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.LFuncDefined.type
+NT copy Lambda.LFuncDefined.type defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LFunc.type
+NT copy Lambda.LFunc.type defn_ms=0 eq_ms=1 congr=true
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.TContext.formatTypes
+NT copy Lambda.TContext.formatTypes defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.instToFormatTypeAlias
+NT copy Lambda.instToFormatTypeAlias defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.instToFormatTContext
+NT copy Lambda.instToFormatTContext defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.TGenEnv.genTyVar
+NT copy Lambda.TGenEnv.genTyVar defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.TGenEnv.genTyVars._f
+NT copy Lambda.TGenEnv.genTyVars._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.TGenEnv.genTyVars
+NT copy Lambda.TGenEnv.genTyVars defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LTy.instantiate
+NT copy Lambda.LTy.instantiate defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.LTy.resolveAliases
+NT copy Lambda.LTy.resolveAliases defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LTy.instantiateWithCheck
+NT copy Lambda.LTy.instantiateWithCheck defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LMonoTys.instantiate
+NT copy Lambda.LMonoTys.instantiate defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LMonoTys.instantiateEnv
+NT copy Lambda.LMonoTys.instantiateEnv defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LMonoTy.instantiateWithCheck
+NT copy-rfl Lambda.LMonoTy.instantiateWithCheck
+NT copy Lambda.LMonoTy.instantiateWithCheck defn_ms=2 eq_ms=6 congr=false
+NT copying Lambda.instToFormatUnifyError
+NT copy Lambda.instToFormatUnifyError defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.LExpr.inferFVar
+NT copy Lambda.LExpr.inferFVar defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.TEnv.genTyVar
+NT copy Lambda.TEnv.genTyVar defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LExpr.typeBoundVar
+NT copy Lambda.LExpr.typeBoundVar defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.LExpr.resolveAux._unary
+NT copy Lambda.LExpr.resolveAux._unary defn_ms=2 eq_ms=46 congr=true
+NT copying Lambda.LExpr.resolveAux
+NT copy Lambda.LExpr.resolveAux defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LExpr.resolve
+NT copy Lambda.LExpr.resolve defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.TEnv.genExprVar
+NT copy Lambda.TEnv.genExprVar defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.instHasGenUnit
+NT copy-rfl Lambda.instHasGenUnit
+NT copy Lambda.instHasGenUnit defn_ms=1 eq_ms=3 congr=false
+NT copying Lambda.instToFormatLFuncOfLExpr
+NT copy Lambda.instToFormatLFuncOfLExpr defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.match_3
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.match_3
+NT copy _private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.match_3 defn_ms=0 eq_ms=2 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.WFFactory
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.WFFactory
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.WFFactory defn_ms=1 eq_ms=13 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory defn_ms=0 eq_ms=0 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.builtinFunctions
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.builtinFunctions defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractFromType
+NT copy _private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractFromType defn_ms=1 eq_ms=0 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr._f
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr._f
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr._f defn_ms=1 eq_ms=3 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames.extractFromExpr defn_ms=1 eq_ms=3 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.DDMTransform.FormatCore.0.Strata.extractNames defn_ms=0 eq_ms=3 congr=false
+NT copying _private.StrataDDM.Format.0.StrataDDM.SyntaxCatF.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.SyntaxCatF.mformat defn_ms=1 eq_ms=0 congr=true
+NT copying StrataDDM.SyntaxCatF.instToStrataFormat._private_1
+NT copy StrataDDM.SyntaxCatF.instToStrataFormat._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.SyntaxCatF.instToStrataFormat
+NT copy StrataDDM.SyntaxCatF.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.PreType.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.PreType.mformat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.PreType.instToStrataFormat._private_1
+NT copy StrataDDM.PreType.instToStrataFormat._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.PreType.instToStrataFormat
+NT copy StrataDDM.PreType.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDeclKind.instToStrataFormat._private_1
+NT copy StrataDDM.ArgDeclKind.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDeclKind.instToStrataFormat
+NT copy StrataDDM.ArgDeclKind.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDecl.instToStrataFormat._private_1
+NT copy StrataDDM.ArgDecl.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDecl.instToStrataFormat
+NT copy StrataDDM.ArgDecl.instToStrataFormat defn_ms=1 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformatAux._unary
+NT copy _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformatAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformatAux
+NT copy _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformatAux defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformat defn_ms=1 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDecls.instToStrataFormat._private_1
+NT copy StrataDDM.ArgDecls.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDecls.instToStrataFormat
+NT copy StrataDDM.ArgDecls.instToStrataFormat defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser._unary
+NT copy _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser._unary defn_ms=0 eq_ms=3 congr=true
+NT copying _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser
+NT copy _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.liftToKind
+NT copy _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.liftToKind defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Parser.ParsingContext.opSyntaxParser
+NT copy StrataDDM.Parser.ParsingContext.opSyntaxParser defn_ms=1 eq_ms=2 congr=true
+NT copying StrataDDM.Parser.ParsingContext.fnDeclParser
+NT copy StrataDDM.Parser.ParsingContext.fnDeclParser defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Parser.ParsingContext.opDeclParser
+NT copy StrataDDM.Parser.ParsingContext.opDeclParser defn_ms=1 eq_ms=0 congr=true
+NT copying StrataDDM.Parser.ParsingContext.mkDialectParsers
+NT copy StrataDDM.Parser.ParsingContext.mkDialectParsers defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Elab.DialectParsers.ofDialectsWith
+NT copy StrataDDM.Elab.DialectParsers.ofDialectsWith defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.addElaborators._unary
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.addElaborators._unary defn_ms=0 eq_ms=2 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.addElaborators
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.addElaborators defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=7 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=1 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.mkSyntaxElab!
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.mkSyntaxElab! defn_ms=1 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.opDeclElaborator!
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.opDeclElaborator! defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.fnDeclElaborator!
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.fnDeclElaborator! defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.SyntaxElabMap.addDecl
+NT copy _private.StrataDDM.Elab.SyntaxElab.0.StrataDDM.Elab.SyntaxElabMap.addDecl defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.SyntaxElabMap.addDialect
+NT copy StrataDDM.Elab.SyntaxElabMap.addDialect defn_ms=1 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.SyntaxElabMap.ofDialects
+NT copy StrataDDM.Elab.SyntaxElabMap.ofDialects defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.LoadedDialects.ofDialectsWith!
+NT copy StrataDDM.Elab.LoadedDialects.ofDialectsWith! defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Elab.LoadedDialects.ofDialects!
+NT copy StrataDDM.Elab.LoadedDialects.ofDialects! defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.BuiltinM.create!
+NT copy StrataDDM.Elab.BuiltinM.create! defn_ms=1 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.declareOp
+NT copy StrataDDM.Elab.declareOp defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initQualifiedIdentCat
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initQualifiedIdentCat defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initTypeExprCat
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initTypeExprCat defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initTypeAndExprCats
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initTypeAndExprCats defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initMetadataArgCat
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initMetadataArgCat defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initFunctionTemplateCats
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initFunctionTemplateCats defn_ms=1 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initMetadataAggregateCats
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initMetadataAggregateCats defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initBindingAndSyntaxCats
+NT copy _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initBindingAndSyntaxCats defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.initDialect
+NT copy StrataDDM.initDialect defn_ms=1 eq_ms=26 congr=true
+NT copying Strata.Core_map
+NT copy Strata.Core_map defn_ms=0 eq_ms=0 congr=true
+NT copying Strata.formatWithDDM
+NT copy Strata.formatWithDDM defn_ms=0 eq_ms=1 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat defn_ms=0 eq_ms=0 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck defn_ms=0 eq_ms=13 congr=false
+NT copying _private.Strata.Languages.Core.Program.0.Core.Decl.metadata.match_1
+NT copy-rfl _private.Strata.Languages.Core.Program.0.Core.Decl.metadata.match_1
+NT copy _private.Strata.Languages.Core.Program.0.Core.Decl.metadata.match_1 defn_ms=1 eq_ms=1 congr=false
+NT copying Core.Decl.metadata
+NT copy-rfl Core.Decl.metadata
+NT copy Core.Decl.metadata defn_ms=1 eq_ms=0 congr=false
+NT copying Core.Decl.names._sparseCasesOn_1
+NT copy-rfl Core.Decl.names._sparseCasesOn_1
+NT copy Core.Decl.names._sparseCasesOn_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.names.match_1
+NT copy-rfl Core.Decl.names.match_1
+NT copy Core.Decl.names.match_1 defn_ms=1 eq_ms=2 congr=false
+NT copying Core.TypeDecl.names
+NT copy-rfl Core.TypeDecl.names
+NT copy Core.TypeDecl.names defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Decl.names
+NT copy-rfl Core.Decl.names
+NT copy Core.Decl.names defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.typeCheck.match_17
+NT copy-rfl Core.Program.typeCheck.match_17
+NT copy Core.Program.typeCheck.match_17 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.typeCheck.match_15
+NT copy-rfl Core.Program.typeCheck.match_15
+NT copy Core.Program.typeCheck.match_15 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.instToFormatTypeSynonym
+NT copy Core.instToFormatTypeSynonym defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.instToFormatLConstr
+NT copy Lambda.instToFormatLConstr defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatLDatatype
+NT copy Lambda.instToFormatLDatatype defn_ms=0 eq_ms=0 congr=true
+NT copying Core.instToFormatTypeDecl
+NT copy Core.instToFormatTypeDecl defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.TEnv.addTypeAlias
+NT copy Lambda.TEnv.addTypeAlias defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.validateMutualBlock
+NT copy Lambda.validateMutualBlock defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.tyNameAppearsIn
+NT copy Lambda.tyNameAppearsIn defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.checkNotNested
+NT copy Lambda.checkNotNested defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.checkUniform
+NT copy Lambda.checkUniform defn_ms=1 eq_ms=1 congr=true
+NT copying Lambda.checkStrictPosUnifTy._f
+NT copy Lambda.checkStrictPosUnifTy._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.checkStrictPosUnifTy
+NT copy Lambda.checkStrictPosUnifTy defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.checkConstructorArgsWF
+NT copy Lambda.checkConstructorArgsWF defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.getTypeConsArities
+NT copy Lambda.getTypeConsArities defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.TypeFactory.validateTypeReferences
+NT copy Lambda.TypeFactory.validateTypeReferences defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.typesym_inhab._mutual
+NT copy Lambda.typesym_inhab._mutual defn_ms=2 eq_ms=9 congr=true
+NT copying Lambda.typesym_inhab
+NT copy Lambda.typesym_inhab defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.adt_inhab
+NT copy Lambda.adt_inhab defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.TypeFactory.checkMutualBlockInhab
+NT copy Lambda.TypeFactory.checkMutualBlockInhab defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.TypeFactory.addMutualBlock
+NT copy Lambda.TypeFactory.addMutualBlock defn_ms=1 eq_ms=1 congr=true
+NT copying Lambda.Factory.tryPush
+NT copy Lambda.Factory.tryPush defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Factory.tryAddAll
+NT copy Lambda.Factory.tryAddAll defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.genBlockFactory
+NT copy Lambda.genBlockFactory defn_ms=1 eq_ms=1 congr=true
+NT copying Lambda.Factory.addFactory
+NT copy Lambda.Factory.addFactory defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LContext.addMutualBlock
+NT copy Lambda.LContext.addMutualBlock defn_ms=0 eq_ms=2 congr=true
+NT copying Core.Program.typeCheckProp
+NT copy-rfl Core.Program.typeCheckProp
+NT copy Core.Program.typeCheckProp defn_ms=0 eq_ms=10 congr=false
+NT copying Core.Program.typeCheck.match_5
+NT copy-rfl Core.Program.typeCheck.match_5
+NT copy Core.Program.typeCheck.match_5 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkNoDuplicates
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkNoDuplicates
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkNoDuplicates defn_ms=0 eq_ms=1 congr=false
+NT copying Core.instHasFvarsExpression
+NT copy-rfl Core.instHasFvarsExpression
+NT copy Core.instHasFvarsExpression defn_ms=0 eq_ms=0 congr=false
+NT copying Core.Command.definedVars.match_1
+NT copy-rfl Core.Command.definedVars.match_1
+NT copy Core.Command.definedVars.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Command.definedVars
+NT copy-rfl Core.Command.definedVars
+NT copy Core.Command.definedVars defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Command.getVars.match_1
+NT copy-rfl Core.Command.getVars.match_1
+NT copy Core.Command.getVars.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Command.modifiedVars
+NT copy-rfl Core.Command.modifiedVars
+NT copy Core.Command.modifiedVars defn_ms=0 eq_ms=1 congr=false
+NT copying Core.instHasFvarExpression.match_1
+NT copy-rfl Core.instHasFvarExpression.match_1
+NT copy Core.instHasFvarExpression.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.instHasFvarExpression
+NT copy-rfl Core.instHasFvarExpression
+NT copy Core.instHasFvarExpression defn_ms=0 eq_ms=1 congr=false
+NT copying Core.CallArg.getInputExprs
+NT copy-rfl Core.CallArg.getInputExprs
+NT copy Core.CallArg.getInputExprs defn_ms=0 eq_ms=0 congr=false
+NT copying Core.Command.getVars
+NT copy-rfl Core.Command.getVars
+NT copy Core.Command.getVars defn_ms=0 eq_ms=1 congr=false
+NT copying Core.instHasVarsImpExpressionCommand
+NT copy-rfl Core.instHasVarsImpExpressionCommand
+NT copy Core.instHasVarsImpExpressionCommand defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkModificationRights
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkModificationRights
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.checkModificationRights defn_ms=1 eq_ms=1 congr=false
+NT copying _private.Strata.DL.Lambda.LExprTypeEnv.0.Lambda.LMonoTySignature.instantiate.go._f
+NT copy _private.Strata.DL.Lambda.LExprTypeEnv.0.Lambda.LMonoTySignature.instantiate.go._f defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.DL.Lambda.LExprTypeEnv.0.Lambda.LMonoTySignature.instantiate.go
+NT copy _private.Strata.DL.Lambda.LExprTypeEnv.0.Lambda.LMonoTySignature.instantiate.go defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LMonoTySignature.instantiate
+NT copy Lambda.LMonoTySignature.instantiate defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.setupInputEnv
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.setupInputEnv
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.setupInputEnv defn_ms=0 eq_ms=4 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_9
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_9
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_9 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Procedure.Check
+NT copy Core.Procedure.Check defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_3
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_3
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_3 defn_ms=1 eq_ms=0 congr=false
+NT copying Core.Procedure.conditionErrorMsgPrefix
+NT copy-rfl Core.Procedure.conditionErrorMsgPrefix
+NT copy Core.Procedure.conditionErrorMsgPrefix defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_5
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_5
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions.match_5 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions defn_ms=0 eq_ms=12 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_7
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_7
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_7 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Statement
+NT copy Core.Statement defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_35
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_35
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_35 defn_ms=0 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_33
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_33
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_33 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_31
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_31
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_31 defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_14
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_14
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_14 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.CmdType.preprocess
+NT copy Core.CmdType.preprocess defn_ms=0 eq_ms=1 congr=true
+NT copying Core.CmdType.postprocess
+NT copy Core.CmdType.postprocess defn_ms=0 eq_ms=0 congr=true
+NT copying Core.CmdType.inferType
+NT copy-rfl Core.CmdType.inferType
+NT copy Core.CmdType.inferType defn_ms=0 eq_ms=10 congr=false
+NT copying Core.CmdType.canonicalizeConstraints._f
+NT copy Core.CmdType.canonicalizeConstraints._f defn_ms=0 eq_ms=1 congr=true
+NT copying Core.CmdType.canonicalizeConstraints
+NT copy Core.CmdType.canonicalizeConstraints defn_ms=0 eq_ms=1 congr=true
+NT copying Core.CmdType.unifyTypes
+NT copy Core.CmdType.unifyTypes defn_ms=0 eq_ms=0 congr=true
+NT copying Core.CmdType.instTypeContextExpressionLContextCoreLParamsTEnvUnitMessage
+NT copy-rfl Core.CmdType.instTypeContextExpressionLContextCoreLParamsTEnvUnitMessage
+NT copy Core.CmdType.instTypeContextExpressionLContextCoreLParamsTEnvUnitMessage defn_ms=0 eq_ms=9 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_1
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_1
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_12
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_12
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckCmd.match_12 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Program.0.Core.Decl.getProc.match_1
+NT copy-rfl _private.Strata.Languages.Core.Program.0.Core.Decl.getProc.match_1
+NT copy _private.Strata.Languages.Core.Program.0.Core.Decl.getProc.match_1 defn_ms=5 eq_ms=36 congr=false
+NT copying Core.Decl.getProc
+NT copy-rfl Core.Decl.getProc
+NT copy Core.Decl.getProc defn_ms=1 eq_ms=2 congr=false
+NT copying Core.Program.Procedure.find?
+NT copy-rfl Core.Program.Procedure.find?
+NT copy Core.Program.Procedure.find? defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.Core.formatStatement
+NT copy-rfl Strata.Core.formatStatement
+NT copying Strata.Core.formatCommand
+NT copy-rfl Strata.Core.formatCommand
+NT copy Strata.Core.formatCommand defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.instCoreCommandFormat
+NT copy-rfl Strata.instCoreCommandFormat
+NT copy Strata.instCoreCommandFormat defn_ms=0 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.formalsOf
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.formalsOf
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.formalsOf defn_ms=0 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_1
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_1
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_1 defn_ms=0 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_5
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_5
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_5 defn_ms=1 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_3
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_3
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?.match_3 defn_ms=0 eq_ms=0 congr=false
+NT copying Core.WF.inputArgMatches.match_1
+NT copy-rfl Core.WF.inputArgMatches.match_1
+NT copy Core.WF.inputArgMatches.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.WF.inputArgMatches
+NT copy-rfl Core.WF.inputArgMatches
+NT copy Core.WF.inputArgMatches defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage?
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.inputMismatchMessage? defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage?.match_1
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage?.match_1
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage?.match_1 defn_ms=1 eq_ms=0 congr=false
+NT copying Core.WF.outputArgMatches.match_1
+NT copy-rfl Core.WF.outputArgMatches.match_1
+NT copy Core.WF.outputArgMatches.match_1 defn_ms=1 eq_ms=0 congr=false
+NT copying Core.WF.outputArgMatches
+NT copy-rfl Core.WF.outputArgMatches
+NT copy Core.WF.outputArgMatches defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage?
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage?
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.outputMismatchMessage? defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.CallWF.0.Core.aliasedResultsMessage?
+NT copy-rfl _private.Strata.Languages.Core.CallWF.0.Core.aliasedResultsMessage?
+NT copy _private.Strata.Languages.Core.CallWF.0.Core.aliasedResultsMessage? defn_ms=1 eq_ms=0 congr=false
+NT copying Core.callArgsError?
+NT copy-rfl Core.callArgsError?
+NT copy Core.callArgsError? defn_ms=0 eq_ms=3 congr=false
+NT copying Lambda.LTy.instantiateAndSubst
+NT copy Lambda.LTy.instantiateAndSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Identifier.instantiateAndSubst
+NT copy Lambda.Identifier.instantiateAndSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Identifier.instantiateAndSubsts._f
+NT copy Lambda.Identifier.instantiateAndSubsts._f defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Identifier.instantiateAndSubsts
+NT copy Lambda.Identifier.instantiateAndSubsts defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.TEnv.freeVarChecks
+NT copy Lambda.TEnv.freeVarChecks defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.DL.Lambda.LExprT.0.Lambda.LExpr.resolves.go._f
+NT copy _private.Strata.DL.Lambda.LExprT.0.Lambda.LExpr.resolves.go._f defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.DL.Lambda.LExprT.0.Lambda.LExpr.resolves.go
+NT copy _private.Strata.DL.Lambda.LExprT.0.Lambda.LExpr.resolves.go defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.LExpr.resolves
+NT copy Lambda.LExpr.resolves defn_ms=0 eq_ms=1 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckCmd
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckCmd
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckCmd defn_ms=1 eq_ms=31 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_1
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_1
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_3
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_3
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_11
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_11
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_11 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_13
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_13
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_13 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_15
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_15
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_15 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_29
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_29
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go.match_29 defn_ms=0 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual defn_ms=3 eq_ms=131 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go defn_ms=1 eq_ms=27 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckAux
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckAux
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheckAux defn_ms=1 eq_ms=26 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_1
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_1
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.substExprOrNondet
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.substExprOrNondet
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.substExprOrNondet defn_ms=1 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_3
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_3
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.Command.subst.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Statement.Command.subst
+NT copy-rfl Core.Statement.Command.subst
+NT copy Core.Statement.Command.subst defn_ms=0 eq_ms=3 congr=false
+NT copying Core.Statement.Statement.subst._f
+NT copy-rfl Core.Statement.Statement.subst._f
+NT copy Core.Statement.Statement.subst._f defn_ms=0 eq_ms=4 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.match_1
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.match_1
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go._f
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go._f
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go._f defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go
+NT copy-rfl _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go
+NT copy _private.Strata.Languages.Core.StatementType.0.Core.Statement.Statement.subst.go defn_ms=0 eq_ms=2 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Statement.typeCheck defn_ms=0 eq_ms=29 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_5
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_5
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_5 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.match_1
+NT copy-rfl _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.match_1
+NT copy _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go._f
+NT copy-rfl _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go._f
+NT copy _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go._f defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go
+NT copy-rfl _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go
+NT copy _private.Strata.Languages.Core.Procedure.0.Core.Procedure.Spec.updateCheckExprs.go defn_ms=1 eq_ms=0 congr=false
+NT copying Core.Procedure.Spec.updateCheckExprs
+NT copy-rfl Core.Procedure.Spec.updateCheckExprs
+NT copy Core.Procedure.Spec.updateCheckExprs defn_ms=1 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_3
+NT copy-rfl _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_3
+NT copy _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheck.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Procedure.typeCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Procedure.typeCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Procedure.typeCheck defn_ms=0 eq_ms=46 congr=false
+NT copying Core.Program.typeCheck.match_9
+NT copy-rfl Core.Program.typeCheck.match_9
+NT copy Core.Program.typeCheck.match_9 defn_ms=1 eq_ms=1 congr=false
+NT copying Core.Function.typeCheck
+NT copy-rfl Core.Function.typeCheck
+NT copy Core.Function.typeCheck defn_ms=1 eq_ms=19 congr=false
+NT copying Core.Program.typeCheck.match_11
+NT copy-rfl Core.Program.typeCheck.match_11
+NT copy Core.Program.typeCheck.match_11 defn_ms=0 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go._f
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go._f
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go._f defn_ms=1 eq_ms=94 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go defn_ms=0 eq_ms=67 congr=false
+NT copying Core.Program.typeCheck.match_21
+NT copy-rfl Core.Program.typeCheck.match_21
+NT copy Core.Program.typeCheck.match_21 defn_ms=0 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck defn_ms=1 eq_ms=66 congr=false
+NT copying _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_1
+NT copy-rfl _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_1
+NT copy _private.Strata.Languages.Core.Verifier.0.Core.typeCheck.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck defn_ms=0 eq_ms=75 congr=false
+NT copying Core.Procedure.mapExprs.match_3
+NT copy-rfl Core.Procedure.mapExprs.match_3
+NT copy Core.Procedure.mapExprs.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.DetCFG
+NT copy Core.DetCFG defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_3
+NT copy-rfl _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_3
+NT copy _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_1
+NT copy-rfl _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_1
+NT copy _private.Strata.Languages.Core.Procedure.0.Core.DetCFG.eraseTypes.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Core.DetCFG.stripMetaData
+NT copy-rfl Core.DetCFG.stripMetaData
+NT copy Core.DetCFG.stripMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Procedure.stripMetaData
+NT copy-rfl Core.Procedure.stripMetaData
+NT copy Core.Procedure.stripMetaData defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.stripMetaData
+NT copy-rfl Core.Decl.stripMetaData
+NT copy Core.Decl.stripMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.stripMetaData
+NT copy Core.Program.stripMetaData defn_ms=1 eq_ms=0 congr=true
+NT copying Strata.instInhabitedProdDeclTransBindings
+NT copy-rfl Strata.instInhabitedProdDeclTransBindings
+NT copy Strata.instInhabitedProdDeclTransBindings defn_ms=1 eq_ms=0 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5 defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying StrataDDM.extractConstructorInfo
+NT copy StrataDDM.extractConstructorInfo defn_ms=1 eq_ms=2 congr=true
+NT copying Strata.translateConstructorList
+NT copy Strata.translateConstructorList defn_ms=0 eq_ms=1 congr=true
+NT copying Strata.genDatatypeFactory
+NT copy-rfl Strata.genDatatypeFactory
+NT copy Strata.genDatatypeFactory defn_ms=1 eq_ms=1 congr=false
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.parseProvenanceString
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.parseProvenanceString defn_ms=0 eq_ms=1 congr=true
+NT copying Strata.translateMetadataAnnEntry
+NT copy-rfl Strata.translateMetadataAnnEntry
+NT copy Strata.translateMetadataAnnEntry defn_ms=0 eq_ms=11 congr=false
+NT copying Strata.translateOptMetadataAnn
+NT copy-rfl Strata.translateOptMetadataAnn
+NT copy Strata.translateOptMetadataAnn defn_ms=1 eq_ms=10 congr=false
+NT copying Strata.SourceRange.toMetaData
+NT copy-rfl Strata.SourceRange.toMetaData
+NT copy Strata.SourceRange.toMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.getOpMetaData
+NT copy-rfl Strata.getOpMetaData
+NT copy Strata.getOpMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.mergeAnnMetaData
+NT copy-rfl Strata.mergeAnnMetaData
+NT copy Strata.mergeAnnMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.getMetaDataWithAnn
+NT copy-rfl Strata.getMetaDataWithAnn
+NT copy Strata.getMetaDataWithAnn defn_ms=0 eq_ms=10 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1 defn_ms=1 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.filterDatatypeDecls
+NT copy-rfl Strata.filterDatatypeDecls
+NT copy Strata.filterDatatypeDecls defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateDatatypes
+NT copy-rfl Strata.translateDatatypes
+NT copy Strata.translateDatatypes defn_ms=1 eq_ms=20 congr=false
+NT copying Core.Function.const
+NT copy-rfl Core.Function.const
+NT copy Core.Function.const defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Decl.const
+NT copy-rfl Core.Decl.const
+NT copy Core.Decl.const defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateConstantDecl
+NT copy-rfl Strata.translateConstantDecl
+NT copy Strata.translateConstantDecl defn_ms=0 eq_ms=10 congr=false
+NT copying Strata.translateConstantDef
+NT copy-rfl Strata.translateConstantDef
+NT copy Strata.translateConstantDef defn_ms=0 eq_ms=11 congr=false
+NT copying Strata.translateTypeDecl
+NT copy-rfl Strata.translateTypeDecl
+NT copy Strata.translateTypeDecl defn_ms=0 eq_ms=11 congr=false
+NT copying Strata.translateTypeSynonym
+NT copy-rfl Strata.translateTypeSynonym
+NT copy Strata.translateTypeSynonym defn_ms=1 eq_ms=10 congr=false
+NT copying Strata.translateAxiom
+NT copy-rfl Strata.translateAxiom
+NT copy Strata.translateAxiom defn_ms=0 eq_ms=10 congr=false
+NT copying Strata.translateParamsProposition
+NT copy-rfl Strata.translateParamsProposition
+NT copy Strata.translateParamsProposition defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateAxiomParams
+NT copy-rfl Strata.translateAxiomParams
+NT copy Strata.translateAxiomParams defn_ms=0 eq_ms=11 congr=false
+NT copying Strata.translateLemma
+NT copy-rfl Strata.translateLemma
+NT copy Strata.translateLemma defn_ms=1 eq_ms=10 congr=false
+NT copying Strata.translateLemmaParams
+NT copy-rfl Strata.translateLemmaParams
+NT copy Strata.translateLemmaParams defn_ms=1 eq_ms=11 congr=false
+NT copying Strata.translateLemmaTypeArgs
+NT copy-rfl Strata.translateLemmaTypeArgs
+NT copy Strata.translateLemmaTypeArgs defn_ms=0 eq_ms=11 congr=false
+NT copying Core.instInhabitedExprExpression
+NT copy-rfl Core.instInhabitedExprExpression
+NT copy Core.instInhabitedExprExpression defn_ms=0 eq_ms=0 congr=false
+NT copying Strata.translateDistinct
+NT copy-rfl Strata.translateDistinct
+NT copy Strata.translateDistinct defn_ms=1 eq_ms=11 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateSpec
+NT copy-rfl Strata.translateSpec
+NT copy Strata.translateSpec defn_ms=1 eq_ms=1 congr=false
+NT copying Strata.translateProcedure
+NT copy-rfl Strata.translateProcedure
+NT copy Strata.translateProcedure defn_ms=0 eq_ms=15 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3 defn_ms=1 eq_ms=0 congr=false
+NT copying Strata.translateFnPreconds
+NT copy-rfl Strata.translateFnPreconds
+NT copy Strata.translateFnPreconds defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateFunction
+NT copy-rfl Strata.translateFunction
+NT copy Strata.translateFunction defn_ms=1 eq_ms=13 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateMeasure
+NT copy-rfl Strata.translateMeasure
+NT copy Strata.translateMeasure defn_ms=1 eq_ms=1 congr=false
+NT copying Strata.translateRecFnDecl
+NT copy-rfl Strata.translateRecFnDecl
+NT copy Strata.translateRecFnDecl defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateRecFuncBlock
+NT copy-rfl Strata.translateRecFuncBlock
+NT copy Strata.translateRecFuncBlock defn_ms=1 eq_ms=13 congr=false
+NT copying Strata.translateBlockCommand
+NT copy-rfl Strata.translateBlockCommand
+NT copy Strata.translateBlockCommand defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3 defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateCFGBody
+NT copy-rfl Strata.translateCFGBody
+NT copy Strata.translateCFGBody defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1 defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateCFGProcedure
+NT copy-rfl Strata.translateCFGProcedure
+NT copy Strata.translateCFGProcedure defn_ms=1 eq_ms=14 congr=false
+NT copying Strata.translateCoreDecls
+NT copy Strata.translateCoreDecls defn_ms=0 eq_ms=5 congr=true
+NT copying Strata.translateProgram
+NT copy Strata.translateProgram defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addDatatypeBindings
+NT copy _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addDatatypeBindings defn_ms=1 eq_ms=1 congr=true
+NT copying _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding
+NT copy _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.GlobalContext.addCommand
+NT copy StrataDDM.GlobalContext.addCommand defn_ms=1 eq_ms=1 congr=true
+NT copying StrataDDM.computeGlobalContext
+NT copy StrataDDM.computeGlobalContext defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Program.create
+NT copy StrataDDM.Program.create defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm
+NT copy _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped
+NT copy _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped defn_ms=0 eq_ms=0 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST defn_ms=0 eq_ms=7658 congr=true
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc
+NT copying _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck.match_1
+NT copy-rfl _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck.match_1
+NT copy _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck.match_1 defn_ms=1 eq_ms=1 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqCheck defn_ms=0 eq_ms=8632 congr=false
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._kernel.native_decide.ax_1_1.p_0 blockers_ms=73 bounded=true copy_ms=33468 copies=328 copy_kernel_ms=17660
+FAILED `_private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (CoreHoareQuantifiersTest.pReqProc✝.spec.preconditions.toList =
+          [("requires_x", CoreHoareQuantifiersTest.pReqCheck✝)]) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Order.fix`: fixpoint definition (`partial_fixpoint`, `Lean.Order.fix`): defined through `Classical.choice` (least upper bounds of a chain), so the kernel cannot evaluate it; the fixpoint equation holds as a theorem, so a `@[kernel_replace]` fuel version can be proved equal to it
+      via _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression → _kt.F1_Strata_Languages_Core_Factory_3.Lambda.LExpr.evalFully → Lambda.LExpr.evalFullyAux → Lean.Order.fix
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression → _kt.F1_Strata_Languages_Core_Factory_3.Lambda.LExpr.evalFully → Lambda.LExpr.evalFullyAux → Lambda.LExpr.eval → Lambda.LExpr.eval._mutual → WellFounded.fix
+  • `String.hash`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.Factory.default → instHashableString → String.hash
+  • `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.TEnv.default → Lambda.instHashableIdentifier → Lambda.instHashableIdentifier.hash → mixHash
+  • `Strata.lexprToExpr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → Strata.lexprToExpr
+  • `Strata.CoreDDM.Expr.toAst`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → Strata.CoreDDM.Expr.toAst
+  • `_private.Init.Data.Format.Basic.0.Std.Format.be`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → Std.Format.prettyM → _private.Init.Data.Format.Basic.0.Std.Format.be
+  • `String.Internal.append`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.append
+  • `String.Internal.length`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.length
+  • `String.Internal.pushn`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.pushn
+  • `Strata.translateLMonoTy`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateConstantDecl → Strata.translateLMonoTy
+  • `Strata.translateExpr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateConstantDef → Strata.translateExpr
+  • `Strata.translateBlock`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateProcedure → Strata.translateBlock
+  • `StrataDDM.instReprOperationF.repr_2`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → StrataDDM.instReprOperationF → StrataDDM.instReprOperationF.repr_2
+  • `StrataDDM.instReprArgF.repr_3`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → StrataDDM.instReprArgF → StrataDDM.instReprArgF.repr_3
+  • `Strata.translateQuantifier`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateAxiomParams → Strata.translateParamsProposition → Strata.translateQuantifier
+  • `_private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateProcedure → Strata.translateSpec → _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.go
+  • `Strata.translateCFGBlocks`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateCFGProcedure → Strata.translateCFGBody → Strata.translateCFGBlocks
+  • `StrataDDM.OperationF.foldBindingSpecs`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → StrataDDM.OperationF.foldBindingSpecs
+  • `_private.StrataDDM.AST.0.StrataDDM.foldOverArgAtLevel`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → _private.StrataDDM.AST.0.StrataDDM.foldOverArgAtLevel
+  • `_private.StrataDDM.Format.0.StrataDDM.ArgF.mformatM`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → StrataDDM.ArgF.instToStrataFormat → StrataDDM.ArgF.instToStrataFormat._private_1 → _private.StrataDDM.Format.0.StrataDDM.ArgF.mformatM
+  • `Lambda.instReprLMonoTy.repr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDistinct → Core.instReprTypeTypeMkMkExpressionMetadataCoreIdentLMonoTy → Lambda.instReprLMonoTy → Lambda.instReprLMonoTy.repr
+  • `StrataDDM.resolveBindingIndices`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding → StrataDDM.resolveBindingIndices
+  • `StrataDDM.Elab.DeclState.ensureLoaded!`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → StrataDDM.Elab.BuiltinM.create! → StrataDDM.Elab.DeclState.ofDialects → StrataDDM.Elab.DeclState.ensureLoaded!
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.Factory.default → Std.HashMap.instMembership → Std.DHashMap.instMembership → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+  • `String.Internal.isEmpty`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Core.KnownTypes → Lambda.LTy.toKnownType! → Lambda.instToStringLTy → Lambda.instReprLTy → Lambda.instReprLTy.repr → instReprString → String.quote → String.Internal.isEmpty
+  • `String.Internal.foldl`: primitive implemented in C (`@[extern]`) with no definition
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Core.KnownTypes → Lambda.LTy.toKnownType! → Lambda.instToStringLTy → Lambda.instReprLTy → Lambda.instReprLTy.repr → instReprString → String.quote → String.Internal.foldl
+  • `_private.Init.Data.Stream.0.Std.Stream.forIn.visit`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go._f → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Procedure.typeCheck → _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions → Std.instForInOfMonadOfStream → Std.Stream.forIn → _private.Init.Data.Stream.0.Std.Stream.forIn.visit
+  • `StrataDDM.foldOverArgBindingSpecs`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → Strata.translateConstructorList → StrataDDM.extractConstructorInfo → _private.StrataDDM.AST.0.StrataDDM.extractSingleConstructor → _private.StrataDDM.AST.0.StrataDDM.extractFieldsFromBindings → StrataDDM.foldOverArgBindingSpecs
+  • `_private.StrataDDM.Parser.0.StrataDDM.Parser.checkLeftRec`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats → StrataDDM.Elab.declareOp → StrataDDM.Parser.ParsingContext.opDeclParser → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.checkLeftRec
+  • `StrataDDM.instReprMetadataArg.repr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats → StrataDDM.parseNewBindings! → StrataDDM.parseNewBindings → StrataDDM.instReprMetadataArg → StrataDDM.instReprMetadataArg.repr
+  • `_private.Lean.Data.Position.0.Lean.FileMap.toPosition.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → Strata.genDatatypeFactory → Strata.Pipeline.instToStringMessage → Strata.Pipeline.Message.format → Strata.FileRange.format → Lean.FileMap.toPosition → _private.Lean.Data.Position.0.Lean.FileMap.toPosition.loop
+  • `_private.Lean.Data.Trie.0.Lean.Data.Trie.upsert.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.DeclState.ofDialects → _private.StrataDDM.Elab.DeclM.0.StrataDDM.Elab.initTokenTable → StrataDDM.Parser.TokenTable.addParser → Lean.Data.Trie.insert → Lean.Data.Trie.upsert → _private.Lean.Data.Trie.0.Lean.Data.Trie.upsert.loop
+  • `Lean.EnvExtension.getState`: opaque constant implemented by `_private.Lean.Environment.0.Lean.EnvExtension.getStateUnsafe`
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → Lean.EnvExtension.getState
+  • `StrataDDM.Parser.stringLiteralDecoderExt`: opaque constant
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.stringLiteralDecoderExt
+  • `StrataDDM.Parser.strLitFnAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.strLitFnAux
+  • `_private.StrataDDM.Parser.0.StrataDDM.Parser.whitespace`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → _private.StrataDDM.Parser.0.StrataDDM.Parser.decodedStrLitFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.whitespace
+  • `StrataDDM.ByteArray.unescapeBytesRawAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.parseByteContent → StrataDDM.ByteArray.unescapeBytesRawAux
+  • `_private.Lean.Data.Trie.0.Lean.Data.Trie.matchPrefix.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → Lean.Data.Trie.matchPrefix → _private.Lean.Data.Trie.0.Lean.Data.Trie.matchPrefix.loop
+  • `Lean.Parser.takeUntilFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.identFnAux → Lean.Parser.takeUntilFn
+  • `StrataDDM.Parser.ParsingContext.catParser`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.ParsingContext.opDeclParser → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.liftToKind → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser._unary → StrataDDM.Parser.ParsingContext.catParser
+  • `Strata.stmtToCST`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → «…» → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual → Strata.instCoreCommandFormat → Strata.Core.formatCommand → Strata.Core.formatStatement → Strata.stmtToCST
+  • `Strata.CoreDDM.Statement.toAst`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → «…» → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual → Strata.instCoreCommandFormat → Strata.Core.formatCommand → Strata.Core.formatStatement → Strata.CoreDDM.Statement.toAst
+  • `_private.StrataDDM.Parser.0.StrataDDM.Parser.takeDigitsFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.numberFnAux → StrataDDM.Parser.binNumberFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.takeDigitsFn
+  • `Lean.Syntax.structEq`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → Lean.Parser.ParserState.hasError → Lean.Parser.instBEqError → Lean.Parser.instBEqError.beq → Lean.Syntax.instBEq → Lean.Syntax.structEq
+  • `Lean.Syntax.getHeadInfo?`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → Lean.Parser.ParserState.mkUnexpectedTokenError → Lean.Parser.ParserState.mkUnexpectedTokenErrors → Lean.Syntax.getPos? → Lean.Syntax.getHeadInfo → Lean.Syntax.getHeadInfo?
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.instToStrataFormatQualifiedIdent._private_1 → _private.StrataDDM.Format.0.StrataDDM.formatIdent → _private.StrataDDM.Format.0.StrataDDM.needsPipeDelimiters → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorIdSearchStepOfForwardPattern → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `Lean.PersistentHashMap.insertAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.node → Lean.Parser.nodeInfo → Lean.Parser.SyntaxNodeKindSet.insert → Lean.PersistentHashMap.insert → Lean.PersistentHashMap.insertAux
+  • `Lean.Parser.stringGapFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.charLitFnAux → Lean.Parser.quotedCharFn → Lean.Parser.quotedCharCoreFn → Lean.Parser.stringGapFn
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.identFnAux → _private.StrataDDM.Parser.0.StrataDDM.Parser.parsePipeDelimitedIdent → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → _private.StrataDDM.Format.0.StrataDDM.formatIdent → _private.StrataDDM.Format.0.StrataDDM.needsPipeDelimiters → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (CoreHoareQuantifiersTest.pReqProc✝.spec.preconditions.toList =
+        [("requires_x", CoreHoareQuantifiersTest.pReqCheck✝)]) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqPreconditions_eq._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Order.fix`: fixpoint definition (`partial_fixpoint`, `Lean.Order.fix`): defined through `Classical.choice` (least upper bounds of a chain), so the kernel cannot evaluate it; the fixpoint equation holds as a theorem, so a `@[kernel_replace]` fuel version can be proved equal to it
+    via _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression → _kt.F1_Strata_Languages_Core_Factory_3.Lambda.LExpr.evalFully → Lambda.LExpr.evalFullyAux → Lean.Order.fix
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression → _kt.F1_Strata_Languages_Core_Factory_3.Lambda.LExpr.evalFully → Lambda.LExpr.evalFullyAux → Lambda.LExpr.eval → Lambda.LExpr.eval._mutual → WellFounded.fix
+• `String.hash`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.Factory.default → instHashableString → String.hash
+• `mixHash`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.TEnv.default → Lambda.instHashableIdentifier → Lambda.instHashableIdentifier.hash → mixHash
+• `Strata.lexprToExpr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → Strata.lexprToExpr
+• `Strata.CoreDDM.Expr.toAst`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → Strata.CoreDDM.Expr.toAst
+• `_private.Init.Data.Format.Basic.0.Std.Format.be`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → Std.Format.prettyM → _private.Init.Data.Format.Basic.0.Std.Format.be
+• `String.Internal.append`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.append
+• `String.Internal.length`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.length
+• `String.Internal.pushn`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → instToStringFormat → Std.Format.pretty → _private.Init.Data.Format.Basic.0.Std.Format.instMonadPrettyFormatStateMState → String.Internal.pushn
+• `Strata.translateLMonoTy`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateConstantDecl → Strata.translateLMonoTy
+• `Strata.translateExpr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateConstantDef → Strata.translateExpr
+• `Strata.translateBlock`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateProcedure → Strata.translateBlock
+• `StrataDDM.instReprOperationF.repr_2`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → StrataDDM.instReprOperationF → StrataDDM.instReprOperationF.repr_2
+• `StrataDDM.instReprArgF.repr_3`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → StrataDDM.instReprArgF → StrataDDM.instReprArgF.repr_3
+• `Strata.translateQuantifier`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateAxiomParams → Strata.translateParamsProposition → Strata.translateQuantifier
+• `_private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.go`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateProcedure → Strata.translateSpec → _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.go
+• `Strata.translateCFGBlocks`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateCFGProcedure → Strata.translateCFGBody → Strata.translateCFGBlocks
+• `StrataDDM.OperationF.foldBindingSpecs`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → StrataDDM.OperationF.foldBindingSpecs
+• `_private.StrataDDM.AST.0.StrataDDM.foldOverArgAtLevel`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → _private.StrataDDM.AST.0.StrataDDM.foldOverArgAtLevel
+• `_private.StrataDDM.Format.0.StrataDDM.ArgF.mformatM`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Factory.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.instCoreExprFormat → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Strata.Core.formatExprs → StrataDDM.ArgF.instToStrataFormat → StrataDDM.ArgF.instToStrataFormat._private_1 → _private.StrataDDM.Format.0.StrataDDM.ArgF.mformatM
+• `Lambda.instReprLMonoTy.repr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDistinct → Core.instReprTypeTypeMkMkExpressionMetadataCoreIdentLMonoTy → Lambda.instReprLMonoTy → Lambda.instReprLMonoTy.repr
+• `StrataDDM.resolveBindingIndices`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → StrataDDM.Program.create → StrataDDM.computeGlobalContext → StrataDDM.GlobalContext.addCommand → _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding → StrataDDM.resolveBindingIndices
+• `StrataDDM.Elab.DeclState.ensureLoaded!`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → StrataDDM.Elab.BuiltinM.create! → StrataDDM.Elab.DeclState.ofDialects → StrataDDM.Elab.DeclState.ensureLoaded!
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Lambda.Factory.default → Std.HashMap.instMembership → Std.DHashMap.instMembership → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+• `String.Internal.isEmpty`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Core.KnownTypes → Lambda.LTy.toKnownType! → Lambda.instToStringLTy → Lambda.instReprLTy → Lambda.instReprLTy.repr → instReprString → String.quote → String.Internal.isEmpty
+• `String.Internal.foldl`: primitive implemented in C (`@[extern]`) with no definition
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → Core.KnownTypes → Lambda.LTy.toKnownType! → Lambda.instToStringLTy → Lambda.instReprLTy → Lambda.instReprLTy.repr → instReprString → String.quote → String.Internal.foldl
+• `_private.Init.Data.Stream.0.Std.Stream.forIn.visit`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go._f → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Procedure.typeCheck → _private.Strata.Languages.Core.ProcedureType.0.Core.Procedure.typeCheckConditions → Std.instForInOfMonadOfStream → Std.Stream.forIn → _private.Init.Data.Stream.0.Std.Stream.forIn.visit
+• `StrataDDM.foldOverArgBindingSpecs`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → Strata.translateConstructorList → StrataDDM.extractConstructorInfo → _private.StrataDDM.AST.0.StrataDDM.extractSingleConstructor → _private.StrataDDM.AST.0.StrataDDM.extractFieldsFromBindings → StrataDDM.foldOverArgBindingSpecs
+• `_private.StrataDDM.Parser.0.StrataDDM.Parser.checkLeftRec`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats → StrataDDM.Elab.declareOp → StrataDDM.Parser.ParsingContext.opDeclParser → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.checkLeftRec
+• `StrataDDM.instReprMetadataArg.repr`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → StrataDDM.initDialect → _private.StrataDDM.BuiltinDialects.Init.0.StrataDDM.initPrimitiveCats → StrataDDM.parseNewBindings! → StrataDDM.parseNewBindings → StrataDDM.instReprMetadataArg → StrataDDM.instReprMetadataArg.repr
+• `_private.Lean.Data.Position.0.Lean.FileMap.toPosition.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → Strata.translateProgram → Strata.translateCoreDecls → Strata.translateDatatypes → Strata.genDatatypeFactory → Strata.Pipeline.instToStringMessage → Strata.Pipeline.Message.format → Strata.FileRange.format → Lean.FileMap.toPosition → _private.Lean.Data.Position.0.Lean.FileMap.toPosition.loop
+• `_private.Lean.Data.Trie.0.Lean.Data.Trie.upsert.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.DeclState.ofDialects → _private.StrataDDM.Elab.DeclM.0.StrataDDM.Elab.initTokenTable → StrataDDM.Parser.TokenTable.addParser → Lean.Data.Trie.insert → Lean.Data.Trie.upsert → _private.Lean.Data.Trie.0.Lean.Data.Trie.upsert.loop
+• `Lean.EnvExtension.getState`: opaque constant implemented by `_private.Lean.Environment.0.Lean.EnvExtension.getStateUnsafe`
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → Lean.EnvExtension.getState
+• `StrataDDM.Parser.stringLiteralDecoderExt`: opaque constant
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.stringLiteralDecoderExt
+• `StrataDDM.Parser.strLitFnAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.LoadedDialects.ofDialects! → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.strLitFnAux
+• `_private.StrataDDM.Parser.0.StrataDDM.Parser.whitespace`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → _private.StrataDDM.Parser.0.StrataDDM.Parser.decodedStrLitFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.whitespace
+• `StrataDDM.ByteArray.unescapeBytesRawAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.parseByteContent → StrataDDM.ByteArray.unescapeBytesRawAux
+• `_private.Lean.Data.Trie.0.Lean.Data.Trie.matchPrefix.loop`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → Lean.Data.Trie.matchPrefix → _private.Lean.Data.Trie.0.Lean.Data.Trie.matchPrefix.loop
+• `Lean.Parser.takeUntilFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Elab.initParsers → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.identFnAux → Lean.Parser.takeUntilFn
+• `StrataDDM.Parser.ParsingContext.catParser`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.ParsingContext.opDeclParser → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.liftToKind → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.ParsingContext.prependSyntaxDefAtomParser._unary → StrataDDM.Parser.ParsingContext.catParser
+• `Strata.stmtToCST`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → «…» → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual → Strata.instCoreCommandFormat → Strata.Core.formatCommand → Strata.Core.formatStatement → Strata.stmtToCST
+• `Strata.CoreDDM.Statement.toAst`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9.Core.Program.typeCheck.go → «…» → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.Strata.Languages.Core.StatementType.0.Core.Statement.typeCheckAux.go._mutual → Strata.instCoreCommandFormat → Strata.Core.formatCommand → Strata.Core.formatStatement → Strata.CoreDDM.Statement.toAst
+• `_private.StrataDDM.Parser.0.StrataDDM.Parser.takeDigitsFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.numberFnAux → StrataDDM.Parser.binNumberFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.takeDigitsFn
+• `Lean.Syntax.structEq`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → Lean.Parser.ParserState.hasError → Lean.Parser.instBEqError → Lean.Parser.instBEqError.beq → Lean.Syntax.instBEq → Lean.Syntax.structEq
+• `Lean.Syntax.getHeadInfo?`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.identifier → Lean.Parser.ParserState.mkUnexpectedTokenError → Lean.Parser.ParserState.mkUnexpectedTokenErrors → Lean.Syntax.getPos? → Lean.Syntax.getHeadInfo → Lean.Syntax.getHeadInfo?
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.instToStrataFormatQualifiedIdent._private_1 → _private.StrataDDM.Format.0.StrataDDM.formatIdent → _private.StrataDDM.Format.0.StrataDDM.needsPipeDelimiters → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorIdSearchStepOfForwardPattern → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `Lean.PersistentHashMap.insertAux`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.ParsingContext.opSyntaxParser → _private.StrataDDM.Parser.0.StrataDDM.Parser.node → Lean.Parser.nodeInfo → Lean.Parser.SyntaxNodeKindSet.insert → Lean.PersistentHashMap.insert → Lean.PersistentHashMap.insertAux
+• `Lean.Parser.stringGapFn`: `partial` function: in the logic it is an opaque constant with no equations, so no statement about its result can be proved (this includes `while`/`repeat` loops); a total version (structural, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.charLitFnAux → Lean.Parser.quotedCharFn → Lean.Parser.quotedCharCoreFn → Lean.Parser.stringGapFn
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → StrataDDM.Parser.tokenFn → _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux → StrataDDM.Parser.identFnAux → _private.StrataDDM.Parser.0.StrataDDM.Parser.parsePipeDelimitedIdent → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.pReqProc → _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareQuantifiers_9._private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmAST → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgmASTUntyped → _private.StrataTest.Languages.Core.Tests.Logic.HoareQuantifiers.0.CoreHoareQuantifiersTest.examplePgm → Strata.Core_map → «…» → _private.StrataDDM.Format.0.StrataDDM.formatIdent → _private.StrataDDM.Format.0.StrataDDM.needsPipeDelimiters → String.Slice.Pattern.ToForwardSearcher.DefaultForwardSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 11354756
+rc=0 secs=57

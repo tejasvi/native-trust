@@ -1,0 +1,4 @@
+2026-10-25T00:14:21Z leanexport Examples.Tactic -- k_xor k_and_or k_mul_three k_shift k_cpop_not k_norm k_config k_uint k_bool k_two k_have k_two_sync k_split KEx.k_pub  (toolchain /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0)
+export rc=0 bytes=35325607 time,rss=1.60,1689708; native names in export: 
+2026-10-25T00:14:22Z nanoda_bin nanoda.json
+nanoda rc=0 time,rss=18.21,591044: Checked 4394 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 

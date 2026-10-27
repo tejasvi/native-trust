@@ -1,0 +1,9 @@
+wt-final3-miniacc	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+wt-final3-miniacc	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+wt-final3-miniacc	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+wt-final3-miniacc	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+wt-final3-miniacc	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+wt-final3-miniacc	scripts.probe-fn-portable-line	-			NOT_BUILT						
+wt-final3-miniacc	Compiler.LegacyStoreCarryChecks	Minidregg.Compiler.LegacyStoreCarryChecks.trailing_byte_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		21	13881552	150		nt_lines=86 last=pieces=1
+wt-final3-miniacc	Compiler.LegacyStoreCarryChecks	Minidregg.Compiler.LegacyStoreCarryChecks.truncated_source_refused._native.native_decide.ax_1_1	native_decide	False	PROVED		23	13882872	146		nt_lines=86 last=pieces=1
+wt-final3-miniacc	Compiler.StoreCodec	Minidregg.Compiler.StoreCodec.Worked.store32_compiled_roundtrip._native.native_decide.ax_1_1	native_decide	False	PROVED		18	3983580	5		nt_lines=58 last=pieces=1

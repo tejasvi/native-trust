@@ -1,0 +1,12 @@
+project	bidisc Bohr radius v5 (bohr59a), S5 check
+source	supp 10.5281/zenodo.23579053 (bidisc-bohr-radius-v5 @44b2ec1d1827)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	625 checks (K5, K6S00-47, K7S000-575), one per part (lean/README.md:48-49)
+converted	0 of 1 sampled (K5)
+nt_cpu_h	0.005 (16 s)
+nt_wall_min	1
+native_build_cpu_h	native checks S5 and S6 about 14 CPU-hours, S7 167.9 hours (lean/README.md:97-98)
+hand_track	lean_kernel (S5, S6), lean_kernel_s7 (S7)
+hand_build_cpu_h	about 620 + 45 CPU-hours (S6, S5; lean_kernel/README.md:118); S7 about 3,900 hours
+checks	data module Bohr59aData/K5.lean generated from the shipped certificate with tools/export59.py (4 s; sha256 as in data_SHA256SUMS; 33,110,224 bytes, one base64 string); kdecide on Bohr59aCheck/K5 (900 s, 90G): stack overflow after 16 s (Lean aborts, rc 134); the S6 certificates are not on the box

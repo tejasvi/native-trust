@@ -1,0 +1,82 @@
+00:42:40 gate ok: MemAvailable 323 >= 264
+real s_Natuvea_tacenta_core_tacenta_proofs (v4.31.0) with bvsmod2_v4.31.0 in /home/ntbuild/work_bvtac/real_v3/natuvea_proofs; start 2026-10-25T00:42:40Z
+00:42:41 RealD/Serialization.lean rc=0 0.97	701692
+00:42:42 CheckD_Serialization.lean rc=1 0.18	651776
+00:42:43 RealK/Serialization.lean rc=0 1.50	1595116
+00:42:44 CheckK_Serialization.lean rc=0 0.63	1550552
+progress lines: 1
+CHECK RealK.Serialization: 52 constants, 0 `_native` names; 36 theorems: 34 standard axioms only, 2 with native axioms [Proofs.Serialization.decode_encode_composite, Proofs.Serialization.decode_encode], 0 other []
+end 2026-10-25T00:42:44Z
+00:42:44 gate ok: MemAvailable 352 >= 264
+real asi-stack-book (v4.31.0) with bvsmod2_v4.31.0 in /home/ntbuild/work_bvtac/real_v3/asi; start 2026-10-25T00:42:44Z
+00:42:45 RealD/StackBoundaries.lean rc=0 1.45	717056
+00:42:45 CheckD_StackBoundaries.lean rc=1 0.18	647356
+00:42:48 RealK/StackBoundaries.lean rc=0 2.94	1712768
+00:42:49 CheckK_StackBoundaries.lean rc=0 0.62	1546600
+progress lines: 1
+CHECK RealK.StackBoundaries: 574 constants, 0 `_native` names; 132 theorems: 132 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T00:42:49Z
+00:42:49 gate ok: MemAvailable 357 >= 264
+toolchain leanprover/lean4:v4.33.1; start 2026-10-25T00:42:49Z
+BVS.LratBits rc=0 0.22	333296
+BVS.LratBitsSound rc=0 0.31	387960
+BVS.Blast rc=0 0.51	404408
+BVS.Lrat.Trie rc=0 0.49	460248
+BVS.Sound.Basic rc=0 0.40	433984
+BVS.Lrat.Chain rc=0 0.46	455552
+BVS.Sound.Circuits rc=0 0.63	532320
+BVS.Sound.Bits rc=0 0.39	441528
+BVS.Sound.Shifts rc=0 0.41	449528
+BVS.Sound.Unary rc=0 0.25	416208
+BVS.Sound.Expr rc=0 0.60	417432
+BVS.Sound.CNF rc=0 0.25	414244
+BVS.Lrat.LeafTree rc=0 0.41	420604
+BVS.Unsat rc=0 0.28	401260
+BVS.SplitBase rc=0 0.53	478764
+BVS.Driver.Core rc=0 1.87	909988
+BVS.Driver.Select rc=0 1.16	869596
+BVS.Driver.Split rc=0 1.15	885644
+BVS.Driver.Group rc=0 0.88	864804
+BVS.Tactic rc=0 1.32	888832
+BVS rc=0 0.37	818472
+Examples.Small rc=0 9.94	2212196
+Examples.Tactic rc=0 33.35	2550896
+Examples.TacticModule rc=0 5.78	1215148
+end 2026-10-25T00:43:51Z
+00:43:51 gate ok: MemAvailable 304 >= 264
+real clean (v4.33.1) with bvsmod2_v4.33.1 in /home/ntbuild/work_bvtac/real_v3/clean; start 2026-10-25T00:43:51Z
+00:44:00 RealD/Bitwise.lean rc=0 8.69	1245796
+00:44:05 CheckD_Bitwise.lean rc=0 4.98	2244088
+00:44:06 RealK/Bitwise.lean rc=0 1.46	1532364
+00:44:08 CheckK_Bitwise.lean rc=0 1.31	2673768
+progress lines: 1
+CHECK RealD.Bitwise: 25 constants, 1 `_native` names; 13 theorems: 12 standard axioms only, 1 with native axioms [not64_eq_sub], 0 other []
+CHECK RealK.Bitwise: 29 constants, 0 `_native` names; 13 theorems: 13 standard axioms only, 0 with native axioms [], 0 other []
+00:44:10 RealD/And8.lean rc=0 2.64	1614148
+00:44:12 CheckD_And8.lean rc=0 1.67	2746436
+00:44:16 RealK/And8.lean rc=0 4.07	1878376
+00:44:17 CheckK_And8.lean rc=0 1.34	2771268
+progress lines: 1
+CHECK RealD.And8: 59 constants, 1 `_native` names; 18 theorems: 13 standard axioms only, 5 with native axioms [Gadgets.And.And8.and_times_two_add_xor, Gadgets.And.And8.xor_le_add, Gadgets.And.And8.completeness, Gadgets.And.And8.two_and_le_add, Gadgets.And.And8.soundness], 0 other []
+CHECK RealK.And8: 63 constants, 0 `_native` names; 18 theorems: 18 standard axioms only, 0 with native axioms [], 0 other []
+00:44:20 RealD/Or8.lean rc=0 2.67	1624184
+00:44:21 CheckD_Or8.lean rc=0 1.32	2748228
+00:44:26 RealK/Or8.lean rc=0 4.33	1846968
+00:44:27 CheckK_Or8.lean rc=0 1.36	2772376
+progress lines: 1
+CHECK RealD.Or8: 71 constants, 1 `_native` names; 19 theorems: 14 standard axioms only, 5 with native axioms [_private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor, _private.RealD.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor', Gadgets.Or.Or8.completeness, _private.RealD.Or8.0.Gadgets.Or.Or8.two_or_ge_add, Gadgets.Or.Or8.soundness], 0 other []
+CHECK RealK.Or8: 75 constants, 0 `_native` names; 19 theorems: 19 standard axioms only, 0 with native axioms [], 0 other []
+00:44:31 RealD/ByteDecomposition.lean rc=0 4.20	1750896
+00:44:33 CheckD_ByteDecomposition.lean rc=0 1.34	2686728
+00:49:03 RealK/ByteDecomposition.lean rc=1 270.28	7017288
+progress lines: 1
+CHECK RealD.ByteDecomposition: 10 constants, 1 `_native` names; 6 theorems: 5 standard axioms only, 1 with native axioms [Gadgets.ByteDecomposition.Theorems.soundness], 0 other []
+end 2026-10-25T00:49:03Z
+00:49:03 gate ok: MemAvailable 414 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod2_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T00:49:03Z
+00:49:13 RealD/Combine.lean rc=0 10.48	1174100
+00:49:14 CheckD_Combine.lean rc=0 0.82	1837584
+00:56:31 RealK/Combine.lean rc=1 436.47	1795060
+progress lines: 87
+CHECK RealD.Combine: 888 constants, 30 `_native` names; 245 theorems: 245 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T00:56:31Z

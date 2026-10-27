@@ -1,0 +1,2 @@
+bvs mul3_w256 #1: 5856 nodes, 16799 clauses, 5856 vars; 21697 steps, 183793 hints, 16 chunks; solve 168 ms, prep+defs 969 ms; kernel: base 6156 ms, chunks 55301 ms (max 6050 ms); total 62616 ms
+bvs: added mul3_w256.bvs4 (1931 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

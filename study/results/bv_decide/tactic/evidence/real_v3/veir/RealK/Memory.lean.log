@@ -1,0 +1,2 @@
+bv_kdecide [Veir.MemoryState.loadByte64]: bv_decide 20 ms; 320 nodes, 575 clauses, 130 LRAT steps, 386 hints, 1 chunks; SAT 22 ms, data 5 ms; kernel: base 196 ms, chunks 117 ms (max 117 ms), assembly 3 ms; total 374 ms; peak RSS: bv_decide 835 MiB, kernel route 893 MiB
+bv_kdecide [Veir.MemoryState.llvmLoad]: bv_decide 20 ms; 40 nodes, 71 clauses, 18 LRAT steps, 50 hints, 1 chunks; SAT 16 ms, data 1 ms; kernel: base 23 ms, chunks 10 ms (max 10 ms), assembly 1 ms; total 80 ms; peak RSS: bv_decide 838 MiB, kernel route 851 MiB

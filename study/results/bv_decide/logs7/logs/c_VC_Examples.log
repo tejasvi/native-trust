@@ -1,0 +1,17 @@
+BVS_STATS	Veir.Data.PBV.Examples	0	nodes=366	clauses=977	steps=115	hints=974	chunks=1	base_ms=332	chunk_ms=213
+BVS_UNSAT	Veir.Data.PBV.Examples	0	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend._native.bv_decide.ax_1_8	115	0	545	580	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Data.PBV.Examples	1	nodes=4687	clauses=13820	steps=7070	hints=371430	chunks=20	base_ms=5748	chunk_ms=71437
+BVS_UNSAT	Veir.Data.PBV.Examples	1	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_append._native.bv_decide.ax_1_7	7070	0	77185	80212	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Data.PBV.Examples	2	nodes=164	clauses=443	steps=74	hints=605	chunks=1	base_ms=152	chunk_ms=139
+BVS_UNSAT	Veir.Data.PBV.Examples	2	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_add_comm_manual._native.bv_decide.ax_1_6	74	0	291	322	bvs5fact_2.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Data.PBV.Examples	3	nodes=489	clauses=1322	steps=183	hints=1922	chunks=1	base_ms=559	chunk_ms=427
+BVS_UNSAT	Veir.Data.PBV.Examples	3	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_sign_extend._native.bv_decide.ax_1_8	183	0	986	1033	bvs5fact_3.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Data.PBV.Examples	4	nodes=366	clauses=977	steps=115	hints=974	chunks=1	base_ms=362	chunk_ms=242
+BVS_UNSAT	Veir.Data.PBV.Examples	4	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._native.bv_decide.ax_1_8	115	0	604	644	bvs5fact_4.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend_conj	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_add_comm_manual	bvs5_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_sign_extend	bvs5_4	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=8	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_append	bvs5_5	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Data.PBV.Examples	[0, 1, 2, 3, 4]	converted=5	all_unsat_ok=true	users=5	users_std=5	users_axiom_left=0	users_failed=0
+TIME wall=87.92 s user=86.07 s maxrss=2902492 KB

@@ -1,0 +1,4 @@
+kernelize: `nfl_Z_3.kernel` proves the statement of `nfl_Z_3` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (23423 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 23435 ms in total.
+time 24.95 s wall 24.24 s user 4281100 KB
+exit 0

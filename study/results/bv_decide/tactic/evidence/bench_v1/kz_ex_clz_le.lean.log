@@ -1,0 +1,2 @@
+bvs ex_clz_le #1: 50 nodes, 125 clauses, 50 vars; 48 steps, 109 hints, 1 chunks; solve 12 ms, prep+defs 1 ms; kernel: base 38 ms, chunks 21 ms (max 21 ms); total 75 ms
+bvs: added ex_clz_le.bvs4 (2 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

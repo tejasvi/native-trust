@@ -1,0 +1,9 @@
+package	uses replaced	native axioms	wall s (affected modules, clean, 4 jobs)	CPU s	note
+lido-srv3	256 of 372	70 → 0	7.1 → 7.8	28 → 31	12 of the uses are in modules the original build does not build; guard reverted 2 module(s) (0 axioms kept)
+cvc5/logos	603 of 606	2185 → 3	1739.5 → 1692.8	5231 → 5134	-
+Humanfia IChO 2026	633 of 693	1864 → 194	93.6 → 95.3	411 → 432	guard reverted 2 module(s) (138 axioms kept)
+asi-stack-book	374 of 382	392 → 10	22.2 → 21.9	115 → 114	-
+sounio	42 of 741	77 → 35	4.3 → 4.2	11 → 12	664 of the uses are in modules the original build does not build; guard reverted 3 module(s) (24 axioms kept)
+formal-conjectures	150 of 209	690 → 126	31.6 → 33.9	120 → 130	2 of the uses are in modules the original build does not build; build rounds reverted uses with 1 axioms
+total	2058 of 3003	5278 → 368	1898.3 → 1855.9	5916 → 5853	-
+# library v14 (manifest 918ae06c; built from the sources of nt_fix13); defaults --fact-budget 2000 --max-slowdown 2 --rounds 10; uses include examples; times are clean rebuilds of the affected modules before (original) and after (rewritten), 4 jobs, from mig/v14_<pkg>/summary.json

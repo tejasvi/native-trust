@@ -1,0 +1,93 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksNW_H2_C_0_3_0.olean F2_p1_QEC_ChecksNW_H2_C_0_3_0.lean
+NT start coverH2_0_3._native.native_decide.ax_1_1
+NT nested coverH2_0_3._native.native_decide.ax_1_1 ms=68 rebuilt_defs=0 visited=2220
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.closeStep
+NT copy QECComp.closeStep defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.ballK._f
+NT copy QECComp.ballK._f defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.ballK
+NT copy QECComp.ballK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.typedBall
+NT copy QECComp.typedBall defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.tbOf
+NT copy QECComp.tbOf defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.tbHead
+NT copy QECComp.tbHead defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.coverOK
+NT copy QECComp.coverOK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.headsHex8
+NT copy QECComp.headsHex8 defn_ms=71 eq_ms=212 congr=true
+NT copying QECComp.heads8
+NT copy QECComp.heads8 defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.hintsHex8_0_3
+NT copy QECComp.hintsHex8_0_3 defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.hintsHex8_0_5
+NT copy QECComp.hintsHex8_0_5 defn_ms=1 eq_ms=2 congr=true
+NT copying QECComp.hintsHex8_0_7
+NT copy QECComp.hintsHex8_0_7 defn_ms=1 eq_ms=3 congr=true
+NT copying QECComp.hintsHex8_0_9
+NT copy QECComp.hintsHex8_0_9 defn_ms=2 eq_ms=5 congr=true
+NT copying QECComp.hintsHex8_0_11
+NT copy QECComp.hintsHex8_0_11 defn_ms=3 eq_ms=8 congr=true
+NT copying QECComp.hintsHex8_0_13
+NT copy QECComp.hintsHex8_0_13 defn_ms=4 eq_ms=12 congr=true
+NT copying QECComp.hintsHex8_0_15
+NT copy QECComp.hintsHex8_0_15 defn_ms=5 eq_ms=16 congr=true
+NT copying QECComp.hintsHex8_0_17
+NT copy QECComp.hintsHex8_0_17 defn_ms=7 eq_ms=20 congr=true
+NT copying QECComp.hintsHex8_0_19
+NT copy QECComp.hintsHex8_0_19 defn_ms=9 eq_ms=27 congr=true
+NT copying QECComp.hintsHex8_0_21
+NT copy QECComp.hintsHex8_0_21 defn_ms=11 eq_ms=34 congr=true
+NT copying QECComp.hintsHex8_0_23
+NT copy QECComp.hintsHex8_0_23 defn_ms=14 eq_ms=41 congr=true
+NT copying QECComp.hintsHex8_0_25
+NT copy QECComp.hintsHex8_0_25 defn_ms=16 eq_ms=51 congr=true
+NT copying QECComp.hintsHex8_0_27
+NT copy QECComp.hintsHex8_0_27 defn_ms=19 eq_ms=75 congr=true
+NT copying QECComp.hintsHex8_0_29
+NT copy QECComp.hintsHex8_0_29 defn_ms=22 eq_ms=85 congr=true
+NT copying QECComp.hintsHex8_1_3
+NT copy QECComp.hintsHex8_1_3 defn_ms=1 eq_ms=0 congr=true
+NT copying QECComp.hintsHex8_1_5
+NT copy QECComp.hintsHex8_1_5 defn_ms=1 eq_ms=2 congr=true
+NT copying QECComp.hintsHex8_1_7
+NT copy QECComp.hintsHex8_1_7 defn_ms=1 eq_ms=4 congr=true
+NT copying QECComp.hintsHex8_1_9
+NT copy QECComp.hintsHex8_1_9 defn_ms=2 eq_ms=6 congr=true
+NT copying QECComp.hintsHex8_1_11
+NT copy QECComp.hintsHex8_1_11 defn_ms=3 eq_ms=8 congr=true
+NT copying QECComp.hintsHex8_1_13
+NT copy QECComp.hintsHex8_1_13 defn_ms=4 eq_ms=12 congr=true
+NT copying QECComp.hintsHex8_1_15
+NT copy QECComp.hintsHex8_1_15 defn_ms=6 eq_ms=16 congr=true
+NT copying QECComp.hintsHex8_1_17
+NT copy QECComp.hintsHex8_1_17 defn_ms=7 eq_ms=21 congr=true
+NT copying QECComp.hintsHex8_1_19
+NT copy QECComp.hintsHex8_1_19 defn_ms=10 eq_ms=28 congr=true
+NT copying QECComp.hintsHex8_1_21
+NT copy QECComp.hintsHex8_1_21 defn_ms=11 eq_ms=34 congr=true
+NT copying QECComp.hintsHex8_1_23
+NT copy QECComp.hintsHex8_1_23 defn_ms=15 eq_ms=41 congr=true
+NT copying QECComp.hintsHex8_1_25
+NT copy QECComp.hintsHex8_1_25 defn_ms=16 eq_ms=59 congr=true
+NT copying QECComp.hintsHex8_1_27
+NT copy QECComp.hintsHex8_1_27 defn_ms=19 eq_ms=69 congr=true
+NT copying QECComp.hintsHex8_1_29
+NT copy QECComp.hintsHex8_1_29 defn_ms=23 eq_ms=88 congr=true
+NT copying QECComp.hints8
+NT copy QECComp.hints8 defn_ms=0 eq_ms=4 congr=true
+NT _ktr.F2_p1_QEC_ChecksNW_H2_C_0_3_0.coverH2_0_3._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=1664 copies=42 copy_kernel_ms=1298 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_H2_C_0_3_0.coverH2_0_3._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_p1_QEC_ChecksNW_H2_C_0_3_0.coverH2_0_3._kernel.native_decide.ax_1_1.p_0 blockers_ms=3 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksNW_H2_C_0_3_0.coverH2_0_3._kernel.native_decide.ax_1_1.p_0 eval_ms=667
+NT _ktr.F2_p1_QEC_ChecksNW_H2_C_0_3_0.coverH2_0_3._kernel.native_decide.ax_1_1.p_1 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+rc=124 secs=900 cg_cpu_s=900.0 cg_peak_kb=7861820 cg_oom_kill=0

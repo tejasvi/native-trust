@@ -1,0 +1,7 @@
+bvs addassoc_64 #1: 2732 nodes, 7619 clauses, 2732 vars; 16498 steps, 99052 hints, 9 chunks; solve 213 ms, prep+defs 1074 ms; kernel: base 3682 ms, chunks 37932 ms (max 5827 ms); total 42924 ms
+bvs: added addassoc_64.bvs4 (1490 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs addassoc_256 #1: 10988 nodes, 30659 clauses, 10988 vars; 80583 steps, 399545 hints, 41 chunks; solve 713 ms, prep+defs 3597 ms; kernel: base 13637 ms, chunks 189420 ms (max 6857 ms); total 207459 ms
+bvs: added addassoc_256.bvs4 (12901 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs addassoc_1024 #1: 44012 nodes, 122819 clauses, 44012 vars; 337030 steps, 1648631 hints, 169 chunks; solve 5015 ms, prep+defs 21700 ms; kernel: base 58949 ms, chunks 955137 ms (max 8416 ms); total 1041195 ms
+bvs: added addassoc_1024.bvs4 (63708 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=1433.44 s user=1427.92 s maxrss=13201260 KB

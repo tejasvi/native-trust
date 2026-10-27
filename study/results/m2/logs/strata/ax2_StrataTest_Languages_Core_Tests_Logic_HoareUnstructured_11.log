@@ -1,0 +1,11 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.lean
+NT start _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1
+NT nested _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1 ms=570 rebuilt_defs=1 visited=8628
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory defn_ms=1 eq_ms=15 congr=false
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.Factory defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1.p_0 blockers_ms=23 bounded=true copy_ms=22 copies=2 copy_kernel_ms=17
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1.p_0 eval_ms=0
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1`: kernel_ms=47 native_axioms=2 rebuilt=3 copies=2 total_ms=617
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1`: kernel_ms=47 native_axioms=2 rebuilt=3 copies=2 total_ms=617
+maxrss_kb 1814300
+rc=0 secs=1

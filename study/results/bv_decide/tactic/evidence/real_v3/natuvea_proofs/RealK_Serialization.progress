@@ -1,0 +1,5 @@
+[26048897] Proofs.Serialization.readBe32_be32._bvk_5: 33 nodes, CNF 2 clauses
+[26048909] Proofs.Serialization.readBe32_be32._bvk_5: 1 steps, 2 hints, 1 chunks, 0 segments; SAT 12 ms
+[26048951] Proofs.Serialization.readBe32_be32._bvk_5: base check 41 ms
+[26048952] Proofs.Serialization.readBe32_be32._bvk_5: chunk 0 (1 steps from id 3) 1 ms
+[26049008] bv_kdecide [Proofs.Serialization.readBe32_be32]: bv_decide 70 ms; 33 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 12 ms, data 0 ms; kernel: base 42 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 191 ms; peak RSS: bv_decide 1526 MiB, kernel route 1538 MiB

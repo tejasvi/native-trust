@@ -1,0 +1,113 @@
+{
+ "name": "Rob1Ham_btc_lean_spec_proofs",
+ "pkg": "/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs",
+ "copy_root": "/home/ntbuild/repos_s/Rob1Ham_btc-lean",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T07:11:21Z",
+ "toolchain": "v4.35.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.26,
+  "built": []
+ },
+ "modules": 47,
+ "before": {
+  "total": 134,
+  "by_tactic": {
+   "native_decide": 134
+  },
+  "failed": [],
+  "dirty": 134
+ },
+ "native_files": 12,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 329,
+   "rc": 0,
+   "wall": 260.79,
+   "cpu": 1333.8,
+   "n_built": 47,
+   "peak_lean": 8,
+   "peak_rss_gb": 9.4,
+   "peak_rss_sum_gb": 24.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 329,
+   "rc": 0,
+   "wall": 477.15,
+   "cpu": 2256.0,
+   "n_built": 47,
+   "peak_lean": 8,
+   "peak_rss_gb": 9.4,
+   "peak_rss_sum_gb": 25.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 329,
+   "rc": 0,
+   "wall": 1808.14,
+   "cpu": 7578.7,
+   "n_built": 47,
+   "peak_lean": 8,
+   "peak_rss_gb": 9.4,
+   "peak_rss_sum_gb": 40.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 118,
+  "by_tactic": {
+   "native_decide": 118
+  },
+  "failed": [],
+  "dirty": 118
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 374
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: BitcoinProofs/Bip/B09/SigHash143.lean:101:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2528 ms)"
+ },
+ "after_hb2": {
+  "total": 79,
+  "by_tactic": {
+   "native_decide": 79
+  },
+  "failed": [],
+  "dirty": 79
+ },
+ "fallbacks_hb2": {
+  "budget (heartbeats)": 119
+ },
+ "fallback_examples_hb2": {
+  "budget (heartbeats)": "info: BitcoinProofs/Property/Y03/Property.lean:532:5: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (27390 ms)"
+ },
+ "reps": 1,
+ "orig_wall_med": 260.79,
+ "orig_cpu_med": 1333.8,
+ "kf_wall_med": 477.15,
+ "kf_cpu_med": 2256.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T07:54:33Z"
+}

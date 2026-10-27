@@ -1,0 +1,2 @@
+bv_kdecide: bv_decide 219 ms; 6646 nodes, 18401 clauses, 27480 LRAT steps, 56155 hints, 14 chunks; SAT 501 ms, data 224 ms; kernel: base 6280 ms, chunks 32915 ms (max 2853 ms), assembly 830 ms; total 42249 ms
+'shard_and_or' depends on axioms: [propext, Classical.choice, Quot.sound]

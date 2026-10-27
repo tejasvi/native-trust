@@ -1,0 +1,120 @@
+{
+ "name": "Provenance_Works_Radix",
+ "pkg": "/home/ntbuild/repos_s/Provenance-Works_Radix",
+ "copy_root": "/home/ntbuild/repos_s/Provenance-Works_Radix",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.29.0-rc4",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T06:29:07Z",
+ "toolchain": "v4.29.0-rc4",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.47,
+  "built": []
+ },
+ "modules": 55,
+ "before": {
+  "total": 145,
+  "by_tactic": {
+   "native_decide": 128,
+   "bv_decide": 17
+  },
+  "failed": [],
+  "dirty": 168
+ },
+ "native_files": 21,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 385,
+   "rc": 0,
+   "wall": 131.58,
+   "cpu": 274.8,
+   "n_built": 55,
+   "peak_lean": 8,
+   "peak_rss_gb": 4.6,
+   "peak_rss_sum_gb": 16.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 385,
+   "rc": 0,
+   "wall": 136.79,
+   "cpu": 310.2,
+   "n_built": 55,
+   "peak_lean": 8,
+   "peak_rss_gb": 4.8,
+   "peak_rss_sum_gb": 17.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 385,
+   "rc": 0,
+   "wall": 177.44,
+   "cpu": 344.3,
+   "n_built": 55,
+   "peak_lean": 8,
+   "peak_rss_gb": 7.2,
+   "peak_rss_sum_gb": 17.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 36,
+  "by_tactic": {
+   "bv_decide": 17,
+   "native_decide": 19
+  },
+  "failed": [],
+  "dirty": 59
+ },
+ "fallbacks": {
+  "blocked: System.Platform.getNumBits": 15,
+  "budget (heartbeats)": 4
+ },
+ "fallback_examples": {
+  "blocked: System.Platform.getNumBits": "info: Radix/CRC/Lemmas.lean:160:46: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getNumBits` (no kernel definition)",
+  "budget (heartbeats)": "info: Radix/ECC/Spec.lean:578:72: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1131 ms)"
+ },
+ "after_hb2": {
+  "total": 34,
+  "by_tactic": {
+   "bv_decide": 17,
+   "native_decide": 17
+  },
+  "failed": [],
+  "dirty": 57
+ },
+ "fallbacks_hb2": {
+  "blocked: System.Platform.getNumBits": 15,
+  "budget (heartbeats)": 2
+ },
+ "fallback_examples_hb2": {
+  "blocked: System.Platform.getNumBits": "info: Radix/CRC/Lemmas.lean:162:46: kernel-first: native_decide used compiled evaluation: blocked: reaches `System.Platform.getNumBits` (no kernel definition)",
+  "budget (heartbeats)": "info: Radix/ECC/Spec.lean:590:68: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (33050 ms)"
+ },
+ "reps": 1,
+ "orig_wall_med": 131.58,
+ "orig_cpu_med": 274.8,
+ "kf_wall_med": 136.79,
+ "kf_cpu_med": 310.2,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T06:36:49Z"
+}

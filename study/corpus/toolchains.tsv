@@ -1,0 +1,26 @@
+package	run	directory (checkout on the study machine)	lean-toolchain	facts
+BerryEsseen	berry-esseen	repos/berry-esseen	leanprover/lean4:v4.34.0-rc2	579
+Humanfia IChO 2026	humanfia-icho2026	repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	leanprover/lean4:v4.31.0	1864
+Strata	strata	repos/Strata	leanprover/lean4:v4.31.0	286
+TrainVerify	trainverify	repos/tainverify_lean/trainverify	leanprover/lean4:v4.32.2	45720
+aeneas	aeneas-lean	repos/aeneas/backends/lean	leanprover/lean4:v4.35.0	1
+aks	aks	repos/aks	leanprover/lean4:v4.29.0-rc4	7
+asi-stack-book	asi-stack-book	repos/asi-stack-book/lean	leanprover/lean4:v4.31.0	392
+cedar-spec	cedar-lean	repos/cedar-spec/cedar-lean	leanprover/lean4:v4.35.0	26
+clean	clean	repos/clean	leanprover/lean4:v4.33.1	120
+cvc5/logos	cvc5-logos	repos/cvc5-logos	leanprover/lean4:v4.34.0	2185
+formal-conjectures	formal-conjectures	repos/formal-conjectures	leanprover/lean4:v4.33.1	690
+lido-srv3	lido-srv3	repos/lido-srv3-proof-closure	leanprover/lean4:v4.31.0	70
+longfellow-zk	longfellow-zk	repos/longfellow-zk/formal	leanprover/lean4:v4.31.0	690
+rs-mca (8 sub-projects)	rs-mca-RS_disproof_v3	repos/rs-mca/experimental/lean/RS_disproof_v3	leanprover/lean4:v4.28.0	9
+rs-mca (8 sub-projects)	rs-mca-asymptotic_spine	repos/rs-mca/experimental/lean/asymptotic_spine	leanprover/lean4:v4.31.0	0
+rs-mca (8 sub-projects)	rs-mca-cs25_cap_v13	repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	leanprover/lean4:v4.28.0	10
+rs-mca (8 sub-projects)	rs-mca-l1_threshold_ledger	repos/rs-mca/experimental/lean/l1_threshold_ledger	leanprover/lean4:v4.31.0	0
+rs-mca (8 sub-projects)	rs-mca-m31_dyadic_weight_laws	repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	leanprover/lean4:v4.31.0	9
+rs-mca (8 sub-projects)	rs-mca-m31_flatness_keystone	repos/rs-mca/experimental/lean/m31_flatness_keystone	leanprover/lean4:v4.31.0	2
+rs-mca (8 sub-projects)	rs-mca-moment_to_max	repos/rs-mca/experimental/lean/moment_to_max	leanprover/lean4:v4.28.0	29
+rs-mca (8 sub-projects)	rs-mca-razorband_witness	repos/rs-mca/experimental/lean/razorband_witness	leanprover/lean4:v4.28.0	16
+rs-mca (8 sub-projects)	rs-mca-syndrome_line	repos/rs-mca/experimental/lean/syndrome_line	leanprover/lean4:v4.28.0	12
+rs-mca (8 sub-projects)	rs-mca-syndrome_secant	repos/rs-mca/experimental/lean/syndrome_secant	leanprover/lean4:v4.28.0	20
+sorting-network	sorting-network-expanders	repos/sorting-network/upper-bound/experiments/expanders	leanprover/lean4:v4.29.0-rc4	7
+sounio	sounio	repos/sounio/formal	leanprover/lean4:v4.30.0-rc2	77

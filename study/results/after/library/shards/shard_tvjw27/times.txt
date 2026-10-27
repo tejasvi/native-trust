@@ -1,0 +1,3 @@
+TIMES tag=tvjw27 P=5943 shards_wall_from_queue=5726.72 combine_wall=6.484
+PROVED `TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._native.native_decide.ax_1_2` as `_ktshard.TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._kernel.n
+max_rss_kb 4130288 sum_secs 11320.6

@@ -1,0 +1,12 @@
+$ lean formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6.lean tc=v4.33.1 ntlib=/home/ntbuild/work_shared/nt22/v4.33.1/.lake/build/lib/lean start=2026-10-24T19:57:06Z
+formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_10` as `_ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10`: kernel_ms=4017 native_axioms=1 rebuilt=0 copies=0 total_ms=4120 acc_fallback=0 pieces=1
+maxrss_kb 10028724 secs 7.02
+rc=0 end=2026-10-24T19:57:13Z
+rdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10 quick whole-term attempt did not finish; structured check
+NT _ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10.p_0 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10.p_0 eval_ms=2304
+NT _ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10 pieces=1
+PROVED `_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_10` as `_ktr.«formal-conjectures__F2_FormalConjectures_ErdosProblems_313_6»._private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._kernel.native_decide.ax_1_10`: kernel_ms=4017 native_axioms=1 rebuilt=0 copies=0 total_ms=4120 acc_fallback=0 pieces=1

@@ -1,0 +1,10 @@
+axioms rc=0 08:18:28
+'bvs5fact_12.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_25.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs5_1 Veir.Data.RISCV.bitreverse_refinement true
+TYPE_IDENTICAL bvs5_2 Veir.Data.RISCV.bitreverse_refinement_32 true
+ax: wall=0.60 s maxrss=1646896 KB
+export rc=0 bytes=22033757 export: wall=1.30 s maxrss=1729716 KB 08:18:29
+nanoda PASS rc=0 decls=4344 08:18:31: Checked 4344 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=1.97 s maxrss=77380 KB 

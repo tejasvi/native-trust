@@ -1,0 +1,19 @@
+axioms rc=0 08:18:32
+'bvs5fact_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_2.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_3.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_4.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs5_1 _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend_conj true
+TYPE_IDENTICAL bvs5_2 _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend true
+TYPE_IDENTICAL bvs5_3 _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_add_comm_manual true
+TYPE_IDENTICAL bvs5_4 _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_sign_extend true
+TYPE_IDENTICAL bvs5_5 _private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_append true
+ax: wall=0.61 s maxrss=1623492 KB
+export rc=0 bytes=59305504 export: wall=2.32 s maxrss=1748792 KB 08:18:34
+nanoda PASS rc=0 decls=5829 08:19:38: Checked 5829 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=64.06 s maxrss=1162652 KB 

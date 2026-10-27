@@ -1,0 +1,12 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_FormalConjectures_GreensOpenProblems_39_1.lean
+NT start _private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._native.native_decide.ax_1_1
+NT nested _private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._native.native_decide.ax_1_1 ms=193 rebuilt_defs=0 visited=5009
+NT _ktr.F2_FormalConjectures_GreensOpenProblems_39_1._private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._kernel.native_decide.ax_1_1.p_0 blockers_ms=5 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0
+NT _ktr.F2_FormalConjectures_GreensOpenProblems_39_1._private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._kernel.native_decide.ax_1_1.p_0 eval_ms=548351
+PROVED `_private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._native.native_decide.ax_1_1` as `_ktr.F2_FormalConjectures_GreensOpenProblems_39_1._private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._kernel.native_decide.ax_1_1`: kernel_ms=1413611 native_axioms=1 rebuilt=0 copies=0 total_ms=1451971
+F2_FormalConjectures_GreensOpenProblems_39_1.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._native.native_decide.ax_1_1` as `_ktr.F2_FormalConjectures_GreensOpenProblems_39_1._private.FormalConjectures.GreensOpenProblems.«39».0.Green39.proportionCoverable_11_3_4._kernel.native_decide.ax_1_1`: kernel_ms=1413611 native_axioms=1 rebuilt=0 copies=0 total_ms=1451971
+maxrss_kb 75416740
+rc=0 secs=1455

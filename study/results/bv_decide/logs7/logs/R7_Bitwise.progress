@@ -1,0 +1,4 @@
+[54146275] bvs4fact_1: 65 nodes, CNF 2 clauses, 1 variables
+[54146312] bvs4fact_1: 1 steps, 2 hints, 1 chunks; solve 35 ms
+[54146371] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 59 ms
+[54146372] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (1 steps from id 3) 1 ms

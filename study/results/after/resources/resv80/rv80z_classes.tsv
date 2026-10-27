@@ -1,0 +1,75 @@
+rv80z	formal-conjectures:FormalConjectures_OEIS_111291_2	TIMEOUT	-	-	direct ok/fail 261/16	chunks 7	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	formal-conjectures:FormalConjectures_OEIS_358684_0	TIMEOUT	-	-	direct ok/fail 4/6	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	formal-conjectures:FormalConjectures_Paper_LatinSquare_0	OOM	651.23	32.4	direct ok/fail 3/12	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec rec:1,card:1,card:1,card:1
+rv80z	formal-conjectures:FormalConjectures_Wikipedia_WolstenholmePrime_0	TIMEOUT	-	-	direct ok/fail 52/25	chunks 0	noval 0 	large 0	deep 0	bridge 3		nodec 
+rv80z	formal-conjectures:FormalConjectures_WrittenOnTheWallII_GraphConjecture103_0	FAILED	875.13	32.4	direct ok/fail 1/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec rec:1,liftOn:1,foldr:1,fold:1
+rv80z	longfellow-zk:examples_Ligero_Longfellow_OptimizedIOPCertificates_34	TIMEOUT	-	-	direct ok/fail 89/49	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_1:4,localBound:3
+rv80z	rs-mca-m31_flatness_keystone:M31FlatnessKeystone_SelectorAtlas_0	TIMEOUT	-	-	direct ok/fail 13/27	chunks 0	noval 2 	large 2	deep 2	bridge 0		nodec match_1:4,map:4,match_1:1,flatten:1
+rv80z	mdg:Assurance_ObjectiveDemandPhysicalChecks_0	FAILED	374.71	34.3	direct ok/fail 0/6	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_1:2,unsupportedRefuses:1
+rv80z	mdg:Assurance_ObjectiveDemandPhysicalChecks_1	FAILED	291.08	34.7	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_5:1,agrees:1
+rv80z	mdg:Assurance_ObjectiveDemandPhysicalChecks_3	OOM	296.14	34.7	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_5:1,agrees:1
+rv80z	mdg:Assurance_ObjectiveDemandPhysicalChecks_4	FAILED	291.45	34.7	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_5:1,agrees:1
+rv80z	mdg:Assurance_ObjectiveDemandPhysicalChecks_5	FAILED	293.00	34.6	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_5:1,agrees:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_0	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_1	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_10	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_13	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_15	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_16	FAILED	284.06	34.2	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_1:1,isSome:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_17	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_18	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_2	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_3	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_4	FAILED	287.77	34.2	direct ok/fail 0/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec match_1:1,isSome:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_6	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Assurance_ObjectiveZkLiteralInstance_8	TIMEOUT	-	-	direct ok/fail 10/16	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:2,bind:1
+rv80z	mdg:Compiler_BendCommitmentFrameChecks_0	TIMEOUT	-	-	direct ok/fail 8/10	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:1,bind:1
+rv80z	mdg:Compiler_BendCommitmentFrameChecks_1	TIMEOUT	-	-	direct ok/fail 8/10	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:1,bind:1
+rv80z	mdg:Compiler_BendCommitmentFrameChecks_2	TIMEOUT	-	-	direct ok/fail 8/10	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:1,bind:1
+rv80z	mdg:Compiler_BendCommittedNetworkChecks_0	TIMEOUT	-	-	direct ok/fail 0/0	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_BendCommittedNetworkChecks_1	TIMEOUT	-	-	direct ok/fail 0/0	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_BendProofCshakeBoundedChecks_0	TIMEOUT	-	-	direct ok/fail 11/28	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec bind:4,[anonymous]:2,bind:2,run:2
+rv80z	mdg:Compiler_BendProofCshakeBoundedChecks_1	TIMEOUT	-	-	direct ok/fail 17/15	chunks 0	noval 6 	large 6	deep 0	bridge 0		nodec [anonymous]:2,inputCount:1
+rv80z	mdg:Compiler_BendProofCshakeBoundedChecks_2	TIMEOUT	-	-	direct ok/fail 16/35	chunks 0	noval 14 	large 14	deep 0	bridge 0		nodec [anonymous]:6,inputCount:5
+rv80z	mdg:Compiler_BendProofCshakeBoundedChecks_3	TIMEOUT	-	-	direct ok/fail 17/35	chunks 0	noval 14 	large 14	deep 0	bridge 0		nodec [anonymous]:6,inputCount:5
+rv80z	mdg:Compiler_BendProofCshakeBoundedChecks_4	TIMEOUT	-	-	direct ok/fail 17/15	chunks 0	noval 6 	large 6	deep 0	bridge 0		nodec [anonymous]:2,inputCount:1
+rv80z	mdg:Compiler_BendProofCshakeChecks_0	TIMEOUT	-	-	direct ok/fail 10/13	chunks 0	noval 6 	large 6	deep 0	bridge 0		nodec [anonymous]:2,inputCount:1
+rv80z	mdg:Compiler_BendProofCshakeChecks_1	TIMEOUT	-	-	direct ok/fail 8/11	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:1,bind:1,bind:1
+rv80z	mdg:Compiler_BendProofCshakeChecks_2	TIMEOUT	-	-	direct ok/fail 10/13	chunks 0	noval 6 	large 6	deep 0	bridge 0		nodec [anonymous]:2,inputCount:1
+rv80z	mdg:Compiler_BendProofKeccakChecks_0	TIMEOUT	-	-	direct ok/fail 8/11	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec bind:2,[anonymous]:1,bind:1
+rv80z	mdg:Compiler_BendProofKeccakChecks_1	TIMEOUT	-	-	direct ok/fail 5/11	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec bind:2,[anonymous]:1,bind:1
+rv80z	mdg:Compiler_BendProofKeccakChecks_2	TIMEOUT	-	-	direct ok/fail 7/11	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec bind:2,[anonymous]:1,bind:1
+rv80z	mdg:Compiler_Blake3Kat_0	OOM	264.06	34.7	direct ok/fail 39/0	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_CredentialAuthorityPolicyRegistry_0	TIMEOUT	-	-	direct ok/fail 19/9	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec mk:1
+rv80z	mdg:Compiler_CredentialAuthorityPolicyRegistry_1	TIMEOUT	-	-	direct ok/fail 7/9	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec mk:1
+rv80z	mdg:Compiler_DurableCheckpointCodec_0	TIMEOUT	-	-	direct ok/fail 102/15	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_DurableCheckpointCodec_1	TIMEOUT	-	-	direct ok/fail 102/15	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_DurableCheckpointCodec_2	TIMEOUT	-	-	direct ok/fail 102/15	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_DurableCheckpointCodec_3	TIMEOUT	-	-	direct ok/fail 102/15	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_DurableIndex_0	TIMEOUT	-	-	direct ok/fail 2/4	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_FnWirePinned_25	TIMEOUT	-	-	direct ok/fail 4/3	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec [anonymous]:1
+rv80z	mdg:Compiler_ObjectiveBendFrontEndAdequacy_1	TIMEOUT	-	-	direct ok/fail 0/0	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Compiler_StoreCodec_1	TIMEOUT	-	-	direct ok/fail 0/0	chunks 0	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_0	FAILED	164.01	35.1	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_1	FAILED	165.25	35.1	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_2	FAILED	163.82	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_3	FAILED	166.05	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_4	FAILED	164.23	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_5	FAILED	165.59	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_6	FAILED	164.63	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_0	FAILED	165.51	35.2	direct ok/fail 1/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_1	FAILED	163.44	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_10	FAILED	165.56	35.2	direct ok/fail 1/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_2	FAILED	163.10	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_3	FAILED	161.67	35.2	direct ok/fail 2/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_4	FAILED	164.05	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_5	FAILED	165.92	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_6	FAILED	167.44	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_7	FAILED	165.52	35.2	direct ok/fail 1/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_8	FAILED	165.49	35.2	direct ok/fail 0/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	mdg:Theory_NockCost_Summaries_9	FAILED	164.61	35.2	direct ok/fail 5/0	chunks 0	noval 1 	large 1	deep 0	bridge 0		nodec 
+rv80z	s_zcash_ironwood:Zcash_Snark_Fixtures_MultiAction_Honest_Fixture_4	TIMEOUT	-	-	direct ok/fail 37/4	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	s_zcash_ironwood:Zcash_Snark_Fixtures_MultiAction_Random_Fixture_5	TIMEOUT	-	-	direct ok/fail 37/4	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	s_zcash_ironwood:Zcash_Snark_Fixtures_SingleAction_Honest_Fixture_4	TIMEOUT	-	-	direct ok/fail 37/4	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	s_zcash_ironwood:Zcash_Snark_Fixtures_SingleAction_Random_Fixture_2	TIMEOUT	-	-	direct ok/fail 37/4	chunks 1	noval 0 	large 0	deep 0	bridge 0		nodec 
+rv80z	trainverify:denote_yoco_goals_Goal4LateScopedBridge_3	TIMEOUT	-	-	direct ok/fail 77/6	chunks 2	noval 0 	large 0	deep 0	bridge 0		nodec 

@@ -1,0 +1,29 @@
+BVS/Sound3.lean:118:10: warning: This simp argument is unused:
+  Bool.xor_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:250:18: warning: This simp argument is unused:
+  BitVec.getLsbD_of_ge y w (Nat.le_refl _)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [partProd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:334:40: warning: This simp argument is unused:
+  decide_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h, beq_iff_eq, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+BVS/Sound3.lean:348:40: warning: This simp argument is unused:
+  decide_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h, beq_iff_eq, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+TIME wall=0.61 s user=1.38 s maxrss=743072 KB

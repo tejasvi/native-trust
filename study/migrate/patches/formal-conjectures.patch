@@ -1,0 +1,1074 @@
+--- a/FormalConjectures/ErdosProblems/1141.lean
++++ b/FormalConjectures/ErdosProblems/1141.lean
+@@ -116,10 +116,10 @@
+ 
+ @[category test, AMS 11]
+ example : ¬ Erdos1141Prop 968 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ example : Erdos1141Prop 1722 := by
+-  decide +native
++  decide +kernel
+ 
+ end Erdos1141
+--- a/FormalConjectures/ErdosProblems/1148.lean
++++ b/FormalConjectures/ErdosProblems/1148.lean
+@@ -76,7 +76,7 @@
+ -/
+ @[category textbook, AMS 11]
+ theorem erdos_1148.variants.lower_bound : ¬ Erdos1148Prop 6563 := by
+-  decide +native
++  decide +kernel
+ 
+ /--
+ The weaker property: $n = x^2 + y^2 - z^2$ such that $\max(x^2, y^2, z^2) \leq n + 2\sqrt{n}$.
+--- a/FormalConjectures/ErdosProblems/313.lean
++++ b/FormalConjectures/ErdosProblems/313.lean
+@@ -95,7 +95,7 @@
+         refine ⟨by decide, by decide, ?_, ?_⟩
+         · intro p hp
+           fin_cases hp <;> native_decide
+-        · native_decide⟩
++        · decide +kernel⟩
+   calc (8 : ℕ∞)
+       = ((S.card : ℕ) : ℕ∞) := by decide
+     _ = (↑S : Set ℕ).encard := (Set.encard_coe_eq_coe_finsetCard S).symm
+--- a/FormalConjectures/ErdosProblems/361.lean
++++ b/FormalConjectures/ErdosProblems/361.lean
+@@ -57,7 +57,7 @@
+ -/
+ @[category test, AMS 11]
+ theorem maxSubsetSumAvoidingCard_three_four : maxSubsetSumAvoidingCard 3 4 = 2 := by
+-  native_decide
++  decide +kernel
+ 
+ def erdos_361.answer : ℕ → ℕ := sorry
+ 
+--- a/FormalConjectures/ErdosProblems/389.lean
++++ b/FormalConjectures/ErdosProblems/389.lean
+@@ -47,9 +47,9 @@
+     IsLeast
+       { k | 1 ≤ k ∧ ∏ i ∈ Finset.range k, (4 + i) ∣ ∏ i ∈ Finset.range k, (4 + k + i) }
+       207 := by
+-  refine ⟨⟨by norm_num, by native_decide⟩, ?_⟩
++  refine ⟨⟨by norm_num, by decide +kernel⟩, ?_⟩
+   intro k ⟨_, hdvd⟩
+   by_contra! hlt
+-  interval_cases k <;> revert hdvd <;> native_decide
++  interval_cases k <;> revert hdvd <;> decide +kernel
+ 
+ end Erdos389
+--- a/FormalConjectures/ErdosProblems/394.lean
++++ b/FormalConjectures/ErdosProblems/394.lean
+@@ -133,11 +133,11 @@
+     t (k - 1) (10 !) - 1 := by
+   have h1 : t 1 (10 !) = 3628800 := by rw [t_one] <;> norm_num [Nat.factorial]
+   have h2 : t 2 (10 !) = 512000 := by
+-    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by native_decide) (by native_decide)
++    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by decide +kernel) (by native_decide)
+   have h3 : t 3 (10 !) = 6398 := by
+-    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by native_decide) (by native_decide)
++    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by decide +kernel) (by decide +kernel)
+   have h4 : t 4 (10 !) = 5373 := by
+-    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by native_decide) (by native_decide)
++    norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by decide +kernel) (by decide +kernel)
+   have h5 : t 5 (10 !) = 348 := by
+     norm_num [Nat.factorial]; exact t_eq_of (by norm_num) (by decide) (by decide)
+   have h6 : t 6 (10 !) = 160 := by
+--- a/FormalConjectures/ErdosProblems/686.lean
++++ b/FormalConjectures/ErdosProblems/686.lean
+@@ -144,14 +144,14 @@
+         if a : ∃ a ∈ Finset.range 30, ∃ n ∈ Finset.range 30, _ then
+           a.imp fun a s => s.2.imp fun and => And.right
+         else
+-          by exact (a (by native_decide)).elim
++          by exact (a (by decide +kernel)).elim
+ 
+     obtain rfl | hN_ne_3 := eq_or_ne N 3
+     · exact mod_cast
+         if a : ∃ a ∈ Finset.range 30, ∃ n ∈ Finset.range 30, _ then
+           a.imp fun and μ => μ.2.imp fun and => And.right
+         else
+-          by exact (a (by native_decide)).elim
++          by exact (a (by decide +kernel)).elim
+ 
+     exact h.mono fun and =>
+       .imp fun a s =>
+--- a/FormalConjectures/ErdosProblems/829.lean
++++ b/FormalConjectures/ErdosProblems/829.lean
+@@ -82,7 +82,7 @@
+ @[category test, AMS 11]
+ theorem sumRep_cubes_taxicab : sumRep cubes 1729 = 4 := by
+   simp only [sumRep_def, mem_cubes_iff]
+-  decide +native
++  decide +kernel
+ 
+ namespace variants
+ 
+--- a/FormalConjectures/OEIS/105210.lean
++++ b/FormalConjectures/OEIS/105210.lean
+@@ -50,19 +50,19 @@
+ 
+ /-- Term theorems verifying the first few values of the sequence against the official OEIS b-file -/
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 393 := by native_decide
++theorem a_1 : a 1 = 393 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 528 := by native_decide
++theorem a_2 : a 2 = 528 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 545 := by native_decide
++theorem a_3 : a 3 = 545 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 660 := by native_decide
++theorem a_4 : a 4 = 660 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_5 : a 5 = 682 := by native_decide
++theorem a_5 : a 5 = 682 := by decide +kernel
+ 
+ /-- The transition function for these sequences: $f(n) = n + 1 + S(n)$. -/
+ def nextTermFn (n : ℕ) : ℕ :=
+--- a/FormalConjectures/OEIS/109074.lean
++++ b/FormalConjectures/OEIS/109074.lean
+@@ -57,19 +57,19 @@
+   (frac n).num.natAbs
+ 
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 1 := by native_decide
++theorem a_0 : a 0 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by native_decide
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 3 := by native_decide
++theorem a_2 : a 2 = 3 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 26 := by native_decide
++theorem a_3 : a 3 = 26 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 323 := by native_decide
++theorem a_4 : a 4 = 323 := by decide +kernel
+ 
+ /--
+ Lists of length `k` with entries in `{-1, 0, 1}`.
+@@ -138,7 +138,7 @@
+ theorem b_3 : b 3 = 26 := by decide
+ 
+ @[category test, AMS 5 11]
+-theorem b_4 : b 4 = 646 := by native_decide
++theorem b_4 : b 4 = 646 := by decide +kernel
+ 
+ /--
+ "It is conjectured that $\binom{6n-2}{2n} / \left(2 \binom{4n-1}{2n}\right) =
+--- a/FormalConjectures/OEIS/109671.lean
++++ b/FormalConjectures/OEIS/109671.lean
+@@ -53,19 +53,19 @@
+ termination_by n
+ 
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by native_decide
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 1 := by native_decide
++theorem a_2 : a 2 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 2 := by native_decide
++theorem a_3 : a 3 = 2 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 1 := by native_decide
++theorem a_4 : a 4 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_5 : a 5 = 1 := by native_decide
++theorem a_5 : a 5 = 1 := by decide +kernel
+ 
+ /--
+ Does the sequence contain every positive integer (cf. A169741)?
+--- a/FormalConjectures/OEIS/111291.lean
++++ b/FormalConjectures/OEIS/111291.lean
+@@ -60,7 +60,7 @@
+ theorem a_2 : a 2 = 16 := by rfl
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 92 := by native_decide
++theorem a_3 : a 3 = 92 := by decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 665 := by native_decide
+@@ -104,6 +104,6 @@
+ /-- Colton's conjecture holds for $n \le 500$. -/
+ @[category test, AMS 11]
+ theorem colton_conjecture_le_500 : ∀ n ≤ 500, Nat.primeCounting n ≤ 2 * countRefactorableNat n := by
+-  native_decide
++  decide +kernel
+ 
+ end OeisA111291
+--- a/FormalConjectures/OEIS/113609.lean
++++ b/FormalConjectures/OEIS/113609.lean
+@@ -48,19 +48,19 @@
+     IsOeisPrimePower q ∧ IsOeisPrimePower (q + 2) ∧ q ≥ 1
+ 
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by native_decide
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 2 := by native_decide
++theorem a_2 : a 2 = 2 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 3 := by native_decide
++theorem a_3 : a 3 = 3 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 3 := by native_decide
++theorem a_4 : a 4 = 3 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_5 : a 5 = 4 := by native_decide
++theorem a_5 : a 5 = 4 := by decide +kernel
+ 
+ /--
+ (25,27) is the smallest pair of prime powers (q,q+2) such that both q and q+2 are not primes,
+--- a/FormalConjectures/OEIS/114216.lean
++++ b/FormalConjectures/OEIS/114216.lean
+@@ -52,31 +52,31 @@
+ theorem a_1 : a 1 = 1 := by
+   change (0 + Nat.nth Nat.Prime 0) / 2 ^ padicValNat 2 (0 + Nat.nth Nat.Prime 0) = 1
+   rw [Nat.nth_prime_zero_eq_two]
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_2 : a 2 = 1 := by
+   change (a 1 + Nat.nth Nat.Prime 1) / 2 ^ padicValNat 2 (a 1 + Nat.nth Nat.Prime 1) = 1
+   rw [a_1, Nat.nth_prime_one_eq_three]
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_3 : a 3 = 3 := by
+   change (a 2 + Nat.nth Nat.Prime 2) / 2 ^ padicValNat 2 (a 2 + Nat.nth Nat.Prime 2) = 3
+   rw [a_2, Nat.nth_prime_two_eq_five]
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 5 := by
+   change (a 3 + Nat.nth Nat.Prime 3) / 2 ^ padicValNat 2 (a 3 + Nat.nth Nat.Prime 3) = 5
+   rw [a_3, Nat.nth_prime_three_eq_seven]
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_5 : a 5 = 1 := by
+   change (a 4 + Nat.nth Nat.Prime 4) / 2 ^ padicValNat 2 (a 4 + Nat.nth Nat.Prime 4) = 1
+   rw [a_4, Nat.nth_prime_four_eq_eleven]
+-  native_decide
++  decide +kernel
+ 
+ /--
+ Is $a(33900)$ the last term equal to $1$?
+--- a/FormalConjectures/OEIS/129365.lean
++++ b/FormalConjectures/OEIS/129365.lean
+@@ -42,23 +42,23 @@
+ 
+ /-- Value of the sequence `a` at 0. -/
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 1 := by decide +native
++theorem a_0 : a 0 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 1. -/
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by decide +native
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 1 := by decide +native
++theorem a_2 : a 2 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 1 := by decide +native
++theorem a_3 : a 3 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 1 := by decide +native
++theorem a_4 : a 4 = 1 := by decide +kernel
+ 
+ /--
+ Conjecture (1): $a(n)$ is always an integer (the denominator divides the numerator).
+--- a/FormalConjectures/OEIS/160324.lean
++++ b/FormalConjectures/OEIS/160324.lean
+@@ -49,19 +49,19 @@
+ 
+ /-- Value of the sequence `a` at 0. -/
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 1 := by decide +native
++theorem a_0 : a 0 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 1. -/
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 3 := by decide +native
++theorem a_1 : a 1 = 3 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 3 := by decide +native
++theorem a_2 : a 2 = 3 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 1 := by decide +native
++theorem a_3 : a 3 = 1 := by decide +kernel
+ 
+ /--
+ In April 2009, _Zhi-Wei Sun_ conjectured that $a(n) > 0$ for every $n = 0, 1, 2, 3, \dots$.
+--- a/FormalConjectures/OEIS/175386.lean
++++ b/FormalConjectures/OEIS/175386.lean
+@@ -49,19 +49,19 @@
+ 
+ 
+ @[category test, AMS 11]
+-lemma a_1 : a 1 = 1 := by native_decide
++lemma a_1 : a 1 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_2 : a 2 = 2 := by native_decide
++lemma a_2 : a 2 = 2 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_3 : a 3 = 6 := by native_decide
++lemma a_3 : a 3 = 6 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_4 : a 4 = 4 := by native_decide
++lemma a_4 : a 4 = 4 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_5 : a 5 = 5 := by native_decide
++lemma a_5 : a 5 = 5 := by decide +kernel
+ 
+ 
+ /--
+--- a/FormalConjectures/OEIS/176477.lean
++++ b/FormalConjectures/OEIS/176477.lean
+@@ -53,7 +53,7 @@
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 181 := by decide +native
++theorem a_2 : a 2 = 181 := by decide +kernel
+ 
+ /--
+ Each term $a(n)$ is a positive integer.
+--- a/FormalConjectures/OEIS/185895.lean
++++ b/FormalConjectures/OEIS/185895.lean
+@@ -74,7 +74,7 @@
+   rw [hI, Finset.prod_insert (by decide), Finset.prod_singleton]
+   simp only [mul_sub, sub_mul, one_mul, mul_one, C_mul_X_pow_mul,
+     coeff_sub, coeff_one, coeff_C_mul_X_pow]
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+@@ -84,7 +84,7 @@
+   rw [hI, Finset.prod_insert (by decide), Finset.prod_insert (by decide), Finset.prod_singleton]
+   simp only [mul_sub, sub_mul, one_mul, mul_one, C_mul_X_pow_mul,
+     coeff_sub, coeff_one, coeff_C_mul_X_pow]
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+@@ -95,7 +95,7 @@
+       Finset.prod_insert (by decide), Finset.prod_singleton]
+   simp only [mul_sub, sub_mul, one_mul, mul_one, C_mul_X_pow_mul,
+     coeff_sub, coeff_one, coeff_C_mul_X_pow]
+-  decide +native
++  decide +kernel
+ 
+ /-- The $n$-th coefficient of the square of the ordinary generating function $A(x)^2$. -/
+ noncomputable def c (n : ℕ) : ℤ :=
+--- a/FormalConjectures/OEIS/227582.lean
++++ b/FormalConjectures/OEIS/227582.lean
+@@ -65,19 +65,19 @@
+ 
+ 
+ @[category test, AMS 11]
+-lemma a_1 : a 1 = 2 := by dsimp [a]; native_decide
++lemma a_1 : a 1 = 2 := by dsimp [a]; decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_2 : a 2 = 7 := by dsimp [a]; native_decide
++lemma a_2 : a 2 = 7 := by dsimp [a]; decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_3 : a 3 = 14 := by dsimp [a]; native_decide
++lemma a_3 : a 3 = 14 := by dsimp [a]; decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_4 : a 4 = 23 := by dsimp [a]; native_decide
++lemma a_4 : a 4 = 23 := by dsimp [a]; decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_5 : a 5 = 35 := by dsimp [a]; native_decide
++lemma a_5 : a 5 = 35 := by dsimp [a]; decide +kernel
+ 
+ /--
+ The linear recurrence:
+--- a/FormalConjectures/OEIS/248802.lean
++++ b/FormalConjectures/OEIS/248802.lean
+@@ -50,19 +50,19 @@
+ 
+ 
+ @[category test, AMS 11]
+-lemma a_0 : a 0 = 11 := by native_decide
++lemma a_0 : a 0 = 11 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_1 : a 1 = 19 := by native_decide
++lemma a_1 : a 1 = 19 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_2 : a 2 = 67 := by native_decide
++lemma a_2 : a 2 = 67 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_3 : a 3 = 13 := by native_decide
++lemma a_3 : a 3 = 13 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_4 : a 4 = 262147 := by native_decide
++lemma a_4 : a 4 = 262147 := by decide +kernel
+ 
+ 
+ /--
+--- a/FormalConjectures/OEIS/28859.lean
++++ b/FormalConjectures/OEIS/28859.lean
+@@ -46,19 +46,19 @@
+ 
+ 
+ @[category test, AMS 11]
+-lemma a_0 : a 0 = 1 := by native_decide
++lemma a_0 : a 0 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_1 : a 1 = 3 := by native_decide
++lemma a_1 : a 1 = 3 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_2 : a 2 = 8 := by native_decide
++lemma a_2 : a 2 = 8 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_3 : a 3 = 22 := by native_decide
++lemma a_3 : a 3 = 22 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-lemma a_4 : a 4 = 60 := by native_decide
++lemma a_4 : a 4 = 60 := by decide +kernel
+ 
+ 
+ /--
+--- a/FormalConjectures/OEIS/3625.lean
++++ b/FormalConjectures/OEIS/3625.lean
+@@ -40,31 +40,31 @@
+ @[category test, AMS 11]
+ theorem a_3 : A 3 := by
+   unfold A
+-  decide +native
++  decide +kernel
+ 
+ /-- $5$ is in the sequence A003625. -/
+ @[category test, AMS 11]
+ theorem a_5 : A 5 := by
+   unfold A
+-  decide +native
++  decide +kernel
+ 
+ /-- $13$ is in the sequence A003625. -/
+ @[category test, AMS 11]
+ theorem a_13 : A 13 := by
+   unfold A
+-  decide +native
++  decide +kernel
+ 
+ /-- $17$ is in the sequence A003625. -/
+ @[category test, AMS 11]
+ theorem a_17 : A 17 := by
+   unfold A
+-  decide +native
++  decide +kernel
+ 
+ /-- $19$ is in the sequence A003625. -/
+ @[category test, AMS 11]
+ theorem a_19 : A 19 := by
+   unfold A
+-  decide +native
++  decide +kernel
+ 
+ /--
+ Conjecture: Represents primes $p$ where the polynomial $x^2 + x + 2$ is irreducible over $\text{GF}(p)$.
+--- a/FormalConjectures/OEIS/51903.lean
++++ b/FormalConjectures/OEIS/51903.lean
+@@ -33,23 +33,23 @@
+ 
+ @[category test, AMS 11]
+ theorem a_1 : a 1 = 0 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_2 : a 2 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_3 : a 3 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 2 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_5 : a 5 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ /--
+ Are there composite numbers $n > 4$ such that $n \equiv a(n) \pmod{\phi(n)}$?
+--- a/FormalConjectures/OEIS/64169.lean
++++ b/FormalConjectures/OEIS/64169.lean
+@@ -40,23 +40,23 @@
+ 
+ @[category test, AMS 11]
+ theorem a_1 : a 1 = 0 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_2 : a 2 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_3 : a 3 = 5 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 13 := by
+-  decide +native
++  decide +kernel
+ 
+ @[category test, AMS 11]
+ theorem a_5 : a 5 = 77 := by
+-  decide +native
++  decide +kernel
+ 
+ /--
+ "Conjecture: for $n > 2$, $n$ divides $a(n-2)$ if and only if $n$ is a prime.
+--- a/FormalConjectures/OEIS/69922.lean
++++ b/FormalConjectures/OEIS/69922.lean
+@@ -54,7 +54,7 @@
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 4 := by
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 5. -/
+ @[category test, AMS 11]
+--- a/FormalConjectures/OEIS/7406.lean
++++ b/FormalConjectures/OEIS/7406.lean
+@@ -36,19 +36,19 @@
+   (∑ k ∈ Finset.Icc 1 n, (1 : ℚ) / (k : ℚ) ^ 2).num.natAbs
+ 
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 0 := by decide +native
++theorem a_0 : a 0 = 0 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by decide +native
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 5 := by decide +native
++theorem a_2 : a 2 = 5 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 49 := by decide +native
++theorem a_3 : a 3 = 49 := by decide +kernel
+ 
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 205 := by decide +native
++theorem a_4 : a 4 = 205 := by decide +kernel
+ 
+ /--
+ Conjecture: for $n > 3$, $\gcd(n, a(n-1)) = \text{A089026}(n)$.
+--- a/FormalConjectures/OEIS/78680.lean
++++ b/FormalConjectures/OEIS/78680.lean
+@@ -45,8 +45,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+@@ -55,8 +55,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+@@ -65,8 +65,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+@@ -75,8 +75,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨2, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨2, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 5. -/
+ @[category test, AMS 11]
+@@ -85,8 +85,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /--
+ There is a conjecture that the first zero is $n = 65536 = 2^{16}$ (which is equivalent to
+--- a/FormalConjectures/OEIS/78729.lean
++++ b/FormalConjectures/OEIS/78729.lean
+@@ -50,8 +50,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+@@ -60,8 +60,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨1, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨1, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+@@ -70,8 +70,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨2, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨2, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 5. -/
+ @[category test, AMS 11]
+@@ -80,8 +80,8 @@
+   dsimp [a]
+   split_ifs with h
+   · rw [Nat.find_eq_iff]
+-    decide +native
+-  · exact (h ⟨2, by decide +native⟩).elim
++    decide +kernel
++  · exact (h ⟨2, by decide +kernel⟩).elim
+ 
+ /-- Value of the sequence `a` at 6. -/
+ @[category test, AMS 11]
+--- a/FormalConjectures/OEIS/80101.lean
++++ b/FormalConjectures/OEIS/80101.lean
+@@ -45,28 +45,28 @@
+ theorem a_1 : a 1 = 0 := by
+   change ((Ioo (Nat.nth Nat.Prime 0) (Nat.nth Nat.Prime 1)).filter IsPrimePow).card = 0
+   rw [Nat.nth_prime_zero_eq_two, Nat.nth_prime_one_eq_three]
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+ theorem a_2 : a 2 = 1 := by
+   change ((Ioo (Nat.nth Nat.Prime 1) (Nat.nth Nat.Prime 2)).filter IsPrimePow).card = 1
+   rw [Nat.nth_prime_one_eq_three, Nat.nth_prime_two_eq_five]
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+ theorem a_3 : a 3 = 0 := by
+   change ((Ioo (Nat.nth Nat.Prime 2) (Nat.nth Nat.Prime 3)).filter IsPrimePow).card = 0
+   rw [Nat.nth_prime_two_eq_five, Nat.nth_prime_three_eq_seven]
+-  decide +native
++  decide +kernel
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+ theorem a_4 : a 4 = 2 := by
+   change ((Ioo (Nat.nth Nat.Prime 3) (Nat.nth Nat.Prime 4)).filter IsPrimePow).card = 2
+   rw [Nat.nth_prime_three_eq_seven, Nat.nth_prime_four_eq_eleven]
+-  decide +native
++  decide +kernel
+ 
+ /--
+ It is conjectured that $a(n) \le 2$ for all $n$.-/
+--- a/FormalConjectures/OEIS/87719.lean
++++ b/FormalConjectures/OEIS/87719.lean
+@@ -57,25 +57,25 @@
+ @[category test, AMS 11]
+ theorem a_1 : a 1 = 15 := by
+   rw [a, Nat.find_eq_iff]
+-  refine ⟨by decide +native, ?_⟩
++  refine ⟨by decide +kernel, ?_⟩
+   intro m hm
+-  interval_cases m <;> decide +native
++  interval_cases m <;> decide +kernel
+ 
+ /-- a(2) = 27. -/
+ @[category test, AMS 11]
+ theorem a_2 : a 2 = 27 := by
+   rw [a, Nat.find_eq_iff]
+-  refine ⟨by decide +native, ?_⟩
++  refine ⟨by decide +kernel, ?_⟩
+   intro m hm
+-  interval_cases m <;> decide +native
++  interval_cases m <;> decide +kernel
+ 
+ /-- a(3) = 57. -/
+ @[category test, AMS 11]
+ theorem a_3 : a 3 = 57 := by
+   rw [a, Nat.find_eq_iff]
+-  refine ⟨by decide +native, ?_⟩
++  refine ⟨by decide +kernel, ?_⟩
+   intro m hm
+-  interval_cases m <;> decide +native
++  interval_cases m <;> decide +kernel
+ 
+ /-- We have the following formula: $a(n) = 3^n + 3 * 2^n + 6$ for $n \geq 1$. -/
+ @[category textbook, AMS 11,
+--- a/FormalConjectures/OEIS/91591.lean
++++ b/FormalConjectures/OEIS/91591.lean
+@@ -39,23 +39,23 @@
+ 
+ /-- Value of the sequence `a` at 0. -/
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 0 := by decide +native
++theorem a_0 : a 0 = 0 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 1. -/
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 0 := by decide +native
++theorem a_1 : a 1 = 0 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 1 := by decide +native
++theorem a_2 : a 2 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 1 := by decide +native
++theorem a_3 : a 3 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 1 := by decide +native
++theorem a_4 : a 4 = 1 := by decide +kernel
+ 
+ /--
+ It is conjectured that $a(n)>0$ for all $n>122$.
+--- a/FormalConjectures/OEIS/93456.lean
++++ b/FormalConjectures/OEIS/93456.lean
+@@ -38,23 +38,23 @@
+ 
+ /-- Value of the sequence `a` at 0. -/
+ @[category test, AMS 11]
+-theorem a_0 : a 0 = 1 := by decide +native
++theorem a_0 : a 0 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 1. -/
+ @[category test, AMS 11]
+-theorem a_1 : a 1 = 1 := by decide +native
++theorem a_1 : a 1 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 2. -/
+ @[category test, AMS 11]
+-theorem a_2 : a 2 = 1 := by decide +native
++theorem a_2 : a 2 = 1 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 3. -/
+ @[category test, AMS 11]
+-theorem a_3 : a 3 = 24 := by decide +native
++theorem a_3 : a 3 = 24 := by decide +kernel
+ 
+ /-- Value of the sequence `a` at 4. -/
+ @[category test, AMS 11]
+-theorem a_4 : a 4 = 720 := by decide +native
++theorem a_4 : a 4 = 720 := by decide +kernel
+ 
+ /--
+ Conjecture: There are finitely many numbers such that $a(n)$ is not $\equiv 0 \pmod{a(n-1)}$.
+--- a/FormalConjectures/Paper/MonochromaticQuantumGraph.lean
++++ b/FormalConjectures/Paper/MonochromaticQuantumGraph.lean
+@@ -233,7 +233,7 @@
+ @[category test, AMS 5 14 81]
+ private theorem eqSystem4_d2_nat :
+     EqSystemN 4 2 (Witness4_d2 (α := ℕ)) := by
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 5 14 81]
+ theorem eqSystem4_has_solution_d2 :
+@@ -272,7 +272,7 @@
+ @[category test, AMS 5 14 81]
+ private theorem eqSystem4_d3_nat :
+     EqSystemN 4 3 (Witness4_d3 (α := ℕ)) := by
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 5 14 81]
+ theorem eqSystem4_has_solution_d3 :
+@@ -311,7 +311,7 @@
+ @[category test, AMS 5 14 81]
+ private theorem eqSystem6_d2_nat :
+     EqSystemN 6 2 (Witness6_d2 (α := ℕ)) := by
+-  native_decide
++  decide +kernel
+ 
+ @[category test, AMS 5 14 81]
+ theorem eqSystem6_has_solution_d2 :
+--- a/FormalConjectures/Wikipedia/DedekindNumber.lean
++++ b/FormalConjectures/Wikipedia/DedekindNumber.lean
+@@ -81,28 +81,28 @@
+ 
+ /-- Values for small n -/
+ @[category test, AMS 5]
+-theorem M_zero : M 0 = 2 := by native_decide
++theorem M_zero : M 0 = 2 := by decide +kernel
+ 
+ @[category test, AMS 5]
+-theorem M_one : M 1 = 3 := by native_decide
++theorem M_one : M 1 = 3 := by decide +kernel
+ 
+ @[category test, AMS 5]
+-theorem M_two : M 2 = 6 := by native_decide
++theorem M_two : M 2 = 6 := by decide +kernel
+ 
+ @[category test, AMS 5]
+-theorem M_three : M 3 = 20 := by native_decide
++theorem M_three : M 3 = 20 := by decide +kernel
+ 
+ @[category test, AMS 6]
+-theorem M'_zero : M' 0 = 2 := by native_decide
++theorem M'_zero : M' 0 = 2 := by decide +kernel
+ 
+ @[category test, AMS 6]
+-theorem M'_one : M' 1 = 3 := by native_decide
++theorem M'_one : M' 1 = 3 := by decide +kernel
+ 
+ @[category test, AMS 6]
+-theorem M'_two : M' 2 = 6 := by native_decide
++theorem M'_two : M' 2 = 6 := by decide +kernel
+ 
+ @[category test, AMS 6]
+-theorem M'_three : M' 3 = 20 := by native_decide
++theorem M'_three : M' 3 = 20 := by decide +kernel
+ 
+ /-  ## Equivalence of M and M'
+ -/
+@@ -244,7 +244,7 @@
+ @[category test, AMS 5 6] theorem kisielewiczFormula_one : kisielewiczFormula 1 = 3 := by decide
+ @[category test, AMS 5 6] theorem kisielewiczFormula_two : kisielewiczFormula 2 = 6 := by decide
+ @[category test, AMS 5 6] theorem kisielewiczFormula_three : kisielewiczFormula 3 = 20 := by
+-  native_decide
++  decide +kernel
+ -- `native_decide` crashes for n = 4
+ 
+ /-- Kisielewicz (1988) proved the following arithmetic formula for the Dedekind numbers:
+--- a/FormalConjectures/Wikipedia/SteinerSystem.lean
++++ b/FormalConjectures/Wikipedia/SteinerSystem.lean
+@@ -97,7 +97,7 @@
+ def fano_plane : S(2, 3, 7) :=
+   ⟨{{(0 : Fin 7), 1, 3}, {1, 2, 4}, {2, 3, 5},
+     {3, 4, 6}, {0, 4, 5}, {1, 5, 6}, {0, 2, 6}},
+-   by native_decide, by native_decide⟩
++   by decide +kernel, by decide +kernel⟩
+ 
+ /--
+ **Existence of $S(5, 6, 12)$**: The small Witt design.
+--- a/FormalConjectures/WrittenOnTheWallII/GraphConjecture103.lean
++++ b/FormalConjectures/WrittenOnTheWallII/GraphConjecture103.lean
+@@ -49,7 +49,7 @@
+ @[category test, AMS 5]
+ theorem wowii103Counterexample_indepNum : wowii103Counterexample.indepNum = 9 := by
+   rw [indep_num_eq_computable]
+-  decide +native
++  decide +kernel
+ 
+ /-- The largest induced bipartite subgraph of the counterexample has ten vertices. -/
+ @[category test, AMS 5]
+--- a/FormalConjectures/WrittenOnTheWallII/GraphConjecture36.lean
++++ b/FormalConjectures/WrittenOnTheWallII/GraphConjecture36.lean
+@@ -55,13 +55,13 @@
+ /-- The counterexample is connected. -/
+ @[category test, AMS 5]
+ theorem wowii36Counterexample_connected : wowii36Counterexample.Connected := by
+-  decide +native
++  decide +kernel
+ 
+ /-- The counterexample has radius three. -/
+ @[category test, AMS 5]
+ theorem wowii36Counterexample_radius : wowii36Counterexample.radius.toNat = 3 := by
+   rw [radius_eq_computable wowii36Counterexample wowii36Counterexample_connected]
+-  decide +native
++  decide +kernel
+ 
+ /-- The counterexample contains no induced path on six vertices. -/
+ @[category test, AMS 5]
+@@ -81,7 +81,7 @@
+       constructor
+       · decide
+       · intro i j
+-        fin_cases i <;> fin_cases j <;> native_decide
++        fin_cases i <;> fin_cases j <;> decide +kernel
+     simpa using length_le_path_of_isInducedPath
+       wowii36Counterexample [2, 8, 0, 7, 3] hpath
+ 
+@@ -91,7 +91,7 @@
+   have hdiam : wowii36Counterexample.diam = 4 := by
+     unfold SimpleGraph.diam
+     rw [ediam_eq_computable wowii36Counterexample wowii36Counterexample_connected]
+-    decide +native
++    decide +kernel
+   unfold dp
+   rw [Finset.card_eq_one]
+   refine ⟨s(2, 3), ?_⟩
+@@ -101,7 +101,7 @@
+   | _ u v =>
+       simp only [Sym2.lift_mk]
+       rw [hdiam, SimpleGraph.dist_eq_computable]
+-      fin_cases u <;> fin_cases v <;> native_decide
++      fin_cases u <;> fin_cases v <;> decide +kernel
+ 
+ /--
+ WOWII [Conjecture 36](http://cms.uhd.edu/faculty/delavinae/research/wowII/all.html#conj36):
+--- a/FormalConjectures/WrittenOnTheWallII/Test.lean
++++ b/FormalConjectures/WrittenOnTheWallII/Test.lean
+@@ -299,7 +299,7 @@
+ 
+ @[category test, AMS 5]
+ theorem petersen_dom : dominationNumber PetersenGraph = 3 := by
+-  rw [dom_num_eq_computable]; decide +native
++  rw [dom_num_eq_computable]; decide +kernel
+ 
+ @[category test, AMS 5]
+ theorem petersen_avg_dist : averageDistance PetersenGraph = 5/3 := by
+@@ -310,7 +310,7 @@
+ @[category test, AMS 5]
+ theorem petersen_diameter : ediam PetersenGraph = 2 := by
+   rw [ediam_eq_computable PetersenGraph (by decide)]
+-  exact_mod_cast (by decide +native : computable_ediam PetersenGraph = 2)
++  exact_mod_cast (by decide +kernel : computable_ediam PetersenGraph = 2)
+ 
+ @[category test, AMS 5]
+ theorem petersen_radius : radius PetersenGraph = 2 := by
+--- a/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean
++++ b/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean
+@@ -130,11 +130,11 @@
+   decidable_of_iff (n > 1 ∧ n.primeFactors.gcd n.factorization > 1)
+     (isPerfectPower_iff_factorization_gcd n).symm
+ 
+-example : IsPerfectPower 4 := by decide +native
+-example : IsPerfectPower 27 := by decide +native
++example : IsPerfectPower 4 := by decide +kernel
++example : IsPerfectPower 27 := by decide +kernel
+ example : ¬IsPerfectPower 0 := by decide
+ example : ¬IsPerfectPower 1 := by decide
+-example : ¬IsPerfectPower 2 := by decide +native
++example : ¬IsPerfectPower 2 := by decide +kernel
+ 
+ 
+ end Nat
+--- a/FormalConjecturesForMathlib/Data/Nat/Squarefree.lean
++++ b/FormalConjecturesForMathlib/Data/Nat/Squarefree.lean
+@@ -33,22 +33,22 @@
+ def squarefreePart (n : ℕ) : ℕ := n.factorization.prod fun (p e : ℕ) ↦ p ^ (e % 2)
+ 
+ example : squarefreePart 2 = 2 := by
+-  decide +native
++  decide +kernel
+ 
+ example : squarefreePart 5 = 5 := by
+-  decide +native
++  decide +kernel
+ 
+ example : squarefreePart 4 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ example : squarefreePart 8 = 2 := by
+-  decide +native
++  decide +kernel
+ 
+ example : squarefreePart 16 = 1 := by
+-  decide +native
++  decide +kernel
+ 
+ example : squarefreePart 24 = 6 := by
+-  decide +native
++  decide +kernel
+ 
+ theorem squarefreePart_ne_zero (n : ℕ) : n.squarefreePart ≠ 0 := by
+   simp [squarefreePart]

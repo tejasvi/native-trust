@@ -1,0 +1,214 @@
+⚠ [23/43] Replayed RCert.G.Ev
+warning: RCert/G/Ev.lean:158:5: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [25/43] Replayed NativeTrust.Basic
+warning: NativeTrust/Basic.lean:28:0: Definition `accGen` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [28/43] Replayed NativeTrust.Copy
+warning: NativeTrust/Copy.lean:451:42: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:452:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:557:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1031:41: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1032:66: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1036:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1072:62: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1085:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Copy.lean:1089:57: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [29/43] Replayed NativeTrust.StrLib
+warning: NativeTrust/StrLib.lean:100:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:104:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:184:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:231:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: NativeTrust/StrLib.lean:246:52: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: NativeTrust/StrLib.lean:247:85: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [30/43] Replayed NativeTrust.CastFree
+warning: NativeTrust/CastFree.lean:235:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:352:64: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+warning: NativeTrust/CastFree.lean:355:40: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+⚠ [31/43] Replayed NativeTrust.Param
+warning: NativeTrust/Param.lean:181:58: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:195:30: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:199:53: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:287:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:288:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:294:79: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:295:38: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:483:45: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Param.lean:496:49: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+⚠ [33/43] Replayed NativeTrust.Kernel
+warning: NativeTrust/Kernel.lean:342:70: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:879:46: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2603:44: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2619:50: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2624:61: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵Z̵e̵r̵o̵L̲e̲v̲e̲l̲.̲z̲e̲r̲o̲
+warning: NativeTrust/Kernel.lean:2631:49: `Lean.levelOne` has been deprecated: Use `Lean.Level.one` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelOne` to `Level.one x`).
+
+Hint: Replace the deprecated name:
+  l̵e̵v̵e̵l̵O̵n̵e̵L̲e̲v̲e̲l̲.̲o̲n̲e̲
+✔ [37/43] Built RCert.G.Ev:c.o (363ms)
+✔ [40/43] Built RCert (163ms)
+✔ [41/43] Built RCert:c.o (36ms)
+✔ [42/43] Built RCert:shared (28ms)
+✖ [43/43] Building Romanoff.G.S2.Native_NTK (437s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/pkgs_rc3/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/ntlib15/v4.35.0-rc3/.lake/build/lib/lean:/home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean /home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/Romanoff/G/S2/Native_NTK.lean -o /home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/.lake/build/lib/lean/Romanoff/G/S2/Native_NTK.olean -i /home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/.lake/build/lib/lean/Romanoff/G/S2/Native_NTK.ilean -c /home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/.lake/build/ir/Romanoff/G/S2/Native_NTK.c --setup /home/ntbuild/work_migsample/inhouse/romanoff/src_u3g/.lake/build/ir/Romanoff/G/S2/Native_NTK.setup.json --json
+error: Lean exited with code 137
+Some required targets logged failures:
+- Romanoff.G.S2.Native_NTK
+error: build failed
+Command exited with non-zero status 1
+TIME wall=438.88 user=432.32 sys=6.65 maxrss_kb=105982128

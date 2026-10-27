@@ -1,0 +1,12 @@
+project	Steiner ratio 43a v2
+source	supp 10.5281/zenodo.23582438 (steiner-ratio-bound-v2 @8da832261152)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	496 (482 shard facts, 12 case facts, 2 table facts)
+converted	0 of 10 checked; 0 theorems
+nt_cpu_h	0.26 (the 3 kdecide runs of the re-run: 304 + 306 + 321 s)
+nt_wall_min	17
+native_build_cpu_h	not stated for Lean
+hand_track	none (a kernel pilot was not published)
+hand_build_cpu_h	-
+checks	kdecide (900 s, 100G), re-run of 2026-10-26 14:55-15:12Z in a fresh copy: the 6 facts that need no data file (S43/Sample.lean, added to the study copy only: sizes_st, sizes_reg and the four monotonicity checks, statements unchanged) out of memory after 304 s; the release's pilot case P80 (Case.lean 3 facts) out of memory after 306 s; Shard00000.lean (1 fact) blocked (Float.scaleB, Float.round in S43.evalVertex; String.toNat? in parseNats). The first run (05:37-05:55Z) gave the same verdicts. The 482 shard facts need the data of the Zenodo record; the earlier attempt on S43Data.C1.Shard00000 (its data file is missing) is not included.

@@ -1,0 +1,22 @@
+axioms rc=0 13:49:13
+'bvsg_Model_CompositeHeader_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_Model_CompositeHeader_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_Proofs_Serialization_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvsg_1 Model.CompositeHeader.readBe16_be16 true
+TYPE_IDENTICAL bvsg_2 Model.CompositeHeader.readBe64_be64 true
+TYPE_IDENTICAL bvsg_3 Proofs.Serialization.readBe32_be32 true
+TYPE_IDENTICAL bvsg_4 Proofs.Serialization.readBe32_be32_nil true
+TYPE_IDENTICAL bvsg_5 Proofs.Serialization.decode_encode_composite true
+TYPE_IDENTICAL bvsg_6 Proofs.Serialization.decodeBundle_encodeBundle true
+TYPE_IDENTICAL bvsg_7 Proofs.Serialization.decode_encode true
+ax: wall=0.59 s maxrss=1540956 KB
+exporter: /home/ntbuild/tools/lean4export-v4.31.0/.lake/build/bin/lean4export
+export rc=0 bytes=42424435 export: wall=1.91 s maxrss=1660976 KB 13:49:14
+nanoda PASS rc=0 decls=4519 13:50:00: Checked 4519 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=45.29 s maxrss=5583816 KB 

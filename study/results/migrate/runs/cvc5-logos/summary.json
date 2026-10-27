@@ -1,0 +1,218 @@
+{
+ "name": "cvc5-logos",
+ "pkg": "/home/ntbuild/repos/cvc5-logos",
+ "toolchain": "v4.34.0",
+ "uses": 606,
+ "replaced": 605,
+ "replaced_known": 605,
+ "replaced_unknown": 0,
+ "replaced_facts": 2184,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "plain FAILED/blocked (WellFounded.fix)": 1
+ },
+ "native_axioms_before": 2185,
+ "native_axioms_after": 1,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 3157,
+ "native_dependent_decls_after": 1483,
+ "rewritten_decls": 412,
+ "rewritten_decls_still_native": 49,
+ "still_native_why": {
+  "_private.Cpc.Proofs.RuleSupport.BvDivPow2Support.0.bv_urem_pow2_context": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.BvDivPow2Support.0.typed_bv_urem_pow2_term": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.BvExtractMultLeadingBitSupport.0.extractLead_operand_context": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.BvShiftByConst1Support.0.typed_bv_ashr_by_const_1_term": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.BvShiftByConst2Support.0.typed_bv_ashr_by_const_2_term": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.DtCollapseTesterSupport.0.dt_collapse_tester_sound": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.Evaluate.SoundBitVec.0.EvaluateProofInternal.run_evaluate_sound_apply_at_bvsize_core": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.RuleSupport.Evaluate.SoundBitVec.0.EvaluateProofInternal.run_evaluate_sound_apply_is_int_core": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Absorb.0.eo_absorb_eq_interprets_true_of_guards": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Aci_norm.0.smt_value_rel_get_a_norm_concat": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Arith_abs_real_gt.0.ArithAbsRealGt.eval_rel": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.tangent_false_int_properties": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.tangent_false_real_properties": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.tangent_true_int_properties": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Arith_mult_tangent.0.tangent_true_real_properties": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Bv_ite_const_children_1.0.eval_bvite_const_children_1": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Bv_ite_const_children_2.0.eval_bvite_const_children_2": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Bv_ite_width_one.0.eval_bv_ite_width_one": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Bv_ite_width_one_not.0.eval_bv_ite_width_one_not": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_diff_elim.0.facts___eo_prog_re_diff_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_diff_elim.0.typed___eo_prog_re_diff_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_comp.0.facts___eo_prog_re_in_comp_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_comp.0.typed___eo_prog_re_in_comp_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_cstring.0.ReInCStringProof.facts___eo_prog_re_in_cstring_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_cstring.0.ReInCStringProof.typed___eo_prog_re_in_cstring_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_empty.0.facts___eo_prog_re_in_empty_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_empty.0.typed___eo_prog_re_in_empty_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_sigma.0.facts___eo_prog_re_in_sigma_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_sigma.0.typed___eo_prog_re_in_sigma_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_sigma_star.0.facts___eo_prog_re_in_sigma_star_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_in_sigma_star.0.typed___eo_prog_re_in_sigma_star_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_inter_inclusion.0.ReInterInclusionProof.facts": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_opt_elim.0.facts___eo_prog_re_opt_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_opt_elim.0.typed___eo_prog_re_opt_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_plus_elim.0.facts___eo_prog_re_plus_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_plus_elim.0.typed___eo_prog_re_plus_elim_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_star_star.0.facts___eo_prog_re_star_star_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_star_star.0.typed___eo_prog_re_star_star_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Re_union_inclusion.0.ReUnionInclusionProof.facts": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_in_re_contains.0.StrInReContainsProof.facts___eo_prog_str_in_re_contains_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_in_re_contains.0.StrInReContainsProof.typed___eo_prog_str_in_re_contains_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_indexof_re_none.0.facts___eo_prog_str_indexof_re_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_indexof_re_none.0.typed___eo_prog_str_indexof_re_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_replace_re_all_none.0.facts___eo_prog_str_replace_re_all_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_replace_re_all_none.0.typed___eo_prog_str_replace_re_all_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_replace_re_none.0.facts___eo_prog_str_replace_re_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.Str_replace_re_none.0.typed___eo_prog_str_replace_re_none_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.String_ext.0.facts___eo_prog_string_ext_impl": "depends on another native-dependent declaration",
+  "_private.Cpc.Proofs.Rules.String_reduction.0.string_reduction_pred_true": "depends on another native-dependent declaration"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 1901.83,
+   "cpu": 4507.8,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 7.4,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 1854.5,
+  "cpu": 5723.4,
+  "n_built": 204,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 8.4,
+  "peak_rss_sum_gb": 14.9
+ },
+ "time1": {
+  "wall": 1717.28,
+  "cpu": 5270.9,
+  "n_built": 204,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 8.4,
+  "peak_rss_sum_gb": 14.9
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.13,
+  "cpu": 0.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 204,
+ "replaced_modules": 204,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  5650.4,
+  5169.6
+ ],
+ "module_times_slower": [
+  [
+   "Cpc.Proofs.Rules.Uf_int2bv_bv2nat",
+   37.0,
+   38.0
+  ],
+  [
+   "Cpc.Proofs.Rules.Bv_ule_self",
+   2.0,
+   2.9
+  ],
+  [
+   "Cpc.Proofs.Rules.Bv_sign_extend_eliminate_0",
+   3.0,
+   3.8
+  ],
+  [
+   "Cpc.Proofs.Rules.Re_inter_all",
+   7.0,
+   7.8
+  ],
+  [
+   "CpcMini.Proofs.CheckerState",
+   3.0,
+   3.8
+  ],
+  [
+   "Cpc.Proofs.Rules.Bool_xor_elim",
+   5.0,
+   5.3
+  ],
+  [
+   "Cpc.Proofs.Rules.Bv_lshr_by_const_0",
+   7.4,
+   7.6
+  ],
+  [
+   "Cpc.Proofs.Rules.Re_union_all",
+   8.0,
+   8.2
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Cpc.Proofs.RuleSupport.StrInReEvalSupport",
+   193.0,
+   144.0
+  ],
+  [
+   "Cpc.Proofs.Rules.String_ext",
+   349.0,
+   303.0
+  ],
+  [
+   "Cpc.Proofs.Rules.Aci_norm",
+   225.0,
+   193.0
+  ],
+  [
+   "Cpc.Proofs.Rules.Dt_updater_elim",
+   181.0,
+   154.0
+  ],
+  [
+   "Cpc.Proofs.RuleSupport.BvConcatPullupSupport",
+   405.0,
+   380.0
+  ],
+  [
+   "Cpc.Proofs.RuleSupport.ArithMultSupport",
+   377.0,
+   355.0
+  ],
+  [
+   "Cpc.Proofs.Rules.Str_to_upper_concat",
+   102.0,
+   81.0
+  ],
+  [
+   "Cpc.Proofs.Rules.Str_to_lower_concat",
+   99.0,
+   80.0
+  ]
+ ]
+}

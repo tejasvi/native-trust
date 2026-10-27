@@ -1,0 +1,9 @@
+name = "native_trust"
+defaultTargets = ["NativeTrust"]
+
+[[lean_lib]]
+name = "NativeTrust"
+
+[[lean_exe]]
+name = "ntrust"
+root = "NativeTrust.Driver.Main"

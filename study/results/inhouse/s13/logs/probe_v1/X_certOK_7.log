@@ -1,0 +1,21 @@
+$ lean X_certOK_7.lean start=2026-10-26T01:08:42Z timeout=900
+NT copying Sortnet.S11Small.chunk7
+NT copy Sortnet.S11Small.chunk7 defn_ms=4 eq_ms=10 congr=true
+NT copying Sortnet.S11Small.byte7
+NT copy Sortnet.S11Small.byte7 defn_ms=0 eq_ms=1 congr=true
+NT copying Sortnet.S11Small.count7
+NT copy Sortnet.S11Small.count7 defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S11Small.offsets7
+NT copy Sortnet.S11Small.offsets7 defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S11Small.cert7
+NT copy Sortnet.S11Small.cert7 defn_ms=0 eq_ms=0 congr=true
+NT _s13probe.X_certOK_7 blockers_ms=0 bounded=false copy_ms=29 copies=5 copy_kernel_ms=15 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_7 quick whole-term attempt did not finish; structured check
+NT _s13probe.X_certOK_7.p_0 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_7.p_0 eval_ms=106954
+NT _s13probe.X_certOK_7.p_1 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _s13probe.X_certOK_7.p_1 eval_ms=125135
+NT _s13probe.X_certOK_7.p_2 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+Command terminated by signal 9
+maxrss_kb 51663044 secs 378.36
+rc=137 end=2026-10-26T01:15:01Z

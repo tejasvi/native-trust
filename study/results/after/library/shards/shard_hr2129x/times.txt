@@ -1,0 +1,3 @@
+TIMES tag=hr2129x P=641 shards_wall_from_queue=6417.54 combine_wall=1.26941
+PROVED `RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2129._native.native_decide.ax_1_1` as `_ktshard.RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2129._kernel.native_decide.ax_1_1`: kern
+max_rss_kb 4224624 sum_secs 8440.4

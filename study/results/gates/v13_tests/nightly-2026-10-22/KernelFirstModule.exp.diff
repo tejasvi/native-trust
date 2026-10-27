@@ -1,0 +1,4 @@
+3c3
+< 'kfm_sort' depends on axioms: [propext, Classical.choice, Quot.sound, kfm_sort._native.native_decide.ax_1]
+---
+> 'kfm_sort' depends on axioms: [propext, Quot.sound, kfm_sort._native.native_decide.ax_1]

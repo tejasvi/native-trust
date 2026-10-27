@@ -1,0 +1,3 @@
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|78	bvs_1 bvs4fact_78.unsat	0	176059159	0	4531	PASS	7	428.98	5967272	Checked 4531 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|35	bvs_1 bvs4fact_35.unsat	0	97594500	0	4387	PASS	7	384.78	2589004	Checked 4387 declarations with no typechecker errors, 1 pretty printer errors: [
+s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|11	bvs_1 bvs4fact_11.unsat	0	62961787	0	4439	PASS	3	89.12	2805632	Checked 4439 declarations with no typechecker errors, 1 pretty printer errors: [

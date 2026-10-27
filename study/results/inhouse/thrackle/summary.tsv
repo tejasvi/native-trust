@@ -1,0 +1,12 @@
+project	thrackle 78a v3
+source	supp 10.5281/zenodo.23574203 (thrackle-bound-v3 @b81a1c2ab7f7)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	23 facts in 3,480 native modules (19 top-level, 3,461 slices of DB660/DB681/DB682/TH337)
+converted	0 of 3 checked; 0 theorems
+nt_cpu_h	0.18
+nt_wall_min	11
+native_build_cpu_h	about 2,300-2,400 process-hours for the 23 facts, re-running every search (README.md:288)
+hand_track	none
+hand_build_cpu_h	-
+checks	kdecide (900 s, 100G) on V4 and U15, the two facts with the smallest certificates (5.47 and 5.40 MB; data files copied, sha256 as in T78Data): out of memory after 325 s; TH233: blocked (partial functions BM.xLoop, sLoop, edgeLoop, fillLoop in its oracle)

@@ -1,0 +1,20 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_TUN_Chunk021_0.lean
+NT start TUCore.TUN.chunk_021._native.native_decide.ax_1_1
+NT nested TUCore.TUN.chunk_021._native.native_decide.ax_1_1 ms=59 rebuilt_defs=0 visited=625
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=49 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_0 eval_ms=1
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_1 blockers_ms=5 bounded=false copy_ms=14 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_1 eval_ms=18442
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_2 blockers_ms=1 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_2 eval_ms=0
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_3 blockers_ms=6 bounded=false copy_ms=11 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_3 eval_ms=16591
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_4 blockers_ms=5 bounded=false copy_ms=12 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_4 eval_ms=16817
+NT _ktr.F2_TUN_Chunk021_0.TUCore.TUN.chunk_021._kernel.native_decide.ax_1_1.p_5 blockers_ms=12 bounded=false copy_ms=48 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 46160692
+rc=134 secs=331

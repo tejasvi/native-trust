@@ -1,0 +1,8 @@
+v10c-formal-conjectures	FormalConjectures.Arxiv.2507.17780.4	-			NOT_BUILT						
+v10c-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_3	native_decide	True	PROVED		0	7148328	5		nt_lines=5 last=quick whole-term attempt proved it
+v10c-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_1	native_decide	True	PROVED		0	7178984	5		nt_lines=5 last=quick whole-term attempt proved it
+v10c-formal-conjectures	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_size._native.decide.ax_1_1	decide	False	PROVED		0	7115864	4		nt_lines=10 last=pieces=1
+v10c-formal-conjectures	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_size._native.decide.ax_1_1	decide	False	PROVED		0	7111184	5		nt_lines=10 last=pieces=1
+v10c-formal-conjectures	FormalConjectures.OEIS.41	_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_3._native.decide.ax_1_1	decide	False	PROVED		44	7196448	8		nt_lines=125 last=pieces=1
+v10c-formal-conjectures	FormalConjectures.OEIS.41	_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_4._native.decide.ax_1_1	decide	False	PROVED		44	7201520	10		nt_lines=125 last=pieces=1
+v10c-formal-conjectures	FormalConjectures.OEIS.41	_private.FormalConjectures.OEIS.«41».0.OeisA41.partitionNumber_5._native.decide.ax_1_1	decide	False	PROVED		38	7201848	12		nt_lines=125 last=pieces=1

@@ -1,0 +1,19 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 --tstack=1048576 F2_FormalConjectures_WrittenOnTheWallII_Test_6.lean
+NT start _private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._native.decide.ax_1_1
+NT nested _private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._native.decide.ax_1_1 ms=169 rebuilt_defs=0 visited=3811
+NT copy List.merge._unary defn_ms=1 eq_ms=3 congr=true
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copy List.mergeSort defn_ms=1 eq_ms=0 congr=true
+NT copy SimpleGraph.havelHakimiStep defn_ms=0 eq_ms=1 congr=true
+NT copy SimpleGraph.residueAux defn_ms=1 eq_ms=3 congr=false
+NT copy Multiset.sort defn_ms=1 eq_ms=3 congr=false
+NT _ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_6._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._kernel.decide.ax_1_1.p_0 blockers_ms=3 bounded=false copy_ms=22 copies=7 copy_kernel_ms=19
+NT _ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_6._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._kernel.decide.ax_1_1.p_0 eval_ms=397
+PROVED `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._native.decide.ax_1_1` as `_ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_6._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._kernel.decide.ax_1_1`: kernel_ms=428 native_axioms=1 rebuilt=0 copies=7 total_ms=598
+F2_FormalConjectures_WrittenOnTheWallII_Test_6.lean:5:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._native.decide.ax_1_1` as `_ktr.F2_FormalConjectures_WrittenOnTheWallII_Test_6._private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._kernel.decide.ax_1_1`: kernel_ms=428 native_axioms=1 rebuilt=0 copies=7 total_ms=598
+maxrss_kb 6982744
+rc=0 secs=4

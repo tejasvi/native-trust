@@ -1,0 +1,90 @@
+KERNELIZED `TR.t1` as `TR.t1.kernel` (1 native axiom(s) replaced)
+OK	TR.t1	TR.t1.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=35	rebuilt=1	copies=4	total_ms=102	acc_fallback=0
+KERNELIZED `TR.t2` as `TR.t2.kernel` (1 native axiom(s) replaced)
+OK	TR.t2	TR.t2.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=5	rebuilt=1	copies=2	total_ms=45	acc_fallback=0
+KERNELIZED `TR.t3` as `TR.t3.kernel` (1 native axiom(s) replaced)
+OK	TR.t3	TR.t3.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=37	rebuilt=1	copies=4	total_ms=77	acc_fallback=0
+R.instSizer → Nat → Nat
+NT copying TR.mkFmt
+NT copy-rejected TR.mkFmt: (kernel) declaration type mismatch, '_kt.TypesRepro.TR.mkFmt' has type   TR.Fmt Nat _kt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt Nat TR.instSizer
+NT copying TR.instHasFmt
+NT copy-rfl TR.instHasFmt
+NT copy TR.instHasFmt defn_ms=0 eq_ms=0 congr=false
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=9 copies=4 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT copying TR.useFmt
+NT copy-rejected TR.useFmt: (kernel) application type mismatch   TR.Fmt.enc Nat _kt.TypesRepro.TR.instSizer (TR.HasFmt.fmt h) argument has type   TR.Fmt Nat TR.instSizer but function has type   TR.Fmt Nat _kt.TypesRepro.TR.instSizer → Nat → Nat
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying TR.ack._unary
+NT copy TR.ack._unary defn_ms=1 eq_ms=0 congr=true
+NT copying TR.ack
+NT copy TR.ack defn_ms=1 eq_ms=0 congr=true
+NT copying TR.instSizer
+NT copy TR.instSizer defn_ms=0 eq_ms=0 congr=true
+NT copying TR.useFmt
+NT copy-rejected TR.useFmt: (kernel) application type mismatch   TR.Fmt.enc Nat _ktt.TypesRepro.TR.instSizer (TR.HasFmt.fmt h) argument has type   TR.Fmt Nat TR.instSizer but function has type   TR.Fmt Nat _ktt.TypesRepro.TR.instSizer → Nat → Nat
+NT copy-failed TR.useFmt: (kernel) application type mismatch   TR.Fmt.enc Nat _ktt.TypesRepro.TR.instSizer (TR.HasFmt.fmt h) argument has type   TR.Fmt Nat TR.instSizer but function has type   TR.Fmt Nat _ktt.TypesRepro.TR.instSizer → Nat → Nat
+NT copying TR.mkFmt
+NT copy-rejected TR.mkFmt: (kernel) declaration type mismatch, '_ktt.TypesRepro.TR.mkFmt' has type   TR.Fmt Nat _ktt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt Nat TR.instSizer
+NT copy-failed TR.mkFmt: (kernel) declaration type mismatch, '_ktt.TypesRepro.TR.mkFmt' has type   TR.Fmt Nat _ktt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt Nat TR.instSizer
+NT copy-unchanged TR.instHasFmt
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=5 copies=3 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0' has type   true = true but it is expected to have type   decide (TR.useFmt TR.instHasFmt 3 = 6) = true  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • `WellFounded.fix`: well-
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen TR.ack._unary roots=1 ms=1
+NT param-gen TR.ack roots=1 ms=0
+NT param-gen TR.instSizer roots=1 ms=0
+NT param-gen TR.mkFmt roots=1 ms=0
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=4 gen_errors=0 ms=6
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1.p_0 eval_ms=1
+NT _ktr.TypesRepro.TR.t1._kernel.native_decide.ax_1_1 pieces=1
+NT start TR.t2._native.native_decide.ax_1_1
+NT nested TR.t2._native.native_decide.ax_1_1 ms=0 rebuilt_defs=0 visited=1376
+NT copying TR.instBase
+NT copy TR.instBase defn_ms=0 eq_ms=1 congr=true
+NT copying TR.instExt
+NT copy TR.instExt defn_ms=0 eq_ms=1 congr=true
+NT _ktr.TypesRepro.TR.t2._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=3 copies=2 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t2._kernel.native_decide.ax_1_1 eval_ms=1
+NT _ktr.TypesRepro.TR.t2._kernel.native_decide.ax_1_1 quick whole-term attempt proved it
+NT start TR.t3._native.native_decide.ax_1_1
+NT nested TR.t3._native.native_decide.ax_1_1 ms=0 rebuilt_defs=0 visited=1378
+NT copying TR.useFmt2
+NT copy-rejected TR.useFmt2: (kernel) application type mismatch   TR.Fmt2.test Nat _kt.TypesRepro.TR.instSizer (TR.HasFmt2.fmt h) argument has type   TR.Fmt2 Nat TR.instSizer but function has type   TR.Fmt2 Nat _kt.TypesRepro.TR.instSizer → Nat → Bool
+NT copying TR.mkFmt2
+NT copy-rejected TR.mkFmt2: (kernel) declaration type mismatch, '_kt.TypesRepro.TR.mkFmt2' has type   TR.Fmt2 Nat _kt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt2 Nat TR.instSizer
+NT copying TR.instHasFmt2
+NT copy-rfl TR.instHasFmt2
+NT copy TR.instHasFmt2 defn_ms=0 eq_ms=0 congr=false
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=4 copies=1 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT copying TR.useFmt2
+NT copy-rejected TR.useFmt2: (kernel) application type mismatch   TR.Fmt2.test Nat _kt.TypesRepro.TR.instSizer (TR.HasFmt2.fmt h) argument has type   TR.Fmt2 Nat TR.instSizer but function has type   TR.Fmt2 Nat _kt.TypesRepro.TR.instSizer → Nat → Bool
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying TR.useFmt2
+NT copy-rejected TR.useFmt2: (kernel) application type mismatch   TR.Fmt2.test Nat _ktt.TypesRepro.TR.instSizer (TR.HasFmt2.fmt h) argument has type   TR.Fmt2 Nat TR.instSizer but function has type   TR.Fmt2 Nat _ktt.TypesRepro.TR.instSizer → Nat → Bool
+NT copy-failed TR.useFmt2: (kernel) application type mismatch   TR.Fmt2.test Nat _ktt.TypesRepro.TR.instSizer (TR.HasFmt2.fmt h) argument has type   TR.Fmt2 Nat TR.instSizer but function has type   TR.Fmt2 Nat _ktt.TypesRepro.TR.instSizer → Nat → Bool
+NT copying TR.mkFmt2
+NT copy-rejected TR.mkFmt2: (kernel) declaration type mismatch, '_ktt.TypesRepro.TR.mkFmt2' has type   TR.Fmt2 Nat _ktt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt2 Nat TR.instSizer
+NT copy-failed TR.mkFmt2: (kernel) declaration type mismatch, '_ktt.TypesRepro.TR.mkFmt2' has type   TR.Fmt2 Nat _ktt.TypesRepro.TR.instSizer but it is expected to have type   TR.Fmt2 Nat TR.instSizer
+NT copy-unchanged TR.instHasFmt2
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=4 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0' has type   true = true but it is expected to have type   decide (TR.useFmt2 TR.instHasFmt2 5 = true) = true  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • `WellFounded.fix`: 
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen TR.ack._unary roots=1 ms=0
+NT param-gen TR.ack roots=1 ms=0
+NT param-gen TR.instSizer roots=1 ms=0
+NT param-gen TR.mkFmt2 roots=1 ms=0
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=4 gen_errors=0 ms=4
+NT cast-free TR.instDecEqPt rule=2 as _ktcast.TypesRepro.TR.instDecEqPt
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 param-cast-retry [TR.instDecEqPt ↦ _ktcast.TypesRepro.TR.instDecEqPt]
+NT param-gen TR.ack._unary roots=1 ms=1
+NT param-gen TR.ack roots=1 ms=0
+NT param-gen TR.instSizer roots=1 ms=0
+NT param-gen TR.mkFmt2 roots=2 ms=1
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 param roots=2 gens=4 gen_errors=0 ms=5
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1.p_0 eval_ms=1
+NT _ktr.TypesRepro.TR.t3._kernel.native_decide.ax_1_1 pieces=1
+rc=0

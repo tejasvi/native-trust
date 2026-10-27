@@ -1,0 +1,9 @@
+part	modules	ok	cgroup_cpu_s	sum_user_sys_s	max_module_wall_s	max_rss_gib	phase_start	phase_end
+kernel_check	390	390	5780.8	5773.8	51.4	12.81	2026-10-26T07:25:12Z	2026-10-26T07:30:35Z
+kernel_final	2	2	27.8	27.8	6.2	3.89	2026-10-26T07:30:35Z	2026-10-26T07:30:42Z
+native_check	10	10	253.5	253.3	59.9	3.31	2026-10-26T07:30:42Z	2026-10-26T07:31:42Z
+native_final	2	2	2.7	2.6	1.3	3.32	2026-10-26T07:31:42Z	2026-10-26T07:31:45Z
+
+kernel-only version (390 check modules + AllK + Thm11V3): cgroup CPU 5808.7 s = 1.614 core-h, wall 2026-10-26T07:25:12Z to 2026-10-26T07:30:42Z
+native version (10 N_* modules + AllN + Thm11V2): cgroup CPU 256.2 s = 0.0712 core-h, wall 2026-10-26T07:30:42Z to 2026-10-26T07:31:45Z
+parallelism: one lean process per module, LEAN_NUM_THREADS=1, nice 10; 24 at once (the F_[ZX]_13 chunks 12 at once)

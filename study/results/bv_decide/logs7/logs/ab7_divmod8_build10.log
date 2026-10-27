@@ -1,0 +1,3 @@
+bvs divmod_8 #1: 1326 nodes, 3929 clauses, 1326 vars; 11975 steps, 457479 hints, 24 chunks; solve 196 ms, prep+defs 2103 ms; kernel: base 1556 ms, chunks 79019 ms (max 4926 ms); total 82884 ms
+bvs: added divmod_8.bvs4 (2154 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=86.04 s user=85.99 s maxrss=2576584 KB

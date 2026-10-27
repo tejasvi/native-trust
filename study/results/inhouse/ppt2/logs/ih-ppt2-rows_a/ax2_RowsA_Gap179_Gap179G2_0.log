@@ -1,0 +1,30 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179_Gap179G2_0.lean
+NT start RowsA.Gap179.G2.projections_ok._native.native_decide.ax_1
+NT nested RowsA.Gap179.G2.projections_ok._native.native_decide.ax_1 ms=271 rebuilt_defs=0 visited=4656
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseIntRow
+NT copy RowsA.Gap179.parseIntRow defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseIntRows
+NT copy RowsA.Gap179.parseIntRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.G2.gensS
+NT copy RowsA.Gap179.G2.gensS defn_ms=1 eq_ms=1 congr=true
+NT copying RowsA.Gap179.G2.gens
+NT copy RowsA.Gap179.G2.gens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.G2.lieOps
+NT copy RowsA.Gap179.G2.lieOps defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap179_Gap179G2_0.RowsA.Gap179.G2.projections_ok._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=26 copies=10 copy_kernel_ms=8 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179G2_0.RowsA.Gap179.G2.projections_ok._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179_Gap179G2_0.RowsA.Gap179.G2.projections_ok._kernel.native_decide.ax_1.p_0 blockers_ms=3 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46078284
+rc=1 secs=174

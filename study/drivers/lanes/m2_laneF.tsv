@@ -1,0 +1,15 @@
+rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	--skip-build
+rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	--skip-build
+rs-mca-asymptotic_spine	/home/ntbuild/repos/rs-mca/experimental/lean/asymptotic_spine	--skip-build
+rs-mca-l1_threshold_ledger	/home/ntbuild/repos/rs-mca/experimental/lean/l1_threshold_ledger	--skip-build
+rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	--skip-build --redo
+rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	--skip-build --redo
+rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	--skip-build --redo
+rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	--skip-build --redo
+longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--skip-build
+humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--skip-build --redo
+cvc5-logos	/home/ntbuild/repos/cvc5-logos	--skip-build
+berry-esseen	/home/ntbuild/repos/berry-esseen	--skip-build --redo --exclude Uniform\.Data\.chunk
+formal-conjectures	/home/ntbuild/repos/formal-conjectures	
+aks	/home/ntbuild/repos/aks	
+evm-asm	/home/ntbuild/repos/evm-asm	

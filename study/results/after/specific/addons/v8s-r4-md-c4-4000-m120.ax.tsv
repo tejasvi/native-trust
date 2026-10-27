@@ -1,0 +1,7 @@
+v8s-r4-md-c4-4000-m120	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	scripts.probe-fn-portable-line	-			NOT_BUILT						
+v8s-r4-md-c4-4000-m120	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.ordered_presentation_invariance_4000._native.native_decide.ax_1_1	native_decide	False	PROVED		0	93619032	659		nt_lines=21 last=pieces=1

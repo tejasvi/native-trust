@@ -1,0 +1,4 @@
+2026-10-24T12:52:51Z leanexport Veir.Passes.InstructionSelection.Proofs -- Veir.Data.RISCV.sshlSat_refinement  (toolchain v4.35.0-rc4)
+export rc=0 bytes=88249816; target in export: 2 lines; native axiom names in export: _native 
+2026-10-24T12:52:54Z nanoda_bin nanoda.json (v4.35.0 nanoda_bin)
+nanoda rc=1: Error: export file declares unpermitted axiom "_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5"  run with `-h` or `--help` for help 

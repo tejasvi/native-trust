@@ -1,0 +1,5 @@
+2026-10-26T08:11:43Z ax pkg=/home/ntbuild/work_migsample/inhouse/light/tplower tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=50 modules=50
+native axioms=48 inner=0 outer_todo=48
+2026-10-26T09:25:40Z ax pkg=/home/ntbuild/work_migsample/inhouse/light/tplower tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=50 modules=50
+native axioms=48 inner=0 outer_todo=42
+2026-10-26T10:11:02Z summary TIMEOUT=6

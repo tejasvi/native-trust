@@ -1,0 +1,173 @@
+{
+ "name": "leanprover_community_physlib",
+ "pkg": "/home/ntbuild/repos_s/leanprover-community_physlib",
+ "copy_root": "/home/ntbuild/repos_s/leanprover-community_physlib",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T04:56:04Z",
+ "toolchain": "v4.35.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.04,
+  "built": []
+ },
+ "modules": 18,
+ "before": {
+  "total": 4,
+  "by_tactic": {
+   "native_decide": 4
+  },
+  "failed": [],
+  "dirty": 4
+ },
+ "native_files": 1,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 0.6,
+   "cpu": 0.6,
+   "n_built": 0,
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "peak_rss_sum_gb": 0.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 8.61,
+   "cpu": 8.8,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.4,
+   "peak_rss_sum_gb": 1.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 0.51,
+   "cpu": 0.6,
+   "n_built": 0,
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "peak_rss_sum_gb": 0.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 0.59,
+   "cpu": 0.6,
+   "n_built": 0,
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "peak_rss_sum_gb": 0.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 0.5,
+   "cpu": 0.6,
+   "n_built": 0,
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "peak_rss_sum_gb": 0.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 0.6,
+   "cpu": 0.6,
+   "n_built": 0,
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "peak_rss_sum_gb": 0.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 228,
+   "rc": 0,
+   "wall": 37.63,
+   "cpu": 37.8,
+   "n_built": 1,
+   "peak_lean": 1,
+   "peak_rss_gb": 3.9,
+   "peak_rss_sum_gb": 3.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 3,
+  "by_tactic": {
+   "native_decide": 3
+  },
+  "failed": [],
+  "dirty": 3
+ },
+ "fallbacks": {},
+ "fallback_examples": {},
+ "after_hb2": {
+  "total": 2,
+  "by_tactic": {
+   "native_decide": 2
+  },
+  "failed": [],
+  "dirty": 2
+ },
+ "fallbacks_hb2": {
+  "budget (heartbeats)": 2
+ },
+ "fallback_examples_hb2": {
+  "budget (heartbeats)": "info: Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean:139:52: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (20060 ms)"
+ },
+ "reps": 3,
+ "orig_wall_med": 0.51,
+ "orig_cpu_med": 0.6,
+ "kf_wall_med": 0.6,
+ "kf_cpu_med": 0.6,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T04:57:08Z"
+}

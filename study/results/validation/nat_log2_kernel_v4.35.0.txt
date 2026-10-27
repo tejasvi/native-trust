@@ -1,0 +1,25 @@
+# Nat.log2 in Lean's kernel (box, Lean v4.35.0, 2026-10-25T16:11Z; command: lean FILE, wall time including start-up)
+# L_a: Nat.log2 (2 ^ 4000) = 4000 by decide +kernel      -> rc 0, 177 ms
+# L_b: Nat.log2 (2 ^ 40000) = 40000 by decide +kernel    -> rc 0, 631 ms
+# L_c: (2 ^ 40000) / 2 ^ 39999 = 2 by decide +kernel     -> rc 0, 140 ms (division: a GMP operation)
+# Log2Check.lean with Nat.log2 (2 ^ 400000) and Nat.log2 (3 ^ 200000): not finished in 120 s on v4.35.0 and v4.31.0;
+#   stack overflow on v4.27.0. Nat.log2 is evaluated by unfolding (one step per bit), not as one GMP operation.
+## L_a.lean
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+example : Nat.log2 (2 ^ 4000) = 4000 := by decide +kernel
+## L_b.lean
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+example : Nat.log2 (2 ^ 40000) = 40000 := by decide +kernel
+## L_c.lean
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+example : (2 ^ 40000) / 2 ^ 39999 = 2 := by decide +kernel
+## Log2Check.lean
+-- Is Nat.log2 evaluated by the kernel's GMP extension? Closed literals of growing size under decide +kernel.
+set_option maxHeartbeats 2000000
+set_option maxRecDepth 100000
+example : Nat.log2 (2 ^ 4000) = 4000 := by decide +kernel
+example : Nat.log2 (2 ^ 400000) = 400000 := by decide +kernel
+example : Nat.log2 (3 ^ 200000) = 316992 := by decide +kernel

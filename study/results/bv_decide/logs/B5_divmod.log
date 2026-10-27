@@ -1,0 +1,7 @@
+bvs divmod_8 #1: 1326 nodes, 3929 clauses, 1326 vars; 11975 steps, 457479 hints, 24 chunks; solve 191 ms, prep+defs 1997 ms; kernel: base 1351 ms, chunks 66704 ms (max 4235 ms); total 70283 ms
+bvs: added divmod_8.bvs4 (1372 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs divmod_10 #1: 2076 nodes, 6167 clauses, 2076 vars; 43103 steps, 1692353 hints, 87 chunks; solve 855 ms, prep+defs 8075 ms; kernel: base 2837 ms, chunks 314673 ms (max 5436 ms); total 326512 ms
+bvs: added divmod_10.bvs4 (13396 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs divmod_12 #1: 2994 nodes, 8909 clauses, 2994 vars; 114636 steps, 5639962 hints, 286 chunks; solve 3083 ms, prep+defs 29415 ms; kernel: base 4807 ms, chunks 1375488 ms (max 7053 ms); total 1412868 ms
+bvs: added divmod_12.bvs4 (45242 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=1885.45 s user=1886.15 s maxrss=6571812 KB

@@ -1,0 +1,100 @@
+{
+ "census0": {
+  "secs": 1,
+  "failed": []
+ },
+ "time0": {
+  "rc": 0,
+  "secs": 6.8,
+  "running": [],
+  "thread_fail": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 1.4,
+  "rss_killed": false,
+  "wall": 6.84,
+  "cpu": 16.0,
+  "maxrss_kb": 807428,
+  "peak_lean": 3,
+  "built": {
+   "OntologyAlignmentRepair": 0.231,
+   "ClaimStatusInterval": 0.31,
+   "OntologyClaimStatus": 0.181,
+   "OntologyEvolution": 0.185,
+   "OntologyELReasoner": 0.293,
+   "OntologyEvolutionRepair": 0.23800000000000002,
+   "OntologyELClosureVerified": 0.335,
+   "OntologyMinimalRepair": 0.241,
+   "OntologyRepairEquivalence": 0.375,
+   "OntologyELPlus": 0.507,
+   "OntologyRepairTies": 0.391,
+   "FanoLabellingOrbits": 2.4,
+   "OntologyELPlusClosureVerified": 2.7,
+   "OntologyELPlusClosureComplete": 1.4,
+   "OntologyELPlusNormalization": 0.715
+  },
+  "errors": [],
+  "n_built": 15,
+  "tail": "",
+  "deleted": 105
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 202.4,
+   "cpu": 223.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 29.7,
+   "rss_killed": false
+  }
+ ],
+ "bumps": {},
+ "time1": {
+  "rc": 0,
+  "secs": 205.0,
+  "running": [],
+  "thread_fail": 0,
+  "peak_rss_gb": 29.7,
+  "peak_rss_sum_gb": 29.7,
+  "rss_killed": false,
+  "wall": 205.01,
+  "cpu": 226.1,
+  "maxrss_kb": 31096364,
+  "peak_lean": 3,
+  "built": {
+   "ClaimStatusInterval": 0.299,
+   "OntologyAlignmentRepair": 0.242,
+   "OntologyClaimStatus": 0.179,
+   "OntologyEvolution": 0.188,
+   "OntologyEvolutionRepair": 0.252,
+   "OntologyMinimalRepair": 0.228,
+   "OntologyRepairEquivalence": 0.361,
+   "OntologyRepairTies": 0.378,
+   "OntologyELReasoner": 3.6,
+   "OntologyELClosureVerified": 3.2,
+   "OntologyELPlus": 4.3,
+   "FanoLabellingOrbits": 13.0,
+   "OntologyELPlusClosureVerified": 2.7,
+   "OntologyELPlusClosureComplete": 37.0,
+   "OntologyELPlusNormalization": 153.0
+  },
+  "errors": [],
+  "n_built": 15,
+  "tail": "",
+  "deleted": 105
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.35,
+  "cpu": 0.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ }
+}

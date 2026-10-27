@@ -1,0 +1,5 @@
+## summary.v4.34.0-rc2.tsv
+start (default lean flags, default ulimit -s) 22:01:56
+Repro_mrd	TIME 19.71 s 4659692 KB	rc=0
+Repro_nomrd	TIME 21.02 s 4657620 KB	rc=0
+end 22:02:17

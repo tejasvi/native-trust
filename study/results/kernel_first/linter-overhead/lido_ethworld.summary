@@ -1,0 +1,7 @@
+orig native axioms: 17 native axioms in `NTV.EthWorldMutants`
+kf native axioms: 0 native axioms in `NTV.EthWorldMutants`
+orig: wall_med=0.23 cpu_med=0.36 rss_kb_max=505180 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=0.72 cpu_med=0.83 rss_kb_max=1558352 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=0.73 cpu_med=0.94 rss_kb_max=1577592 runs=3 rc=0 warnings=17 unnecessary=17 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=0.71 cpu_med=0.88 rss_kb_max=1566960 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=0.69 cpu_med=0.83 rss_kb_max=1567380 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

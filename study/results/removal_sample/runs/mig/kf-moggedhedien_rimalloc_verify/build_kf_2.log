@@ -1,0 +1,16 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +RimallocVerify.Bins +RimallocVerify.CommitMask +RimallocVerify.PageStart
+ℹ [5/7] Built RimallocVerify.CommitMask (2.7s)
+info: RimallocVerify/CommitMask.lean:42:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1251 ms)
+ℹ [6/7] Built RimallocVerify.Bins (47s)
+info: RimallocVerify/Bins.lean:69:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1825 ms)
+info: RimallocVerify/Bins.lean:75:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (4014 ms)
+info: RimallocVerify/Bins.lean:81:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (6250 ms)
+info: RimallocVerify/Bins.lean:86:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (8411 ms)
+info: RimallocVerify/Bins.lean:127:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (11456 ms)
+ℹ [7/7] Built RimallocVerify.PageStart (23s)
+info: RimallocVerify/PageStart.lean:59:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1239 ms)
+info: RimallocVerify/PageStart.lean:81:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (9096 ms)
+info: RimallocVerify/PageStart.lean:88:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (16352 ms)
+Build completed successfully (7 jobs).
+TIME wall=70.59 user=72.75 sys=0.72 maxrss_kb=2164292
+rc=0 secs=71

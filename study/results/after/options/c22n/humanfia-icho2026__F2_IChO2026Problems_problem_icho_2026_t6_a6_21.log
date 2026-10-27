@@ -1,0 +1,22 @@
+$ lean humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T21:27:26Z
+PROVED `IChO2026Problems.Icho2026T6A6.structure_p._native.native_decide.ax_1_2` as `_ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2`: kernel_ms=290047 native_axioms=1 rebuilt=0 copies=0 total_ms=290288 acc_fallback=0 pieces=5
+maxrss_kb 29142424 secs 293.34
+rc=0 end=2026-10-24T21:32:20Z
+pies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 quick whole-term attempt did not finish; structured check
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 structure and
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_0 blockers_ms=3 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_0 eval_ms=168
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 structure and
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_1 blockers_ms=3 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_1 eval_ms=32829
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 structure and
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_2 blockers_ms=3 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_2 eval_ms=61832
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 structure and
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_3 blockers_ms=4 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_3 eval_ms=59757
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_4 blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2.p_4 eval_ms=132461
+NT _ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2 pieces=5
+PROVED `IChO2026Problems.Icho2026T6A6.structure_p._native.native_decide.ax_1_2` as `_ktr.«humanfia-icho2026__F2_IChO2026Problems_problem_icho_2026_t6_a6_21».IChO2026Problems.Icho2026T6A6.structure_p._kernel.native_decide.ax_1_2`: kernel_ms=290047 native_axioms=1 rebuilt=0 copies=0 total_ms=290288 acc_fallback=0 pieces=5

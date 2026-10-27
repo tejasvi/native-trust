@@ -1,0 +1,42 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0-rc2/bin/lean -j1 --tstack=1048576 F2_SecondOrderGUM_0.lean
+NT start Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1
+NT nested Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1 ms=9 rebuilt_defs=0 visited=350
+NT _ktr.F2_SecondOrderGUM_0.Sounio.SecondOrderGUM.second_order_dominates_first_order_float._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=true copy_ms=1 copies=0 copy_kernel_ms=0
+FAILED `Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1` in the kernel:
+    decide (0.0 ≤ 0.5) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_SecondOrderGUM_0.Sounio.SecondOrderGUM.second_order_dominates_first_order_float._kernel.native_decide.ax_1_1.p_0' has type
+    true = true
+  but it is expected to have type
+    decide (0.0 ≤ 0.5) = true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Float.decLe`: primitive implemented in C (`@[extern]`) with no definition
+      via Float.decLe
+  • `Float.ofScientific`: opaque constant
+      via instOfScientificFloat → Float.ofScientific
+  • `floatSpec`: opaque constant
+      via instLEFloat → Float.le → floatSpec
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Sounio.SecondOrderGUM.second_order_dominates_first_order_float._native.native_decide.ax_1_1` in the kernel:
+  decide (0.0 ≤ 0.5) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_SecondOrderGUM_0.Sounio.SecondOrderGUM.second_order_dominates_first_order_float._kernel.native_decide.ax_1_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (0.0 ≤ 0.5) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Float.decLe`: primitive implemented in C (`@[extern]`) with no definition
+    via Float.decLe
+• `Float.ofScientific`: opaque constant
+    via instOfScientificFloat → Float.ofScientific
+• `floatSpec`: opaque constant
+    via instLEFloat → Float.le → floatSpec
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1446364
+rc=0 secs=1

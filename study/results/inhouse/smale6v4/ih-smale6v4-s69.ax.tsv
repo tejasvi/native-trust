@@ -1,0 +1,297 @@
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1477220	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1510584	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_terms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1592620	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_units_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1997312	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.All	Lean6.Special.D88.Boxes.KC.allData_length._native.native_decide.ax_1_1	native_decide	False	PROVED		13017	2183132	22		nt_lines=159 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1602192	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_terms._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1581708	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577560	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_units_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2009036	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.RootsFacts	Lean6.Special.Comp.D98.minFac_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576292	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.RootsRun	Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1724472	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.RootsRun	Lean6.Special.Comp.D98.roots_1_2_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1718756	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.RootsRun	Lean6.Special.Comp.D98.upper_1_2_7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577184	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.sqf_1_2_7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1852012	4		nt_lines=23 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.deg_1_2_7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1595572	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.sqf_1_2_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1851184	4		nt_lines=23 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.sqf_2_3_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1851204	4		nt_lines=23 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.deg_1_2_8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1595592	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.deg_2_3_11._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1595592	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D98.Run	Lean6.Special.Comp.D98.bez93._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1616140	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Prime	Lean6.Special.Comp.C4.trialPrime_1073741789._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1817952	4		nt_lines=9 last=pieces=2
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Prime	Lean6.Special.Comp.C4.trialPrime_32003._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576564	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.ExportRun	Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1628332	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.NegCtl	Lean6.Special.Comp.E4.negctl_inv._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577320	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_mem_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		13	8130588	64		nt_lines=69 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.All	Lean6.Special.D88.Boxes.N4.allData_length._native.native_decide.ax_1_1	native_decide	False	PROVED		40574	4025260	69		nt_lines=645 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.reduce_tournaments._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1786224	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.score_determines._native.native_decide.ax_1_1	native_decide	False	PROVED		9	1910492	11		nt_lines=32 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.score_counts._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1671812	1		nt_lines=15 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.free._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2010136	17		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.relabel_triple._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2949592	50		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.perms_count._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1622196	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_mem_ok._native.native_decide.ax_1_1	native_decide	False	PROVED		18	16877328	137		nt_lines=73 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.rep_scores._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1585704	1		nt_lines=15 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.reduction._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4284924	93		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.conj_triple._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1955452	4		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.nine_values._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2012928	4		nt_lines=7 last=pieces=1
+ih-smale6v4-s69	Lean6.Special.K4.E4.Final	Lean6.Special.K4.E4.mem_patsG_aux._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2733528	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.inv_invariant._native.native_decide.ax_1_1	native_decide	False	PROVED		0	4779112	110		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT1_diag._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2904264	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT1_up._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2909664	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LUT1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3289932	4		nt_lines=7 last=pieces=1
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT2_up._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2910100	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT2_diag._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2903560	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LT1_low._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2911824	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LUT2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3287924	5		nt_lines=7 last=pieces=1
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LT2_low._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2911852	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT3_diag._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2904396	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.UT3_up._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2909804	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LT3_low._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2911832	1		nt_lines=5 last=quick whole-term attempt proved it
+ih-smale6v4-s69	Lean6.Special.K4.E4.Final	Lean6.Special.K4.E4.mem_patsF_aux._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9713648	32		nt_lines=7 last=pieces=1
+ih-smale6v4-s69	Lean6.Special.K4.E4.Resultants	Lean6.Special.K4.E4.LUT3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	3287920	4		nt_lines=7 last=pieces=1
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.orbit_size._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9891188	344		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	Lean6.Special.Comp.K4.E4.Pat	Lean6.Special.Comp.E4.inv_separates._native.native_decide.ax_1_1	native_decide	False	PROVED		0	13118692	466		nt_lines=22 last=pieces=8
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Count.RunS12	Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	34	1787436	105	Lean.Loop.forIn;System.Platform.getNumBits;WellFounded.fix	nt_lines=275 last=blockers_ms=8 bounded=true copy_ms=109 copies=20 copy_kernel_ms=80 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.cofKC_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	220	46100196	177		nt_lines=111 last=blockers_ms=9 bounded=false copy_ms=294 copies=28 copy_kernel_ms=229 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.c0KC_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	225	46192032	178		nt_lines=111 last=blockers_ms=15 bounded=false copy_ms=343 copies=28 copy_kernel_ms=275 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.GKC_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	56	46199580	180		nt_lines=115 last=blockers_ms=10 bounded=false copy_ms=88 copies=29 copy_kernel_ms=58 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.HypRun	Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	43	17234892	372	Lean.Loop.forIn;WellFounded.extrinsicFix₃;WellFounded.fix;_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque	nt_lines=376 last=blockers_ms=7 bounded=true copy_ms=64 copies=32 copy_kernel_ms=38 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.HypRun	Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	22	17430280	377	Lean.Loop.forIn;WellFounded.extrinsicFix₃;WellFounded.fix;_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque	nt_lines=376 last=blockers_ms=7 bounded=true copy_ms=46 copies=32 copy_kernel_ms=22 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_hyps_count._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	29	46192396	178		nt_lines=103 last=blockers_ms=9 bounded=false copy_ms=51 copies=25 copy_kernel_ms=28 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_gfan_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	38	46193424	177		nt_lines=133 last=blockers_ms=10 bounded=false copy_ms=64 copies=29 copy_kernel_ms=35 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	83	46222996	177		nt_lines=111 last=blockers_ms=11 bounded=false copy_ms=137 copies=28 copy_kernel_ms=94 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.GN4_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	26	46207724	175		nt_lines=115 last=blockers_ms=10 bounded=false copy_ms=50 copies=29 copy_kernel_ms=26 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_hyps_count._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	13	46204960	171		nt_lines=103 last=blockers_ms=12 bounded=false copy_ms=34 copies=25 copy_kernel_ms=18 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.cofN4_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	85	46222296	171		nt_lines=111 last=blockers_ms=10 bounded=false copy_ms=140 copies=28 copy_kernel_ms=97 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	46576	46460600	367		nt_lines=239 last=blockers_ms=14 bounded=false copy_ms=50977 copies=60 copy_kernel_ms=45766 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_C	Lean6.Special.Comp.C4.Run.M0P1073741789.S_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	13	1746364	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=26 copies=16 copy_kernel_ms=14 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P12	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1748488	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P14	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1748340	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P23	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1747968	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P24	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1746456	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P34	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1744676	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	10520	46483324	233		nt_lines=195 last=blockers_ms=13 bounded=false copy_ms=13446 copies=49 copy_kernel_ms=12082 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.n4_gfan_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	21	46204624	175		nt_lines=131 last=blockers_ms=10 bounded=false copy_ms=37 copies=29 copy_kernel_ms=18 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_C	Lean6.Special.Comp.C4.Run.M0P1073741789.T_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1745700	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P12	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1744260	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P13	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	8	1741172	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P13	Lean6.Special.Comp.C4.Run.M0P1073741789.S_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	7532900	154	Lean.Loop.forIn;WellFounded.fix	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=26 copies=16 copy_kernel_ms=14 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P14	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1744264	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=26 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P24	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	13	1739316	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P34	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1739140	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=9 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_C	Lean6.Special.Comp.C4.Run.M0P32003.S_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1746392	24	Lean.Loop.forIn;Well
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M0P32003_S_C_0.Lean6.Special.Comp.C4.Run.M0P32003.S_C.ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=1 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 c	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P12	Lean6.Special.Comp.C4.Run.M0P32003.S_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1748304	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P14	Lean6.Special.Comp.C4.Run.M0P32003.S_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1748360	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P13	Lean6.Special.Comp.C4.Run.M0P32003.S_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1919144	35	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P23	Lean6.Special.Comp.C4.Run.M0P32003.S_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1747228	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=26 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P24	Lean6.Special.Comp.C4.Run.M0P32003.S_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1746260	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P34	Lean6.Special.Comp.C4.Run.M0P32003.S_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1745716	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_C	Lean6.Special.Comp.C4.Run.M0P32003.T_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1745908	23	Lean.Loop.forIn;Well
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M0P32003_T_C_0.Lean6.Special.Comp.C4.Run.M0P32003.T_C.ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 c	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P12	Lean6.Special.Comp.C4.Run.M0P32003.T_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	14	1745716	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=23 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P13	Lean6.Special.Comp.C4.Run.M0P32003.T_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1745908	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P14	Lean6.Special.Comp.C4.Run.M0P32003.T_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	8	1745964	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P24	Lean6.Special.Comp.C4.Run.M0P32003.T_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	9	1745908	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P23	Lean6.Special.Comp.C4.Run.M0P32003.T_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1919388	34	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P34	Lean6.Special.Comp.C4.Run.M0P32003.T_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	8	1745972	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P23	Lean6.Special.Comp.C4.Run.M0P1073741789.T_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	7531620	157	Lean.Loop.forIn;WellFounded.fix	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=25 copies=16 copy_kernel_ms=9 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_C	Lean6.Special.Comp.C4.Run.M1P1073741789.S_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	15	1748304	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P12	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1748304	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P14	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	15	1748324	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P23	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1747088	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P24	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1749140	25	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P34	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1747092	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_C	Lean6.Special.Comp.C4.Run.M1P1073741789.T_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1745992	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P12	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	13	1744232	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=26 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P13	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1740136	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=9 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P14	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	9	1744168	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P24	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1742184	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P34	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1738088	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_C	Lean6.Special.Comp.C4.Run.M1P32003.S_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1748328	24	Lean.Loop.forIn;Well
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_S_C_0.Lean6.Special.Comp.C4.Run.M1P32003.S_C.ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=0 eq_ms=3 c	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P12	Lean6.Special.Comp.C4.Run.M1P32003.S_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1748384	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=23 copies=16 copy_kernel_ms=9 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P13	Lean6.Special.Comp.C4.Run.M1P1073741789.S_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	7532952	152	Lean.Loop.forIn;WellFounded.fix	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P14	Lean6.Special.Comp.C4.Run.M1P32003.S_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	7	1748384	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=25 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P13	Lean6.Special.Comp.C4.Run.M1P32003.S_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1919396	34	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P23	Lean6.Special.Comp.C4.Run.M1P32003.S_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1746340	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P24	Lean6.Special.Comp.C4.Run.M1P32003.S_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	1748244	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=27 copies=16 copy_kernel_ms=14 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P34	Lean6.Special.Comp.C4.Run.M1P32003.S_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1747636	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_C	Lean6.Special.Comp.C4.Run.M1P32003.T_C.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	15	1745912	23	Lean.Loop.forIn;Well
+NT _ktr.F2_Lean6_Special_Comp_K4_C4_Run_M1P32003_T_C_0.Lean6.Special.Comp.C4.Run.M1P32003.T_C.ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 c	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=13 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P12	Lean6.Special.Comp.C4.Run.M1P32003.T_P12.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1745908	24	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=9 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P13	Lean6.Special.Comp.C4.Run.M1P32003.T_P13.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1746032	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P14	Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	14	1745972	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P23	Lean6.Special.Comp.C4.Run.M1P1073741789.T_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	10	7531656	159	Lean.Loop.forIn;WellFounded.fix	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=25 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P24	Lean6.Special.Comp.C4.Run.M1P32003.T_P24.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	14	1745968	23	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=5 bounded=true copy_ms=24 copies=16 copy_kernel_ms=12 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P23	Lean6.Special.Comp.C4.Run.M1P32003.T_P23.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	12	1919444	34	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=24 copies=16 copy_kernel_ms=11 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P34	Lean6.Special.Comp.C4.Run.M1P32003.T_P34.ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	11	1746032	21	Lean.Loop.forIn	nt_lines=125 last=blockers_ms=4 bounded=true copy_ms=23 copies=16 copy_kernel_ms=8 fast_lits=0 string_args=false
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Count.RunKC	Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	37		900		nt_lines=44 last=quick whole-term attempt did not finish; structured check
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D067	Lean6.Special.D88.Boxes.KC.D067.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	189	46063052	159		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D057	Lean6.Special.D88.Boxes.KC.D057.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	194	46063368	159		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D039	Lean6.Special.D88.Boxes.N4.D039.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	134	46067456	245		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D267	Lean6.Special.D88.Boxes.N4.D267.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	139	46065568	245		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D171	Lean6.Special.D88.Boxes.N4.D171.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	132	46162896	241		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D044	Lean6.Special.D88.Boxes.KC.D044.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	176	46162968	161		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D130	Lean6.Special.D88.Boxes.N4.D130.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	131	46162864	249		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D200	Lean6.Special.D88.Boxes.N4.D200.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	131	46162172	243		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D003	Lean6.Special.D88.Boxes.KC.D003.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	175	46162244	159		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D128	Lean6.Special.D88.Boxes.N4.D128.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	122	46162168	246		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D220	Lean6.Special.D88.Boxes.N4.D220.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	130	46160556	247		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D104	Lean6.Special.D88.Boxes.N4.D104.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46161324	242		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D092	Lean6.Special.D88.Boxes.N4.D092.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	131	46160620	243		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D097	Lean6.Special.D88.Boxes.N4.D097.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	127	46160628	247		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D021	Lean6.Special.D88.Boxes.N4.D021.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	127	46162128	252		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D254	Lean6.Special.D88.Boxes.N4.D254.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	125	46160620	255		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D234	Lean6.Special.D88.Boxes.N4.D234.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	132	46161624	252		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D061	Lean6.Special.D88.Boxes.N4.D061.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46162896	251		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D178	Lean6.Special.D88.Boxes.N4.D178.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	132	46162172	249		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D277	Lean6.Special.D88.Boxes.N4.D277.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	133	46162164	252		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D271	Lean6.Special.D88.Boxes.N4.D271.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46161396	244		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D026	Lean6.Special.D88.Boxes.KC.D026.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	167	46163056	158		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D113	Lean6.Special.D88.Boxes.N4.D113.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	130	46161392	244		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D034	Lean6.Special.D88.Boxes.N4.D034.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	126	46161312	247		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D114	Lean6.Special.D88.Boxes.N4.D114.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	128	46160632	242		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D177	Lean6.Special.D88.Boxes.N4.D177.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46162144	245		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D240	Lean6.Special.D88.Boxes.N4.D240.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46161332	243		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D065	Lean6.Special.D88.Boxes.KC.D065.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	177	46162708	160		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D028	Lean6.Special.D88.Boxes.N4.D028.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	126	46161340	244		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D317	Lean6.Special.D88.Boxes.N4.D317.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	51	46161092	241		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D121	Lean6.Special.D88.Boxes.N4.D121.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	127	46159536	249		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D132	Lean6.Special.D88.Boxes.N4.D132.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	128	46161072	246		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D316	Lean6.Special.D88.Boxes.N4.D316.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	135	46162484	240		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D080	Lean6.Special.D88.Boxes.N4.D080.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	131	46160300	247		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D309	Lean6.Special.D88.Boxes.N4.D309.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	127	46161820	245		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D191	Lean6.Special.D88.Boxes.N4.D191.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	132	46161076	243		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D123	Lean6.Special.D88.Boxes.N4.D123.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	128	46161476	242		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D144	Lean6.Special.D88.Boxes.N4.D144.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	129	46162584	243		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D088	Lean6.Special.D88.Boxes.N4.D088.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	128	46161856	242		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D068	Lean6.Special.D88.Boxes.N4.D068.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	128	46162532	244		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D003	Lean6.Special.D88.Boxes.KC.D003.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	170	96413800	699		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D026	Lean6.Special.D88.Boxes.KC.D026.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	172	96414980	715		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D044	Lean6.Special.D88.Boxes.KC.D044.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	153	96501824	708		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D057	Lean6.Special.D88.Boxes.KC.D057.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	157	96501840	716		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D065	Lean6.Special.D88.Boxes.KC.D065.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	156	96501836	700		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.KC.D067	Lean6.Special.D88.Boxes.KC.D067.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	156	96501792	708		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D021	Lean6.Special.D88.Boxes.N4.D021.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96520772	521		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D028	Lean6.Special.D88.Boxes.N4.D028.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96520760	521		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D034	Lean6.Special.D88.Boxes.N4.D034.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	118	96522320	516		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D039	Lean6.Special.D88.Boxes.N4.D039.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	118	96522200	512		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D061	Lean6.Special.D88.Boxes.N4.D061.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	121	96521496	523		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D068	Lean6.Special.D88.Boxes.N4.D068.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	123	96522276	517		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D080	Lean6.Special.D88.Boxes.N4.D080.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96520956	526		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D088	Lean6.Special.D88.Boxes.N4.D088.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96522272	523		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D092	Lean6.Special.D88.Boxes.N4.D092.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	119	96522292	522		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D097	Lean6.Special.D88.Boxes.N4.D097.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96521532	517		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D104	Lean6.Special.D88.Boxes.N4.D104.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	120	96521436	533		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D113	Lean6.Special.D88.Boxes.N4.D113.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	119	96520604	528		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D114	Lean6.Special.D88.Boxes.N4.D114.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	117	96524624	532		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D121	Lean6.Special.D88.Boxes.N4.D121.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	122	96522320	532		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D123	Lean6.Special.D88.Boxes.N4.D123.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	122	96523444	525		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D128	Lean6.Special.D88.Boxes.N4.D128.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	124	96521536	520		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D132	Lean6.Special.D88.Boxes.N4.D132.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	122	96520728	540		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D130	Lean6.Special.D88.Boxes.N4.D130.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	122	96523844	551		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D144	Lean6.Special.D88.Boxes.N4.D144.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	123	96522564	520		nt_lines=22 last=blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Boxes.N4.D171	Lean6.Special.D88.Boxes.N4.D171.ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	125	96522268	524		nt_lines=22 last=blockers_ms=5 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.c0KC_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	190	96496892	284		nt_lines=111 last=blockers_ms=10 bounded=false copy_ms=265 copies=28 copy_kernel_ms=202 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_hyps_count._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	28	96473396	286		nt_lines=103 last=blockers_ms=8 bounded=false copy_ms=52 copies=25 copy_kernel_ms=29 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.GKC_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	51	96479752	285		nt_lines=115 last=blockers_ms=9 bounded=false copy_ms=101 copies=29 copy_kernel_ms=55 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.GN4_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	22	96487220	286		nt_lines=115 last=blockers_ms=9 bounded=false copy_ms=47 copies=29 copy_kernel_ms=26 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunN4	Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	83	96502604	289		nt_lines=111 last=blockers_ms=12 bounded=false copy_ms=167 copies=28 copy_kernel_ms=115 fast_lits=0 string_args=false
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Trop.RunKC	Lean6.Special.Comp.D88.Trop.kc_gfan_ok._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	39	96474532	283		nt_lines=133 last=blockers_ms=9 bounded=false copy_ms=55 copies=29 copy_kernel_ms=33 fast_lits=0 string_args=false
+ih-smale6v4-s69	L6CheckKSpec.D98	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Dim	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.E4Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.Final	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropMem	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropSame	-			NOT_BUILT						
+ih-smale6v4-s69	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+ih-smale6v4-s69	gen.native_axiom_example	-			NOT_BUILT						
+ih-smale6v4-s69	Lean6.Special.Comp.D88.Count.RunKC	Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	3600s	32		3600		nt_lines=44 last=quick whole-term attempt did not finish; structured check

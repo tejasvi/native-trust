@@ -1,0 +1,27 @@
+2026-10-26T00:59:44Z start unit=s13-base3-1792976384 MemoryMax=128G MemAvailable=733G
+✔ [9205/9228] Built S11Data.Cert (829ms)
+✔ [9206/9228] Built S11Data.Cert:c.o (70ms)
+✔ [9207/9228] Built S13.S11.Small (1.1s)
+✔ [9208/9228] Built S11Data.Cert:dynlib (35ms)
+✔ [9209/9228] Built S45.Sets.Fold (2.3s)
+✔ [9210/9228] Built S11Data (1.6s)
+✔ [9212/9228] Built S45.Sets.Cmp (855ms)
+✔ [9213/9228] Built S45.Top2.Config (3.4s)
+✔ [9214/9228] Built S45.Sets.Map (1.1s)
+✔ [9215/9228] Built S45.Sets.Prune (1.3s)
+✔ [9216/9228] Built S45.Top2.SolveSound (2.4s)
+✔ [9217/9228] Built S45.Sets.Prep (1.1s)
+✔ [9218/9228] Built S45.Bridge.Token (1.1s)
+✔ [9219/9228] Built S45.Bridge.Bridge (911ms)
+✔ [9220/9228] Built S45.Facts.Basic (2.5s)
+✔ [9221/9228] Built S45.Facts.Succ (2.7s)
+✔ [9222/9228] Built S45.Facts.Facts5 (2.7s)
+✔ [9223/9228] Built S45.Facts.BRoute (2.6s)
+✔ [9224/9228] Built S45.Facts.Facts7 (2.5s)
+✔ [9225/9228] Built S45.Facts.Hints (2.6s)
+✔ [9226/9228] Built S45.Facts.Facts9 (2.5s)
+✔ [9227/9228] Built S45Data.T9Test (2.6s)
+Build completed successfully (9228 jobs).
+maxrss_kb 7155300 secs 40.76 user 213.69 sys 33.82
+end 2026-10-26T01:00:25Z rc=0
+2026-10-26T01:00:25Z end unit=s13-base3-1792976384 rc=0

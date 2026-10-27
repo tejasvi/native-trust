@@ -1,0 +1,16 @@
+11,15c11,15
+< 'kf_partial' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+< 'kf_hashmap' depends on axioms: [propext, Lean.ofReduceBool, Lean.trustCompiler, Quot.sound]
+< 'kf_budget' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+< 'kf_wf' depends on axioms: [propext, Lean.ofReduceBool, Lean.trustCompiler, Quot.sound]
+< 'kf_off' does not depend on any axioms
+---
+> 'kf_partial' depends on axioms: [kf_partial._native.native_decide.ax_1]
+> 'kf_hashmap' depends on axioms: [propext, Classical.choice, Quot.sound, kf_hashmap._native.native_decide.ax_1]
+> 'kf_budget' depends on axioms: [kf_budget._native.native_decide.ax_1]
+> 'kf_wf' depends on axioms: [propext, Quot.sound, kf_wf._native.native_decide.ax_1]
+> 'kf_off' depends on axioms: [kf_off._native.native_decide.ax_1]
+17c17
+< kernel-first: 8 calls: 4 proved by `decide +kernel` (N ms in total), 4 used compiled evaluation; native axioms in this module: 0
+---
+> kernel-first: 8 calls: 4 proved by `decide +kernel` (N ms in total), 4 used compiled evaluation; native axioms in this module: 5

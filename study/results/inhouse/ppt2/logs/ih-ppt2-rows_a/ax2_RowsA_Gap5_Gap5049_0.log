@@ -1,0 +1,364 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap5_Gap5049_0.lean
+NT start RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1
+NT nested RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1 ms=287 rebuilt_defs=0 visited=5315
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=5 eq_ms=15 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.YNum
+NT copy RowsA.Gap5049.YNum defn_ms=219 eq_ms=774 congr=true
+NT copying RowsA.Gap5049.Yi
+NT copy-motive-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y =>     _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.Yi._motive _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum y argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-congr-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y => Matrix.of fun i j => (_kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.Yi
+NT copy-rejected RowsA.Gap5049.Yi: (kernel) deterministic timeout
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=16439 copies=10 copy_kernel_ms=1019 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT copying RowsA.Gap5049.Yi
+NT copy-motive-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y =>     _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.Yi._motive _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum y argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-congr-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y => Matrix.of fun i j => (_kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.Yi
+NT copy-rejected RowsA.Gap5049.Yi: (kernel) deterministic timeout
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=8 bounded=true copy_ms=15509 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=1 eq_ms=0 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=1 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=5 eq_ms=16 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.YNum
+NT copy RowsA.Gap5049.YNum defn_ms=195 eq_ms=861 congr=true
+NT copying RowsA.Gap5049.Yi
+NT copy-motive-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y =>     _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.Yi._motive _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum y argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-congr-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y => Matrix.of fun i j => (_kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.Yi
+NT copy-rejected RowsA.Gap5049.Yi: (kernel) deterministic timeout
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=11 bounded=false copy_ms=16789 copies=13 copy_kernel_ms=1083 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   decide       (∀ (i : Fin _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),         ↑(∑ j,                 |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -                     RowsA.Gap5.look                       (RowsA.Gap5.tbl                         (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *                           Row
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-param
+NT param-gen String.Slice.toNat? roots=2 ms=0
+NT param-geq String.Slice.toNat? rfl ms=0
+NT param-gen String.Slice.toInt? roots=2 ms=0
+NT param-geq String.Slice.toInt? rfl ms=1
+NT param-gen String.toInt? roots=2 ms=0
+NT param-geq String.toInt? rfl ms=0
+NT param-gen String.splitOnAux._unary roots=1 ms=0
+NT param-geq String.splitOnAux._unary rfl ms=1
+NT param-gen String.splitOnAux roots=1 ms=0
+NT param-geq String.splitOnAux rfl ms=0
+NT param-gen String.splitOn roots=1 ms=0
+NT param-geq String.splitOn rfl ms=0
+NT param-gen RowsA.Gap5.parseRow? roots=3 ms=0
+NT param-geq RowsA.Gap5.parseRow? rfl ms=0
+NT param-gen RowsA.Gap5.parseRow roots=3 ms=0
+NT param-geq RowsA.Gap5.parseRow rfl ms=0
+NT param-gen RowsA.Gap5049.x0Num roots=3 ms=0
+NT param-geq RowsA.Gap5049.x0Num rfl ms=1
+NT param-gen RowsA.Gap5049.S roots=3 ms=0
+NT param-geq RowsA.Gap5049.S rfl ms=0
+NT param-gen RowsA.Gap5.parseMat? roots=3 ms=0
+NT param-geq RowsA.Gap5.parseMat? rfl ms=0
+NT param-gen RowsA.Gap5.parseMat roots=3 ms=0
+NT param-geq RowsA.Gap5.parseMat rfl ms=0
+NT param-gen RowsA.Gap5049.YNum roots=3 ms=0
+NT param-geq RowsA.Gap5049.YNum rfl ms=1
+NT param-gen RowsA.Gap5049.Yi roots=3 ms=0
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 param roots=3 gens=14 gen_errors=0 ms=45
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-param-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • 'WellFounded.fix': well-founded recursion ('WellFounded.fix', used for non-'Nat' termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks ('Lean.opaqueId') and which from Lean 4.37 on never reduces. Remedies: a 'Nat'-valued 'termination_by' (Lean then compiles the recursion to fuel), or a proved fuel versio
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=5 eq_ms=15 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.YNum
+NT copy RowsA.Gap5049.YNum defn_ms=232 eq_ms=907 congr=true
+NT copying RowsA.Gap5049.Yi
+NT copy-motive-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y =>     _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.Yi._motive _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum y argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-congr-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y => Matrix.of fun i j => (_ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.Yi
+NT copy-rejected RowsA.Gap5049.Yi: (kernel) deterministic timeout
+NT copy-failed RowsA.Gap5049.Yi: (kernel) application type mismatch   @NativeTrust.congr_dep RowsA.Gap5.GammaSys (Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ)     RowsA.Gap5049.S fun y hy =>     Matrix.of fun i j => (_ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → RowsA.Gap5049.S = y → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (F : (x : RowsA.Gap5.GammaSys) → RowsA.Gap5049.S = x → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ)     {b : RowsA.Gap5.GammaSys} (h : RowsA.Gap5049.S = b), F RowsA.Gap5049.S ⋯ = F b h
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=true copy_ms=17679 copies=10 copy_kernel_ms=1163 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   decide       (∀ (i : Fin _ktt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),         ↑(∑ j,                 |(if i = j then ↑(2 ^ 60) * ↑
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen String.splitOnAux._unary roots=1 ms=0
+NT param-gen String.splitOnAux roots=1 ms=1
+NT param-gen String.splitOn roots=1 ms=0
+NT param-gen RowsA.Gap5.parseRow? roots=1 ms=0
+NT param-gen RowsA.Gap5.parseRow roots=1 ms=0
+NT param-gen RowsA.Gap5049.x0Num roots=1 ms=0
+NT param-gen RowsA.Gap5049.S roots=1 ms=0
+NT param-gen RowsA.Gap5.parseMat? roots=1 ms=0
+NT param-gen RowsA.Gap5.parseMat roots=1 ms=0
+NT param-gen RowsA.Gap5049.YNum roots=1 ms=0
+NT param-gen RowsA.Gap5049.Yi roots=1 ms=0
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=11 gen_errors=0 ms=27
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 param-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel versio
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.x0Num
+NT copy RowsA.Gap5049.x0Num defn_ms=5 eq_ms=14 congr=true
+NT copying RowsA.Gap5049.S
+NT copy RowsA.Gap5049.S defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5049.YNum
+NT copy RowsA.Gap5049.YNum defn_ms=188 eq_ms=1177 congr=true
+NT copying RowsA.Gap5049.Yi
+NT copy-motive-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y =>     _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.Yi._motive _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum y argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-congr-rejected RowsA.Gap5049.Yi: (kernel) application type mismatch   congrArg fun y => Matrix.of fun i j => (_kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.YNum.getD ↑i #[]).getD (↑j) 0 argument has type   (y : RowsA.Gap5.GammaSys) → Matrix (Fin y.nf) (Fin y.nf) ℤ but function has type   ∀ (f : RowsA.Gap5.GammaSys → Matrix (Fin RowsA.Gap5049.S.nf) (Fin RowsA.Gap5049.S.nf) ℤ),     RowsA.Gap5049.S = _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S →       f RowsA.Gap5049.S = f _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S
+NT copy-rfl RowsA.Gap5049.Yi
+NT copy-rejected RowsA.Gap5049.Yi: (kernel) deterministic timeout
+NT _ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=7 bounded=true copy_ms=16900 copies=10 copy_kernel_ms=1390 fast_lits=0 string_args=false
+FAILED `RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (RowsA.Gap5049.chkNewton RowsA.Gap5049.S RowsA.Gap5049.x0Num (RowsA.Gap5.tbl RowsA.Gap5049.Yi) RowsA.Gap5049.qB
+            RowsA.Gap5049.ynB RowsA.Gap5049.etaB =
+          true) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide
+        (∀ (i : Fin _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+          ↑(∑ j,
+                  |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                      RowsA.Gap5.look
+                        (RowsA.Gap5.tbl
+                          (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                            RowsA.Gap5.look
+                              (RowsA.Gap5.tbl
+                                (_kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                  _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                        i j|) /
+              (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+            RowsA.Gap5049.qB) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the accessibility-generator route (`wfAcc`), which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide
+        (∀ (i : Fin _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+          ↑(∑ j,
+                  |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                      RowsA.Gap5.look
+                        (RowsA.Gap5.tbl
+                          (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                            RowsA.Gap5.look
+                              (RowsA.Gap5.tbl
+                                (_kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                  _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                        i j|) /
+              (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+            RowsA.Gap5049.qB) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide
+        (∀ (i : Fin _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+          ↑(∑ j,
+                  |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                      RowsA.Gap5.look
+                        (RowsA.Gap5.tbl
+                          (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                            RowsA.Gap5.look
+                              (RowsA.Gap5.tbl
+                                (_kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                  _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                        i j|) /
+              (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+            RowsA.Gap5049.qB) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via RowsA.Gap5049.Yi → RowsA.Gap5049.S → RowsA.Gap5049.x0Num → RowsA.Gap5.parseRow → RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via RowsA.Gap5049.Yi → RowsA.Gap5049.S → RowsA.Gap5049.x0Num → RowsA.Gap5.parseRow → RowsA.Gap5.parseRow? → «…» → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+FAILED `RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `RowsA.Gap5049.chkNewton_ok._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (RowsA.Gap5049.chkNewton RowsA.Gap5049.S RowsA.Gap5049.x0Num (RowsA.Gap5.tbl RowsA.Gap5049.Yi) RowsA.Gap5049.qB
+          RowsA.Gap5049.ynB RowsA.Gap5049.etaB =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide
+      (∀ (i : Fin _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+        ↑(∑ j,
+                |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                    RowsA.Gap5.look
+                      (RowsA.Gap5.tbl
+                        (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                          RowsA.Gap5.look
+                            (RowsA.Gap5.tbl
+                              (_kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                      i j|) /
+            (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+          RowsA.Gap5049.qB) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kt.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide
+      (∀ (i : Fin _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+        ↑(∑ j,
+                |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                    RowsA.Gap5.look
+                      (RowsA.Gap5.tbl
+                        (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                          RowsA.Gap5.look
+                            (RowsA.Gap5.tbl
+                              (_kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                      i j|) /
+            (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+          RowsA.Gap5049.qB) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow → _kta.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.chkNewton_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide
+      (∀ (i : Fin _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.nf),
+        ↑(∑ j,
+                |(if i = j then ↑(2 ^ 60) * ↑(10 ^ 64) else 0) -
+                    RowsA.Gap5.look
+                      (RowsA.Gap5.tbl
+                        (RowsA.Gap5.look (RowsA.Gap5.tbl RowsA.Gap5049.Yi) *
+                          RowsA.Gap5.look
+                            (RowsA.Gap5.tbl
+                              (_kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.S.JacY fun t =>
+                                _kts.F2_RowsA_Gap5_Gap5049_0.RowsA.Gap5049.x0Num.getD t 0))))
+                      i j|) /
+            (↑(2 ^ 60) * ↑(10 ^ 64)) ≤
+          RowsA.Gap5049.qB) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via RowsA.Gap5049.Yi → RowsA.Gap5049.YNum → RowsA.Gap5.parseMat → RowsA.Gap5.parseMat? → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via RowsA.Gap5049.Yi → RowsA.Gap5049.S → RowsA.Gap5049.x0Num → RowsA.Gap5.parseRow → RowsA.Gap5.parseRow? → String.toInt? → String.Slice.toInt? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via RowsA.Gap5049.Yi → RowsA.Gap5049.S → RowsA.Gap5049.x0Num → RowsA.Gap5.parseRow → RowsA.Gap5.parseRow? → «…» → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+maxrss_kb 14389180
+rc=0 secs=182

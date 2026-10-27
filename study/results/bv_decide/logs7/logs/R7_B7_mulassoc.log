@@ -1,0 +1,9 @@
+bvs mulassoc_3 #1: 173 nodes, 491 clauses, 173 vars; 326 steps, 10187 hints, 1 chunks; solve 20 ms, prep+defs 37 ms; kernel: base 169 ms, chunks 1257 ms (max 1257 ms); total 1488 ms
+bvs: added mulassoc_3.bvs4 (24 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulassoc_4 #1: 344 nodes, 995 clauses, 344 vars; 1888 steps, 117903 hints, 6 chunks; solve 43 ms, prep+defs 430 ms; kernel: base 398 ms, chunks 15146 ms (max 2640 ms); total 16031 ms
+bvs: added mulassoc_4.bvs4 (226 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulassoc_5 #1: 575 nodes, 1679 clauses, 575 vars; 6837 steps, 303653 hints, 16 chunks; solve 129 ms, prep+defs 1344 ms; kernel: base 740 ms, chunks 44592 ms (max 4021 ms); total 46854 ms
+bvs: added mulassoc_5.bvs4 (876 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulassoc_6 #1: 866 nodes, 2543 clauses, 866 vars; 26842 steps, 1155769 hints, 59 chunks; solve 460 ms, prep+defs 5408 ms; kernel: base 1795 ms, chunks 192825 ms (max 3910 ms); total 200693 ms
+bvs: added mulassoc_6.bvs4 (8892 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=276.97 s user=276.76 s maxrss=2928988 KB

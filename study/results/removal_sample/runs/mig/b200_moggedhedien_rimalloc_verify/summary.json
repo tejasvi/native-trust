@@ -1,0 +1,94 @@
+{
+ "name": "b200_moggedhedien_rimalloc_verify",
+ "pkg": "/home/ntbuild/repos_s/moggedhedien_rimalloc/verify",
+ "toolchain": "v4.30.0",
+ "uses": 12,
+ "replaced": 3,
+ "replaced_known": 3,
+ "replaced_unknown": 0,
+ "replaced_facts": 3,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 200: EXPENSIVE (no blocker, but the kernel did not finish within 200 thousand heartbeats (`set_option nativeTrust.ke)": 9
+ },
+ "native_axioms_before": 12,
+ "native_axioms_after": 9,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 12,
+ "native_dependent_decls_after": 9,
+ "rewritten_decls": 3,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 36.25,
+   "cpu": 36.2,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 34.45,
+  "cpu": 34.5,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "time1": {
+  "wall": 34.75,
+  "cpu": 34.8,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 17.63,
+  "cpu": 17.6,
+  "n_built": 1,
+  "peak_lean": 1,
+  "peak_rss_gb": 0.4,
+  "peak_rss_sum_gb": 0.4,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "fact_budget": 200,
+ "audit": {
+  "tags": {
+   "EXPENSIVE": 9,
+   "REPLACEABLE": 3
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  34.0,
+  34.0
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

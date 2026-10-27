@@ -1,0 +1,2 @@
+bvs mul3_w8 #1: 152 nodes, 431 clauses, 152 vars; 150 steps, 2051 hints, 1 chunks; solve 15 ms, prep+defs 9 ms; kernel: base 119 ms, chunks 334 ms (max 334 ms); total 481 ms
+bvs: added mul3_w8.bvs4 (8 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

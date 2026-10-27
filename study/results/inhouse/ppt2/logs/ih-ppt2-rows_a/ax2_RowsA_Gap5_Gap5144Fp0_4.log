@@ -1,0 +1,119 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap5_Gap5144Fp0_4.lean
+NT start RowsA.Gap5144F.p0.chk5_ok._native.native_decide.ax_1_1
+NT nested RowsA.Gap5144F.p0.chk5_ok._native.native_decide.ax_1_1 ms=445 rebuilt_defs=1 visited=8062
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144.VreS
+NT copy RowsA.Gap5144.VreS defn_ms=722 eq_ms=2599 congr=true
+NT copying RowsA.Gap5144.VreT
+NT copy RowsA.Gap5144.VreT defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144.VimS
+NT copy RowsA.Gap5144.VimS defn_ms=723 eq_ms=2599 congr=true
+NT copying RowsA.Gap5144.VimT
+NT copy RowsA.Gap5144.VimT defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144.Vz
+NT copy RowsA.Gap5144.Vz defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144M.VzFlat
+NT copy RowsA.Gap5144M.VzFlat defn_ms=0 eq_ms=1 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.YT
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.YT defn_ms=0 eq_ms=0 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.ent2
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.ent2 defn_ms=0 eq_ms=0 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.A5m
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.A5m defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144M.natA
+NT copy RowsA.Gap5144M.natA defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.rows5S
+NT copy RowsA.Gap5144F.p0.rows5S defn_ms=3 eq_ms=3 congr=true
+NT copying RowsA.Gap5144F.p0.rows5A
+NT copy RowsA.Gap5144F.p0.rows5A defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.sel5
+NT copy RowsA.Gap5144F.p0.sel5 defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.X5S0
+NT copy RowsA.Gap5144F.p0.X5S0 defn_ms=668 eq_ms=2561 congr=true
+NT copying RowsA.Gap5144F.p0.X5S1
+NT copy RowsA.Gap5144F.p0.X5S1 defn_ms=718 eq_ms=2698 congr=true
+NT copying RowsA.Gap5144F.p0.X5S2
+NT copy RowsA.Gap5144F.p0.X5S2 defn_ms=732 eq_ms=2686 congr=true
+NT copying RowsA.Gap5144F.p0.X5b
+NT copy RowsA.Gap5144F.p0.X5b defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5144F.p0.X5n
+NT copy RowsA.Gap5144F.p0.X5n defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=18776 copies=25 copy_kernel_ms=16719 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1 structure all-by-index length=792 pieces=8
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=10 bounded=true copy_ms=4 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=1 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144.VreS
+NT copy RowsA.Gap5144.VreS defn_ms=685 eq_ms=2745 congr=true
+NT copying RowsA.Gap5144.VreT
+NT copy RowsA.Gap5144.VreT defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144.VimS
+NT copy RowsA.Gap5144.VimS defn_ms=715 eq_ms=2806 congr=true
+NT copying RowsA.Gap5144.VimT
+NT copy RowsA.Gap5144.VimT defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5144.Vz
+NT copy RowsA.Gap5144.Vz defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5144M.VzFlat
+NT copy RowsA.Gap5144M.VzFlat defn_ms=0 eq_ms=1 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.YT
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.YT defn_ms=0 eq_ms=0 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.ent2
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.ent2 defn_ms=1 eq_ms=0 congr=true
+NT copying _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.A5m
+NT copy _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.A5m defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5144M.natA
+NT copy RowsA.Gap5144M.natA defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.rows5S
+NT copy RowsA.Gap5144F.p0.rows5S defn_ms=1 eq_ms=3 congr=true
+NT copying RowsA.Gap5144F.p0.rows5A
+NT copy RowsA.Gap5144F.p0.rows5A defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5144F.p0.sel5
+NT copy RowsA.Gap5144F.p0.sel5 defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.X5S0
+NT copy RowsA.Gap5144F.p0.X5S0 defn_ms=754 eq_ms=2753 congr=true
+NT copying RowsA.Gap5144F.p0.X5S1
+NT copy RowsA.Gap5144F.p0.X5S1 defn_ms=716 eq_ms=2813 congr=true
+NT copying RowsA.Gap5144F.p0.X5S2
+NT copy RowsA.Gap5144F.p0.X5S2 defn_ms=720 eq_ms=2675 congr=true
+NT copying RowsA.Gap5144F.p0.X5b
+NT copy RowsA.Gap5144F.p0.X5b defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5144F.p0.X5n
+NT copy RowsA.Gap5144F.p0.X5n defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5144Fp0_4.RowsA.Gap5144F.p0.chk5_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=13 bounded=false copy_ms=19440 copies=28 copy_kernel_ms=17397 fast_lits=0 string_args=false
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 46329192
+rc=134 secs=231

@@ -1,0 +1,122 @@
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 141 ms; peak RSS: bv_decide 1052 MiB, kernel route 1071 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lh]: bv_decide 32 ms; 388 nodes, 875 clauses, 233 LRAT steps, 4973 hints, 1 chunks; SAT 47 ms, data 15 ms; kernel: base 347 ms, chunks 604 ms (max 604 ms), assembly 9 ms; total 1205 ms; peak RSS: bv_decide 1072 MiB, kernel route 1176 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lb]: bv_decide 25 ms; 404 nodes, 923 clauses, 249 LRAT steps, 6013 hints, 1 chunks; SAT 51 ms, data 18 ms; kernel: base 388 ms, chunks 701 ms (max 701 ms), assembly 10 ms; total 1344 ms; peak RSS: bv_decide 1074 MiB, kernel route 1193 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lhu]: bv_decide 23 ms; 143 nodes, 284 clauses, 95 LRAT steps, 222 hints, 1 chunks; SAT 17 ms, data 4 ms; kernel: base 144 ms, chunks 73 ms (max 73 ms), assembly 3 ms; total 402 ms; peak RSS: bv_decide 1193 MiB, kernel route 1201 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lbu]: bv_decide 23 ms; 135 nodes, 284 clauses, 95 LRAT steps, 222 hints, 1 chunks; SAT 18 ms, data 4 ms; kernel: base 136 ms, chunks 65 ms (max 65 ms), assembly 3 ms; total 381 ms; peak RSS: bv_decide 1201 MiB, kernel route 1198 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_addw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 10 ms; peak RSS: bv_decide 1101 MiB, kernel route 1101 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_addiw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 128 ms; peak RSS: bv_decide 1101 MiB, kernel route 1101 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_subw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_mulw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_divw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_divuw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_remw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_remuw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sllw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 10 ms; peak RSS: bv_decide 1102 MiB, kernel route 1102 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_slliw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 131 ms; peak RSS: bv_decide 1102 MiB, kernel route 1103 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_srlw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 10 ms; peak RSS: bv_decide 1103 MiB, kernel route 1103 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_srliw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 126 ms; peak RSS: bv_decide 1103 MiB, kernel route 1103 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sraw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 1069 MiB, kernel route 1069 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sraiw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 130 ms; peak RSS: bv_decide 1069 MiB, kernel route 1077 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_rolw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1077 MiB, kernel route 1077 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_rorw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1077 MiB, kernel route 1077 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_roriw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 126 ms; peak RSS: bv_decide 1077 MiB, kernel route 1078 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_packw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 11 ms; peak RSS: bv_decide 1078 MiB, kernel route 1078 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_lui]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 123 ms; peak RSS: bv_decide 1078 MiB, kernel route 1078 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_cpop]: bv_decide 28 ms; 32674 nodes, 97733 clauses, 49361 LRAT steps, 276776 hints, 28 chunks; SAT 5316 ms, data 1847 ms; kernel: base 39568 ms, chunks 105719 ms (max 5804 ms), assembly 1693 ms; total 158878 ms; peak RSS: bv_decide 1078 MiB, kernel route 9053 MiB
+RealK/Combine.lean:1745:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_cpopw]: bv_decide 57 ms; 8258 nodes, 24485 clauses, 10362 LRAT steps, 59835 hints, 6 chunks; SAT 941 ms, data 417 ms; kernel: base 10782 ms, chunks 20152 ms (max 4401 ms), assembly 326 ms; total 33019 ms; peak RSS: bv_decide 1634 MiB, kernel route 3364 MiB
+RealK/Combine.lean:1746:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_clz]: bv_decide 58 ms; 2727 nodes, 7892 clauses, 313 LRAT steps, 3936 hints, 1 chunks; SAT 186 ms, data 56 ms; kernel: base 6179 ms, chunks 1917 ms (max 1917 ms), assembly 9 ms; total 8436 ms; peak RSS: bv_decide 1492 MiB, kernel route 2558 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_clzw]: bv_decide 58 ms; 1259 nodes, 3488 clauses, 213 LRAT steps, 1824 hints, 1 chunks; SAT 80 ms, data 24 ms; kernel: base 2076 ms, chunks 702 ms (max 702 ms), assembly 5 ms; total 2963 ms; peak RSS: bv_decide 1764 MiB, kernel route 1837 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_ctz]: bv_decide 60 ms; 2727 nodes, 7892 clauses, 313 LRAT steps, 3936 hints, 1 chunks; SAT 193 ms, data 57 ms; kernel: base 5994 ms, chunks 1857 ms (max 1857 ms), assembly 9 ms; total 8200 ms; peak RSS: bv_decide 1830 MiB, kernel route 2551 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_ctzw]: bv_decide 91 ms; 1259 nodes, 3488 clauses, 213 LRAT steps, 1824 hints, 1 chunks; SAT 117 ms, data 25 ms; kernel: base 2108 ms, chunks 684 ms (max 684 ms), assembly 5 ms; total 3047 ms; peak RSS: bv_decide 1767 MiB, kernel route 1840 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_slt]: bv_decide 61 ms; 1038 nodes, 2630 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 72 ms, data 15 ms; kernel: base 986 ms, chunks 66 ms (max 66 ms), assembly 3 ms; total 1227 ms; peak RSS: bv_decide 1833 MiB, kernel route 1832 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sltu]: bv_decide 38 ms; 1026 nodes, 2594 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 56 ms, data 14 ms; kernel: base 875 ms, chunks 65 ms (max 65 ms), assembly 3 ms; total 1066 ms; peak RSS: bv_decide 1443 MiB, kernel route 1630 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_slti]: bv_decide 58 ms; 1144 nodes, 2948 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 54 ms, data 15 ms; kernel: base 1058 ms, chunks 64 ms (max 64 ms), assembly 3 ms; total 1376 ms; peak RSS: bv_decide 1630 MiB, kernel route 1670 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sltiu]: bv_decide 59 ms; 1132 nodes, 2912 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 55 ms, data 16 ms; kernel: base 1061 ms, chunks 66 ms (max 66 ms), assembly 3 ms; total 1387 ms; peak RSS: bv_decide 1670 MiB, kernel route 1668 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_bext]: bv_decide 58 ms; 762 nodes, 1802 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 50 ms, data 12 ms; kernel: base 810 ms, chunks 62 ms (max 62 ms), assembly 2 ms; total 1011 ms; peak RSS: bv_decide 1670 MiB, kernel route 1668 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_bexti]: bv_decide 58 ms; 704 nodes, 1802 clauses, 96 LRAT steps, 224 hints, 1 chunks; SAT 49 ms, data 11 ms; kernel: base 821 ms, chunks 63 ms (max 63 ms), assembly 3 ms; total 1138 ms; peak RSS: bv_decide 1624 MiB, kernel route 1621 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sextb]: bv_decide 55 ms; 460 nodes, 923 clauses, 249 LRAT steps, 6013 hints, 1 chunks; SAT 63 ms, data 14 ms; kernel: base 390 ms, chunks 675 ms (max 675 ms), assembly 7 ms; total 1225 ms; peak RSS: bv_decide 1455 MiB, kernel route 1577 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_sexth]: bv_decide 58 ms; 436 nodes, 875 clauses, 233 LRAT steps, 4973 hints, 1 chunks; SAT 62 ms, data 12 ms; kernel: base 355 ms, chunks 591 ms (max 591 ms), assembly 6 ms; total 1103 ms; peak RSS: bv_decide 1577 MiB, kernel route 1574 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_zexth]: bv_decide 40 ms; 191 nodes, 284 clauses, 95 LRAT steps, 222 hints, 1 chunks; SAT 37 ms, data 3 ms; kernel: base 146 ms, chunks 61 ms (max 61 ms), assembly 3 ms; total 303 ms; peak RSS: bv_decide 1564 MiB, kernel route 1564 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_packh]: bv_decide 40 ms; 255 nodes, 284 clauses, 95 LRAT steps, 222 hints, 1 chunks; SAT 42 ms, data 3 ms; kernel: base 152 ms, chunks 71 ms (max 71 ms), assembly 3 ms; total 324 ms; peak RSS: bv_decide 1564 MiB, kernel route 1562 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_srai]: bv_decide 40 ms; 5033 nodes, 14792 clauses, 1697 LRAT steps, 68841 hints, 4 chunks; SAT 511 ms, data 186 ms; kernel: base 5741 ms, chunks 13075 ms (max 3903 ms), assembly 45 ms; total 19819 ms; peak RSS: bv_decide 1473 MiB, kernel route 2560 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_srli]: bv_decide 61 ms; 4535 nodes, 13298 clauses, 1884 LRAT steps, 44724 hints, 3 chunks; SAT 399 ms, data 151 ms; kernel: base 5232 ms, chunks 8612 ms (max 3813 ms), assembly 55 ms; total 14708 ms; peak RSS: bv_decide 1838 MiB, kernel route 2467 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_andi]: bv_decide 60 ms; 525 nodes, 1094 clauses, 315 LRAT steps, 696 hints, 1 chunks; SAT 48 ms, data 10 ms; kernel: base 479 ms, chunks 272 ms (max 272 ms), assembly 8 ms; total 1004 ms; peak RSS: bv_decide 1679 MiB, kernel route 1677 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.sextw_ori]: bv_decide 42 ms; 525 nodes, 1094 clauses, 315 LRAT steps, 696 hints, 1 chunks; SAT 44 ms, data 10 ms; kernel: base 506 ms, chunks 262 ms (max 262 ms), assembly 8 ms; total 1000 ms; peak RSS: bv_decide 1557 MiB, kernel route 1613 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_addw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 15 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_addiw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 15 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_roriw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_srliw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_subw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 17 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_mulw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 18 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_divw]: bv_decide 5 ms; closed by the preprocessing of bv_decide (no SAT call); total 26 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_divuw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 21 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_remw]: bv_decide 5 ms; closed by the preprocessing of bv_decide (no SAT call); total 23 ms; peak RSS: bv_decide 1559 MiB, kernel route 1559 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_remuw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 18 ms; peak RSS: bv_decide 1513 MiB, kernel route 1513 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_sllw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1514 MiB, kernel route 1514 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_srlw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1514 MiB, kernel route 1514 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_sraw]: bv_decide 58 ms; 3460 nodes, 9803 clauses, 1946 LRAT steps, 54704 hints, 3 chunks; SAT 398 ms, data 142 ms; kernel: base 3715 ms, chunks 10669 ms (max 3682 ms), assembly 57 ms; total 15136 ms; peak RSS: bv_decide 1515 MiB, kernel route 2257 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_rolw]: bv_decide 67 ms; 5804 nodes, 16835 clauses, 3598 LRAT steps, 94456 hints, 5 chunks; SAT 776 ms, data 271 ms; kernel: base 6499 ms, chunks 23839 ms (max 5262 ms), assembly 94 ms; total 31759 ms; peak RSS: bv_decide 2096 MiB, kernel route 2807 MiB
+RealK/Combine.lean:2041:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_rorw]: bv_decide 43 ms; 5804 nodes, 16835 clauses, 3937 LRAT steps, 102081 hints, 6 chunks; SAT 820 ms, data 277 ms; kernel: base 6434 ms, chunks 25875 ms (max 5209 ms), assembly 164 ms; total 33804 ms; peak RSS: bv_decide 1590 MiB, kernel route 2849 MiB
+RealK/Combine.lean:2044:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_sraiw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_slliuw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_clzw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_ctzw]: bv_decide 2 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_cpopw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_zextw_sextw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_addw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_addiw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 15 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_roriw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_srliw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_subw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 17 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_mulw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 18 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_divw]: bv_decide 5 ms; closed by the preprocessing of bv_decide (no SAT call); total 26 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_divuw]: bv_decide 4 ms; closed by the preprocessing of bv_decide (no SAT call); total 21 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_remw]: bv_decide 5 ms; closed by the preprocessing of bv_decide (no SAT call); total 23 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_remuw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 17 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_sllw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 16 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_srlw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 17 ms; peak RSS: bv_decide 1643 MiB, kernel route 1643 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_sraw]: bv_decide 60 ms; 3460 nodes, 9803 clauses, 1946 LRAT steps, 54704 hints, 3 chunks; SAT 405 ms, data 158 ms; kernel: base 3778 ms, chunks 10766 ms (max 3702 ms), assembly 53 ms; total 15315 ms; peak RSS: bv_decide 1640 MiB, kernel route 2358 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_rolw]: bv_decide 228 ms; 5804 nodes, 16835 clauses, 3598 LRAT steps, 94456 hints, 5 chunks; SAT 815 ms, data 273 ms; kernel: base 6474 ms, chunks 24032 ms (max 5251 ms), assembly 96 ms; total 32081 ms; peak RSS: bv_decide 2197 MiB, kernel route 2917 MiB
+RealK/Combine.lean:2115:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_rorw]: bv_decide 97 ms; 5804 nodes, 16835 clauses, 3937 LRAT steps, 102081 hints, 6 chunks; SAT 817 ms, data 293 ms; kernel: base 6483 ms, chunks 25488 ms (max 5122 ms), assembly 144 ms; total 33508 ms; peak RSS: bv_decide 1969 MiB, kernel route 2957 MiB
+RealK/Combine.lean:2118:4: error: (deterministic) timeout at `«abstract nested proofs»`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_sraiw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 14 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_slliuw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_clzw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_ctzw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_cpopw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 13 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+bv_kdecide [_private.RealK.Combine.0.Veir.RISCV.drop_sextw_zextw]: bv_decide 3 ms; closed by the preprocessing of bv_decide (no SAT call); total 12 ms; peak RSS: bv_decide 1755 MiB, kernel route 1755 MiB
+RealK/Combine.lean:3167:7: error(lean.unknownIdentifier): Unknown identifier `sextw_cpop`
+RealK/Combine.lean:3159:7: error(lean.unknownIdentifier): Unknown identifier `sextw_cpopw`
+RealK/Combine.lean:3121:7: error(lean.unknownIdentifier): Unknown identifier `drop_sextw_rolw`
+RealK/Combine.lean:3122:7: error(lean.unknownIdentifier): Unknown identifier `drop_sextw_rorw`
+RealK/Combine.lean:3093:7: error(lean.unknownIdentifier): Unknown identifier `drop_zextw_rolw`
+RealK/Combine.lean:3094:7: error(lean.unknownIdentifier): Unknown identifier `drop_zextw_rorw`

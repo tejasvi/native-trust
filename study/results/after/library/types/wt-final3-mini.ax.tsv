@@ -1,0 +1,7 @@
+wt-final3-mini	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+wt-final3-mini	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+wt-final3-mini	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+wt-final3-mini	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+wt-final3-mini	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+wt-final3-mini	scripts.probe-fn-portable-line	-			NOT_BUILT						
+wt-final3-mini	Compiler.LegacyStoreCarryChecks	Minidregg.Compiler.LegacyStoreCarryChecks.enrolled_carry._native.native_decide.ax_1_1	native_decide	False	PROVED		19	13904796	141		nt_lines=86 last=pieces=1

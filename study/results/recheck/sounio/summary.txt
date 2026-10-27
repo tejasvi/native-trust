@@ -1,0 +1,6 @@
+name=sounio toolchain=v4.30.0-rc2 sampled=30 proved_again=30 failed=0 compile_rc=0 compile_s=565
+export_rc=0 export_lines=102265 export_s=1
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 106.02 s 10752656 KB
+con-ron_rc=2 :: Command exited with non-zero status 2 | con-ron: 58.15 s 16920224 KB
+checkers_s=164
+VERDICT nanoda=PASS(1953 decls) con-ron=FAIL(0 decls) kernel_theorems=30

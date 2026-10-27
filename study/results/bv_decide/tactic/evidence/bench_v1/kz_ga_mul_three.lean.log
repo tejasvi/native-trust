@@ -1,0 +1,2 @@
+bvs ga_mul_three #1: 152 nodes, 431 clauses, 152 vars; 150 steps, 2051 hints, 1 chunks; solve 15 ms, prep+defs 9 ms; kernel: base 114 ms, chunks 313 ms (max 313 ms); total 455 ms
+bvs: added ga_mul_three.bvs4 (8 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

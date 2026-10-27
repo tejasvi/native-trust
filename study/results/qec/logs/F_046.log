@@ -1,0 +1,4 @@
+kernelize: `nty_Z_5_1_0.kernel` proves the statement of `nty_Z_5_1_0` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (12899 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 12913 ms in total.
+time 14.43 s wall 13.97 s user 4224240 KB
+exit 0

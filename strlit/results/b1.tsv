@@ -1,0 +1,9 @@
+## summary.v4.34.0-rc2.tsv (reconstructed from logs)
+a_1000_ubs_dk	TIME 0.49 s 534564 KB	rc=0
+dw_1000_ubs_dk	TIME 21.19 s 4629164 KB	rc=0
+dw_250_ubs_dk	TIME 1.61 s 736572 KB	rc=0
+dw_500_ubs_dk	TIME 5.07 s 1520540 KB	rc=0
+rep8_1000_ubs_dk	TIME 0.70 s 589744 KB	rc=0
+rep8_250_ubs_dk	TIME 0.27 s 506204 KB	rc=0
+rep8_500_ubs_dk	TIME 0.47 s 532448 KB	rc=0
+rnd_1000_ubs_dk	TIME 21.26 s 4662040 KB	rc=0

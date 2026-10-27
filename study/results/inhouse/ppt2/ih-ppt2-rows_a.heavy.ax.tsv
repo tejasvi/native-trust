@@ -1,0 +1,18 @@
+ih-ppt2-rows_a	RowsA.Gap179.Gap179SymCCNR5	-			NOT_BUILT						
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144	RowsA.Gap5144.φp._native.native_decide.ax_1	native_decide	True	PROVED		0	3785524	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp0	RowsA.Gap5144F.p0.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3798968	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp1	RowsA.Gap5144F.p1.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3798980	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp2	RowsA.Gap5144F.p2.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3801432	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp3	RowsA.Gap5144F.p3.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3802124	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp4	RowsA.Gap5144F.p4.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3798992	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap5.Gap5144Fp5	RowsA.Gap5144F.p5.φq._native.native_decide.ax_1	native_decide	True	PROVED		0	3798992	2		nt_lines=5 last=quick whole-term attempt proved it
+ih-ppt2-rows_a	RowsA.Gap179V.V179RerunBn6	RowsA.Gap179V.rerun_Bn6_cover._native.native_decide.ax_1	native_decide	False	ERROR	memory	7	96390432	329		nt_lines=63 last=blockers_ms=12 bounded=false copy_ms=36 copies=16 copy_kernel_ms=15 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap179V.V179RerunS6stdstdtwo	RowsA.Gap179V.rerun_S6stdstdtwo_sep._native.native_decide.ax_1	native_decide	False	ERROR	memory	262	96357640	575		nt_lines=107 last=blockers_ms=9 bounded=false copy_ms=24 copies=18 copy_kernel_ms=10 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Row021	RowsA.Row021.rank1._native.native_decide.ax_1_3	native_decide	False	PROVED		0	87552476	354		nt_lines=7 last=pieces=1
+ih-ppt2-rows_a	RowsA.Gap179V.V179RerunBn8	RowsA.Gap179V.rerun_Bn8_sep._native.native_decide.ax_1	native_decide	False	PROVED		7	84674728	1016		nt_lines=114 last=pieces=5
+ih-ppt2-rows_a	RowsA.Gap179fV.F9Pairs3	RowsA.Gap179fV.F9.pairs_ok3._native.native_decide.ax_1	native_decide	False	ERROR	memory	2543	96633704	287		nt_lines=137 last=blockers_ms=13 bounded=false copy_ms=3318 copies=34 copy_kernel_ms=2777 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap179fV.F9Alg	RowsA.Gap179fV.F9.basis_indep._native.native_decide.ax_1	native_decide	False	ERROR	memory	0	96356560	360		nt_lines=7 last=blockers_ms=3 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap179h.H179Classes	RowsA.Gap179h.cls_3b_6._native.native_decide.ax_1	native_decide	False	ERROR	memory	7	96398064	267		nt_lines=79 last=blockers_ms=12 bounded=false copy_ms=28 copies=18 copy_kernel_ms=7 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap179V.V179RerunAS1	RowsA.Gap179V.rerunA_shard1._native.native_decide.ax_1	native_decide	False	ERROR	memory	14	96345088	283		nt_lines=21 last=blockers_ms=6 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap177.G177Min	RowsA.Gap177.table_minima._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	96419448	744		nt_lines=20 last=blockers_ms=6 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-ppt2-rows_a	RowsA.Gap179fV.F9Alg	RowsA.Gap179fV.F9.alg_plain._native.native_decide.ax_1	native_decide	False	ERROR	memory	6	96361960	300		nt_lines=29 last=blockers_ms=3 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

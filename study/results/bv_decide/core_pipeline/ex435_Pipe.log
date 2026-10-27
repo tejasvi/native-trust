@@ -1,0 +1,6 @@
+Pipe.lean:9:17: warning: Definition `KC.Std.Tactic.BVDecide.instHashableBVBit` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+eval 33922 ms
+eval 41500 ms
+eval 68677 ms
+TIME wall=149.08 s user=143.55 s maxrss=16724004 KB

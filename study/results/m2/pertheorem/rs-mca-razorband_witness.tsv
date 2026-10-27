@@ -1,0 +1,16 @@
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_value._proof_1_1	KERNELIZED		0	6219512	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_pos._proof_1_1	KERNELIZED		0	6237428	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_expanded._proof_1_1	KERNELIZED		0	6228464	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_pos._proof_1_1	KERNELIZED		0	6229148	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_is_redundancy._proof_1_1	KERNELIZED		0	6075220	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_le_redundancy._proof_1_1	KERNELIZED		0	6209592	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_pos._proof_1_1	KERNELIZED		0	6194392	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_tight._proof_1_1	KERNELIZED		0	6236160	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.a_ge_k_plus_1._proof_1_1	KERNELIZED		0	6217900	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_value._proof_1_1	KERNELIZED		0	6181924	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_le_Gamma._proof_1_1	KERNELIZED		0	6236596	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_value._proof_1_1	KERNELIZED		0	6230280	4		1	2	
+rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localA_signature._proof_1_1	KERNELIZED		0	6205292	8		1	2	
+rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localB_signature._proof_1_1	KERNELIZED		0	6229000	8		1	2	
+rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localSignatureCount_table._proof_1_1	KERNELIZED		0	6319268	9		1	2	
+rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localSignature_eq_classification._proof_1_1	KERNELIZED		0	6508120	11		1	2	

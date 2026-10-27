@@ -1,0 +1,1 @@
+trainverify-plain	/home/ntbuild/repos/tainverify_lean/trainverify	--from-results trainverify --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false

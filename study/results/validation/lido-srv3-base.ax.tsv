@@ -1,0 +1,45 @@
+lido-srv3-base	Tests.Verity.Deposit	-			NOT_BUILT						
+lido-srv3-base	Tests.Verity.LiveBeacon	-			NOT_BUILT						
+lido-srv3-base	Tests.Verity.LiveBeaconKernelProbe	-			NOT_BUILT						
+lido-srv3-base	Tests.Verity.RouterDeposit	-			NOT_BUILT						
+lido-srv3-base	Tests.Verity.WithdrawDepositableEther	-			NOT_BUILT						
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedCheckerRejectsUnboundedTime._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1569956	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.composition_eth_journal_load_bearing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1518576	1		nt_lines=4 last=eval_ms=4
+lido-srv3-base	LidoSRv3.Tests.AccountPackedWordsMutants	LidoSRv3.Tests.AccountPackedWordsMutants.sample_observe_balances._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1484080	1		nt_lines=4 last=eval_ms=2
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedRejectsPreCLOverflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1527916	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_has_authorized_frames._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1515964	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.MinFirstAmountTxMutants	LidoSRv3.Tests.MinFirstAmountTxMutants.reference_step._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2280412	1		nt_lines=4 last=eval_ms=5
+lido-srv3-base	LidoSRv3.Tests.MinFirstAmountTxMutants	LidoSRv3.Tests.MinFirstAmountTxMutants.dropHeadroomMin_is_detected._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2279272	1		nt_lines=4 last=eval_ms=3
+lido-srv3-base	LidoSRv3.Tests.MinFirstAmountTxMutants	LidoSRv3.Tests.MinFirstAmountTxMutants.floorShare_loses_progress._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2279276	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_inventory_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1478300	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.noOverflowCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571072	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.fullCheckerRejectsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1534152	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.parent_consolidation_value_load_bearing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1518436	1		nt_lines=4 last=eval_ms=3
+lido-srv3-base	LidoSRv3.Tests.TopupKeccakOracleMutants	LidoSRv3.Tests.TopupKeccakOracleMutants.sample_readArray_limits._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1863336	1		nt_lines=4 last=eval_ms=20
+lido-srv3-base	LidoSRv3.Tests.AllocCapacityPhase3Mutants	LidoSRv3.Tests.AllocCapacityPhase3Mutants.return_layout_mutant_breaks_actual_bridge._native.native_decide.ax_1_2	native_decide	False	PROVED		0	2288076	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.parent_deposit_load_bearing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1517116	1		nt_lines=4 last=eval_ms=3
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_mutant_total_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1516332	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.sourceDomainRejectsZeroEtherAndShares._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571024	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_has_unmodeled_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1516376	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedRejectsAprOverflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1570660	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.annualNoOverflowCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571632	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedRejectsDeviationOverflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1570856	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.AccountPackedWordsMutants	LidoSRv3.Tests.AccountPackedWordsMutants.sample_observe_unpacks._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1529452	1		nt_lines=4 last=eval_ms=2
+lido-srv3-base	LidoSRv3.Tests.TopupKeccakOracleMutants	LidoSRv3.Tests.TopupKeccakOracleMutants.sample_readArray_pending._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1861688	1		nt_lines=4 last=eval_ms=17
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.noPostCLOverflowCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571336	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.annualNoWithdrawalsAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1556400	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_mutation_nontrivial._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1518504	1		nt_lines=4 last=eval_ms=3
+lido-srv3-base	LidoSRv3.Tests.MinFirstAmountTxMutants	LidoSRv3.Tests.MinFirstAmountTxMutants.dropRemainingUpdate_is_detected._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2281408	1		nt_lines=4 last=eval_ms=4
+lido-srv3-base	LidoSRv3.Tests.AllocationTxMutants	LidoSRv3.Tests.AllocationTxMutants.type2_total_stake_boundary_rejects_summary_substitution._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2276624	1		nt_lines=4 last=eval_ms=6
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.noProrationOverflowCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1570384	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedRejectsOverflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571104	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.TopupKeccakOracleMutants	LidoSRv3.Tests.TopupKeccakOracleMutants.sample_parent_any_oracle_nonzero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1855696	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.parent_topup_load_bearing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1518092	1		nt_lines=4 last=eval_ms=3
+lido-srv3-base	LidoSRv3.Tests.AllocCapacityPhase3Mutants	LidoSRv3.Tests.AllocCapacityPhase3Mutants.selector_mutant_breaks_actual_bridge._native.native_decide.ax_1_2	native_decide	False	PROVED		0	2288264	1		nt_lines=4 last=eval_ms=0
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.correctedRejectsPendingCapOverflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571396	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.otherGuardsAcceptWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571428	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.witness_mutant_reduces_total._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1515672	1		nt_lines=4 last=eval_ms=2
+lido-srv3-base	LidoSRv3.Tests.TopupKeccakOracleMutants	LidoSRv3.Tests.TopupKeccakOracleMutants.sample_readArray_effective._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1861872	1		nt_lines=4 last=eval_ms=16
+lido-srv3-base	LidoSRv3.Tests.EthWorldMutants	LidoSRv3.Tests.EthWorldMutants.composition_consolidation_load_bearing._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1517764	1		nt_lines=4 last=eval_ms=4
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.noPendingCapOverflowCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571560	1		nt_lines=4 last=eval_ms=1
+lido-srv3-base	LidoSRv3.Tests.SanityEnvelopeMutants	LidoSRv3.Tests.SanityEnvelopeMutants.noZeroRateCheckAcceptsWitness._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1571672	1		nt_lines=4 last=eval_ms=1

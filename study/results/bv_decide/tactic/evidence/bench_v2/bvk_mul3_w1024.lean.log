@@ -1,0 +1,2 @@
+bv_kdecide [mul3_w1024]: bv_decide 36 ms; 23520 nodes, 67487 clauses, 105748 LRAT steps, 1671167 hints, 120 chunks; SAT 9828 ms, data 3669 ms; kernel: base 24931 ms, chunks 492104 ms (max 8365 ms), assembly 3883 ms; total 545915 ms; peak RSS: bv_decide 1547 MiB, kernel route 7261 MiB
+'mul3_w1024' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: declined: arena: expr constructor at capacity
+ [at theorem _ktr.RC.Sounio.OntologyELPlus.check_norm_compute._kernel.native_decide.ax_1_1.p_0, fold position 1533] (--verified) t=58.148s
+Command exited with non-zero status 2
+con-ron: 58.15 s 16920224 KB

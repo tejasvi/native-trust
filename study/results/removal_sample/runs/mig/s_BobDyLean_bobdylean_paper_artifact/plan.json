@@ -1,0 +1,308 @@
+{
+"plan": {
+"n_occ": 14,
+"affected": [],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"keep: FAILED/blocked (WellFounded.fix)": 13,
+"keep: ERROR/memory": 1
+}
+},
+"occs": [
+{
+"file": "Examples/ACME/WithDEO/Attack.lean",
+"start": 7097,
+"end": 7110,
+"line": 184,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Examples.ACME.WithDEO.Attack",
+"facts": [
+"_private.Examples.ACME.WithDEO.Attack.0.DY.Example.ACME.WithDEO.attacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/ACME/WithoutDEO/SanityChecks.lean",
+"start": 3547,
+"end": 3560,
+"line": 90,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Examples.ACME.WithoutDEO.SanityChecks",
+"facts": [
+"_private.Examples.ACME.WithoutDEO.SanityChecks.0.DY.Example.ACME.WithoutDEO.honestAttacker_properties._native.native_decide.ax_1_6"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/MerkleTree/SanityChecks.lean",
+"start": 4811,
+"end": 4824,
+"line": 119,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Examples.MerkleTree.SanityChecks",
+"facts": [
+"_private.Examples.MerkleTree.SanityChecks.0.DY.Example.MerkleTree.honestAttacker_properties._native.native_decide.ax_1_2"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/MerkleTree/SanityChecks.lean",
+"start": 10628,
+"end": 10641,
+"line": 271,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Examples.MerkleTree.SanityChecks",
+"facts": [
+"_private.Examples.MerkleTree.SanityChecks.0.DY.Example.MerkleTree.compromiseSigKeyAttacker_properties._native.native_decide.ax_1_3"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/Ratchet/SanityChecks.lean",
+"start": 5754,
+"end": 5767,
+"line": 140,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "Examples.Ratchet.SanityChecks",
+"facts": [
+"_private.Examples.Ratchet.SanityChecks.0.DY.Example.Ratchet.honestAttacker_properties._native.native_decide.ax_1_6"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/Ratchet/SanityChecks.lean",
+"start": 8832,
+"end": 8845,
+"line": 234,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "Examples.Ratchet.SanityChecks",
+"facts": [
+"_private.Examples.Ratchet.SanityChecks.0.DY.Example.Ratchet.compromiseStateMyTurnAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/Ratchet/SanityChecks.lean",
+"start": 11978,
+"end": 11991,
+"line": 328,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 6,
+"module": "Examples.Ratchet.SanityChecks",
+"facts": [
+"_private.Examples.Ratchet.SanityChecks.0.DY.Example.Ratchet.compromiseStateOtherTurnAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/Ratchet/SanityChecks.lean",
+"start": 22570,
+"end": 22583,
+"line": 603,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 7,
+"module": "Examples.Ratchet.SanityChecks",
+"facts": [
+"_private.Examples.Ratchet.SanityChecks.0.DY.Example.Ratchet.compromiseSigKeyAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDH/SanityChecks.lean",
+"start": 3288,
+"end": 3301,
+"line": 85,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 8,
+"module": "Examples.SignedDH.SanityChecks",
+"facts": [
+"_private.Examples.SignedDH.SanityChecks.0.DY.Example.SignedDH.honestAttacker_properties._native.native_decide.ax_1_6"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDH/SanityChecks.lean",
+"start": 7124,
+"end": 7137,
+"line": 200,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 9,
+"module": "Examples.SignedDH.SanityChecks",
+"facts": [
+"_private.Examples.SignedDH.SanityChecks.0.DY.Example.SignedDH.compromiseClientEphAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDH/SanityChecks.lean",
+"start": 12982,
+"end": 12995,
+"line": 351,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 10,
+"module": "Examples.SignedDH.SanityChecks",
+"facts": [
+"_private.Examples.SignedDH.SanityChecks.0.DY.Example.SignedDH.compromiseSigKeyAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDHKEM/SanityChecks.lean",
+"start": 4042,
+"end": 4055,
+"line": 97,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 11,
+"module": "Examples.SignedDHKEM.SanityChecks",
+"facts": [
+"_private.Examples.SignedDHKEM.SanityChecks.0.DY.Example.SignedDHKEM.honestAttacker_properties._native.native_decide.ax_1_6"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDHKEM/SanityChecks.lean",
+"start": 9289,
+"end": 9302,
+"line": 259,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 12,
+"module": "Examples.SignedDHKEM.SanityChecks",
+"facts": [
+"_private.Examples.SignedDHKEM.SanityChecks.0.DY.Example.SignedDHKEM.breakDhAndKemAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "Examples/SignedDHKEM/SanityChecks.lean",
+"start": 15559,
+"end": 15572,
+"line": 422,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 13,
+"module": "Examples.SignedDHKEM.SanityChecks",
+"facts": [
+"_private.Examples.SignedDHKEM.SanityChecks.0.DY.Example.SignedDHKEM.breakSigKeyAttacker_properties._native.native_decide.ax_1_7"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.fix)",
+"active": false,
+"new_col": 2,
+"new_end": 15
+}
+]
+}

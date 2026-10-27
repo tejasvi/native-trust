@@ -1,0 +1,19 @@
+## summary.v4.34.0-rc2.tsv
+start (TO=20) 22:03:56
+dw_2500_ubs_dk_nomrd	TIME 0.63 s 571612 KB	rc=1
+dw_2000_ubs_dk_nomrd	TIME 0.72 s 553072 KB	rc=1
+dw_3000_ubs_dk_nomrd	TIME 0.90 s 586864 KB	rc=1
+dw_3500_ubs_dk_nomrd	TIME 1.00 s 605988 KB	rc=1
+dw_4000_ubs_dk_nomrd	TIME 1.11 s 625032 KB	rc=1
+dw_5000_ubs_dk_nomrd	TIME 0.94 s 651296 KB	rc=1
+dw_6000_ubs_dk_nomrd	TIME 1.04 s 683004 KB	rc=1
+dw_1500_ubs_dk_nomrd	TIME 20.03 s 6480880 KB	rc=124
+dw_1500_ubs_dk_nomrd.v4.34.0-rc2.log	
+dw_2000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_2500_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_3000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_3500_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_4000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_5000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_6000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+end 22:04:16

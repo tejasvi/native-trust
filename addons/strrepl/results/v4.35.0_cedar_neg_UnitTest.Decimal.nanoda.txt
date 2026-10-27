@@ -1,0 +1,5 @@
+Error: export file declares unpermitted axiom "UnitTest.Decimal.test1._native.native_decide.ax_1_1"
+
+run with `-h` or `--help` for help
+Command exited with non-zero status 1
+nanoda: 0.18 s 27228 KB

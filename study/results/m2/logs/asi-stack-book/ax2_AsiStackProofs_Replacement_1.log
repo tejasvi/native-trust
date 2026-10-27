@@ -1,0 +1,42 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_AsiStackProofs_Replacement_1.lean
+NT start AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1
+NT nested AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1 ms=14 rebuilt_defs=0 visited=540
+NT _ktr.F2_AsiStackProofs_Replacement_1.AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0
+FAILED `AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (AsiStackProofs.Replacement.ReplacementRun AsiStackProofs.Replacement.replacementInitialState
+            AsiStackProofs.Replacement.failedReplacementEvents =
+          some AsiStackProofs.Replacement.failedReplacementFinalState) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_AsiStackProofs_Replacement_1.AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._kernel.native_decide.ax_1_1.p_0' has type
+    true = true
+  but it is expected to have type
+    decide
+        (AsiStackProofs.Replacement.ReplacementRun AsiStackProofs.Replacement.replacementInitialState
+            AsiStackProofs.Replacement.failedReplacementEvents =
+          some AsiStackProofs.Replacement.failedReplacementFinalState) =
+      true
+  
+  No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+FAILED `AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (AsiStackProofs.Replacement.ReplacementRun AsiStackProofs.Replacement.replacementInitialState
+          AsiStackProofs.Replacement.failedReplacementEvents =
+        some AsiStackProofs.Replacement.failedReplacementFinalState) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_AsiStackProofs_Replacement_1.AsiStackProofs.Replacement.failed_replacement_run_satisfies_exact_recovery_objective._kernel.native_decide.ax_1_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide
+      (AsiStackProofs.Replacement.ReplacementRun AsiStackProofs.Replacement.replacementInitialState
+          AsiStackProofs.Replacement.failedReplacementEvents =
+        some AsiStackProofs.Replacement.failedReplacementFinalState) =
+    true
+
+No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+maxrss_kb 1427368
+rc=0 secs=1

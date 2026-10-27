@@ -1,0 +1,34 @@
+`UnitTest.Decimal.test4._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test7._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test3._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test6._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test2._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test8._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test5._native.native_decide.ax_1_1`: no blocker
+`UnitTest.Decimal.test1._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test2._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test4._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test6._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test3._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test5._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test1._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test7._native.native_decide.ax_1_1`: no blocker
+`UnitTest.IPAddr.test8._native.native_decide.ax_1_1`: no blocker
+PROVED `UnitTest.Decimal.test1._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test1._kernel.native_decide.ax_1_1`: kernel_ms=38 native_axioms=1 rebuilt=0 copies=11 total_ms=307 acc_fallback=0
+PROVED `UnitTest.Decimal.test2._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test2._kernel.native_decide.ax_1_1`: kernel_ms=40 native_axioms=1 rebuilt=0 copies=0 total_ms=308 acc_fallback=0
+PROVED `UnitTest.Decimal.test3._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test3._kernel.native_decide.ax_1_1`: kernel_ms=39 native_axioms=1 rebuilt=0 copies=0 total_ms=310 acc_fallback=0
+PROVED `UnitTest.Decimal.test4._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test4._kernel.native_decide.ax_1_1`: kernel_ms=48 native_axioms=1 rebuilt=0 copies=0 total_ms=320 acc_fallback=0
+PROVED `UnitTest.Decimal.test5._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test5._kernel.native_decide.ax_1_1`: kernel_ms=39 native_axioms=1 rebuilt=0 copies=0 total_ms=321 acc_fallback=0
+PROVED `UnitTest.Decimal.test6._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test6._kernel.native_decide.ax_1_1`: kernel_ms=41 native_axioms=1 rebuilt=0 copies=0 total_ms=310 acc_fallback=0
+PROVED `UnitTest.Decimal.test7._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test7._kernel.native_decide.ax_1_1`: kernel_ms=35 native_axioms=1 rebuilt=0 copies=0 total_ms=303 acc_fallback=0
+PROVED `UnitTest.Decimal.test8._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.Decimal.test8._kernel.native_decide.ax_1_1`: kernel_ms=46 native_axioms=1 rebuilt=0 copies=0 total_ms=313 acc_fallback=0
+PROVED `UnitTest.IPAddr.test1._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test1._kernel.native_decide.ax_1_1`: kernel_ms=118 native_axioms=1 rebuilt=0 copies=27 total_ms=388 acc_fallback=0
+PROVED `UnitTest.IPAddr.test2._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test2._kernel.native_decide.ax_1_1`: kernel_ms=59 native_axioms=1 rebuilt=0 copies=0 total_ms=333 acc_fallback=0
+PROVED `UnitTest.IPAddr.test3._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test3._kernel.native_decide.ax_1_1`: kernel_ms=65 native_axioms=1 rebuilt=0 copies=0 total_ms=338 acc_fallback=0
+PROVED `UnitTest.IPAddr.test4._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test4._kernel.native_decide.ax_1_1`: kernel_ms=267 native_axioms=1 rebuilt=0 copies=0 total_ms=542 acc_fallback=0
+PROVED `UnitTest.IPAddr.test5._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test5._kernel.native_decide.ax_1_1`: kernel_ms=561 native_axioms=1 rebuilt=0 copies=0 total_ms=846 acc_fallback=0
+PROVED `UnitTest.IPAddr.test6._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test6._kernel.native_decide.ax_1_1`: kernel_ms=300 native_axioms=1 rebuilt=0 copies=0 total_ms=582 acc_fallback=0
+PROVED `UnitTest.IPAddr.test7._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test7._kernel.native_decide.ax_1_1`: kernel_ms=141 native_axioms=1 rebuilt=0 copies=0 total_ms=421 acc_fallback=0
+PROVED `UnitTest.IPAddr.test8._native.native_decide.ax_1_1` as `_ktr.CT.UnitTest.IPAddr.test8._kernel.native_decide.ax_1_1`: kernel_ms=106 native_axioms=1 rebuilt=0 copies=0 total_ms=396 acc_fallback=0
+maxrss_kb 1723128 secs 7.04
+rc=0

@@ -1,0 +1,6 @@
+name=longfellow-zk toolchain=v4.31.0 sampled=30 proved_again=30 failed=0 compile_rc=0 compile_s=797
+export_rc=0 export_lines=299354 export_s=3
+nanoda_rc=134 :: fatal runtime error: stack overflow, aborting | Command terminated by signal 6 | nanoda: 2.54 s 3501536 KB
+con-ron_rc=0 :: con-ron: accepted 4385 declarations (--verified) | con-ron: 48.28 s 23896564 KB
+checkers_s=51
+VERDICT nanoda=FAIL(0 decls) con-ron=PASS(4385 decls) kernel_theorems=30

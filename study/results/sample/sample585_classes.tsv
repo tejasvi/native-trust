@@ -1,0 +1,85 @@
+PoorlyDefinedBehaviour/lean4-study	PoorlyDefinedBehaviour_lean4-study/lean4dev	leanprover/lean4:v4.29.0-rc6	2
+zcash/ironwood	zcash_ironwood	leanprover/lean4:v4.30.0	47
+batmeezy918/chronofold	batmeezy918_chronofold	leanprover/lean4:v4.29.0	1
+jagg-ix/zil-lean	jagg-ix_zil-lean	leanprover/lean4:v4.31.0	6
+rusch95/cakec	rusch95_cakec/proofs/lean	leanprover/lean4:v4.29.0-rc7	4
+cedar-policy/cedar-spec	cedar-policy_cedar-spec/cedar-lean	leanprover/lean4:v4.35.0	4
+V-Sekai/TOOL_cloth_dynamics	V-Sekai_TOOL_cloth_dynamics/lean	leanprover/lean4:v4.29.1	47
+pandaman64/lean-regex	pandaman64_lean-regex/correctness	leanprover/lean4:v4.34.0-rc1	1
+WyattAu/OmniLaTeX-template	WyattAu_OmniLaTeX-template/specs/proofs	leanprover/lean4:v4.29.0	2
+fw-ai/nexus-cli	fw-ai_nexus-cli/packages/setup-cli/lean	leanprover/lean4:v4.23.0	13
+BatmansKitchen/bkctf-challenges-2026-public	-	NO_PACKAGE
+gobbleyourdong/open_problems	-	NO_PACKAGE
+Panta-Rhei-Research/taulib	Panta-Rhei-Research_taulib	leanprover/lean4:v4.28.0-rc1	263
+DeSciX/EGPT	DeSciX_EGPT/08_LEAN/EGPT	leanprover/lean4:v4.30.0-rc2	4
+DeSciX/EGPT	DeSciX_EGPT/08_LEAN	leanprover/lean4:v4.21.0-rc3	4
+anulum/director-ai	anulum_director-ai/formal/HaltMonitor	leanprover/lean4:v4.34.1	3
+jagg-ix/catept-main	jagg-ix_catept-main	leanprover/lean4:v4.29.0	15
+moggedhedien/rimalloc	moggedhedien_rimalloc/verify	leanprover/lean4:v4.30.0	3
+cslib-community/complexitylib	cslib-community_complexitylib	leanprover/lean4:v4.36.0-rc1	2
+shntnu/expected_ap	shntnu_expected_ap/lean	leanprover/lean4:v4.23.0-rc2	2
+AdaMartin18010/FormalScience	-	NO_PACKAGE
+nealmcb/openai-math-lean-tooling	-	NO_PACKAGE
+M32026/3d-sticky-kakeya	M32026_3d-sticky-kakeya	leanprover/lean4:v4.32.0-rc1	3
+opencompl/veir	opencompl_veir	leanprover/lean4:v4.35.0-rc4	2
+FawadHa1der/leanui	FawadHa1der_leanui	leanprover/lean4:v4.34.0	1
+briangmilnes/ScottLean4	briangmilnes_ScottLean4	leanprover/lean4:v4.32.2	2
+szl-holdings/lutar-lean	szl-holdings_lutar-lean	leanprover/lean4:v4.18.0	15
+parcadei/Continuous-Claude-v3	parcadei_Continuous-Claude-v3/proofs	leanprover/lean4:v4.26.0	11
+BobDyLean/bobdylean-paper-artifact	BobDyLean_bobdylean-paper-artifact	leanprover/lean4:v4.32.0	6
+petersm3/roae	-	NO_PACKAGE
+Provenance-Works/Radix	Provenance-Works_Radix	leanprover/lean4:v4.29.0-rc4	20
+toolate28/LogOS	toolate28_LogOS/lean	leanprover/lean4:v4.8.0	9
+Rob1Ham/btc-lean	Rob1Ham_btc-lean/spec/runners	leanprover/lean4:v4.35.0	3
+Rob1Ham/btc-lean	Rob1Ham_btc-lean/spec/core	leanprover/lean4:v4.35.0	23
+Rob1Ham/btc-lean	Rob1Ham_btc-lean/spec/proofs	leanprover/lean4:v4.35.0	43
+Rob1Ham/btc-lean	Rob1Ham_btc-lean/spec	leanprover/lean4:v4.35.0	78
+Natuvea/tacenta-core	Natuvea_tacenta-core/tacenta-model	leanprover/lean4:v4.31.0	21
+Natuvea/tacenta-core	Natuvea_tacenta-core/tacenta-proofs/translation	leanprover/lean4:v4.31.0	38
+Natuvea/tacenta-core	Natuvea_tacenta-core/tacenta-proofs	leanprover/lean4:v4.31.0	42
+mrrahman1517/lean-program-verification	mrrahman1517_lean-program-verification	leanprover/lean4:v4.25.0-rc2	1
+WyattAu/clawdius	WyattAu_clawdius	leanprover/lean4:4.28.0	1
+Theophilus1030/NeoMathlib	Theophilus1030_NeoMathlib	leanprover/lean4:v4.32.0	2
+Flaman55/StructuralSieve	Flaman55_StructuralSieve	leanprover/lean4:v4.35.0-rc2	4
+sun123zxy/ninegates-lean4	sun123zxy_ninegates-lean4	leanprover/lean4:v4.33.0	2
+dmbs335/pc-sast-lean	dmbs335_pc-sast-lean	leanprover/lean4:v4.12.0	45
+EQUENOS-2/Push-Limit-2	-	NO_PACKAGE
+bjoernkjoshanssen/clfa	bjoernkjoshanssen_clfa	leanprover/lean4:v4.28.0	8
+tejasvi/rank333-f2	-	NO_PACKAGE
+blentz/artifactsmmo	blentz_artifactsmmo/formal	leanprover/lean4:v4.30.0	7
+paiml/microgpt	-	NO_PACKAGE
+COINjecture-Network/COINjecture2.0	COINjecture-Network_COINjecture2.0/lean4	leanprover/lean4:v4.28.0	6
+UOR-Foundation/LexLean	UOR-Foundation_LexLean/bootstrap	leanprover/lean4:v4.32.1	1
+V-Sekai-fire/interactor-tool-godot-curvenet-archive	-	NO_PACKAGE
+femboy2112/lean-scratch2	-	NO_PACKAGE
+leanprover-community/physlib	leanprover-community_physlib	leanprover/lean4:v4.35.0	2
+justrach/codegraff	justrach_codegraff/lean-proofs	leanprover/lean4:v4.33.0	11
+dappalumbo91/FSOT-2.1-Neural	dappalumbo91_FSOT-2.1-Neural/formal	leanprover/lean4:v4.31.0	11
+ertwro/one_third_two_thirds	ertwro_one_third_two_thirds	leanprover/lean4:v4.28.0	3
+Th0rgal/turbo-lean	Th0rgal_turbo-lean/lean	leanprover/lean4:v4.35.0	3
+GZGavinZhao/LeanMenhir	GZGavinZhao_LeanMenhir	leanprover/lean4:v4.31.0	10
+ycmath/odd-flat-selector-count	ycmath_odd-flat-selector-count/lean/flatcarrier	leanprover/lean4:v4.31.0	3
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming	leanprover/lean4:v4.25.2	15
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming/Lean/SeparationLogic	leanprover/lean4:v4.25.2	8
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming/Lean/flocq	leanprover/lean4:v4.25.2	1
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming/Lean/auxlibs	leanprover/lean4:v4.25.2	3
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming/Lean/examples	leanprover/lean4:v4.25.2	1
+QinxiangCao/QualifiedCProgramming	QinxiangCao_QualifiedCProgramming/Lean/compcert_lib	leanprover/lean4:v4.25.2	2
+RianKoja/novacula	RianKoja_novacula	leanprover/lean4:v4.35.0	3
+V-Sekai-fire/interactor-spatial-oracle	V-Sekai-fire_interactor-spatial-oracle	leanprover/lean4:v4.30.0	7
+JacobAsmuth/qed	JacobAsmuth_qed	leanprover/lean4:v4.30.0	1
+clementefalcone/goya-ledger	clementefalcone_goya-ledger/formal	leanprover/lean4:v4.34.0-rc2	2
+igrep/lean-workshop	igrep_lean-workshop	leanprover/lean4:v4.29.1	1
+tejasvi/smale6-six-bodies-generic-v4	tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	leanprover/lean4:v4.35.0-rc3	484
+tejasvi/smale6-six-bodies-generic-v4	tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	leanprover/lean4:v4.35.0-rc3	2
+tejasvi/smale6-six-bodies-generic-v4	tejasvi_smale6-six-bodies-generic-v4/lean/full	leanprover/lean4:v4.35.0-rc3	8
+tejasvi/smale6-six-bodies-generic-v4	tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	leanprover/lean4:v4.35.0-rc3	8
+tejasvi/smale6-six-bodies-generic-v4	tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	leanprover/lean4:v4.35.0-rc3	1329
+emberian/minidregg	emberian_minidregg	leanprover/lean4:v4.30.0	66
+siddhartha-gadgil/PlasmaLean	siddhartha-gadgil_PlasmaLean	leanprover/lean4:v4.34.1	2
+lucasccordeiro/pytorch	-	NO_PACKAGE
+guillochon/lane-emden	-	NO_PACKAGE
+FrederickPu/Zag	FrederickPu_Zag	leanprover/lean4:v4.32.0	20
+swissyai/theotetus	swissyai_theotetus/physics_verifier	leanprover/lean4:v4.28.0	5
+mbrcic/ai-safety-formalization-atlas	mbrcic_ai-safety-formalization-atlas	leanprover/lean4:v4.33.0	1
+FormalizedFormalLogic/ProvabilityLogic	FormalizedFormalLogic_ProvabilityLogic	leanprover/lean4:v4.34.0	1

@@ -1,0 +1,133 @@
+{
+"plan": {
+"n_occ": 6,
+"affected": [
+"Proofs.ErrorHandling",
+"Proofs.SessionEstablishment"
+],
+"unmatched": [
+{
+"module": "Proofs.Serialization",
+"axiom": "Proofs.Serialization.readBe32_be32._native.bv_decide.ax_1_9",
+"tactic": "bv_decide",
+"range": "29:2:29:11",
+"parent": "Proofs.Serialization.readBe32_be32",
+"prange": "24:0:29:11"
+}
+],
+"n_unmatched": 1,
+"counts": {
+"try": 6
+}
+},
+"occs": [
+{
+"file": "Proofs/ErrorHandling.lean",
+"start": 3869,
+"end": 3882,
+"line": 94,
+"col": 64,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Proofs.ErrorHandling",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 64,
+"new_end": 78
+},
+{
+"file": "Proofs/ErrorHandling.lean",
+"start": 4011,
+"end": 4024,
+"line": 97,
+"col": 60,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Proofs.ErrorHandling",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 60,
+"new_end": 74
+},
+{
+"file": "Proofs/ErrorHandling.lean",
+"start": 4240,
+"end": 4253,
+"line": 102,
+"col": 69,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Proofs.ErrorHandling",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 69,
+"new_end": 83
+},
+{
+"file": "Proofs/ErrorHandling.lean",
+"start": 4364,
+"end": 4377,
+"line": 105,
+"col": 56,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Proofs.ErrorHandling",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 56,
+"new_end": 70
+},
+{
+"file": "Proofs/ErrorHandling.lean",
+"start": 4824,
+"end": 4837,
+"line": 116,
+"col": 47,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "Proofs.ErrorHandling",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 47,
+"new_end": 61
+},
+{
+"file": "Proofs/SessionEstablishment.lean",
+"start": 5987,
+"end": 6000,
+"line": 128,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "Proofs.SessionEstablishment",
+"status": "replaced",
+"reason": "no fact in the olean (example?): the build decides",
+"active": false,
+"new_col": 2,
+"new_end": 16
+}
+]
+}

@@ -1,0 +1,20 @@
+[54147716] bvs4fact_1: 428 nodes, CNF 1187 clauses, 428 variables
+[54147817] bvs4fact_1: 449 steps, 7503 hints, 1 chunks; solve 41 ms
+[54148274] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 457 ms
+[54149774] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (449 steps from id 1188) 1500 ms
+[55273728] bvs4fact_1: 428 nodes, CNF 1187 clauses, 428 variables
+[55273841] bvs4fact_1: 449 steps, 7503 hints, 1 chunks; solve 50 ms
+[55274412] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 571 ms
+[55276448] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (449 steps from id 1188) 2036 ms
+[55322318] bvs4fact_1: 428 nodes, CNF 1187 clauses, 428 variables
+[55322429] bvs4fact_1: 449 steps, 7503 hints, 1 chunks; solve 47 ms
+[55322962] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 533 ms
+[55324650] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (449 steps from id 1188) 1688 ms
+[55364675] bvs4fact_1: 428 nodes, CNF 1187 clauses, 428 variables
+[55364784] bvs4fact_1: 449 steps, 7503 hints, 1 chunks; solve 49 ms
+[55365332] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 548 ms
+[55366951] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (449 steps from id 1188) 1619 ms
+[55408319] bvs4fact_1: 428 nodes, CNF 1187 clauses, 428 variables
+[55408429] bvs4fact_1: 449 steps, 7503 hints, 1 chunks; solve 50 ms
+[55408974] bvs4fact_1: base check (bit-blast + CNF + trie agreement) 544 ms
+[55410939] bvs4fact_1: chunk bvs4fact_1._bvs_s0 (449 steps from id 1188) 1965 ms

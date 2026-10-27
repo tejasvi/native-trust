@@ -1,0 +1,9 @@
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.pair_relations._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1516516	1		nt_lines=16 last=eval_ms=1
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.base_const_16._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1505848	1		nt_lines=2 last=eval_ms=7
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.two_base_const_32._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1513920	1		nt_lines=2 last=eval_ms=0
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.singleton_63._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1443856	1		nt_lines=2 last=eval_ms=0
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.even_constants_16._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1448920	1		nt_lines=14 last=eval_ms=5
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.t32_even16_is_two_B16._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1427056	1		nt_lines=2 last=eval_ms=6
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.singleton_61._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1424824	1		nt_lines=2 last=eval_ms=1
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.even_constants_32._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1433976	1		nt_lines=16 last=eval_ms=22
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.base_const_32._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1435396	1		nt_lines=2 last=eval_ms=21

@@ -1,0 +1,17 @@
+(true, true, true)
+PlatformCasesTest.setFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Classical.choice, Quot.sound]
+PlatformCasesTest.mapFacts: platformCases=false failed; platformCases=true proved; axioms [propext, Classical.choice, Quot.sound]
+PlatformCasesTest.wordSizeKnown: platformCases=false failed; platformCases=true proved; axioms []
+PlatformCasesTest.wrapsMod: platformCases=false failed; platformCases=true proved; axioms []
+PlatformCasesTest.wordSize64: platformCases=false failed; platformCases=true failed
+PlatformCasesTest.usizeSize64: platformCases=false failed; platformCases=true failed
+PlatformCasesTest.noWrap: platformCases=false failed; platformCases=true failed
+PlatformCasesTest.usizeMax: platformCases=false failed; platformCases=true failed
+bigSet: default proved; axioms [propext, Classical.choice, Quot.sound]
+bigSet with platformHeartbeats := 10: failed: did not finish within 10 thousand heartbeats (`platformHeartbeats`)
+kernelize PlatformCasesTest.ndWord: FAILED: at numBits = 32 the term evaluates to `false`; PlatformCasesTest.ndWord keeps its axioms: true; PlatformCasesTest.ndWord.kernel exists: false
+kernelize PlatformCasesTest.ndSize: FAILED: at numBits = 32 the term evaluates to `false`; PlatformCasesTest.ndSize keeps its axioms: true; PlatformCasesTest.ndSize.kernel exists: false
+kernelize PlatformCasesTest.ndMap: OK; axioms [propext, Classical.choice, Quot.sound]; PlatformCasesTest.ndMap keeps its axioms: true; PlatformCasesTest.ndMap.kernel exists: true
+'PlatformCasesTest.s1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlatformCasesTest.m1' depends on axioms: [propext, Classical.choice, Quot.sound]
+rc=0

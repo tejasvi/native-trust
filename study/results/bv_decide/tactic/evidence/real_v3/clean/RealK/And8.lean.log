@@ -1,0 +1,1 @@
+bv_kdecide [Gadgets.And.And8.and_times_two_add_xor]: bv_decide 78 ms; 428 nodes, 1187 clauses, 449 LRAT steps, 7503 hints, 1 chunks; SAT 79 ms, data 20 ms; kernel: base 357 ms, chunks 1402 ms (max 1402 ms), assembly 10 ms; total 1966 ms; peak RSS: bv_decide 1555 MiB, kernel route 1819 MiB

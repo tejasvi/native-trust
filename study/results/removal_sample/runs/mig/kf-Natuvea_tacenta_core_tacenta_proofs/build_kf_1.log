@@ -1,0 +1,126 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Proofs.ErrorHandling +Proofs.KeyErasure +Proofs.MemorySafety +Proofs.RatchetCorrectness +Proofs.Serialization +Proofs.SessionEstablishment +Proofs.SparseRatchetCorrectness +Proofs.TrustedBase
+⚠ [9/39] Replayed Model.Ratchet
+warning: Model/Ratchet.lean:277:12: This simp argument is unused:
+  List.foldl_append
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵L̵i̵s̵t̵.̵f̵o̵l̵d̵l̵_̵a̵p̵p̵e̵n̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Ratchet.lean:300:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Model/Ratchet.lean:294:26: Variable name `hj` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [30/39] Replayed Model.Lifecycle
+warning: Model/Lifecycle.lean:245:5: Variable name `h` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:247:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  simp [kemEncapsulate, hvalid,̵ ̵h̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1117:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1121:5: Variable name `hNonzero` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1122:5: Variable name `hRetry` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1124:5: Variable name `hFull` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1176:39: This simp argument is unused:
+  hEvict
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hE̵v̵i̵c̵t̵,̵ ̵h̵Nonzero, hRetry, hFull, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1176:47: This simp argument is unused:
+  hNonzero
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hN̵o̵n̵z̵e̵r̵o̵,̵ ̵h̵Retry, hFull, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1176:57: This simp argument is unused:
+  hRetry
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hR̵e̵t̵r̵y̵,̵ ̵h̵Full, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1176:65: This simp argument is unused:
+  hFull
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hRetry, hF̵u̵l̵l̵,̵ ̵h̵Different]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1176:72: This simp argument is unused:
+  hDifferent
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hRetry, hFull,̵ ̵h̵D̵i̵f̵f̵e̵r̵e̵n̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1216:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1220:5: Variable name `hNonzero` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1221:5: Variable name `hRetry` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1223:5: Variable name `hFull` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1224:5: Variable name `hDifferent` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1298:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [32/39] Built Proofs.KeyErasure (345ms)
+✔ [33/39] Built Proofs.RatchetCorrectness (395ms)
+✔ [34/39] Built Proofs.SparseRatchetCorrectness (562ms)
+✔ [35/39] Built Proofs.MemorySafety (216ms)
+✔ [36/39] Built Proofs.SessionEstablishment (808ms)
+✔ [37/39] Built Proofs.Serialization (1.1s)
+✔ [38/39] Built Proofs.ErrorHandling (1.7s)
+✔ [39/39] Built Proofs.TrustedBase (728ms)
+Build completed successfully (39 jobs).
+TIME wall=2.17 user=5.35 sys=1.05 maxrss_kb=1641876
+rc=0 secs=2

@@ -1,0 +1,6 @@
+name=cvc5-logos toolchain=v4.34.0 sampled=40 proved_again=40 failed=0 compile_rc=0 compile_s=6
+export_rc=0 export_lines=626178 export_s=2
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 2.89 s 2327728 KB
+con-ron_rc=0 :: con-ron: accepted 4749 declarations (--verified) | con-ron: 2.29 s 792432 KB
+checkers_s=5
+VERDICT nanoda=PASS(5455 decls) con-ron=PASS(4749 decls) kernel_theorems=40

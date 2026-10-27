@@ -1,0 +1,2 @@
+NEG_CONTROL native axioms of nat_bvd: [nat_bvd._native.bv_decide.ax_1_5]
+POS native axioms of nat_bvk: []; all axioms [Quot.sound, Classical.choice, propext]

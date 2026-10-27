@@ -1,0 +1,1 @@
+'QEC.Circ.thm11_circuit_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]

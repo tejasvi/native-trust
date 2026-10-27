@@ -1,0 +1,221 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Graff.BashPolicy +Graff.GoalLoop +Graff.PathConfine +Graff.PromptCache +Graff.PromptStable +Graff.Provider +Graff.Score +Graff.Shape +Graff.ToolCatalog +Graff.Transport +Graff.Util
+✔ [5/15] Built Graff.Util (320ms)
+✖ [6/15] Building Graff.PromptCache (1.1s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/PromptCache.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/PromptCache.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/PromptCache.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/PromptCache.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/PromptCache.setup.json --json
+error: Graff/PromptCache.lean:77:29: failed to synthesize instance of type class
+  Singleton Seat Cell
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PromptCache.lean:77:29: failed to synthesize instance of type class
+  Insert Bool Cell
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PromptCache.lean:77:29: failed to synthesize instance of type class
+  Insert Isolation Cell
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PromptCache.lean:77:29: failed to synthesize instance of type class
+  Insert Label Cell
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PromptCache.lean:77:29: failed to synthesize instance of type class
+  Insert Wire Cell
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PromptCache.lean:84:43: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors
+error: Graff/PromptCache.lean:85:49: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors
+error: Graff/PromptCache.lean:86:40: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PromptCache.allCells' uses 'sorry' and/or contains errors
+error: Lean exited with code 1
+ℹ [7/15] Built Graff.BashPolicy (1.3s)
+info: Graff/BashPolicy.lean:103:78: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:106:83: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:109:84: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:112:77: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:117:54: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:118:52: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:119:51: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:120:58: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:121:55: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:122:48: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:123:58: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:124:51: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:125:52: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:126:58: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:127:56: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/BashPolicy.lean:128:60: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+✔ [8/15] Built Graff.PromptStable (1.3s)
+✖ [9/15] Building Graff.Transport (1.3s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/Transport.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/Transport.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/Transport.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/Transport.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/Transport.setup.json --json
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Singleton Bool Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Insert Bool Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Insert Bool Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Insert Bool Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Insert Bool Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:111:31: failed to synthesize instance of type class
+  Insert Kind Turn
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Transport.lean:117:51: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Transport.allTurns' uses 'sorry' and/or contains errors
+error: Graff/Transport.lean:118:40: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Transport.allTurns' uses 'sorry' and/or contains errors
+error: Lean exited with code 1
+✖ [11/15] Building Graff.GoalLoop (1.5s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/GoalLoop.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/GoalLoop.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/GoalLoop.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/GoalLoop.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/GoalLoop.setup.json --json
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Singleton Bool State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Insert Bool State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Insert Checklist State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Insert Bool State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Insert Goal State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:85:31: failed to synthesize instance of type class
+  Insert Seat State
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/GoalLoop.lean:94:42: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.GoalLoop.allStates' uses 'sorry' and/or contains errors
+error: Graff/GoalLoop.lean:95:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.GoalLoop.allStates' uses 'sorry' and/or contains errors
+error: Graff/GoalLoop.lean:96:59: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.GoalLoop.allStates' uses 'sorry' and/or contains errors
+error: Lean exited with code 1
+✖ [12/15] Building Graff.PathConfine (1.5s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/PathConfine.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/PathConfine.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/PathConfine.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/PathConfine.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/PathConfine.setup.json --json
+error: Graff/PathConfine.lean:95:27: failed to synthesize instance of type class
+  Singleton Bool Lease
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PathConfine.lean:95:27: failed to synthesize instance of type class
+  Insert Probe Lease
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PathConfine.lean:95:27: failed to synthesize instance of type class
+  Insert Bool Lease
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PathConfine.lean:95:27: failed to synthesize instance of type class
+  Insert Identities Lease
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/PathConfine.lean:101:43: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.PathConfine.allLeases' uses 'sorry' and/or contains errors
+info: Graff/PathConfine.lean:103:47: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:104:36: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:105:47: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:106:46: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:107:45: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:108:40: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:109:43: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:110:42: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:112:49: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:113:58: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:114:52: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+info: Graff/PathConfine.lean:204:70: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix₃` (no kernel definition)
+error: Lean exited with code 1
+✖ [13/15] Building Graff.Score (1.8s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/Score.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/Score.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/Score.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/Score.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/Score.setup.json --json
+info: Graff/Score.lean:304:69: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:305:61: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:306:61: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:307:73: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:309:65: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:310:70: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:311:59: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:324:45: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+error: Graff/Score.lean:364:27: failed to synthesize instance of type class
+  Singleton Signal FileCase
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Score.lean:364:27: failed to synthesize instance of type class
+  Insert Slot FileCase
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Score.lean:364:27: failed to synthesize instance of type class
+  Insert Slot FileCase
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Score.lean:364:27: failed to synthesize instance of type class
+  Insert Bool FileCase
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/Score.lean:372:45: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+error: Graff/Score.lean:375:45: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+error: Graff/Score.lean:381:47: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+error: Graff/Score.lean:385:63: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+error: Graff/Score.lean:391:2: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+error: Graff/Score.lean:398:2: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.Score.allFileCases' uses 'sorry' and/or contains errors
+info: Graff/Score.lean:412:46: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:413:44: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:414:43: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: Graff/Score.lean:415:49: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf → Graff.Score.needleTier → Graff.Score.hasInfix → String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+error: Lean exited with code 1
+ℹ [14/15] Built Graff.Shape (1.7s)
+info: Graff/Shape.lean:226:45: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+✖ [15/15] Building Graff.ToolCatalog (1.8s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/ntlib/v4.33.0/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.33.0/bin/lean /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/Graff/ToolCatalog.lean -o /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/ToolCatalog.olean -i /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/lib/lean/Graff/ToolCatalog.ilean -c /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/ToolCatalog.c --setup /home/ntbuild/work_migsample/mig/kf-justrach_codegraff_lean_proofs/pkg/.lake/build/ir/Graff/ToolCatalog.setup.json --json
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Singleton Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Insert Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Insert Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Insert Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Insert Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:103:31: failed to synthesize instance of type class
+  Insert Bool Flags
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Graff/ToolCatalog.lean:108:47: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:114:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:118:52: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:122:103: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:126:55: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:130:54: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Graff/ToolCatalog.lean:133:60: Tactic `native_decide` failed: Could not evaluate decidable instance. Error: cannot evaluate code because 'Graff.ToolCatalog.allFlags' uses 'sorry' and/or contains errors
+error: Lean exited with code 1
+Some required targets logged failures:
+- Graff.PromptCache
+- Graff.Transport
+- Graff.GoalLoop
+- Graff.PathConfine
+- Graff.Score
+- Graff.ToolCatalog
+error: build failed
+Command exited with non-zero status 1
+TIME wall=3.06 user=10.87 sys=1.89 maxrss_kb=1712824
+rc=1 secs=3

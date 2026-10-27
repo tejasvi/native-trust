@@ -1,0 +1,22 @@
+2026-10-26T01:20:35Z batch: 10 facts, PAR=5 MEMG=16 T=900 MemAvailable=692G
+2026-10-26T01:20:35Z start T_R_C00000 unit=s13-f-t-r-c00000-1792977635 MemAvailable=692G
+2026-10-26T01:20:36Z end T_R_C00000 rc=0 | maxrss_kb 1593020 secs 0.72 | rc=0 end=2026-10-26T01:20:36Z
+2026-10-26T01:20:37Z start T_KL_C000 unit=s13-f-t-kl-c000-1792977637 MemAvailable=689G
+2026-10-26T01:20:38Z end T_KL_C000 rc=0 | maxrss_kb 1595280 secs 0.74 | rc=0 end=2026-10-26T01:20:38Z
+2026-10-26T01:20:39Z start T_BFS_D00C000 unit=s13-f-t-bfs-d00c000-1792977639 MemAvailable=687G
+2026-10-26T01:20:40Z end T_BFS_D00C000 rc=0 | maxrss_kb 1591220 secs 0.73 | rc=0 end=2026-10-26T01:20:40Z
+2026-10-26T01:20:41Z start T_H_chunk00 unit=s13-f-t-h-chunk00-1792977641 MemAvailable=685G
+2026-10-26T01:20:42Z end T_H_chunk00 rc=0 | maxrss_kb 1589160 secs 0.73 | rc=0 end=2026-10-26T01:20:42Z
+2026-10-26T01:20:44Z start T_S_header_info unit=s13-f-t-s-header-info-1792977644 MemAvailable=682G
+2026-10-26T01:20:44Z end T_S_header_info rc=0 | maxrss_kb 1590528 secs 0.71 | rc=0 end=2026-10-26T01:20:44Z
+2026-10-26T01:20:46Z start T_S_final_ok unit=s13-f-t-s-final-ok-1792977646 MemAvailable=681G
+2026-10-26T01:20:46Z end T_S_final_ok rc=0 | maxrss_kb 1590972 secs 0.70 | rc=0 end=2026-10-26T01:20:46Z
+2026-10-26T01:20:48Z start T_S_entries unit=s13-f-t-s-entries-1792977648 MemAvailable=681G
+2026-10-26T01:20:48Z end T_S_entries rc=0 | maxrss_kb 1588472 secs 0.72 | rc=0 end=2026-10-26T01:20:48Z
+2026-10-26T01:20:50Z start T_S_certOK_harder11 unit=s13-f-t-s-certok-harder11-1792977650 MemAvailable=683G
+2026-10-26T01:20:50Z end T_S_certOK_harder11 rc=0 | maxrss_kb 1584108 secs 0.72 | rc=0 end=2026-10-26T01:20:50Z
+2026-10-26T01:20:52Z start T_X_ct4_d12 unit=s13-f-t-x-ct4-d12-1792977652 MemAvailable=682G
+2026-10-26T01:20:52Z end T_X_ct4_d12 rc=0 | maxrss_kb 1589936 secs 0.72 | rc=0 end=2026-10-26T01:20:52Z
+2026-10-26T01:20:54Z start T_X_certOK_5 unit=s13-f-t-x-certok-5-1792977654 MemAvailable=682G
+2026-10-26T01:20:54Z end T_X_certOK_5 rc=0 | maxrss_kb 1583328 secs 0.70 | rc=0 end=2026-10-26T01:20:54Z
+2026-10-26T01:20:56Z batch done

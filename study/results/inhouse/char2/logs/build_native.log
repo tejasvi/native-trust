@@ -1,0 +1,36 @@
+✔ [21/33] Built Char2Comp:c.o (113ms)
+✔ [22/33] Built Char2Comp:shared (111ms)
+✔ [23/33] Built Char2Native.D24C23_6 (748s)
+✔ [24/33] Built Char2Native.D24C23_5 (852s)
+✔ [25/33] Built Char2Native.D24C23_7 (1043s)
+✔ [26/33] Built Char2Native.D24C23_4 (585s)
+✔ [27/33] Built Char2Native.D24C23_2 (789s)
+✔ [28/33] Built Char2Native.D24C23_3 (1071s)
+✔ [29/33] Built Char2Native.D24Base (181s)
+✔ [30/33] Built Char2Native.D24C23_1 (866s)
+✔ [31/33] Built Char2Native.D24C23_0 (622s)
+✔ [32/33] Built Char2Native (404ms)
+Build completed successfully (33 jobs).
+	Command being timed: "lake build Char2Native"
+	User time (seconds): 6651.23
+	System time (seconds): 24.62
+	Percent of CPU this job got: 271%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 40:57.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 926756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 17
+	Minor (reclaiming a frame) page faults: 818163
+	Voluntary context switches: 26847
+	Involuntary context switches: 168396
+	Swaps: 0
+	File system inputs: 560
+	File system outputs: 3864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

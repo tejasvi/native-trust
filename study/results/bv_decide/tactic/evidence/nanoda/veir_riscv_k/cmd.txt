@@ -1,0 +1,4 @@
+2026-10-25T05:36:51Z leanexport RealK.RISCVCombinesProofs -- Veir.Data.RISCV.right_identity_zero_add Veir.Data.RISCV.srl_sra_signbit Veir.Data.RISCV.srlw_sraw_signbit Veir.Data.RISCV.drop_slli_srli_slt Veir.Data.RISCV.drop_slli_srli_sltu Veir.Data.RISCV.drop_slli_srli_slti Veir.Data.RISCV.drop_slli_srli_sltiu Veir.Data.RISCV.drop_slli_srli_seqz Veir.Data.RISCV.zextw_zextw  (toolchain /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc4)
+export rc=0 bytes=24032567 time,rss=1.35,1673184; native names in export: 
+2026-10-25T05:36:52Z nanoda_bin nanoda.json
+nanoda rc=0 time,rss=3.23,299260: Checked 4413 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 

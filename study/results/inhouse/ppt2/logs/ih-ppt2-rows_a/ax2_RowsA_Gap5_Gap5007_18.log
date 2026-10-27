@@ -1,0 +1,70 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap5_Gap5007_18.lean
+NT start RowsA.Gap5007.chkS_ok._native.native_decide.ax_1_1
+NT nested RowsA.Gap5007.chkS_ok._native.native_decide.ax_1_1 ms=280 rebuilt_defs=0 visited=5203
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5007.x0Num
+NT copy RowsA.Gap5007.x0Num defn_ms=5 eq_ms=13 congr=true
+NT copying RowsA.Gap5007.S
+NT copy RowsA.Gap5007.S defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5007.Smat
+NT copy RowsA.Gap5007.Smat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5007.Zc
+NT copy RowsA.Gap5007.Zc defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5007.YSNum
+NT copy RowsA.Gap5007.YSNum defn_ms=181 eq_ms=707 congr=true
+NT copying RowsA.Gap5007.YSi
+NT copy RowsA.Gap5007.YSi defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5007_18.RowsA.Gap5007.chkS_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=1101 copies=13 copy_kernel_ms=912 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5007_18.RowsA.Gap5007.chkS_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap5_Gap5007_18.RowsA.Gap5007.chkS_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=8 bounded=true copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap5_Gap5007_18.RowsA.Gap5007.chkS_ok._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=1 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=1 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseMat?
+NT copy RowsA.Gap5.parseMat? defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseMat
+NT copy RowsA.Gap5.parseMat defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5007.YSNum
+NT copy RowsA.Gap5007.YSNum defn_ms=176 eq_ms=714 congr=true
+NT copying RowsA.Gap5007.YSi
+NT copy RowsA.Gap5007.YSi defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5007.x0Num
+NT copy RowsA.Gap5007.x0Num defn_ms=5 eq_ms=13 congr=true
+NT copying RowsA.Gap5007.S
+NT copy RowsA.Gap5007.S defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap5007.Smat
+NT copy RowsA.Gap5007.Smat defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5007.Zc
+NT copy RowsA.Gap5007.Zc defn_ms=1 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap5_Gap5007_18.RowsA.Gap5007.chkS_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=12 bounded=false copy_ms=1111 copies=16 copy_kernel_ms=917 fast_lits=0 string_args=false
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 46096200
+rc=134 secs=158

@@ -1,0 +1,8 @@
+[73374634] bvsg_Veir_Interpreter_Memory_0: 320 nodes, CNF 575 clauses, 320 variables
+[73374657] bvsg_Veir_Interpreter_Memory_0: 130 steps, 386 hints, 1 chunks; solve 17 ms
+[73374878] bvsg_Veir_Interpreter_Memory_0: base check (bit-blast + CNF + trie agreement) 221 ms
+[73375005] bvsg_Veir_Interpreter_Memory_0: chunk bvsg_Veir_Interpreter_Memory_0._bvs_s0 (130 steps from id 576) 127 ms
+[73375012] bvsg_Veir_Interpreter_Memory_1: 40 nodes, CNF 71 clauses, 40 variables
+[73375029] bvsg_Veir_Interpreter_Memory_1: 18 steps, 50 hints, 1 chunks; solve 16 ms
+[73375051] bvsg_Veir_Interpreter_Memory_1: base check (bit-blast + CNF + trie agreement) 22 ms
+[73375062] bvsg_Veir_Interpreter_Memory_1: chunk bvsg_Veir_Interpreter_Memory_1._bvs_s0 (18 steps from id 72) 10 ms

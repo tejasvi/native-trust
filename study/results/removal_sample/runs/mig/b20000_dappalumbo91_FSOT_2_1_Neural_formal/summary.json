@@ -1,0 +1,143 @@
+{
+ "name": "b20000_dappalumbo91_FSOT_2_1_Neural_formal",
+ "pkg": "/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal",
+ "toolchain": "v4.31.0",
+ "uses": 52,
+ "replaced": 52,
+ "replaced_known": 52,
+ "replaced_unknown": 0,
+ "replaced_facts": 118,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {},
+ "native_axioms_before": 118,
+ "native_axioms_after": 0,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 46,
+ "native_dependent_decls_after": 0,
+ "rewritten_decls": 46,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 2.54,
+   "cpu": 4.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.6,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 1.55,
+  "cpu": 2.8,
+  "n_built": 11,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.9
+ },
+ "time1": {
+  "wall": 2.44,
+  "cpu": 3.8,
+  "n_built": 11,
+  "peak_lean": 2,
+  "rc": 0,
+  "peak_rss_gb": 0.6,
+  "peak_rss_sum_gb": 0.9
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.34,
+  "cpu": 0.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 11,
+ "replaced_modules": 11,
+ "unmatched_axioms": 0,
+ "fact_budget": 20000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 118
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  2.3,
+  3.4
+ ],
+ "module_times_slower": [
+  [
+   "FSOTNeural.Certificate",
+   0.171,
+   0.775
+  ],
+  [
+   "FSOTNeural.Codon",
+   0.34900000000000003,
+   0.735
+  ],
+  [
+   "FSOTNeural.Authority",
+   0.179,
+   0.258
+  ],
+  [
+   "FSOTNeural.CurriculumGates",
+   0.196,
+   0.211
+  ],
+  [
+   "FSOTNeural.WetStack",
+   0.198,
+   0.213
+  ],
+  [
+   "FSOTNeural.WetLabGates",
+   0.221,
+   0.231
+  ],
+  [
+   "FSOTNeural.IntelBio",
+   0.232,
+   0.24
+  ],
+  [
+   "FSOTNeural.PairWeight",
+   0.196,
+   0.198
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "FSOTNeural.CellTypes",
+   0.191,
+   0.179
+  ],
+  [
+   "FSOTNeural.FixedLattice",
+   0.162,
+   0.153
+  ]
+ ]
+}

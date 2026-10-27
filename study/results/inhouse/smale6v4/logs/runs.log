@@ -1,0 +1,18 @@
+2026-10-26T01:16:30Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 4 --fact-timeout 900 --fact-mem 48 --from-results s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 --from-verdict PROVED
+2026-10-26T01:27:54Z end rc=0
+2026-10-26T01:27:54Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 4 --fact-timeout 900 --fact-mem 48 --from-results s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 --from-verdict FAILED
+2026-10-26T01:50:49Z end rc=0
+2026-10-26T01:50:49Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 4 --fact-timeout 900 --fact-mem 48 --from-results s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 --from-verdict TIMEOUT
+2026-10-26T02:07:15Z end rc=0
+2026-10-26T02:07:15Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 4 --fact-timeout 900 --fact-mem 48 --from-results s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 --from-verdict ERROR --sample 40 --seed 20261026
+2026-10-26T02:49:17Z end rc=0
+2026-10-26T02:49:17Z start ih-smale6v4-s35 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 4 --fact-timeout 900 --fact-mem 48
+2026-10-26T02:57:16Z end rc=0
+2026-10-26T02:57:16Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 2 --fact-timeout 3600 --fact-mem 96 --redo --from-results ih-smale6v4-s69 --from-verdict ERROR
+2026-10-26T05:09:17Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 1 --fact-timeout 3600 --fact-mem 96 --redo --from-results ih-smale6v4-s69 --from-verdict ERROR --include \.Trop\. --sample 6 --seed 20261026
+2026-10-26T05:43:09Z end rc=0
+2026-10-26T05:43:09Z start ih-smale6v4-s35 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 1 --fact-timeout 3600 --fact-mem 96 --redo --from-results ih-smale6v4-s35 --from-verdict ERROR --sample 4 --seed 20261026
+2026-10-26T06:08:41Z end rc=0
+2026-10-26T06:08:41Z start ih-smale6v4-s69 /home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9 --skip-build --nt-root /home/ntbuild/nt_fix14 --jobs 1 --fact-timeout 3600 --fact-mem 96 --redo --from-results ih-smale6v4-s69 --from-verdict TIMEOUT
+2026-10-26T07:14:04Z end rc=0
+2026-10-26T07:14:04Z ALL DONE (v2)

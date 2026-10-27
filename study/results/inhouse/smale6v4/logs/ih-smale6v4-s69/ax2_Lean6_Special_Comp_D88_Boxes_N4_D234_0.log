@@ -1,0 +1,27 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_D88_Boxes_N4_D234_0.lean
+NT start Lean6.Special.D88.Boxes.N4.D234.ok._native.native_decide.ax_1_1
+NT nested Lean6.Special.D88.Boxes.N4.D234.ok._native.native_decide.ax_1_1 ms=198 rebuilt_defs=0 visited=3689
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=3 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.D88.Boxes.parseCoord
+NT copy Lean6.Special.D88.Boxes.parseCoord defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.D88.Boxes.parseBox
+NT copy Lean6.Special.D88.Boxes.parseBox defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.D88.Boxes.n4BoxOK
+NT copy Lean6.Special.D88.Boxes.n4BoxOK defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.D88.Boxes.n4ChunkOK
+NT copy Lean6.Special.D88.Boxes.n4ChunkOK defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.D88.Boxes.N4.D234.data
+NT copy Lean6.Special.D88.Boxes.N4.D234.data defn_ms=28 eq_ms=99 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Boxes_N4_D234_0.Lean6.Special.D88.Boxes.N4.D234.ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=185 copies=8 copy_kernel_ms=132 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Boxes_N4_D234_0.Lean6.Special.D88.Boxes.N4.D234.ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Lean6_Special_Comp_D88_Boxes_N4_D234_0.Lean6.Special.D88.Boxes.N4.D234.ok._kernel.native_decide.ax_1_1 structure all-by-index length=64 pieces=8
+NT _ktr.F2_Lean6_Special_Comp_D88_Boxes_N4_D234_0.Lean6.Special.D88.Boxes.N4.D234.ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46161624
+rc=1 secs=252

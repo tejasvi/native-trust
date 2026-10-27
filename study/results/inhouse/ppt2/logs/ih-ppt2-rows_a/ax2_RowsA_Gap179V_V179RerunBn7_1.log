@@ -1,0 +1,68 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179V_V179RerunBn7_1.lean
+NT start RowsA.Gap179V.rerun_Bn7_cover._native.native_decide.ax_1
+NT nested RowsA.Gap179V.rerun_Bn7_cover._native.native_decide.ax_1 ms=274 rebuilt_defs=0 visited=4703
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRat
+NT copy RowsA.Gap179.parseRat defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRow
+NT copy RowsA.Gap179.parseRatRow defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRows
+NT copy RowsA.Gap179.parseRatRows defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.start
+NT copy RowsA.Gap179.Bn7.start defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Bn7.V
+NT copy RowsA.Gap179.Bn7.V defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.compsS
+NT copy RowsA.Gap179.Bn7.compsS defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.comps
+NT copy RowsA.Gap179.Bn7.comps defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunBn7_1.RowsA.Gap179V.rerun_Bn7_cover._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=28 copies=12 copy_kernel_ms=8 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunBn7_1.RowsA.Gap179V.rerun_Bn7_cover._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179V_V179RerunBn7_1.RowsA.Gap179V.rerun_Bn7_cover._kernel.native_decide.ax_1.p_0 blockers_ms=8 bounded=true copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179V_V179RerunBn7_1.RowsA.Gap179V.rerun_Bn7_cover._kernel.native_decide.ax_1.p_0 retry-repl
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRat
+NT copy RowsA.Gap179.parseRat defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.tokens
+NT copy RowsA.Gap179.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRow
+NT copy RowsA.Gap179.parseRatRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.rowsOf
+NT copy RowsA.Gap179.rowsOf defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.parseRatRows
+NT copy RowsA.Gap179.parseRatRows defn_ms=0 eq_ms=1 congr=true
+NT copying RowsA.Gap179.Bn7.start
+NT copy RowsA.Gap179.Bn7.start defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.V
+NT copy RowsA.Gap179.Bn7.V defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.compsS
+NT copy RowsA.Gap179.Bn7.compsS defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap179.Bn7.comps
+NT copy RowsA.Gap179.Bn7.comps defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_RowsA_Gap179V_V179RerunBn7_1.RowsA.Gap179V.rerun_Bn7_cover._kernel.native_decide.ax_1.p_0 blockers_ms=13 bounded=false copy_ms=29 copies=16 copy_kernel_ms=7 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46060128
+rc=1 secs=177

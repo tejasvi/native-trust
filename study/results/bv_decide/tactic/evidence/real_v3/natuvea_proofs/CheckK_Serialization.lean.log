@@ -1,0 +1,1 @@
+CHECK RealK.Serialization: 52 constants, 0 `_native` names; 36 theorems: 34 standard axioms only, 2 with native axioms [Proofs.Serialization.decode_encode_composite, Proofs.Serialization.decode_encode], 0 other []

@@ -1,0 +1,116 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F2_p1_QEC_ChecksN8_H8_0_0.olean F2_p1_QEC_ChecksN8_H8_0_0.lean
+NT start heads8_0._native.native_decide.ax_1_1
+NT nested heads8_0._native.native_decide.ax_1_1 ms=135 rebuilt_defs=0 visited=3627
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=3 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.closeStep
+NT copy QECComp.closeStep defn_ms=1 eq_ms=0 congr=true
+NT copying QECComp.ballK._f
+NT copy QECComp.ballK._f defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.ballK
+NT copy QECComp.ballK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.typedBall
+NT copy QECComp.typedBall defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.tbOf
+NT copy QECComp.tbOf defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.tbHead
+NT copy QECComp.tbHead defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.jkey
+NT copy QECComp.jkey defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.searchC
+NT copy QECComp.searchC defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.hintsAll
+NT copy QECComp.hintsAll defn_ms=1 eq_ms=1 congr=true
+NT copying QECComp.near3
+NT copy QECComp.near3 defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.Win.tset
+NT copy QECComp.Win.tset defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.chkJ
+NT copy QECComp.chkJ defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.chkWit
+NT copy QECComp.chkWit defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.chkOpt
+NT copy QECComp.chkOpt defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.allowed
+NT copy QECComp.allowed defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.rowOK
+NT copy QECComp.rowOK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.rowsOK
+NT copy QECComp.rowsOK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.headsOK
+NT copy QECComp.headsOK defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.clsHex8
+NT copy QECComp.clsHex8 defn_ms=1413 eq_ms=5167 congr=true
+NT copying QECComp.potHex8
+NT copy-rejected QECComp.potHex8: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying QECComp.cert8
+NT copy QECComp.cert8 defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.headsHex8
+NT copy QECComp.headsHex8 defn_ms=46 eq_ms=155 congr=true
+NT copying QECComp.heads8
+NT copy QECComp.heads8 defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=28574 copies=26 copy_kernel_ms=6796 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1 structure all-by-index length=342 pieces=8
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1.p_0 blockers_ms=11 bounded=true copy_ms=13 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=1 eq_ms=0 congr=true
+NT copying QECComp.closeStep
+NT copy QECComp.closeStep defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.ballK._f
+NT copy QECComp.ballK._f defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.ballK
+NT copy QECComp.ballK defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.typedBall
+NT copy QECComp.typedBall defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.tbOf
+NT copy QECComp.tbOf defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.tbHead
+NT copy QECComp.tbHead defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.clsHex8
+NT copy QECComp.clsHex8 defn_ms=1252 eq_ms=5024 congr=true
+NT copying QECComp.potHex8
+NT copy-rejected QECComp.potHex8: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying QECComp.cert8
+NT copy QECComp.cert8 defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.headsHex8
+NT copy QECComp.headsHex8 defn_ms=48 eq_ms=167 congr=true
+NT copying QECComp.heads8
+NT copy QECComp.heads8 defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.jkey
+NT copy QECComp.jkey defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.searchC
+NT copy QECComp.searchC defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.hintsAll
+NT copy QECComp.hintsAll defn_ms=1 eq_ms=2 congr=true
+NT copying QECComp.near3
+NT copy QECComp.near3 defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.Win.tset
+NT copy QECComp.Win.tset defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.chkJ
+NT copy QECComp.chkJ defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.chkWit
+NT copy QECComp.chkWit defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.chkOpt
+NT copy QECComp.chkOpt defn_ms=0 eq_ms=0 congr=true
+NT copying QECComp.allowed
+NT copy QECComp.allowed defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.rowOK
+NT copy QECComp.rowOK defn_ms=0 eq_ms=1 congr=true
+NT copying QECComp.rowsOK
+NT copy QECComp.rowsOK defn_ms=0 eq_ms=2 congr=true
+NT _ktr.F2_p1_QEC_ChecksN8_H8_0_0.heads8_0._kernel.native_decide.ax_1_1.p_0 blockers_ms=9 bounded=true copy_ms=28173 copies=25 copy_kernel_ms=6509 fast_lits=0 string_args=false
+rc=124 secs=900 cg_cpu_s=900.0 cg_peak_kb=10237464 cg_oom_kill=0

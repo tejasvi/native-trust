@@ -1,0 +1,21 @@
+run_id	blocker	reason	path
+T_BFS_D00C000	-	0 blocker(s), 18 ms	-
+T_H_chunk00	-	3 blocker(s), 22 ms	-
+T_H_chunk00	ByteArray.hash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.St7.init, Sortnet.Facts.SuccSt.init, ByteArray.instHashable, ByteArray.hash]
+T_H_chunk00	mixHash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.St7.init, Sortnet.Facts.BSt.init, instHashableProd, mixHash]
+T_H_chunk00	System.Platform.getNumBits	platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platfo	[Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.checkRangeAux, Sortnet.Facts.checkRangeAux._f, Sortnet.Facts.prove7, Sortnet.Facts.succProve, Sortnet.Facts.succAux, Sortnet.Facts.succAux._f, Std.HashMap.getD, Std.DHashMap.Const.getD, Std.DHashMap.Internal.Raw₀.Const.getD, USize.toNat, System.Platform.numBits, System.Platform.getNumBits]
+T_KL_C000	-	3 blocker(s), 26 ms	-
+T_KL_C000	ByteArray.hash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Facts.fact9, ByteArray.instHashable, ByteArray.hash]
+T_KL_C000	mixHash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Facts.St9.init, Sortnet.Facts.BSt.init, instHashableProd, mixHash]
+T_KL_C000	System.Platform.getNumBits	platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platfo	[Sortnet.Facts.fact9, Std.HashMap.getD, Std.DHashMap.Const.getD, Std.DHashMap.Internal.Raw₀.Const.getD, USize.toNat, System.Platform.numBits, System.Platform.getNumBits]
+T_R_C00000	-	4 blocker(s), 24 ms	-
+T_R_C00000	ByteArray.hash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Stage2.rootsOKP, Sortnet.Facts.SuccSt.init, ByteArray.instHashable, ByteArray.hash]
+T_R_C00000	mixHash	primitive implemented in C (`@[extern]`) with no definition	[Sortnet.Stage2.rootsOKP, Sortnet.Facts.St9.init, Sortnet.Facts.BSt.init, instHashableProd, mixHash]
+T_R_C00000	System.Platform.getNumBits	platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platfo	[Sortnet.Stage2.rootsOKP, Sortnet.Stage2.rootsLoopP, Sortnet.Stage2.rootsLoopP._f, Sortnet.Stage2.succAuxK, Sortnet.Stage2.succAuxK._f, Std.HashMap.getD, Std.DHashMap.Const.getD, Std.DHashMap.Internal.Raw₀.Const.getD, USize.toNat, System.Platform.numBits, System.Platform.getNumBits]
+T_R_C00000	Lean.Loop.forIn	`while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (	[Sortnet.Stage2.rootsOKP, Sortnet.Stage2.rootsLoopP, Sortnet.Stage2.rootsLoopP._f, Sortnet.Stage2.leafRootP, Sortnet.Stage2.broute9Fast, Sortnet.Stage2.broute9Cheap, Sortnet.Stage2.target9Fast, Sortnet.Stage2.target7Fast, Sortnet.Stage2.findNA, Sortnet.Stage2.findNAIn, Sortnet.Stage2.findNAIn._f, Sortnet.Stage2.cmpKeyNA, Lean.instForInLoopUnitOfMonad, Lean.Loop.forIn]
+T_S_certOK_harder11	-	0 blocker(s), 9 ms	-
+T_S_entries	-	0 blocker(s), 9 ms	-
+T_S_final_ok	-	0 blocker(s), 7 ms	-
+T_S_header_info	-	0 blocker(s), 8 ms	-
+T_X_certOK_5	-	0 blocker(s), 8 ms	-
+T_X_ct4_d12	-	0 blocker(s), 17 ms	-

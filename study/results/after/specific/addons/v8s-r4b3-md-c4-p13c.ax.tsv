@@ -1,0 +1,10 @@
+v8s-r4b3-md-c4-p13c	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	scripts.probe-fn-portable-line	-			NOT_BUILT						
+v8s-r4b3-md-c4-p13c	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.pommette_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		7	10330568	455		nt_lines=66 last=pieces=8
+v8s-r4b3-md-c4-p13c	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.pommette_refusals._native.native_decide.ax_1_1	native_decide	False	PROVED		5	5574080	48		nt_lines=27 last=pieces=1
+v8s-r4b3-md-c4-p13c	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.fuel_is_not_inconsistency._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1555228	1		nt_lines=31 last=pieces=1
+v8s-r4b3-md-c4-p13c	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.dag_local_orders._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1548896	1		nt_lines=35 last=pieces=1

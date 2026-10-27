@@ -1,0 +1,14 @@
+v2: hand-written 89 files / 18643 lines; excluded as generated 1019 files
+v3: hand-written 128 files / 25091 lines; excluded as generated 5757 files
+v3 kernel part: hand-written QECKernel files 39 / 6448 lines (top level 31, Fin/ 8); generated QECKernel files 4738; v2 rule part in v3: 89 / 18643 lines
+v3 kernel generators: gen/kernel/mkcov3.py 104, gen/kernel/mkmods3.py 175, gen/kernel/mktab3.py 161, gen/kernel/mkw3.py 44 (total 484 lines)
+Theorem 1.1 (v2, 643d947): closure of QEC.Checks.Thm11V3 432 project modules, of QEC.ChecksN.Thm11V2 52
+  kernel-only  generated aggregator (gen/gen_agg.py)                 1 files    1061 lines
+  kernel-only  generated check module (gen/gen_checks.py)          390 files    3120 lines
+  kernel-only  hand-written theorem file (in a check directory)      1 files      28 lines
+  native-only  generated aggregator (gen/gen_agg.py)                 1 files      89 lines
+  native-only  generated check module (gen/gen_checks.py)           10 files     210 lines
+  native-only  hand-written theorem file (in a check directory)      1 files      25 lines
+  shared       hand-written                                         40 files    7842 lines
+  generator gen/gen_checks.py: 47 lines
+  generator gen/gen_agg.py: 77 lines

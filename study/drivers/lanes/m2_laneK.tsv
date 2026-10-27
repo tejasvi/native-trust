@@ -1,0 +1,7 @@
+berry-esseen	/home/ntbuild/repos/berry-esseen	--skip-build
+humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--skip-build
+rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	--skip-build
+rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	--skip-build
+strata	/home/ntbuild/repos/Strata	--skip-build
+cvc5-logos	/home/ntbuild/repos/cvc5-logos	--skip-build
+tengoku	/home/ntbuild/repos/tengoku	--skip-build

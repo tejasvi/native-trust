@@ -1,0 +1,388 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.lean
+NT start _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.copy_entry._native.native_decide.ax_1_1
+NT nested _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.copy_entry._native.native_decide.ax_1_1 ms=620 rebuilt_defs=0 visited=10687
+NT copying Core.Command
+NT copy Core.Command defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.sumToNCFG.match_1
+NT copy-congr-rejected _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.sumToNCFG.match_1: (kernel) application type mismatch   congrArg fun y motive x h_1 h_2 => Strata.sumToNCFG._sparseCasesOn_1✝ x (fun a => h_1 a) fun h => h_2 x argument has type   (y : Type) →     (motive : Imperative.Body Core.Expression y → Sort u_1) →       (x : Imperative.Body Core.Expression y) →         ((cfg : Imperative.DetCFG Core.Expression y) → motive (Imperative.Body.cfg cfg)) →           ((x : Imperative.Body Core.Expression y) → motive x) → (fun x => motive x) x but function has type   ∀     (f :       Type →         (motive : Imperative.Body Core.Expression Core.Command → Sort u_1) →           (x : Imperative.Body Core.Expression Core.Command) →             ((cfg : Imperative.DetCFG Core.Express
+NT copy-rfl _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.sumToNCFG.match_1
+NT copy _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.sumToNCFG.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Core.DetCFG
+NT copy Core.DetCFG defn_ms=0 eq_ms=0 congr=true
+NT copying Core.Procedure
+NT copy Core.Procedure defn_ms=0 eq_ms=0 congr=true
+NT copying Core.Decl.casesOn
+NT copy-congr-rejected Core.Decl.casesOn: (kernel) application type mismatch   Core.Decl.proc d argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Core.Decl.casesOn
+NT copy Core.Decl.casesOn defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.kind.match_1
+NT copy-congr-rejected Core.Decl.kind.match_1: (kernel) application type mismatch   Core.Decl.proc d✝ argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Core.Decl.kind.match_1
+NT copy Core.Decl.kind.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.kind
+NT copy-congr-rejected Core.Decl.kind: (kernel) application type mismatch   @_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Decl.kind.match_1 (fun d => Core.DeclKind) d     (fun t md => Core.DeclKind.type) (fun a md => Core.DeclKind.ax) (fun l md => Core.DeclKind.lemma)     (fun name es md => Core.DeclKind.distinct) fun d md => Core.DeclKind.proc argument has type   y → Imperative.MetaData Core.Expression → Core.DeclKind but function has type   ((d : Core.Procedure) → (md : Imperative.MetaData Core.Expression) → (fun d => Core.DeclKind) (Core.Decl.proc d md)) →     ((f : Core.Function) →         (md : Imperative.MetaData Core.Expression) → (fun d => Core.DeclKind) (Core.Decl.func f md)) →       ((fs : List
+NT copy-rfl Core.Decl.kind
+NT copy Core.Decl.kind defn_ms=0 eq_ms=3 congr=false
+NT copying Core.Decl.name.match_1
+NT copy-congr-rejected Core.Decl.name.match_1: (kernel) application type mismatch   Core.Decl.proc p argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Core.Decl.name.match_1
+NT copy Core.Decl.name.match_1 defn_ms=1 eq_ms=2 congr=false
+NT copying Core.TypeDecl.name
+NT copy-congr-rejected Core.TypeDecl.name: (kernel) application type mismatch   Core.TypeDecl.name.match_1✝ (fun d => y.Ident) d fun tc =>     have s := tc.name;     { name := s, metadata := () } argument has type   TypeConstructor → Lambda.Identifier Unit but function has type   ((tc : TypeConstructor) → (fun d => y.Ident) (Core.TypeDecl.con tc)) →     ((ts : Core.TypeSynonym) → (fun d => y.Ident) (Core.TypeDecl.syn ts)) →       (Unit → (fun d => y.Ident) (Core.TypeDecl.data [])) →         ((td : Lambda.LDatatype Unit) →             (tail : List (Lambda.LDatatype Unit)) → (fun d => y.Ident) (Core.TypeDecl.data (td :: tail))) →           (fun d => y.Ident) d
+NT copy-rfl Core.TypeDecl.name
+NT copy Core.TypeDecl.name defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.name
+NT copy-congr-rejected Core.Decl.name: (kernel) application type mismatch   Imperative.Procedure.header p argument has type   y but function has type   Imperative.Procedure Core.Expression Core.Command Core.Procedure.Header → Core.Procedure.Header
+NT copy-rfl Core.Decl.name
+NT copy Core.Decl.name defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.find?.go._f
+NT copy-congr-rejected Core.Program.find?.go._f: (kernel) application type mismatch   BEq.beq argument has type   BEq (Lambda.Identifier Unit) but function has type   [self : BEq y.Ident] → y.Ident → y.Ident → Bool
+NT copy-rfl Core.Program.find?.go._f
+NT copy Core.Program.find?.go._f defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Program.find?.go
+NT copy-congr-rejected Core.Program.find?.go: (kernel) application type mismatch   _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Program.find?.go._f k x argument has type   y.Ident but function has type   Core.Expression.Ident → (decls : Core.Decls) → List.below decls → Option Core.Decl
+NT copy-rfl Core.Program.find?.go
+NT copy Core.Program.find?.go defn_ms=0 eq_ms=1 congr=false
+NT copying Core.Program.find?
+NT copy-congr-rejected Core.Program.find?: (kernel) application type mismatch   _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Program.find?.go k x argument has type   y.Ident but function has type   Core.Expression.Ident → Core.Decls → Option Core.Decl
+NT copy-rfl Core.Program.find?
+NT copy Core.Program.find? defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.ctorIdx
+NT copy-congr-rejected Core.Decl.ctorIdx: (kernel) application type mismatch   Core.Decl.casesOn x (fun t md => 0) (fun a md => 1) (fun l md => 2) (fun name es md => 3) fun d md => 4 argument has type   y → Imperative.MetaData Core.Expression → Nat but function has type   ((d : Core.Procedure) → (md : Imperative.MetaData Core.Expression) → (fun x => Nat) (Core.Decl.proc d md)) →     ((f : Core.Function) → (md : Imperative.MetaData Core.Expression) → (fun x => Nat) (Core.Decl.func f md)) →       ((fs : List Core.Function) →           (md : Imperative.MetaData Core.Expression) → (fun x => Nat) (Core.Decl.recFuncBlock fs md)) →         (fun x => Nat) x
+NT copy-rfl Core.Decl.ctorIdx
+NT copy Core.Decl.ctorIdx defn_ms=0 eq_ms=3 congr=false
+NT copying Core.Decl.getProc?._sparseCasesOn_1
+NT copy-congr-rejected Core.Decl.getProc?._sparseCasesOn_1: (kernel) application type mismatch   Core.Decl.proc d argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Core.Decl.getProc?._sparseCasesOn_1
+NT copy Core.Decl.getProc?._sparseCasesOn_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Core.Decl.getProc?.match_1
+NT copy-congr-rejected Core.Decl.getProc?.match_1: (kernel) application type mismatch   Core.Decl.proc p argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Core.Decl.getProc?.match_1
+NT copy Core.Decl.getProc?.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Decl.getProc?
+NT copy-congr-rejected Core.Decl.getProc?: (kernel) application type mismatch   Core.Decl.getProc?.match_1 (fun d => Option y) d fun p md => some p argument has type   y → Imperative.MetaData Core.Expression → Option y but function has type   ((p : Core.Procedure) → (md : Imperative.MetaData Core.Expression) → (fun d => Option y) (Core.Decl.proc p md)) →     ((x : Core.Decl) → (fun d => Option y) x) → (fun d => Option y) d
+NT copy-rfl Core.Decl.getProc?
+NT copy Core.Decl.getProc? defn_ms=0 eq_ms=2 congr=false
+NT copying Core.Program.findProcByString?
+NT copy-congr-rejected Core.Program.findProcByString?: (kernel) application type mismatch   (p.find? Core.DeclKind.proc { name := n, metadata := () }).bind     _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Decl.getProc? argument has type   Core.Decl → Option Core.Procedure but function has type   (Core.Decl → Option y) → Option y
+NT copy-rfl Core.Program.findProcByString?
+NT copy Core.Program.findProcByString? defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.instInhabitedProdDeclTransBindings
+NT copy-congr-rejected Strata.instInhabitedProdDeclTransBindings: (kernel) application type mismatch   Core.Decl.type (Core.TypeDecl.con { name := "badguy", params := [] }) Imperative.MetaData.empty argument has type   Imperative.MetaData y but function has type   Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Strata.instInhabitedProdDeclTransBindings
+NT copy Strata.instInhabitedProdDeclTransBindings defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5: (kernel) application type mismatch   Core.Decl.proc d argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateLMonoTy._sparseCasesOn_5 defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1: (kernel) application type mismatch   Strata.translateLMonoTy._sparseCasesOn_5✝ decl✝ (fun t md => h_1 t md) fun h => h_2 decl✝ argument has type   Nat.hasNotBit 1 (y decl✝) → motive decl✝ but function has type   (Nat.hasNotBit 1 decl✝.ctorIdx → (fun x => motive x) decl✝) → (fun x => motive x) decl✝
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateDatatypes.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Core.TypeDecl.names
+NT copy-congr-rejected Core.TypeDecl.names: (kernel) application type mismatch   List.cons     (have s := tc.name;     { name := s, metadata := () }) argument has type   Lambda.Identifier Unit but function has type   y.Ident → List y.Ident → List y.Ident
+NT copy-rfl Core.TypeDecl.names
+NT copy Core.TypeDecl.names defn_ms=0 eq_ms=1 congr=false
+NT copying StrataDDM.extractConstructorInfo
+NT copy StrataDDM.extractConstructorInfo defn_ms=1 eq_ms=2 congr=true
+NT copying Strata.translateConstructorList
+NT copy Strata.translateConstructorList defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.DL.Lambda.LTy.0.Lambda.formatLMonoTy
+NT copy _private.Strata.DL.Lambda.LTy.0.Lambda.formatLMonoTy defn_ms=1 eq_ms=1 congr=true
+NT copying Lambda.instToFormatLMonoTy._private_1
+NT copy Lambda.instToFormatLMonoTy._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatLMonoTy
+NT copy Lambda.instToFormatLMonoTy defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.instToFormatLFuncOfLExpr
+NT copy Lambda.instToFormatLFuncOfLExpr defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Factory.tryPush
+NT copy Lambda.Factory.tryPush defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.Factory.tryAddAll
+NT copy Lambda.Factory.tryAddAll defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.genBlockFactory
+NT copy Lambda.genBlockFactory defn_ms=0 eq_ms=1 congr=true
+NT copying Strata.genDatatypeFactory
+NT copy-congr-rejected Strata.genDatatypeFactory: (kernel) application type mismatch   Core.Decl.func func.toFunc Imperative.MetaData.empty argument has type   Imperative.MetaData y but function has type   Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Strata.genDatatypeFactory
+NT copy-rejected Strata.genDatatypeFactory: (kernel) declaration type mismatch, '_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.genDatatypeFactory._eq' has type   Strata.genDatatypeFactory = Strata.genDatatypeFactory but it is expected to have type   Strata.genDatatypeFactory =     _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.genDatatypeFactory
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.parseProvenanceString
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.parseProvenanceString defn_ms=0 eq_ms=1 congr=true
+NT copying Strata.translateMetadataAnnEntry
+NT copy-congr-rejected Strata.translateMetadataAnnEntry: (kernel) application type mismatch   Imperative.instBEqField argument has type   BEq (Lambda.Identifier Unit) but function has type   [BEq y.Ident] → BEq (Imperative.MetaDataElem.Field y)
+NT copy-rfl Strata.translateMetadataAnnEntry
+NT copy-rejected Strata.translateMetadataAnnEntry: (kernel) declaration type mismatch, '_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateMetadataAnnEntry._eq' has type   Strata.translateMetadataAnnEntry = Strata.translateMetadataAnnEntry but it is expected to have type   Strata.translateMetadataAnnEntry =     _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateMetadataAnnEntry
+NT copying Strata.translateOptMetadataAnn
+NT copy-congr-rejected Strata.translateOptMetadataAnn: (kernel) application type mismatch   Strata.translateCommaSep Strata.translateMetadataAnnEntry argument has type   StrataDDM.Arg → Strata.TransM (Imperative.MetaDataElem Core.Expression) but function has type   (StrataDDM.Arg → Strata.TransM (Imperative.MetaDataElem y)) →     StrataDDM.Arg → Strata.TransM (Array (Imperative.MetaDataElem y))
+NT copy-rfl Strata.translateOptMetadataAnn
+NT copy Strata.translateOptMetadataAnn defn_ms=1 eq_ms=2 congr=false
+NT copying Strata.SourceRange.toMetaData
+NT copy-congr-rejected Strata.SourceRange.toMetaData: (kernel) application type mismatch   congrArg fun y ictx sr => Imperative.MetaData.ofSourceRange (Strata.Uri.file ictx.fileName) sr argument has type   (y : Imperative.PureExpr) → Lean.Parser.InputContext → StrataDDM.SourceRange → Imperative.MetaData y but function has type   ∀ (f : Imperative.PureExpr → Lean.Parser.InputContext → StrataDDM.SourceRange → Imperative.MetaData Core.Expression),     Core.Expression = _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression →       f Core.Expression = f _kt.F1_Strata_Languages_Core_Factory_3.Core.Expression
+NT copy-rfl Strata.SourceRange.toMetaData
+NT copy Strata.SourceRange.toMetaData defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.getOpMetaData
+NT copy-congr-rejected Strata.getOpMetaData: (kernel) application type mismatch   pure     (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.SourceRange.toMetaData __do_lift✝.inputCtx       op.ann) argument has type   Imperative.MetaData Core.Expression but function has type   Imperative.MetaData y → Strata.TransM (Imperative.MetaData y)
+NT copy-rfl Strata.getOpMetaData
+NT copy Strata.getOpMetaData defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.mergeAnnMetaData
+NT copy-congr-rejected Strata.mergeAnnMetaData: (kernel) application type mismatch   Imperative.instBEqField argument has type   BEq (Lambda.Identifier Unit) but function has type   [BEq y.Ident] → BEq (Imperative.MetaDataElem.Field y)
+NT copy-rfl Strata.mergeAnnMetaData
+NT copy Strata.mergeAnnMetaData defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.getMetaDataWithAnn
+NT copy-congr-rejected Strata.getMetaDataWithAnn: (kernel) application type mismatch   bind (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateOptMetadataAnn annotsArg) argument has type   Strata.TransM (Imperative.MetaData Core.Expression) but function has type   Strata.TransM (Imperative.MetaData y) →     (Imperative.MetaData y → Strata.TransM (Imperative.MetaData y)) → Strata.TransM (Imperative.MetaData y)
+NT copy-rfl Strata.getMetaDataWithAnn
+NT copy Strata.getMetaDataWithAnn defn_ms=0 eq_ms=1 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1: (kernel) application type mismatch   Core.Decl.proc d argument has type   y but function has type   Core.Procedure → Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1 defn_ms=1 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1: (kernel) application type mismatch   @_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23._private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls._sparseCasesOn_1     (fun x => motive x) decl✝ (fun f md => h_1 f md) fun h => h_2 decl✝ argument has type   Nat.hasNotBit 32 (y decl✝) → motive decl✝ but function has type   (Nat.hasNotBit 32 decl✝.ctorIdx → (fun x => motive x) decl✝) → (fun x => motive x) decl✝
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.filterDatatypeDecls
+NT copy-congr-rejected Strata.filterDatatypeDecls: (kernel) application type mismatch   @_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23._private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.filterDatatypeDecls.match_1     (fun decl => Bool) decl fun f md => names.contains f.name.name argument has type   Core.Function → Imperative.MetaData y → Bool but function has type   ((f : Core.Function) → (md : Imperative.MetaData Core.Expression) → (fun decl => Bool) (Core.Decl.func f md)) →     ((x : Core.Decl) → (fun decl => Bool) x) → (fun decl => Bool) decl
+NT copy-rfl Strata.filterDatatypeDecls
+NT copy Strata.filterDatatypeDecls defn_ms=0 eq_ms=4 congr=false
+NT copying Strata.translateDatatypes
+NT copy-congr-rejected Strata.translateDatatypes: (kernel) application type mismatch   List.contains argument has type   BEq (Lambda.Identifier Unit) but function has type   [BEq y.Ident] → List y.Ident → y.Ident → Bool
+NT copy-rfl Strata.translateDatatypes
+NT copy-rejected Strata.translateDatatypes: (kernel) deterministic timeout
+NT copying Core.Function.const
+NT copy-congr-rejected Core.Function.const: (kernel) application type mismatch   Strata.DL.Util.Func.mk name [] false false [] ty value argument has type   Option y.Expr but function has type   Option (Lambda.LExpr Core.CoreLParams.mono) →     Array Strata.DL.Util.FuncAttr →       List (Lambda.LExpr Core.CoreLParams.mono) →         List (Strata.DL.Util.FuncPrecondition (Lambda.LExpr Core.CoreLParams.mono) Core.CoreLParams.Metadata) →           Option (Lambda.LExpr Core.CoreLParams.mono) →             List String →               Strata.DL.Util.Func Core.CoreLParams.Identifier (Lambda.LExpr Core.CoreLParams.mono) Lambda.LMonoTy                 Core.CoreLParams.Metadata
+NT copy-rfl Core.Function.const
+NT copy Core.Function.const defn_ms=1 eq_ms=2 congr=false
+NT copying Core.Decl.const
+NT copy-congr-rejected Core.Decl.const: (kernel) application type mismatch   _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Function.const name argument has type   y.Ident but function has type   Core.CoreIdent →     Lambda.LMonoTy →       optParam (Option Core.Expression.Expr) none → optParam (Array Strata.DL.Util.FuncAttr) #[] → Core.Function
+NT copy-rfl Core.Decl.const
+NT copy Core.Decl.const defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateConstantDecl
+NT copy-congr-rejected Strata.translateConstantDecl: (kernel) application type mismatch   bind (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.getMetaDataWithAnn op annotsArg) argument has type   Strata.TransM (Imperative.MetaData Core.Expression) but function has type   Strata.TransM (Imperative.MetaData y) →     (Imperative.MetaData y → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateConstantDecl
+NT copy Strata.translateConstantDecl defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateConstantDef
+NT copy-congr-rejected Strata.translateConstantDef: (kernel) application type mismatch   bind (Strata.translateExpr p bindings op.args[3]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr →     (y.Expr → Strata.TransM (Core.Decl × Strata.TransBindings)) → Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateConstantDef
+NT copy Strata.translateConstantDef defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateTypeDecl
+NT copy-congr-rejected Strata.translateTypeDecl: (kernel) application type mismatch   bind (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.getMetaDataWithAnn op annotsArg) argument has type   Strata.TransM (Imperative.MetaData Core.Expression) but function has type   Strata.TransM (Imperative.MetaData y) →     (Imperative.MetaData y → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateTypeDecl
+NT copy Strata.translateTypeDecl defn_ms=1 eq_ms=2 congr=false
+NT copying Strata.translateTypeSynonym
+NT copy-congr-rejected Strata.translateTypeSynonym: (kernel) application type mismatch   bind (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.getMetaDataWithAnn op annotsArg) argument has type   Strata.TransM (Imperative.MetaData Core.Expression) but function has type   Strata.TransM (Imperative.MetaData y) →     (Imperative.MetaData y → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateTypeSynonym
+NT copy Strata.translateTypeSynonym defn_ms=1 eq_ms=2 congr=false
+NT copying Strata.translateAxiom
+NT copy-congr-rejected Strata.translateAxiom: (kernel) application type mismatch   bind (Strata.translateExpr p bindings op.args[2]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr →     (y.Expr → Strata.TransM (Core.Decl × Strata.TransBindings)) → Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateAxiom
+NT copy Strata.translateAxiom defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateParamsProposition
+NT copy-congr-rejected Strata.translateParamsProposition: (kernel) application type mismatch   bind (Strata.translateQuantifier Lambda.QuantifierKind.all p bindings args[1]! triggers args[3]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr →     (y.Expr → Strata.TransM (String × y.Expr × Strata.TransBindings)) →       Strata.TransM (String × y.Expr × Strata.TransBindings)
+NT copy-rfl Strata.translateParamsProposition
+NT copy Strata.translateParamsProposition defn_ms=0 eq_ms=2 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1: (kernel) application type mismatch   congrArg fun y motive __discr h_1 =>     Prod.casesOn __discr fun fst snd => Prod.casesOn snd fun fst_1 snd => h_1 fst fst_1 snd argument has type   (y : Imperative.PureExpr) →     (motive : String × y.Expr × Strata.TransBindings → Sort u_1) →       (__discr : String × y.Expr × Strata.TransBindings) →         ((l : String) → (e : y.Expr) → (bindings : Strata.TransBindings) → motive (l, e, bindings)) →           (fun x => motive x) __discr but function has type   ∀     (f :       Imperative.PureExpr →         (motive : String × Core.Expression.Expr × Strata.TransBindings → Sort u_1) →           (__discr : String × Core.Expression.Expr × Strata.TransBinding
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateAxiomParams.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateAxiomParams
+NT copy-congr-rejected Strata.translateAxiomParams: (kernel) application type mismatch   bind     (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateParamsProposition p bindings       "axiom" (op.args.extract 1 5)) argument has type   Strata.TransM (String × Core.Expression.Expr × Strata.TransBindings) but function has type   Strata.TransM (String × y.Expr × Strata.TransBindings) →     (String × y.Expr × Strata.TransBindings → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateAxiomParams
+NT copy Strata.translateAxiomParams defn_ms=1 eq_ms=2 congr=false
+NT copying Strata.translateLemma
+NT copy-congr-rejected Strata.translateLemma: (kernel) application type mismatch   bind (Strata.translateExpr p bindings op.args[2]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr →     (y.Expr → Strata.TransM (Core.Decl × Strata.TransBindings)) → Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateLemma
+NT copy Strata.translateLemma defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateLemmaParams
+NT copy-congr-rejected Strata.translateLemmaParams: (kernel) application type mismatch   bind     (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateParamsProposition p bindings       "lemma" #[op.args[1]!, op.args[3]!, op.args[4]!, op.args[5]!]) argument has type   Strata.TransM (String × Core.Expression.Expr × Strata.TransBindings) but function has type   Strata.TransM (String × y.Expr × Strata.TransBindings) →     (String × y.Expr × Strata.TransBindings → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateLemmaParams
+NT copy Strata.translateLemmaParams defn_ms=1 eq_ms=3 congr=false
+NT copying Strata.translateLemmaTypeArgs
+NT copy-congr-rejected Strata.translateLemmaTypeArgs: (kernel) application type mismatch   bind (Strata.translateExpr p bindings op.args[3]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr →     (y.Expr → Strata.TransM (Core.Decl × Strata.TransBindings)) → Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateLemmaTypeArgs
+NT copy Strata.translateLemmaTypeArgs defn_ms=1 eq_ms=2 congr=false
+NT copying Core.instInhabitedExprExpression
+NT copy-congr-rejected Core.instInhabitedExprExpression: (kernel) application type mismatch   { default := Lambda.LExpr.intConst () 0 } argument has type   Lambda.LExpr { base := { Metadata := Core.ExpressionMetadata, IDMeta := Unit }, TypeType := Lambda.LMonoTy } but function has type   y.Expr → Inhabited y.Expr
+NT copy-rfl Core.instInhabitedExprExpression
+NT copy Core.instInhabitedExprExpression defn_ms=0 eq_ms=1 congr=false
+NT copying Strata.translateDistinct
+NT copy-congr-rejected Strata.translateDistinct: (kernel) application type mismatch   Strata.translateCommaSep argument has type   Inhabited Core.Expression.Expr but function has type   [Inhabited y.Expr] → (StrataDDM.Arg → Strata.TransM y.Expr) → StrataDDM.Arg → Strata.TransM (Array y.Expr)
+NT copy-rfl Strata.translateDistinct
+NT copy Strata.translateDistinct defn_ms=0 eq_ms=3 congr=false
+NT copying Core.Procedure.Check
+NT copy Core.Procedure.Check defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1: (kernel) application type mismatch   congrArg fun y motive __discr h_1 => Prod.casesOn __discr fun fst snd => h_1 fst snd argument has type   (y : Type) →     (motive : ListMap Core.CoreLabel y × ListMap Core.CoreLabel y → Sort u_1) →       (__discr : ListMap Core.CoreLabel y × ListMap Core.CoreLabel y) →         ((restreqs restens : ListMap Core.CoreLabel y) → motive (restreqs, restens)) → (fun x => motive x) __discr but function has type   ∀     (f :       Type →         (motive :             ListMap Core.CoreLabel Core.Procedure.Check × ListMap Core.CoreLabel Core.Procedure.Check → Sort u_1) →           (__discr : ListMap Core.CoreLabel Core.Procedure.Check × ListMap Core.CoreLabel Core.P
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateSpec.match_1 defn_ms=1 eq_ms=2 congr=false
+NT copying Core.Statement
+NT copy Core.Statement defn_ms=0 eq_ms=1 congr=true
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1: (kernel) application type mismatch   congrArg fun y motive __discr h_1 => Prod.casesOn __discr fun fst snd => h_1 fst snd argument has type   (y : Type) →     (motive : List y × Strata.TransBindings → Sort u_1) →       (__discr : List y × Strata.TransBindings) →         ((stmts : List y) → (bindings : Strata.TransBindings) → motive (stmts, bindings)) → (fun x => motive x) __discr but function has type   ∀     (f :       Type →         (motive : List Core.Statement × Strata.TransBindings → Sort u_1) →           (__discr : List Core.Statement × Strata.TransBindings) →             ((stmts : List Core.Statement) → (bindings : Strata.TransBindings) → motive (stmts, bindings)) →               moti
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.initVarStmts.match_1 defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateSpec
+NT copy-congr-rejected Strata.translateSpec: (kernel) application type mismatch   Strata.translateSpec.match_5✝ (fun x => Strata.TransM (ListMap Core.CoreLabel y × ListMap Core.CoreLabel y)) sargs[0]!     fun ann args => Strata.translateSpec.go✝ p name bindings 0 args.size args argument has type   StrataDDM.SourceRange →     Array (StrataDDM.ArgF StrataDDM.SourceRange) →       Strata.TransM (ListMap Core.CoreLabel Core.Procedure.Check × ListMap Core.CoreLabel Core.Procedure.Check) but function has type   ((ann : StrataDDM.SourceRange) →       (args : Array (StrataDDM.ArgF StrataDDM.SourceRange)) →         (fun x => Strata.TransM (ListMap Core.CoreLabel y × ListMap Core.CoreLabel y))           (StrataDDM.ArgF.seq ann StrataDDM.SepFormat
+NT copy-rfl Strata.translateSpec
+NT copy Strata.translateSpec defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateProcedure
+NT copy-congr-rejected Strata.translateProcedure: (kernel) application type mismatch   Strata.initVarStmts.match_1✝ fun __discr => Strata.TransM (Core.Decl × Strata.TransBindings) argument has type   List y × Strata.TransBindings → Type but function has type   (motive : List Core.Statement × Strata.TransBindings → Type) →     (__discr : List Core.Statement × Strata.TransBindings) →       ((stmts : List Core.Statement) → (bindings : Strata.TransBindings) → motive (stmts, bindings)) → motive __discr
+NT copy-rfl Strata.translateProcedure
+NT copy Strata.translateProcedure defn_ms=0 eq_ms=6 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1: (kernel) application type mismatch   congrArg fun y motive __discr h_1 =>     Prod.casesOn __discr fun fst snd => Prod.casesOn snd fun fst_1 snd => h_1 fst fst_1 snd argument has type   (y : Imperative.PureExpr) →     (motive :         List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Option y.Expr × Array Strata.DL.Util.FuncAttr →           Sort u_1) →       (__discr :           List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) ×             Option y.Expr × Array Strata.DL.Util.FuncAttr) →         ((preconds : List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata)) →             (body : Option y.Expr) → (inline? : Array Strata.DL.Util.FuncAttr) → motive (precon
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1 defn_ms=0 eq_ms=4 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3: (kernel) application type mismatch   congrArg fun y motive x h_1 => Prod.casesOn x fun fst snd => h_1 fst snd argument has type   (y : Imperative.PureExpr) →     (motive : List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Nat → Sort u_1) →       (x : List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Nat) →         ((acc : List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata)) → (count : Nat) → motive (acc, count)) →           (fun x => motive x) x but function has type   ∀     (f :       Imperative.PureExpr →         (motive :             List (Strata.DL.Util.FuncPrecondition Core.Expression.Expr Core.Expression.ExprMetadata) × Nat → Sort u_1) →           (x 
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateFnPreconds
+NT copy-congr-rejected Strata.translateFnPreconds: (kernel) application type mismatch   @_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23._private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFnPreconds.match_3     fun x => Strata.TransM (List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Nat) argument has type   List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Nat → Type but function has type   (motive : List (Strata.DL.Util.FuncPrecondition Core.Expression.Expr Core.Expression.ExprMetadata) × Nat → Type) →     (x : List (Strata.DL.Util.FuncPrecondition Core.Expression.Expr Core.Expression.ExprMetadata) × Nat) →       ((acc : List (Strata.DL.Util.FuncPrecondition Core.Expression.E
+NT copy-rfl Strata.translateFnPreconds
+NT copy Strata.translateFnPreconds defn_ms=1 eq_ms=4 congr=false
+NT copying Strata.translateFunction
+NT copy-congr-rejected Strata.translateFunction: (kernel) application type mismatch   @_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23._private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateFunction.match_1     fun __discr => Strata.TransM (Core.Decl × Strata.TransBindings) argument has type   List (Strata.DL.Util.FuncPrecondition y.Expr y.ExprMetadata) × Option y.Expr × Array Strata.DL.Util.FuncAttr → Type but function has type   (motive :       List (Strata.DL.Util.FuncPrecondition Core.Expression.Expr Core.Expression.ExprMetadata) ×           Option Core.Expression.Expr × Array Strata.DL.Util.FuncAttr →         Type) →     (__discr :         List (Strata.DL.Util.FuncPrecondition Core.Expression.Expr Co
+NT copy-rfl Strata.translateFunction
+NT copy Strata.translateFunction defn_ms=1 eq_ms=5 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1: (kernel) application type mismatch   congrArg fun y motive x h_1 => Prod.casesOn x fun fst snd => h_1 fst snd argument has type   (y : Imperative.PureExpr) →     (motive : List Core.Function × Array y.Expr → Sort u_1) →       (x : List Core.Function × Array y.Expr) →         ((acc : List Core.Function) → (siblings : Array y.Expr) → motive (acc, siblings)) → (fun x => motive x) x but function has type   ∀     (f :       Imperative.PureExpr →         (motive : List Core.Function × Array Core.Expression.Expr → Sort u_1) →           (x : List Core.Function × Array Core.Expression.Expr) →             ((acc : List Core.Function) → (siblings : Array Core.Expression.Expr) → motive (acc, siblings)) →
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateRecFuncBlock.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateMeasure
+NT copy-congr-rejected Strata.translateMeasure: (kernel) application type mismatch   bind (Strata.translateExpr p bindings args[0]!) argument has type   Strata.TransM Core.Expression.Expr but function has type   Strata.TransM y.Expr → (y.Expr → Strata.TransM (Option y.Expr)) → Strata.TransM (Option y.Expr)
+NT copy-rfl Strata.translateMeasure
+NT copy Strata.translateMeasure defn_ms=0 eq_ms=2 congr=false
+NT copying Strata.translateRecFnDecl
+NT copy-congr-rejected Strata.translateRecFnDecl: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (Array (Lambda.LExpr Core.CoreLParams.mono)) (Array (Lambda.LExpr Core.CoreLParams.mono))     (Array (Lambda.LExpr Core.CoreLParams.mono)) but function has type   [self :       HAppend (Array (Lambda.LExpr Core.CoreLParams.mono)) (Array y.Expr)         (Array (Lambda.LExpr Core.CoreLParams.mono))] →     Array (Lambda.LExpr Core.CoreLParams.mono) → Array y.Expr → Array (Lambda.LExpr Core.CoreLParams.mono)
+NT copy-rfl Strata.translateRecFnDecl
+NT copy Strata.translateRecFnDecl defn_ms=1 eq_ms=3 congr=false
+NT copying Strata.translateRecFuncBlock
+NT copy-congr-rejected Strata.translateRecFuncBlock: (kernel) application type mismatch   Core.Decl.recFuncBlock [placeholder] Imperative.MetaData.empty argument has type   Imperative.MetaData y but function has type   Imperative.MetaData Core.Expression → Core.Decl
+NT copy-rfl Strata.translateRecFuncBlock
+NT copy Strata.translateRecFuncBlock defn_ms=0 eq_ms=5 congr=false
+NT copying Strata.translateBlockCommand
+NT copy-congr-rejected Strata.translateBlockCommand: (kernel) application type mismatch   bind (Strata.translateBlock p bindings op.args[0]!) argument has type   Strata.TransM (List Core.Statement × Strata.TransBindings) but function has type   Strata.TransM (List y × Strata.TransBindings) →     (List y × Strata.TransBindings → Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateBlockCommand
+NT copy Strata.translateBlockCommand defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3: (kernel) application type mismatch   congrArg fun y motive __discr h_1 => Prod.casesOn __discr fun fst snd => h_1 fst snd argument has type   (y : Type) →     (motive :         List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) y) ×             Strata.TransBindings →           Sort u_1) →       (__discr :           List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) y) ×             Strata.TransBindings) →         ((rest : List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) y)) →             (bindings : Strata.TransBindings) → motive (rest, bindings)) →           (fun x => motive x) _
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGBlocks.match_3 defn_ms=1 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression
+NT copy-motive-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression: (kernel) application type mismatch   congrArg fun y =>     _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23._private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression._motive       y Core.Expression argument has type   (y : Type) → Inhabited (Imperative.CFG String (Imperative.DetBlock String y Core.Expression)) but function has type   ∀ (f : Type → Inhabited (Imperative.CFG String (Imperative.DetBlock String Core.Command Core.Expression))),     Core.Command = _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Command →       f Core.Command = f _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructure
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression: (kernel) application type mismatch   congrArg fun y => { default := { entry := "", blocks := [] } } argument has type   (y : Type) → Inhabited (Imperative.CFG String (Imperative.DetBlock String y Core.Expression)) but function has type   ∀ (f : Type → Inhabited (Imperative.CFG String (Imperative.DetBlock String Core.Command Core.Expression))),     Core.Command = _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Command →       f Core.Command = f _kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Core.Command
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.instInhabitedCFGStringDetBlockCommandExpression defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateCFGBody
+NT copy-congr-rejected Strata.translateCFGBody: (kernel) application type mismatch   bind (Strata.translateCFGBlocks p bindings op.args[1]!) argument has type   Strata.TransM     (List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) Core.Command) ×       Strata.TransBindings) but function has type   Strata.TransM       (List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) y) ×         Strata.TransBindings) →     (List (String × Imperative.BasicBlock (Imperative.DetTransferCmd String Core.Expression) y) × Strata.TransBindings →         Strata.TransM (Imperative.CFG String (Imperative.DetBlock String y Core.Expression) × Strata.TransBindings)) →       Strata.TransM (Imper
+NT copy-rfl Strata.translateCFGBody
+NT copy Strata.translateCFGBody defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1
+NT copy-congr-rejected _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1: (kernel) application type mismatch   congrArg fun y motive __discr h_1 => Prod.casesOn __discr fun fst snd => h_1 fst snd argument has type   (y : Type) →     (motive : Imperative.CFG String (Imperative.DetBlock String y Core.Expression) × Strata.TransBindings → Sort u_1) →       (__discr : Imperative.CFG String (Imperative.DetBlock String y Core.Expression) × Strata.TransBindings) →         ((cfg : Imperative.CFG String (Imperative.DetBlock String y Core.Expression)) →             (bindings : Strata.TransBindings) → motive (cfg, bindings)) →           (fun x => motive x) __discr but function has type   ∀     (f :       Type →         (motive :             Imperative.CFG String (Imperative.D
+NT copy-rfl _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1
+NT copy _private.Strata.Languages.Core.DDMTransform.Translate.0.Strata.translateCFGProcedure.match_1 defn_ms=0 eq_ms=3 congr=false
+NT copying Strata.translateCFGProcedure
+NT copy-congr-rejected Strata.translateCFGProcedure: (kernel) application type mismatch   bind     (_kt.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_23.Strata.translateCFGBody p bindings op.args[5]!) argument has type   Strata.TransM (Imperative.CFG String (Imperative.DetBlock String Core.Command Core.Expression) × Strata.TransBindings) but function has type   Strata.TransM (Imperative.CFG String (Imperative.DetBlock String y Core.Expression) × Strata.TransBindings) →     (Imperative.CFG String (Imperative.DetBlock String y Core.Expression) × Strata.TransBindings →         Strata.TransM (Core.Decl × Strata.TransBindings)) →       Strata.TransM (Core.Decl × Strata.TransBindings)
+NT copy-rfl Strata.translateCFGProcedure
+NT copy Strata.translateCFGProcedure defn_ms=1 eq_ms=6 congr=false
+NT copying Strata.translateCoreDecls
+NT copy Strata.translateCoreDecls defn_ms=0 eq_ms=5 congr=true
+NT copying Strata.translateProgram
+NT copy Strata.translateProgram defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.cstToAST
+NT copy _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.cstToAST defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addDatatypeBindings
+NT copy _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addDatatypeBindings defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding
+NT copy _private.StrataDDM.AST.0.StrataDDM.GlobalContext.addBinding defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.GlobalContext.addCommand
+NT copy StrataDDM.GlobalContext.addCommand defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.computeGlobalContext
+NT copy StrataDDM.computeGlobalContext defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Program.create
+NT copy StrataDDM.Program.create defn_ms=0 eq_ms=0 congr=true
+NT copying String.foldl
+NT copy String.foldl defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.escapeStringLit
+NT copy StrataDDM.escapeStringLit defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Parser.0.StrataDDM.Parser.decodedStrLitFn
+NT copy _private.StrataDDM.Parser.0.StrataDDM.Parser.decodedStrLitFn defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux
+NT copy _private.StrataDDM.Parser.0.StrataDDM.Parser.tokenFnAux defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Parser.tokenFn
+NT copy StrataDDM.Parser.tokenFn defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Parser.identifier
+NT copy StrataDDM.Parser.identifier defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Parser.expectTokenFn
+NT copy StrataDDM.Parser.expectTokenFn defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Parser.numLit
+NT copy StrataDDM.Parser.numLit defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Parser.byteArray
+NT copy StrataDDM.Parser.byteArray defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Parser.decimalLit
+NT copy StrataDDM.Parser.decimalLit defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Parser.strLit
+NT copy StrataDDM.Parser.strLit defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.initParsers
+NT copy StrataDDM.Elab.initParsers defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Elab.DeclM.0.StrataDDM.Elab.initTokenTable
+NT copy _private.StrataDDM.Elab.DeclM.0.StrataDDM.Elab.initTokenTable defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Elab.DeclState.ofDialects
+NT copy StrataDDM.Elab.DeclState.ofDialects defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.escapePipeIdent
+NT copy _private.StrataDDM.Format.0.StrataDDM.escapePipeIdent defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.formatIdent
+NT copy _private.StrataDDM.Format.0.StrataDDM.formatIdent defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.instToStrataFormatQualifiedIdent._private_1
+NT copy StrataDDM.instToStrataFormatQualifiedIdent._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.instToStrataFormatQualifiedIdent
+NT copy StrataDDM.instToStrataFormatQualifiedIdent defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.SyntaxCatF.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.SyntaxCatF.mformat defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.SyntaxCatF.instToStrataFormat._private_1
+NT copy StrataDDM.SyntaxCatF.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.SyntaxCatF.instToStrataFormat
+NT copy StrataDDM.SyntaxCatF.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.StrataFormat.bvar
+NT copy _private.StrataDDM.Format.0.StrataDDM.StrataFormat.bvar defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.PreType.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.PreType.mformat defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.PreType.instToStrataFormat._private_1
+NT copy StrataDDM.PreType.instToStrataFormat._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.PreType.instToStrataFormat
+NT copy StrataDDM.PreType.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDeclKind.instToStrataFormat._private_1
+NT copy StrataDDM.ArgDeclKind.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDeclKind.instToStrataFormat
+NT copy StrataDDM.ArgDeclKind.instToStrataFormat defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.MetadataArg.mformat._f
+NT copy _private.StrataDDM.Format.0.StrataDDM.MetadataArg.mformat._f defn_ms=0 eq_ms=1 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.MetadataArg.mformat
+NT copy _private.StrataDDM.Format.0.StrataDDM.MetadataArg.mformat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.MetadataArg.instToStrataFormat._private_1
+NT copy StrataDDM.MetadataArg.instToStrataFormat._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.MetadataArg.instToStrataFormat
+NT copy StrataDDM.MetadataArg.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.MetadataAttr.instToStrataFormat._private_1
+NT copy StrataDDM.MetadataAttr.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.MetadataAttr.instToStrataFormat
+NT copy StrataDDM.MetadataAttr.instToStrataFormat defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.Metadata.instToStrataFormat._private_1
+NT copy StrataDDM.Metadata.instToStrataFormat._private_1 defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.Metadata.instToStrataFormat
+NT copy StrataDDM.Metadata.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying StrataDDM.ArgDecl.instToStrataFormat._private_1
+NT copy StrataDDM.ArgDecl.instToStrataFormat._private_1 defn_ms=0 eq_ms=1 congr=true
+NT copying StrataDDM.ArgDecl.instToStrataFormat
+NT copy StrataDDM.ArgDecl.instToStrataFormat defn_ms=0 eq_ms=0 congr=true
+NT copying _private.StrataDDM.Format.0.StrataDDM.ArgDecls.mformatAux._unary
+rc=124 secs=900

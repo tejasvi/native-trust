@@ -1,0 +1,252 @@
+{
+ "name": "p_Natuvea_tacenta_core_tacenta_model",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "toolchain": "v4.31.0",
+ "uses": 141,
+ "replaced": 79,
+ "replaced_known": 0,
+ "replaced_unknown": 79,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: [Error pretty printing: maximum recursion depth has been reached": 38,
+  "build: module build 2.1 s > 2 x original 0.8 s (--max-slowdown)": 2,
+  "build: module build 6.0 s > 2 x original 1.4 s (--max-slowdown)": 20,
+  "build: module build 2.8 s > 2 x original 0.3 s (--max-slowdown)": 2
+ },
+ "native_axioms_before": 2,
+ "native_axioms_after": 2,
+ "bv_decide_axioms_before": 2,
+ "bv_decide_axioms_after": 2,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 2,
+ "native_dependent_decls_after": 2,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 8.07,
+   "cpu": 12.5,
+   "n_errors": 5,
+   "reverted": 5,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 14.57,
+   "cpu": 56.1,
+   "n_errors": 22,
+   "reverted": 22,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 1.1,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 1,
+   "wall": 14.97,
+   "cpu": 27.0,
+   "n_errors": 6,
+   "reverted": 6,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 1.0,
+   "rss_killed": false
+  },
+  {
+   "round": 3,
+   "rc": 1,
+   "wall": 10.04,
+   "cpu": 14.9,
+   "n_errors": 3,
+   "reverted": 3,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.2,
+   "rss_killed": false
+  },
+  {
+   "round": 4,
+   "rc": 1,
+   "wall": 7.04,
+   "cpu": 8.3,
+   "n_errors": 2,
+   "reverted": 2,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.1,
+   "rss_killed": false
+  },
+  {
+   "round": 5,
+   "rc": 0,
+   "wall": 3.04,
+   "cpu": 3.4,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.0,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 10.71,
+   "cpu": 27.1,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 12.96,
+  "cpu": 33.8,
+  "n_built": 22,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.8,
+  "peak_rss_sum_gb": 2.2
+ },
+ "time1": {
+  "wall": 10.36,
+  "cpu": 29.6,
+  "n_built": 19,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.9,
+  "peak_rss_sum_gb": 2.3
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 24.36,
+  "cpu": 28.4,
+  "n_built": 6,
+  "peak_lean": 3,
+  "peak_rss_gb": 1.5,
+  "peak_rss_sum_gb": 2.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 19,
+ "replaced_modules": 13,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 2
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "Model.LifecycleTrace",
+  "Model.Messages",
+  "Model.Sha256"
+ ],
+ "module_times_sum": [
+  22.2,
+  19.8
+ ],
+ "module_times_slower": [
+  [
+   "Model.Polynomial",
+   0.609,
+   1.6
+  ],
+  [
+   "Model.PersistedState",
+   2.7,
+   3.3
+  ],
+  [
+   "Model.SessionEstablishment",
+   0.184,
+   0.647
+  ],
+  [
+   "Model.CompositeHeader",
+   0.8300000000000001,
+   0.979
+  ],
+  [
+   "Model.Kdf",
+   0.265,
+   0.28500000000000003
+  ],
+  [
+   "Model.GroupCommitment",
+   0.185,
+   0.193
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Model.SparseRatchet",
+   5.7,
+   2.1
+  ],
+  [
+   "Model.Ratchet",
+   1.7,
+   1.4
+  ],
+  [
+   "Model.Messages",
+   1.4,
+   1.1
+  ],
+  [
+   "Model.Lifecycle",
+   1.8,
+   1.7
+  ],
+  [
+   "Model.Erasure",
+   1.3,
+   1.2
+  ],
+  [
+   "Properties.Invariants",
+   0.268,
+   0.198
+  ],
+  [
+   "Model.SessionTrace",
+   0.334,
+   0.289
+  ],
+  [
+   "Difftest",
+   0.742,
+   0.7010000000000001
+  ]
+ ]
+}

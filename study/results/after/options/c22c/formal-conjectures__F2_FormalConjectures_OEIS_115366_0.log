@@ -1,0 +1,12 @@
+$ lean formal-conjectures__F2_FormalConjectures_OEIS_115366_0.lean tc=v4.33.1 ntlib=/home/ntbuild/work_shared/nt22/v4.33.1/.lake/build/lib/lean start=2026-10-24T19:57:09Z
+formal-conjectures__F2_FormalConjectures_OEIS_115366_0.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+PROVED `_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._native.native_decide.ax_1_1` as `_ktr.«formal-conjectures__F2_FormalConjectures_OEIS_115366_0»._private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._kernel.native_decide.ax_1_1`: kernel_ms=13379 native_axioms=1 rebuilt=0 copies=0 total_ms=13514 acc_fallback=0 pieces=1
+maxrss_kb 8755896 secs 16.33
+rc=0 end=2026-10-24T19:57:25Z
+».0.OeisA115366.a_3._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.«formal-conjectures__F2_FormalConjectures_OEIS_115366_0»._private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«formal-conjectures__F2_FormalConjectures_OEIS_115366_0»._private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._kernel.native_decide.ax_1_1.p_0 eval_ms=12016
+NT _ktr.«formal-conjectures__F2_FormalConjectures_OEIS_115366_0»._private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._kernel.native_decide.ax_1_1 pieces=1
+PROVED `_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._native.native_decide.ax_1_1` as `_ktr.«formal-conjectures__F2_FormalConjectures_OEIS_115366_0»._private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._kernel.native_decide.ax_1_1`: kernel_ms=13379 native_axioms=1 rebuilt=0 copies=0 total_ms=13514 acc_fallback=0 pieces=1

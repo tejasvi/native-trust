@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_PPT2Cert_Rows_Row073_3.lean
+NT start PPT2Cert.Row073.blowup_identity._native.native_decide.ax_1_1
+NT nested PPT2Cert.Row073.blowup_identity._native.native_decide.ax_1_1 ms=69 rebuilt_defs=0 visited=2297
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_0 eval_ms=155545
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_1 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_1 eval_ms=201003
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_2 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_2 eval_ms=202000
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_3 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_3 eval_ms=190897
+NT _ktr.F2_PPT2Cert_Rows_Row073_3.PPT2Cert.Row073.blowup_identity._kernel.native_decide.ax_1_1.p_4 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+rc=124 secs=900

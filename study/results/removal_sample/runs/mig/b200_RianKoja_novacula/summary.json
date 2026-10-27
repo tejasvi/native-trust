@@ -1,0 +1,97 @@
+{
+ "name": "b200_RianKoja_novacula",
+ "pkg": "/home/ntbuild/repos_s/RianKoja_novacula",
+ "toolchain": "v4.35.0",
+ "uses": 1,
+ "replaced": 1,
+ "replaced_known": 1,
+ "replaced_unknown": 0,
+ "replaced_facts": 1,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {},
+ "native_axioms_before": 1,
+ "native_axioms_after": 0,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 1,
+ "native_dependent_decls_after": 0,
+ "rewritten_decls": 1,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 0.32,
+   "cpu": 0.2,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 0,
+   "peak_rss_gb": 0.0,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 0.22,
+  "cpu": 0.2,
+  "n_built": 1,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "time1": {
+  "wall": 0.33,
+  "cpu": 0.3,
+  "n_built": 1,
+  "peak_lean": 0,
+  "rc": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.13,
+  "cpu": 0.0,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "fact_budget": 200,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 1
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  0.2,
+  0.2
+ ],
+ "module_times_slower": [
+  [
+   "Fixtures",
+   0.19,
+   0.20800000000000002
+  ]
+ ],
+ "module_times_faster": []
+}

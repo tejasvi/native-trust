@@ -1,0 +1,32 @@
+02:49:51 gate ok: MemAvailable 445 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod3_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v4/veir; start 2026-10-25T02:49:51Z
+02:49:56 RealD/Combine.lean rc=134 4.92	1099744
+02:57:38 RealK/Combine.lean rc=0 461.61	2984976
+02:57:39 CheckK_Combine.lean rc=0 0.83	1872608
+progress lines: 86
+CHECK RealK.Combine: 1128 constants, 0 `_native` names; 245 theorems: 245 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T02:57:39Z
+02:57:39 gate ok: MemAvailable 407 >= 264
+02:57:39 Check2D_Combine.lean rc=1 0.23	553044
+Check2D_Combine.lean:1:0: error: object file '/home/ntbuild/work_bvtac/real_v4/veir/RealD/Combine.olean' of module RealD.Combine does not exist
+02:57:42 Check2K_Combine.lean rc=0 2.83	2031108
+CHECK2 RealK.Combine: 1128 constants, 0 `_native` names; 430 theorems/definitions: 430 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+02:57:42 gate ok: MemAvailable 399 >= 264
+02:57:43 CertD_PBVExamples.lean rc=0 0.69	1563060
+02:57:43 CertD_Memory.lean rc=0 0.70	1596736
+02:57:44 CertD_ArithToLLVM.lean rc=0 0.70	1573664
+02:57:45 CertD_RISCVCombinesProofs.lean rc=0 0.71	1563684
+02:57:46 CertD_Combine.lean rc=0 0.79	1836484
+02:57:46 CertD_ISelA.lean rc=0 0.69	1592336
+02:57:46 gate ok: MemAvailable 410 >= 264
+02:57:48 CertD_Bitwise.lean rc=0 1.30	2651752
+02:57:49 CertD_And8.lean rc=0 1.31	2746568
+02:57:50 CertD_Or8.lean rc=0 1.33	2744100
+02:57:52 CertD_ByteDecomposition.lean rc=0 1.28	2684016
+02:57:52 gate ok: MemAvailable 412 >= 264
+02:57:52 CertD_CompositeHeader.lean rc=0 0.61	1525884
+02:57:52 gate ok: MemAvailable 410 >= 264
+02:57:53 CertD_Serialization.lean rc=0 0.64	1524036
+02:57:53 gate ok: MemAvailable 409 >= 264
+02:57:53 CertD_StackBoundaries.lean rc=0 0.62	1522044
+chain7 done 2026-10-25T02:57:53Z

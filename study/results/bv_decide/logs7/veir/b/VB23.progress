@@ -1,0 +1,3 @@
+[52476539] bvs6fact_23: 282991 nodes, CNF 848183 clauses
+[52570524] bvs6fact_23: 461067 steps, 2274375 hints, 263 chunks; solve+prep 93984 ms
+[52571525] bvs6fact_23: 10 segments of 30000 nodes

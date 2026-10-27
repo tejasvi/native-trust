@@ -1,0 +1,6 @@
+kernel-first: native_decide used compiled evaluation: blocked: reaches `List.mergeSort` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+'kfm_sum' does not depend on any axioms
+'kfm_sort' depends on axioms: [propext, Quot.sound, kfm_sort._native.native_decide.ax_1]
+kernel-first: 2 calls: 1 proved by `decide +kernel` (6 ms in total), 1 used compiled evaluation; native axioms in this module: 1
+FALLBACK `kfm_sort` (native_decide, line 11): blocked: reaches `List.mergeSort` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+rc=0

@@ -1,0 +1,3314 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +BitcoinProofs.Audit.S16.Audit +BitcoinProofs.Audit.Z01.Audit +BitcoinProofs.Audit.Z13.Audit +BitcoinProofs.Audit.Z23.Audit +BitcoinProofs.Audit.Z27.Audit +BitcoinProofs.Audit.Z29.TaprootCorners +BitcoinProofs.Bip.B05.Bip68Coverage +BitcoinProofs.Bip.B06.Bip112CSV +BitcoinProofs.Bip.B09.SigHash143 +BitcoinProofs.Bip.B11.NullDummyVectors +BitcoinProofs.Bip.B13.B13SigMsg +BitcoinProofs.Bip.B14.Tests +BitcoinProofs.Bip.B15.Bip94Tests +BitcoinProofs.Crypto.CurveZMod +BitcoinProofs.EcdsaDeep.CrownBattery +BitcoinProofs.EcdsaDeep.CrownLink +BitcoinProofs.EcdsaDeep.CrownLinkKernel +BitcoinProofs.EcdsaDeep.CrownLinkRun +BitcoinProofs.EcdsaDeep.CrownSchnorr +BitcoinProofs.EcdsaDeep.DerBatteryCor +BitcoinProofs.EcdsaDeep.PubKeyCorProbe +BitcoinProofs.EcdsaDeep.PubKeyMatrix +BitcoinProofs.EcdsaDeep.S02Flip +BitcoinProofs.EcdsaDeep.S02ProbeShaMirror +BitcoinProofs.EcdsaDeep.SchnorrEquation +BitcoinProofs.EcdsaDeep.SmulCor +BitcoinProofs.EcdsaDeep.StrictWindow +BitcoinProofs.EcdsaDeep.VerifyEquation +BitcoinProofs.Property.Y03.Property +BitcoinProofs.Property.Y07.Arith +BitcoinProofs.Property.Y08.Probe +BitcoinProofs.Property.Y08.SighashLegacyProps +BitcoinProofs.Property.Y10.MerkleProps +BitcoinProofs.Property.Y12.FoldProps +BitcoinProofs.Property.Y15.WitnessProps +BitcoinProofs.Property.Y16.TapTweakProps +BitcoinProofs.Theorems.Audit.CV03 +BitcoinProofs.Theorems.CapstoneDecodeCor +BitcoinProofs.Theorems.CapstoneFoldAgree +BitcoinProofs.Theorems.CapstoneMerkleCor +BitcoinProofs.Theorems.CapstonePipelineCor +BitcoinProofs.Theorems.Exhaust.F01PushEncode +BitcoinProofs.Theorems.Exhaust.LeafVersionSweep +BitcoinProofs.Theorems.Exhaust.MerkleShapes64 +BitcoinProofs.Theorems.GenchainCor +BitcoinProofs.Theorems.Ops.O07 +BitcoinProofs.Wallet.Obligations
+⚠ [9/69] Replayed Bitcoin.Serialization.Interface
+warning: Bitcoin/Serialization/Interface.lean:445:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:450:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:462:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:465:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:554:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:562:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Serialization/Interface.lean:562:37: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Serialization/Interface.lean:573:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:581:24: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Serialization/Interface.lean:581:40: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Serialization/Interface.lean:581:55: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Serialization/Interface.lean:602:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:604:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:559:35: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.cons_append, decCS]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:562:32: This simp argument is unused:
+  heq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hlt, if_false, if_true, List.cons_append, encU16L]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:577:37: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.cons_append, decCS]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:581:50: This simp argument is unused:
+  heq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hlt, if_false, heq0, if_false, if_true, List.cons_append, encU32L]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:665:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:718:27: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decOutPointL]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:745:23: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decTxInL, List.append_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:779:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:843:21: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decN] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:860:20: This simp argument is unused:
+  ha
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [encN, hrest]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1026:20: This simp argument is unused:
+  List.cons_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decCS]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1075:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1095:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1048:45: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.append_assoc, decTxCore]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1051:26: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bindE_ok, List.cons_append, List.nil_append, decCS_zero, decU8L_cons, reduceIte, decVinL]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1055:25: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bindE_ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1090:45: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.append_assoc, decTxCore]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1097:25: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bindE_ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1302:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1302:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1319:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1319:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1319:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1337:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1337:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1337:47: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1349:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1354:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1357:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1359:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1368:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1370:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1377:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1379:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1395:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1397:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1400:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1402:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1409:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1438:32: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1440:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1444:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1446:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1455:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1457:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1469:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1471:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1734:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1745:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1763:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1767:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1790:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1799:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1800:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1802:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1852:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1859:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1860:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1862:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1868:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1869:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1926:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:1927:46: This simp argument is unused:
+  List.cons_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.append_assoc, List.nil_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:1927:64: This simp argument is unused:
+  List.nil_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.append_assoc, List.cons_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:2043:27: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decBlockCore]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:2066:29: This simp argument is unused:
+  bindE_ok
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decBlockCore]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Serialization/Interface.lean:2101:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Serialization/Interface.lean:2112:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Serialization/Interface.lean:2132:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [10/69] Replayed Bitcoin.SigHash.Ops
+warning: Bitcoin/SigHash/Ops.lean:173:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:175:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:179:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:181:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:181:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:188:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:192:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:194:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:194:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:194:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:205:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:209:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:211:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:211:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:211:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:211:49: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:231:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:235:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:236:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:236:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:236:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:236:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:290:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:290:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:292:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:295:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:296:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:297:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:297:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:299:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:299:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:306:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:312:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:313:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:314:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:314:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:316:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:316:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:327:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:334:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:335:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:336:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:336:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:338:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:338:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:358:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:367:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:369:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:370:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:370:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:464:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:482:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:502:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:509:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:509:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:510:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:510:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:518:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:518:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:520:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:520:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:512:27: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:516:19: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:532:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:538:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:546:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:547:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:587:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:588:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:613:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:614:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:621:62: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:628:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:592:21: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:610:21: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:664:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:671:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:674:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:677:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/SigHash/Ops.lean:679:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:692:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/SigHash/Ops.lean:682:29: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:686:21: This simp argument is unused:
+  hOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/SigHash/Ops.lean:699:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [11/69] Replayed Bitcoin.Script.Parser.Defs
+warning: Bitcoin/Script/Parser/Defs.lean:116:22: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:116:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:123:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:125:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:157:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:175:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:177:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:316:49: Variable name `c` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _c
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Script/Parser/Defs.lean:524:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:549:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:556:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:556:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:564:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:565:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:566:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:574:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:575:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:576:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:577:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:583:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:584:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:585:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:586:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:587:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:588:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:593:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:594:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:595:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:596:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:597:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:598:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:599:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:605:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:606:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:607:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:608:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:609:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:610:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:611:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:612:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:617:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:618:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:619:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:620:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:621:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:622:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:623:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:624:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:668:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:645:79: This simp argument is unused:
+  toUInt8_toNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:646:12: This simp argument is unused:
+  hA
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:674:12: This simp argument is unused:
+  hA
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:704:14: This simp argument is unused:
+  hA
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hbyte, heq0, ByteArray.size_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:704:18: This simp argument is unused:
+  hbyte
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hA, heq0, ByteArray.size_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:727:16: This simp argument is unused:
+  hA
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [heq0, ByteArray.size_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Parser/Defs.lean:809:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:809:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:811:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:811:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:833:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:835:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:836:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:838:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:859:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:875:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:882:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:911:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Parser/Defs.lean:912:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [14/69] Replayed Bitcoin.Activation.Interface
+warning: Bitcoin/Activation/Interface.lean:344:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:344:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:349:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:349:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:469:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:474:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:502:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:504:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:515:60: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:540:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:548:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:549:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:575:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:577:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Interface.lean:577:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:578:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:578:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:578:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Interface.lean:578:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [23/69] Replayed Bitcoin.Crypto.Taproot.Program
+warning: Bitcoin/Crypto/Taproot/Program.lean:657:13: This simp argument is unused:
+  Bool.and_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [decide_eq_true_eq] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Crypto/Taproot/Program.lean:660:10: This simp argument is unused:
+  List.dropLast_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hlen]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Crypto/Taproot/Program.lean:660:32: This simp argument is unused:
+  hlen
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [List.dropLast_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [25/69] Replayed Bitcoin.Crypto.Taproot.Verify
+warning: Bitcoin/Crypto/Taproot/Verify.lean:322:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Verify.lean:334:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Verify.lean:344:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Verify.lean:349:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [27/69] Replayed Bitcoin.Interpreter.Defs
+warning: Bitcoin/Interpreter/Defs.lean:573:16: Variable name `pc2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _pc2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Interpreter/Defs.lean:1541:40: This simp argument is unused:
+  Except.isOk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Except.toBool] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Interpreter/Defs.lean:1541:53: This simp argument is unused:
+  Except.toBool
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Except.isOk] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Interpreter/Defs.lean:1582:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1583:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1615:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1616:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1638:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1639:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1639:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1675:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/Defs.lean:1853:55: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody, ha, hw, hempty, hfe, disabledWire, Bitcoin.Interpreter.stepBody.dispatchOp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [28/69] Replayed Bitcoin.SigHash.Digest
+warning: Bitcoin/SigHash/Digest.lean:159:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [29/69] Replayed Bitcoin.SigHash.Interface
+warning: Bitcoin/SigHash/Interface.lean:79:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [35/69] Replayed Bitcoin.Conservation.Interface
+warning: Bitcoin/Conservation/Interface.lean:93:5: Variable name `hspendable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hspendable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Conservation/Interface.lean:94:5: Variable name `hexists` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hexists
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Conservation/Interface.lean:95:5: Variable name `hrange` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrange
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Conservation/Interface.lean:181:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Conservation/Interface.lean:182:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Conservation/Interface.lean:202:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [36/69] Replayed Bitcoin.TxValidation.Interface
+warning: Bitcoin/TxValidation/Interface.lean:260:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:265:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:266:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:268:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:270:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:270:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:270:63: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:271:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:272:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:599:25: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/TxValidation/Interface.lean:600:23: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/TxValidation/Interface.lean:612:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:612:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:614:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:614:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:616:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:616:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:618:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:618:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:620:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:621:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:903:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:909:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1086:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1091:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1092:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1094:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1104:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1105:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1127:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1132:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1133:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1135:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1143:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Interface.lean:1144:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [37/69] Replayed Bitcoin.Ledger.Interface
+warning: Bitcoin/Ledger/Interface.lean:216:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:216:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:223:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:223:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:228:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:250:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:283:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:286:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:289:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:295:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:294:14: This simp argument is unused:
+  hcb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hany]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Ledger/Interface.lean:300:14: This simp argument is unused:
+  hcb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hany]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Ledger/Interface.lean:476:56: Variable name `height` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _height
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Ledger/Interface.lean:633:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:681:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:681:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:685:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:685:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:687:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:687:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:689:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:689:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:691:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:691:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:693:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:693:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:739:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:739:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:742:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:742:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:878:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:881:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:897:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:902:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:922:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:923:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1014:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1014:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1037:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1037:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1031:5: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Ledger/Interface.lean:1049:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1050:4: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1050:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1042:5: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Ledger/Interface.lean:1067:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1078:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1125:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1129:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1212:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1213:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1215:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1216:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1256:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1258:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1293:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1294:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1319:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1321:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1423:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1425:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1426:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1426:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1427:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1437:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1439:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1440:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1440:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1441:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1741:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1744:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1745:26: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1794:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1812:19: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Ledger/Interface.lean:1813:19: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.add_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Ledger/Interface.lean:1896:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:1898:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2425:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2425:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2425:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2436:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2436:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2436:53: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2459:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2459:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2497:23: Variable name `hcb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Ledger/Interface.lean:2498:5: Variable name `hpresent` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpresent
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Ledger/Interface.lean:2520:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/Interface.lean:2522:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [40/69] Replayed Bitcoin.Capstone.Merkle
+warning: Bitcoin/Capstone/Merkle.lean:151:4: Variable name `cb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _cb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [42/69] Replayed Bitcoin.Crypto.Seam.Der
+warning: Bitcoin/Crypto/Seam/Der.lean:132:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Der.lean:139:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Der.lean:139:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [43/69] Replayed Bitcoin.Crypto.Seam.Entry
+warning: Bitcoin/Crypto/Seam/Entry.lean:105:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:119:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:120:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:121:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:142:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:142:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:142:49: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:166:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:166:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:171:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:178:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:178:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:178:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:184:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:184:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:184:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:267:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:267:53: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:313:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Seam/Entry.lean:314:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [45/69] Replayed Bitcoin.Crypto.Taproot.Sighash
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:412:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:422:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:422:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:447:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:458:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:458:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:464:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:471:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:481:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:481:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:501:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:537:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:539:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:547:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:547:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:547:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:547:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:563:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:563:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:563:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Crypto/Taproot/Sighash.lean:563:41: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [48/69] Replayed Bitcoin.Interpreter.Interface
+warning: Bitcoin/Interpreter/Interface.lean:106:5: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [49/69] Replayed Bitcoin.Interpreter.SigOps
+warning: Bitcoin/Interpreter/SigOps.lean:292:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:292:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:292:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:347:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:523:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:523:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:530:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:542:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:542:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Interpreter/SigOps.lean:542:66: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [50/69] Replayed Bitcoin.TxValidation.SigOpsCost
+warning: Bitcoin/TxValidation/SigOpsCost.lean:184:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:191:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:202:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:247:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:263:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:265:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:276:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:300:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:315:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:317:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:335:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/SigOpsCost.lean:367:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [51/69] Replayed Bitcoin.Block.Sigops
+warning: Bitcoin/Block/Sigops.lean:65:24: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Bitcoin/Block/Sigops.lean:249:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Block/Sigops.lean:254:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [52/69] Replayed Bitcoin.Activation.Flags
+warning: Bitcoin/Activation/Flags.lean:80:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Flags.lean:87:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [53/69] Replayed Bitcoin.Capstone.Block
+warning: Bitcoin/Capstone/Block.lean:455:13: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: Bitcoin/Capstone/Block.lean:445:20: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:448:73: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:448:77: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:448:81: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:451:25: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, hm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:451:29: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:451:33: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:454:27: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, hm, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:454:31: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hm, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:454:35: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:457:29: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, hm, hf, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:457:33: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hm, hf, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:457:37: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hf, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:457:45: This simp argument is unused:
+  hv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hm, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:460:71: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, hm, hf, hv, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:460:75: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hm, hf, hv, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:460:79: This simp argument is unused:
+  hm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hf, hv, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:460:87: This simp argument is unused:
+  hv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hm, hf, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:460:91: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hb, hm, hf, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:488:20: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:490:44: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Bool.false_eq_true, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:492:25: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:495:27: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:498:69: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:499:65: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:554:58: This simp argument is unused:
+  hh
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:559:20: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn, hh, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:559:26: This simp argument is unused:
+  Except.pure
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn, hh, pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:822:19: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:825:21: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:888:95: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:888:108: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:900:99: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:900:112: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:923:44: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:923:57: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:936:48: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:936:61: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:948:7: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: Bitcoin/Capstone/Block.lean:1044:13: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: Bitcoin/Capstone/Block.lean:1037:42: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:1037:55: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:1050:48: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Except.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:1050:61: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [Bind.bind, Except.bind, Functor.map, pure, Except.pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:1274:5: Variable name `hweight` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hweight
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/Capstone/Block.lean:1285:40: This simp argument is unused:
+  hweight
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hdec, hstruct, hcbpos, hcblen', hver, hbip34', htarget, hpow, hlink, hmerkle]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Capstone/Block.lean:1347:5: Variable name `hcg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [54/69] Replayed Bitcoin.Activation.Bip9
+warning: Bitcoin/Activation/Bip9.lean:54:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:56:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Bip9.lean:67:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:69:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:70:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Bip9.lean:100:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:102:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:118:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:121:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Bip9.lean:124:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:143:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Activation/Bip9.lean:183:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Activation/Bip9.lean:184:38: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [55/69] Replayed Bitcoin.Block.Params
+warning: Bitcoin/Block/Params.lean:253:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Block/Params.lean:346:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Block/Params.lean:711:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Block/Params.lean:716:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [56/69] Replayed Bitcoin.Block.Connect
+warning: Bitcoin/Block/Connect.lean:164:61: This simp argument is unused:
+  decide_eq_true_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cbAmountOk, Bitcoin.Capstone.Block.coinbaseRewardOk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Block/Connect.lean:266:18: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Block/Connect.lean:267:19: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Bitcoin/Block/Connect.lean:449:0: 'Bitcoin.Block.Connect.vtxCountWeightOk_iff' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Connect.lean:450:0: 'Bitcoin.Block.Connect.blockFinalityOk_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:451:0: 'Bitcoin.Block.Connect.blockFinalityOk_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:452:0: 'Bitcoin.Block.Connect.blockSequenceLocksOk_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:453:0: 'Bitcoin.Block.Connect.cbAmountOk_iff' depends on axioms: [propext]
+info: Bitcoin/Block/Connect.lean:454:0: 'Bitcoin.Block.Connect.blockSubsidy_le_MAX_MONEY' depends on axioms: [propext]
+info: Bitcoin/Block/Connect.lean:455:0: 'Bitcoin.Block.Connect.chainFeesL_feeAccumInRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:456:0: 'Bitcoin.Block.Connect.coinbase_draw_le_subsidy_plus_fees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:457:0: 'Bitcoin.Block.Connect.merkleMutationFree_singleton' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Connect.lean:458:0: 'Bitcoin.Block.Connect.merkleFailureKind_mutated_iff' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Connect.lean:459:0: 'Bitcoin.Block.Connect.contextualChecksOrdered_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:460:0: 'Bitcoin.Block.Connect.connectChecks_finality_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:461:0: 'Bitcoin.Block.Connect.connectGenesis_utxo_unchanged' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Connect.lean:462:0: 'Bitcoin.Block.Connect.isGenesisHeader_genesisHeader' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:463:0: 'Bitcoin.Block.Connect.connectBlock_genesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:464:0: 'Bitcoin.Block.Connect.connectBlock_genesis_utxo_bestBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:465:0: 'Bitcoin.Block.Connect.connectBlock_genesis_ignores_txs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Connect.lean:466:0: 'Bitcoin.Block.Connect.connectBlock_genesis_coinbase_output_absent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Bitcoin/Block/Connect.lean:467:0: 'Bitcoin.Block.Connect.connectBlock_nonGenesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [58/69] Replayed Bitcoin.Invariants.RC08
+warning: Bitcoin/Invariants/RC08.lean:71:45: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Invariants/RC08.lean:220:50: This simp argument is unused:
+  ho
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h32]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Invariants/RC08.lean:230:50: This simp argument is unused:
+  ho
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h31]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Invariants/RC08.lean:426:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Invariants/RC08.lean:428:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Invariants/RC08.lean:428:35: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Invariants/RC08.lean:429:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Invariants/RC08.lean:436:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Invariants/RC08.lean:438:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Invariants/RC08.lean:438:35: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Bitcoin/Invariants/RC08.lean:439:25: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [59/69] Replayed Bitcoin.TxValidation.Mempool
+warning: Bitcoin/TxValidation/Mempool.lean:66:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:66:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:68:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:68:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:148:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:156:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:446:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:451:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:451:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:427:5: Variable name `hnoadd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnoadd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Bitcoin/TxValidation/Mempool.lean:488:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/TxValidation/Mempool.lean:488:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [60/76] Built BitcoinProofs.Bip.B06.Bip112CSV (1.3s)
+ℹ [64/76] Built BitcoinProofs.Bip.B05.Bip68Coverage (1.3s)
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:219:0: 'BitcoinProofs.Bip.B05.b68_i1a_lockpair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:220:0: 'BitcoinProofs.Bip.B05.b68_i1b_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:221:0: 'BitcoinProofs.Bip.B05.b68_i1c_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:222:0: 'BitcoinProofs.Bip.B05.b68_i1d_v1_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:223:0: 'BitcoinProofs.Bip.B05.b68_i2_disable_flag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:224:0: 'BitcoinProofs.Bip.B05.b68_i2_lockpair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:225:0: 'BitcoinProofs.Bip.B05.b68_i3a_mask_height_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:226:0: 'BitcoinProofs.Bip.B05.b68_i3b_mask_height_last_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:227:0: 'BitcoinProofs.Bip.B05.b68_i3c_mask_time_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:228:0: 'BitcoinProofs.Bip.B05.b68_i3d_mask_time_last_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:229:0: 'BitcoinProofs.Bip.B05.b68_i4a_granularity_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:230:0: 'BitcoinProofs.Bip.B05.b68_i4b_granularity_last_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:231:0: 'BitcoinProofs.Bip.B05.b68_i5a_height_boundary_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:232:0: 'BitcoinProofs.Bip.B05.b68_i5b_height_boundary_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:233:0: 'BitcoinProofs.Bip.B05.b68_i6a_agg_lockpair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:234:0: 'BitcoinProofs.Bip.B05.b68_i6b_agg_max_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:235:0: 'BitcoinProofs.Bip.B05.b68_i6c_agg_max_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:236:0: 'BitcoinProofs.Bip.B05.b68_i6d_mixed_time_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:237:0: 'BitcoinProofs.Bip.B05.b68_i6e_mixed_both_pass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:238:0: 'BitcoinProofs.Bip.B05.b68_i7_zero_delay' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:239:0: 'BitcoinProofs.Bip.B05.b68_i8a_coinbase_skipped' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:240:0: 'BitcoinProofs.Bip.B05.b68_i8b_noncoinbase_contrast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:241:0: 'BitcoinProofs.Bip.B05.b68_i9a_flag_off_no_enforcement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:242:0: 'BitcoinProofs.Bip.B05.b68_i10a_tip_next_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Bip/B05/Bip68Coverage.lean:243:0: 'BitcoinProofs.Bip.B05.b68_i10b_tip_next_invalid' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [65/76] Built BitcoinProofs.Audit.Z27.Audit (1.5s)
+✔ [66/76] Built BitcoinProofs.Audit.Z29.TaprootCorners (2.0s)
+⚠ [67/76] Replayed Bitcoin.Script.Tapscript.Delta
+warning: Bitcoin/Script/Tapscript/Delta.lean:70:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Tapscript/Delta.lean:70:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Tapscript/Delta.lean:84:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Tapscript/Delta.lean:84:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Tapscript/Delta.lean:307:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Script/Tapscript/Delta.lean:772:27: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:775:18: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:776:23: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:779:38: This simp argument is unused:
+  exceptMap_error
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h5, exceptMap_ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:792:27: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:795:18: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:796:23: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:801:40: This simp argument is unused:
+  exceptMap_error
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h5, exceptMap_ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Script/Tapscript/Delta.lean:802:38: This simp argument is unused:
+  exceptMap_error
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h6, exceptMap_ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [68/79] Built BitcoinProofs.Bip.B11.NullDummyVectors (1.7s)
+⚠ [69/79] Replayed Bitcoin.Block.Index
+warning: Bitcoin/Block/Index.lean:73:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Block/Index.lean:225:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Block/Index.lean:232:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Block/Index.lean:410:53: This simp argument is unused:
+  List.reverse_reverse
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.reverse_append, List.reverse_cons, List.nil_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Block/Index.lean:411:4: This simp argument is unused:
+  List.nil_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.reverse_append, List.reverse_cons, List.reverse_reverse]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Block/Index.lean:553:39: This simp argument is unused:
+  ih
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isDescendantOf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Bitcoin/Block/Index.lean:599:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: Bitcoin/Block/Index.lean:644:0: 'Bitcoin.Block.Index.workOf_difficulty_one_pos' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:645:0: 'Bitcoin.Block.Index.workOf_pos_of_valid' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:646:0: 'Bitcoin.Block.Index.workOf_above_powLimit_pos' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:647:0: 'Bitcoin.Block.Index.chainWork_append' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:648:0: 'Bitcoin.Block.Index.chainWork_snoc' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:649:0: 'Bitcoin.Block.Index.mostWork_work_ge' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:650:0: 'Bitcoin.Block.Index.switchTip_self' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:651:0: 'Bitcoin.Block.Index.switchTip_not_better' depends on axioms: [propext, Quot.sound]
+info: Bitcoin/Block/Index.lean:652:0: 'Bitcoin.Block.Index.failedHash_not_in_pruned' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bitcoin/Block/Index.lean:653:0: 'Bitcoin.Block.Index.submitVerdict_failed' does not depend on any axioms
+info: Bitcoin/Block/Index.lean:654:0: 'Bitcoin.Block.Index.bestInvalidWork_ge' depends on axioms: [propext]
+info: Bitcoin/Block/Index.lean:655:0: 'Bitcoin.Block.Index.connectHeight_succ' does not depend on any axioms
+✔ [71/402] Built BitcoinProofs.Audit.S16.Audit (4.3s)
+ℹ [1690/1702] Built BitcoinProofs.Bip.B14.Tests (2.8s)
+info: BitcoinProofs/Bip/B14/Tests.lean:209:0: 'Bitcoin.Interpreter.evalChecksigTapscript' does not depend on any axioms
+info: BitcoinProofs/Bip/B14/Tests.lean:210:0: 'Bitcoin.Interpreter.checksigAddStep' does not depend on any axioms
+info: BitcoinProofs/Bip/B14/Tests.lean:211:0: 'Bitcoin.Interpreter.executeWitnessScript' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Bip/B14/Tests.lean:212:0: 'Bitcoin.Crypto.Seam.Entry.schnorrHashtype' does not depend on any axioms
+info: BitcoinProofs/Bip/B14/Tests.lean:213:0: 'Bitcoin.Crypto.Seam.Entry.schnorrVerdict' does not depend on any axioms
+✔ [1692/1704] Built BitcoinProofs.EcdsaDeep.CrownBattery (1.5s)
+✔ [1693/1707] Built BitcoinProofs.EcdsaDeep.CrownLinkRun (1.3s)
+✔ [1694/1707] Built BitcoinProofs.Audit.Z01.Audit (9.0s)
+⚠ [1695/1709] Built BitcoinProofs.Crypto.CurveZMod (4.0s)
+warning: BitcoinProofs/Crypto/CurveZMod.lean: imports `Mathlib.NumberTheory.LucasPrimality` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: BitcoinProofs/Crypto/CurveZMod.lean: imports `Mathlib.Tactic.NormNum.Prime` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [1696/1710] Built BitcoinProofs.Bip.B15.Bip94Tests (7.3s)
+warning: BitcoinProofs/Bip/B15/Bip94Tests.lean:274:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [1698/1710] Built BitcoinProofs.EcdsaDeep.VerifyEquation (1.6s)
+✔ [1699/1713] Built BitcoinProofs.EcdsaDeep.SchnorrEquation (4.1s)
+✔ [1700/1714] Built BitcoinProofs.Audit.Z23.Audit (13s)
+✔ [1701/1714] Built BitcoinProofs.EcdsaDeep.CrownLink (1.3s)
+⚠ [1702/1714] Replayed Bitcoin.Ledger.HashMap
+warning: Bitcoin/Ledger/HashMap.lean:98:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:102:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:103:53: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Bitcoin/Ledger/HashMap.lean:115:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:120:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:195:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:195:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:199:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:199:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:201:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:201:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:203:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:203:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:205:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:205:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:207:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:207:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:252:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:252:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:255:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Bitcoin/Ledger/HashMap.lean:255:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [1703/1714] Built BitcoinProofs.Audit.Z13.Audit (16s)
+✔ [1704/1714] Built BitcoinProofs.EcdsaDeep.PubKeyCorProbe (6.4s)
+⚠ [1705/1714] Built BitcoinProofs.EcdsaDeep.S02ProbeShaMirror (4.9s)
+warning: BitcoinProofs/EcdsaDeep/S02ProbeShaMirror.lean:43:17: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: BitcoinProofs/EcdsaDeep/S02ProbeShaMirror.lean:45:17: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [1706/1717] Built BitcoinProofs.EcdsaDeep.SmulCor (1.2s)
+✔ [1708/1718] Built BitcoinProofs.EcdsaDeep.CrownSchnorr (6.7s)
+ℹ [1709/1719] Built BitcoinProofs.EcdsaDeep.StrictWindow (2.1s)
+info: BitcoinProofs/EcdsaDeep/StrictWindow.lean:137:0: 'Bitcoin.Proofs.EcdsaDeep.StrictWindow.bip66_strict_window_geN' does not depend on any axioms
+info: BitcoinProofs/EcdsaDeep/StrictWindow.lean:138:0: 'Bitcoin.Proofs.EcdsaDeep.StrictWindow.bip66_strict_window_coreLax' does not depend on any axioms
+ℹ [1710/1720] Built BitcoinProofs.Property.Y07.Arith (13s)
+info: BitcoinProofs/Property/Y07/Arith.lean:757:0: 'BitcoinProofs.Property.Y07.Arith.runPol' depends on axioms: [propext, Quot.sound]
+✔ [1711/1721] Built BitcoinProofs.Property.Y08.Probe (19s)
+✔ [1712/1722] Built BitcoinProofs.EcdsaDeep.S02Flip (54s)
+✔ [1713/1723] Built BitcoinProofs.EcdsaDeep.CrownLinkKernel (66s)
+ℹ [1714/1724] Built BitcoinProofs.Property.Y03.Property (188s)
+info: BitcoinProofs/Property/Y03/Property.lean:532:5: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (27390 ms)
+⚠ [1715/1725] Built BitcoinProofs.Bip.B09.SigHash143 (266s)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:103:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (27240 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:109:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (35659 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:115:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (29233 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:121:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (27851 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:127:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (29441 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:150:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (25870 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:168:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (26369 ms)
+info: BitcoinProofs/Bip/B09/SigHash143.lean:189:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23885 ms)
+warning: BitcoinProofs/Bip/B09/SigHash143.lean:245:39: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Bip/B09/SigHash143.lean:248:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [1716/1725] Built BitcoinProofs.EcdsaDeep.PubKeyMatrix (260s)
+ℹ [1717/1729] Built BitcoinProofs.Theorems.Audit.CV03 (1.0s)
+info: BitcoinProofs/Theorems/Audit/CV03.lean:345:0: 'BitcoinProofs.Theorems.Audit.CV03.nop6_base_nop' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:346:0: 'BitcoinProofs.Theorems.Audit.CV03.nop1_base_nop' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:347:0: 'BitcoinProofs.Theorems.Audit.CV03.nop6_discouraged_is_policy' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:348:0: 'BitcoinProofs.Theorems.Audit.CV03.nop6_tapscript_nop_frozen' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:349:0: 'BitcoinProofs.Theorems.Audit.CV03.bip12_sigside_push11' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:350:0: 'BitcoinProofs.Theorems.Audit.CV03.bip12_noprule_0xb0_fails' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:351:0: 'BitcoinProofs.Theorems.Audit.CV03.nop6_leaves_scriptbytes_unexeced' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:352:0: 'BitcoinProofs.Theorems.Audit.CV03.nop1_leaves_scriptbytes_unexeced' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:353:0: 'BitcoinProofs.Theorems.Audit.CV03.scan_success187' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:354:0: 'BitcoinProofs.Theorems.Audit.CV03.scan_nop6_push' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:355:0: 'BitcoinProofs.Theorems.Audit.CV03.raw0xbb_witnessv0_fails' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:356:0: 'BitcoinProofs.Theorems.Audit.CV03.raw0xbb_tapscript_succeeds' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:357:0: 'BitcoinProofs.Theorems.Audit.CV03.raw0xbb_tapscript_discouraged' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:358:0: 'BitcoinProofs.Theorems.Audit.CV03.taproot_off_v1_is_success' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: BitcoinProofs/Theorems/Audit/CV03.lean:359:0: 'BitcoinProofs.Theorems.Audit.CV03.taproot_on_empty_witness_fails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [1718/1730] Built BitcoinProofs.Property.Y16.TapTweakProps (4.2s)
+⚠ [1719/1731] Built BitcoinProofs.Theorems.CapstoneFoldAgree (1.9s)
+warning: BitcoinProofs/Theorems/CapstoneFoldAgree.lean:369:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/CapstoneFoldAgree.lean:525:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/CapstoneFoldAgree.lean:526:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [1720/1731] Built BitcoinProofs.Theorems.CapstoneMerkleCor (1.2s)
+⚠ [1721/1732] Built BitcoinProofs.Theorems.CapstonePipelineCor (1.0s)
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:186:63: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:192:66: This simp argument is unused:
+  applyTxCont
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hc, hcb, hm, ethrow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:192:79: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hc, hcb, hm, applyTxCont]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:196:72: This simp argument is unused:
+  applyTxCont
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hc, hcb, hm, hv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:225:15: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hcb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:240:62: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hchk, hcb, hm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:250:58: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hchk, hcb, hl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:265:62: This simp argument is unused:
+  ethrow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Bitcoin.Capstone.Block.applyTx_unfold, hchk, hnc, hm, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/CapstonePipelineCor.lean:491:12: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [1722/1732] Built BitcoinProofs.Theorems.Exhaust.LeafVersionSweep (1.8s)
+✔ [1723/1733] Built BitcoinProofs.Theorems.CapstoneDecodeCor (1.4s)
+ℹ [1724/1734] Built BitcoinProofs.Theorems.Exhaust.MerkleShapes64 (46s)
+info: BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean:239:52: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (42578 ms)
+info: BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean:243:0: 'BitcoinProofs.Theorems.Exhaust.MerkleShapes64.shapeRoot_fuel' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean:244:0: 'BitcoinProofs.Theorems.Exhaust.MerkleShapes64.root_level_step' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean:245:0: 'BitcoinProofs.Theorems.Exhaust.MerkleShapes64.root_three_leaves' depends on axioms: [propext, Quot.sound]
+info: BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean:246:0: 'BitcoinProofs.Theorems.Exhaust.MerkleShapes64.merkle_matrix_64' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ merkle_matrix_64._native.native_decide.ax_1_1]
+⚠ [1725/1734] Built BitcoinProofs.Theorems.GenchainCor (1.1s)
+warning: BitcoinProofs/Theorems/GenchainCor.lean:169:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:176:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:297:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:297:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:299:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:299:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:302:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:302:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:305:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:305:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:308:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:308:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:311:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:311:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:346:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:346:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:348:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:348:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:381:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:434:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:437:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:453:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: BitcoinProofs/Theorems/GenchainCor.lean:487:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [1727/1751] Built BitcoinProofs.Theorems.Ops.O07 (1.4s)
+warning: BitcoinProofs/Theorems/Ops/O07.lean:458:29: This simp argument is unused:
+  opw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody.dispatchOp, st0, octx, topAt, hashForOp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/Ops/O07.lean:458:39: This simp argument is unused:
+  octx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody.dispatchOp, opw, st0, topAt, hashForOp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/Ops/O07.lean:463:29: This simp argument is unused:
+  opw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody.dispatchOp, st0, octx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/Ops/O07.lean:463:39: This simp argument is unused:
+  octx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody.dispatchOp, opw, st0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/Ops/O07.lean:472:64: This simp argument is unused:
+  topAt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody, stepBody.dispatchOp, st0, octx, disabledWire, h201]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: BitcoinProofs/Theorems/Ops/O07.lean:479:18: This simp argument is unused:
+  stepBody.dispatchOp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [stepBody, st0, octx, disabledWire, h201]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [1728/1751] Replayed Bitcoin.Wallet.Descriptor.Checksum
+info: Bitcoin/Wallet/Descriptor/Checksum.lean:171:0: (true, true)
+ℹ [1730/1751] Replayed Bitcoin.Wallet.Descriptor.Parse
+info: Bitcoin/Wallet/Descriptor/Parse.lean:789:0: (true, true, true, true, true)
+ℹ [1731/1751] Replayed Bitcoin.Wallet.Descriptor.Expand
+info: Bitcoin/Wallet/Descriptor/Expand.lean:395:0: (true, true, true)
+✔ [1744/1751] Built BitcoinProofs.Wallet.Obligations (1.5s)
+✔ [1745/1751] Built BitcoinProofs.Theorems.Exhaust.F01PushEncode (74s)
+✔ [1746/1751] Built BitcoinProofs.EcdsaDeep.DerBatteryCor (342s)
+ℹ [1747/1751] Built BitcoinProofs.Bip.B13.B13SigMsg (539s)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:149:380: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (87048 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:154:380: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (119120 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:159:316: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (146107 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:164:380: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (174141 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:174:444: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (217033 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:184:444: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (258959 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:197:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (288395 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:201:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (313269 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:205:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (338649 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:209:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (360305 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:217:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (396576 ms)
+info: BitcoinProofs/Bip/B13/B13SigMsg.lean:225:96: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (433388 ms)
+ℹ [1748/1751] Built BitcoinProofs.Property.Y15.WitnessProps (911s)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:275:1235: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (26907 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:278:1235: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (32550 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:281:1237: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (28045 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:284:1207: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23606 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:287:1209: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (22913 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:371:8532: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (125066 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:377:8530: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (132689 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:471:2107: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (31477 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:474:2097: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (28420 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:477:1271: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (30830 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:480:1261: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (24723 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:483:2151: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (26640 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:486:2141: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (31532 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:522:1075: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (24769 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:525:1065: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23925 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:528:1103: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (24001 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:531:1093: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (25070 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:534:2115: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (24052 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:537:2105: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (25911 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:546:3155: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23788 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:549:3145: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23292 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:575:1078: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (25060 ms)
+info: BitcoinProofs/Property/Y15/WitnessProps.lean:581:1094: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (29075 ms)
+ℹ [1749/1751] Built BitcoinProofs.Property.Y08.SighashLegacyProps (1396s)
+info: BitcoinProofs/Property/Y08/SighashLegacyProps.lean:859:1229: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (23844 ms)
+info: BitcoinProofs/Property/Y08/SighashLegacyProps.lean:865:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (26483 ms)
+info: BitcoinProofs/Property/Y08/SighashLegacyProps.lean:872:709: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (24726 ms)
+info: BitcoinProofs/Property/Y08/SighashLegacyProps.lean:878:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (26142 ms)
+⚠ [1750/1751] Built BitcoinProofs.Property.Y12.FoldProps (1573s)
+warning: BitcoinProofs/Property/Y12/FoldProps.lean:157:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: BitcoinProofs/Property/Y12/FoldProps.lean:157:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+info: BitcoinProofs/Property/Y12/FoldProps.lean:630:20179: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (325011 ms)
+info: BitcoinProofs/Property/Y12/FoldProps.lean:631:20178: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (317017 ms)
+info: BitcoinProofs/Property/Y12/FoldProps.lean:761:32: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (306039 ms)
+info: BitcoinProofs/Property/Y12/FoldProps.lean:765:40196: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (309644 ms)
+ℹ [1751/1751] Built BitcoinProofs.Property.Y10.MerkleProps (1735s)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:170:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (68985 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:174:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (97296 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:179:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (123046 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:184:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (150125 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:189:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (175207 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:194:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (204328 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:199:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (227491 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:204:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (249294 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:210:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (271644 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:216:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (292498 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:222:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (312977 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:228:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (333547 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:235:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (354366 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:242:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (376680 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:250:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (400647 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:259:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (423856 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:268:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (449410 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:277:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (471711 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:287:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (496921 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:297:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (521099 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:322:323: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (610534 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:329:142: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (632417 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:334:142: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (657845 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:341:29: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (679820 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:347:115: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (726024 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:351:30: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (754132 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:362:30: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (794324 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:367:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (820417 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:371:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (845793 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:381:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (866981 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:387:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (889569 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:392:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (910803 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:397:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (933501 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:402:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (958506 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:407:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (980953 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:416:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1002565 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:421:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1026431 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:426:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1048714 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:434:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1071093 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:445:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1093845 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:450:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1117802 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:459:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1139718 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:466:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1161968 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:475:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1183674 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:483:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1205080 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:495:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1234188 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:500:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1256140 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:507:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1278580 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:515:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1300348 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:528:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1342583 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:535:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1363223 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:543:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1384981 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:548:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1406733 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:554:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1430294 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:562:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1453457 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:574:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1475790 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:580:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1498409 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:587:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1520279 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:594:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1542388 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:599:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1563612 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:605:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1584862 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:611:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1606333 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:615:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1629011 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:624:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1650489 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:631:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1671503 ms)
+info: BitcoinProofs/Property/Y10/MerkleProps.lean:651:94: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (1732168 ms)
+Build completed successfully (1751 jobs).
+TIME wall=1808.14 user=7269.14 sys=309.57 maxrss_kb=9848712
+rc=0 secs=1808

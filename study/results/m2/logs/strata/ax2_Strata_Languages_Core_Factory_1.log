@@ -1,0 +1,7 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_Strata_Languages_Core_Factory_1.lean
+NT _ktr.F2_Strata_Languages_Core_Factory_1._private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._kernel.native_decide.ax_1_1.p_0 blockers_ms=24 bounded=true copy_ms=3124 copies=22 copy_kernel_ms=2907
+NT _ktr.F2_Strata_Languages_Core_Factory_1._private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._kernel.native_decide.ax_1_1.p_0 eval_ms=2524
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_1._private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._kernel.native_decide.ax_1_1`: kernel_ms=7111 native_axioms=1 rebuilt=0 copies=22 total_ms=7864
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._native.native_decide.ax_1_1` as `_ktr.F2_Strata_Languages_Core_Factory_1._private.Strata.Languages.Core.Factory.0.Core.boolNot_isNameInFactory._kernel.native_decide.ax_1_1`: kernel_ms=7111 native_axioms=1 rebuilt=0 copies=22 total_ms=7864
+maxrss_kb 2176860
+rc=0 secs=9

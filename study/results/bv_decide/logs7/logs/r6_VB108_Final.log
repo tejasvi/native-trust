@@ -1,0 +1,4 @@
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	108	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_neg_refinement._native.bv_decide.ax_1_5	-	0	-	5344	bvs6fact_108.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sdivPow2Exact_neg_refinement	bvs6_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=15	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.InstructionSelection.Proofs	[108]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+TIME wall=6.05 s user=5.76 s maxrss=3150540 KB

@@ -1,0 +1,83 @@
+{
+ "name": "opencompl_veir",
+ "pkg": "/home/ntbuild/repos_s/opencompl_veir",
+ "copy_root": "/home/ntbuild/repos_s/opencompl_veir",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0-rc4",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T06:10:09Z",
+ "toolchain": "v4.35.0-rc4",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.7,
+  "built": []
+ },
+ "modules": 221,
+ "before": {
+  "total": 188,
+  "by_tactic": {
+   "bv_decide": 188
+  },
+  "failed": [],
+  "dirty": 254
+ },
+ "native_files": 8,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 2843,
+   "rc": 0,
+   "wall": 180.01,
+   "cpu": 767.5,
+   "n_built": 221,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 7.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 2843,
+   "rc": 0,
+   "wall": 181.44,
+   "cpu": 764.0,
+   "n_built": 221,
+   "peak_lean": 8,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 7.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 188,
+  "by_tactic": {
+   "bv_decide": 188
+  },
+  "failed": [],
+  "dirty": 254
+ },
+ "fallbacks": {
+  "blocked: Veir.Attribute.isLLVMCompatibleType": 1
+ },
+ "fallback_examples": {
+  "blocked: Veir.Attribute.isLLVMCompatibleType": "info: UnitTest/Puddle.lean:192:63: kernel-first: native_decide used compiled evaluation: blocked: reaches `Veir.Attribute.isLLVMCompatibleType`, `_private.Veir.Dialects.LLVM.OpInfo.0.Veir.aggregateElementTypesMatch`, `mixHash` (no kernel definition)"
+ },
+ "reps": 1,
+ "orig_wall_med": 180.01,
+ "orig_cpu_med": 767.5,
+ "kf_wall_med": 181.44,
+ "kf_cpu_med": 764.0,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T06:16:20Z"
+}

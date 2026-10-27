@@ -1,0 +1,10 @@
+## summary.v4.34.0-rc2.tsv
+start 21:58:24
+ReproControl	TIME 0.81 s 588924 KB	rc=0
+Repro	TIME 19.09 s 4657852 KB	rc=0
+ReproArray	TIME 20.62 s 4658852 KB	rc=0
+## summary.v4.35.0.tsv
+start 21:58:45
+ReproControl	TIME 0.71 s 581508 KB	rc=0
+Repro	TIME 18.92 s 4565836 KB	rc=0
+ReproArray	TIME 19.71 s 4566952 KB	rc=0

@@ -1,0 +1,1 @@
+CHECK2 RealK.ArithToLLVM: 50 constants, 0 `_native` names; 8 theorems/definitions: 8 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other

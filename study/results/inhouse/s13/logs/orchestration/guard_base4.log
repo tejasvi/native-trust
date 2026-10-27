@@ -1,0 +1,4 @@
+2026-10-26T01:12:31Z guard v2 pid 147647 cap 1.000 core-h margin 60 s base 0.0 core-s mode run
+2026-10-26T01:12:31Z metered 0.0 core-s = 0.000 core-h, live 1
+2026-10-26T01:12:41Z metered 17.4 core-s = 0.005 core-h, live 0
+2026-10-26T01:12:41Z command exited 0: guard exits, total 0.005 core-h

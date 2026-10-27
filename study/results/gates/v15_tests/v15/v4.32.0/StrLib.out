@@ -1,0 +1,8 @@
+'strlib_toNat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_foldl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_replace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_tokens' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_slice_replace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_contains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'strlib_fold_user' depends on axioms: [Quot.sound]
+rc=0

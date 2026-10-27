@@ -1,0 +1,5 @@
+2026-10-25T05:36:56Z leanexport RealD.RISCVCombinesProofs -- Veir.Data.RISCV.srl_sra_signbit  (toolchain /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc4)
+export rc=0 bytes=81847921 time,rss=3.13,1710096; native names in export: _native 
+2026-10-25T05:36:59Z nanoda_bin nanoda.json
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.64,85120: Error: export file declares unpermitted axiom "_private.RealD.RISCVCombinesProofs.0.Veir.Data.RISCV.srl_sra_signbit._native.bv_decide.ax_1"  run with `-h` or `--help` for help 

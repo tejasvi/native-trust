@@ -1,0 +1,15 @@
+PROBE accept_inhabited: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=87526
+PROBE binary_self_accepted: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=46152
+PROBE claim_spec_accepted: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=21264
+PROBE empty_seed_accepted: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=86228
+PROBE f_bound_mismatch_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=46136
+PROBE inherited_unprovided_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=85018
+PROBE non_boolean_claim_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=21310
+PROBE open_extension_reused_accepted: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=69910
+PROBE requires_signature_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=23860
+PROBE twice_accepted: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=11256
+PROBE unbound_self_member_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=21071
+PROBE unprovided_requirement_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=84477
+PROBE wrong_target_refused: stuck head=_private.Lean.Data.Json.Printer.0.Lean.Json.compress.go via=(some instDecidableEqList) ms=19575
+maxrss_kb 6920904 secs 625.65
+rc=0

@@ -1,0 +1,16 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.lean
+NT start _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1
+NT nested _private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1 ms=595 rebuilt_defs=1 visited=8628
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory
+NT copy-congr-rejected _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory: (kernel) application type mismatch   Lambda.WFLFactory.ofArray y _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory._proof_2 argument has type   (List.map (fun x => x.func.name.name) Core.WFFactoryArray.toList).Nodup but function has type   autoParam (List.map (fun x => x.func.name.name) y.toList).Nodup Lambda.WFLFactory.ofArray._auto_1 →     Lambda.WFLFactory Core.CoreLParams
+NT copy-rfl _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.WFFactory defn_ms=1 eq_ms=26 congr=false
+NT copying _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.Factory
+NT copy _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11.Core.Factory defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=45 copies=2 copy_kernel_ms=27 fast_lits=0 string_args=false
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1 eval_ms=1
+NT _ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1 quick whole-term attempt proved it
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1`: kernel_ms=46 native_axioms=2 rebuilt=3 copies=2 total_ms=643 acc_fallback=0 pieces=1
+PROVED `_private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._native.native_decide.ax_1_1` as `_ktr.F2_StrataTest_Languages_Core_Tests_Logic_HoareUnstructured_11._private.StrataTest.Languages.Core.Tests.Logic.HoareUnstructured.0.Strata.int0_valueOfTy._kernel.native_decide.ax_1_1`: kernel_ms=46 native_axioms=2 rebuilt=3 copies=2 total_ms=643 acc_fallback=0 pieces=1
+maxrss_kb 1831128
+rc=0 secs=2

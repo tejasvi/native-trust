@@ -1,0 +1,150 @@
+{
+ "name": "s_justrach_codegraff_lean_proofs",
+ "pkg": "/home/ntbuild/repos_s/justrach_codegraff/lean-proofs",
+ "toolchain": "v4.33.0",
+ "uses": 235,
+ "replaced": 178,
+ "replaced_known": 65,
+ "replaced_unknown": 113,
+ "replaced_facts": 74,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)": 5,
+  "build: Tactic `decide` failed for proposition": 24,
+  "module not built": 19,
+  "plain FAILED/blocked (WellFounded.fix)": 8,
+  "build: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit": 1
+ },
+ "native_axioms_before": 88,
+ "native_axioms_after": 14,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 80,
+ "native_dependent_decls_after": 14,
+ "rewritten_decls": 65,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 185.3,
+   "cpu": 202.8,
+   "n_errors": 25,
+   "reverted": 25,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 8,
+   "peak_rss_gb": 6.7,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 189.99,
+   "cpu": 192.2,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 6.7,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 1.34,
+  "cpu": 7.3,
+  "n_built": 10,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 3.4
+ },
+ "time1": {
+  "wall": 192.29,
+  "cpu": 209.5,
+  "n_built": 10,
+  "peak_lean": 8,
+  "rc": 0,
+  "peak_rss_gb": 6.7,
+  "peak_rss_sum_gb": 6.7
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.14,
+  "cpu": 0.0,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 10,
+ "replaced_modules": 10,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  7.8,
+  208.6
+ ],
+ "module_times_slower": [
+  [
+   "Graff.Score",
+   1.2,
+   192.0
+  ],
+  [
+   "Graff.GoalLoop",
+   1.1,
+   7.0
+  ],
+  [
+   "Graff.ToolCatalog",
+   0.512,
+   3.6
+  ],
+  [
+   "Graff.Transport",
+   0.741,
+   1.2
+  ],
+  [
+   "Graff.Provider",
+   0.358,
+   0.578
+  ],
+  [
+   "Graff.PathConfine",
+   0.908,
+   1.1
+  ],
+  [
+   "Graff.PromptCache",
+   0.846,
+   0.963
+  ],
+  [
+   "Graff.BashPolicy",
+   0.449,
+   0.545
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Graff.Shape",
+   0.892,
+   0.8270000000000001
+  ]
+ ]
+}

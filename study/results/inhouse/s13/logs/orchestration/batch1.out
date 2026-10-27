@@ -1,0 +1,54 @@
+2026-10-26T01:07:38Z batch: 26 facts, PAR=10 MEMG=48 T=900 MemAvailable=734G
+2026-10-26T01:07:38Z start R_C00000 unit=s13-f-r-c00000-1792976858 MemAvailable=734G
+2026-10-26T01:07:40Z start R_C00021 unit=s13-f-r-c00021-1792976860 MemAvailable=732G
+2026-10-26T01:07:42Z start R_C00600 unit=s13-f-r-c00600-1792976862 MemAvailable=731G
+2026-10-26T01:07:44Z start R_C01074 unit=s13-f-r-c01074-1792976864 MemAvailable=730G
+2026-10-26T01:07:46Z start R_C00793s0 unit=s13-f-r-c00793s0-1792976866 MemAvailable=728G
+2026-10-26T01:07:48Z start R_C01114s0 unit=s13-f-r-c01114s0-1792976868 MemAvailable=726G
+2026-10-26T01:07:50Z start KL_C000 unit=s13-f-kl-c000-1792976870 MemAvailable=723G
+2026-10-26T01:07:52Z start KL_C080 unit=s13-f-kl-c080-1792976872 MemAvailable=720G
+2026-10-26T01:07:54Z start KL_C160 unit=s13-f-kl-c160-1792976874 MemAvailable=717G
+2026-10-26T01:07:56Z start BFS_D00C000 unit=s13-f-bfs-d00c000-1792976876 MemAvailable=714G
+2026-10-26T01:08:05Z end R_C00000 rc=0 | maxrss_kb 7471740 secs 26.91 | rc=134 end=2026-10-26T01:08:05Z
+2026-10-26T01:08:07Z end R_C00021 rc=0 | maxrss_kb 7471732 secs 27.13 | rc=134 end=2026-10-26T01:08:07Z
+2026-10-26T01:08:08Z start BFS_D12C000 unit=s13-f-bfs-d12c000-1792976888 MemAvailable=705G
+2026-10-26T01:08:09Z end R_C00600 rc=0 | maxrss_kb 7471180 secs 26.79 | rc=134 end=2026-10-26T01:08:09Z
+2026-10-26T01:08:10Z start BFS_D24C000 unit=s13-f-bfs-d24c000-1792976890 MemAvailable=705G
+2026-10-26T01:08:11Z end R_C01074 rc=0 | maxrss_kb 7470432 secs 26.49 | rc=134 end=2026-10-26T01:08:11Z
+2026-10-26T01:08:12Z start H_chunk00 unit=s13-f-h-chunk00-1792976892 MemAvailable=708G
+2026-10-26T01:08:14Z end R_C00793s0 rc=0 | maxrss_kb 7471480 secs 27.71 | rc=134 end=2026-10-26T01:08:14Z
+2026-10-26T01:08:14Z start H_chunk23 unit=s13-f-h-chunk23-1792976894 MemAvailable=709G
+2026-10-26T01:08:15Z end R_C01114s0 rc=0 | maxrss_kb 7471240 secs 26.68 | rc=134 end=2026-10-26T01:08:15Z
+2026-10-26T01:08:16Z start S_header_info unit=s13-f-s-header-info-1792976896 MemAvailable=710G
+2026-10-26T01:08:17Z end KL_C000 rc=0 | maxrss_kb 7475516 secs 26.81 | rc=134 end=2026-10-26T01:08:17Z
+2026-10-26T01:08:18Z start S_final_ok unit=s13-f-s-final-ok-1792976898 MemAvailable=712G
+2026-10-26T01:08:19Z end KL_C080 rc=0 | maxrss_kb 7475540 secs 26.95 | rc=134 end=2026-10-26T01:08:19Z
+2026-10-26T01:08:20Z start S_entries unit=s13-f-s-entries-1792976900 MemAvailable=714G
+2026-10-26T01:08:22Z end KL_C160 rc=0 | maxrss_kb 7475508 secs 27.59 | rc=134 end=2026-10-26T01:08:22Z
+2026-10-26T01:08:22Z start S_certOK_harder11 unit=s13-f-s-certok-harder11-1792976902 MemAvailable=714G
+2026-10-26T01:08:23Z end BFS_D00C000 rc=0 | maxrss_kb 7470344 secs 26.93 | rc=134 end=2026-10-26T01:08:23Z
+2026-10-26T01:08:24Z start X_ct4_d13 unit=s13-f-x-ct4-d13-1792976904 MemAvailable=716G
+2026-10-26T01:08:26Z start X_T9Test_table unit=s13-f-x-t9test-table-1792976906 MemAvailable=714G
+2026-10-26T01:08:35Z end BFS_D12C000 rc=0 | maxrss_kb 7472932 secs 26.86 | rc=134 end=2026-10-26T01:08:35Z
+2026-10-26T01:08:37Z end BFS_D24C000 rc=0 | maxrss_kb 7470872 secs 26.96 | rc=134 end=2026-10-26T01:08:37Z
+2026-10-26T01:08:38Z start X_T9Test_facts unit=s13-f-x-t9test-facts-1792976918 MemAvailable=702G
+2026-10-26T01:08:39Z end H_chunk00 rc=0 | maxrss_kb 7467708 secs 27.03 | rc=134 end=2026-10-26T01:08:39Z
+2026-10-26T01:08:40Z start X_certOK_6 unit=s13-f-x-certok-6-1792976920 MemAvailable=704G
+2026-10-26T01:08:41Z end H_chunk23 rc=0 | maxrss_kb 7467264 secs 26.60 | rc=134 end=2026-10-26T01:08:41Z
+2026-10-26T01:08:42Z start X_certOK_7 unit=s13-f-x-certok-7-1792976922 MemAvailable=702G
+2026-10-26T01:08:44Z end S_header_info rc=0 | maxrss_kb 7470096 secs 27.47 | rc=134 end=2026-10-26T01:08:44Z
+2026-10-26T01:08:44Z start X_certOK_8 unit=s13-f-x-certok-8-1792976924 MemAvailable=702G
+2026-10-26T01:08:45Z end S_final_ok rc=0 | maxrss_kb 7470216 secs 26.76 | rc=134 end=2026-10-26T01:08:45Z
+2026-10-26T01:08:46Z start X_certOK_9 unit=s13-f-x-certok-9-1792976926 MemAvailable=703G
+2026-10-26T01:08:47Z end S_entries rc=0 | maxrss_kb 7467320 secs 26.57 | rc=134 end=2026-10-26T01:08:47Z
+2026-10-26T01:08:48Z start X_certOK_10 unit=s13-f-x-certok-10-1792976928 MemAvailable=704G
+2026-10-26T01:08:49Z end S_certOK_harder11 rc=0 | maxrss_kb 7467696 secs 27.19 | rc=134 end=2026-10-26T01:08:49Z
+2026-10-26T01:08:56Z end X_T9Test_table rc=0 | maxrss_kb 13020344 secs 29.39 | rc=134 end=2026-10-26T01:08:56Z
+2026-10-26T01:09:08Z end X_T9Test_facts rc=0 | maxrss_kb 13021112 secs 29.39 | rc=134 end=2026-10-26T01:09:08Z
+2026-10-26T01:10:22Z end X_certOK_6 rc=0 | maxrss_kb 28452740 secs 102.27 | rc=0 end=2026-10-26T01:10:22Z
+2026-10-26T01:10:52Z end X_ct4_d13 rc=0 | maxrss_kb 51667760 secs 147.72 | rc=137 end=2026-10-26T01:10:52Z
+2026-10-26T01:11:27Z end X_certOK_10 rc=0 | maxrss_kb 51664096 secs 158.76 | rc=137 end=2026-10-26T01:11:27Z
+2026-10-26T01:11:27Z end X_certOK_9 rc=0 | maxrss_kb 51664632 secs 161.25 | rc=137 end=2026-10-26T01:11:27Z
+2026-10-26T01:15:01Z end X_certOK_7 rc=0 | maxrss_kb 51663044 secs 378.36 | rc=137 end=2026-10-26T01:15:01Z
+2026-10-26T01:15:17Z end X_certOK_8 rc=0 | maxrss_kb 51662228 secs 392.69 | rc=137 end=2026-10-26T01:15:17Z
+2026-10-26T01:15:17Z batch done

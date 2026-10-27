@@ -1,0 +1,177 @@
+{
+ "name": "moggedhedien_rimalloc_verify",
+ "pkg": "/home/ntbuild/repos_s/moggedhedien_rimalloc/verify",
+ "copy_root": "/home/ntbuild/repos_s/moggedhedien_rimalloc/verify",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.30.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:15:30Z",
+ "toolchain": "v4.30.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.14,
+  "built": []
+ },
+ "modules": 3,
+ "before": {
+  "total": 12,
+  "by_tactic": {
+   "native_decide": 12
+  },
+  "failed": [],
+  "dirty": 12
+ },
+ "native_files": 3,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 55.17,
+   "cpu": 56.4,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 0.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 72.89,
+   "cpu": 76.5,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 3.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 55.28,
+   "cpu": 56.7,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 0.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 70.59,
+   "cpu": 73.5,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 3.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 55.08,
+   "cpu": 56.3,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 0.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 68.18,
+   "cpu": 71.0,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.0,
+   "peak_rss_sum_gb": 3.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 21,
+   "rc": 0,
+   "wall": 187.59,
+   "cpu": 203.7,
+   "n_built": 3,
+   "peak_lean": 2,
+   "peak_rss_gb": 4.3,
+   "peak_rss_sum_gb": 6.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 9,
+  "by_tactic": {
+   "native_decide": 9
+  },
+  "failed": [],
+  "dirty": 9
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 9
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: RimallocVerify/CommitMask.lean:42:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1267 ms)"
+ },
+ "after_hb2": {
+  "total": 9,
+  "by_tactic": {
+   "native_decide": 9
+  },
+  "failed": [],
+  "dirty": 9
+ },
+ "fallbacks_hb2": {
+  "budget (heartbeats)": 9
+ },
+ "fallback_examples_hb2": {
+  "budget (heartbeats)": "info: RimallocVerify/CommitMask.lean:44:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (14521 ms)"
+ },
+ "reps": 3,
+ "orig_wall_med": 55.17,
+ "orig_cpu_med": 56.4,
+ "kf_wall_med": 70.59,
+ "kf_cpu_med": 73.5,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:25:00Z"
+}

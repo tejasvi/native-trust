@@ -1,0 +1,196 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Difftest +Model.Adversary +Model.AxiomAudit +Model.Braid +Model.CompositeHeader +Model.Erasure +Model.Gf65536 +Model.GroupCommitment +Model.IdentityKey +Model.IdentityRecords +Model.InitiatorExpectation +Model.Kdf +Model.Lifecycle +Model.LifecycleFrame +Model.LifecycleTrace +Model.Messages +Model.MultiDevice +Model.PersistedState +Model.Polynomial +Model.PrekeyOperations +Model.Protobuf +Model.Ratchet +Model.SessionEstablishment +Model.SessionOperations +Model.SessionTrace +Model.Sha256 +Model.SparseRatchet +Model.State +Model.SwapRemove +Model.Triple +Model.TripleRatchet +Model.Types +Properties.Authentication +Properties.AxiomAudit +Properties.ForwardSecrecy +Properties.Invariants +Properties.Lifecycle +Properties.LifecycleTrace +Properties.PostCompromise +Properties.Secrecy +Properties.StateConsistency
+✔ [5/45] Built Model.Types (159ms)
+✔ [6/45] Built Model.MultiDevice (327ms)
+✔ [7/45] Built Model.SwapRemove (402ms)
+✔ [8/45] Built Model.Adversary (449ms)
+✔ [9/45] Built Properties.ForwardSecrecy (295ms)
+✔ [10/45] Built Properties.PostCompromise (358ms)
+✔ [11/45] Built Properties.Secrecy (260ms)
+✔ [12/45] Built Properties.Authentication (197ms)
+✔ [13/45] Built Model.AxiomAudit (1.5s)
+✔ [14/45] Built Model.Sha256 (3.6s)
+✔ [15/45] Built Model.GroupCommitment (611ms)
+ℹ [16/45] Built Model.Kdf (5.8s)
+info: Model/Kdf.lean:106:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1688 ms)
+info: Model/Kdf.lean:115:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1662 ms)
+info: Model/Kdf.lean:127:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1706 ms)
+✔ [17/45] Built Model.Gf65536 (9.7s)
+✔ [18/45] Built Model.State (817ms)
+ℹ [19/45] Built Model.Polynomial (4.0s)
+info: Model/Polynomial.lean:846:58: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2001 ms)
+info: Model/Polynomial.lean:849:58: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1085 ms)
+ℹ [20/45] Built Model.SessionEstablishment (5.4s)
+info: Model/SessionEstablishment.lean:95:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2072 ms)
+info: Model/SessionEstablishment.lean:104:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1910 ms)
+✔ [21/45] Built Model.Messages (8.0s)
+ℹ [22/45] Built Model.Braid (8.6s)
+info: Model/Braid.lean:746:71: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1776 ms)
+info: Model/Braid.lean:754:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1937 ms)
+info: Model/Braid.lean:783:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1860 ms)
+ℹ [23/45] Built Model.SparseRatchet (8.9s)
+info: Model/SparseRatchet.lean:815:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1751 ms)
+info: Model/SparseRatchet.lean:826:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1709 ms)
+info: Model/SparseRatchet.lean:836:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1740 ms)
+⚠ [24/45] Built Model.Ratchet (9.7s)
+warning: Model/Ratchet.lean:278:12: This simp argument is unused:
+  List.foldl_append
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵L̵i̵s̵t̵.̵f̵o̵l̵d̵l̵_̵a̵p̵p̵e̵n̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Ratchet.lean:301:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Model/Ratchet.lean:295:26: Variable name `hj` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Model/Ratchet.lean:846:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1747 ms)
+info: Model/Ratchet.lean:860:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1751 ms)
+info: Model/Ratchet.lean:901:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1747 ms)
+info: Model/Ratchet.lean:925:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1759 ms)
+✔ [25/45] Built Model.Protobuf (1.7s)
+✔ [26/45] Built Model.CompositeHeader (1.9s)
+✔ [27/45] Built Properties.Invariants (674ms)
+✔ [28/45] Built Properties.StateConsistency (668ms)
+✔ [29/45] Built Model.IdentityKey (2.5s)
+ℹ [30/45] Built Model.TripleRatchet (10s)
+info: Model/TripleRatchet.lean:145:56: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2217 ms)
+info: Model/TripleRatchet.lean:147:40: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1958 ms)
+info: Model/TripleRatchet.lean:149:40: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1801 ms)
+info: Model/TripleRatchet.lean:154:44: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1746 ms)
+info: Model/TripleRatchet.lean:161:36: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1829 ms)
+ℹ [31/45] Built Model.Erasure (6.5s)
+info: Model/Erasure.lean:429:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1060 ms)
+info: Model/Erasure.lean:433:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1047 ms)
+info: Model/Erasure.lean:446:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1047 ms)
+info: Model/Erasure.lean:449:83: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (397 ms)
+info: Model/Erasure.lean:456:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1093 ms)
+✔ [32/45] Built Model.Triple (785ms)
+ℹ [33/45] Built Model.PersistedState (14s)
+info: Model/PersistedState.lean:2963:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1853 ms)
+info: Model/PersistedState.lean:2968:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1675 ms)
+info: Model/PersistedState.lean:2988:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1729 ms)
+info: Model/PersistedState.lean:3000:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1761 ms)
+info: Model/PersistedState.lean:3016:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1744 ms)
+info: Model/PersistedState.lean:3031:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1690 ms)
+✔ [34/45] Built Model.PrekeyOperations (909ms)
+✔ [35/45] Built Model.SessionOperations (906ms)
+✔ [36/45] Built Model.SessionTrace (938ms)
+⚠ [37/45] Built Model.Lifecycle (7.8s)
+warning: Model/Lifecycle.lean:246:5: Variable name `h` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:248:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  simp [kemEncapsulate, hvalid,̵ ̵h̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1118:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1122:5: Variable name `hNonzero` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1123:5: Variable name `hRetry` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1125:5: Variable name `hFull` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1177:39: This simp argument is unused:
+  hEvict
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hE̵v̵i̵c̵t̵,̵ ̵h̵Nonzero, hRetry, hFull, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1177:47: This simp argument is unused:
+  hNonzero
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hN̵o̵n̵z̵e̵r̵o̵,̵ ̵h̵Retry, hFull, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1177:57: This simp argument is unused:
+  hRetry
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hR̵e̵t̵r̵y̵,̵ ̵h̵Full, hDifferent]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1177:65: This simp argument is unused:
+  hFull
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hRetry, hF̵u̵l̵l̵,̵ ̵h̵Different]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1177:72: This simp argument is unused:
+  hDifferent
+
+Hint: Omit it from the simp argument list.
+  simp_all [receiveWithEvictionLoop, hEvict, hNonzero, hRetry, hFull,̵ ̵h̵D̵i̵f̵f̵e̵r̵e̵n̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Model/Lifecycle.lean:1217:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1221:5: Variable name `hNonzero` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1222:5: Variable name `hRetry` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1224:5: Variable name `hFull` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1225:5: Variable name `hDifferent` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Model/Lifecycle.lean:1299:5: Variable name `hEvict` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Model/Lifecycle.lean:2177:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1771 ms)
+info: Model/Lifecycle.lean:2201:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1780 ms)
+info: Model/Lifecycle.lean:2228:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1795 ms)
+✔ [38/45] Built Model.LifecycleFrame (964ms)
+✔ [39/45] Built Properties.Lifecycle (2.2s)
+ℹ [40/45] Built Model.LifecycleTrace (6.5s)
+info: Model/LifecycleTrace.lean:210:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1796 ms)
+info: Model/LifecycleTrace.lean:234:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1798 ms)
+✔ [41/45] Built Properties.LifecycleTrace (747ms)
+✔ [42/45] Built Difftest (1.2s)
+✔ [43/45] Built Model.IdentityRecords (77s)
+✔ [44/45] Built Model.InitiatorExpectation (20s)
+ℹ [45/45] Built Properties.AxiomAudit (6.4s)
+info: Properties/AxiomAudit.lean:51:0: axiom audit: 6085 first-party declarations under [Model, Properties, Proofs, Translation]; none is an axiom, opaque, unsafe or partial, or carries implemented_by/extern, outside the native_decide/bv_decide allowance
+Build completed successfully (45 jobs).
+TIME wall=126.13 user=238.16 sys=8.08 maxrss_kb=2564112
+rc=0 secs=126

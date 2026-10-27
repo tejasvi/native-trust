@@ -1,0 +1,12 @@
+project	totally positive Mahler lower v3 (tpmahler), UncondN
+source	supp 10.5281/zenodo.23548808 (totally-positive-mahler-measure-v3 @bd53dad823d6)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	48 native axioms (TPN chunk checks and others), used by the 3 theorems with native axioms in logs/lean/axioms_N.out
+converted	0 of 12 sampled facts (the first 6 chunks and 6 random ones); 0 theorems
+nt_cpu_h	3.0 (12 timeouts at 900 s) + heavy (2 facts at 3,600 s)
+nt_wall_min	see summary.md
+native_build_cpu_h	lake build TPMahler.UncondN TPMahler.StatementCor on the box: 153 s wall, 567 s user; release: about 2 minutes with 96 threads (README.md:243)
+hand_track	TPMahler.UncondK, CorRealK
+hand_build_cpu_h	about 240 core-hours (README.md:244)
+checks	driver pass 1 (900 s, 48 GiB): 12 of 48 axioms, all timed out; heavy (3,600 s, 96 GiB) on 2 timeouts

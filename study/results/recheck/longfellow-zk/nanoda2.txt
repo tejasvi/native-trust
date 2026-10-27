@@ -1,0 +1,5 @@
+
+thread 'thread_6' (184938) has overflowed its stack
+fatal runtime error: stack overflow, aborting
+Command terminated by signal 6
+nanoda: 2.63 s 3661988 KB

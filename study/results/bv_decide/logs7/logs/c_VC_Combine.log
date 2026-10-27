@@ -1,0 +1,121 @@
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	0	nodes=460	clauses=923	steps=249	hints=6013	chunks=1	base_ms=393	chunk_ms=723
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	0	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb._native.bv_decide.ax_5	249	0	1116	1192	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	1	nodes=1259	clauses=3488	steps=213	hints=1824	chunks=1	base_ms=2056	chunk_ms=773
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	1	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw._native.bv_decide.ax_5	213	0	2829	2895	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	2	nodes=525	clauses=1094	steps=315	hints=696	chunks=1	base_ms=470	chunk_ms=253
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	2	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi._native.bv_decide.ax_5	315	0	723	761	bvs5fact_2.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	3	nodes=32674	clauses=97733	steps=49361	hints=276776	chunks=28	base_ms=40307	chunk_ms=109900
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	3	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop._native.bv_decide.ax_5	49361	0	150207	162897	bvs5fact_3.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	4	nodes=2727	clauses=7892	steps=313	hints=3936	chunks=1	base_ms=6386	chunk_ms=2092
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	4	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz._native.bv_decide.ax_5	313	0	8478	8630	bvs5fact_4.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	5	nodes=5804	clauses=16835	steps=3937	hints=102081	chunks=6	base_ms=6973	chunk_ms=27149
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	5	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rorw._native.bv_decide.ax_5	3937	0	34122	35330	bvs5fact_5.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	6	nodes=5804	clauses=16835	steps=3937	hints=102081	chunks=6	base_ms=6939	chunk_ms=27422
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	6	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw._native.bv_decide.ax_5	3937	0	34361	35528	bvs5fact_6.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	7	nodes=762	clauses=1802	steps=96	hints=224	chunks=1	base_ms=892	chunk_ms=61
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	7	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext._native.bv_decide.ax_5	96	0	953	1008	bvs5fact_7.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	8	nodes=5033	clauses=14792	steps=1697	hints=68841	chunks=4	base_ms=5921	chunk_ms=14226
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	8	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai._native.bv_decide.ax_5	1697	0	20147	20800	bvs5fact_8.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	9	nodes=404	clauses=923	steps=249	hints=6013	chunks=1	base_ms=411	chunk_ms=753
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	9	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb._native.bv_decide.ax_5	249	0	1164	1254	bvs5fact_9.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	10	nodes=3460	clauses=9803	steps=1946	hints=54704	chunks=3	base_ms=3894	chunk_ms=11233
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	10	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw._native.bv_decide.ax_5	1946	0	15127	15664	bvs5fact_10.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	11	nodes=4535	clauses=13298	steps=1884	hints=44724	chunks=3	base_ms=5315	chunk_ms=9018
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	11	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli._native.bv_decide.ax_5	1884	0	14333	14865	bvs5fact_11.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	12	nodes=143	clauses=284	steps=95	hints=222	chunks=1	base_ms=184	chunk_ms=57
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	12	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu._native.bv_decide.ax_5	95	0	241	292	bvs5fact_12.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	13	nodes=2727	clauses=7892	steps=313	hints=3936	chunks=1	base_ms=6528	chunk_ms=2059
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	13	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz._native.bv_decide.ax_5	313	0	8587	8755	bvs5fact_13.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	14	nodes=436	clauses=875	steps=233	hints=4973	chunks=1	base_ms=379	chunk_ms=652
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	14	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth._native.bv_decide.ax_5	233	0	1031	1114	bvs5fact_14.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	15	nodes=525	clauses=1094	steps=315	hints=696	chunks=1	base_ms=698	chunk_ms=269
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	15	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori._native.bv_decide.ax_5	315	0	967	1028	bvs5fact_15.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	16	nodes=5804	clauses=16835	steps=3598	hints=94456	chunks=5	base_ms=6984	chunk_ms=25910
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	16	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw._native.bv_decide.ax_5	3598	0	32894	33898	bvs5fact_16.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	17	nodes=1038	clauses=2630	steps=96	hints=224	chunks=1	base_ms=1089	chunk_ms=65
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	17	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt._native.bv_decide.ax_5	96	0	1154	1234	bvs5fact_17.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	18	nodes=1144	clauses=2948	steps=96	hints=224	chunks=1	base_ms=1236	chunk_ms=68
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	18	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti._native.bv_decide.ax_5	96	0	1304	1380	bvs5fact_18.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	19	nodes=1026	clauses=2594	steps=96	hints=224	chunks=1	base_ms=986	chunk_ms=80
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	19	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu._native.bv_decide.ax_5	96	0	1066	1149	bvs5fact_19.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	20	nodes=8258	clauses=24485	steps=10362	hints=59835	chunks=6	base_ms=11341	chunk_ms=21212
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	20	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw._native.bv_decide.ax_5	10362	0	32553	34331	bvs5fact_20.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	21	nodes=135	clauses=284	steps=95	hints=222	chunks=1	base_ms=134	chunk_ms=60
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	21	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu._native.bv_decide.ax_5	95	0	194	239	bvs5fact_21.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	22	nodes=1259	clauses=3488	steps=213	hints=1824	chunks=1	base_ms=2271	chunk_ms=788
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	22	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw._native.bv_decide.ax_5	213	0	3059	3155	bvs5fact_22.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	23	nodes=5804	clauses=16835	steps=3598	hints=94456	chunks=5	base_ms=6764	chunk_ms=25221
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	23	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rolw._native.bv_decide.ax_5	3598	0	31985	33027	bvs5fact_23.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	24	nodes=1132	clauses=2912	steps=96	hints=224	chunks=1	base_ms=1187	chunk_ms=67
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	24	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu._native.bv_decide.ax_5	96	0	1254	1336	bvs5fact_24.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	25	nodes=255	clauses=284	steps=95	hints=222	chunks=1	base_ms=161	chunk_ms=61
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	25	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh._native.bv_decide.ax_5	95	0	222	272	bvs5fact_25.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	26	nodes=388	clauses=875	steps=233	hints=4973	chunks=1	base_ms=405	chunk_ms=670
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	26	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh._native.bv_decide.ax_5	233	0	1075	1168	bvs5fact_26.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	27	nodes=191	clauses=284	steps=95	hints=222	chunks=1	base_ms=147	chunk_ms=56
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	27	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth._native.bv_decide.ax_5	95	0	203	251	bvs5fact_27.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	28	nodes=704	clauses=1802	steps=96	hints=224	chunks=1	base_ms=880	chunk_ms=69
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	28	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti._native.bv_decide.ax_5	96	0	949	1010	bvs5fact_28.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Veir.Passes.RISCVCombines.Combine	29	nodes=3460	clauses=9803	steps=1946	hints=54704	chunks=3	base_ms=3842	chunk_ms=11042
+BVS_UNSAT	Veir.Passes.RISCVCombines.Combine	29	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_sraw._native.bv_decide.ax_5	1946	0	14884	15425	bvs5fact_29.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh._proof_1	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh._proof_1	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi._proof_1	bvs5_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi	bvs5_4	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu._proof_1	bvs5_5	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth._proof_1	bvs5_6	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw._proof_1	bvs5_7	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw	bvs5_8	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop._proof_1	bvs5_9	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti._proof_1	bvs5_10	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=8	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti	bvs5_11	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli._proof_1	bvs5_12	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli	bvs5_13	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori._proof_1	bvs5_14	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori	bvs5_15	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth	bvs5_16	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh	bvs5_17	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai._proof_1	bvs5_18	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai	bvs5_19	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext._proof_1	bvs5_20	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext	bvs5_21	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti._proof_1	bvs5_22	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=7	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti	bvs5_23	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb._proof_1	bvs5_24	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb	bvs5_25	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth._proof_1	bvs5_26	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth	bvs5_27	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu	bvs5_28	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz._proof_1	bvs5_29	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz	bvs5_30	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz._proof_1	bvs5_31	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz	bvs5_32	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop	bvs5_33	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt._proof_1	bvs5_34	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt	bvs5_35	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu._proof_1	bvs5_36	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu	bvs5_37	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw._proof_1	bvs5_38	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw	bvs5_39	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw._proof_1	bvs5_40	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw	bvs5_41	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh	bvs5_42	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb._proof_1	bvs5_43	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=8	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb	bvs5_44	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu._proof_1	bvs5_45	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu	bvs5_46	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu._proof_1	bvs5_47	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu	bvs5_48	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw._proof_1	bvs5_49	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=8	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_sraw	bvs5_50	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw._proof_1	bvs5_51	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=11	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rolw	bvs5_52	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw._proof_1	bvs5_53	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=10	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rorw	bvs5_54	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw	bvs5_55	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw	bvs5_56	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw	bvs5_57	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.Combine.impl	bvs5_58	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.RISCV.Combine	bvs5_59	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.RISCVCombines.Combine	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]	converted=30	all_unsat_ok=true	users=59	users_std=59	users_axiom_left=0	users_failed=0
+TIME wall=488.75 s user=475.82 s maxrss=10073696 KB

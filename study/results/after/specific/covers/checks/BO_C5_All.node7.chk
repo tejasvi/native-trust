@@ -1,0 +1,1 @@
+BO_C5_All thms=[BerryOpt.C5.node_7] export_rc=0 lines=131360 nanoda_rc=0 [Checked 2392 declarations with no typechecker errors] conron_rc=0 [accepted 2145 declarations]  nanoda: 118.56 s 5277652 KB con-ron: 30.76 s 17191328 KB

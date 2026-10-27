@@ -1,0 +1,2 @@
+bv_kdecide: bv_decide 22 ms; 152 nodes, 431 clauses, 150 LRAT steps, 2051 hints, 1 chunks; SAT 21 ms, data 3 ms; kernel: base 113 ms, chunks 310 ms (max 310 ms), assembly 3 ms; total 517 ms
+'mul3_w8' depends on axioms: [propext, Classical.choice, Quot.sound]

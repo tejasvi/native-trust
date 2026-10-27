@@ -1,0 +1,74 @@
+import NativeTrust
+import F2_p1_QEC_Criterion_TypeCheck_0
+import F2_p1_QEC_ChecksN_N_X_13_3
+import F2_p1_QEC_ChecksN_N_X_3_1
+import F2_p1_QEC_ChecksN_N_X_5_2
+import F2_p1_QEC_ChecksN_N_X_7_0
+import F2_p1_QEC_ChecksN_N_X_9_3
+import F2_p1_QEC_ChecksN_N_Z_13_4
+import F2_p1_QEC_ChecksN_N_Z_3_3
+import F2_p1_QEC_ChecksN_N_Z_5_3
+import F2_p1_QEC_ChecksN_N_Z_7_5
+import F2_p1_QEC_ChecksN_N_Z_9_4
+import F2_p1_QEC_ChecksN_N_X_13_2
+import F2_p1_QEC_ChecksN_N_X_13_1
+import F2_p1_QEC_ChecksN_N_X_13_4
+import F2_p1_QEC_ChecksN_N_X_13_5
+import F2_p1_QEC_ChecksN_N_X_13_0
+import F2_p1_QEC_ChecksN_N_X_3_4
+import F2_p1_QEC_ChecksN_N_X_3_3
+import F2_p1_QEC_ChecksN_N_X_3_2
+import F2_p1_QEC_ChecksN_N_X_3_5
+import F2_p1_QEC_ChecksN_N_X_3_0
+import F2_p1_QEC_ChecksN_N_X_5_3
+import F2_p1_QEC_ChecksN_N_X_5_0
+import F2_p1_QEC_ChecksN_N_X_5_5
+import F2_p1_QEC_ChecksN_N_X_5_4
+import F2_p1_QEC_ChecksN_N_X_5_1
+import F2_p1_QEC_ChecksN_N_X_7_4
+import F2_p1_QEC_ChecksN_N_X_7_3
+import F2_p1_QEC_ChecksN_N_X_7_2
+import F2_p1_QEC_ChecksN_N_X_7_5
+import F2_p1_QEC_ChecksN_N_X_7_1
+import F2_p1_QEC_ChecksN_N_X_9_2
+import F2_p1_QEC_ChecksN_N_X_9_1
+import F2_p1_QEC_ChecksN_N_X_9_5
+import F2_p1_QEC_ChecksN_N_X_9_0
+import F2_p1_QEC_ChecksN_N_X_9_4
+import F2_p1_QEC_ChecksN_N_Z_13_2
+import F2_p1_QEC_ChecksN_N_Z_13_1
+import F2_p1_QEC_ChecksN_N_Z_13_3
+import F2_p1_QEC_ChecksN_N_Z_13_5
+import F2_p1_QEC_ChecksN_N_Z_13_0
+import F2_p1_QEC_ChecksN_N_Z_3_0
+import F2_p1_QEC_ChecksN_N_Z_3_1
+import F2_p1_QEC_ChecksN_N_Z_3_4
+import F2_p1_QEC_ChecksN_N_Z_3_5
+import F2_p1_QEC_ChecksN_N_Z_3_2
+import F2_p1_QEC_ChecksN_N_Z_5_1
+import F2_p1_QEC_ChecksN_N_Z_5_5
+import F2_p1_QEC_ChecksN_N_Z_5_4
+import F2_p1_QEC_ChecksN_N_Z_5_2
+import F2_p1_QEC_ChecksN_N_Z_5_0
+import F2_p1_QEC_ChecksN_N_Z_7_0
+import F2_p1_QEC_ChecksN_N_Z_7_4
+import F2_p1_QEC_ChecksN_N_Z_7_1
+import F2_p1_QEC_ChecksN_N_Z_7_2
+import F2_p1_QEC_ChecksN_N_Z_7_3
+import F2_p1_QEC_ChecksN_N_Z_9_1
+import F2_p1_QEC_ChecksN_N_Z_9_5
+import F2_p1_QEC_ChecksN_N_Z_9_2
+import F2_p1_QEC_ChecksN_N_Z_9_3
+import F2_p1_QEC_ChecksN_N_Z_9_0
+import QEC.ChecksN.Thm11V2
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+kernelize QEC.Circ.thm11_circuit_native
+#print axioms QEC.Circ.thm11_circuit_native
+#print axioms QEC.Circ.thm11_circuit_native.kernel
+open Lean in
+run_cmd Elab.Command.liftTermElabM do
+  let env ← getEnv
+  let a := (env.find? `QEC.Circ.thm11_circuit_native).get!.type
+  let b := (env.find? `QEC.Circ.thm11_circuit_native.kernel).get!.type
+  logInfo m!"statements identical (Expr ==): {a == b}"

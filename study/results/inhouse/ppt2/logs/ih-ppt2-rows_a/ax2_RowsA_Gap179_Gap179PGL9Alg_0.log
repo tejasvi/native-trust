@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179_Gap179PGL9Alg_0.lean
+NT start RowsA.Gap179.PGL9.orbits_ok._native.native_decide.ax_1
+NT nested RowsA.Gap179.PGL9.orbits_ok._native.native_decide.ax_1 ms=49 rebuilt_defs=0 visited=1613
+NT _ktr.F2_RowsA_Gap179_Gap179PGL9Alg_0.RowsA.Gap179.PGL9.orbits_ok._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179PGL9Alg_0.RowsA.Gap179.PGL9.orbits_ok._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179_Gap179PGL9Alg_0.RowsA.Gap179.PGL9.orbits_ok._kernel.native_decide.ax_1.p_0 blockers_ms=2 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46088076
+rc=1 secs=137

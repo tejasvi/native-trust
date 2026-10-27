@@ -1,0 +1,177 @@
+{
+ "name": "clementefalcone_goya_ledger_formal",
+ "pkg": "/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal",
+ "copy_root": "/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.34.0-rc2",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:03:17Z",
+ "toolchain": "v4.34.0-rc2",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.26,
+  "built": []
+ },
+ "modules": 2,
+ "before": {
+  "total": 10,
+  "by_tactic": {
+   "native_decide": 10
+  },
+  "failed": [],
+  "dirty": 10
+ },
+ "native_files": 2,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.5,
+   "cpu": 1.9,
+   "n_built": 2,
+   "peak_lean": 1,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 1.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.78,
+   "cpu": 2.7,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.3,
+   "peak_rss_sum_gb": 3.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.36,
+   "cpu": 1.8,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 1.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.78,
+   "cpu": 2.7,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.3,
+   "peak_rss_sum_gb": 3.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.38,
+   "cpu": 1.8,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 1.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.98,
+   "cpu": 2.8,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 3.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 14,
+   "rc": 0,
+   "wall": 1.95,
+   "cpu": 2.9,
+   "n_built": 2,
+   "peak_lean": 2,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 3.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [],
+  "dirty": 1
+ },
+ "fallbacks": {
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": 1
+ },
+ "fallback_examples": {
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": "info: Formal/Lattice/Zq.lean:13:37: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit"
+ },
+ "after_hb2": {
+  "total": 1,
+  "by_tactic": {
+   "native_decide": 1
+  },
+  "failed": [],
+  "dirty": 1
+ },
+ "fallbacks_hb2": {
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": 1
+ },
+ "fallback_examples_hb2": {
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": "info: Formal/Lattice/Zq.lean:15:37: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit"
+ },
+ "reps": 3,
+ "orig_wall_med": 1.38,
+ "orig_cpu_med": 1.8,
+ "kf_wall_med": 1.78,
+ "kf_cpu_med": 2.7,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:03:42Z"
+}

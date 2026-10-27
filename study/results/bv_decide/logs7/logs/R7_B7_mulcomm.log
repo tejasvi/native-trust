@@ -1,0 +1,7 @@
+bvs mulcomm_4 #1: 182 nodes, 521 clauses, 182 vars; 407 steps, 10709 hints, 1 chunks; solve 30 ms, prep+defs 74 ms; kernel: base 266 ms, chunks 1919 ms (max 1919 ms); total 2296 ms
+bvs: added mulcomm_4.bvs4 (38 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulcomm_6 #1: 448 nodes, 1307 clauses, 448 vars; 4683 steps, 222977 hints, 12 chunks; solve 113 ms, prep+defs 1449 ms; kernel: base 675 ms, chunks 32473 ms (max 3634 ms); total 34740 ms
+bvs: added mulcomm_6.bvs4 (560 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs mulcomm_8 #1: 834 nodes, 2453 clauses, 834 vars; 37524 steps, 1379909 hints, 70 chunks; solve 650 ms, prep+defs 7168 ms; kernel: base 1738 ms, chunks 256504 ms (max 4753 ms); total 266285 ms
+bvs: added mulcomm_8.bvs4 (12074 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=318.54 s user=318.64 s maxrss=3052368 KB

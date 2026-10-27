@@ -1,0 +1,289 @@
+$ lean longfellow-zk__F2_Lfzk_CertifiedHahn_1.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T20:19:56Z
+rc=124 end=2026-10-24T20:44:56Z
+ahn_valid._native.native_decide.ax_1_1
+NT nested Lfzk.CertifiedV1.v7SigHahn_valid._native.native_decide.ax_1_1 ms=159 rebuilt_defs=0 visited=4475
+NT copying SelectedMCA.simpleCliqueUpperNat
+NT copy SelectedMCA.simpleCliqueUpperNat defn_ms=0 eq_ms=1 congr=true
+NT copying AffineAgreement.Internal.balanced_choose_three
+NT copy AffineAgreement.Internal.balanced_choose_three defn_ms=0 eq_ms=1 congr=true
+NT copying SelectedMCA.DirectCliqueCondition
+NT copy SelectedMCA.DirectCliqueCondition defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-congr-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) application type mismatch   decide (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition n radius g d mid) argument has type   Decidable     (3 ≤ mid ∧       n - d < n - radius ∧         SelectedMCA.simpleCliqueUpperNat mid (SelectedMCA.directLineOccupancyBound n g) * (n - radius - (n - d)) +             mid.fast_choose 3 * (n - d) <           _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».AffineAgreement.Internal.balanced_choose_three n             (mid * (n - radius))) but function has type   [h : Decidable (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition n radius g d mid)] →     Bool
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.binaryCliqueSearch._f._eq' has type   Ligero.Examples.Grid.binaryCliqueSearch._f = Ligero.Examples.Grid.binaryCliqueSearch._f but it is expected to have type   Ligero.Examples.Grid.binaryCliqueSearch._f =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copying Ligero.Examples.Grid.binaryCliqueSearch
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch
+NT copy Ligero.Examples.Grid.binaryCliqueSearch defn_ms=0 eq_ms=0 congr=false
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalM
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalM defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.Certificate.IntegratedLocalPointValid
+NT copy Ligero.Examples.Grid.Certificate.IntegratedLocalPointValid defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-congr-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) application type mismatch   @instDecidableAnd     (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d       (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a))     (¬3 * (c.n - a) < c.d →       ¬_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d           (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a - 1))     instDecidableAnd argument has type   Decidable     (3 ≤ _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a ∧       c.n - c.d < 
+NT copy-rfl Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool._eq' has type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool = Ligero.Examples.Grid.Certificate.integratedLocalValidBool but it is expected to have type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copying LigeroFamily.hypergeometricRatio
+NT copy LigeroFamily.hypergeometricRatio defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.cover
+NT copy Lfzk.LigeroV1Rows.Row.cover defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalLineBound
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalLineBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.failureProfileAt
+NT copy Lfzk.LigeroV1Rows.Row.failureProfileAt defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.fail
+NT copy Lfzk.LigeroV1Rows.Row.fail defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnWeight
+NT copy CodingTheory.HahnDelsarte.hahnWeight defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnKernel
+NT copy CodingTheory.HahnDelsarte.hahnKernel defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.certificatePolynomial
+NT copy CodingTheory.HahnDelsarte.certificatePolynomial defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certifiedBound
+NT copy CodingTheory.HahnDelsarte.certifiedBound defn_ms=1 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.maskBound
+NT copy Ligero.Examples.Grid.Certificate.maskBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arithProfile
+NT copy Lfzk.LigeroV1Rows.Row.arithProfile defn_ms=1 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arith
+NT copy Lfzk.LigeroV1Rows.Row.arith defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.epsRbr
+NT copy Lfzk.LigeroV1Rows.Row.epsRbr defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certificateValid
+NT copy CodingTheory.HahnDelsarte.certificateValid defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.maskValid
+NT copy Ligero.Examples.Grid.Certificate.maskValid defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.Valid
+NT copy Lfzk.LigeroV1Rows.Row.Valid defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.CostV1.Params.ligeroDensity
+NT copy Lfzk.CostV1.Params.ligeroDensity defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.CostV1.Params.nizkBound
+NT copy Lfzk.CostV1.Params.nizkBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.CertifiedV1.Row.bound
+NT copy Lfzk.CertifiedV1.Row.bound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.CertifiedV1.Row.Valid
+NT copy Lfzk.CertifiedV1.Row.Valid defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.instDecidableValid
+NT copy-rejected Lfzk.LigeroV1Rows.Row.instDecidableValid: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.LigeroV1Rows.Row.instDecidableValid' has type   (row : Lfzk.LigeroV1Rows.Row) →     Decidable (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.LigeroV1Rows.Row.Valid row) but it is expected to have type   (row : Lfzk.LigeroV1Rows.Row) → Decidable row.Valid
+NT copying Lfzk.CertifiedV1.Row.instDecidableValid
+NT copy-rejected Lfzk.CertifiedV1.Row.instDecidableValid: (kernel) application type mismatch   @instDecidableAnd (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.LigeroV1Rows.Row.Valid R.params.row)     (R.params.row.openings + R.params.q = R.params.row.k ∧       R.cardCand = R.params.row.listBound ∧         (0 < R.params.nw ∨ 0 < R.params.nq) ∧           _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.Row.bound R ≤ 1 / 2 ^ R.lam ∧             R.params.proofBytes ≤ R.sizeBound ∧ 2 * R.params.row.n + R.commitFuel < R.tape ∧ R.params.logc = 0)     R.params.row.instDecidableValid argument has type   Decidable R.params.row.Valid but function has type   [dp : Decidable (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.LigeroV1Rows.Row.V
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=81 copies=26 copy_kernel_ms=11 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 structure and
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 structure and
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_0 eval_ms=0
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 structure and
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_1 blockers_ms=0 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_1 eval_ms=0
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1 structure and
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_2 blockers_ms=0 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_2 eval_ms=0
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-congr-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) application type mismatch   @instDecidableAnd     (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d       (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a))     (¬3 * (c.n - a) < c.d →       ¬_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d           (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a - 1))     instDecidableAnd argument has type   Decidable     (3 ≤ _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a ∧       c.n - c.d < 
+NT copy-rfl Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool._eq' has type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool = Ligero.Examples.Grid.Certificate.integratedLocalValidBool but it is expected to have type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3 blockers_ms=0 bounded=false copy_ms=46 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT stage Lfzk.LigeroV1Rows.v7Sig direct ms=0
+NT stage Lfzk.LigeroV1Rows.v7SigHahn direct ms=0
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3 stage constants=2 staged=2 ms=67
+NT copying Lfzk.CertifiedV1.v7Sig
+NT copy Lfzk.CertifiedV1.v7Sig defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.CertifiedV1.v7SigHahn
+NT copy Lfzk.CertifiedV1.v7SigHahn defn_ms=0 eq_ms=0 congr=true
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_4
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_4 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_4 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_7
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_7 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_7 direct ms=0
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-congr-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) application type mismatch   @instDecidableAnd     (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d       (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a))     (¬3 * (c.n - a) < c.d →       ¬_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d           (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a - 1))     instDecidableAnd argument has type   Decidable     (3 ≤ _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a ∧       c.n - c.d < 
+NT copy-rfl Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool._eq' has type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool = Ligero.Examples.Grid.Certificate.integratedLocalValidBool but it is expected to have type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_10
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_10 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_10 direct-failed hb=15000 ms=9871 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_13
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_13 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_13 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_16
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_16 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_16 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_10 subterms staged=2
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-congr-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) application type mismatch   @instDecidableAnd     (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d       (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a))     (¬3 * (c.n - a) < c.d →       ¬_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».SelectedMCA.DirectCliqueCondition c.n (c.n - a) c.g c.d           (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a - 1))     instDecidableAnd argument has type   Decidable     (3 ≤ _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalM c a ∧       c.n - c.d < 
+NT copy-rfl Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool._eq' has type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool = Ligero.Examples.Grid.Certificate.integratedLocalValidBool but it is expected to have type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19 defn_ms=1 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19 direct-failed hb=15000 ms=10226 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19 unfolded Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22: (kernel) application type mismatch   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) argument has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) but function has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22 direct-failed hb=15000 ms=10347 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_25 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_28
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_28 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_28 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_31
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_31 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_31 direct ms=35
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22 subterms staged=3
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34: (kernel) application type mismatch   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) argument has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) but function has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34 direct-failed hb=15000 ms=9943 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34 unfolded List.all
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37: (kernel) application type mismatch   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) argument has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation) but function has type   failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37 direct-failed hb=15000 ms=10228 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37 no decomposition (head List.any.match_1)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_37 direct-failed hb=60000 ms=42889 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34 no decomposition (head List.all)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_34 direct-failed hb=60000 ms=45591 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_22 direct-failed hb=60000 ms=47482 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19 no decomposition (head Ligero.Examples.Grid.Certificate.integratedLocalValidBool)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_19 direct-failed hb=60000 ms=45833 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_10 direct-failed hb=60000 ms=44585 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_45
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_45 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_45 direct-failed hb=15000 ms=10289 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_48
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_48 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_48 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_45 subterms staged=1
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_51
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_51 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_51 direct-failed hb=15000 ms=10198 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_51 unfolded Lfzk.LigeroV1Rows.Row.epsRbr
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_54
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_54 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_54 direct-failed hb=15000 ms=10218 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_57 direct ms=1
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_60
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_60 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_60 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_63
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_63 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_63 direct ms=9
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_66
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_66 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_66 direct-failed hb=15000 ms=10108 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_66 unfolded Lfzk.LigeroV1Rows.Row.fail
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_69
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_69 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_69 direct-failed hb=15000 ms=10120 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_72 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_75 direct ms=1
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_78 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_81
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_81 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_81 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_76).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49) 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84 direct-failed hb=15000 ms=10088 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_87
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_87 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_87 direct-failed hb=15000 ms=10171 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_87 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_87 direct-failed hb=60000 ms=44040 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_84 direct-failed hb=60000 ms=44877 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_76).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49) 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92 direct-failed hb=15000 ms=9920 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95 direct-failed hb=15000 ms=9907 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_98
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_98 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_98 direct-failed hb=15000 ms=9855 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_98 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_98 direct-failed hb=60000 ms=44882 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_95 direct-failed hb=60000 ms=44743 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92 unfolded Nat.cast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103 direct-failed hb=15000 ms=10366 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106 direct-failed hb=15000 ms=10180 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_109
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_109 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_109 direct-failed hb=15000 ms=10013 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_109 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_109 direct-failed hb=60000 ms=44709 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_106 direct-failed hb=60000 ms=44817 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103 unfolded NatCast.natCast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_114
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_114 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_114 direct-failed hb=15000 ms=10291 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_114 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_114 direct-failed hb=60000 ms=45724 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103 no decomposition (head NatCast.natCast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_103 direct-failed hb=60000 ms=45862 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92 no decomposition (head Nat.cast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_92 direct-failed hb=60000 ms=45794 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_120 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_123
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_123 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_123 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_126
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_126 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_126 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_69 subterms staged=7
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_129
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_129: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_76).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.v_49) 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_129
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_129: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_129 direct-failed hb=15000 ms=10244 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132 direct-failed hb=15000 ms=10014 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_135
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_135 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_135 direct-failed hb=15000 ms=10161 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_135 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_135 direct-failed hb=60000 ms=45830 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_132 direct-failed hb=60000 ms=45561 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_140
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_140 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_140 direct-failed hb=15000 ms=10233 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143 direct-failed hb=15000 ms=10102 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_146
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_146 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_146 direct-failed hb=15000 ms=10134 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_146 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_146 direct-failed hb=60000 ms=44960 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_143 direct-failed hb=60000 ms=45322 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_140 unfolded Nat.cast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_151
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_151 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_151 direct-failed hb=15000 ms=10132 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_154
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_154 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_154 direct-failed hb=15000 ms=10093 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_154 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_157
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_1»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_1».Lfzk.CertifiedV1.v7SigHahn_valid._kernel.native_decide.ax_1_1.p_3.t_157 defn_ms=0 eq_ms=1 congr=true

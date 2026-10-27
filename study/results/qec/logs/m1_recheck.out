@@ -1,0 +1,6 @@
+export rc=0 lines 2219001
+nanoda rc=143
+nanoda: 604.95 s 2352232 KB
+con-ron rc=134
+Command terminated by signal 6
+con-ron: 326.15 s 113619632 KB

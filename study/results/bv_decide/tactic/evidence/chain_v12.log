@@ -1,0 +1,463 @@
+05:45:07 gate ok: MemAvailable 475 >= 264
+toolchain leanprover/lean4:v4.35.0; start 2026-10-25T05:45:07Z
+BVS.LratBits rc=0 0.23	492076
+BVS.LratBitsSound rc=0 0.30	528588
+BVS.Blast rc=0 0.50	704040
+BVS.Lrat.Trie rc=0 0.45	742048
+BVS.Sound.Basic rc=0 0.41	730032
+BVS.Lrat.Chain rc=0 0.47	752048
+BVS.Sound.Circuits rc=0 0.60	791860
+BVS.Sound.Bits rc=0 0.39	728824
+BVS.Sound.Shifts rc=0 0.44	729596
+BVS.Sound.Unary rc=0 0.28	708944
+BVS.Sound.Expr rc=0 0.59	710108
+BVS.Sound.CNF rc=0 0.30	707880
+BVS.Lrat.LeafTree rc=0 0.44	713156
+BVS.Unsat rc=0 0.34	699772
+BVS.SplitBase rc=0 0.57	736168
+BVS.Driver.Core rc=0 1.74	1665600
+BVS.Driver.Select rc=0 1.16	1628744
+BVS.Driver.Split rc=0 1.20	1635976
+BVS.Driver.Group rc=0 0.89	1614824
+BVS.Tactic rc=0 1.38	1655296
+BVS.Estimate rc=0 0.61	1591640
+BVS rc=0 0.54	1577832
+Examples.GroupA rc=0 0.22	671092
+Examples.GroupB rc=0 0.23	674476
+Examples.Group rc=0 1.42	1652804
+Examples.ShardFacts rc=0 0.41	701408
+Examples.Small rc=0 8.56	2165724
+Examples.SplitFacts rc=0 0.41	686360
+Examples.Tactic rc=0 32.04	2355784
+Examples.UnaryOps rc=0 10.25	2279424
+end 2026-10-25T05:46:15Z
+05:46:15 gate ok: MemAvailable 411 >= 264
+run Check2.lean on bvs_r13; start 2026-10-25T05:46:15Z
+rc=0 time_s,maxrss_kb=0.59,1590220 end 2026-10-25T05:46:15Z
+'k_xor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_and_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_cpop_not' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_config' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_uint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_bool' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_have' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_two_sync' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_heartbeats' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_enum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_struct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'k_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KEx.k_pub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ex_mul_three' depends on axioms: [propext, Classical.choice, Quot.sound, ex_mul_three._native.bv_decide.ax_1_5]
+MODULE Examples.Tactic: 198 constants, 0 `_native` names [], 0 axioms []
+MODULE Examples.Small: 42 constants, 4 `_native` names [ex_and_or._native.bv_decide.ax_1_5, ex_xor._native.bv_decide.ax_1_5, ex_mul_three._native.bv_decide.ax_1_5, ex_shift._native.bv_decide.ax_1_5], 4 axioms [ex_and_or._native.bv_decide.ax_1_5, ex_xor._native.bv_decide.ax_1_5, ex_mul_three._native.bv_decide.ax_1_5, ex_shift._native.bv_decide.ax_1_5]
+05:46:15 gate ok: MemAvailable 408 >= 264
+export rc=0 bytes=35731453 time,rss=1.65,1690692; native names in export: 
+nanoda rc=0 time,rss=20.89,592184: Checked 4438 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 
+05:46:38 gate ok: MemAvailable 443 >= 264
+export rc=0 bytes=81555043 time,rss=3.09,1726224; native names in export: _native 
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.65,86328: Error: export file declares unpermitted axiom "ex_mul_three._native.bv_decide.ax_1_5"  run with `-h` or `--help` for help 
+05:46:42 gate ok: MemAvailable 439 >= 264
+toolchain leanprover/lean4:v4.35.0; start 2026-10-25T05:46:42Z
+BVS.LratBits rc=0 0.22	323620
+BVS.LratBitsSound rc=0 0.30	360772
+BVS.Blast rc=0 0.51	384216
+BVS.Lrat.Trie rc=0 0.43	433584
+BVS.Sound.Basic rc=0 0.40	423224
+BVS.Lrat.Chain rc=0 0.42	432228
+BVS.Sound.Circuits rc=0 0.51	483616
+BVS.Sound.Bits rc=0 0.38	420348
+BVS.Sound.Shifts rc=0 0.40	407412
+BVS.Sound.Unary rc=0 0.25	393760
+BVS.Sound.Expr rc=0 0.58	396872
+BVS.Sound.CNF rc=0 0.26	392692
+BVS.Lrat.LeafTree rc=0 0.40	405352
+BVS.Unsat rc=0 0.26	380464
+BVS.SplitBase rc=0 0.53	443600
+BVS.Driver.Core rc=0 1.70	901608
+BVS.Driver.Select rc=0 1.10	866144
+BVS.Driver.Split rc=0 1.10	882808
+BVS.Driver.Group rc=0 0.86	855000
+BVS.Tactic rc=0 1.32	890572
+BVS.Estimate rc=0 0.47	846136
+BVS rc=0 0.39	817696
+Examples.GroupA rc=0 0.21	671180
+Examples.GroupB rc=0 0.21	674592
+Examples.Group rc=0 1.48	1652712
+Examples.ShardFacts rc=0 0.41	691244
+Examples.Small rc=0 9.05	2168276
+Examples.SplitFacts rc=0 0.38	686336
+Examples.Tactic rc=0 30.98	2365304
+Examples.UnaryOps rc=0 10.25	2278304
+Examples.TacticModule rc=0 5.20	1146824
+end 2026-10-25T05:47:53Z
+05:47:53 gate ok: MemAvailable 468 >= 264
+audit rc=0 non-standard-empty=15/15 concl_true=3/3
+ShardPrep prep rc=0
+ShardPrep shard ShardPrep_S0.lean rc=0
+ShardPrep shard ShardPrep_S1.lean rc=0
+ShardPrep final rc=0
+BVS_UNSAT	Examples.ShardFacts	0	shard_mul_three._native.bv_decide.ax_1_5	-	0	-	28	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_UNSAT	Examples.ShardFacts	1	shard_and_or._native.bv_decide.ax_1_5	-	0	-	741	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_mul_three	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_and_or	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.ShardFacts	[0, 1]	converted=2	all_unsat_ok=true	users=2	users_std=2	users_axiom_left=0	users_failed=0
+SplitPrep prep rc=0
+SplitPrep shard SplitPrep_S0.lean rc=0
+SplitPrep shard SplitPrep_S1.lean rc=0
+SplitPrep final rc=0
+BVS_UNSAT	Examples.SplitFacts	0	split_and_or._native.bv_decide.ax_1_5	-	0	-	800	bvs6fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	split_and_or	bvs6_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.SplitFacts	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+05:49:33 gate ok: MemAvailable 416 >= 264
+toolchain leanprover/lean4:v4.35.0-rc4; start 2026-10-25T05:49:33Z
+BVS.LratBits rc=0 0.22	319548
+BVS.LratBitsSound rc=0 0.29	374168
+BVS.Blast rc=0 0.47	385192
+BVS.Lrat.Trie rc=0 0.44	412036
+BVS.Sound.Basic rc=0 0.42	410080
+BVS.Lrat.Chain rc=0 0.46	431604
+BVS.Sound.Circuits rc=0 0.54	502212
+BVS.Sound.Bits rc=0 0.37	407260
+BVS.Sound.Shifts rc=0 0.39	424704
+BVS.Sound.Unary rc=0 0.25	397636
+BVS.Sound.Expr rc=0 0.56	393072
+BVS.Sound.CNF rc=0 0.24	392652
+BVS.Lrat.LeafTree rc=0 0.40	400220
+BVS.Unsat rc=0 0.27	378376
+BVS.SplitBase rc=0 0.52	422884
+BVS.Driver.Core rc=0 1.71	904744
+BVS.Driver.Select rc=0 1.07	867076
+BVS.Driver.Split rc=0 1.11	877816
+BVS.Driver.Group rc=0 0.87	860020
+BVS.Tactic rc=0 1.27	889684
+BVS.Estimate rc=0 0.46	837964
+BVS rc=0 0.43	816732
+Examples.Small rc=0 8.97	2171872
+Examples.Tactic rc=0 32.25	2354160
+Examples.TacticModule rc=0 5.01	1150960
+end 2026-10-25T05:50:32Z
+05:50:32 gate ok: MemAvailable 512 >= 264
+toolchain leanprover/lean4:v4.33.1; start 2026-10-25T05:50:32Z
+BVS.LratBits rc=0 0.23	332064
+BVS.LratBitsSound rc=0 0.30	385548
+BVS.Blast rc=0 0.49	411600
+BVS.Lrat.Trie rc=0 0.45	438868
+BVS.Sound.Basic rc=0 0.38	473312
+BVS.Lrat.Chain rc=0 0.46	454580
+BVS.Sound.Circuits rc=0 0.59	498308
+BVS.Sound.Bits rc=0 0.38	449348
+BVS.Sound.Shifts rc=0 0.45	439616
+BVS.Sound.Unary rc=0 0.27	422708
+BVS.Sound.Expr rc=0 0.60	418908
+BVS.Sound.CNF rc=0 0.25	424360
+BVS.Lrat.LeafTree rc=0 0.42	431180
+BVS.Unsat rc=0 0.28	397900
+BVS.SplitBase rc=0 0.56	478896
+BVS.Driver.Core rc=0 1.79	910780
+BVS.Driver.Select rc=0 1.14	874380
+BVS.Driver.Split rc=0 1.15	879944
+BVS.Driver.Group rc=0 0.87	865624
+BVS.Tactic rc=0 1.39	894300
+BVS.Estimate rc=0 0.44	839252
+BVS rc=0 0.36	816844
+Examples.Small rc=0 9.72	2214960
+Examples.Tactic rc=0 34.49	2516416
+Examples.TacticModule rc=0 5.46	1230080
+end 2026-10-25T05:51:35Z
+05:51:35 gate ok: MemAvailable 413 >= 264
+toolchain leanprover/lean4:v4.31.0; start 2026-10-25T05:51:35Z
+BVS.LratBits rc=0 0.23	318684
+BVS.LratBitsSound rc=0 0.29	375728
+BVS.Blast rc=0 0.50	387208
+BVS.Lrat.Trie rc=0 0.47	459272
+BVS.Sound.Basic rc=0 0.41	442672
+BVS.Lrat.Chain rc=0 0.47	449868
+BVS.Sound.Circuits rc=0 0.62	483712
+BVS.Sound.Bits rc=0 0.38	423084
+BVS.Sound.Shifts rc=0 0.43	446880
+BVS.Sound.Unary rc=0 0.24	412724
+BVS.Sound.Expr rc=0 0.61	407232
+BVS.Sound.CNF rc=0 0.26	399592
+BVS.Lrat.LeafTree rc=0 0.41	420256
+BVS.Unsat rc=0 0.27	390780
+BVS.SplitBase rc=0 0.58	469716
+BVS.Driver.Core rc=0 1.98	870556
+BVS.Driver.Select rc=0 1.23	837616
+BVS.Driver.Split rc=0 1.15	840868
+BVS.Driver.Group rc=0 0.92	822324
+BVS.Tactic rc=0 1.59	861472
+BVS.Estimate rc=0 0.42	799324
+BVS rc=0 0.37	784856
+Examples.Small rc=0 9.18	2164124
+Examples.Tactic rc=0 34.71	2556616
+Examples.TacticModule rc=0 5.63	1178644
+end 2026-10-25T05:52:39Z
+05:52:39 gate ok: MemAvailable 399 >= 264
+188
+BVS_ESTIMATE	Veir.Passes.InstructionSelection.Proofs	108	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_neg_refinement._native.bv_decide.ax_1_5	285001	854213	6973.521
+05:52:43 gate ok: MemAvailable 414 >= 264
+4
+BVS_ESTIMATE	Clean.Gadgets.ByteDecomposition.Theorems	0	_private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6	22035	65720	215.854030
+05:52:45 gate ok: MemAvailable 422 >= 264
+2
+BVS_ESTIMATE	Model.CompositeHeader	1	Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9	324	923	0.666850
+05:52:46 gate ok: MemAvailable 420 >= 264
+1
+BVS_ESTIMATE	Proofs.Serialization	0	Proofs.Serialization.readBe32_be32._native.bv_decide.ax_1_9	33	2	0.000164
+05:52:46 gate ok: MemAvailable 418 >= 264
+1
+BVS_ESTIMATE	AsiStackProofs.StackBoundaries	0	AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._native.bv_decide.ax_1_7	580	1424	1.200013
+05:52:47 gate ok: MemAvailable 416 >= 264
+toolchain leanprover/lean4:v4.31.0; start 2026-10-25T05:52:47Z
+BVS.LratBits rc=0 0.25	486668
+BVS.LratBitsSound rc=0 0.33	542772
+BVS.Blast rc=0 0.53	699936
+BVS.Lrat.Trie rc=0 0.50	730988
+BVS.Sound.Basic rc=0 0.46	748416
+BVS.Lrat.Chain rc=0 0.53	753944
+BVS.Sound.Circuits rc=0 0.70	793384
+BVS.Sound.Bits rc=0 0.45	738592
+BVS.Sound.Shifts rc=0 0.50	743920
+BVS.Sound.Unary rc=0 0.30	722608
+BVS.Sound.Expr rc=0 0.63	715772
+BVS.Sound.CNF rc=0 0.28	713972
+BVS.Lrat.LeafTree rc=0 0.45	716800
+BVS.Unsat rc=0 0.31	693776
+BVS.SplitBase rc=0 0.59	745140
+BVS.Driver.Core rc=0 2.01	1618232
+BVS.Driver.Select rc=0 1.36	1586680
+BVS.Driver.Split rc=0 1.25	1594472
+BVS.Driver.Group rc=0 1.00	1574272
+BVS.Tactic rc=0 1.75	1617864
+BVS.Estimate rc=0 0.58	1550512
+BVS rc=0 0.50	1531324
+Examples.Small rc=0 9.38	2159396
+Examples.Tactic rc=0 34.22	2505808
+end 2026-10-25T05:53:46Z
+05:53:46 gate ok: MemAvailable 391 >= 264
+toolchain leanprover/lean4:v4.32.2; start 2026-10-25T05:53:46Z
+BVS.LratBits rc=0 0.22	488244
+BVS.LratBitsSound rc=0 0.31	548168
+BVS.Blast rc=0 0.55	694840
+BVS.Lrat.Trie rc=0 0.46	736448
+BVS.Sound.Basic rc=0 0.44	765112
+BVS.Lrat.Chain rc=0 0.54	763092
+BVS.Sound.Circuits rc=0 0.68	791924
+BVS.Sound.Bits rc=0 0.42	734128
+BVS.Sound.Shifts rc=0 0.49	744356
+BVS.Sound.Unary rc=0 0.29	713940
+BVS.Sound.Expr rc=0 0.64	712252
+BVS.Sound.CNF rc=0 0.28	711568
+BVS.Lrat.LeafTree rc=0 0.45	713536
+BVS.Unsat rc=0 0.31	702004
+BVS.SplitBase rc=0 0.60	773652
+BVS.Driver.Core rc=0 1.91	1627252
+BVS.Driver.Select rc=0 1.26	1591896
+BVS.Driver.Split rc=0 1.19	1608248
+BVS.Driver.Group rc=0 0.94	1573744
+BVS.Tactic rc=0 1.59	1623252
+BVS.Estimate rc=0 0.59	1554724
+BVS rc=0 0.51	1533956
+Examples.Small rc=0 9.57	2173524
+Examples.Tactic rc=0 35.47	2460040
+end 2026-10-25T05:54:46Z
+05:54:46 gate ok: MemAvailable 345 >= 264
+toolchain leanprover/lean4:v4.33.1; start 2026-10-25T05:54:46Z
+BVS.LratBits rc=0 0.24	503188
+BVS.LratBitsSound rc=0 0.33	552780
+BVS.Blast rc=0 0.53	708860
+BVS.Lrat.Trie rc=0 0.49	747664
+BVS.Sound.Basic rc=0 0.47	749400
+BVS.Lrat.Chain rc=0 0.57	774748
+BVS.Sound.Circuits rc=0 0.69	807632
+BVS.Sound.Bits rc=0 0.43	754352
+BVS.Sound.Shifts rc=0 0.48	759476
+BVS.Sound.Unary rc=0 0.31	724968
+BVS.Sound.Expr rc=0 0.67	733412
+BVS.Sound.CNF rc=0 0.30	734204
+BVS.Lrat.LeafTree rc=0 0.46	732912
+BVS.Unsat rc=0 0.32	714728
+BVS.SplitBase rc=0 0.59	764756
+BVS.Driver.Core rc=0 1.85	1669000
+BVS.Driver.Select rc=0 1.24	1630864
+BVS.Driver.Split rc=0 1.19	1643628
+BVS.Driver.Group rc=0 0.96	1614292
+BVS.Tactic rc=0 1.46	1656344
+BVS.Estimate rc=0 0.58	1596144
+BVS rc=0 0.54	1576116
+Examples.Small rc=0 9.83	2206388
+Examples.Tactic rc=0 34.29	2489332
+end 2026-10-25T05:55:45Z
+05:55:45 gate ok: MemAvailable 382 >= 264
+toolchain leanprover/lean4:v4.34.1; start 2026-10-25T05:55:45Z
+BVS.LratBits rc=0 0.25	501912
+BVS.LratBitsSound rc=0 0.35	541440
+BVS.Blast rc=0 0.56	704208
+BVS.Lrat.Trie rc=0 0.52	742924
+BVS.Sound.Basic rc=0 0.48	719120
+BVS.Lrat.Chain rc=0 0.56	753304
+BVS.Sound.Circuits rc=0 0.70	800776
+BVS.Sound.Bits rc=0 0.46	731448
+BVS.Sound.Shifts rc=0 0.50	741816
+BVS.Sound.Unary rc=0 0.32	710004
+BVS.Sound.Expr rc=0 0.66	714844
+BVS.Sound.CNF rc=0 0.32	708072
+BVS.Lrat.LeafTree rc=0 0.48	716872
+BVS.Unsat rc=0 0.35	704916
+BVS.SplitBase rc=0 0.60	753848
+BVS.Driver.Core rc=0 1.89	1673528
+BVS.Driver.Select rc=0 1.28	1639036
+BVS.Driver.Split rc=0 1.24	1650632
+BVS.Driver.Group rc=0 0.98	1627568
+BVS.Tactic rc=0 1.48	1671036
+BVS.Estimate rc=0 0.65	1600996
+BVS rc=0 0.58	1581656
+Examples.Small rc=0 9.05	2192108
+Examples.Tactic rc=0 32.55	2390996
+end 2026-10-25T05:56:42Z
+05:56:42 gate ok: MemAvailable 320 >= 264
+toolchain leanprover/lean4:v4.35.0-rc4; start 2026-10-25T05:56:42Z
+BVS.LratBits rc=0 0.24	491184
+BVS.LratBitsSound rc=0 0.33	530360
+BVS.Blast rc=0 0.55	700072
+BVS.Lrat.Trie rc=0 0.45	736208
+BVS.Sound.Basic rc=0 0.47	720332
+BVS.Lrat.Chain rc=0 0.52	740080
+BVS.Sound.Circuits rc=0 0.62	769616
+BVS.Sound.Bits rc=0 0.43	729604
+BVS.Sound.Shifts rc=0 0.46	727384
+BVS.Sound.Unary rc=0 0.30	717372
+BVS.Sound.Expr rc=0 0.67	713328
+BVS.Sound.CNF rc=0 0.32	711032
+BVS.Lrat.LeafTree rc=0 0.46	709608
+BVS.Unsat rc=0 0.35	699660
+BVS.SplitBase rc=0 0.60	744984
+BVS.Driver.Core rc=0 1.83	1662268
+BVS.Driver.Select rc=0 1.26	1630320
+BVS.Driver.Split rc=0 1.20	1637552
+BVS.Driver.Group rc=0 0.98	1613836
+BVS.Tactic rc=0 1.49	1654620
+BVS.Estimate rc=0 0.66	1590632
+BVS rc=0 0.60	1577336
+Examples.Small rc=0 9.04	2176628
+Examples.Tactic rc=0 32.00	2365004
+end 2026-10-25T05:57:38Z
+05:57:38 gate: MemAvailable 259 < 264, waiting
+05:58:38 gate ok: MemAvailable 328 >= 264
+toolchain leanprover/lean4:v4.36.0-rc1; start 2026-10-25T05:58:38Z
+BVS.LratBits rc=0 0.25	486488
+BVS.LratBitsSound rc=0 0.31	526560
+BVS.Blast rc=0 0.51	691164
+BVS.Lrat.Trie rc=0 0.47	717456
+BVS.Sound.Basic rc=0 0.41	727352
+BVS.Lrat.Chain rc=0 0.46	766872
+BVS.Sound.Circuits rc=0 0.57	787236
+BVS.Sound.Bits rc=0 0.41	715384
+BVS.Sound.Shifts rc=0 0.47	717112
+BVS.Sound.Unary rc=0 0.28	697512
+BVS.Sound.Expr rc=0 0.59	699216
+BVS.Sound.CNF rc=0 0.29	703788
+BVS.Lrat.LeafTree rc=0 0.47	708712
+BVS.Unsat rc=0 0.33	692092
+BVS.SplitBase rc=0 0.60	738788
+BVS.Driver.Core rc=0 1.81	1662296
+BVS.Driver.Select rc=0 1.22	1625268
+BVS.Driver.Split rc=0 1.21	1633380
+BVS.Driver.Group rc=0 0.94	1617280
+BVS.Tactic rc=0 1.39	1655860
+BVS.Estimate rc=0 0.66	1591324
+BVS rc=0 0.60	1574576
+Examples.Small rc=0 8.96	2161556
+Examples.Tactic rc=0 31.68	2355620
+end 2026-10-25T05:59:33Z
+05:59:33 gate ok: MemAvailable 325 >= 264
+toolchain leanprover/lean4:v4.32.2; start 2026-10-25T05:59:33Z
+BVS.LratBits rc=0 0.22	319232
+BVS.LratBitsSound rc=0 0.31	377028
+BVS.Blast rc=0 0.52	384040
+BVS.Lrat.Trie rc=0 0.49	426044
+BVS.Sound.Basic rc=0 0.43	419140
+BVS.Lrat.Chain rc=0 0.52	450012
+BVS.Sound.Circuits rc=0 0.67	482288
+BVS.Sound.Bits rc=0 0.44	428780
+BVS.Sound.Shifts rc=0 0.47	423580
+BVS.Sound.Unary rc=0 0.28	403424
+BVS.Sound.Expr rc=0 0.65	403932
+BVS.Sound.CNF rc=0 0.26	405912
+BVS.Lrat.LeafTree rc=0 0.45	415588
+BVS.Unsat rc=0 0.30	385420
+BVS.SplitBase rc=0 0.60	471460
+BVS.Driver.Core rc=0 1.95	881244
+BVS.Driver.Select rc=0 1.23	840376
+BVS.Driver.Split rc=0 1.21	856524
+BVS.Driver.Group rc=0 0.89	833852
+BVS.Tactic rc=0 1.59	877112
+BVS.Estimate rc=0 0.50	806020
+BVS rc=0 0.39	791608
+Examples.Small rc=0 9.72	2175832
+Examples.Tactic rc=0 36.26	2486824
+Examples.TacticModule rc=0 5.69	1198484
+end 2026-10-25T06:00:39Z
+06:00:39 gate: MemAvailable 240 < 264, waiting
+06:01:39 gate ok: MemAvailable 376 >= 264
+toolchain leanprover/lean4:v4.34.1; start 2026-10-25T06:01:40Z
+BVS.LratBits rc=0 0.24	332388
+BVS.LratBitsSound rc=0 0.34	364132
+BVS.Blast rc=0 0.53	396860
+BVS.Lrat.Trie rc=0 0.49	451204
+BVS.Sound.Basic rc=0 0.43	415724
+BVS.Lrat.Chain rc=0 0.51	436244
+BVS.Sound.Circuits rc=0 0.61	469348
+BVS.Sound.Bits rc=0 0.43	423588
+BVS.Sound.Shifts rc=0 0.47	427032
+BVS.Sound.Unary rc=0 0.28	406980
+BVS.Sound.Expr rc=0 0.63	403484
+BVS.Sound.CNF rc=0 0.29	398236
+BVS.Lrat.LeafTree rc=0 0.43	408300
+BVS.Unsat rc=0 0.32	392816
+BVS.SplitBase rc=0 0.59	436376
+BVS.Driver.Core rc=0 1.90	926476
+BVS.Driver.Select rc=0 1.17	886160
+BVS.Driver.Split rc=0 1.19	899648
+BVS.Driver.Group rc=0 0.91	880044
+BVS.Tactic rc=0 1.41	909116
+BVS.Estimate rc=0 0.51	850012
+BVS rc=0 0.40	831272
+Examples.Small rc=0 9.07	2198140
+Examples.Tactic rc=0 33.56	2387416
+Examples.TacticModule rc=0 5.41	1172036
+end 2026-10-25T06:02:42Z
+06:02:42 gate ok: MemAvailable 327 >= 264
+toolchain leanprover/lean4:v4.36.0-rc1; start 2026-10-25T06:02:42Z
+BVS.LratBits rc=0 0.24	314348
+BVS.LratBitsSound rc=0 0.28	355828
+BVS.Blast rc=0 0.45	390156
+BVS.Lrat.Trie rc=0 0.41	414860
+BVS.Sound.Basic rc=0 0.36	418060
+BVS.Lrat.Chain rc=0 0.45	423184
+BVS.Sound.Circuits rc=0 0.55	474520
+BVS.Sound.Bits rc=0 0.36	416612
+BVS.Sound.Shifts rc=0 0.41	415012
+BVS.Sound.Unary rc=0 0.27	395780
+BVS.Sound.Expr rc=0 0.58	390260
+BVS.Sound.CNF rc=0 0.25	395728
+BVS.Lrat.LeafTree rc=0 0.43	399188
+BVS.Unsat rc=0 0.28	382472
+BVS.SplitBase rc=0 0.52	424840
+BVS.Driver.Core rc=0 1.66	889160
+BVS.Driver.Select rc=0 1.05	854628
+BVS.Driver.Split rc=0 1.08	864068
+BVS.Driver.Group rc=0 0.81	845628
+BVS.Tactic rc=0 1.21	881932
+BVS.Estimate rc=0 0.46	823752
+BVS rc=0 0.36	806032
+Examples.Small rc=0 8.83	2169156
+Examples.Tactic rc=0 31.93	2351600
+Examples.TacticModule rc=0 4.87	1134612
+end 2026-10-25T06:03:40Z
+chain12 done 2026-10-25T06:03:40Z

@@ -1,0 +1,5 @@
+2026-10-25T00:13:13Z leanexport Examples.Small -- ex_mul_three  (toolchain /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0)
+export rc=1 bytes=0 time,rss=Command exited with non-zero status 1
+0.03,93528; native names in export: 
+2026-10-25T00:13:14Z nanoda_bin nanoda.json
+nanoda rc=0 time,rss=0.00,2360: Checked 0 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 

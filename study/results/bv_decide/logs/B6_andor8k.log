@@ -1,0 +1,3 @@
+bvs andor_8192 #1: 212982 nodes, 589793 clauses, 212982 vars; 918490 steps, 1863909 hints, 460 chunks; solve 11741 ms, prep+defs 52103 ms; kernel: base 286802 ms, chunks 1767585 ms (max 6070 ms); total 2119692 ms
+bvs: added andor_8192.bvs4 (181495 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+TIME wall=2322.11 s user=2296.06 s maxrss=50227380 KB

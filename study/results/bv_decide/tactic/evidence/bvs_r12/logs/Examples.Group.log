@@ -1,0 +1,14 @@
+BVS_STATS	Examples.GroupA	0	nodes=152	clauses=431	steps=150	hints=2051	chunks=1	base_ms=110	chunk_ms=303
+BVS_UNSAT	Examples.GroupA	0	ga_mul_three._native.bv_decide.ax_1_5	150	0	413	447	bvsg_Examples_GroupA_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_STATS	Examples.GroupB	0	nodes=198	clauses=545	steps=130	hints=1187	chunks=1	base_ms=134	chunk_ms=238
+BVS_UNSAT	Examples.GroupB	0	gb_and_or._native.bv_decide.ax_1_5	130	0	372	404	bvsg_Examples_GroupB_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	ga_mul_three	bvsg_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_USER	gb_and_or	bvsg_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_USER	gb_both	bvsg_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_DONE	[Examples.GroupA, Examples.GroupB]	facts=2	converted=2	all_unsat_ok=true	users=3	users_std=3	users_axiom_left=0	users_failed=0
+'gb_both' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ ga_mul_three._native.bv_decide.ax_1_5,
+ gb_and_or._native.bv_decide.ax_1_5]
+'bvsg_3' depends on axioms: [propext, Classical.choice, Quot.sound]

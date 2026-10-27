@@ -1,0 +1,262 @@
+{
+ "name": "v14_Natuvea_tacenta_core_tacenta_model",
+ "pkg": "/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model",
+ "toolchain": "v4.31.0",
+ "uses": 141,
+ "replaced": 79,
+ "replaced_known": 0,
+ "replaced_unknown": 79,
+ "replaced_facts": 0,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "build: [Error pretty printing: maximum recursion depth has been reached": 38,
+  "build: module build 2.0 s > 2 x original 0.8 s (--max-slowdown)": 2,
+  "build: module build 5.7 s > 2 x original 1.3 s (--max-slowdown)": 20,
+  "build: module build 2.7 s > 2 x original 0.3 s (--max-slowdown)": 2
+ },
+ "native_axioms_before": 2,
+ "native_axioms_after": 2,
+ "bv_decide_axioms_before": 2,
+ "bv_decide_axioms_after": 2,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 2,
+ "native_dependent_decls_after": 2,
+ "rewritten_decls": 0,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 7.87,
+   "cpu": 12.1,
+   "n_errors": 5,
+   "reverted": 5,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 1,
+   "wall": 13.96,
+   "cpu": 54.4,
+   "n_errors": 22,
+   "reverted": 22,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 1.1,
+   "rss_killed": false
+  },
+  {
+   "round": 2,
+   "rc": 1,
+   "wall": 14.97,
+   "cpu": 26.5,
+   "n_errors": 6,
+   "reverted": 6,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 1.1,
+   "rss_killed": false
+  },
+  {
+   "round": 3,
+   "rc": 1,
+   "wall": 10.05,
+   "cpu": 14.9,
+   "n_errors": 3,
+   "reverted": 3,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.2,
+   "rss_killed": false
+  },
+  {
+   "round": 4,
+   "rc": 1,
+   "wall": 7.14,
+   "cpu": 8.3,
+   "n_errors": 2,
+   "reverted": 2,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.1,
+   "rss_killed": false
+  },
+  {
+   "round": 5,
+   "rc": 0,
+   "wall": 3.04,
+   "cpu": 3.4,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 1.0,
+   "rss_killed": false
+  },
+  {
+   "round": "slowdown",
+   "rc": 0,
+   "wall": 10.35,
+   "cpu": 26.5,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 12.55,
+  "cpu": 32.0,
+  "n_built": 22,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.9,
+  "peak_rss_sum_gb": 2.2
+ },
+ "time1": {
+  "wall": 10.38,
+  "cpu": 29.5,
+  "n_built": 19,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.9,
+  "peak_rss_sum_gb": 2.3
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 25.69,
+  "cpu": 29.9,
+  "n_built": 6,
+  "peak_lean": 3,
+  "peak_rss_gb": 1.5,
+  "peak_rss_sum_gb": 1.9,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 19,
+ "replaced_modules": 13,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "BLOCKED": 2
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [
+  "Model.LifecycleTrace",
+  "Model.Messages",
+  "Model.Sha256"
+ ],
+ "module_times_sum": [
+  21.2,
+  19.2
+ ],
+ "module_times_slower": [
+  [
+   "Model.Polynomial",
+   0.601,
+   1.6
+  ],
+  [
+   "Model.PersistedState",
+   2.5,
+   3.3
+  ],
+  [
+   "Model.SessionEstablishment",
+   0.20500000000000002,
+   0.507
+  ],
+  [
+   "Model.CompositeHeader",
+   0.774,
+   0.9560000000000001
+  ],
+  [
+   "Difftest",
+   0.718,
+   0.761
+  ],
+  [
+   "Model.Sha256",
+   0.297,
+   0.337
+  ],
+  [
+   "Model.LifecycleTrace",
+   0.76,
+   0.797
+  ],
+  [
+   "Model.SessionTrace",
+   0.309,
+   0.317
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Model.SparseRatchet",
+   5.6,
+   1.9
+  ],
+  [
+   "Model.Messages",
+   1.3,
+   1.0
+  ],
+  [
+   "Model.Ratchet",
+   1.5,
+   1.3
+  ],
+  [
+   "Model.Braid",
+   1.7,
+   1.6
+  ],
+  [
+   "Properties.Invariants",
+   0.266,
+   0.188
+  ],
+  [
+   "Model.Kdf",
+   0.273,
+   0.265
+  ],
+  [
+   "Model.GroupCommitment",
+   0.179,
+   0.17300000000000001
+  ],
+  [
+   "Model.Protobuf",
+   0.99,
+   0.989
+  ]
+ ]
+}

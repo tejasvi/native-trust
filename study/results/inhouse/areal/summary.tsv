@@ -1,0 +1,12 @@
+project	areal Mahler measure v9
+source	supp 10.5281/zenodo.23582768
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	not run
+native_facts	UpperN: 45 native axioms; lower: ArealN shards
+converted	not run
+nt_cpu_h	0
+nt_wall_min	0
+native_build_cpu_h	Areal.UpperN about 26 minutes with 44 threads (README.md:133-134)
+hand_track	ArealK: Areal.LowerK, Areal.UpperK
+hand_build_cpu_h	about 210 + 1,000 CPU-hours (README.md:132-133)
+checks	skipped (lead: skip if its build alone is costly; the native upper checks take about 26 minutes on 44 threads, about 25 thread-minutes per check)

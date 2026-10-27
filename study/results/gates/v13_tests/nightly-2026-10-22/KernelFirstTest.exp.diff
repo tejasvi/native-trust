@@ -1,0 +1,4 @@
+14c14
+< 'kf_wf' depends on axioms: [propext, Classical.choice, Quot.sound, kf_wf._native.native_decide.ax_1]
+---
+> 'kf_wf' depends on axioms: [propext, Quot.sound, kf_wf._native.native_decide.ax_1]

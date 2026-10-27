@@ -1,0 +1,5 @@
+LintStrict.lean:8:63: error: native_decide is unnecessary here: decide +kernel proves it (4 ms)
+note: this check can be disabled with `set_option linter.nativeTrust.unnecessary false`
+Try this:
+  [apply] decide +kernel
+rc=1

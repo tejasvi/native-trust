@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_Rules_Uf_int2bv_bvule_equiv_8.lean
+NT start _private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._native.native_decide.ax_1_14
+NT nested _private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._native.native_decide.ax_1_14 ms=207 rebuilt_defs=0 visited=2944
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=1 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=17 eq_ms=20 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Cpc_Proofs_Rules_Uf_int2bv_bvule_equiv_8._private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._kernel.native_decide.ax_1_14.p_0 blockers_ms=27 bounded=false copy_ms=80 copies=6 copy_kernel_ms=42
+NT _ktr.F2_Cpc_Proofs_Rules_Uf_int2bv_bvule_equiv_8._private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._kernel.native_decide.ax_1_14.p_0 eval_ms=2
+PROVED `_private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._native.native_decide.ax_1_14` as `_ktr.F2_Cpc_Proofs_Rules_Uf_int2bv_bvule_equiv_8._private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._kernel.native_decide.ax_1_14`: kernel_ms=123 native_axioms=1 rebuilt=0 copies=6 total_ms=331
+PROVED `_private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._native.native_decide.ax_1_14` as `_ktr.F2_Cpc_Proofs_Rules_Uf_int2bv_bvule_equiv_8._private.Cpc.Proofs.Rules.Uf_int2bv_bvule_equiv.0.typeof_args_of_prog_uf_int2bv_bvule_equiv_bool._kernel.native_decide.ax_1_14`: kernel_ms=123 native_axioms=1 rebuilt=0 copies=6 total_ms=331
+maxrss_kb 1767240
+rc=0 secs=1

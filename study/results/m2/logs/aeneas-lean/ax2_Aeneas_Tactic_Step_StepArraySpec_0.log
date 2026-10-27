@@ -1,0 +1,44 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0/bin/lean -j1 --tstack=1048576 F2_Aeneas_Tactic_Step_StepArraySpec_0.lean
+NT start _private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1
+NT nested _private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1 ms=55 rebuilt_defs=0 visited=2006
+NT _ktr.F2_Aeneas_Tactic_Step_StepArraySpec_0._private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=true copy_ms=1 copies=0 copy_kernel_ms=0
+NT _ktr.F2_Aeneas_Tactic_Step_StepArraySpec_0._private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._kernel.native_decide.ax_1_1.p_0 eval_ms=0
+NT _ktr.F2_Aeneas_Tactic_Step_StepArraySpec_0._private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._kernel.native_decide.ax_1_1.p_1 blockers_ms=1 bounded=true copy_ms=1 copies=0 copy_kernel_ms=0
+FAILED `_private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1` in the kernel:
+    decide (Aeneas.Std.Array.allIdx (fun i x => decide (↑x = ↑i)) ↑Aeneas.StepArraySpec.Tests.const_array = true) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Aeneas_Tactic_Step_StepArraySpec_0._private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._kernel.native_decide.ax_1_1.p_1' has type
+    true = true
+  but it is expected to have type
+    Aeneas.Std.Array.allIdx (fun i x => decide (↑x = ↑i))
+        (Aeneas.Data.ListN.ListN.fromList [1#u32, 2#u32, 3#u32, 4#u32, 5#u32, 6#u32, 7#u32]).toList (0 + 1) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Aeneas.Std.wrapped._@.Aeneas.Std.Scalar.Core.4254233225._hygCtx._hyg.2`: opaque constant
+      via Aeneas.Std.Array.allIdx → Aeneas.Std.Array.allIdx._f → Aeneas.Std.U32.max → Aeneas.Std.wrapped._@.Aeneas.Std.Scalar.Core.4254233225._hygCtx._hyg.2
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via Aeneas.Std.UScalar.val → Aeneas.Std.UScalarTy.numBits → System.Platform.numBits → System.Platform.getNumBits
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._native.native_decide.ax_1_1` in the kernel:
+  decide (Aeneas.Std.Array.allIdx (fun i x => decide (↑x = ↑i)) ↑Aeneas.StepArraySpec.Tests.const_array = true) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Aeneas_Tactic_Step_StepArraySpec_0._private.Aeneas.Tactic.Step.StepArraySpec.0.Aeneas.StepArraySpec.Tests.const_array_spec._kernel.native_decide.ax_1_1.p_1' has type
+  true = true
+but it is expected to have type
+  Aeneas.Std.Array.allIdx (fun i x => decide (↑x = ↑i))
+      (Aeneas.Data.ListN.ListN.fromList [1#u32, 2#u32, 3#u32, 4#u32, 5#u32, 6#u32, 7#u32]).toList (0 + 1) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Aeneas.Std.wrapped._@.Aeneas.Std.Scalar.Core.4254233225._hygCtx._hyg.2`: opaque constant
+    via Aeneas.Std.Array.allIdx → Aeneas.Std.Array.allIdx._f → Aeneas.Std.U32.max → Aeneas.Std.wrapped._@.Aeneas.Std.Scalar.Core.4254233225._hygCtx._hyg.2
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via Aeneas.Std.UScalar.val → Aeneas.Std.UScalarTy.numBits → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 2617504
+rc=0 secs=1

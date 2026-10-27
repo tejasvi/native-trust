@@ -1,0 +1,1 @@
+qec	QEC.ChecksN8.H8_0	heads8_0._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	3600s	5738		3601		cg_cpu_s=3599.9 cg_peak_kb=9277656 cg_oom_kill=0 nt_lines=56 last=blockers_ms=10 bounded=true copy_ms=27446 copies=25 copy_kernel_ms=5738 fast_lits=0 string_args=false

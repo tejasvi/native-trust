@@ -1,0 +1,6 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.28.0/bin/lean -j1 --tstack=1048576 /home/ntbuild/work/rs-mca-moment_to_max/chk4_MomentToMax.PTEClusterPacking.1.lean
+`MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` does not depend on any native_decide/bv_decide axiom
+KERNELIZED `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1` as `MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel` (2 native axiom(s) replaced)
+OK	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1.kernel	axioms=[propext, Quot.sound, Classical.choice]	native_axioms=1	kernel_ms=0	rebuilt=1	copies=6	total_ms=981329
+maxrss_kb 54722368
+rc=0 secs=992

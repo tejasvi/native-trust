@@ -1,0 +1,4 @@
+kernelize: `QEC.checkAll_native.kernel` proves the statement of `QEC.checkAll_native` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (43 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 46 ms in total.
+time 1.27 s wall 0.94 s user 3043056 KB
+exit 0

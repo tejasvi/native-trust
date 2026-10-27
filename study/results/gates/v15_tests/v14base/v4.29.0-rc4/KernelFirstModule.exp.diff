@@ -1,0 +1,10 @@
+2,3c2,3
+< KernelFirstModule.lean:13:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+< KernelFirstModule.lean:14:0: error: cannot use `#print axioms` in a `module`; consider temporarily removing the `module` header or placing the command in a separate file
+---
+> 'kfm_sum' does not depend on any axioms
+> 'kfm_sort' depends on axioms: [propext, Quot.sound, kfm_sort._native.native_decide.ax_1]
+6c6
+< rc=1
+---
+> rc=0

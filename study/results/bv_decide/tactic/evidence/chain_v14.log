@@ -1,0 +1,17 @@
+06:03:59 gate ok: MemAvailable 350 >= 264
+bench /home/ntbuild/work_bvtac/bench_v1 on bvs_r13 (/home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0); start 2026-10-25T06:03:59Z
+06:04:00 bvd_mul3_w512.lean rc=0 0.58	1581296
+06:10:34 bvk_mul3_w512.lean rc=0 394.53	4678964
+06:17:05 kz_mul3_w512.lean rc=0 391.37	4671728
+06:17:08 bvd_andor_w4096.lean rc=0 2.49	1747808
+06:32:35 bvk_andor_w4096.lean rc=0 926.90	8141656
+06:33:03 kz_andor_w4096.lean rc=1 28.55	2880880
+end 2026-10-25T06:33:03Z
+06:33:03 gate ok: MemAvailable 364 >= 264
+bench /home/ntbuild/work_bvtac/bench_v2 on bvs_r13 (/home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0); start 2026-10-25T06:33:03Z
+06:33:04 bvd_mul3_w1024.lean rc=0 0.61	1585536
+06:42:21 bvk_mul3_w1024.lean rc=0 557.31	7435424
+06:42:27 bvd_andor_w8192.lean rc=0 5.21	1986888
+07:15:42 bvk_andor_w8192.lean rc=0 1995.22	13276104
+end 2026-10-25T07:15:42Z
+chain14 done 2026-10-25T07:15:42Z

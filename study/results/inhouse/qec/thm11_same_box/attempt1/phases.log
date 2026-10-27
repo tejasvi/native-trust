@@ -1,0 +1,6 @@
+2026-10-26T07:23:19Z start cpu_usec=459807 jobs=24 jobs_big=12
+2026-10-26T07:23:19Z kernel_big_done cpu_usec=3412105 jobs=24 jobs_big=12
+2026-10-26T07:23:20Z kernel_checks_done cpu_usec=35359573 jobs=24 jobs_big=12
+2026-10-26T07:23:20Z kernel_final_done cpu_usec=35524450 jobs=24 jobs_big=12
+2026-10-26T07:23:20Z native_checks_done cpu_usec=36411912 jobs=24 jobs_big=12
+2026-10-26T07:23:21Z native_final_done cpu_usec=36575657 jobs=24 jobs_big=12

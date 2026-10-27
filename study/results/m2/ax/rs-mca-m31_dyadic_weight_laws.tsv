@@ -1,0 +1,9 @@
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.pair_relations	KERNELIZED		30	1504860	1	
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.base_const_16	KERNELIZED		21	1425224	1	String.Internal.append
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.two_base_const_32	KERNELIZED		14	1497960	1	
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.singleton_63	KERNELIZED		14	1418592	1	
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.even_constants_32	KERNELIZED		85	1515184	1	String.Internal.append
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.t32_even16_is_two_B16	KERNELIZED		17	1506668	1	String.Internal.append
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.even_constants_16	KERNELIZED		47	1508148	1	String.Internal.append
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.singleton_61	KERNELIZED		2	1430412	1	
+rs-mca-m31_dyadic_weight_laws	M31DyadicWeightLaws.Arithmetic	M31DyadicWeightLaws.base_const_32	KERNELIZED		44	1440512	1	String.Internal.append

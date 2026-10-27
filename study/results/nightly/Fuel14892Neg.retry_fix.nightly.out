@@ -1,0 +1,34 @@
+Fuel14892Neg.lean:12:0: error: kernelize: cannot prove the statement of `n1._native.native_decide.ax_1` in the kernel:
+  decide (((List.range 60).reverse.mergeSort fun a b => decide (a ≤ b)) = List.range 60) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.Fuel14892Neg.n1._kernel.native_decide.ax_1.eval' has type
+  true = true
+but it is expected to have type
+  decide ((_kta.Fuel14892Neg.List.mergeSort (List.range 60).reverse fun a b => decide (a ≤ b)) = List.range 60) = true
+
+No constant without a kernel definition is reachable, but the evaluation reached neither `true` nor `false`:
+• `_kta.Fuel14892Neg.List.mergeSort`: the kernel evaluation is stuck at `Classical.choice`, which the kernel does not reduce further (in the body of `_kta.Fuel14892Neg.List.mergeSort`).
+    stuck term: Classical.choice ⋯
+Fuel14892Neg.lean:14:74: error: Tactic `decide` failed to reduce
+  @decide (((List.range 60).reverse.mergeSort fun a b => decide (a ≤ b)) = List.range 60)
+    (instDecidableEqList ((List.range 60).reverse.mergeSort fun a b => decide (a ≤ b)) (List.range 60))
+to `true` or `false`.
+
+Reduction got stuck at
+  match (List.range 60).reverse.mergeSort fun a b => decide (a ≤ b) with
+  | [] =>
+    match List.range 60 with
+    | [] => isTrue ⋯
+    | head :: tail => isFalse ⋯
+  | a :: «as» =>
+    match List.range 60 with
+    | [] => isFalse ⋯
+    | b :: bs =>
+      match decEq a b with
+      | { decide := true, reflects_decide := hab } =>
+        match «as».hasDecEq bs with
+        | { decide := true, reflects_decide := habs } => isTrue ⋯
+        | { decide := false, reflects_decide := nabs } => isFalse ⋯
+      | { decide := false, reflects_decide := nab } => isFalse ⋯
+rc=1

@@ -1,0 +1,208 @@
+{
+"plan": {
+"n_occ": 9,
+"affected": [],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"keep: FAILED/blocked (System.Platform.getNumBits) (+5 more facts)": 1,
+"keep: FAILED/blocked (System.Platform.getNumBits)": 8
+}
+},
+"occs": [
+{
+"file": "Ninegates/Counterexample/Elimination.lean",
+"start": 1041,
+"end": 1054,
+"line": 32,
+"col": 25,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Ninegates.Counterexample.Elimination",
+"facts": [
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_1",
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_3",
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_2",
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_5",
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_6",
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.candidates_no_CE._native.native_decide.ax_1_4"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits) (+5 more facts)",
+"active": false,
+"new_col": 25,
+"new_end": 38
+},
+{
+"file": "Ninegates/Counterexample/Elimination.lean",
+"start": 1382,
+"end": 1395,
+"line": 41,
+"col": 4,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Ninegates.Counterexample.Elimination",
+"facts": [
+"_private.Ninegates.Counterexample.Elimination.0.Mahjong.Hand.Counterexample.orderOne_fullWait_classification_of_candidates._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 4,
+"new_end": 17
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 10276,
+"end": 10289,
+"line": 235,
+"col": 13,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.E.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 13,
+"new_end": 26
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 14203,
+"end": 14216,
+"line": 331,
+"col": 42,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.a.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 42,
+"new_end": 55
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 14385,
+"end": 14398,
+"line": 337,
+"col": 42,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.b.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 42,
+"new_end": 55
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 14567,
+"end": 14580,
+"line": 343,
+"col": 42,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.c.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 42,
+"new_end": 55
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 14751,
+"end": 14764,
+"line": 349,
+"col": 44,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 6,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.c'.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 44,
+"new_end": 57
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 14936,
+"end": 14949,
+"line": 355,
+"col": 42,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 7,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.d.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 42,
+"new_end": 55
+},
+{
+"file": "Ninegates/Standard/Wait.lean",
+"start": 15120,
+"end": 15133,
+"line": 361,
+"col": 44,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 8,
+"module": "Ninegates.Standard.Wait",
+"facts": [
+"_private.Ninegates.Standard.Wait.0.Mahjong.Hand.Standard.One.d'.isFullWait._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (System.Platform.getNumBits)",
+"active": false,
+"new_col": 44,
+"new_end": 57
+}
+]
+}

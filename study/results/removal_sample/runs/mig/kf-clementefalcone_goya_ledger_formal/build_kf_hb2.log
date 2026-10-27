@@ -1,0 +1,7 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Formal.Lattice.Zq +Formal.QuarantineCorrectness
+✔ [1142/1143] Built Formal.QuarantineCorrectness (821ms)
+ℹ [1143/1143] Built Formal.Lattice.Zq (1.3s)
+info: Formal/Lattice/Zq.lean:15:37: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+Build completed successfully (1143 jobs).
+TIME wall=1.95 user=2.05 sys=0.85 maxrss_kb=2374632
+rc=0 secs=2

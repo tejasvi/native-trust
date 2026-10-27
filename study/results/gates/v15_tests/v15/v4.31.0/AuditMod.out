@@ -1,0 +1,4 @@
+#native_decide_audit `KzNative`: 2 native facts: 0 replaceable by `decide +kernel`, 1 need NativeTrust transformations, 0 blocked, 1 too expensive within the budget (2000 thousand heartbeats), 0 stuck
+NATIVETRUST `sorted_check._native.native_decide.ax_1_1` (native_decide): well-founded recursion via List.mergeSort → List.mergeSort._unary → List.merge → List.merge._unary → WellFounded.fix; `kdecide`/`kernelize` prove it (408 ms)
+EXPENSIVE `count_primes._native.native_decide.ax_1_1` (native_decide): no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.kernelHeartbeats`; `kdecide (config := { split := n })`)
+rc=0

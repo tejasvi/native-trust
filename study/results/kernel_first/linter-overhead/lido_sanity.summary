@@ -1,0 +1,7 @@
+orig native axioms: 28 native axioms in `NTV.SanityEnvelopeMutants`
+kf native axioms: 0 native axioms in `NTV.SanityEnvelopeMutants`
+orig: wall_med=0.75 cpu_med=0.97 rss_kb_max=1609364 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=0.77 cpu_med=0.97 rss_kb_max=1620764 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=0.79 cpu_med=1.23 rss_kb_max=1650052 runs=3 rc=0 warnings=28 unnecessary=28 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=0.79 cpu_med=1.13 rss_kb_max=1644552 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=0.75 cpu_med=1.03 rss_kb_max=1624152 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

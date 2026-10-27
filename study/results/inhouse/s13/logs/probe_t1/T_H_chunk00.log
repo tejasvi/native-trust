@@ -1,0 +1,21 @@
+$ lean T_H_chunk00.lean start=2026-10-26T01:20:42Z timeout=900
+START T_H_chunk00
+STATEMENT_MS 0
+TRIAGE T_H_chunk00: 3 blocker(s), 22 ms
+BLOCKER T_H_chunk00 ByteArray.hash | primitive implemented in C (`@[extern]`) with no definition | path [Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.St7.init, Sortnet.Facts.SuccSt.init, ByteArray.instHashable, ByteArray.hash]
+BLOCKER T_H_chunk00 mixHash | primitive implemented in C (`@[extern]`) with no definition | path [Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.St7.init, Sortnet.Facts.BSt.init, instHashableProd, mixHash]
+BLOCKER T_H_chunk00 System.Platform.getNumBits | platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platfo | path [Sortnet.Facts.checkHints, Sortnet.Facts.checkRange, Sortnet.Facts.checkRangeAux, Sortnet.Facts.checkRangeAux._f, Sortnet.Facts.prove7, Sortnet.Facts.succProve, Sortnet.Facts.succAux, Sortnet.Facts.succAux._f, Std.HashMap.getD, Std.DHashMap.Const.getD, Std.DHashMap.Internal.Raw₀.Const.getD, USize.toNat, System.Platform.numBits, System.Platform.getNumBits]
+T_H_chunk00.lean:21:6: warning: Variable name `ax` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ax
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+T_H_chunk00.lean:22:6: warning: Variable name `name` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _name
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+maxrss_kb 1589160 secs 0.73
+rc=0 end=2026-10-26T01:20:42Z

@@ -1,0 +1,69 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 -o F1_Strata_Languages_Core_Factory_3.olean F1_Strata_Languages_Core_Factory_3.lean
+NT start _private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1
+NT nested _private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1 ms=883 rebuilt_defs=0 visited=8403
+NT copying Lambda.Constraint.unifyOne._mutual
+NT copy Lambda.Constraint.unifyOne._mutual defn_ms=3 eq_ms=6 congr=true
+NT copying Lambda.Constraints.unifyCore
+NT copy Lambda.Constraints.unifyCore defn_ms=0 eq_ms=0 congr=true
+NT copying Lambda.Constraints.unify
+NT copy Lambda.Constraints.unify defn_ms=1 eq_ms=0 congr=true
+NT copying Lambda.LFunc.opTypeSubst
+NT copy Lambda.LFunc.opTypeSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LFunc.computeTypeSubst
+NT copy Lambda.LFunc.computeTypeSubst defn_ms=0 eq_ms=1 congr=true
+NT copying Lambda.LExpr.eval._mutual
+NT copy Lambda.LExpr.eval._mutual defn_ms=11 eq_ms=63 congr=true
+NT copying Lambda.LExpr.eval
+NT copy Lambda.LExpr.eval defn_ms=0 eq_ms=2 congr=true
+NT copying Lambda.LExpr.evalFullyAux
+NT copy-rejected Lambda.LExpr.evalFullyAux: (kernel) application type mismatch   Lean.Order.fix     (fun f fuel =>       match _kt.F1_Strata_Languages_Core_Factory_3.Lambda.LExpr.eval TBase inst✝² inst✝¹ inst✝ fuel F env e with       | (e', res) =>         match res with         | Lambda.LExpr.EvalResult.value true => some e'         | Lambda.LExpr.EvalResult.value false => f (fuel + 1)         | Lambda.LExpr.EvalResult.nonvalue => f (fuel + 1)         | Lambda.LExpr.EvalResult.outOfFuel => f (fuel + 1))     ⋯ argument has type   Lean.Order.monotone fun f fuel =>     match Lambda.LExpr.eval fuel F env e with     | (e', res) =>       match res with       | Lambda.LExpr.EvalResult.value true => some e'       | Lambda.LExpr.EvalResult.va
+NT copying Lambda.LExpr.evalFully
+NT copy-rfl Lambda.LExpr.evalFully
+NT copy Lambda.LExpr.evalFully defn_ms=0 eq_ms=0 congr=false
+NT copying Core.Expression
+NT copy Core.Expression defn_ms=1 eq_ms=0 congr=true
+NT copying _private.Strata.Languages.Core.Factory.0.Core.renameOpIn
+NT copy-congr-rejected _private.Strata.Languages.Core.Factory.0.Core.renameOpIn: (kernel) application type mismatch   Lambda.LExpr.substOps x✝ argument has type   y.Expr but function has type   Lambda.LExpr { base := { Metadata := Core.ExpressionMetadata, IDMeta := Unit }, TypeType := Lambda.LMonoTy } →     Strata.Util.HMap { Metadata := Core.ExpressionMetadata, IDMeta := Unit }.Identifier         (Option Lambda.LMonoTy →           Lambda.LExpr             { base := { Metadata := Core.ExpressionMetadata, IDMeta := Unit }, TypeType := Lambda.LMonoTy }) →       Lambda.LExpr { base := { Metadata := Core.ExpressionMetadata, IDMeta := Unit }, TypeType := Lambda.LMonoTy }
+NT copy-rfl _private.Strata.Languages.Core.Factory.0.Core.renameOpIn
+NT copy _private.Strata.Languages.Core.Factory.0.Core.renameOpIn defn_ms=0 eq_ms=3 congr=false
+NT copying _private.Strata.Languages.Core.Factory.0.Core.withSelectBang
+NT copy-congr-rejected _private.Strata.Languages.Core.Factory.0.Core.withSelectBang: (kernel) application type mismatch   _kt.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.renameOpIn "Sequence.select"     "Sequence.select!" axs argument has type   List y.Expr but function has type   List Core.Expression.Expr → List Core.Expression.Expr
+NT copy-rfl _private.Strata.Languages.Core.Factory.0.Core.withSelectBang
+NT copy _private.Strata.Languages.Core.Factory.0.Core.withSelectBang defn_ms=0 eq_ms=2 congr=false
+NT copying Core.seqDropFunc
+NT copy-congr-rejected Core.seqDropFunc: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) but function has type   [self :       HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) (List y.Expr)         (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))] →     List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono) →       List y.Expr → List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)
+NT copy-rfl Core.seqDropFunc
+NT copy Core.seqDropFunc defn_ms=1 eq_ms=5 congr=false
+NT copying Core.seqDropUnsafeFunc
+NT copy Core.seqDropUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqBuildFunc
+NT copy-congr-rejected Core.seqBuildFunc: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) but function has type   [self :       HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) (List y.Expr)         (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))] →     List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono) →       List y.Expr → List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)
+NT copy-rfl Core.seqBuildFunc
+NT copy Core.seqBuildFunc defn_ms=0 eq_ms=5 congr=false
+NT copying Core.seqUpdateFunc
+NT copy-congr-rejected Core.seqUpdateFunc: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) but function has type   [self :       HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) (List y.Expr)         (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))] →     List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono) →       List y.Expr → List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)
+NT copy-rfl Core.seqUpdateFunc
+NT copy Core.seqUpdateFunc defn_ms=1 eq_ms=4 congr=false
+NT copying Core.seqUpdateUnsafeFunc
+NT copy Core.seqUpdateUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqTakeFunc
+NT copy-congr-rejected Core.seqTakeFunc: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) but function has type   [self :       HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) (List y.Expr)         (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))] →     List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono) →       List y.Expr → List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)
+NT copy-rfl Core.seqTakeFunc
+NT copy Core.seqTakeFunc defn_ms=0 eq_ms=5 congr=false
+NT copying Core.seqTakeUnsafeFunc
+NT copy Core.seqTakeUnsafeFunc defn_ms=0 eq_ms=1 congr=true
+NT copying Core.seqAppendFunc
+NT copy-congr-rejected Core.seqAppendFunc: (kernel) application type mismatch   HAppend.hAppend argument has type   HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))     (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) but function has type   [self :       HAppend (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)) (List y.Expr)         (List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono))] →     List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono) →       List y.Expr → List (Lambda.LExpr { Metadata := Unit, IDMeta := Unit }.mono)
+NT copy-rfl Core.seqAppendFunc
+NT copy Core.seqAppendFunc defn_ms=0 eq_ms=5 congr=false
+NT copying Core.WFFactoryArray
+NT copy Core.WFFactoryArray defn_ms=1 eq_ms=7 congr=true
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=286 copies=20 copy_kernel_ms=131 fast_lits=0 string_args=false
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1.p_0 blockers_ms=47 bounded=true copy_ms=4 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1.p_0 eval_ms=30276
+NT _ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1 pieces=1
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1` as `_ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1`: kernel_ms=32919 native_axioms=1 rebuilt=0 copies=0 total_ms=33824 acc_fallback=0 pieces=1
+PROVED `_private.Strata.Languages.Core.Factory.0.Core.WFFactory._native.native_decide.ax_1` as `_ktr.F1_Strata_Languages_Core_Factory_3._private.Strata.Languages.Core.Factory.0.Core.WFFactory._kernel.native_decide.ax_1`: kernel_ms=32919 native_axioms=1 rebuilt=0 copies=0 total_ms=33824 acc_fallback=0 pieces=1
+maxrss_kb 8349576
+rc=0 secs=35

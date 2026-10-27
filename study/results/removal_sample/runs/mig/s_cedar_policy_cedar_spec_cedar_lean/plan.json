@@ -1,0 +1,563 @@
+{
+"plan": {
+"n_occ": 26,
+"affected": [
+"Cedar.Data.Int64",
+"Cedar.Thm.SymCC.Data.Ext"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 10,
+"keep: FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)": 16
+}
+},
+"occs": [
+{
+"file": "Cedar/Data/Int64.lean",
+"start": 4152,
+"end": 4165,
+"line": 113,
+"col": 42,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "Cedar.Data.Int64",
+"facts": [
+"_private.Cedar.Data.Int64.0.Int64.toInt_nonneg_of_ge_zero._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 42,
+"new_end": 56
+},
+{
+"file": "Cedar/Data/Int64.lean",
+"start": 4436,
+"end": 4449,
+"line": 118,
+"col": 45,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "Cedar.Data.Int64",
+"facts": [
+"_private.Cedar.Data.Int64.0.Int64.toInt_neg_of_not_ge_zero._native.native_decide.ax_1_2"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 45,
+"new_end": 59
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 1109,
+"end": 1122,
+"line": 36,
+"col": 66,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_eq._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 66,
+"new_end": 80
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 1188,
+"end": 1201,
+"line": 37,
+"col": 65,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_toInt._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 65,
+"new_end": 79
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 1261,
+"end": 1274,
+"line": 38,
+"col": 59,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_gt_one._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 59,
+"new_end": 73
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 1497,
+"end": 1510,
+"line": 43,
+"col": 61,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 61,
+"new_end": 75
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 1901,
+"end": 1914,
+"line": 49,
+"col": 71,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 6,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_3"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 71,
+"new_end": 85
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 2192,
+"end": 2205,
+"line": 54,
+"col": 73,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 7,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_6"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 73,
+"new_end": 87
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 4110,
+"end": 4123,
+"line": 98,
+"col": 49,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 8,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_6"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 49,
+"new_end": 63
+},
+{
+"file": "Cedar/Thm/SymCC/Data/Ext.lean",
+"start": 4834,
+"end": 4847,
+"line": 110,
+"col": 66,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 9,
+"module": "Cedar.Thm.SymCC.Data.Ext",
+"facts": [
+"_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_8"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 66,
+"new_end": 80
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 805,
+"end": 818,
+"line": 26,
+"col": 64,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 10,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test1._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 64,
+"new_end": 77
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 887,
+"end": 900,
+"line": 27,
+"col": 68,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 11,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test2._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 68,
+"new_end": 81
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 968,
+"end": 981,
+"line": 28,
+"col": 67,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 12,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test3._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 67,
+"new_end": 80
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 1050,
+"end": 1063,
+"line": 29,
+"col": 68,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 13,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test4._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 68,
+"new_end": 81
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 1131,
+"end": 1144,
+"line": 30,
+"col": 67,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 14,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test5._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 67,
+"new_end": 80
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 1214,
+"end": 1227,
+"line": 31,
+"col": 69,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 15,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test6._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 69,
+"new_end": 82
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 1294,
+"end": 1307,
+"line": 32,
+"col": 66,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 16,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test7._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 66,
+"new_end": 79
+},
+{
+"file": "UnitTest/Decimal.lean",
+"start": 1378,
+"end": 1391,
+"line": 33,
+"col": 70,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 17,
+"module": "UnitTest.Decimal",
+"facts": [
+"UnitTest.Decimal.test8._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 70,
+"new_end": 83
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 816,
+"end": 829,
+"line": 26,
+"col": 79,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 18,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test1._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 79,
+"new_end": 92
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 899,
+"end": 912,
+"line": 27,
+"col": 69,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 19,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test2._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 69,
+"new_end": 82
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 984,
+"end": 997,
+"line": 28,
+"col": 71,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 20,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test3._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 71,
+"new_end": 84
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 1111,
+"end": 1124,
+"line": 29,
+"col": 113,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 21,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test4._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 113,
+"new_end": 126
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 1250,
+"end": 1263,
+"line": 30,
+"col": 125,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 22,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test5._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 125,
+"new_end": 138
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 1380,
+"end": 1393,
+"line": 31,
+"col": 116,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 23,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test6._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 116,
+"new_end": 129
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 1498,
+"end": 1511,
+"line": 32,
+"col": 104,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 24,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test7._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 104,
+"new_end": 117
+},
+{
+"file": "UnitTest/IPAddr.lean",
+"start": 1612,
+"end": 1625,
+"line": 33,
+"col": 100,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 25,
+"module": "UnitTest.IPAddr",
+"facts": [
+"UnitTest.IPAddr.test8._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)",
+"active": false,
+"new_col": 100,
+"new_end": 113
+}
+]
+}

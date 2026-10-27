@@ -1,0 +1,21 @@
+## summary.v4.35.0.tsv
+start 21:52:30
+per256_2000_ubs_dk	TIME 20.59 s 4462628 KB	rc=0
+dw_1000_ubs_dk	TIME 21.74 s 4537100 KB	rc=0
+dw_250_ubs_dk	TIME 1.50 s 725760 KB	rc=0
+rep8_1000_ubs_dk	TIME 0.80 s 581484 KB	rc=0
+rep8_4000_ubs_dk	TIME 3.50 s 916156 KB	rc=0
+dw_500_ubs_dk	TIME 5.02 s 1492320 KB	rc=0
+a_8000_ubs_dk	TIME 2.66 s 909008 KB	rc=0
+dw_250_len_dk	TIME 4.46 s 1503772 KB	rc=0
+rep8_500_len_dk	TIME 13.54 s 3610160 KB	rc=0
+rep8_8000_ubs_dk	TIME 45.19 s 1368604 KB	rc=0
+dw_500_len_dk	TIME 18.73 s 4570356 KB	rc=0
+rnd_1000_fmlen_dk	TIME 0.56 s 521576 KB	rc=0
+dw_500_ubsN_trfl	TIME 15.86 s 1490932 KB	rc=0
+dw_2000_eqv_trfl	TIME 0.18 s 464248 KB	rc=0
+rnd_1000_u8push_dk	TIME 22.16 s 4571080 KB	rc=0
+rnd_1000_sofl_dk	TIME 22.27 s 4585900 KB	rc=0
+dw_2000_ubs_dk	TIME 81.24 s 16044232 KB	rc=0
+na4_250_ubs_dk	TIME 20.72 s 4524880 KB	rc=0
+end 21:53:55

@@ -1,0 +1,21 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_Cpc_Proofs_RuleSupport_QdsCtor_11.lean
+NT start _private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._native.native_decide.ax_1_6
+NT nested _private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._native.native_decide.ax_1_6 ms=227 rebuilt_defs=0 visited=4136
+NT copy Smtm.__smtx_typeof_dt_cons_value_rec._unary defn_ms=1 eq_ms=1 congr=true
+NT copy Smtm.__smtx_typeof_dt_cons_value_rec defn_ms=0 eq_ms=1 congr=true
+NT copy Smtm.__smtx_typeof_value._f defn_ms=1 eq_ms=1 congr=true
+NT copy Smtm.__smtx_typeof_value defn_ms=0 eq_ms=0 congr=true
+NT copy Smtm.native_inhabited_type defn_ms=0 eq_ms=0 congr=true
+NT copy Smtm.__smtx_type_wf_rec._f defn_ms=0 eq_ms=2 congr=true
+NT copy Smtm.__smtx_dt_cons_wf_rec._f defn_ms=0 eq_ms=2 congr=true
+NT copy Smtm.__smtx_decl_wf_rec._f defn_ms=0 eq_ms=1 congr=true
+NT copy Smtm.__smtx_type_wf_rec defn_ms=0 eq_ms=1 congr=true
+NT copy Smtm.__smtx_type_wf_component defn_ms=0 eq_ms=0 congr=true
+NT copy Smtm.__smtx_type_wf._f defn_ms=0 eq_ms=1 congr=true
+NT copy Smtm.__smtx_type_wf defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Cpc_Proofs_RuleSupport_QdsCtor_11._private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._kernel.native_decide.ax_1_6.p_0 blockers_ms=11 bounded=false copy_ms=26 copies=12 copy_kernel_ms=13
+NT _ktr.F2_Cpc_Proofs_RuleSupport_QdsCtor_11._private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._kernel.native_decide.ax_1_6.p_0 eval_ms=2
+PROVED `_private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._native.native_decide.ax_1_6` as `_ktr.F2_Cpc_Proofs_RuleSupport_QdsCtor_11._private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._kernel.native_decide.ax_1_6`: kernel_ms=42 native_axioms=1 rebuilt=0 copies=12 total_ms=269
+PROVED `_private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._native.native_decide.ax_1_6` as `_ktr.F2_Cpc_Proofs_RuleSupport_QdsCtor_11._private.Cpc.Proofs.RuleSupport.QdsCtor.0.QuantDtSplitRule.qds_smt_type_tuple_shape_of_wf._kernel.native_decide.ax_1_6`: kernel_ms=42 native_axioms=1 rebuilt=0 copies=12 total_ms=269
+maxrss_kb 1796244
+rc=0 secs=1

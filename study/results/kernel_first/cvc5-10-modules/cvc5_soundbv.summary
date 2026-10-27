@@ -1,0 +1,2 @@
+orig: native axioms: 39 native axioms in `NTV.SoundBitVec` | wall_med=13.97 cpu_med=48.35 rss_kb_max=1628904 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.SoundBitVec` | wall_med=13.33 cpu_med=46.28 rss_kb_max=1742492 runs=3 rc=0 errors=0 kf_fallback=0

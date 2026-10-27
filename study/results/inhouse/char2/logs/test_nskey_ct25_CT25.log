@@ -1,0 +1,3 @@
+# command: python test_nskey_ct25.py   (run from lean/scripts/)
+[65s] |R|=170720 |NS|=139568
+packed integer key (L = 0) reproduces the float 'tip' NS order: True ; injective: True

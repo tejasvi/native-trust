@@ -1,0 +1,12 @@
+✔ [1491/1626] Built Char2Native (2.4s)
+✔ [3165/3171] Built Char2Proof.MainCT25 (33s)
+✔ [3166/3171] Built Char2Proof.Nets (34s)
+✔ [3167/3171] Built Char2Proof.SoundRoute (34s)
+✔ [3168/3171] Built Char2Proof.NetsMain (13s)
+✔ [3169/3171] Built Char2Proof.Main (13s)
+✔ [3170/3171] Built Char2Proof (9.0s)
+Build completed successfully (3171 jobs).
+
+real	1m8.170s
+user	0m22.391s
+sys	1m18.917s

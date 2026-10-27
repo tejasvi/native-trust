@@ -1,0 +1,33 @@
+✔ [3185/3505] Built Poincare11a.Checker (451ms)
+✔ [3489/3505] Built Poincare11a.Data.Lib (905ms)
+✔ [3490/3505] Built Poincare11a.Defs (1.2s)
+✔ [3491/3505] Built Poincare11a.Prims (1.5s)
+✔ [3492/3505] Built Poincare11a.Moments (2.7s)
+✔ [3493/3505] Built Poincare11a.Data.Ivl (3.2s)
+✔ [3494/3505] Built Poincare11a.Constant (2.1s)
+✔ [3495/3505] Built Poincare11a.Region (1.5s)
+✔ [3496/3505] Built Poincare11a.Partition (4.5s)
+✔ [3497/3505] Built Poincare11a.Semigroup (1.8s)
+✔ [3498/3505] Built Poincare11a.Bernstein (3.5s)
+⚠ [3499/3505] Built Poincare11a.Bound (2.3s)
+warning: Poincare11a/Bound.lean:31:0: automatically included section variable(s) unused in theorem `Poincare11a.mom_dl_0`:
+  hc
+  hcm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hc hcm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Poincare11a/Bound.lean:33:0: automatically included section variable(s) unused in theorem `Poincare11a.mom_dl_1`:
+  hcm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hcm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3500/3505] Built Poincare11a.Data.Leaves (13s)
+✔ [3501/3505] Built Poincare11a.CertN (1.3s)
+✔ [3502/3505] Built Poincare11a.CertSound (8.4s)
+✔ [3503/3505] Built Poincare11a.Assembly (2.4s)
+✔ [3504/3505] Built Poincare11a.KLe (1.7s)
+✔ [3505/3505] Built Poincare11a.MainN (1.3s)
+Build completed successfully (3505 jobs).
+TIME wall=22.64 user=63.26 sys=5.62 maxrss_kb=3736444

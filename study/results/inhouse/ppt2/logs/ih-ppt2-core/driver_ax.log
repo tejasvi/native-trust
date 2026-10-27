@@ -1,0 +1,8 @@
+2026-10-26T01:31:46Z ax pkg=/home/ntbuild/work_migsample/inhouse/ppt2/ppt2-paper2-deposit/lean/core tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=161 modules=161
+native axioms=524 inner=0 outer_todo=524
+2026-10-26T05:09:47Z ax pkg=/home/ntbuild/work_migsample/inhouse/ppt2/ppt2-paper2-deposit/lean/core tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=161 modules=161
+native axioms=524 inner=0 outer_todo=186
+2026-10-26T07:25:13Z summary ERROR=80 PROVED=106
+2026-10-26T07:41:03Z ax pkg=/home/ntbuild/work_migsample/inhouse/ppt2/ppt2-paper2-deposit/lean/core tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=161 modules=161
+native axioms=751 inner=0 outer_todo=227
+2026-10-26T10:12:30Z summary ERROR=35 PROVED=187 TIMEOUT=5

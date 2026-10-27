@@ -1,0 +1,17 @@
+2026-10-23T23:35:00Z cvc5-logos: tc=v4.34.0 files=935 modules=935 built=389 plain=cvc5-logos-plain study=cvc5-logos
+2026-10-23T23:40:08Z census before: 2185 native axioms, 3217 native-dependent declarations, failed=[]
+2026-10-23T23:40:09Z plan: 606 occurrences; {"rewrite": 605, "keep: plain FAILED/blocked (WellFounded.fix)": 1}; unmatched axioms=0; affected modules=204
+2026-10-23T23:49:30Z cvc5-logos: tc=v4.34.0 files=935 modules=935 built=389 plain=cvc5-logos-plain study=cvc5-logos
+2026-10-23T23:49:30Z census before: 2185 native axioms, 3217 native-dependent declarations, modules=389, failed=[]
+2026-10-23T23:49:31Z plan: 606 occurrences; {"rewrite": 605, "keep: plain FAILED/blocked (WellFounded.fix)": 1}; unmatched axioms=0; affected modules=204
+2026-10-24T00:20:26Z time0: rc=0 wall=1854.5 cpu=5723.4 built=204 peak_lean=4 peak_rss_gb=8.4 sum=14.9 errors=0
+2026-10-24T00:50:26Z round 0 timed out; still running: ['Cpc/Proofs/Rules/Aci_norm.lean', 'Cpc/Proofs/RuleSupport/ArithStringEntailSupport.lean', 'Cpc/Proofs/RuleSupport/BvConcatPullupSupport.lean', 'Cpc/Proofs/RuleSupport/Cong/ApplySpineB.lean']
+2026-10-24T00:50:26Z build round 0: rc=124 wall=None errors=0 revert=13 unattributed=0 peak_lean=4
+2026-10-24T00:54:43Z cvc5-logos: tc=v4.34.0 files=935 modules=935 built=382 plain=cvc5-logos-plain study=cvc5-logos
+2026-10-24T00:54:43Z census before: 2185 native axioms, 3217 native-dependent declarations, modules=389, failed=[]
+2026-10-24T00:54:45Z plan: 606 occurrences; {"rewrite": 605, "keep: plain FAILED/blocked (WellFounded.fix)": 1}; unmatched axioms=0; affected modules=204
+2026-10-24T01:26:27Z build round 0: rc=0 wall=1901.83 errors=0 revert=0 bump=0 unattributed=0 peak_lean=4 peak_rss_gb=7.4
+2026-10-24T01:55:05Z time1: rc=0 wall=1717.28 cpu=5270.9 built=204 peak_lean=4 peak_rss_gb=8.4 sum=14.9 errors=0
+2026-10-24T01:55:05Z default build: rc=0 wall=0.13 built=0 errors=0
+2026-10-24T01:57:52Z summary {"uses": 606, "replaced": 605, "replaced_facts": 2184, "native_axioms_before": 2185, "native_axioms_after": 1, "axioms_after_as_expected": true, "native_dependent_decls_before": 3157, "native_dependent_decls_after": 1483, "rewritten_decls_still_native": 49, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 606, "replaced": 605, "replaced_facts": 2184, "native_axioms_before": 2185, "native_axioms_after": 1, "axioms_after_as_expected": true, "native_dependent_decls_before": 3157, "native_dependent_decls_after": 1483, "rewritten_decls_still_native": 49, "build_ok": true}

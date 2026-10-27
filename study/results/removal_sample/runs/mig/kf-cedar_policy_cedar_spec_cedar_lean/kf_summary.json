@@ -1,0 +1,177 @@
+{
+ "name": "cedar_policy_cedar_spec_cedar_lean",
+ "pkg": "/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean",
+ "copy_root": "/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.35.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:51:47Z",
+ "toolchain": "v4.35.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.65,
+  "built": []
+ },
+ "modules": 10,
+ "before": {
+  "total": 26,
+  "by_tactic": {
+   "native_decide": 26
+  },
+  "failed": [],
+  "dirty": 25
+ },
+ "native_files": 4,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 2.01,
+   "cpu": 4.4,
+   "n_built": 10,
+   "peak_lean": 2,
+   "peak_rss_gb": 0.7,
+   "peak_rss_sum_gb": 1.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 2.48,
+   "cpu": 5.5,
+   "n_built": 10,
+   "peak_lean": 2,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 2.2,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 1.9,
+   "cpu": 4.4,
+   "n_built": 10,
+   "peak_lean": 3,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 1.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 2.31,
+   "cpu": 5.7,
+   "n_built": 10,
+   "peak_lean": 3,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 2.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 1.97,
+   "cpu": 4.5,
+   "n_built": 10,
+   "peak_lean": 3,
+   "peak_rss_gb": 0.8,
+   "peak_rss_sum_gb": 1.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 2.29,
+   "cpu": 5.5,
+   "n_built": 10,
+   "peak_lean": 3,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 2.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 118,
+   "rc": 0,
+   "wall": 2.31,
+   "cpu": 5.6,
+   "n_built": 10,
+   "peak_lean": 3,
+   "peak_rss_gb": 1.5,
+   "peak_rss_sum_gb": 2.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 16,
+  "by_tactic": {
+   "native_decide": 16
+  },
+  "failed": [],
+  "dirty": 16
+ },
+ "fallbacks": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": 16
+ },
+ "fallback_examples": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": "info: UnitTest/IPAddr.lean:27:79: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083` (no kernel definition)"
+ },
+ "after_hb2": {
+  "total": 16,
+  "by_tactic": {
+   "native_decide": 16
+  },
+  "failed": [],
+  "dirty": 16
+ },
+ "fallbacks_hb2": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": 16
+ },
+ "fallback_examples_hb2": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": "info: UnitTest/IPAddr.lean:29:79: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083` (no kernel definition)"
+ },
+ "reps": 3,
+ "orig_wall_med": 1.97,
+ "orig_cpu_med": 4.4,
+ "kf_wall_med": 2.31,
+ "kf_cpu_med": 5.5,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:52:07Z"
+}

@@ -1,0 +1,2 @@
+bv_kdecide: bv_decide 29 ms; 50 nodes, 125 clauses, 48 LRAT steps, 109 hints, 1 chunks; SAT 17 ms, data 1 ms; kernel: base 38 ms, chunks 20 ms (max 20 ms), assembly 1 ms; total 142 ms
+'ex_clz_le' depends on axioms: [propext, Classical.choice, Quot.sound]

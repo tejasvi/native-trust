@@ -1,0 +1,8 @@
+bvs AsiStackProofs.StackBoundaries: 1 bv_decide axioms
+bvs AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._native.bv_decide.ax_1_7: 580 nodes, 1424 clauses, 580 vars; 362 steps, 840 hints, 1 chunks; solve 17 ms, prep+defs 15 ms; kernel: base 668 ms, chunks 321 ms (max 321 ms); total 1042 ms; axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=1.69 s user=1.51 s maxrss=1686172 KB

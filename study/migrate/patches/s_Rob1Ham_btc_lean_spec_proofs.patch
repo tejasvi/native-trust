@@ -1,0 +1,697 @@
+--- a/BitcoinProofs/Bip/B09/SigHash143.lean
++++ b/BitcoinProofs/Bip/B09/SigHash143.lean
+@@ -97,31 +97,31 @@
+ -- BIP digest: e9733bc60ea13c95c6527066bb975a2ff29a925e80aa14c213f686cbae5d2f36
+ example : bytesBEq (signatureHashBip143 txE5 0 scE5 0x02 amtE5)
+     (hx "e9733bc60ea13c95c6527066bb975a2ff29a925e80aa14c213f686cbae5d2f36") = true := by
+-  native_decide
++  decide +kernel
+ 
+ -- E5-SINGLE (0x03, in range): kills `SINGLE ⇒ hashOutputs ≠ dSHA256(vout[0])`.
+ -- BIP digest: 1e1f1c303dc025bd664acb72e583e933fae4cff9148bf78c157d1e8f78530aea
+ example : bytesBEq (signatureHashBip143 txE5 0 scE5 0x03 amtE5)
+     (hx "1e1f1c303dc025bd664acb72e583e933fae4cff9148bf78c157d1e8f78530aea") = true := by
+-  native_decide
++  decide +kernel
+ 
+ -- E5-ALL|ACP (0x81): kills `ACP ⇒ hashOutputs = 0` (it must stay FULL here).
+ -- BIP digest: 2a67f03e63a6a422125878b40b82da593be8d4efaafe88ee528af6e5a9955c6e
+ example : bytesBEq (signatureHashBip143 txE5 0 scE5 0x81 amtE5)
+     (hx "2a67f03e63a6a422125878b40b82da593be8d4efaafe88ee528af6e5a9955c6e") = true := by
+-  native_decide
++  decide +kernel
+ 
+ -- E5-NONE|ACP (0x82): kills any arm that keeps a nonzero sub-hash here.
+ -- BIP digest: 781ba15f3779d5542ce8ecb5c18716733a5ee42a6f51488ec96154934e2c890a
+ example : bytesBEq (signatureHashBip143 txE5 0 scE5 0x82 amtE5)
+     (hx "781ba15f3779d5542ce8ecb5c18716733a5ee42a6f51488ec96154934e2c890a") = true := by
+-  native_decide
++  decide +kernel
+ 
+ -- E5-SINGLE|ACP (0x83, in range): completes the 8-row matrix alongside E1-E5.
+ -- BIP digest: 511e8e52ed574121fc1b654970395502128263f62662e076dc6baf05c2e6a99b
+ example : bytesBEq (signatureHashBip143 txE5 0 scE5 0x83 amtE5)
+     (hx "511e8e52ed574121fc1b654970395502128263f62662e076dc6baf05c2e6a99b") = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## B — No FindAndDelete (BIP §No FindAndDelete, both examples) -/
+ 
+@@ -144,7 +144,7 @@
+     ⟨hx "ad4830450220487fb382c4974de3f7d834c1b617fe15860828c7f96454490edd6d891556dcc9022100baf95feb48f845d5bfc9882eb6aeefa1bc3790e39f59eaa46ff7f15ae626c53e01"⟩
+     0x01 200000)
+     (hx "71c9cd9b2869b9c70b01b1f0360c148f42dee72297db312638df136f43311f23") = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- BIP §No-FindAndDelete example 2 tx: `OP_CHECKMULTISIGVERIFY` variant,
+ `scriptCode = OP_2 ‖ OP_CHECKMULTISIGVERIFY ‖ push(72) ‖ <sig> ‖ push(72) ‖
+@@ -162,7 +162,7 @@
+     ⟨hx "52af4830450220487fb382c4974de3f7d834c1b617fe15860828c7f96454490edd6d891556dcc9022100baf95feb48f845d5bfc9882eb6aeefa1bc3790e39f59eaa46ff7f15ae626c53e0148304502205286f726690b2e9b0207f0345711e63fa7012045b9eb0f19c2458ce1db90cf43022100e89f17f86abc5b149eba4115d4f128bcf45d77fb3ecdd34f594091340c0395960175"⟩
+     0x01 200000)
+     (hx "c1628a1e7c67f14ca0c27c06e4fdeec2e6d1a73c7a91d7c046ff83e835aebb72") = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## C — non-standard base hashtype 0x41 (B9-NEW-1, python-derived) -/
+ 
+@@ -183,7 +183,7 @@
+       witness := [] } 1
+     ⟨hx "76a9141d0f172a0ecb48aee1be1f2687d2963ae33f71a188ac"⟩ 0x41 600000000)
+     (hx "467f411d178762db122a6aced76370a1c8324355bf0796502bf82eeaeda86a35") = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## D — SINGLE|ANYONECANPAY does not commit to the input index -/
+ 
+@@ -205,13 +205,13 @@
+ example : bytesBEq (signatureHashBip143 txE4swap 0
+     ⟨hx "68210392972e2eb617b2388771abe27235fd5ac44af8e61693261550447a4c3e39da98ac"⟩ 0x83 16777215)
+     (hx "cd72f1f1a433ee9df816857fad88d8ebd97e09a75cd481583eb841c330275e54") = true := by
+-  native_decide
++  decide +kernel
+ 
+ -- former input 0 (scriptCode E4a) now at index 1, digest unchanged:
+ example : bytesBEq (signatureHashBip143 txE4swap 1
+     ⟨hx "0063ab68210392972e2eb617b2388771abe27235fd5ac44af8e61693261550447a4c3e39da98ac"⟩ 0x83 16777215)
+     (hx "e9071e75e25b8a1e298a72f0d2e9f4f95a0f5cdf86a533cda597eb402ed13b3a") = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## E — sorry-free theorem: ACP digests do not read the OTHER inputs -/
+ 
+--- a/BitcoinProofs/Bip/B11/NullDummyVectors.lean
++++ b/BitcoinProofs/Bip/B11/NullDummyVectors.lean
+@@ -114,71 +114,71 @@
+ 
+ /-- V1 — `cms nullDummy dummy01` → `sigNullDummy` (ref147.py: error). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .base) 0xae (mkSt (stackFor sig72 dummy01)))
+-    .sigNullDummy = true := by native_decide
++    .sigNullDummy = true := by decide +kernel
+ 
+ /-- V2 — `cms nullDummy dummyEmpty` → ok, stack `[vchTrue]`, opCount 1
+ (ref147.py: ok [0x01]; the nonempty sig/pk/nsv are untouched by the gate —
+ this also pins WHICH element is the dummy). -/
+ example : okIs (stepBody.checkMultiSig (mkCtx true .base) 0xae (mkSt (stackFor sig72 dummyE)))
+     { stack := [vchTrue], alt := [], vf := [], opCount := 1, codeSep := 0, vwLeft := none } := by
+-  native_decide
++  decide +kernel
+ 
+ /-- V3 — `cms flagsOff dummy01` → ok (pre-activation; SWT-065 genesis pop). -/
+ example : okIs (stepBody.checkMultiSig (mkCtx false .base) 0xae (mkSt (stackFor sig72 dummy01)))
+     { stack := [vchTrue], alt := [], vf := [], opCount := 1, codeSep := 0, vwLeft := none } := by
+-  native_decide
++  decide +kernel
+ 
+ /-- V4 — `cms witnessV0 nullDummy dummy01` → `sigNullDummy` (P2WSH scope). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .witnessV0) 0xae (mkSt (stackFor sig72 dummy01)))
+-    .sigNullDummy = true := by native_decide
++    .sigNullDummy = true := by decide +kernel
+ 
+ /-- V5 — tapscript interplay: with the flag ON, CHECKMULTISIG is still
+ banned (BIP342), so `tapscriptCheckMultiSig`, never `sigNullDummy`. -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .tapscript) 0xae (mkSt (stackFor sig72 dummy01)))
+-    .tapscriptCheckMultiSig = true := by native_decide
++    .tapscriptCheckMultiSig = true := by decide +kernel
+ 
+ /-- V6 — `cmsv nullDummy dummyEmpty badSig` → `checkMultiSigVerify`
+ (gate passes on the empty dummy; the verify failure surfaces). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .base) 0xaf (mkSt (stackFor sigE dummyE)))
+-    .checkMultiSigVerify = true := by native_decide
++    .checkMultiSigVerify = true := by decide +kernel
+ 
+ /-- V7 — `cmsv nullDummy dummy01 goodSig` → `sigNullDummy` (the dummy
+ error precedes the CMSVERIFY branch, interpreter.cpp:1211 < 1217). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .base) 0xaf (mkSt (stackFor sig72 dummy01)))
+-    .sigNullDummy = true := by native_decide
++    .sigNullDummy = true := by decide +kernel
+ 
+ /-- V8 — `cmsv flagsOff dummy01 badSig` → `checkMultiSigVerify`
+ (flags-off fail path still pops the dummy unchecked). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx false .base) 0xaf (mkSt (stackFor sigE dummy01)))
+-    .checkMultiSigVerify = true := by native_decide
++    .checkMultiSigVerify = true := by decide +kernel
+ 
+ /-- V9 — `cms nullDummy dummy01 badSig` → `sigNullDummy` (gate is
+ fSuccess-independent: it sits after the cleanup loop either way). -/
+ example : errIs (stepBody.checkMultiSig (mkCtx true .base) 0xae (mkSt (stackFor sigE dummy01)))
+-    .sigNullDummy = true := by native_decide
++    .sigNullDummy = true := by decide +kernel
+ 
+ /-! ### Activation pins (consensus activation, BIP147 §Deployment) -/
+ 
+ /-- A1 — one below segwit's buried height: NULLDUMMY consensus flag OFF. -/
+ example : (getBlockScriptFlags (481823 : UInt32)).nullDummy = false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A2 — exactly at the buried height 481824: NULLDUMMY consensus flag ON
+ (a block at exactly the activation height already carries the flag). -/
+ example : (getBlockScriptFlags (481824 : UInt32)).nullDummy = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A3 — the pinned BIP147 height. -/
+ theorem bip147_height_pin : BIP147_HEIGHT = 481824 := rfl
+ 
+ /-- FB1 — NULLDUMMY is consensus flag bit 4 (Core `bit(4)` value 16). -/
+-example : flagBits { nullDummy := true } = 16 := by native_decide
++example : flagBits { nullDummy := true } = 16 := by decide +kernel
+ 
+ /-- FB2 — post-481824 mainnet flag word is the full seven-flag set
+ `0x20E15` (pinned through `Interface.getBlockScriptFlags`, tying the
+ Interface and Flags models together). -/
+ example : flagBits (getBlockScriptFlags (481824 : UInt32)) = 0x20E15 := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ### BIP9 deployment parameters (BIP147 §Deployment = BIP141's) -/
+ 
+--- a/BitcoinProofs/Bip/B14/Tests.lean
++++ b/BitcoinProofs/Bip/B14/Tests.lean
+@@ -67,7 +67,7 @@
+ decoding the later push would fail (ref342.py S1; BIP342 step 2.1).
+ Mutation caught: any re-ordering that decodes before scanning ⇒ FAIL:BAD_OPCODE. -/
+ example : executeWitnessScript 100 [] 0 (ByteArray.mk #[(0x50:UInt8), (0x4c:UInt8)])
+-    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by native_decide
++    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by decide +kernel
+ 
+ /-! ## S2 — CHECKMULTISIG ignored in unexecuted branch (C6) -/
+ 
+@@ -78,7 +78,7 @@
+ example : executeWitnessScript 100 [] 0
+     (ByteArray.mk #[(0x00:UInt8), (0x64:UInt8), (0x51:UInt8), (0x67:UInt8),
+                     (0xae:UInt8), (0x68:UInt8)])
+-    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by native_decide
++    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by decide +kernel
+ 
+ /-! ## S3 — CHECKSIGADD arity: fewer than 3 elements fails (C8) -/
+ 
+@@ -86,7 +86,7 @@
+ rules, second bullet; ref342.py S3). -/
+ example : executeWitnessScript 100 [] 0 (ByteArray.mk #[(0xba:UInt8)])
+     default default ckGood SigVersion.tapscript
+-    = VerifyOutcome.fail ExecError.stackUnderflow := by native_decide
++    = VerifyOutcome.fail ExecError.stackUnderflow := by decide +kernel
+ 
+ /-! ## S4 — empty pubkey fails unconditionally (C10, SCR-159) -/
+ 
+@@ -96,7 +96,7 @@
+ example : executeWitnessScript 100 [sig64, ByteArray.empty] 0
+     (ByteArray.mk #[(0xac:UInt8)])
+     default default ckGood SigVersion.tapscript
+-    = VerifyOutcome.fail ExecError.tapscriptEmptyPubkey := by native_decide
++    = VerifyOutcome.fail ExecError.tapscriptEmptyPubkey := by decide +kernel
+ 
+ /-! ## S5 — unknown pubkey type: no verification, success semantics (C12, SCR-160) -/
+ 
+@@ -104,7 +104,7 @@
+ successful" — script passes (ref342.py S5a). Mutation caught: rejecting
+ non-32-byte keys ⇒ FAIL. -/
+ example : executeWitnessScript 100 [sig64, pk33] 0 (ByteArray.mk #[(0xac:UInt8)])
+-    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by native_decide
++    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by decide +kernel
+ 
+ /-- Same key type with EMPTY sig: success = false → the truthy-final-stack
+ check fails with EVAL_FALSE (ref342.py S5b). Mutation caught: pushing 0x01
+@@ -112,7 +112,7 @@
+ example : executeWitnessScript 100 [ByteArray.empty, pk33] 0
+     (ByteArray.mk #[(0xac:UInt8)])
+     default default ckGood SigVersion.tapscript
+-    = VerifyOutcome.fail ExecError.evalFalse := by native_decide
++    = VerifyOutcome.fail ExecError.evalFalse := by decide +kernel
+ 
+ /-! ## S6 — CHECKSIGADD empty signature pushes `n` exactly (C13) -/
+ 
+@@ -160,7 +160,7 @@
+     (ByteArray.mk (#[0x21] ++ (Array.replicate 33 (0x11:UInt8)) ++ #[0xac]
+       ++ #[0x21] ++ (Array.replicate 33 (0x11:UInt8)) ++ #[0xba]
+       ++ #[0x21] ++ (Array.replicate 33 (0x11:UInt8)) ++ #[0xba, 0x53, 0x9c]))
+-    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by native_decide
++    default default ckGood SigVersion.tapscript = VerifyOutcome.ok := by decide +kernel
+ 
+ /-- Same script, vwSer = 99 (⇒ budget 149): the THIRD sigop lands at −1 ⇒
+ TAPSCRIPT_VALIDATION_WEIGHT (budget_e2e.py vwSer=99). Mutation caught:
+@@ -170,7 +170,7 @@
+       ++ #[0x21] ++ (Array.replicate 33 (0x11:UInt8)) ++ #[0xba]
+       ++ #[0x21] ++ (Array.replicate 33 (0x11:UInt8)) ++ #[0xba, 0x53, 0x9c]))
+     default default ckGood SigVersion.tapscript
+-    = VerifyOutcome.fail ExecError.tapscriptValidationWeight := by native_decide
++    = VerifyOutcome.fail ExecError.tapscriptValidationWeight := by decide +kernel
+ 
+ /-! ## S8 — 520-byte element limit applies to the INITIAL stack (C18) -/
+ 
+@@ -180,26 +180,26 @@
+ example : executeWitnessScript 100 [ByteArray.mk (Array.replicate 521 (0x00:UInt8))] 0
+     (ByteArray.mk #[(0x51:UInt8)])
+     default default ckGood SigVersion.tapscript
+-    = VerifyOutcome.fail ExecError.pushSize := by native_decide
++    = VerifyOutcome.fail ExecError.pushSize := by decide +kernel
+ 
+ /-! ## S9 — 65-byte signature hashtype byte rules (C16) -/
+ 
+ /-- 65-byte sig with trailing 0x00 (= SIGHASH_DEFAULT) is NOT a valid
+ tapscript signature — `none` at the hashtype split (BIP342: "sig[64] ≠ 0x00
+ and Verify(…)" — the conjunction fails; ref342.py S9). -/
+-example : schnorrHashtype sig65Default = none := by native_decide
++example : schnorrHashtype sig65Default = none := by decide +kernel
+ 
+ /-- Contrast: trailing 0x01 splits into (body, 0x01) and IS validated. -/
+ example : schnorrHashtype sig65All
+     = some (ByteArray.mk (Array.replicate 64 (0xab : UInt8)), (0x01:UInt8)) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- End-to-end verdict: the 0x00-trailing 65-byte sig fails at the checker even
+ with a perfect EC verifier and available txdata (mutation caught: falling
+ back to SIGHASH_ALL ⇒ true). -/
+ example : (schnorrEntry (fun _ _ _ => true) (fun _ _ _ => some ByteArray.empty)
+     ).checkSchnorrSignature sig65Default pk32 SigVersion.tapscript default = false := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## Axiom pins (no sorryAx; native_decide confined to this Test module) -/
+ 
+--- a/BitcoinProofs/Bip/B15/Bip94Tests.lean
++++ b/BitcoinProofs/Bip/B15/Bip94Tests.lean
+@@ -145,77 +145,77 @@
+ for block 4032 — the decisive disagreement. -/
+ 
+ example : nextWorkRequired tn4 (getOf stormArr) 4031 (tFirst2 + 1209601)
+-    = some 0x1c3fffc0 := by native_decide
++    = some 0x1c3fffc0 := by decide +kernel
+ 
+ example : nextWorkRequired tn3 (getOf stormArr) 4031 (tFirst2 + 1209601)
+-    = some 0x1d00ffff := by native_decide
++    = some 0x1d00ffff := by decide +kernel
+ 
+ example : nextWorkRequired tn4 (getOf stormArr) 4031 (tFirst2 + 1209601) ≠
+           nextWorkRequired tn3 (getOf stormArr) 4031 (tFirst2 + 1209601) := by
+-  native_decide
++  decide +kernel
+ 
+ -- C2: at the boundary the min-difficulty exception does NOT apply — even a
+ -- >20-minute gap since block 4031 still requires the retargeted bits.
+ example : nextWorkRequired tn4 (getOf stormArr) 4031 (tFirst2 + 1709601)
+-    = some 0x1c3fffc0 := by native_decide
++    = some 0x1c3fffc0 := by decide +kernel
+ 
+ /-! ## C3 arithmetic: window anchor, clamp arms, cap (BLK-044/045/046/048) -/
+ 
+ -- BLK-044/045: block 2016 retargets from the genesis anchor; timespan T/4
+ -- (the exact lower clamp edge) ⇒ target powLimit/4.
+ example : nextWorkRequired tn4 (getOf quarterArr) 2015 (genesisTime + 302401)
+-    = some 0x1c3fffc0 := by native_decide
++    = some 0x1c3fffc0 := by decide +kernel
+ 
+ -- Lower clamp arm made visible: base powLimit/8, timespan 100000 < T/4
+ -- behaves like T/4 ⇒ powLimit/32 (0x1c07fff8), unlike the unclamped
+ -- powLimit/8·100000/T (oracle: 0x1c02a53d-ish, differs).
+ example : nextWorkRequired tn4 (getOf fastArr) 2015 (genesisTime + 100001)
+-    = some 0x1c07fff8 := by native_decide
++    = some 0x1c07fff8 := by decide +kernel
+ 
+ -- Upper clamp arm: timespan 5T behaves like 4T ⇒ target (powLimit/8)·4 =
+ -- powLimit/2 (0x1c7fff80), NOT the uncapped powLimit·5/8 (0x1d009fff).
+ example : nextWorkRequired tn4 (getOf slowArr) 2015 (genesisTime + 6048001)
+-    = some 0x1c7fff80 := by native_decide
++    = some 0x1c7fff80 := by decide +kernel
+ 
+ -- BLK-048 cap: base = powLimit over exactly 4T ⇒ exactly powLimit
+ -- (a no-cap mutant re-encodes 0x1d03fffc per the oracle).
+ example : nextWorkRequired tn4 (getOf capArr) 2015 (genesisTime + 4838401)
+-    = some 0x1d00ffff := by native_decide
++    = some 0x1d00ffff := by decide +kernel
+ 
+ -- BLK-049: fPowNoRetargeting copies the last nBits wholesale (regtest).
+ example : nextWorkRequired { tn4 with fPowNoRetargeting := true }
+-    (getOf stormArr) 4031 (tFirst2 + 1209601) = some 0x1d00ffff := by native_decide
++    (getOf stormArr) 4031 (tFirst2 + 1209601) = some 0x1d00ffff := by decide +kernel
+ 
+ -- BLK-043 copy arm (mainnet: no min-difficulty machinery): non-boundary
+ -- blocks copy pindexLast's nBits whatever the gap.
+ example : nextWorkRequired mainnetParams gapGet 5002 1720000550
+-    = some 0x1d00ffff := by native_decide
++    = some 0x1d00ffff := by decide +kernel
+ 
+ /-! ## C1 — 20-minute exception (BLK-053) and walk-back (BLK-054) -/
+ 
+ -- Gap exactly 1200 s: NOT an exception (strictly greater than 2× spacing).
+-example : nextWorkRequired tn4 gapGet 5000 1720001200 = some 0x1c3fffc0 := by native_decide
++example : nextWorkRequired tn4 gapGet 5000 1720001200 = some 0x1c3fffc0 := by decide +kernel
+ 
+ -- Gap 1201 s: MUST be min-difficulty. (Kill: `<` vs `≤` mutants flip V5/V6.)
+-example : nextWorkRequired tn4 gapGet 5000 1720001201 = some 0x1d00ffff := by native_decide
++example : nextWorkRequired tn4 gapGet 5000 1720001201 = some 0x1d00ffff := by decide +kernel
+ 
+ -- Gap 1199 s: real difficulty.
+-example : nextWorkRequired tn4 gapGet 5000 1720001199 = some 0x1c3fffc0 := by native_decide
++example : nextWorkRequired tn4 gapGet 5000 1720001199 = some 0x1c3fffc0 := by decide +kernel
+ 
+ -- BLK-054 walk-back: consecutive min-difficulty blocks fall back to the
+ -- last real-difficulty ancestor (5000), not the immediate predecessor.
+-example : nextWorkRequired tn4 gapGet 5002 1720000550 = some 0x1c3fffc0 := by native_decide
++example : nextWorkRequired tn4 gapGet 5002 1720000550 = some 0x1c3fffc0 := by decide +kernel
+ 
+ -- The walk-back STOPS at a height%2016=0 block even when that block itself
+ -- carries min-difficulty bits (4032) — 4031's real bits are never consulted.
+ example : nextWorkRequired tn4 stopGet 4132 1720000550 = some 0x1d00ffff := by
+-  native_decide
++  decide +kernel
+ 
+ -- Immediate stop: pindexLast ITSELF is the min-difficulty boundary block —
+ -- the walk-back terminates there (kills a "walk one past the boundary"
+ -- mutant, which would return 4031's real bits 0x1c3fffc0).
+ example : nextWorkRequired tn4 stopGet 4032 1720000550 = some 0x1d00ffff := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ## C4 — time-warp guard (BLK-055): the −600 s edge -/
+ 
+@@ -242,13 +242,13 @@
+ /-! ## Chainwork (BLK-113/114) — the reorg-safety side of the BIP94 rationale -/
+ 
+ -- Exact work values: difficulty-1 = 4295032833; difficulty-4 = 4× exactly.
+-example : workOf 0x1d00ffff = 4295032833 := by native_decide
+-example : workOf 0x1c3fffc0 = 17180131332 := by native_decide
+-example : workOf 0x1c3fffc0 = 4 * workOf 0x1d00ffff := by native_decide
++example : workOf 0x1d00ffff = 4295032833 := by decide +kernel
++example : workOf 0x1c3fffc0 = 17180131332 := by decide +kernel
++example : workOf 0x1c3fffc0 = 4 * workOf 0x1d00ffff := by decide +kernel
+ 
+ -- Two 20-minute-exception blocks contribute LESS work than one block mined
+ -- at the period's actual difficulty — why min-diff blocks lose reorg races.
+-example : chainWork [0x1d00ffff, 0x1d00ffff] < chainWork [0x1c3fffc0] := by native_decide
++example : chainWork [0x1d00ffff, 0x1d00ffff] < chainWork [0x1c3fffc0] := by decide +kernel
+ 
+ -- Out-of-range decode ⇒ zero work (chain.cpp:126-127): overflow, negative,
+ -- and zero-target encodings.
+--- a/BitcoinProofs/Property/Y03/Property.lean
++++ b/BitcoinProofs/Property/Y03/Property.lean
+@@ -330,14 +330,14 @@
+ example : parseScript ⟨c04⟩ = some ops_c04 := by decide
+ example : parseScript ⟨c05⟩ = some ops_c05 := by decide
+ example : parseScript ⟨c06⟩ = some ops_c06 := by decide
+-example : parseScript ⟨c07⟩ = some ops_c07 := by native_decide
+-example : parseScript ⟨c08⟩ = some ops_c08 := by native_decide
++example : parseScript ⟨c07⟩ = some ops_c07 := by decide +kernel
++example : parseScript ⟨c08⟩ = some ops_c08 := by decide +kernel
+ example : parseScript ⟨c09⟩ = some ops_c09 := by decide
+-example : parseScript ⟨c10⟩ = some ops_c10 := by native_decide
++example : parseScript ⟨c10⟩ = some ops_c10 := by decide +kernel
+ example : parseScript ⟨c11⟩ = some ops_c11 := by decide
+ example : parseScript ⟨c12⟩ = some ops_c12 := by decide
+-example : parseScript ⟨c13⟩ = some ops_c13 := by native_decide
+-example : parseScript ⟨c14⟩ = some ops_c14 := by native_decide
++example : parseScript ⟨c13⟩ = some ops_c13 := by decide +kernel
++example : parseScript ⟨c14⟩ = some ops_c14 := by decide +kernel
+ example : parseScript ⟨c15⟩ = none := by decide
+ example : parseScript ⟨c16⟩ = none := by decide
+ example : parseScript ⟨c17⟩ = none := by decide
+@@ -349,8 +349,8 @@
+ example : parseScript ⟨c23⟩ = some ops_c23 := by decide
+ example : parseScript ⟨c24⟩ = some ops_c24 := by decide
+ example : parseScript ⟨c25⟩ = some ops_c25 := by decide
+-example : parseScript ⟨c26⟩ = some ops_c26 := by native_decide
+-example : parseScript ⟨c27⟩ = some ops_c27 := by native_decide
++example : parseScript ⟨c26⟩ = some ops_c26 := by decide +kernel
++example : parseScript ⟨c27⟩ = some ops_c27 := by decide +kernel
+ example : parseScript ⟨c28⟩ = some ops_c28 := by decide
+ example : parseScript ⟨c29⟩ = none := by decide
+ example : parseScript ⟨c30⟩ = some ops_c30 := by decide
+@@ -359,46 +359,46 @@
+ example : parseScript ⟨c33⟩ = some ops_c33 := by decide
+ example : parseScript ⟨c34⟩ = some ops_c34 := by decide
+ example : parseScript ⟨c35⟩ = none := by decide
+-example : parseScript ⟨k01⟩ = some ops_k01 := by native_decide
++example : parseScript ⟨k01⟩ = some ops_k01 := by decide +kernel
+ example : parseScript ⟨k02⟩ = some ops_k02 := by decide
+ example : parseScript ⟨k03⟩ = some ops_k03 := by decide
+ example : parseScript ⟨r01⟩ = none := by decide
+-example : parseScript ⟨r02⟩ = some ops_r02 := by native_decide
+-example : parseScript ⟨r03⟩ = none := by native_decide
+-example : parseScript ⟨r04⟩ = some ops_r04 := by native_decide
++example : parseScript ⟨r02⟩ = some ops_r02 := by decide +kernel
++example : parseScript ⟨r03⟩ = none := by decide +kernel
++example : parseScript ⟨r04⟩ = some ops_r04 := by decide +kernel
+ example : parseScript ⟨r05⟩ = some ops_r05 := by decide
+ example : parseScript ⟨r06⟩ = none := by decide
+-example : parseScript ⟨r07⟩ = some ops_r07 := by native_decide
++example : parseScript ⟨r07⟩ = some ops_r07 := by decide +kernel
+ example : parseScript ⟨r08⟩ = none := by decide
+ example : parseScript ⟨r09⟩ = some ops_r09 := by decide
+-example : parseScript ⟨r10⟩ = some ops_r10 := by native_decide
+-example : parseScript ⟨r11⟩ = some ops_r11 := by native_decide
++example : parseScript ⟨r10⟩ = some ops_r10 := by decide +kernel
++example : parseScript ⟨r11⟩ = some ops_r11 := by decide +kernel
+ example : parseScript ⟨r12⟩ = none := by decide
+-example : parseScript ⟨r13⟩ = none := by native_decide
+-example : parseScript ⟨r14⟩ = none := by native_decide
+-example : parseScript ⟨r15⟩ = none := by native_decide
+-example : parseScript ⟨r16⟩ = none := by native_decide
++example : parseScript ⟨r13⟩ = none := by decide +kernel
++example : parseScript ⟨r14⟩ = none := by decide +kernel
++example : parseScript ⟨r15⟩ = none := by decide +kernel
++example : parseScript ⟨r16⟩ = none := by decide +kernel
+ example : parseScript ⟨r17⟩ = some ops_r17 := by decide
+ example : parseScript ⟨r18⟩ = some ops_r18 := by decide
+ example : parseScript ⟨r19⟩ = none := by decide
+ example : parseScript ⟨r20⟩ = none := by decide
+-example : parseScript ⟨r21⟩ = none := by native_decide
++example : parseScript ⟨r21⟩ = none := by decide +kernel
+ example : parseScript ⟨r22⟩ = none := by decide
+-example : parseScript ⟨r23⟩ = some ops_r23 := by native_decide
+-example : parseScript ⟨r24⟩ = none := by native_decide
+-example : parseScript ⟨r25⟩ = some ops_r25 := by native_decide
+-example : parseScript ⟨r26⟩ = some ops_r26 := by native_decide
++example : parseScript ⟨r23⟩ = some ops_r23 := by decide +kernel
++example : parseScript ⟨r24⟩ = none := by decide +kernel
++example : parseScript ⟨r25⟩ = some ops_r25 := by decide +kernel
++example : parseScript ⟨r26⟩ = some ops_r26 := by decide +kernel
+ example : parseScript ⟨r27⟩ = none := by decide
+ example : parseScript ⟨r28⟩ = none := by decide
+-example : parseScript ⟨r29⟩ = some ops_r29 := by native_decide
++example : parseScript ⟨r29⟩ = some ops_r29 := by decide +kernel
+ example : parseScript ⟨r30⟩ = none := by decide
+-example : parseScript ⟨r31⟩ = some ops_r31 := by native_decide
++example : parseScript ⟨r31⟩ = some ops_r31 := by decide +kernel
+ example : parseScript ⟨r32⟩ = none := by decide
+ example : parseScript ⟨r33⟩ = none := by decide
+ example : parseScript ⟨r34⟩ = none := by decide
+-example : parseScript ⟨r35⟩ = some ops_r35 := by native_decide
+-example : parseScript ⟨r36⟩ = some ops_r36 := by native_decide
+-example : parseScript ⟨r37⟩ = some ops_r37 := by native_decide
++example : parseScript ⟨r35⟩ = some ops_r35 := by decide +kernel
++example : parseScript ⟨r36⟩ = some ops_r36 := by decide +kernel
++example : parseScript ⟨r37⟩ = some ops_r37 := by decide +kernel
+ example : parseScript ⟨r38⟩ = none := by decide
+ example : parseScript ⟨r39⟩ = none := by decide
+ example : parseScript ⟨r40⟩ = none := by decide
+@@ -411,28 +411,28 @@
+ example : serializeOpcodes ops_c04 = c04 := by decide
+ example : serializeOpcodes ops_c05 = c05 := by decide
+ example : serializeOpcodes ops_c06 = c06 := by decide
+-example : serializeOpcodes ops_c07 = c07 := by native_decide
+-example : serializeOpcodes ops_c08 = c08 := by native_decide
++example : serializeOpcodes ops_c07 = c07 := by decide +kernel
++example : serializeOpcodes ops_c08 = c08 := by decide +kernel
+ /-- canonical form the printer must emit for c09 -/
+ def canon_c09 : ByteArray := ByteArray.mk #[(0x00:UInt8)]
+ example : serializeOpcodes ops_c09 = canon_c09 := by decide
+-example : serializeOpcodes ops_c10 = c10 := by native_decide
++example : serializeOpcodes ops_c10 = c10 := by decide +kernel
+ /-- canonical form the printer must emit for c11 -/
+ def canon_c11 : ByteArray := ByteArray.mk #[(0x00:UInt8)]
+ example : serializeOpcodes ops_c11 = canon_c11 := by decide
+ /-- canonical form the printer must emit for c12 -/
+ def canon_c12 : ByteArray := ByteArray.mk #[(0x00:UInt8)]
+ example : serializeOpcodes ops_c12 = canon_c12 := by decide
+-example : serializeOpcodes ops_c13 = c13 := by native_decide
++example : serializeOpcodes ops_c13 = c13 := by decide +kernel
+ /-- canonical form the printer must emit for c14 -/
+ def canon_c14 : ByteArray := ByteArray.mk #[(0x4d:UInt8), (0x2c:UInt8), (0x01:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8), (0x22:UInt8)]
+-example : serializeOpcodes ops_c14 = canon_c14 := by native_decide
++example : serializeOpcodes ops_c14 = canon_c14 := by decide +kernel
+ example : serializeOpcodes ops_c22 = c22 := by decide
+ example : serializeOpcodes ops_c23 = c23 := by decide
+ example : serializeOpcodes ops_c24 = c24 := by decide
+ example : serializeOpcodes ops_c25 = c25 := by decide
+-example : serializeOpcodes ops_c26 = c26 := by native_decide
+-example : serializeOpcodes ops_c27 = c27 := by native_decide
++example : serializeOpcodes ops_c26 = c26 := by decide +kernel
++example : serializeOpcodes ops_c27 = c27 := by decide +kernel
+ example : serializeOpcodes ops_c28 = c28 := by decide
+ example : serializeOpcodes ops_c30 = c30 := by decide
+ /-- canonical form the printer must emit for c31 -/
+@@ -445,30 +445,30 @@
+ def canon_c33 : ByteArray := ByteArray.mk #[(0x05:UInt8), (0x03:UInt8), (0x03:UInt8), (0x03:UInt8), (0x03:UInt8), (0x03:UInt8)]
+ example : serializeOpcodes ops_c33 = canon_c33 := by decide
+ example : serializeOpcodes ops_c34 = c34 := by decide
+-example : serializeOpcodes ops_k01 = k01 := by native_decide
++example : serializeOpcodes ops_k01 = k01 := by decide +kernel
+ example : serializeOpcodes ops_k02 = k02 := by decide
+ example : serializeOpcodes ops_k03 = k03 := by decide
+-example : serializeOpcodes ops_r02 = r02 := by native_decide
++example : serializeOpcodes ops_r02 = r02 := by decide +kernel
+ /-- canonical form the printer must emit for r04 -/
+ def canon_r04 : ByteArray := ByteArray.mk #[(0x4c:UInt8), (0x4c:UInt8), (0x3f:UInt8), (0x51:UInt8), (0x52:UInt8), (0x70:UInt8), (0x10:UInt8), (0x20:UInt8), (0x82:UInt8), (0xbc:UInt8), (0xd2:UInt8), (0x98:UInt8), (0x70:UInt8), (0x9b:UInt8), (0x54:UInt8), (0x35:UInt8), (0xd1:UInt8), (0x79:UInt8), (0xea:UInt8), (0xa5:UInt8), (0xe6:UInt8), (0x06:UInt8), (0x73:UInt8), (0x7d:UInt8), (0xe2:UInt8), (0x10:UInt8), (0x64:UInt8), (0xca:UInt8), (0x6e:UInt8), (0x0a:UInt8), (0xaf:UInt8), (0xe7:UInt8), (0xd4:UInt8), (0xae:UInt8), (0xfd:UInt8), (0x4f:UInt8), (0xb0:UInt8), (0xf5:UInt8), (0xa7:UInt8), (0xff:UInt8), (0x6b:UInt8), (0xea:UInt8), (0x15:UInt8), (0x7a:UInt8), (0xbd:UInt8), (0xee:UInt8), (0xf1:UInt8), (0x67:UInt8), (0x67:UInt8), (0xf8:UInt8), (0x88:UInt8), (0xa5:UInt8), (0x87:UInt8), (0x50:UInt8), (0xdc:UInt8), (0xbf:UInt8), (0x32:UInt8), (0xd9:UInt8), (0x06:UInt8), (0x3e:UInt8), (0x34:UInt8), (0xd7:UInt8), (0x5e:UInt8), (0xf9:UInt8), (0xcb:UInt8), (0x59:UInt8), (0x00:UInt8), (0x05:UInt8), (0x68:UInt8), (0x0f:UInt8), (0xf2:UInt8), (0xdc:UInt8), (0x36:UInt8), (0x86:UInt8), (0xb0:UInt8), (0x3d:UInt8), (0x95:UInt8), (0x0a:UInt8), (0x07:UInt8), (0x6f:UInt8), (0xa9:UInt8), (0x4d:UInt8), (0xef:UInt8), (0xe6:UInt8), (0x33:UInt8), (0x7b:UInt8), (0x05:UInt8), (0x1a:UInt8), (0x03:UInt8), (0xb6:UInt8), (0x41:UInt8), (0xb0:UInt8), (0x4b:UInt8), (0x86:UInt8), (0xec:UInt8), (0xe9:UInt8), (0x71:UInt8), (0xe3:UInt8), (0x10:UInt8), (0xc8:UInt8), (0x9b:UInt8), (0x06:UInt8), (0x23:UInt8), (0xbf:UInt8), (0xec:UInt8), (0xf8:UInt8), (0xd3:UInt8), (0x55:UInt8), (0xb5:UInt8), (0xe0:UInt8), (0xdc:UInt8), (0x5f:UInt8), (0x35:UInt8), (0x8b:UInt8), (0x1a:UInt8), (0xef:UInt8), (0x6c:UInt8), (0x8d:UInt8), (0x31:UInt8), (0xbb:UInt8), (0x65:UInt8), (0xfe:UInt8), (0x1b:UInt8), (0xab:UInt8), (0xd8:UInt8), (0xcf:UInt8), (0x29:UInt8), (0xda:UInt8), (0xa8:UInt8), (0x0c:UInt8), (0xaa:UInt8), (0xeb:UInt8), (0xc9:UInt8), (0x00:UInt8), (0xa7:UInt8), (0x23:UInt8), (0x2d:UInt8), (0xcc:UInt8), (0x2c:UInt8), (0xc6:UInt8), (0x43:UInt8), (0x67:UInt8), (0x5d:UInt8), (0xe8:UInt8), (0x8f:UInt8), (0xd3:UInt8), (0x5f:UInt8), (0x71:UInt8), (0xa3:UInt8), (0xe7:UInt8), (0x91:UInt8), (0x54:UInt8), (0x8b:UInt8), (0x3f:UInt8), (0x4f:UInt8), (0xcf:UInt8), (0x78:UInt8), (0x9d:UInt8), (0x9d:UInt8), (0x87:UInt8), (0x40:UInt8), (0x63:UInt8), (0xa3:UInt8), (0xb7:UInt8), (0xeb:UInt8), (0x21:UInt8), (0x6a:UInt8), (0xbf:UInt8), (0x00:UInt8), (0x4b:UInt8), (0x9c:UInt8), (0x58:UInt8), (0xe1:UInt8), (0x7e:UInt8), (0x42:UInt8), (0x75:UInt8), (0xb1:UInt8), (0x19:UInt8), (0x5d:UInt8), (0x81:UInt8), (0xfa:UInt8), (0xf6:UInt8), (0x7e:UInt8), (0x6c:UInt8), (0x1e:UInt8), (0x97:UInt8), (0x9d:UInt8), (0x4c:UInt8), (0x7d:UInt8), (0xe7:UInt8), (0x18:UInt8), (0x09:UInt8), (0xd7:UInt8), (0xef:UInt8), (0x29:UInt8), (0x63:UInt8), (0x1b:UInt8), (0xee:UInt8), (0x00:UInt8), (0x9f:UInt8), (0xcd:UInt8), (0xd7:UInt8), (0xa7:UInt8), (0x09:UInt8), (0x12:UInt8), (0x07:UInt8), (0xf4:UInt8), (0xa7:UInt8), (0xb4:UInt8), (0x2c:UInt8), (0xc5:UInt8), (0x49:UInt8), (0x5b:UInt8), (0xe3:UInt8), (0xb1:UInt8), (0xa0:UInt8), (0x83:UInt8), (0xcc:UInt8), (0x77:UInt8), (0x1f:UInt8), (0x3b:UInt8), (0xcc:UInt8), (0x19:UInt8), (0xba:UInt8), (0x69:UInt8), (0x41:UInt8), (0x30:UInt8), (0x59:UInt8), (0xf7:UInt8), (0x51:UInt8), (0xbd:UInt8), (0x5b:UInt8), (0x64:UInt8), (0x66:UInt8), (0xef:UInt8), (0x01:UInt8), (0x45:UInt8), (0x5d:UInt8), (0x17:UInt8), (0x88:UInt8), (0xfe:UInt8), (0x93:UInt8), (0x67:UInt8), (0x9a:UInt8), (0x65:UInt8)]
+-example : serializeOpcodes ops_r04 = canon_r04 := by native_decide
++example : serializeOpcodes ops_r04 = canon_r04 := by decide +kernel
+ example : serializeOpcodes ops_r05 = r05 := by decide
+-example : serializeOpcodes ops_r07 = r07 := by native_decide
++example : serializeOpcodes ops_r07 = r07 := by decide +kernel
+ example : serializeOpcodes ops_r09 = r09 := by decide
+-example : serializeOpcodes ops_r10 = r10 := by native_decide
+-example : serializeOpcodes ops_r11 = r11 := by native_decide
++example : serializeOpcodes ops_r10 = r10 := by decide +kernel
++example : serializeOpcodes ops_r11 = r11 := by decide +kernel
+ example : serializeOpcodes ops_r17 = r17 := by decide
+ example : serializeOpcodes ops_r18 = r18 := by decide
+-example : serializeOpcodes ops_r23 = r23 := by native_decide
++example : serializeOpcodes ops_r23 = r23 := by decide +kernel
+ /-- canonical form the printer must emit for r25 -/
+ def canon_r25 : ByteArray := ByteArray.mk #[(0x05:UInt8), (0xbc:UInt8), (0x43:UInt8), (0xd2:UInt8), (0x02:UInt8), (0x0f:UInt8), (0x01:UInt8), (0x1d:UInt8), (0x0b:UInt8), (0x13:UInt8), (0xbf:UInt8), (0x76:UInt8), (0x05:UInt8), (0x10:UInt8), (0x7a:UInt8), (0x9b:UInt8), (0x79:UInt8), (0x1e:UInt8), (0x9f:UInt8), (0x6b:UInt8), (0x02:UInt8), (0x97:UInt8), (0xa9:UInt8), (0x05:UInt8), (0x9b:UInt8), (0x50:UInt8), (0xdd:UInt8), (0x7f:UInt8), (0x6c:UInt8), (0x12:UInt8), (0xd7:UInt8), (0xfe:UInt8), (0xae:UInt8), (0x88:UInt8), (0xf0:UInt8), (0x88:UInt8), (0x4f:UInt8), (0x38:UInt8), (0xd9:UInt8), (0x19:UInt8), (0x46:UInt8), (0xf6:UInt8), (0x90:UInt8), (0x96:UInt8), (0x23:UInt8), (0xc4:UInt8), (0xd7:UInt8), (0x7b:UInt8)]
+-example : serializeOpcodes ops_r25 = canon_r25 := by native_decide
+-example : serializeOpcodes ops_r26 = r26 := by native_decide
+-example : serializeOpcodes ops_r29 = r29 := by native_decide
+-example : serializeOpcodes ops_r31 = r31 := by native_decide
+-example : serializeOpcodes ops_r35 = r35 := by native_decide
+-example : serializeOpcodes ops_r36 = r36 := by native_decide
+-example : serializeOpcodes ops_r37 = r37 := by native_decide
++example : serializeOpcodes ops_r25 = canon_r25 := by decide +kernel
++example : serializeOpcodes ops_r26 = r26 := by decide +kernel
++example : serializeOpcodes ops_r29 = r29 := by decide +kernel
++example : serializeOpcodes ops_r31 = r31 := by decide +kernel
++example : serializeOpcodes ops_r35 = r35 := by decide +kernel
++example : serializeOpcodes ops_r36 = r36 := by decide +kernel
++example : serializeOpcodes ops_r37 = r37 := by decide +kernel
+ 
+ /-! ## T: print -> reparse roundtrip (instances of the frozen law) -/
+ 
+@@ -478,46 +478,46 @@
+ example : parseScript ⟨serializeOpcodes ops_c04⟩ = some ops_c04 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c05⟩ = some ops_c05 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c06⟩ = some ops_c06 := by decide
+-example : parseScript ⟨serializeOpcodes ops_c07⟩ = some ops_c07 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_c08⟩ = some ops_c08 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_c07⟩ = some ops_c07 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_c08⟩ = some ops_c08 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_c09⟩ = some ops_c09 := by decide
+-example : parseScript ⟨serializeOpcodes ops_c10⟩ = some ops_c10 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_c10⟩ = some ops_c10 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_c11⟩ = some ops_c11 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c12⟩ = some ops_c12 := by decide
+-example : parseScript ⟨serializeOpcodes ops_c13⟩ = some ops_c13 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_c14⟩ = some ops_c14 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_c13⟩ = some ops_c13 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_c14⟩ = some ops_c14 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_c22⟩ = some ops_c22 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c23⟩ = some ops_c23 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c24⟩ = some ops_c24 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c25⟩ = some ops_c25 := by decide
+-example : parseScript ⟨serializeOpcodes ops_c26⟩ = some ops_c26 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_c27⟩ = some ops_c27 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_c26⟩ = some ops_c26 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_c27⟩ = some ops_c27 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_c28⟩ = some ops_c28 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c30⟩ = some ops_c30 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c31⟩ = some ops_c31 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c32⟩ = some ops_c32 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c33⟩ = some ops_c33 := by decide
+ example : parseScript ⟨serializeOpcodes ops_c34⟩ = some ops_c34 := by decide
+-example : parseScript ⟨serializeOpcodes ops_k01⟩ = some ops_k01 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_k01⟩ = some ops_k01 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_k02⟩ = some ops_k02 := by decide
+ example : parseScript ⟨serializeOpcodes ops_k03⟩ = some ops_k03 := by decide
+-example : parseScript ⟨serializeOpcodes ops_r02⟩ = some ops_r02 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r04⟩ = some ops_r04 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_r02⟩ = some ops_r02 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r04⟩ = some ops_r04 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_r05⟩ = some ops_r05 := by decide
+-example : parseScript ⟨serializeOpcodes ops_r07⟩ = some ops_r07 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_r07⟩ = some ops_r07 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_r09⟩ = some ops_r09 := by decide
+-example : parseScript ⟨serializeOpcodes ops_r10⟩ = some ops_r10 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r11⟩ = some ops_r11 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_r10⟩ = some ops_r10 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r11⟩ = some ops_r11 := by decide +kernel
+ example : parseScript ⟨serializeOpcodes ops_r17⟩ = some ops_r17 := by decide
+ example : parseScript ⟨serializeOpcodes ops_r18⟩ = some ops_r18 := by decide
+-example : parseScript ⟨serializeOpcodes ops_r23⟩ = some ops_r23 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r25⟩ = some ops_r25 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r26⟩ = some ops_r26 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r29⟩ = some ops_r29 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r31⟩ = some ops_r31 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r35⟩ = some ops_r35 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r36⟩ = some ops_r36 := by native_decide
+-example : parseScript ⟨serializeOpcodes ops_r37⟩ = some ops_r37 := by native_decide
++example : parseScript ⟨serializeOpcodes ops_r23⟩ = some ops_r23 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r25⟩ = some ops_r25 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r26⟩ = some ops_r26 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r29⟩ = some ops_r29 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r31⟩ = some ops_r31 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r35⟩ = some ops_r35 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r36⟩ = some ops_r36 := by decide +kernel
++example : parseScript ⟨serializeOpcodes ops_r37⟩ = some ops_r37 := by decide +kernel
+ 
+ /-! ## 520-byte element-size boundary (SCR-045), compiled eval -/
+ 
+@@ -526,7 +526,7 @@
+ def ops520 : List Opcode := [Opcode.pushBytes (bz 520)]
+ 
+ example : parseScript ⟨serializeOpcodes ops520⟩ = some ops520 :=
+-  by native_decide
++  by decide +kernel
+ 
+ /-! ## K: opcodeCount hook (SCR-024; wire byte > 0x60 counts) -/
+ 
+--- a/BitcoinProofs/Property/Y08/Probe.lean
++++ b/BitcoinProofs/Property/Y08/Probe.lean
+@@ -51,12 +51,12 @@
+ example : (sha256 ByteArray.empty).data.toList.map (·.toNat) =
+     [0xe3, 0xb0, 0xc4, 0x42, 0x98, 0xfc, 0x1c, 0x14, 0x9a, 0xfb, 0xf4, 0xc8,
+      0x99, 0x6f, 0xb9, 0x24, 0x27, 0xae, 0x41, 0xe4, 0x64, 0x9b, 0x93, 0x4c,
+-     0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55] := by native_decide
++     0xa4, 0x95, 0x99, 0x1b, 0x78, 0x52, 0xb8, 0x55] := by decide +kernel
+ 
+ -- P3b: double SHA-256 of a 64-byte message (2 blocks × 2 passes)
+ example : (sha256d (fromHex "01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")).data.toList.map (·.toNat) =
+     (fromHex "61a088b4cf1f244e52e5e88fcd91b3b7d6135ebff53476ecc8436e23b5e7f095").data.toList.map (·.toNat) := by
+-  native_decide
++  decide +kernel
+ 
+ -- P3c: full legacy digest via bytesBEq (the corpus assertion form)
+ private def txProbe : Tx :=
+@@ -69,6 +69,6 @@
+ 
+ example : bytesBEq (signatureHashLegacy txProbe 0 ⟨fromHex "51"⟩ 0x01)
+     (fromHex "b5dbf95b731a8f5a5db7ddc1fc100ad4d625f63a843ef15c791dcbf577ed63b4") = true := by
+-  native_decide
++  decide +kernel
+ 
+ end BitcoinProofs.Property.Y08.Probe
+--- a/BitcoinProofs/Property/Y08/SighashLegacyProps.lean
++++ b/BitcoinProofs/Property/Y08/SighashLegacyProps.lean
+@@ -101,7 +101,7 @@
+ /-- Regression for the constant itself: the expected overflow value used by
+ the B/F rows is exactly the digest constant returned by the model. -/
+ theorem one256_eq_singleOverflowOneB : one256 = singleOverflowOneB := by
+-  native_decide
++  decide +kernel
+ /-- Zero hash — Lean totalization of an out-of-range nIn. -/
+ private def zero256 : ByteArray := fromHex "0000000000000000000000000000000000000000000000000000000000000000"
+ 
+--- a/BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean
++++ b/BitcoinProofs/Theorems/Exhaust/MerkleShapes64.lean
+@@ -224,9 +224,9 @@
+ 
+ theorem row_1 : rowCheck 1 = true := rfl
+ 
+-theorem row_2 : rowCheck 2 = true := by native_decide
++theorem row_2 : rowCheck 2 = true := by decide +kernel
+ 
+-theorem row_3 : rowCheck 3 = true := by native_decide
++theorem row_3 : rowCheck 3 = true := by decide +kernel
+ 
+ /-! ## THE 64-ROW MATRIX -/
+ 

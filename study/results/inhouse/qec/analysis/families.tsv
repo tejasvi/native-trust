@@ -1,0 +1,54 @@
+family	facts	converted	blocked	resource	resource_sampled	other	not_run	heavy_rerun	cpu_h	max_secs_p1	max_peak_kb_p1	static_blockers
+QEC.checkAll_native	1	1	0	0	0	0	0	0	0.000	1	2998096	
+cover8	28	0	0	1	27	0	0	0	0.250	901		
+coverH2	28	0	0	1	27	0	0	0	0.250	901		
+coverHe	28	0	0	1	27	0	0	0	0.250	901		
+coverHl	28	0	0	1	27	0	0	0	0.250	901		
+coverL	28	0	0	1	27	0	0	0	0.250	901		
+critOKH2_native	1	1	0	0	0	0	0	0	0.001	2	4002344	
+critOKHl_native	1	1	0	0	0	0	0	0	0.001	2	4000628	
+critOKL_native	1	1	0	0	0	0	0	0	0.001	2	3821044	
+heads8	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+heads8_size	1	0	0	1	0	0	0	0	0.250	901		
+headsH2	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsHe	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsHl	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsL	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsS8	40	0	0	1	39	0	0	1	1.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsSH2	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsSHe	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsSHl	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+headsSL	40	0	0	1	39	0	0	0	0.250	901		Float.log(40);System.Platform.getNumBits(40);mixHash(40)
+nfl_X	5	5	0	0	0	0	0	0	0.350	697	18231112	
+nfl_Z	5	5	0	0	0	0	0	0	0.346	684	18423180	
+nmaxOKH2	1	1	0	0	0	0	0	0	0.000	2	3930632	
+nmaxOKHe	1	1	0	0	0	0	0	0	0.000	2	3929900	
+nmaxOKHl	1	1	0	0	0	0	0	0	0.000	2	3930488	
+nmaxOKL	1	1	0	0	0	0	0	0	0.000	2	3916636	
+nmaxOKS8	1	1	0	0	0	0	0	0	0.001	2	3909104	
+nmaxOKSH2	1	1	0	0	0	0	0	0	0.000	2	3931596	
+nmaxOKSHe	1	1	0	0	0	0	0	0	0.001	2	3931704	
+nmaxOKSHl	1	1	0	0	0	0	0	0	0.001	2	3931636	
+nmaxOKSL	1	1	0	0	0	0	0	0	0.001	2	3931088	
+nty_X	25	25	0	0	0	0	0	0	0.493	263	9685812	
+nty_Z	25	25	0	0	0	0	0	0	0.495	275	10334976	
+tabCheckH2	1	0	0	1	0	0	0	1	0.122	150	53777436	
+tabCheckHe	1	0	0	1	0	0	0	1	0.121	148	53777532	
+tabCheckHl	1	0	0	1	0	0	0	1	0.121	147	53778356	
+tabCheckL	1	0	0	1	0	0	0	1	0.121	149	53776916	
+tabCheckP8	1	0	0	1	0	0	0	1	0.121	150	53600592	
+tabCheckPH2	1	0	0	1	0	0	0	1	0.122	151	53779280	
+tabCheckPHe	1	0	0	1	0	0	0	1	0.120	150	53780228	
+tabCheckPHl	1	0	0	1	0	0	0	1	0.121	148	53780008	
+tabCheckPL	1	0	0	1	0	0	0	1	0.121	148	53780336	
+tabCheck_native	1	0	0	1	0	0	0	1	0.122	151	53582784	
+wOK8	1	1	0	0	0	0	0	0	0.017	60	3664524	
+wOKH2	1	0	0	1	0	0	0	1	0.147	193	51676168	
+wOKHe	1	0	0	1	0	0	0	1	0.152	201	51676704	
+wOKHl	1	0	0	1	0	0	0	1	0.149	194	51675468	
+wOKL	1	1	0	0	0	0	0	0	0.071	257	7974088	
+wOKS8	1	1	0	0	0	0	0	0	0.102	366	16781812	
+wOKSH2	1	0	0	1	0	0	0	1	0.148	200	51676980	
+wOKSHe	1	0	0	1	0	0	0	1	0.447	901		
+wOKSHl	1	0	0	1	0	0	0	1	0.150	194	51676904	
+wOKSL	1	1	0	0	0	0	0	0	0.077	276	7975464	

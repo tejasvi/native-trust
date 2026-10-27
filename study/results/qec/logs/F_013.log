@@ -1,0 +1,4 @@
+kernelize: `nty_X_13_2_1.kernel` proves the statement of `nty_X_13_2_1` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (241555 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 241574 ms in total.
+time 243.21 s wall 235.66 s user 7224044 KB
+exit 0

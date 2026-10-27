@@ -1,0 +1,655 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Zcash.Arithmetic +Zcash.Arithmetic.CommitLagrange +Zcash.Arithmetic.Domain +Zcash.Arithmetic.FastMsm +Zcash.Arithmetic.Fft +Zcash.Arithmetic.FftSpec +Zcash.Arithmetic.Field +Zcash.Arithmetic.Group +Zcash.Arithmetic.InvDft +Zcash.Arithmetic.LagrangeBasis +Zcash.Arithmetic.Msm +Zcash.Arithmetic.NatKernel +Zcash.Arithmetic.NatKernelEquiv +Zcash.Arithmetic.ScalarInvDft +Zcash.Arithmetic.VestaModule +Zcash.Circuits.Action.AddressIntegrity +Zcash.Circuits.Action.Bundle +Zcash.Circuits.Action.Circuit +Zcash.Circuits.Action.CircuitPreNU63 +Zcash.Circuits.Action.ConfigureCertificates +Zcash.Circuits.Action.DeriveNullifier +Zcash.Circuits.Action.PublicInput +Zcash.Circuits.Action.RealBases +Zcash.Circuits.Action.Separation +Zcash.Circuits.Action.Shape +Zcash.Circuits.Action.Shape.Anchors +Zcash.Circuits.Action.Shape.Compilation +Zcash.Circuits.Action.Shape.Planner +Zcash.Circuits.Action.Shape.PlannerSort +Zcash.Circuits.Action.Shape.PlannerSortBridge +Zcash.Circuits.Action.Shape.PlannerTrace +Zcash.Circuits.Action.Shape.PlannerTraceBridge +Zcash.Circuits.Action.Shape.PlannerTraceCertificate +Zcash.Circuits.Action.Shape.PlannerTraceData +Zcash.Circuits.Action.Shape.SelectorPacking +Zcash.Circuits.Action.Spec +Zcash.Circuits.Action.SpendAuthority +Zcash.Circuits.Action.TopLevel +Zcash.Circuits.Action.ValueCommit +Zcash.Circuits.CommitIvk.Bundle +Zcash.Circuits.CommitIvk.ChunkTheorems +Zcash.Circuits.CommitIvk.Composite +Zcash.Circuits.CommitIvk.Gate +Zcash.Circuits.CommitIvk.GateTheorems +Zcash.Circuits.CommitIvk.Main +Zcash.Circuits.CommitIvk.MainBundle +Zcash.Circuits.CommitIvk.MainTheorems +Zcash.Circuits.Ecc.Add +Zcash.Circuits.Ecc.AddIncomplete +Zcash.Circuits.Ecc.AddIncompleteTheorems +Zcash.Circuits.Ecc.AddTheorems +Zcash.Circuits.Ecc.Basic +Zcash.Circuits.Ecc.Chip +Zcash.Circuits.Ecc.Defs +Zcash.Circuits.Ecc.DoubleAndAdd +Zcash.Circuits.Ecc.Mul +Zcash.Circuits.Ecc.MulAssignTheorems +Zcash.Circuits.Ecc.MulComplete +Zcash.Circuits.Ecc.MulCompleteTheorems +Zcash.Circuits.Ecc.MulFixed +Zcash.Circuits.Ecc.MulFixed.BaseFieldElem +Zcash.Circuits.Ecc.MulFixed.BaseFieldElemTheorems +Zcash.Circuits.Ecc.MulFixed.CertCheck +Zcash.Circuits.Ecc.MulFixed.Certs.CommitIvkR +Zcash.Circuits.Ecc.MulFixed.Certs.NoteCommitR +Zcash.Circuits.Ecc.MulFixed.Certs.NullifierK +Zcash.Circuits.Ecc.MulFixed.Certs.SpendAuthG +Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitR +Zcash.Circuits.Ecc.MulFixed.Certs.ValueCommitV +Zcash.Circuits.Ecc.MulFixed.FullWidth +Zcash.Circuits.Ecc.MulFixed.Short +Zcash.Circuits.Ecc.MulFixed.ShortTheorems +Zcash.Circuits.Ecc.MulFixed.Theorems +Zcash.Circuits.Ecc.MulIncomplete +Zcash.Circuits.Ecc.MulIncompleteRound +Zcash.Circuits.Ecc.MulIncompleteTheorems +Zcash.Circuits.Ecc.MulOverflow +Zcash.Circuits.Ecc.MulOverflowTheorems +Zcash.Circuits.Ecc.MulTheorems +Zcash.Circuits.Ecc.WitnessPoint +Zcash.Circuits.Integration.ActionConstraintBounds +Zcash.Circuits.Integration.ActionCopyReplay +Zcash.Circuits.Integration.ActionCopyWitness +Zcash.Circuits.Integration.ActionCorrectness +Zcash.Circuits.Integration.ActionEncoding +Zcash.Circuits.Integration.ActionPermutationCycle +Zcash.Circuits.Integration.ActionPermutationDomain +Zcash.Circuits.Integration.CircuitIntegration +Zcash.Circuits.Integration.CircuitSatisfaction +Zcash.Circuits.Integration.CopyListMembership +Zcash.Circuits.Integration.ExprRich +Zcash.Circuits.Integration.FixedColumns +Zcash.Circuits.Integration.FixedLayout +Zcash.Circuits.Integration.InstanceColumns +Zcash.Circuits.Integration.ListChunks +Zcash.Circuits.Integration.LookupProjection +Zcash.Circuits.Integration.LookupSelectorRows +Zcash.Circuits.Integration.OperationCopies +Zcash.Circuits.Integration.OperationFixed +Zcash.Circuits.Integration.OperationGates +Zcash.Circuits.Integration.OperationLookups +Zcash.Circuits.Integration.PermutationColumns +Zcash.Circuits.Integration.PermutationCompiler +Zcash.Circuits.Integration.PermutationReplay +Zcash.Circuits.Integration.PolynomialEnvironment +Zcash.Circuits.Integration.ResolverGates +Zcash.Circuits.Integration.ResolverQueryEnvironment +Zcash.Circuits.Integration.SelectorCoherence +Zcash.Circuits.Integration.TopLevelAssignment +Zcash.Circuits.Integration.TopLevelBridge +Zcash.Circuits.Integration.TopLevelCircuit +Zcash.Circuits.Integration.TopLevelCoherence +Zcash.Circuits.Integration.TopLevelConstraintModel +Zcash.Circuits.Integration.TopLevelCorrectness +Zcash.Circuits.Integration.TopLevelGates +Zcash.Circuits.Integration.TopLevelInstanceCommitment +Zcash.Circuits.Integration.TopLevelLookups +Zcash.Circuits.Integration.VerifierCS +Zcash.Circuits.NoteCommit.Canonicity +Zcash.Circuits.NoteCommit.CanonicityTheorems +Zcash.Circuits.NoteCommit.Composites +Zcash.Circuits.NoteCommit.Decompose +Zcash.Circuits.NoteCommit.DecomposeTheorems +Zcash.Circuits.NoteCommit.Gates +Zcash.Circuits.NoteCommit.Main +Zcash.Circuits.NoteCommit.MainBundle +Zcash.Circuits.NoteCommit.MainTheorems +Zcash.Circuits.NoteCommit.YComposite +Zcash.Circuits.Poseidon.Constants +Zcash.Circuits.Poseidon.Hash +Zcash.Circuits.Poseidon.HashTheorems +Zcash.Circuits.Poseidon.Permute +Zcash.Circuits.Poseidon.Pow5 +Zcash.Circuits.Poseidon.Pow5Theorems +Zcash.Circuits.Poseidon.Rounds +Zcash.Circuits.Poseidon.SpongeTheorems +Zcash.Circuits.Sinsemilla.Basic +Zcash.Circuits.Sinsemilla.Chain +Zcash.Circuits.Sinsemilla.ChainTheorems +Zcash.Circuits.Sinsemilla.ChipTheorems +Zcash.Circuits.Sinsemilla.CommitDomain +Zcash.Circuits.Sinsemilla.CommitDomainTheorems +Zcash.Circuits.Sinsemilla.HVec +Zcash.Circuits.Sinsemilla.HashPiece +Zcash.Circuits.Sinsemilla.HashPieceRound +Zcash.Circuits.Sinsemilla.HashToPoint +Zcash.Circuits.Sinsemilla.Merkle +Zcash.Circuits.Specs.Bitrange +Zcash.Circuits.Specs.Pallas +Zcash.Circuits.Specs.PallasCert +Zcash.Circuits.Specs.Sinsemilla +Zcash.Circuits.Specs.SinsemillaBreak +Zcash.Circuits.Specs.SinsemillaGenerators +Zcash.Circuits.Utilities.AddChip +Zcash.Circuits.Utilities.CondSwap +Zcash.Circuits.Utilities.DecomposeRunningSum +Zcash.Circuits.Utilities.LookupRangeCheck +Zcash.Circuits.Utilities.RunningSum +Zcash.Common.CPolynomial +Zcash.Common.DiscreteLogRelation +Zcash.Common.Expr +Zcash.Common.Oracle.Hybrid +Zcash.Common.Oracle.LabeledOracleComp +Zcash.Common.Oracle.Model +Zcash.Common.Oracle.MultiOracleComp +Zcash.Common.Oracle.OracleComp +Zcash.Common.Oracle.WithReads +Zcash.Common.ParMap +Zcash.Common.ProgrammedBasis +Zcash.Common.RelationProbability +Zcash.Common.RelationProbabilityCoins +Zcash.Common.RelationWitness +Zcash.Common.Satisfying +Zcash.Common.UniformMeasure +Zcash.Meta.AxiomCheck +Zcash.Meta.EndpointCensus +Zcash.Meta.LibrarySuggestionsDeny +Zcash.Meta.Tests.AxiomCheck +Zcash.Meta.Tests.CompiledOverride +Zcash.Meta.Tests.NativeSurface +Zcash.Security.BindingSignature.Balance +Zcash.Security.BindingSignature.DiscreteLog +Zcash.Security.BindingSignature.Orchard +Zcash.Security.BindingSignature.Sapling +Zcash.Security.Common.Birthday +Zcash.Security.Common.RandomOracle +Zcash.Security.Concrete.PallasGroup +Zcash.Security.GroupHash.Indiff +Zcash.Security.GroupHash.Pasta +Zcash.Security.GroupHash.Sampler +Zcash.Security.GroupHash.Simulator +Zcash.Security.GroupHash.TwoOracle +Zcash.Security.KeyBinding.Basic +Zcash.Security.KeyBinding.Instance +Zcash.Security.KeyBinding.Pool +Zcash.Security.KeyBinding.Probability +Zcash.Security.Ledger.ActionBundleBridge +Zcash.Security.Ledger.Balance +Zcash.Security.Ledger.Bridge +Zcash.Security.Ledger.Capstone +Zcash.Security.Ledger.Completeness +Zcash.Security.Ledger.ConservationExperiment +Zcash.Security.Ledger.Effects +Zcash.Security.Ledger.ExtractionArm +Zcash.Security.Ledger.ExtractionKnowledgeError +Zcash.Security.Ledger.IntegrityExperiment +Zcash.Security.Ledger.KeyBindingArm +Zcash.Security.Ledger.KeyBindingDLR +Zcash.Security.Ledger.Merkle +Zcash.Security.Ledger.MerkleDLR +Zcash.Security.Ledger.Model +Zcash.Security.Ledger.NoteCommitDLR +Zcash.Security.Ledger.Nullifier +Zcash.Security.Ledger.NullifierDLR +Zcash.Security.Ledger.OrchardCapstone +Zcash.Security.Ledger.OrchardExtractionExperiment +Zcash.Security.Ledger.OrchardIntegrityExperiment +Zcash.Security.Ledger.Pool +Zcash.Security.Ledger.SinsemillaDLR +Zcash.Security.Ledger.SpendAuthority +Zcash.Security.Ledger.Spendability +Zcash.Security.Ledger.Statement +Zcash.Security.Ledger.Value +Zcash.Security.Ledger.ValueRelationArm +Zcash.Security.RedDSA.Basic +Zcash.Security.RedDSA.Extraction +Zcash.Security.RedDSA.KnowledgeError +Zcash.Snark +Zcash.Snark.Capstones.Action +Zcash.Snark.Capstones.Action.Base +Zcash.Snark.Capstones.Action.Budgets +Zcash.Snark.Capstones.Action.Checks +Zcash.Snark.Contract.Action +Zcash.Snark.Contract.Knowledge +Zcash.Snark.Core +Zcash.Snark.Core.Challenges +Zcash.Snark.Core.ProofString +Zcash.Snark.Core.Shape +Zcash.Snark.Core.Vesta +Zcash.Snark.Fingerprint.Epsilon +Zcash.Snark.Fingerprint.Match +Zcash.Snark.Fingerprint.Rational.Capstone +Zcash.Snark.Fingerprint.Rational.ConstraintWalk +Zcash.Snark.Fingerprint.Rational.Family +Zcash.Snark.Fingerprint.Rational.GoodEvent +Zcash.Snark.Fingerprint.Rational.GroupingTable +Zcash.Snark.Fingerprint.Rational.IpaWalk +Zcash.Snark.Fingerprint.Rational.OpeningWalk +Zcash.Snark.Fingerprint.Rational.OtherCoefficients +Zcash.Snark.Fingerprint.Rational.Representation +Zcash.Snark.Fingerprint.SampleSpace +Zcash.Snark.Fingerprint.SchwartzZippel +Zcash.Snark.Fixtures.MultiAction.Honest.Boundary +Zcash.Snark.Fixtures.MultiAction.Honest.CapturedZeroFamily +Zcash.Snark.Fixtures.MultiAction.Honest.Degree +Zcash.Snark.Fixtures.MultiAction.Honest.Faithfulness +Zcash.Snark.Fixtures.MultiAction.Honest.FiatShamir +Zcash.Snark.Fixtures.MultiAction.Honest.Fixture +Zcash.Snark.Fixtures.MultiAction.Honest.Negative +Zcash.Snark.Fixtures.MultiAction.Honest.Negative.Sweep +Zcash.Snark.Fixtures.MultiAction.Honest.Schedule +Zcash.Snark.Fixtures.MultiAction.Honest.StaticChecks +Zcash.Snark.Fixtures.MultiAction.Honest.StraightLineKnowledgeError +Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary +Zcash.Snark.Fixtures.MultiAction.Honest.VkCertificate +Zcash.Snark.Fixtures.MultiAction.Random.Boundary +Zcash.Snark.Fixtures.MultiAction.Random.Epsilon +Zcash.Snark.Fixtures.MultiAction.Random.Faithfulness +Zcash.Snark.Fixtures.MultiAction.Random.FiatShamir +Zcash.Snark.Fixtures.MultiAction.Random.Fixture +Zcash.Snark.Fixtures.MultiAction.Random.Negative +Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary +Zcash.Snark.Fixtures.MultiAction.Random.VkCertificate +Zcash.Snark.Fixtures.PostNu63 +Zcash.Snark.Fixtures.PostNu63Random +Zcash.Snark.Fixtures.Shared.ScheduleMarker +Zcash.Snark.Fixtures.Shared.TamperSweep +Zcash.Snark.Fixtures.SingleAction.Honest.Boundary +Zcash.Snark.Fixtures.SingleAction.Honest.FiatShamir +Zcash.Snark.Fixtures.SingleAction.Honest.Fixture +Zcash.Snark.Fixtures.SingleAction.Honest.Negative +Zcash.Snark.Fixtures.SingleAction.Honest.Negative.Sweep +Zcash.Snark.Fixtures.SingleAction.Honest.StaticChecks +Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary +Zcash.Snark.Fixtures.SingleAction.Honest.VkMatch +Zcash.Snark.Fixtures.SingleAction.Random.Boundary +Zcash.Snark.Fixtures.SingleAction.Random.Epsilon +Zcash.Snark.Fixtures.SingleAction.Random.Faithfulness +Zcash.Snark.Fixtures.SingleAction.Random.FiatShamir +Zcash.Snark.Fixtures.SingleAction.Random.Fixture +Zcash.Snark.Fixtures.SingleAction.Random.Negative +Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary +Zcash.Snark.Fixtures.SingleAction.Random.VkCertificate +Zcash.Snark.Keygen.Certificate +Zcash.Snark.Keygen.Commitments +Zcash.Snark.Keygen.InstanceCapture +Zcash.Snark.Keygen.Lagrange +Zcash.Snark.Keygen.Pipeline +Zcash.Snark.Soundness.AGM.Adapter +Zcash.Snark.Soundness.AGM.AdaptiveDecode +Zcash.Snark.Soundness.AGM.AdaptiveIpaSurfaces +Zcash.Snark.Soundness.AGM.AdaptiveOnline +Zcash.Snark.Soundness.AGM.AdaptiveRootCore +Zcash.Snark.Soundness.AGM.AdaptiveRootSurfaces +Zcash.Snark.Soundness.AGM.AdaptiveSurfaces +Zcash.Snark.Soundness.AGM.AlgebraicUnbatch +Zcash.Snark.Soundness.AGM.CostedOracle +Zcash.Snark.Soundness.AGM.DecodeToOpened +Zcash.Snark.Soundness.AGM.DeployedConstraintSupply +Zcash.Snark.Soundness.AGM.DeployedMultiopen +Zcash.Snark.Soundness.AGM.DeployedPinnedRoots +Zcash.Snark.Soundness.AGM.DeployedRootDecode +Zcash.Snark.Soundness.AGM.DeployedRootSets +Zcash.Snark.Soundness.AGM.DeployedSyntheticOpened +Zcash.Snark.Soundness.AGM.DeployedValueUnbatch +Zcash.Snark.Soundness.AGM.DeployedX1 +Zcash.Snark.Soundness.AGM.DirectConstraintFamily +Zcash.Snark.Soundness.AGM.DirectX4Columns +Zcash.Snark.Soundness.AGM.ExecutableDeployedRoots +Zcash.Snark.Soundness.AGM.OnlineConstraint +Zcash.Snark.Soundness.AGM.OnlineMembers +Zcash.Snark.Soundness.AGM.OnlineMultiopen +Zcash.Snark.Soundness.AGM.Peel +Zcash.Snark.Soundness.AGM.PinnedRootWitness +Zcash.Snark.Soundness.AGM.ProbabilityVesta +Zcash.Snark.Soundness.AGM.ShiftRecovery +Zcash.Snark.Soundness.AGM.StraightLineFiniteSecurity +Zcash.Snark.Soundness.AGM.StraightLineIpa +Zcash.Snark.Soundness.AGM.StraightLineOrchardConsensusBounds +Zcash.Snark.Soundness.AGM.StraightLinePinnedRoots +Zcash.Snark.Soundness.AGM.SyntheticOpened +Zcash.Snark.Soundness.AGM.ValueUnbatch +Zcash.Snark.Soundness.AGM.ZeroFamily +Zcash.Snark.Soundness.AGM.ZeroFamilyRoots +Zcash.Snark.Soundness.Action.AdaptiveStatementAccounting +Zcash.Snark.Soundness.Action.AdaptiveStatementCached +Zcash.Snark.Soundness.Action.AdaptiveStatementComplete +Zcash.Snark.Soundness.Action.AdaptiveStatementCost +Zcash.Snark.Soundness.Action.AdaptiveStatementEvent +Zcash.Snark.Soundness.Action.AdaptiveStatementInhabitant +Zcash.Snark.Soundness.Action.AdaptiveStatementKnowledge +Zcash.Snark.Soundness.Action.AdaptiveStatementModel +Zcash.Snark.Soundness.Action.AdaptiveStatementProfile +Zcash.Snark.Soundness.Action.AdaptiveStatementProvenance +Zcash.Snark.Soundness.Action.AdaptiveStatementReads +Zcash.Snark.Soundness.Action.AdaptiveStatementSemantic +Zcash.Snark.Soundness.Action.AdaptiveStatementSurfaces +Zcash.Snark.Soundness.Action.AdaptiveStatementTerminal +Zcash.Snark.Soundness.Action.AdaptiveSurfaces +Zcash.Snark.Soundness.Action.AdaptiveTerminal +Zcash.Snark.Soundness.Action.DeploymentRecord +Zcash.Snark.Soundness.Action.StraightLineBudgets +Zcash.Snark.Soundness.Action.StraightLineEvent +Zcash.Snark.Soundness.Action.StraightLineTerminal +Zcash.Snark.Soundness.Argument.GrandProduct +Zcash.Snark.Soundness.Argument.GrandProductBridge +Zcash.Snark.Soundness.Argument.Lookup +Zcash.Snark.Soundness.Argument.LookupAssembly +Zcash.Snark.Soundness.Argument.Permutation +Zcash.Snark.Soundness.Argument.PermutationConstruction +Zcash.Snark.Soundness.Argument.PermutationRows +Zcash.Snark.Soundness.Argument.RunningProduct +Zcash.Snark.Soundness.Canonical.ConstraintModel +Zcash.Snark.Soundness.Canonical.ConstraintSatisfaction +Zcash.Snark.Soundness.Canonical.DomainSelectors +Zcash.Snark.Soundness.Canonical.InstanceCommitment +Zcash.Snark.Soundness.Canonical.LookupInstantiation +Zcash.Snark.Soundness.Canonical.LookupRows +Zcash.Snark.Soundness.Canonical.LookupSemantics +Zcash.Snark.Soundness.Canonical.PermutationInstantiation +Zcash.Snark.Soundness.Canonical.PermutationSemantics +Zcash.Snark.Soundness.Canonical.PolynomialEnvironment +Zcash.Snark.Soundness.Canonical.Terminal +Zcash.Snark.Soundness.Circuit.Terminal +Zcash.Snark.Soundness.Composition.ActionBudget +Zcash.Snark.Soundness.Composition.AlgebraicRootBudget +Zcash.Snark.Soundness.Composition.AssembleGroupCost +Zcash.Snark.Soundness.Composition.Bridge +Zcash.Snark.Soundness.Composition.ChallengeReads +Zcash.Snark.Soundness.Composition.DeployedAcceptance +Zcash.Snark.Soundness.Composition.DeployedConstraintContainment +Zcash.Snark.Soundness.Composition.DeployedRootContainment +Zcash.Snark.Soundness.Composition.DeployedRuntime +Zcash.Snark.Soundness.Composition.DirectPathCost +Zcash.Snark.Soundness.Composition.OrchardConsensusBounds +Zcash.Snark.Soundness.Composition.PrefixedSqueeze +Zcash.Snark.Soundness.Composition.Quotient +Zcash.Snark.Soundness.Composition.ScheduleBudget +Zcash.Snark.Soundness.Composition.SemanticChallengeRemainder +Zcash.Snark.Soundness.Composition.SequentialLift +Zcash.Snark.Soundness.Composition.StraightLineConstraint +Zcash.Snark.Soundness.Composition.StraightLineDecodeSupply +Zcash.Snark.Soundness.Composition.StraightLineDeployed +Zcash.Snark.Soundness.Composition.StraightLineWitness +Zcash.Snark.Soundness.Composition.ZeroBasisAcceptance +Zcash.Snark.Soundness.Composition.ZeroStraightLine +Zcash.Snark.Soundness.Constraint.ConstraintCore +Zcash.Snark.Soundness.Constraint.ConstraintRouting +Zcash.Snark.Soundness.Constraint.Constraints +Zcash.Snark.Soundness.Constraint.FoldSplit +Zcash.Snark.Soundness.Constraint.VanishingSlotFold +Zcash.Snark.Soundness.Decoded.VacuityWitness +Zcash.Snark.Soundness.Decoded.Vesta +Zcash.Snark.Soundness.Deployed.Binding +Zcash.Snark.Soundness.Deployed.Fold +Zcash.Snark.Soundness.Deployed.Verification +Zcash.Snark.Soundness.FiatShamir.ActionCount +Zcash.Snark.Soundness.FiatShamir.Adversary +Zcash.Snark.Soundness.FiatShamir.Adversary.Adaptive +Zcash.Snark.Soundness.FiatShamir.Adversary.Algebraic +Zcash.Snark.Soundness.FiatShamir.Adversary.DomainReduction +Zcash.Snark.Soundness.FiatShamir.Adversary.PreIpa +Zcash.Snark.Soundness.FiatShamir.Adversary.Provenance +Zcash.Snark.Soundness.FiatShamir.Assembly +Zcash.Snark.Soundness.FiatShamir.Execution +Zcash.Snark.Soundness.FiatShamir.Ordering +Zcash.Snark.Soundness.FiatShamir.PinnedRoots +Zcash.Snark.Soundness.FiatShamir.PinnedSqueeze +Zcash.Snark.Soundness.Ipa.CommitFold +Zcash.Snark.Soundness.Ipa.Consistency +Zcash.Snark.Soundness.Ipa.Halves +Zcash.Snark.Soundness.Ipa.InnerProduct +Zcash.Snark.Soundness.Ipa.IpaSoundness +Zcash.Snark.Soundness.Main +Zcash.Snark.Soundness.Multiopen.CanonicalRelation +Zcash.Snark.Soundness.Multiopen.Compat +Zcash.Snark.Soundness.Multiopen.ConstraintResolver +Zcash.Snark.Soundness.Multiopen.Decode +Zcash.Snark.Soundness.Multiopen.Deployed +Zcash.Snark.Soundness.Multiopen.NodeBinding +Zcash.Snark.Soundness.Multiopen.Opened +Zcash.Snark.Soundness.Multiopen.RPoly +Zcash.Snark.Soundness.Multiopen.ValueCheck +Zcash.Snark.Soundness.Multiopen.ValueCheckDeployed +Zcash.Snark.Soundness.Multiopen.ZeroData +Zcash.Snark.Soundness.Oracle.Challenge255 +Zcash.Snark.Soundness.Oracle.ChallengeUniform +Zcash.Snark.Soundness.Pricing.ChallengePricing +Zcash.Snark.Soundness.Pricing.DegreeWalk +Zcash.Snark.Soundness.Pricing.GoodChallenge +Zcash.Snark.Soundness.Relation.ConstraintRelations +Zcash.Snark.Soundness.Relation.KnowledgeSoundness +Zcash.Snark.Soundness.StraightLine.Event +Zcash.Snark.Soundness.StraightLine.Terminal +Zcash.Snark.Verifier.Assemble +Zcash.Snark.Verifier.AssembleSpec +Zcash.Snark.Verifier.Checks +Zcash.Snark.Verifier.Circuit +Zcash.Snark.Verifier.ConstraintSystem +Zcash.Snark.Verifier.Deployed +Zcash.Snark.Verifier.Expressions +Zcash.Snark.Verifier.FiatShamir +Zcash.Snark.Verifier.GroupingRef +Zcash.Snark.Verifier.Instances +Zcash.Snark.Verifier.Ipa +Zcash.Snark.Verifier.Key +Zcash.Snark.Verifier.OrchardShape +Zcash.Snark.Verifier.Parametric +Zcash.Snark.Verifier.Queries +Zcash.Snark.Verifier.QueryCommitment +Zcash.TrustBoundary
+✔ [3850/3874] Built Zcash.Snark.Capstones.Action.Base (1.5s)
+✔ [3851/3874] Built Zcash.Snark.Fixtures.MultiAction.Honest.VkCertificate (1.5s)
+✔ [3852/3874] Built Zcash.Snark.Fixtures.MultiAction.Honest.CapturedZeroFamily (1.5s)
+✔ [3854/3874] Built Zcash.Snark.Fixtures.MultiAction.Honest.Schedule (1.5s)
+✔ [3862/3878] Built Zcash.Snark.Fixtures.MultiAction.Honest.Boundary (1.4s)
+✔ [3863/3878] Built Zcash.Snark.Fixtures.MultiAction.Random.VkCertificate (1.6s)
+✔ [3868/3880] Built Zcash.Snark.Fixtures.MultiAction.Honest.StraightLineKnowledgeError (1.6s)
+✔ [3869/3881] Built Zcash.Snark.Capstones.Action.Checks (1.9s)
+✔ [3870/3883] Built Zcash.Snark.Fixtures.MultiAction.Random.Boundary (1.5s)
+✔ [3872/3883] Built Zcash.Snark.Fixtures.SingleAction.Honest.Boundary (1.7s)
+✖ [3874/3895] Building Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary (1.9s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:28:0: Zcash.Snark.FixtureRandom2.capturedPointCoordinatesValid_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:30:0: Zcash.Snark.FixtureRandom2.capturedUrsG_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:32:0: Zcash.Snark.FixtureRandom2.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:42:0: Zcash.Snark.FixtureRandom2.valid_capture_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:46:0: Zcash.Snark.FixtureRandom2.tampered_fixed_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:48:0: Zcash.Snark.FixtureRandom2.tampered_fixed_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:54:0: Zcash.Snark.FixtureRandom2.captured_list_lengths_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:56:0: Zcash.Snark.FixtureRandom2.query_layout_columns_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:58:0: Zcash.Snark.FixtureRandom2.vk_expression_refs_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:60:0: Zcash.Snark.FixtureRandom2.permutation_chunks_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:62:0: Zcash.Snark.FixtureRandom2.vk_domain_size_matches_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:70:0: Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:80:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_postNu63 reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:82:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_canonicalVk reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:86:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:88:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:90:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:92:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:94:0: Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:101:0: Zcash.Snark.FixtureRandom2.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:114:0: Zcash.Snark.FixtureRandom2.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:116:0: Zcash.Snark.FixtureRandom2.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:118:0: Zcash.Snark.FixtureRandom2.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:120:0: Zcash.Snark.FixtureRandom2.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:122:0: Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:129:0: Zcash.Snark.FixtureRandom2.deriveChallengesForStatement_matches_captured_schedule: '+native' names 'Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:132:0: Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches: '+native' names 'Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:145:0: Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:174:0: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:173:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:192:0: 'Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:191:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom2.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.FixtureRandom2.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_wu._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom2.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomMulti_uses_same_ursG._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:205:0: Zcash.Snark.FixtureRandom2.vkSymbolicFacts reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:207:0: Zcash.Snark.FixtureRandom2.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:209:0: Zcash.Snark.FixtureRandom2.vk_chunks_length_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:211:0: Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:213:0: Zcash.Snark.FixtureRandom2.msmDenBudget_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:215:0: Zcash.Snark.FixtureRandom2.otherLen_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:217:0: Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:222:0: Zcash.Snark.FixtureRandom2.coefficientFamily reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:226:0: Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:228:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:234:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:240:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:247:0: Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure reaches no native_decide axiom; drop the '+native(...)' flag
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:269:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:268:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:286:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:285:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:304:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:303:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:322:0: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:321:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom2.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom2.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:326:0: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:325:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom2.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:332:0: Zcash.Snark.FixtureRandom2.capturedMsm_other_bases_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:334:0: Zcash.Snark.FixtureRandom2.fingerprint_matches_positional: '+native' names 'Zcash.Snark.FixtureRandom2.capturedMsm_other_bases_nodup', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:348:0: 'Zcash.Snark.FixtureRandom2.fingerprint_matches_positional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/MultiAction/Random/TrustBoundary.lean:347:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom2.fingerprint_matches_positional' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom2.capturedMsm_other_bases_nodup._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.otherLen_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom2.valid_capture_assembles._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1]
+error: Lean exited with code 1
+✔ [3875/3895] Built Zcash.Snark.Fixtures.SingleAction.Random.VkCertificate (1.7s)
+✔ [3886/3895] Built Zcash.Snark.Fixtures.SingleAction.Honest.VkMatch (3.8s)
+✔ [3887/3895] Built Zcash.Snark.Capstones.Action.Budgets (3.9s)
+✔ [3888/3895] Built Zcash.Snark.Fixtures.SingleAction.Random.Boundary (1.4s)
+✔ [3889/3895] Built Zcash.Snark.Capstones.Action (2.3s)
+✖ [3890/3895] Building Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary (1.7s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:28:0: Zcash.Snark.FixtureRandom.capturedPointCoordinatesValid_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:30:0: Zcash.Snark.FixtureRandom.capturedUrsG_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:32:0: Zcash.Snark.FixtureRandom.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:42:0: Zcash.Snark.FixtureRandom.valid_capture_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:46:0: Zcash.Snark.FixtureRandom.tampered_fixed_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:48:0: Zcash.Snark.FixtureRandom.tampered_fixed_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:54:0: Zcash.Snark.FixtureRandom.captured_list_lengths_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:56:0: Zcash.Snark.FixtureRandom.query_layout_columns_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:58:0: Zcash.Snark.FixtureRandom.vk_expression_refs_in_range reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:60:0: Zcash.Snark.FixtureRandom.permutation_chunks_match_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:62:0: Zcash.Snark.FixtureRandom.vk_domain_size_matches_shape reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:70:0: Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:80:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_postNu63 reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:82:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_canonicalVk reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:86:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:88:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursGLagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:90:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_fixedCommitments reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:92:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_permutationCommonCommitments reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:94:0: Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_urs: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:101:0: Zcash.Snark.FixtureRandom.vk_eq_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:114:0: Zcash.Snark.FixtureRandom.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:116:0: Zcash.Snark.FixtureRandom.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:118:0: Zcash.Snark.FixtureRandom.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:120:0: Zcash.Snark.FixtureRandom.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:122:0: Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:129:0: Zcash.Snark.FixtureRandom.deriveChallengesForStatement_matches_captured_schedule: '+native' names 'Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:132:0: Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches: '+native' names 'Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:145:0: Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:174:0: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:173:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.capturedPublicInstances_within_lagrange' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:192:0: 'Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:191:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.FixtureRandom.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_fixedCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_permutationCommonCommitments._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
+- Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_wu._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.FixtureRandom.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  Zcash.Snark.PostNu63Fixture.randomSingle_uses_same_ursG._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:205:0: Zcash.Snark.FixtureRandom.vkSymbolicFacts reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:207:0: Zcash.Snark.FixtureRandom.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:209:0: Zcash.Snark.FixtureRandom.vk_chunks_length_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:211:0: Zcash.Snark.FixtureRandom.msmDegreeBudget_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:213:0: Zcash.Snark.FixtureRandom.msmDenBudget_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:215:0: Zcash.Snark.FixtureRandom.otherLen_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:217:0: Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:222:0: Zcash.Snark.FixtureRandom.coefficientFamily reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:226:0: Zcash.Snark.FixtureRandom.capturedPoint_goodEvent reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:228:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:234:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:240:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:247:0: Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure reaches no native_decide axiom; drop the '+native(...)' flag
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:269:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:268:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:286:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:285:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:304:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:303:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:322:0: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:321:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on
+- axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.denFactors_degree_sum_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDegreeBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.msmDenBudget_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_2,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_3,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_4,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_5,
+- Zcash.Snark.FixtureRandom.vkSymbolicFacts._native.native_decide.ax_1_6,
+- Zcash.Snark.FixtureRandom.vk_chunk_width_le._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.vk_chunks_length_eq._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.competing_family_agreement_le_challengesOnly_denClosure' depends on axioms: [propext,
++  Classical.choice,
++  Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:326:0: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:325:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.FixtureRandom.capturedPoint_goodEvent._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.FixtureRandom.capturedPoint_goodEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:332:0: Zcash.Snark.FixtureRandom.capturedMsm_other_bases_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:334:0: Zcash.Snark.FixtureRandom.fingerprint_matches_positional: '+native' names 'Zcash.Snark.FixtureRandom.capturedMsm_other_bases_nodup', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:348:0: 'Zcash.Snark.FixtureRandom.fingerprint_matches_positional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Random/TrustBoundary.lean:347:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.FixtureRandom.fingerprint_matches_positional' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- Zcash.Snark.FixtureRandom.capturedMsm_other_bases_nodup._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.otherLen_eq._native.native_decide.ax_1_1,
+- Zcash.Snark.FixtureRandom.valid_capture_assembles._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1]
+error: Lean exited with code 1
+✖ [3891/3895] Building Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary (4.0s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:60:0: Zcash.Snark.Fixture.vk_gates_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:61:0: Zcash.Snark.Fixture.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:62:0: Zcash.Snark.Fixture.vk_lookup_input_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:64:0: Zcash.Snark.Fixture.vk_lookup_table_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:71:0: Zcash.Snark.Fixture.capturedPointCoordinatesValid_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:73:0: Zcash.Snark.Fixture.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:79:0: Zcash.Snark.Fixture.deriveChallengesForStatement_matches_captured_schedule: '+native' names 'Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:88:0: Zcash.Snark.Fixture.assembleNonInteractiveInstances?_matches_captured: '+native' names 'Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:91:0: Zcash.Snark.Fixture.nonInteractiveFingerprint_matches: '+native' names 'Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:107:0: Zcash.Snark.Fixture.valid_capture_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:111:0: Zcash.Snark.Fixture.capture_deployedAccepts: '+native' names 'Zcash.Snark.Fixture.valid_capture_assembles', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:116:0: Zcash.Snark.Fixture.unexpected_last_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:118:0: Zcash.Snark.Fixture.missing_nonlast_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:120:0: Zcash.Snark.Fixture.x_power_one_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:122:0: Zcash.Snark.Fixture.x3_collision_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:124:0: Zcash.Snark.Fixture.duplicate_advice_query_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:126:0: Zcash.Snark.Fixture.tampered_advice_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:128:0: Zcash.Snark.Fixture.tampered_advice_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:130:0: Zcash.Snark.Fixture.malformed_u_count_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:132:0: Zcash.Snark.Fixture.swapped_lookup_permuted_breaks_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:134:0: Zcash.Snark.Fixture.tampered_fixed_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:136:0: Zcash.Snark.Fixture.tampered_fixed_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:138:0: Zcash.Snark.Fixture.tampered_permutation_common_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:140:0: Zcash.Snark.Fixture.tampered_permutation_common_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:142:0: Zcash.Snark.Fixture.tampered_instance_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:144:0: Zcash.Snark.Fixture.tampered_instance_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:179:0: Zcash.Snark.Fixture.sweep_instance_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:181:0: Zcash.Snark.Fixture.sweep_advice_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:183:0: Zcash.Snark.Fixture.sweep_advice_evals_last_query_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:185:0: Zcash.Snark.Fixture.sweep_fixed_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:187:0: Zcash.Snark.Fixture.sweep_fixed_evals_last_query_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:189:0: Zcash.Snark.Fixture.sweep_vanishing_random_eval_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:191:0: Zcash.Snark.Fixture.sweep_permutation_common_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:193:0: Zcash.Snark.Fixture.sweep_permutation_common_evals_last_column_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:195:0: Zcash.Snark.Fixture.sweep_permutation_set_evals_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:197:0: Zcash.Snark.Fixture.sweep_permutation_set_evals_eval_last_set_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:199:0: Zcash.Snark.Fixture.sweep_permutation_set_evals_next_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:201:0: Zcash.Snark.Fixture.sweep_permutation_set_evals_last_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:203:0: Zcash.Snark.Fixture.sweep_lookup_evals_product_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:205:0: Zcash.Snark.Fixture.sweep_lookup_evals_product_eval_last_lookup_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:207:0: Zcash.Snark.Fixture.sweep_lookup_evals_product_next_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:209:0: Zcash.Snark.Fixture.sweep_lookup_evals_permuted_input_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:211:0: Zcash.Snark.Fixture.sweep_lookup_evals_permuted_input_inv_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:213:0: Zcash.Snark.Fixture.sweep_lookup_evals_permuted_table_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:217:0: Zcash.Snark.Fixture.sweep_multiopen_u_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:219:0: Zcash.Snark.Fixture.sweep_multiopen_u_last_point_set_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:229:0: Zcash.Snark.Fixture.sweep_ipa_c_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:233:0: Zcash.Snark.Fixture.sweep_theta_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:235:0: Zcash.Snark.Fixture.sweep_beta_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:237:0: Zcash.Snark.Fixture.sweep_gamma_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:239:0: Zcash.Snark.Fixture.sweep_y_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:241:0: Zcash.Snark.Fixture.sweep_x_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:243:0: Zcash.Snark.Fixture.sweep_x_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:245:0: Zcash.Snark.Fixture.sweep_x1_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:247:0: Zcash.Snark.Fixture.sweep_x2_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:249:0: Zcash.Snark.Fixture.sweep_x3_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:251:0: Zcash.Snark.Fixture.sweep_x3_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:253:0: Zcash.Snark.Fixture.sweep_x4_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:261:0: Zcash.Snark.Fixture.sweep_ipa_round_1_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:263:0: Zcash.Snark.Fixture.sweep_ipa_round_2_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:265:0: Zcash.Snark.Fixture.sweep_ipa_round_3_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:267:0: Zcash.Snark.Fixture.sweep_ipa_round_4_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:269:0: Zcash.Snark.Fixture.sweep_ipa_round_5_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:271:0: Zcash.Snark.Fixture.sweep_ipa_round_6_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:273:0: Zcash.Snark.Fixture.sweep_ipa_round_7_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:275:0: Zcash.Snark.Fixture.sweep_ipa_round_8_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:277:0: Zcash.Snark.Fixture.sweep_ipa_round_9_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:279:0: Zcash.Snark.Fixture.sweep_ipa_round_10_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:291:0: Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:315:0: Zcash.Snark.Fixture.capturedChallengeValues_eq_expected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:317:0: Zcash.Snark.Fixture.missingChallenge_not_captured reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:319:0: Zcash.Snark.Fixture.capturedChallengeValues_nodup reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:321:0: Zcash.Snark.Fixture.capturedScheduleIncludesInit_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:323:0: Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:325:0: Zcash.Snark.Fixture.nonInteractiveFingerprint_matches: '+native' names 'Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:335:0: Zcash.Snark.Fixture.nonInteractiveFingerprint_matches_derived: '+native' names 'Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:343:0: Zcash.Snark.Fixture.nonInteractiveFingerprint_matches_derived_inputs: '+native' names 'Zcash.Snark.Keygen.instanceCommitment_capturedActionInputs', but that declaration owns no native_decide axiom
+info: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:370:0: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound]
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:369:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+- info: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound, Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange._native.native_decide.ax_1_1]
++ info: 'Zcash.Snark.Fixture.capturedPublicInstances_within_lagrange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:384:0: 'Zcash.Snark.Fixture.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+ CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+ Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1,
+ Zcash.Snark.Fixture.instance_commitments_derived._native.native_decide.ax_1_1,
+ Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+ CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Zcash/Snark/Fixtures/SingleAction/Honest/TrustBoundary.lean:383:0: ❌️ Docstring on `#guard_msgs` does not match generated message:
+
+  info: 'Zcash.Snark.Fixture.nonInteractiveFingerprint_matches_derived' depends on axioms: [propext,
+- Classical.choice,
+- Quot.sound,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
+- CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
+- Zcash.Snark.Fixture.deriveChallenges_matches_captured_schedule._native.native_decide.ax_1_1,
+- Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1,
+- Zcash.Snark.Fixture.instance_commitments_derived._native.native_decide.ax_1_1,
+- Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
+- CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
++  Classical.choice,
++  Quot.sound,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_1,
++  CompElliptic.Fields.Pasta.pallasBase._native.native_decide.ax_2,
++  Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1,
++  Zcash.Snark.Fixture.instance_commitments_derived._native.native_decide.ax_1_1,
++  Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Pallas.q_nsmul_Gpt._native.native_decide.ax_1_1,
++  CompElliptic.Curves.Pasta.Vesta.p_nsmul_Gpt._native.native_decide.ax_1_1]
+error: Lean exited with code 1
+✔ [3892/3895] Built Zcash.Snark.Contract.Action (1.6s)
+✔ [3893/3895] Built Zcash.Security.Ledger.OrchardExtractionExperiment (2.5s)
+✖ [3894/3895] Building Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary (4.5s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.setup.json --json
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:80:0: Zcash.Snark.Fixture2.capturedPointCoordinatesValid_eq_true reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:82:0: Zcash.Snark.Fixture2.capturedInit_startsWith_vkTranscriptRepr reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:88:0: Zcash.Snark.Fixture2.deriveChallengesForStatement_matches_captured_schedule: '+native' names 'Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:97:0: Zcash.Snark.Fixture2.assembleNonInteractiveInstances?_matches_captured: '+native' names 'Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:100:0: Zcash.Snark.Fixture2.nonInteractiveFingerprint_matches: '+native' names 'Zcash.Snark.Fixture2.deriveChallenges_matches_captured_schedule', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:118:0: Zcash.Snark.Fixture2.valid_capture_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:122:0: Zcash.Snark.Fixture2.capture_deployedAccepts: '+native' names 'Zcash.Snark.Fixture2.valid_capture_assembles', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:127:0: Zcash.Snark.Fixture2.unexpected_last_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:129:0: Zcash.Snark.Fixture2.missing_nonlast_permutation_eval_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:131:0: Zcash.Snark.Fixture2.x_power_one_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:133:0: Zcash.Snark.Fixture2.x3_collision_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:135:0: Zcash.Snark.Fixture2.duplicate_advice_query_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:137:0: Zcash.Snark.Fixture2.tampered_advice_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:139:0: Zcash.Snark.Fixture2.tampered_advice_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:141:0: Zcash.Snark.Fixture2.malformed_u_count_rejected reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:143:0: Zcash.Snark.Fixture2.swapped_advice_absorb_breaks_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:145:0: Zcash.Snark.Fixture2.swapped_lookup_permuted_breaks_schedule reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:147:0: Zcash.Snark.Fixture2.swapped_sub_proofs_assemble reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:149:0: Zcash.Snark.Fixture2.swapped_sub_proofs_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:151:0: Zcash.Snark.Fixture2.tampered_fixed_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:153:0: Zcash.Snark.Fixture2.tampered_fixed_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:155:0: Zcash.Snark.Fixture2.tampered_permutation_common_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:157:0: Zcash.Snark.Fixture2.tampered_permutation_common_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:159:0: Zcash.Snark.Fixture2.tampered_instance_eval_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:161:0: Zcash.Snark.Fixture2.tampered_instance_eval_fingerprint_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:206:0: Zcash.Snark.Fixture2.sweep_instance_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:208:0: Zcash.Snark.Fixture2.sweep_instance_evals_last_proof_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:210:0: Zcash.Snark.Fixture2.sweep_advice_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:212:0: Zcash.Snark.Fixture2.sweep_advice_evals_last_proof_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:214:0: Zcash.Snark.Fixture2.sweep_advice_evals_last_query_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:216:0: Zcash.Snark.Fixture2.sweep_fixed_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:218:0: Zcash.Snark.Fixture2.sweep_fixed_evals_last_query_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:220:0: Zcash.Snark.Fixture2.sweep_vanishing_random_eval_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:222:0: Zcash.Snark.Fixture2.sweep_permutation_common_evals_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:224:0: Zcash.Snark.Fixture2.sweep_permutation_common_evals_last_column_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:226:0: Zcash.Snark.Fixture2.sweep_permutation_set_evals_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:228:0: Zcash.Snark.Fixture2.sweep_permutation_set_evals_eval_last_proof_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:230:0: Zcash.Snark.Fixture2.sweep_permutation_set_evals_eval_last_set_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:232:0: Zcash.Snark.Fixture2.sweep_permutation_set_evals_next_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:234:0: Zcash.Snark.Fixture2.sweep_permutation_set_evals_last_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:236:0: Zcash.Snark.Fixture2.sweep_lookup_evals_product_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:238:0: Zcash.Snark.Fixture2.sweep_lookup_evals_product_eval_last_proof_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:240:0: Zcash.Snark.Fixture2.sweep_lookup_evals_product_eval_last_lookup_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:242:0: Zcash.Snark.Fixture2.sweep_lookup_evals_product_next_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:244:0: Zcash.Snark.Fixture2.sweep_lookup_evals_permuted_input_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:246:0: Zcash.Snark.Fixture2.sweep_lookup_evals_permuted_input_inv_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:248:0: Zcash.Snark.Fixture2.sweep_lookup_evals_permuted_table_eval_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:252:0: Zcash.Snark.Fixture2.sweep_multiopen_u_first_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:254:0: Zcash.Snark.Fixture2.sweep_multiopen_u_last_point_set_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:264:0: Zcash.Snark.Fixture2.sweep_ipa_c_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:268:0: Zcash.Snark.Fixture2.sweep_theta_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:270:0: Zcash.Snark.Fixture2.sweep_beta_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:272:0: Zcash.Snark.Fixture2.sweep_gamma_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:274:0: Zcash.Snark.Fixture2.sweep_y_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:276:0: Zcash.Snark.Fixture2.sweep_x_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:278:0: Zcash.Snark.Fixture2.sweep_x_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:280:0: Zcash.Snark.Fixture2.sweep_x1_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:282:0: Zcash.Snark.Fixture2.sweep_x2_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:284:0: Zcash.Snark.Fixture2.sweep_x3_assembles reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:286:0: Zcash.Snark.Fixture2.sweep_x3_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:288:0: Zcash.Snark.Fixture2.sweep_x4_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:298:0: Zcash.Snark.Fixture2.sweep_ipa_round_2_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:300:0: Zcash.Snark.Fixture2.sweep_ipa_round_3_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:302:0: Zcash.Snark.Fixture2.sweep_ipa_round_4_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:304:0: Zcash.Snark.Fixture2.sweep_ipa_round_5_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:306:0: Zcash.Snark.Fixture2.sweep_ipa_round_6_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:308:0: Zcash.Snark.Fixture2.sweep_ipa_round_7_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:310:0: Zcash.Snark.Fixture2.sweep_ipa_round_8_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:312:0: Zcash.Snark.Fixture2.sweep_ipa_round_9_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:314:0: Zcash.Snark.Fixture2.sweep_ipa_round_10_mismatch reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:323:0: Zcash.Snark.Fixture2.vk_gates_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:325:0: Zcash.Snark.Fixture2.vk_chunk_width_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:327:0: Zcash.Snark.Fixture2.vk_lookup_input_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:329:0: Zcash.Snark.Fixture2.vk_lookup_table_degree_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:331:0: Zcash.Snark.Fixture2.vk_quotient_tail_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:333:0: Zcash.Snark.Fixture2.vk_n_pred_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:334:0: Zcash.Snark.Fixture2.shape_k_pred_le reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:339:0: Zcash.Snark.Fixture2.vk_advice_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:341:0: Zcash.Snark.Fixture2.vk_instance_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:343:0: Zcash.Snark.Fixture2.vk_fixed_layout_length reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:345:0: Zcash.Snark.Fixture2.vk_omega_order reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:346:0: Zcash.Snark.Fixture2.vk_n_cast_ne_zero reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:348:0: Zcash.Snark.Fixture2.deployedConstraintStaticChecks_of_captured: '+native' names 'Zcash.Snark.Fixture2.vk_advice_layout_length', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:358:0: Zcash.Snark.Fixture2.deployedConstraintXSqueezeSchedule_captured: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:371:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:385:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_generatorRO_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:401:0: Zcash.Snark.Fixture2.orchard_deployed_straightline_captured_direct_generatorRO_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture2.shape_k_pred_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:440:0: Zcash.Snark.Capstone.adaptiveActionXDegree_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:467:0: Zcash.Snark.Capstone.capturedActionXSqueezeSchedule: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:480:0: Zcash.Snark.Capstone.orchard_adaptiveActionStatementSurface_measure_le_for: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:489:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:495:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_certified_knowledge_error_bound: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:506:0: Zcash.Snark.Capstone.adaptiveStatementKnowledgeFailure_le_at_2pow123: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:516:0: Zcash.Snark.Capstone.adaptiveStatementDeployedKnowledgeFailure_le_jointCharge: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:523:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_deployed_2pow123_knowledge_finite_security: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:529:0: Zcash.Snark.Capstone.orchard_action_adaptiveStatement_certified_2pow125_knowledge_finite_security: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:542:0: Zcash.Snark.Contract.actionKnowledgeContract: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:554:0: Zcash.Snark.Fixture2.capturedPublicInstances_within_lagrange reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:564:0: Zcash.Snark.PostNu63Fixture.captures_urs_point_references_in_bounds reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:568:0: Zcash.Snark.PostNu63Fixture.captures_use_same_wu reaches no native_decide axiom; drop the '+native(...)' flag
+error: Zcash/Snark/Fixtures/MultiAction/Honest/TrustBoundary.lean:570:0: maximum number of errors (100; from option `maxErrors`) reached, exiting
+error: Lean exited with code 1
+✖ [3895/3895] Building Zcash.TrustBoundary (9.8s)
+trace: .> LEAN_PATH=/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompPoly/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Cli/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/batteries/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Qq/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/aesop/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/importGraph/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/plausible/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/Clean/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/CompElliptic/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/packages/mathlib/.lake/build/lib/lean:/home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean /home/ntbuild/elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/Zcash/TrustBoundary.lean -o /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/TrustBoundary.olean -i /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/lib/lean/Zcash/TrustBoundary.ilean -c /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/TrustBoundary.c --setup /home/ntbuild/work_migsample/mig/b20000_zcash_ironwood/pkg/.lake/build/ir/Zcash/TrustBoundary.setup.json --json
+error: Zcash/TrustBoundary.lean:891:0: Zcash.Security.Ledger.OrchardExtractionExperiment.knowledgeFailureUnion_measure_le: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:901:0: Zcash.Security.Ledger.OrchardExtractionExperiment.runKnowledgeFailure_measure_le_of_dlogProfile: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:910:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceIntegrityExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:919:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardBalanceConservationExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Zcash/TrustBoundary.lean:928:0: Zcash.Security.Ledger.OrchardExtractionExperiment.orchardShieldedBalanceCapExtraction_measure_le_of_dlogProfiles: '+native' names 'Zcash.Snark.Fixture.vk_chunk_width_le', but that declaration owns no native_decide axiom
+error: Lean exited with code 1
+Some required targets logged failures:
+- Zcash.Snark.Fixtures.MultiAction.Random.TrustBoundary
+- Zcash.Snark.Fixtures.SingleAction.Random.TrustBoundary
+- Zcash.Snark.Fixtures.SingleAction.Honest.TrustBoundary
+- Zcash.Snark.Fixtures.MultiAction.Honest.TrustBoundary
+- Zcash.TrustBoundary
+error: build failed
+Command exited with non-zero status 1
+TIME wall=22.97 user=55.46 sys=9.02 maxrss_kb=4240428
+rc=1 secs=23

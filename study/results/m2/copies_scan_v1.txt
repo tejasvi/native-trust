@@ -1,0 +1,26 @@
+trainverify: logs of PROVED facts 45707, with copies 0
+cvc5-logos: logs of PROVED facts 2185, with copies 1652
+humanfia-icho2026: logs of PROVED facts 1860, with copies 0
+formal-conjectures: logs of PROVED facts 664, with copies 16
+longfellow-zk: logs of PROVED facts 626, with copies 0
+asi-stack-book: logs of PROVED facts 383, with copies 0
+rs-mca-m31_dyadic_weight_laws: logs of PROVED facts 9, with copies 0
+rs-mca-m31_flatness_keystone: logs of PROVED facts 1, with copies 0
+sounio: logs of PROVED facts 70, with copies 0
+lido-srv3: logs of PROVED facts 70, with copies 0
+berry-esseen: logs of PROVED facts 2, with copies 0
+strata: logs of PROVED facts 67, with copies 38
+clean: logs of PROVED facts 27, with copies 0
+cedar-lean: logs of PROVED facts 10, with copies 0
+aks: logs of PROVED facts 0, with copies 0
+sorting-network-expanders: logs of PROVED facts 0, with copies 0
+aeneas-lean: logs of PROVED facts 0, with copies 0
+rs-mca-RS_disproof_v3 (per-theorem driver): check logs with KERNELIZED 8, with copies 0
+rs-mca-asymptotic_spine (per-theorem driver): check logs with KERNELIZED 0, with copies 0
+rs-mca-cs25_cap_v13 (per-theorem driver): check logs with KERNELIZED 10, with copies 0
+rs-mca-l1_threshold_ledger (per-theorem driver): check logs with KERNELIZED 0, with copies 0
+rs-mca-moment_to_max (per-theorem driver): check logs with KERNELIZED 28, with copies 1
+  OK	MomentToMax.PTEClusterPacking.champion_packingStats._proof_1_1	rebuilt=1	copies=6	total_ms=981329
+rs-mca-razorband_witness (per-theorem driver): check logs with KERNELIZED 16, with copies 0
+rs-mca-syndrome_line (per-theorem driver): check logs with KERNELIZED 12, with copies 0
+rs-mca-syndrome_secant (per-theorem driver): check logs with KERNELIZED 20, with copies 0

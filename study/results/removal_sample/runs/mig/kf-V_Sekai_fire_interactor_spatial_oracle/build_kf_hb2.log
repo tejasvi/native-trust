@@ -1,0 +1,42 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +PredictiveBvh.adapters.GodotBinary +PredictiveBvh.core.BucketBound +PredictiveBvh.core.BucketDir +PredictiveBvh.core.CurveContract +PredictiveBvh.core.CurveDuality +PredictiveBvh.core.Formula +PredictiveBvh.core.HilbertBroadphase +PredictiveBvh.core.HilbertCell +PredictiveBvh.core.HilbertRoundtrip +PredictiveBvh.core.LowerBound +PredictiveBvh.core.NonPhysical +PredictiveBvh.core.ScaleContradictions +PredictiveBvh.core.ScaleProofs
+✔ [596/608] Built PredictiveBvh.core.Formula (260ms)
+✔ [597/608] Built PredictiveBvh.core.BucketBound (403ms)
+✔ [598/608] Built PredictiveBvh.core.LowerBound (564ms)
+✔ [599/608] Built PredictiveBvh.core.BucketDir (317ms)
+✔ [600/608] Built PredictiveBvh.core.ScaleProofs (735ms)
+✔ [601/608] Built PredictiveBvh.core.ScaleContradictions (862ms)
+⚠ [602/608] Built PredictiveBvh.core.HilbertBroadphase (506ms)
+warning: PredictiveBvh/core/HilbertBroadphase.lean:86:2: `hilbert3D` has been deprecated: Use `morton3D` instead
+ℹ [603/608] Built PredictiveBvh.adapters.GodotBinary (1.4s)
+info: PredictiveBvh/adapters/GodotBinary.lean:401:0: FORMAT_VERSION = 6
+PACKED_SCENE_VERSION = 3
+DEFAULT_BLOCK_SIZE = 4096
+DEFAULT_COMPRESSION_MODE = 2 (zstd)
+RESERVED_FIELDS = 11
+MIN_HEADER_FIXED_SIZE = 88
+standardPackedSceneFlags.toBitfield = 3
+STRING_INLINE_BIT = 0x80000000
+GodotBinary spec OK
+✔ [604/608] Built PredictiveBvh.core.HilbertCell (295ms)
+ℹ [605/608] Built PredictiveBvh.core.HilbertRoundtrip (1.7s)
+info: PredictiveBvh/core/HilbertRoundtrip.lean:85:0: EXCHANGE ROUNDTRIP: orders 1-5 all verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:189:0: HILBERT ROUNDTRIP order=1: all 8 inputs verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:195:0: HILBERT ROUNDTRIP order=2: all 64 inputs verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:201:0: HILBERT ROUNDTRIP order=3: all 512 inputs verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:207:0: HILBERT ROUNDTRIP order=4: all 4096 inputs verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:213:0: HILBERT ROUNDTRIP order=5: all 32768 inputs verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:234:0: FIXUP ROUNDTRIP: orders 1-10 all verified
+info: PredictiveBvh/core/HilbertRoundtrip.lean:245:0: FIXUP ROUNDTRIP order=10: all 1024 z-values verified
+✔ [606/608] Built PredictiveBvh.core.CurveContract (2.1s)
+✔ [607/608] Built PredictiveBvh.core.NonPhysical (1.1s)
+ℹ [608/608] Built PredictiveBvh.core.CurveDuality (18s)
+info: PredictiveBvh/core/CurveDuality.lean:142:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:147:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:155:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.worstWindow → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:206:57: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:229:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.clusters → List.mergeSort → List.mergeSort._unary → List.merge): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:236:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+info: PredictiveBvh/core/CurveDuality.lean:246:65: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters → CurveDuality.clusters → List.mergeSort → List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can
+Build completed successfully (608 jobs).
+TIME wall=18.62 user=26.66 sys=2.40 maxrss_kb=3395896
+rc=0 secs=19

@@ -1,0 +1,11 @@
+import Lean
+
+/-! Stub for toolchains before Lean v4.30: no `@[csimp]` details in the mismatch report. -/
+
+open Lean
+
+namespace NativeTrust
+
+def csimpEntry? (_env : Environment) (_c : Name) : Option (Name × Name) := none
+
+end NativeTrust

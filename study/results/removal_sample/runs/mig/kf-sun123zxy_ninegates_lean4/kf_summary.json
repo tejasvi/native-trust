@@ -1,0 +1,177 @@
+{
+ "name": "sun123zxy_ninegates_lean4",
+ "pkg": "/home/ntbuild/repos_s/sun123zxy_ninegates-lean4",
+ "copy_root": "/home/ntbuild/repos_s/sun123zxy_ninegates-lean4",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.33.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:26:54Z",
+ "toolchain": "v4.33.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 2.79,
+  "built": []
+ },
+ "modules": 26,
+ "before": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 15
+ },
+ "native_files": 2,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 53.58,
+   "cpu": 160.7,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 6.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 49.02,
+   "cpu": 152.1,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.6,
+   "peak_rss_sum_gb": 7.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 48.4,
+   "cpu": 148.8,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.4,
+   "peak_rss_sum_gb": 6.4,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 47.6,
+   "cpu": 149.9,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.6,
+   "peak_rss_sum_gb": 6.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 44.57,
+   "cpu": 140.1,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.4,
+   "peak_rss_sum_gb": 7.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 44.19,
+   "cpu": 138.4,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.6,
+   "peak_rss_sum_gb": 7.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 338,
+   "rc": 0,
+   "wall": 43.53,
+   "cpu": 136.0,
+   "n_built": 26,
+   "peak_lean": 5,
+   "peak_rss_gb": 2.5,
+   "peak_rss_sum_gb": 7.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 15
+ },
+ "fallbacks": {
+  "blocked: Std.ExtDHashMap.insertIfNew": 14
+ },
+ "fallback_examples": {
+  "blocked: Std.ExtDHashMap.insertIfNew": "info: Ninegates/Counterexample/Elimination.lean:33:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that ar"
+ },
+ "after_hb2": {
+  "total": 14,
+  "by_tactic": {
+   "native_decide": 14
+  },
+  "failed": [],
+  "dirty": 15
+ },
+ "fallbacks_hb2": {
+  "blocked: Std.ExtDHashMap.insertIfNew": 14
+ },
+ "fallback_examples_hb2": {
+  "blocked: Std.ExtDHashMap.insertIfNew": "info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that ar"
+ },
+ "reps": 3,
+ "orig_wall_med": 48.4,
+ "orig_cpu_med": 148.8,
+ "kf_wall_med": 47.6,
+ "kf_cpu_med": 149.9,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:32:45Z"
+}

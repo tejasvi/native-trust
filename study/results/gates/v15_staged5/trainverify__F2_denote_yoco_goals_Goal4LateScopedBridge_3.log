@@ -1,0 +1,4 @@
+$ lean trainverify__F2_denote_yoco_goals_Goal4LateScopedBridge_3.lean tc=v4.32.2 ntlib=/home/ntbuild/nt_fix14/v4.32.2/.lake/build/lib/lean start=2026-10-25T16:40:40Z
+PROVED `_private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._native.native_decide.ax_1_1` as `_ktr.trainverify__F2_denote_yoco_goals_Goal4LateScopedBridge_3._private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._kernel.native_decide.ax_1_1`: kernel_ms=1534980 native_axioms=1 rebuilt=0 copies=0 total_ms=1535011 acc_fallback=0 pieces=1
+maxrss_kb 6561956 secs 1536.58
+rc=0 end=2026-10-25T17:06:17Z

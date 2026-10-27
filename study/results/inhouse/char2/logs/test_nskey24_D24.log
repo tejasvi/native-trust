@@ -1,0 +1,4 @@
+# command: python test_nskey24.py 19 10 24   (run from lean/scripts/)
+[155s] |R|=329280 |SAFE|=1248162 |NS|=284752
+packed integer key reproduces the float NS order: True ; injective: True
+first NS edges: [((-10, 0, -24, 0), 2), ((-10, 0, -23, 0), 2), ((-10, 0, -22, 0), 2)] [116955854752388480351179399799632885644591541310372, 116955854802682782083604863434212953452044380069996]

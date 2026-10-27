@@ -1,0 +1,7 @@
+02:58:04 gate ok: MemAvailable 387 >= 264
+02:58:04 macro rc=0 0.50	827864
+02:58:05 realm rc=1 0.08	192588
+grep: RealM_RISCVCombinesProofs.progress: No such file or directory
+RealM/RISCVCombinesProofs.lean:1:0: error: object file '/home/ntbuild/work_bvtac/real_v5/veir/vmac/Veir/Data/RISCV/Reg/Basic.olean' of module Veir.Data.RISCV.Reg.Basic does not exist
+02:58:05 check2m rc=1 0.22	552316
+chain8 done 2026-10-25T02:58:05Z

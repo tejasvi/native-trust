@@ -1,0 +1,384 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_D88_Count_RunS12_0.lean
+NT start Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1
+NT nested Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1 ms=123 rebuilt_defs=0 visited=3049
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encodeInput
+NT copy Lean6.Special.Comp.Count.encodeInput defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encInputs
+NT copy Lean6.Special.Comp.Count.encInputs defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=6 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=1 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.symbolic
+NT copy Lean6.Special.Comp.Count.symbolic defn_ms=1 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.echelon
+NT copy Lean6.Special.Comp.Count.echelon defn_ms=2 eq_ms=5 congr=true
+NT copying Lean6.Special.Comp.Count.addElem
+NT copy Lean6.Special.Comp.Count.addElem defn_ms=1 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.finish
+NT copy Lean6.Special.Comp.Count.finish defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.step
+NT copy Lean6.Special.Comp.Count.step defn_ms=0 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.loop._f
+NT copy Lean6.Special.Comp.Count.loop._f defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.loop
+NT copy Lean6.Special.Comp.Count.loop defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.init
+NT copy Lean6.Special.Comp.Count.init defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.f4State
+NT copy-rejected Lean6.Special.Comp.Count.f4State: (kernel) declaration type mismatch, '_kt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State' has type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p         (_kt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.encInputs c F) but it is expected to have type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p (Lean6.Special.Comp.Count.encInputs c F)
+NT copying Lean6.Special.Comp.Count.f4Basis
+NT copy-rejected Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=96 copies=18 copy_kernel_ms=34 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT copying Lean6.Special.Comp.Count.f4State
+NT copy-rejected Lean6.Special.Comp.Count.f4State: (kernel) declaration type mismatch, '_kt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State' has type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p         (_kt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.encInputs c F) but it is expected to have type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p (Lean6.Special.Comp.Count.encInputs c F)
+NT copying Lean6.Special.Comp.Count.f4Basis
+NT copy-rejected Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=30 bounded=true copy_ms=40 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encodeInput
+NT copy Lean6.Special.Comp.Count.encodeInput defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.encInputs
+NT copy Lean6.Special.Comp.Count.encInputs defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=7 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=1 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.symbolic
+NT copy Lean6.Special.Comp.Count.symbolic defn_ms=0 eq_ms=3 congr=true
+NT copying Lean6.Special.Comp.Count.echelon
+NT copy Lean6.Special.Comp.Count.echelon defn_ms=2 eq_ms=5 congr=true
+NT copying Lean6.Special.Comp.Count.addElem
+NT copy Lean6.Special.Comp.Count.addElem defn_ms=0 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.finish
+NT copy Lean6.Special.Comp.Count.finish defn_ms=1 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.step
+NT copy Lean6.Special.Comp.Count.step defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.loop._f
+NT copy Lean6.Special.Comp.Count.loop._f defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.loop
+NT copy Lean6.Special.Comp.Count.loop defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.init
+NT copy Lean6.Special.Comp.Count.init defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.f4State
+NT copy-rejected Lean6.Special.Comp.Count.f4State: (kernel) declaration type mismatch, '_ktt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State' has type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p         (_ktt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.encInputs c F) but it is expected to have type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p (Lean6.Special.Comp.Count.encInputs c F)
+NT copy-failed Lean6.Special.Comp.Count.f4State: (kernel) declaration type mismatch, '_ktt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State' has type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p         (_ktt.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.encInputs c F) but it is expected to have type   (c : Lean6.Special.Comp.Count.Cfg) →     (F : List (Lean6.Special.Comp.Poly Nat)) →       Lean6.Special.Comp.Count.St c.n c.Bn c.p (Lean6.Special.Comp.Count.encInputs c F)
+NT copying Lean6.Special.Comp.Count.f4Basis
+NT copy-rejected Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT copy-failed Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=8 bounded=true copy_ms=139 copies=18 copy_kernel_ms=36 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0' has type   true = true but it is expected to have type   (Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all       (Le
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen List.merge._unary roots=1 ms=1
+NT param-gen List.merge roots=1 ms=0
+NT param-gen List.mergeSort._unary roots=1 ms=1
+NT param-gen List.mergeSort roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Poly.normalize roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.encodeInput roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.encInputs roots=1 ms=0
+NT param-gen _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary roots=1 ms=2
+NT param-gen _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort roots=1 ms=0
+NT param-gen Array.qsort roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.symbolic roots=1 ms=1
+NT param-gen Lean6.Special.Comp.Count.echelon roots=1 ms=2
+NT param-gen Lean6.Special.Comp.Count.addElem roots=1 ms=1
+NT param-gen Lean6.Special.Comp.Count.finish roots=1 ms=1
+NT param-gen Lean6.Special.Comp.Count.step roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.loop._f roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.loop roots=1 ms=1
+NT param-gen Lean6.Special.Comp.Count.init roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.f4State roots=1 ms=0
+NT param-gen Lean6.Special.Comp.Count.f4Basis roots=1 ms=1
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=20 gen_errors=0 ms=74
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 param-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   (_ktp.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis (@NativeTrust.fixFuel)           NativeTrust.fix_eq_fixFuel Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all       (Lean6.Special.Comp.Count.polyOK 65521 11) =     true  Reachable constants that the kernel c
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 platform-cases
+NT param-gen List.merge._unary roots=1 ms=0
+NT param-geq List.merge._unary rfl ms=0
+NT param-gen List.merge roots=1 ms=0
+NT param-geq List.merge rfl ms=1
+NT param-gen List.mergeSort._unary roots=1 ms=1
+NT param-geq List.mergeSort._unary rfl ms=0
+NT param-gen List.mergeSort roots=1 ms=1
+NT param-geq List.mergeSort rfl ms=0
+NT param-gen Lean6.Special.Comp.Poly.normalize roots=1 ms=0
+NT param-geq Lean6.Special.Comp.Poly.normalize rfl ms=0
+NT param-gen Lean6.Special.Comp.Count.encodeInput roots=1 ms=1
+NT param-geq Lean6.Special.Comp.Count.encodeInput rfl ms=1
+NT param-gen Lean6.Special.Comp.Count.encInputs roots=1 ms=0
+NT param-geq Lean6.Special.Comp.Count.encInputs rfl ms=1
+NT param-gen USize.toBitVec roots=1 ms=0
+NT param-geq USize.toBitVec rfl ms=0
+NT param-gen USize.toNat roots=1 ms=0
+NT param-geq USize.toNat rfl ms=0
+NT param-gen _private.Std.Data.DHashMap.Internal.Defs.0.Std.DHashMap.Internal.Raw₀.reinsertAux.match_1 roots=1 ms=0
+NT param-gen USize.land roots=1 ms=1
+NT param-geq USize.land rfl ms=0
+NT param-gen instAndOpUSize roots=1 ms=0
+NT param-geq instAndOpUSize rfl ms=0
+NT param-gen USize.ofNat roots=1 ms=0
+NT param-geq USize.ofNat rfl ms=0
+NT param-gen Nat.toUSize roots=1 ms=0
+NT param-geq Nat.toUSize rfl ms=0
+NT param-gen UInt64.toUSize roots=1 ms=0
+NT param-geq UInt64.toUSize rfl ms=0
+NT param-gen USize.sub roots=1 ms=0
+NT param-geq USize.sub rfl ms=1
+NT param-gen instSubUSize roots=1 ms=0
+NT param-geq instSubUSize rfl ms=0
+NT param-gen USize.instOfNat roots=1 ms=0
+NT param-geq USize.instOfNat rfl ms=0
+NT param-gen Std.DHashMap.Internal.mkIdx roots=1 ms=0
+NT param-gen Array.uget roots=1 ms=1
+NT param-gen Array.instGetElemUSizeLtNatToNatSize roots=1 ms=0
+NT param-gen Std.DHashMap.Internal.Raw₀.contains roots=1 ms=0
+NT param-geq Std.DHashMap.Internal.Raw₀.contains rfl ms=1
+NT param-gen Std.DHashMap.contains roots=1 ms=1
+NT param-geq Std.DHashMap.contains rfl ms=0
+NT param-gen Std.HashMap.contains roots=1 ms=1
+NT param-geq Std.HashMap.contains rfl ms=0
+NT param-gen Std.HashSet.contains roots=1 ms=0
+NT param-geq Std.HashSet.contains rfl ms=0
+NT param-gen Array.uset roots=1 ms=0
+NT param-gen Std.DHashMap.Internal.Raw₀.reinsertAux roots=1 ms=1
+NT param-geq Std.DHashMap.Internal.Raw₀.reinsertAux rfl ms=1
+NT param-gen _private.Std.Data.DHashMap.Internal.Defs.0.Std.DHashMap.Internal.Raw₀.expand.go._unary roots=1 ms=2
+NT param-geq _private.Std.Data.DHashMap.Internal.Defs.0.Std.DHashMap.Internal.Raw₀.expand.go._unary rfl ms=2
+NT param-gen _private.Std.Data.DHashMap.Internal.Defs.0.Std.DHashMap.Internal.Raw₀.expand.go roots=1 ms=0
+NT param-geq _private.Std.Data.DHashMap.Internal.Defs.0.Std.DHashMap.Internal.Raw₀.expand.go rfl ms=1
+NT param-gen Std.DHashMap.Internal.Raw₀.expand roots=1 ms=0
+NT param-geq Std.DHashMap.Internal.Raw₀.expand rfl ms=1
+NT param-gen Std.DHashMap.Internal.Raw₀.expandIfNecessary roots=1 ms=0
+NT param-geq Std.DHashMap.Internal.Raw₀.expandIfNecessary rfl ms=2
+NT param-gen Std.DHashMap.Internal.Raw₀.insertIfNew roots=1 ms=1
+NT param-geq Std.DHashMap.Internal.Raw₀.insertIfNew rfl ms=2
+NT param-gen Std.DHashMap.insertIfNew roots=1 ms=3
+NT param-geq Std.DHashMap.insertIfNew rfl ms=3
+NT param-gen Std.HashMap.insertIfNew roots=1 ms=0
+NT param-geq Std.HashMap.insertIfNew rfl ms=2
+NT param-gen Std.HashSet.insert roots=1 ms=0
+NT param-geq Std.HashSet.insert rfl ms=2
+NT param-gen Std.DHashMap.Internal.Raw₀.insert roots=1 ms=1
+NT param-geq Std.DHashMap.Internal.Raw₀.insert rfl ms=3
+NT param-gen Std.DHashMap.insert roots=1 ms=2
+NT param-geq Std.DHashMap.insert rfl ms=2
+NT param-gen Std.HashMap.insert roots=1 ms=0
+NT param-geq Std.HashMap.insert rfl ms=2
+NT param-gen _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary roots=1 ms=2
+NT param-geq _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary rfl ms=1
+NT param-gen _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort roots=1 ms=0
+NT param-geq _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort rfl ms=0
+NT param-gen Array.qsort roots=1 ms=0
+NT param-geq Array.qsort rfl ms=1
+NT param-gen Lean6.Special.Comp.Count.symbolic roots=2 ms=0
+NT param-geq Lean6.Special.Comp.Count.symbolic rfl ms=20
+NT param-gen Lean6.Special.Comp.Count.colMap roots=1 ms=1
+NT param-geq Lean6.Special.Comp.Count.colMap rfl ms=3
+NT param-gen Std.DHashMap.Internal.Raw₀.Const.getD roots=1 ms=1
+NT param-geq Std.DHashMap.Internal.Raw₀.Const.getD rfl ms=1
+NT param-gen Std.DHashMap.Const.getD roots=1 ms=0
+NT param-geq Std.DHashMap.Const.getD rfl ms=0
+NT param-gen Std.HashMap.getD roots=1 ms=0
+NT param-geq Std.HashMap.getD rfl ms=1
+NT param-gen Lean6.Special.Comp.Count.pivRows roots=1 ms=1
+NT param-geq Lean6.Special.Comp.Count.pivRows rfl ms=4
+NT param-gen Lean6.Special.Comp.Count.reduceRows roots=1 ms=0
+NT param-geq Lean6.Special.Comp.Count.reduceRows rfl ms=4
+NT param-gen Lean6.Special.Comp.Count.echelon roots=2 ms=5
+NT param-geq Lean6.Special.Comp.Count.echelon rfl ms=9
+NT param-gen Lean6.Special.Comp.Count.addElem roots=1 ms=1
+NT param-geq Lean6.Special.Comp.Count.addElem rfl ms=1
+NT param-gen Lean6.Special.Comp.Count.finish roots=1 ms=0
+NT param-geq Lean6.Special.Comp.Count.finish rfl ms=1
+NT param-gen Lean6.Special.Comp.Count.step roots=2 ms=1
+NT param-geq Lean6.Special.Comp.Count.step rfl ms=33
+NT param-gen Lean6.Special.Comp.Count.loop._f roots=2 ms=1
+NT param-geq Lean6.Special.Comp.Count.loop._f rfl ms=33
+NT param-gen Lean6.Special.Comp.Count.loop roots=2 ms=0
+NT param-geq Lean6.Special.Comp.Count.loop rfl ms=33
+NT param-gen Lean6.Special.Comp.Count.init roots=1 ms=0
+NT param-geq Lean6.Special.Comp.Count.init rfl ms=2
+NT param-gen Lean6.Special.Comp.Count.f4State roots=2 ms=0
+NT param-gen Lean6.Special.Comp.Count.f4Basis roots=2 ms=0
+NT param-geq Lean6.Special.Comp.Count.f4Basis rfl ms=42
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 platform roots=2 gens=57 gen_errors=0 ms=388
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 platform probe32 over budget
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 platform-cases-failed NativeTrust: platform case split: the evaluation at numBits = 32 failed: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval32' has type   System.Platform.numBits = 32 → true = true but it is expected to have type   ∀ (h : System.Platform.numBits = 32),     (_ktp.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis (@NativeTrust.fixFuel)             NativeTrust.fix_eq_fixFuel 32 h Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all         (Lean6.Spec
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=1 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Poly.normalize
+NT copy Lean6.Special.Comp.Poly.normalize defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.encodeInput
+NT copy Lean6.Special.Comp.Count.encodeInput defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.encInputs
+NT copy Lean6.Special.Comp.Count.encInputs defn_ms=0 eq_ms=0 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort._unary defn_ms=2 eq_ms=7 congr=true
+NT copying _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort
+NT copy _private.Init.Data.Array.QSort.Basic.0.Array.qsort.sort defn_ms=0 eq_ms=0 congr=true
+NT copying Array.qsort
+NT copy Array.qsort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.symbolic
+NT copy Lean6.Special.Comp.Count.symbolic defn_ms=1 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.echelon
+NT copy Lean6.Special.Comp.Count.echelon defn_ms=1 eq_ms=5 congr=true
+NT copying Lean6.Special.Comp.Count.addElem
+NT copy Lean6.Special.Comp.Count.addElem defn_ms=0 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.finish
+NT copy Lean6.Special.Comp.Count.finish defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.step
+NT copy Lean6.Special.Comp.Count.step defn_ms=0 eq_ms=2 congr=true
+NT copying Lean6.Special.Comp.Count.loop._f
+NT copy Lean6.Special.Comp.Count.loop._f defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.loop
+NT copy Lean6.Special.Comp.Count.loop defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.Count.init
+NT copy Lean6.Special.Comp.Count.init defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.Count.f4State
+NT copy-congr-rejected Lean6.Special.Comp.Count.f4State: (kernel) application type mismatch   congrArg fun y c F =>     Lean6.Special.Comp.Count.loop c.chunks c.fuel (Lean6.Special.Comp.Count.init (y c F) fun x h => h) argument has type   (y : Lean6.Special.Comp.Count.Cfg → List (Lean6.Special.Comp.Poly Nat) → List Lean6.Special.Comp.Count.SPoly) →     (c : Lean6.Special.Comp.Count.Cfg) →       (F : List (Lean6.Special.Comp.Poly Nat)) → Lean6.Special.Comp.Count.St c.n c.Bn c.p (y c F) but function has type   ∀     (f :       (Lean6.Special.Comp.Count.Cfg → List (Lean6.Special.Comp.Poly Nat) → List Lean6.Special.Comp.Count.SPoly) →         (c : Lean6.Special.Comp.Count.Cfg) →           (F : List (Lean6.Special.Comp.Poly Nat)) →             Lean6.Sp
+NT copy-rfl Lean6.Special.Comp.Count.f4State
+NT copy Lean6.Special.Comp.Count.f4State defn_ms=1 eq_ms=24 congr=false
+NT copying Lean6.Special.Comp.Count.f4Basis
+NT copy-congr-rejected Lean6.Special.Comp.Count.f4Basis: (kernel) let-declaration type mismatch 'st'
+NT copy-rfl Lean6.Special.Comp.Count.f4Basis
+NT copy Lean6.Special.Comp.Count.f4Basis defn_ms=1 eq_ms=21 congr=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=8 bounded=true copy_ms=109 copies=20 copy_kernel_ms=80 fast_lits=0 string_args=false
+FAILED `Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (Lean6.Special.Comp.Count.dimCheck 65521 11
+            (Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs) 20316 =
+          true) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0' has type
+    true = true
+  but it is expected to have type
+    (Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all
+        (Lean6.Special.Comp.Count.polyOK 65521 11) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.encInputs → Lean6.Special.Comp.Count.encodeInput → List.mergeSort → List.mergeSort._unary → List.merge → List.merge._unary → WellFounded.fix
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.f4State → Lean6.Special.Comp.Count.loop → Lean6.Special.Comp.Count.loop._f → Lean6.Special.Comp.Count.step → Lean6.Special.Comp.Count.symbolic → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.f4State → Lean6.Special.Comp.Count.loop → Lean6.Special.Comp.Count.loop._f → Lean6.Special.Comp.Count.step → Lean6.Special.Comp.Count.symbolic → Std.HashMap.contains → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the accessibility-generator route (`wfAcc`), which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    (_kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg
+            Lean6.Special.Comp.Count.s12Inputs).all
+        (Lean6.Special.Comp.Count.polyOK 65521 11) =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop._f → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.step → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.symbolic → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop._f → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.step → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.symbolic → Std.HashMap.contains → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the platform case split (`numBits = 32 ∨ numBits = 64`), which failed too:
+  NativeTrust: platform case split: the evaluation at numBits = 32 failed:
+  (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval32' has type
+    System.Platform.numBits = 32 → true = true
+  but it is expected to have type
+    ∀ (h : System.Platform.numBits = 32),
+      (_ktp.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis (@NativeTrust.fixFuel)
+              NativeTrust.fix_eq_fixFuel 32 h Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all
+          (Lean6.Special.Comp.Count.polyOK 65521 11) =
+        true
+FAILED `Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (Lean6.Special.Comp.Count.dimCheck 65521 11
+          (Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs) 20316 =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0' has type
+  true = true
+but it is expected to have type
+  (Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all
+      (Lean6.Special.Comp.Count.polyOK 65521 11) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.encInputs → Lean6.Special.Comp.Count.encodeInput → List.mergeSort → List.mergeSort._unary → List.merge → List.merge._unary → WellFounded.fix
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.f4State → Lean6.Special.Comp.Count.loop → Lean6.Special.Comp.Count.loop._f → Lean6.Special.Comp.Count.step → Lean6.Special.Comp.Count.symbolic → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via Lean6.Special.Comp.Count.f4Basis → Lean6.Special.Comp.Count.f4State → Lean6.Special.Comp.Count.loop → Lean6.Special.Comp.Count.loop._f → Lean6.Special.Comp.Count.step → Lean6.Special.Comp.Count.symbolic → Std.HashMap.contains → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  (_kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis Lean6.Special.Comp.Count.s12Cfg
+          Lean6.Special.Comp.Count.s12Inputs).all
+      (Lean6.Special.Comp.Count.polyOK 65521 11) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop._f → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.step → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.symbolic → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4State → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.loop._f → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.step → _kta.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.symbolic → Std.HashMap.contains → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the platform case split (`numBits = 32 ∨ numBits = 64`), which failed too:
+NativeTrust: platform case split: the evaluation at numBits = 32 failed:
+(kernel) declaration type mismatch, '_ktr.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.s12_f4_ok._kernel.native_decide.ax_1_1.p_0.eval32' has type
+  System.Platform.numBits = 32 → true = true
+but it is expected to have type
+  ∀ (h : System.Platform.numBits = 32),
+    (_ktp.F2_Lean6_Special_Comp_D88_Count_RunS12_0.Lean6.Special.Comp.Count.f4Basis (@NativeTrust.fixFuel)
+            NativeTrust.fix_eq_fixFuel 32 h Lean6.Special.Comp.Count.s12Cfg Lean6.Special.Comp.Count.s12Inputs).all
+        (Lean6.Special.Comp.Count.polyOK 65521 11) =
+      true
+maxrss_kb 1787436
+rc=0 secs=105

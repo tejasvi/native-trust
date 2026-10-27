@@ -1,0 +1,39 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_StrataTest_DL_Lambda_Denote_Tautologies_25.lean
+NT start _private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_input_tys._native.native_decide.ax_1_1
+NT start _private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._native.native_decide.ax_1_1
+NT nested _private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._native.native_decide.ax_1_1 ms=0 rebuilt_defs=0 visited=6254
+NT _ktr.F2_StrataTest_DL_Lambda_Denote_Tautologies_25._private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=true copy_ms=5 copies=0 copy_kernel_ms=0
+FAILED `_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_input_tys._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._native.native_decide.ax_1_1` in the kernel:
+    decide ("Bool.And" ∈ Lambda.F✝) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_StrataTest_DL_Lambda_Denote_Tautologies_25._private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._kernel.native_decide.ax_1_1.p_0' has type
+    true = true
+  but it is expected to have type
+    decide ("Bool.And" ∈ Lambda.F✝) = true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `String.hash`: primitive implemented in C (`@[extern]`) with no definition
+      via Lambda.Factory.instMem → Lambda.Factory.mem → instHashableString → String.hash
+  • `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+      via Lambda.Factory.instMem → Lambda.Factory.mem → Std.HashMap.instMembership → Std.DHashMap.instMembership → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_input_tys._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._native.native_decide.ax_1_1` in the kernel:
+  decide ("Bool.And" ∈ Lambda.F✝) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_StrataTest_DL_Lambda_Denote_Tautologies_25._private.StrataTest.DL.Lambda.Denote.Tautologies.0.Lambda.bool_and_mem._kernel.native_decide.ax_1_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide ("Bool.And" ∈ Lambda.F✝) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `String.hash`: primitive implemented in C (`@[extern]`) with no definition
+    via Lambda.Factory.instMem → Lambda.Factory.mem → instHashableString → String.hash
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via Lambda.Factory.instMem → Lambda.Factory.mem → Std.HashMap.instMembership → Std.DHashMap.instMembership → Std.DHashMap.contains → Std.DHashMap.Internal.Raw₀.contains → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1504500
+rc=0 secs=1

@@ -1,0 +1,22 @@
+import NativeTrust
+import IChO2026Problems.problem_icho_2026_t3_a5
+import F1_IChO2026Problems_problem_icho_2026_t3_a5_36
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_0
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_11
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_13
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_17
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_19
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_2
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_20
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_21
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_22
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_31
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_6
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_7
+import F2_IChO2026Problems_problem_icho_2026_t3_a5_8
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+set_option nativeTrust.eprint true
+trust_check_nth IChO2026Problems.problem_icho_2026_t3_a5 0 (config := { split := 8, trace := true })
+trust_check_nth IChO2026Problems.problem_icho_2026_t3_a5 2 (config := { split := 8, trace := true })

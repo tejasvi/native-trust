@@ -1,0 +1,72 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_L6Check_F1_ChangChen_1.lean
+NT start L6F1.check_cc._native.native_decide.ax_1_1
+NT nested L6F1.check_cc._native.native_decide.ax_1_1 ms=265 rebuilt_defs=0 visited=4464
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.parsePairsCC
+NT copy L6F1.parsePairsCC defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.parseCCLine
+NT copy L6F1.parseCCLine defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.ccLines
+NT copy L6F1.ccLines defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.parseCC
+NT copy L6F1.parseCC defn_ms=0 eq_ms=0 congr=true
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=1 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.sortNat
+NT copy L6F1.sortNat defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkCC
+NT copy L6F1.checkCC defn_ms=1 eq_ms=0 congr=true
+NT copying L6F1.ccData
+NT copy L6F1.ccData defn_ms=2 eq_ms=4 congr=true
+NT _ktr.F2_L6Check_F1_ChangChen_1.L6F1.check_cc._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=40 copies=14 copy_kernel_ms=18 fast_lits=0 string_args=false
+NT _ktr.F2_L6Check_F1_ChangChen_1.L6F1.check_cc._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_L6Check_F1_ChangChen_1.L6F1.check_cc._kernel.native_decide.ax_1_1.p_0 blockers_ms=7 bounded=true copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_L6Check_F1_ChangChen_1.L6F1.check_cc._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=1 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.parsePairsCC
+NT copy L6F1.parsePairsCC defn_ms=1 eq_ms=0 congr=true
+NT copying L6F1.parseCCLine
+NT copy L6F1.parseCCLine defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.ccLines
+NT copy L6F1.ccLines defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.parseCC
+NT copy L6F1.parseCC defn_ms=0 eq_ms=0 congr=true
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=0 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.sortNat
+NT copy L6F1.sortNat defn_ms=0 eq_ms=0 congr=true
+NT copying L6F1.checkCC
+NT copy L6F1.checkCC defn_ms=0 eq_ms=1 congr=true
+NT copying L6F1.ccData
+NT copy L6F1.ccData defn_ms=1 eq_ms=5 congr=true
+NT _ktr.F2_L6Check_F1_ChangChen_1.L6F1.check_cc._kernel.native_decide.ax_1_1.p_0 blockers_ms=20 bounded=false copy_ms=40 copies=16 copy_kernel_ms=17 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 96163972
+rc=1 secs=487

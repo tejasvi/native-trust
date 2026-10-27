@@ -1,0 +1,4 @@
+DEFEQ IChO2026Problems.Icho2026T3A4.reported_result
+DEFEQ IChO2026Problems.Icho2026T3A4.cof4_raw_result
+DEFEQ IChO2026Problems.Icho2026T3A4.raw_result
+STMT same=25 defeq=3 diff=0 missing=0 nonstd_axioms=0 control_originals_nonstd=28

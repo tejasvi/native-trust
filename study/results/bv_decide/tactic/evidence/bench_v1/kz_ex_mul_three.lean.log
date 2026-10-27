@@ -1,0 +1,2 @@
+bvs ex_mul_three #1: 336 nodes, 959 clauses, 336 vars; 267 steps, 5687 hints, 1 chunks; solve 19 ms, prep+defs 23 ms; kernel: base 285 ms, chunks 923 ms (max 923 ms); total 1254 ms
+bvs: added ex_mul_three.bvs4 (15 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

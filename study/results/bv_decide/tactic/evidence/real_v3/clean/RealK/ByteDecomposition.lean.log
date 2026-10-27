@@ -1,0 +1,6 @@
+bv_kdecide [Gadgets.ByteDecomposition.Theorems.soundness]: bv_decide 2035 ms; 22035 nodes, 65720 clauses, 31056 LRAT steps, 959442 hints, 54 chunks; SAT 9144 ms, data 2295 ms; kernel: base 26173 ms, chunks 220971 ms (max 7537 ms), assembly 1295 ms; total 268352 ms; peak RSS: bv_decide 1722 MiB, kernel route 6852 MiB
+RealK/ByteDecomposition.lean:51:72: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

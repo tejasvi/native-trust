@@ -1,0 +1,38 @@
+$ lean longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T22:53:08Z
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 35411856 secs 146.53
+rc=134 end=2026-10-24T22:55:35Z
+ptimized.v7Hash4_v1_parameters._native.native_decide.ax_1_10 ms=5 rebuilt_defs=0 visited=280
+NT copying SelectedMCA.simpleCliqueUpperNat
+NT copy SelectedMCA.simpleCliqueUpperNat defn_ms=1 eq_ms=0 congr=true
+NT copying AffineAgreement.Internal.balanced_choose_three
+NT copy AffineAgreement.Internal.balanced_choose_three defn_ms=0 eq_ms=0 congr=true
+NT copying SelectedMCA.DirectCliqueCondition
+NT copy SelectedMCA.DirectCliqueCondition defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-congr-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) application type mismatch   decide     (_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».SelectedMCA.DirectCliqueCondition n       radius g d mid) argument has type   Decidable     (3 ≤ mid ∧       n - d < n - radius ∧         SelectedMCA.simpleCliqueUpperNat mid (SelectedMCA.directLineOccupancyBound n g) * (n - radius - (n - d)) +             mid.fast_choose 3 * (n - d) <           _kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».AffineAgreement.Internal.balanced_choose_three             n (mid * (n - radius))) but function has type   [h :       Decidable         (_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_Optimiz
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.binaryCliqueSearch._f._eq' has type   Ligero.Examples.Grid.binaryCliqueSearch._f = Ligero.Examples.Grid.binaryCliqueSearch._f but it is expected to have type   Ligero.Examples.Grid.binaryCliqueSearch._f =     _kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copying Ligero.Examples.Grid.binaryCliqueSearch
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch
+NT copy Ligero.Examples.Grid.binaryCliqueSearch defn_ms=0 eq_ms=0 congr=false
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalM
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalM defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.Certificate.IntegratedLocalPointValid
+NT copy Ligero.Examples.Grid.Certificate.IntegratedLocalPointValid defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-congr-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) application type mismatch   @instDecidableAnd     (_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».SelectedMCA.DirectCliqueCondition       c.n (c.n - a) c.g c.d       (_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.Certificate.integratedLocalM         c a))     (¬3 * (c.n - a) < c.d →       ¬_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».SelectedMCA.DirectCliqueCondition           c.n (c.n - a) c.g c.d           (_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.Certificate.integratedLocalM               c a -      
+NT copy-rfl Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT copy-rejected Ligero.Examples.Grid.Certificate.integratedLocalValidBool: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.Certificate.integratedLocalValidBool._eq' has type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool = Ligero.Examples.Grid.Certificate.integratedLocalValidBool but it is expected to have type   Ligero.Examples.Grid.Certificate.integratedLocalValidBool =     _kt.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.Certificate.integratedLocalValidBool
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10 blockers_ms=0 bounded=false copy_ms=34 copies=6 copy_kernel_ms=3 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10 structure all-by-index length=3437 pieces=16
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0 blockers_ms=0 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0 stage constants=0 staged=0 ms=14
+NT stage _ktv.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106»._ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0.t_0 direct ms=34
+NT copying _ktv.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106»._ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0.t_3
+NT copy _ktv.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106»._ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0.t_3 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106»._ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0.t_3 direct ms=4
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0 stage subterms=2 staged=2 congr=true ms=59
+NT _ktr.«longfellow-zk__F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_106».Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._kernel.native_decide.ax_1_10.p_0.staged blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

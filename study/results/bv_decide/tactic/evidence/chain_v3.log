@@ -1,0 +1,99 @@
+00:37:16 gate ok: MemAvailable 432 >= 248
+toolchain leanprover/lean4:v4.35.0-rc4; start 2026-10-25T00:37:16Z
+BVS.LratBits rc=0 0.23	324340
+BVS.LratBitsSound rc=0 0.33	358904
+BVS.Blast rc=0 0.48	383320
+BVS.Lrat.Trie rc=0 0.46	426980
+BVS.Sound.Basic rc=0 0.43	400704
+BVS.Lrat.Chain rc=0 0.48	428748
+BVS.Sound.Circuits rc=0 0.59	466044
+BVS.Sound.Bits rc=0 0.41	415680
+BVS.Sound.Shifts rc=0 0.47	421636
+BVS.Sound.Unary rc=0 0.28	391184
+BVS.Sound.Expr rc=0 0.60	390428
+BVS.Sound.CNF rc=0 0.27	394376
+BVS.Lrat.LeafTree rc=0 0.44	395032
+BVS.Unsat rc=0 0.30	383896
+BVS.SplitBase rc=0 0.54	433616
+BVS.Driver.Core rc=0 1.93	898392
+BVS.Driver.Select rc=0 1.25	866052
+BVS.Driver.Split rc=0 1.20	877040
+BVS.Driver.Group rc=0 0.87	854500
+BVS.Tactic rc=0 1.35	879544
+BVS rc=0 0.42	815676
+Examples.Small rc=0 9.26	2170740
+Examples.Tactic rc=0 29.89	2340848
+Examples.TacticModule rc=0 5.20	1146688
+end 2026-10-25T00:38:14Z
+00:38:14 gate ok: MemAvailable 378 >= 248
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod2_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v3/veir; start 2026-10-25T00:38:14Z
+00:38:14 RealD/PBVExamples.lean rc=0 0.76	826788
+00:38:15 CheckD_PBVExamples.lean rc=0 0.73	1565440
+00:39:37 RealK/PBVExamples.lean rc=0 82.24	2116572
+00:39:38 CheckK_PBVExamples.lean rc=0 0.82	1615532
+progress lines: 5
+CHECK RealD.PBVExamples: 28 constants, 5 `_native` names; 5 theorems: 0 standard axioms only, 5 with native axioms [_private.RealD.PBVExamples.0.Veir.Data.PBV.trace_append, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend, _private.RealD.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend], 0 other []
+CHECK RealK.PBVExamples: 86 constants, 0 `_native` names; 5 theorems: 5 standard axioms only, 0 with native axioms [], 0 other []
+00:39:39 RealD/Memory.lean rc=0 0.80	855312
+00:39:40 CheckD_Memory.lean rc=0 0.74	1595740
+00:39:41 RealK/Memory.lean rc=0 1.20	875788
+00:39:42 CheckK_Memory.lean rc=0 0.74	1621332
+progress lines: 2
+CHECK RealD.Memory: 117 constants, 2 `_native` names; 13 theorems: 13 standard axioms only, 0 with native axioms [], 0 other []
+CHECK RealK.Memory: 125 constants, 0 `_native` names; 13 theorems: 13 standard axioms only, 0 with native axioms [], 0 other []
+00:39:43 RealD/ArithToLLVM.lean rc=0 1.16	865116
+00:39:44 CheckD_ArithToLLVM.lean rc=0 0.71	1577364
+00:39:56 RealK/ArithToLLVM.lean rc=0 12.30	1070260
+00:39:57 CheckK_ArithToLLVM.lean rc=0 0.74	1599104
+progress lines: 19
+CHECK RealD.ArithToLLVM: 36 constants, 3 `_native` names; 21 theorems: 18 standard axioms only, 3 with native axioms [Veir.Data.LLVM.Int.addui_extended_lowering, Veir.Data.LLVM.Int.floordivsi_lowering, Veir.Data.LLVM.Int.ceildivsi_lowering], 0 other []
+CHECK RealK.ArithToLLVM: 50 constants, 0 `_native` names; 21 theorems: 21 standard axioms only, 0 with native axioms [], 0 other []
+00:39:59 RealD/RISCVCombinesProofs.lean rc=0 1.87	832492
+00:39:59 CheckD_RISCVCombinesProofs.lean rc=0 0.69	1565076
+00:40:23 RealK/RISCVCombinesProofs.lean rc=0 23.44	956168
+00:40:24 CheckK_RISCVCombinesProofs.lean rc=0 0.74	1591988
+progress lines: 68
+CHECK RealD.RISCVCombinesProofs: 185 constants, 39 `_native` names; 68 theorems: 29 standard axioms only, 39 with native axioms [Veir.Data.RISCV.zexth_and_right, Veir.Data.RISCV.zextw_xor, Veir.Data.RISCV.drop_sextw_sb, Veir.Data.RISCV.zextb_zextb, Veir.Data.RISCV.sextw_xor, Veir.Data.RISCV.zextb_and_left, Veir.Data.RISCV.sexth_or, Veir.Data.RISCV.zextb_or, Veir.Data.RISCV.packh_high_bytes, Veir.Data.RISCV.zexth_or, Veir.Data.RISCV.zextw_zextb, Veir.Data.RISCV.sexth_and], 0 other []
+CHECK RealK.RISCVCombinesProofs: 343 constants, 0 `_native` names; 68 theorems: 68 standard axioms only, 0 with native axioms [], 0 other []
+00:40:34 RealD/Combine.lean rc=0 10.11	1184764
+00:40:34 CheckD_Combine.lean rc=0 0.78	1836868
+00:40:39 RealK/Combine.lean rc=134 4.96	1113200
+progress lines: 1
+CHECK RealD.Combine: 888 constants, 30 `_native` names; 245 theorems: 245 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T00:40:39Z
+00:40:39 gate ok: MemAvailable 323 >= 248
+toolchain leanprover/lean4:v4.31.0; start 2026-10-25T00:40:39Z
+BVS.LratBits rc=0 0.22	318780
+BVS.LratBitsSound rc=0 0.31	382048
+BVS.Blast rc=0 0.48	386560
+BVS.Lrat.Trie rc=0 0.47	456424
+BVS.Sound.Basic rc=0 0.40	423484
+BVS.Lrat.Chain rc=0 0.52	449948
+BVS.Sound.Circuits rc=0 0.67	496296
+BVS.Sound.Bits rc=0 0.40	420788
+BVS.Sound.Shifts rc=0 0.48	448172
+BVS.Sound.Unary rc=0 0.29	405896
+BVS.Sound.Expr rc=0 0.66	398004
+BVS.Sound.CNF rc=0 0.28	405236
+BVS.Lrat.LeafTree rc=0 0.43	410456
+BVS.Unsat rc=0 0.30	385324
+BVS.SplitBase rc=0 0.60	450540
+BVS.Driver.Core rc=0 2.10	872908
+BVS.Driver.Select rc=0 1.30	840236
+BVS.Driver.Split rc=0 1.19	847532
+BVS.Driver.Group rc=0 0.98	819580
+BVS.Tactic rc=0 1.53	853540
+BVS rc=0 0.36	784576
+Examples.Small rc=0 9.71	2195232
+Examples.Tactic rc=0 32.75	2458340
+Examples.TacticModule rc=0 5.55	1194920
+end 2026-10-25T00:41:42Z
+00:41:42 gate ok: MemAvailable 412 >= 248
+real s_Natuvea_tacenta_core_tacenta_model (v4.31.0) with bvsmod2_v4.31.0 in /home/ntbuild/work_bvtac/real_v3/natuvea_model; start 2026-10-25T00:41:42Z
+00:41:43 RealD/CompositeHeader.lean rc=0 1.00	700280
+00:41:43 CheckD_CompositeHeader.lean rc=1 0.18	650828
+00:42:33 RealK/CompositeHeader.lean rc=0 50.21	7418192
+00:42:34 CheckK_CompositeHeader.lean rc=0 0.61	1549376
+progress lines: 2
+CHECK RealK.CompositeHeader: 167 constants, 0 `_native` names; 29 theorems: 29 standard axioms only, 0 with native axioms [], 0 other []
+end 2026-10-25T00:42:34Z

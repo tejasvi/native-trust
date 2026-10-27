@@ -1,0 +1,10 @@
+$ lean X_ct4_d12.lean start=2026-10-26T01:04:05Z timeout=900
+NT copying Sortnet.S45Data.Ct4.chunk00
+NT copy Sortnet.S45Data.Ct4.chunk00 defn_ms=3 eq_ms=9 congr=true
+NT copying Sortnet.S45Data.Ct4.chunks
+NT copy Sortnet.S45Data.Ct4.chunks defn_ms=0 eq_ms=0 congr=true
+NT copying Sortnet.S45Data.Ct4.dataByte
+NT copy Sortnet.S45Data.Ct4.dataByte defn_ms=1 eq_ms=0 congr=true
+NT _s13probe.X_ct4_d12 blockers_ms=0 bounded=false copy_ms=39 copies=3 copy_kernel_ms=13 fast_lits=0 string_args=false
+NT _s13probe.X_ct4_d12 quick whole-term attempt did not finish; structured check
+NT _s13probe.X_ct4_d12.p_0 blockers_ms=9 bounded=false copy_ms=18 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

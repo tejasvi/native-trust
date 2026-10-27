@@ -1,0 +1,167 @@
+{
+ "name": "b2000_justrach_codegraff_lean_proofs",
+ "pkg": "/home/ntbuild/repos_s/justrach_codegraff/lean-proofs",
+ "toolchain": "v4.33.0",
+ "uses": 235,
+ "replaced": 169,
+ "replaced_known": 56,
+ "replaced_unknown": 113,
+ "replaced_facts": 65,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: BLOCKED (`_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083`)": 5,
+  "build: Tactic `decide` failed for proposition": 24,
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 9,
+  "module not built": 19,
+  "budget 2000: NATIVETRUST (well-founded recursion via Graff.Score.classOf \u2192 Graff.Score.needleTier \u2192 Graff.Score.hasInfix \u2192 Str)": 7,
+  "budget 2000: EXPENSIVE (needs NativeTrust's transformations (well-founded recursion via Graff.Score.classOf \u2192 Graff.Score.ne)": 1,
+  "budget 2000: EXPENSIVE (needs NativeTrust's transformations ((kernel) deep recursion detected, use `set_option maxRecDepth <)": 1
+ },
+ "native_axioms_before": 88,
+ "native_axioms_after": 23,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 80,
+ "native_dependent_decls_after": 23,
+ "rewritten_decls": 56,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 3.93,
+   "cpu": 10.0,
+   "n_errors": 24,
+   "reverted": 24,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 0.9,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 0.83,
+   "cpu": 2.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 2,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 1.43,
+  "cpu": 6.0,
+  "n_built": 10,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 1.5
+ },
+ "time1": {
+  "wall": 3.74,
+  "cpu": 9.4,
+  "n_built": 10,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 0.9,
+  "peak_rss_sum_gb": 2.0
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.13,
+  "cpu": 0.0,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 10,
+ "replaced_modules": 10,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 65,
+   "BLOCKED": 5,
+   "EXPENSIVE": 11,
+   "NATIVETRUST": 7
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  4.8,
+  7.9
+ ],
+ "module_times_slower": [
+  [
+   "Graff.ToolCatalog",
+   0.32,
+   2.9
+  ],
+  [
+   "Graff.Transport",
+   0.451,
+   0.737
+  ],
+  [
+   "Graff.Provider",
+   0.28800000000000003,
+   0.41400000000000003
+  ],
+  [
+   "Graff.PromptCache",
+   0.511,
+   0.629
+  ],
+  [
+   "Graff.PathConfine",
+   0.535,
+   0.628
+  ],
+  [
+   "Graff.BashPolicy",
+   0.317,
+   0.355
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Graff.GoalLoop",
+   0.735,
+   0.631
+  ],
+  [
+   "Graff.Score",
+   0.795,
+   0.755
+  ],
+  [
+   "Graff.PromptStable",
+   0.423,
+   0.383
+  ],
+  [
+   "Graff.Shape",
+   0.462,
+   0.44
+  ]
+ ]
+}

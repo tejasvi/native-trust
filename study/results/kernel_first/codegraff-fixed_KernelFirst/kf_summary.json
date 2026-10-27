@@ -1,0 +1,153 @@
+{
+ "name": "cgfixed",
+ "pkg": "/home/ntbuild/work_kfscope/cg_fixed/lean-proofs",
+ "copy_root": "/home/ntbuild/work_kfscope/cg_fixed/lean-proofs",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib_kfscope_final/v4.33.0",
+ "hb2": null,
+ "jobs": 4,
+ "started": "2026-10-24T07:48:30Z",
+ "toolchain": "v4.33.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 0.14,
+  "built": []
+ },
+ "modules": 11,
+ "before": {
+  "total": 88,
+  "by_tactic": {
+   "native_decide": 88
+  },
+  "failed": [],
+  "dirty": 80
+ },
+ "native_files": 10,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 2.21,
+   "cpu": 6.8,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 16.79,
+   "cpu": 36.5,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 7.1,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 2.56,
+   "cpu": 7.9,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 17.31,
+   "cpu": 36.5,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 7.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 2.56,
+   "cpu": 7.7,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 0.5,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 77,
+   "rc": 0,
+   "wall": 17.7,
+   "cpu": 36.1,
+   "n_built": 11,
+   "peak_lean": 4,
+   "peak_rss_gb": 2.2,
+   "peak_rss_sum_gb": 7.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 23,
+  "by_tactic": {
+   "native_decide": 23
+  },
+  "failed": [],
+  "dirty": 23
+ },
+ "fallbacks": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": 28,
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": 1,
+  "budget (heartbeats)": 9,
+  "well-founded recursion": 12
+ },
+ "fallback_examples": {
+  "blocked: _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque": "info: Graff/BashPolicy.lean:101:78: kernel-first: native_decide used compiled evaluation: blocked: reaches `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`, `WellFounded.extrinsicFix\u2083` (no kernel definition)",
+  "resources: (kernel) deep recursion detected, use `set_option maxRecDept": "info: Graff/Shape.lean:224:45: kernel-first: native_decide used compiled evaluation: `decide +kernel` ran out of resources: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit",
+  "budget (heartbeats)": "info: Graff/GoalLoop.lean:92:42: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (2229 ms)",
+  "well-founded recursion": "info: Graff/Score.lean:302:69: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via Graff.Score.classOf \u2192 Graff.Score.needleTier \u2192 Graff.Score.hasInfix \u2192 String.splitOn): `decide +kernel` cannot evaluate it; NativeTrust's `kdecide` can"
+ },
+ "reps": 3,
+ "orig_wall_med": 2.56,
+ "orig_cpu_med": 7.7,
+ "kf_wall_med": 17.31,
+ "kf_cpu_med": 36.5,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": null,
+ "finished": "2026-10-24T07:49:32Z"
+}

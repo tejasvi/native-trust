@@ -1,0 +1,2 @@
+bvs ex_xor #1: 192 nodes, 479 clauses, 192 vars; 103 steps, 506 hints, 1 chunks; solve 16 ms, prep+defs 4 ms; kernel: base 122 ms, chunks 155 ms (max 155 ms); total 301 ms
+bvs: added ex_xor.bvs4 (5 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

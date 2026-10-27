@@ -1,0 +1,2 @@
+orig: native axioms: 33 native axioms in `NTV.String_reduction` | wall_med=75.45 cpu_med=83.49 rss_kb_max=1917916 runs=1 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.String_reduction` | wall_med=76.93 cpu_med=85.09 rss_kb_max=2003656 runs=1 rc=0 errors=0 kf_fallback=0

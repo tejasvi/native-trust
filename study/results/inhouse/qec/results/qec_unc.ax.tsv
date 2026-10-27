@@ -1,0 +1,2 @@
+qec	QEC.ChecksN8.C8_0_3	cover8_0_3._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	1129	101809580	470		cg_cpu_s=470.4 cg_peak_kb=100663296 cg_oom_kill=1 nt_lines=91 last=blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+qec	QEC.ChecksN8.H8_0	heads8_0._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	14400s	7530		14401		cg_cpu_s=14399.1 cg_peak_kb=10241448 cg_oom_kill=0 nt_lines=114 last=blockers_ms=9 bounded=true copy_ms=29239 copies=25 copy_kernel_ms=7471 fast_lits=0 string_args=false

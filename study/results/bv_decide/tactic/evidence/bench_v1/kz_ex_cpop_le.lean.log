@@ -1,0 +1,2 @@
+bvs ex_cpop_le #1: 129 nodes, 362 clauses, 129 vars; 69 steps, 432 hints, 1 chunks; solve 20 ms, prep+defs 3 ms; kernel: base 107 ms, chunks 75 ms (max 75 ms); total 207 ms
+bvs: added ex_cpop_le.bvs4 (3 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

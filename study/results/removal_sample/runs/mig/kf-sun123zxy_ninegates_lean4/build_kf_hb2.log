@@ -1,0 +1,71 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Ninegates.Basic +Ninegates.Counterexample.Defs +Ninegates.Counterexample.Elimination +Ninegates.Counterexample.EnumAlgo +Ninegates.Counterexample.EnumSpec +Ninegates.Counterexample.Reduction +Ninegates.Defs +Ninegates.Meldable.Basic +Ninegates.Meldable.Canonical +Ninegates.Meldable.Decidable +Ninegates.Meldable.Defs +Ninegates.Meldable.Split +Ninegates.Operations.Basic +Ninegates.Operations.Defs +Ninegates.Positivity +Ninegates.Standard.Basic +Ninegates.Standard.Defs +Ninegates.Standard.Insert +Ninegates.Standard.Wait +Ninegates.Wait.Basic +Ninegates.Wait.Decidable.Basic +Ninegates.Wait.Defs +Ninegates.Winning.Basic +Ninegates.Winning.Decidable +Ninegates.Winning.Decide +Ninegates.Winning.Defs
+✔ [3010/3035] Built Ninegates.Defs (1.7s)
+✔ [3011/3035] Built Ninegates.Operations.Defs (1.2s)
+✔ [3012/3035] Built Ninegates.Standard.Defs (1.4s)
+✔ [3013/3035] Built Ninegates.Basic (2.0s)
+✔ [3014/3035] Built Ninegates.Meldable.Defs (2.1s)
+✔ [3015/3035] Built Ninegates.Winning.Defs (1.1s)
+✔ [3016/3035] Built Ninegates.Operations.Basic (1.0s)
+✔ [3017/3035] Built Ninegates.Wait.Defs (1.1s)
+✔ [3018/3035] Built Ninegates.Meldable.Basic (2.1s)
+✔ [3019/3035] Built Ninegates.Counterexample.Defs (1.1s)
+✔ [3020/3035] Built Ninegates.Winning.Basic (1.2s)
+✔ [3021/3035] Built Ninegates.Meldable.Canonical (2.1s)
+✔ [3022/3035] Built Ninegates.Wait.Basic (1.5s)
+✔ [3023/3035] Built Ninegates.Winning.Decide (1.5s)
+✔ [3024/3035] Built Ninegates.Counterexample.EnumAlgo (1.6s)
+✔ [3025/3035] Built Ninegates.Meldable.Decidable (2.5s)
+✔ [3026/3035] Built Ninegates.Meldable.Split (4.9s)
+✔ [3027/3035] Built Ninegates.Standard.Insert (4.3s)
+✔ [3028/3035] Built Ninegates.Winning.Decidable (2.0s)
+✔ [3029/3035] Built Ninegates.Wait.Decidable.Basic (1.2s)
+✔ [3030/3035] Built Ninegates.Standard.Basic (1.9s)
+✔ [3031/3035] Built Ninegates.Positivity (4.3s)
+✔ [3032/3035] Built Ninegates.Counterexample.Reduction (8.0s)
+✔ [3033/3035] Built Ninegates.Counterexample.EnumSpec (3.4s)
+⚠ [3034/3035] Built Ninegates.Counterexample.Elimination (3.3s)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+info: Ninegates/Counterexample/Elimination.lean:35:25: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Counterexample/Elimination.lean:35:25: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Counterexample/Elimination.lean:44:4: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Counterexample/Elimination.lean:44:4: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+⚠ [3035/3035] Built Ninegates.Standard.Wait (27s)
+info: Ninegates/Standard/Wait.lean:238:13: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:238:13: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:334:42: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:334:42: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:340:42: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:340:42: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:346:42: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:346:42: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:352:44: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:352:44: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:358:42: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:358:42: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+info: Ninegates/Standard/Wait.lean:364:44: kernel-first: native_decide used compiled evaluation: blocked: reaches `Std.ExtDHashMap.insertIfNew`, `Std.ExtDHashMap.contains`, `Std.ExtDHashMap.emptyWithCapacity` (no kernel definition; in this module-system file, imported definitions that are not `@[expose]`d have no visible definition)
+warning: Ninegates/Standard/Wait.lean:364:44: Using `native_decide` is not allowed in mathlib: because it trusts the entire Lean compiler (not just the Lean kernel), it could quite possibly be used to prove false.
+
+Note: This linter can be disabled with `set_option linter.style.nativeDecide false`
+Build completed successfully (3035 jobs).
+TIME wall=43.53 user=128.31 sys=7.72 maxrss_kb=2667788
+rc=0 secs=44

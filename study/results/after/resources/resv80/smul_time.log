@@ -1,0 +1,7 @@
+$ lean smul_time.lean tc=v4.30.0 ntlib=/home/ntbuild/work_shared/nt30/v4.30.0/.lake/build/lib/lean start=2026-10-25T12:37:20Z
+"scalar bit lengths: w 250, u 254, g5 254"
+smulW: compiled evaluation and reification 231 ms; kernel check of `term = value` 10912 ms
+smulU: compiled evaluation and reification 233 ms; kernel check of `term = value` 11598 ms
+smulG5: compiled evaluation and reification 313 ms; kernel check of `term = value` 12055 ms
+maxrss_kb 4856540 secs 37.14
+rc=0 end=2026-10-25T12:37:57Z

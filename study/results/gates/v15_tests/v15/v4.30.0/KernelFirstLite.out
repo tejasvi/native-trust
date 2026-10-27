@@ -1,0 +1,23 @@
+KernelFirstLite.lean:39:44: error: Tactic `native_decide` evaluated that the proposition
+  (List.range 10).length = 11
+is false
+KernelFirstLite.lean:48:32: error: Tactic `decide` failed for proposition
+  countDown 5 = 0
+because its `Decidable` instance
+  instDecidableEqNat (countDown 5) 0
+did not reduce to `isTrue` or `isFalse`.
+
+After unfolding the instances `instDecidableEqNat` and `Nat.decEq`, reduction got stuck at the `Decidable` instance
+  match h : (countDown 5).beq 0 with
+  | true => isTrue ⋯
+  | false => isFalse ⋯
+'kl_sum' does not depend on any axioms
+'kl_native' does not depend on any axioms
+'kl_two' does not depend on any axioms
+'kl_partial' depends on axioms: [kl_partial._native.native_decide.ax_1]
+'kl_budget' depends on axioms: [kl_budget._native.native_decide.ax_1]
+'kl_budget_native' depends on axioms: [kl_budget_native._native.decide.ax_1]
+'kl_wf' depends on axioms: [propext, Quot.sound, kl_wf._native.native_decide.ax_1]
+'kl_config' depends on axioms: [kl_config._native.native_decide.ax_1]
+'kl_decide' does not depend on any axioms
+rc=1

@@ -1,0 +1,16 @@
+2026-10-26T02:33:29Z Supp_thm11: 61 fact modules, theorem QEC.Circ.thm11_circuit_native, module QEC.ChecksN.Thm11V2
+supp_compile rc=0 supp_compile: 3.07 s wall 2.60 s user 0.40 s sys 3909340 KB
+'QEC.Circ.thm11_circuit_native' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ nfl_X_13._native.native_decide.ax_1_1,
+--
+'QEC.Circ.thm11_circuit_native.kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+statements identical (Expr ==): true
+supp_compile: 3.07 s wall 2.60 s user 0.40 s sys 3909340 KB
+stmt_check rc=0 STMT same=1 defeq=0 diff=0 missing=0 nonstd_axioms=0 control_originals_nonstd=1 
+leanexport rc=1 lines=0 bytes=0 leanexport: 0.07 s wall 93140 KB
+nanoda rc=0     "Unable to print axioms", ] nanoda: 0.00 s wall 0.00 s user 2384 KB 
+2026-10-26T02:33:34Z done
+2026-10-26T02:34:56Z leanexport(v1 export script) rc=0 lines=2214868 bytes=117164063 leanexport: 5.05 s wall 4.47 s user 3796612 KB
+2026-10-26T04:02:04Z nanoda rc=0 Checked 21775 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] nanoda: 5228.41 s wall 5180.21 s user 8961380 KB 

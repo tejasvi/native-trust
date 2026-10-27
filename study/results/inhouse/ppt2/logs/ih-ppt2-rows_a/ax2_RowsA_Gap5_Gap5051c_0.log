@@ -1,0 +1,20 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap5_Gap5051c_0.lean
+NT start RowsA.Gap5051c.chk_ok._native.native_decide.ax_1_1
+NT nested RowsA.Gap5051c.chk_ok._native.native_decide.ax_1_1 ms=305 rebuilt_defs=0 visited=6509
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow?
+NT copy RowsA.Gap5.parseRow? defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5.parseRow
+NT copy RowsA.Gap5.parseRow defn_ms=0 eq_ms=0 congr=true
+NT copying RowsA.Gap5051b.selData
+NT copy RowsA.Gap5051b.selData defn_ms=2 eq_ms=8 congr=true
+NT copying RowsA.Gap5051b.sel
+libc++abi: terminating due to uncaught exception of type std::bad_alloc: std::bad_alloc
+Command terminated by signal 6
+maxrss_kb 45942168
+rc=134 secs=97

@@ -1,0 +1,10 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 -o F1_RowsA_Gap5_Gap5144Fp0_0.olean F1_RowsA_Gap5_Gap5144Fp0_0.lean
+NT start RowsA.Gap5144F.p0.φq._native.native_decide.ax_1
+NT nested RowsA.Gap5144F.p0.φq._native.native_decide.ax_1 ms=192 rebuilt_defs=0 visited=4117
+NT _ktr.F1_RowsA_Gap5_Gap5144Fp0_0.RowsA.Gap5144F.p0.φq._kernel.native_decide.ax_1 blockers_ms=0 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F1_RowsA_Gap5_Gap5144Fp0_0.RowsA.Gap5144F.p0.φq._kernel.native_decide.ax_1 eval_ms=0
+NT _ktr.F1_RowsA_Gap5_Gap5144Fp0_0.RowsA.Gap5144F.p0.φq._kernel.native_decide.ax_1 quick whole-term attempt proved it
+PROVED `RowsA.Gap5144F.p0.φq._native.native_decide.ax_1` as `_ktr.F1_RowsA_Gap5_Gap5144Fp0_0.RowsA.Gap5144F.p0.φq._kernel.native_decide.ax_1`: kernel_ms=8 native_axioms=1 rebuilt=0 copies=0 total_ms=200 acc_fallback=0 pieces=1
+PROVED `RowsA.Gap5144F.p0.φq._native.native_decide.ax_1` as `_ktr.F1_RowsA_Gap5_Gap5144Fp0_0.RowsA.Gap5144F.p0.φq._kernel.native_decide.ax_1`: kernel_ms=8 native_axioms=1 rebuilt=0 copies=0 total_ms=200 acc_fallback=0 pieces=1
+maxrss_kb 3615768
+rc=0 secs=2

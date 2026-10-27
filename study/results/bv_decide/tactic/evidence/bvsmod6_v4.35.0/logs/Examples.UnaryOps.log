@@ -1,0 +1,17 @@
+bvs ex_rev #1: 9 nodes, 2 clauses, 1 vars; 1 steps, 2 hints, 1 chunks; solve 18 ms, prep+defs 1 ms; kernel: base 8 ms, chunks 0 ms (max 0 ms); total 66 ms
+bvs: added ex_rev.bvs4 (2 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_rev_and #1: 128 nodes, 287 clauses, 128 vars; 68 steps, 261 hints, 1 chunks; solve 18 ms, prep+defs 5 ms; kernel: base 72 ms, chunks 68 ms (max 68 ms); total 165 ms
+bvs: added ex_rev_and.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_clz_zero #1: 142 nodes, 377 clauses, 142 vars; 54 steps, 261 hints, 1 chunks; solve 19 ms, prep+defs 6 ms; kernel: base 137 ms, chunks 67 ms (max 67 ms); total 232 ms
+bvs: added ex_clz_zero.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_clz_le #1: 50 nodes, 125 clauses, 50 vars; 48 steps, 109 hints, 1 chunks; solve 18 ms, prep+defs 3 ms; kernel: base 39 ms, chunks 21 ms (max 21 ms); total 83 ms
+bvs: added ex_clz_le.bvs4 (3 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_clz_msb #1: 300 nodes, 803 clauses, 300 vars; 13 steps, 32 hints, 1 chunks; solve 16 ms, prep+defs 7 ms; kernel: base 395 ms, chunks 7 ms (max 7 ms); total 430 ms
+bvs: added ex_clz_msb.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_cpop_le #1: 129 nodes, 362 clauses, 129 vars; 69 steps, 432 hints, 1 chunks; solve 17 ms, prep+defs 7 ms; kernel: base 103 ms, chunks 76 ms (max 76 ms); total 207 ms
+bvs: added ex_cpop_le.bvs4 (4 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_cpop_not #1: 1131 nodes, 3344 clauses, 1131 vars; 1947 steps, 40472 hints, 3 chunks; solve 47 ms, prep+defs 266 ms; kernel: base 1242 ms, chunks 6245 ms (max 3445 ms); total 7807 ms
+bvs: added ex_cpop_not.bvs4 (94 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+bvs ex_ctz_lt #1: 136 nodes, 359 clauses, 136 vars; 47 steps, 110 hints, 1 chunks; solve 23 ms, prep+defs 5 ms; kernel: base 146 ms, chunks 24 ms (max 24 ms); total 199 ms
+bvs: added ex_ctz_lt.bvs4 (5 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])
+'ex_cpop_not.bvs4' depends on axioms: [propext, Classical.choice, Quot.sound]

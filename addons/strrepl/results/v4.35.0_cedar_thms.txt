@@ -1,0 +1,16 @@
+_ktr.CT.UnitTest.Decimal.test1._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test2._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test3._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test4._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test5._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test6._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test7._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.Decimal.test8._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test1._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test2._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test3._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test4._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test5._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test6._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test7._kernel.native_decide.ax_1_1
+_ktr.CT.UnitTest.IPAddr.test8._kernel.native_decide.ax_1_1

@@ -1,0 +1,3 @@
+PROVED `Minidregg.Compiler.LegacyStoreCarryChecks.trailing_byte_refused._native.native_decide.ax_1_1` as `_ktr.F2_Compiler_LegacyStoreCarryChecks_2.Minidregg.Compiler.LegacyStoreCarryChecks.trailing_byte_refused._kernel.native_decide.ax_1_1`: kernel_ms=137923 native_axioms=1 rebuilt=0 copies=18 total_ms=138468 acc_fallback=0 pieces=1
+maxrss_kb 13888724 secs 140.08
+rc=0

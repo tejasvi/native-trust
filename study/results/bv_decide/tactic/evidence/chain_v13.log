@@ -1,0 +1,6 @@
+06:03:46 gate ok: MemAvailable 285 >= 264
+cp: cannot stat '/home/ntbuild/work_bvtac/real_v3/natuvea_model/RealK/CompositeHeader.ilean': No such file or directory
+06:03:47 e2e_k2 rc=0 1.51	1586688
+06:03:48 e2e_check22 rc=0 0.68	1555528
+CHECK2 RealK2.Serialization: 52 constants, 0 `_native` names; 8 theorems/definitions: 8 standard axioms only, 0 use this module's native axioms [], 0 use only imported native axioms [], 0 other
+chain13 done 2026-10-25T06:03:48Z

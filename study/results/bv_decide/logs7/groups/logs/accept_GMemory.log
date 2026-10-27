@@ -1,0 +1,19 @@
+axioms rc=0 13:48:14
+'bvsg_Veir_Interpreter_Memory_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_Veir_Interpreter_Memory_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvsg_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvsg_1 _private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._proof_1 true
+TYPE_IDENTICAL bvsg_2 _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._proof_1 true
+TYPE_IDENTICAL bvsg_3 Veir.MemoryState.loadByte64 true
+TYPE_IDENTICAL bvsg_4 Veir.MemoryState.llvmLoad true
+TYPE_IDENTICAL bvsg_5 Veir.MemoryState.memcpy true
+TYPE_IDENTICAL bvsg_6 Veir.MemoryState.memmove true
+ax: wall=0.64 s maxrss=1654436 KB
+exporter: /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc4/bin/leanexport
+export rc=0 bytes=36370785 export: wall=1.68 s maxrss=1741224 KB 13:48:15
+nanoda PASS rc=0 decls=7058 13:48:19: Checked 7058 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=3.25 s maxrss=92560 KB 

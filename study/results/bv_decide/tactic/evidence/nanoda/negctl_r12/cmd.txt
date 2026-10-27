@@ -1,0 +1,5 @@
+2026-10-25T05:39:29Z leanexport Examples.Small -- ex_mul_three  (toolchain /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0)
+export rc=0 bytes=81555043 time,rss=3.01,1726908; native names in export: _native 
+2026-10-25T05:39:32Z nanoda_bin nanoda.json
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.61,85524: Error: export file declares unpermitted axiom "ex_mul_three._native.bv_decide.ax_1_5"  run with `-h` or `--help` for help 

@@ -1,0 +1,22 @@
+'bvs5fact_73.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_88.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_89.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Veir.Data.RISCV.sdivwPow2_pos_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Veir.Data.RISCV.sdivwPow2_pos_refinement._native.bv_decide.ax_1_5✝]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Veir.Data.RISCV.sdivwPow2_neg_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Veir.Data.RISCV.sdivwPow2_neg_refinement._native.bv_decide.ax_1_5✝]
+'bvs5_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Veir.Data.RISCV.sshlSat_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5✝]
+TYPE_IDENTICAL bvs5_1 Veir.Data.RISCV.sdivwPow2_pos_refinement true
+TYPE_IDENTICAL bvs5_2 Veir.Data.RISCV.sdivwPow2_neg_refinement true
+TYPE_IDENTICAL bvs5_3 Veir.Data.RISCV.sshlSat_refinement true
+ax: wall=0.89 s maxrss=1690624 KB

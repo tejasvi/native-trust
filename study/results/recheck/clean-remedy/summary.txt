@@ -1,0 +1,6 @@
+name=clean-remedy toolchain=v4.33.1 sampled=30 proved_again=30 failed=0 compile_rc=0 compile_s=18
+export_rc=0 export_lines=647593 export_s=2
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 0.70 s 186088 KB
+con-ron_rc=0 :: con-ron: accepted 3796 declarations (--verified) | con-ron: 0.86 s 613644 KB
+checkers_s=2
+VERDICT nanoda=PASS(4249 decls) con-ron=PASS(3796 decls) kernel_theorems=30

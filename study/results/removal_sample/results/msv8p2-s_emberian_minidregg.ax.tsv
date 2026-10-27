@@ -1,0 +1,28 @@
+msv8p2-s_emberian_minidregg	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	scripts.probe-fn-portable-line	-			NOT_BUILT						
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralArithmetic	Minidregg.Assurance.ObjectiveZkLiteralArithmetic.graph_width._native.native_decide.ax_1_1	native_decide	False	PROVED		0	40734792	432		nt_lines=14 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralArithmetic	Minidregg.Assurance.ObjectiveZkLiteralArithmetic.graph_valid._native.native_decide.ax_1_1	native_decide	False	PROVED		0	44101052	450		nt_lines=14 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.graph_built._native.native_decide.ax_1_1	native_decide	False	PROVED		0	39856008	192		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.prepared_label._native.native_decide.ax_1_1	native_decide	False	PROVED		0	45004780	216		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.prepared_nat7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	43469428	210		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.prepared_nat9._native.native_decide.ax_1_1	native_decide	False	PROVED		0	43469556	208		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.prepared_boolean._native.native_decide.ax_1_1	native_decide	False	PROVED		0	43468988	211		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.prepared_closure._native.native_decide.ax_1_1	native_decide	False	PROVED		0	43508204	210		nt_lines=7 last=pieces=1
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.write_one_row_exact._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1925328	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.increment_dag_overflow._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1540144	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.increment_dag_exact._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1540916	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.invalid_write_preserves_rows._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1890456	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.read_multiplicative_depth._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1740996	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Assurance.ObliviousNetworkChecks	Minidregg.Assurance.ObliviousNetworkChecks.write_dag_valid._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1599624	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.consumer_reply_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		1	6065620	13		nt_lines=9 last=pieces=1
+msv8p2-s_emberian_minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.poll_reply_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		1	6961816	17		nt_lines=9 last=pieces=1
+msv8p2-s_emberian_minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.poll_reply_typed._native.native_decide.ax_1_1	native_decide	False	PROVED		1	6518108	15		nt_lines=9 last=pieces=1
+msv8p2-s_emberian_minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.identity_reply_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		3	11296460	34		nt_lines=11 last=pieces=1
+msv8p2-s_emberian_minidregg	Compiler.ObjectiveBendLaw	Minidregg.Compiler.ObjectiveBendLaw.parse_refuses_nested._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1566788	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Compiler.ObjectiveBendLaw	Minidregg.Compiler.ObjectiveBendLaw.parse_tally._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1558076	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Compiler.ObjectiveBendLaw	Minidregg.Compiler.ObjectiveBendLaw.parse_precedence._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1689084	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_emberian_minidregg	Compiler.FnWirePinned	Minidregg.Compiler.FnWire.pinned_length._native.native_decide.ax_1_1	native_decide	False	PROVED		759	12225056	41		nt_lines=9 last=pieces=1

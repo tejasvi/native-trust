@@ -1,0 +1,13 @@
+[73381826] bvsg_Model_CompositeHeader_0: 18768 nodes, CNF 56111 clauses, 18768 variables
+[73382526] bvsg_Model_CompositeHeader_0: 3200 steps, 7142 hints, 2 chunks; solve 300 ms
+[73423089] bvsg_Model_CompositeHeader_0: base check (bit-blast + CNF + trie agreement) 40563 ms
+[73425936] bvsg_Model_CompositeHeader_0: chunk bvsg_Model_CompositeHeader_0._bvs_s0 (2000 steps from id 56112) 2846 ms
+[73427411] bvsg_Model_CompositeHeader_0: chunk bvsg_Model_CompositeHeader_0._bvs_s1 (1200 steps from id 58112) 1475 ms
+[73428261] bvsg_Model_CompositeHeader_1: 324 nodes, CNF 923 clauses, 324 variables
+[73428363] bvsg_Model_CompositeHeader_1: 450 steps, 7232 hints, 1 chunks; solve 62 ms
+[73428982] bvsg_Model_CompositeHeader_1: base check (bit-blast + CNF + trie agreement) 619 ms
+[73430096] bvsg_Model_CompositeHeader_1: chunk bvsg_Model_CompositeHeader_1._bvs_s0 (450 steps from id 924) 1114 ms
+[73430122] bvsg_Proofs_Serialization_0: 33 nodes, CNF 2 clauses, 1 variables
+[73430172] bvsg_Proofs_Serialization_0: 1 steps, 2 hints, 1 chunks; solve 50 ms
+[73430217] bvsg_Proofs_Serialization_0: base check (bit-blast + CNF + trie agreement) 45 ms
+[73430218] bvsg_Proofs_Serialization_0: chunk bvsg_Proofs_Serialization_0._bvs_s0 (1 steps from id 3) 1 ms

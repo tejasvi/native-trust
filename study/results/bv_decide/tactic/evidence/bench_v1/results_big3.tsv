@@ -1,0 +1,6 @@
+bvd_mul3_w512.lean	0	0.58	1581296
+bvk_mul3_w512.lean	0	394.53	4678964
+kz_mul3_w512.lean	0	391.37	4671728
+bvd_andor_w4096.lean	0	2.49	1747808
+bvk_andor_w4096.lean	0	926.90	8141656
+kz_andor_w4096.lean	1	28.55	2880880

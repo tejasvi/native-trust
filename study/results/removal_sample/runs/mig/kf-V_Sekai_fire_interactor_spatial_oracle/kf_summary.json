@@ -1,0 +1,179 @@
+{
+ "name": "V_Sekai_fire_interactor_spatial_oracle",
+ "pkg": "/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle",
+ "copy_root": "/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle",
+ "ntlib": "/home/ntbuild/work_migsample/ntlib/v4.30.0",
+ "hb2": 20000,
+ "jobs": 8,
+ "started": "2026-10-24T05:53:56Z",
+ "toolchain": "v4.30.0",
+ "ntcheck": {
+  "rc": 0,
+  "n_built": 0,
+  "wall": 3.02,
+  "built": []
+ },
+ "modules": 13,
+ "before": {
+  "total": 43,
+  "by_tactic": {
+   "native_decide": 43
+  },
+  "failed": [],
+  "dirty": 43
+ },
+ "native_files": 7,
+ "builds": [
+  {
+   "tag": "orig_1",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 3.21,
+   "cpu": 7.9,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 1.7,
+   "peak_rss_sum_gb": 2.0,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_1",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 8.72,
+   "cpu": 19.7,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 2.0,
+   "peak_rss_sum_gb": 7.5,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_2",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 3.23,
+   "cpu": 8.3,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 1.6,
+   "peak_rss_sum_gb": 1.9,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_2",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 8.73,
+   "cpu": 19.6,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 2.0,
+   "peak_rss_sum_gb": 7.6,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "orig_3",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 3.01,
+   "cpu": 7.9,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 1.7,
+   "peak_rss_sum_gb": 2.3,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_3",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 8.62,
+   "cpu": 19.3,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 2.1,
+   "peak_rss_sum_gb": 7.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  },
+  {
+   "tag": "kf_hb2",
+   "deleted": 91,
+   "rc": 0,
+   "wall": 18.62,
+   "cpu": 29.1,
+   "n_built": 13,
+   "peak_lean": 7,
+   "peak_rss_gb": 3.2,
+   "peak_rss_sum_gb": 7.8,
+   "rss_killed": false,
+   "thread_fail": 0,
+   "errors": [],
+   "failed_mods": [],
+   "tail": ""
+  }
+ ],
+ "after": {
+  "total": 9,
+  "by_tactic": {
+   "native_decide": 9
+  },
+  "failed": [],
+  "dirty": 9
+ },
+ "fallbacks": {
+  "budget (heartbeats)": 3,
+  "well-founded recursion": 6
+ },
+ "fallback_examples": {
+  "budget (heartbeats)": "info: PredictiveBvh/core/CurveDuality.lean:95:77: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 2000 thousand heartbeats (1398 ms)",
+  "well-founded recursion": "info: PredictiveBvh/core/CurveDuality.lean:140:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters \u2192 CurveDuality.clusters \u2192 List.mergeSort \u2192 List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdec"
+ },
+ "after_hb2": {
+  "total": 7,
+  "by_tactic": {
+   "native_decide": 7
+  },
+  "failed": [],
+  "dirty": 7
+ },
+ "fallbacks_hb2": {
+  "well-founded recursion": 7
+ },
+ "fallback_examples_hb2": {
+  "well-founded recursion": "info: PredictiveBvh/core/CurveDuality.lean:142:2: kernel-first: native_decide used compiled evaluation: well-founded recursion (`WellFounded.fix` via CurveDuality.totalClusters \u2192 CurveDuality.clusters \u2192 List.mergeSort \u2192 List.mergeSort._unary): `decide +kernel` cannot evaluate it; NativeTrust's `kdec"
+ },
+ "reps": 3,
+ "orig_wall_med": 3.21,
+ "orig_cpu_med": 7.9,
+ "kf_wall_med": 8.72,
+ "kf_cpu_med": 19.6,
+ "orig_build_ok": true,
+ "kf_build_ok": true,
+ "kf_hb2_build_ok": true,
+ "finished": "2026-10-24T05:55:02Z"
+}

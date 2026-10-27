@@ -1,0 +1,6 @@
+bvs6: prepared; shard files and the final file written to .
+BVS_PREP	Examples.SplitFacts	0	split_and_or._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Examples.SplitFacts	0	segments=4	chunks=14	ms=1400
+BVS_UNSAT	Examples.SplitFacts	0	split_and_or._native.bv_decide.ax_1_5	-	0	-	800	bvs6fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	split_and_or	bvs6_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.SplitFacts	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0

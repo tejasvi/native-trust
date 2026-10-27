@@ -1,0 +1,8 @@
+BVS/Sound2.lean:612:23: warning: This simp argument is unused:
+  Bool.and_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [findMD] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+TIME wall=0.81 s user=3.52 s maxrss=807908 KB

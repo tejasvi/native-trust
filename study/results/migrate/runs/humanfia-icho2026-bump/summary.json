@@ -1,0 +1,189 @@
+{
+ "name": "humanfia-icho2026-bump",
+ "pkg": "/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization",
+ "toolchain": "v4.31.0",
+ "uses": 693,
+ "replaced": 689,
+ "replaced_known": 689,
+ "replaced_unknown": 0,
+ "replaced_facts": 1860,
+ "replaced_with_heartbeat_bump": 18,
+ "heartbeat_bumps": 4,
+ "remaining": {
+  "ERROR/memory": 3,
+  "TIMEOUT/900s": 1
+ },
+ "native_axioms_before": 1864,
+ "native_axioms_after": 4,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 424,
+ "native_dependent_decls_after": 12,
+ "rewritten_decls": 272,
+ "rewritten_decls_still_native": 6,
+ "still_native_why": {
+  "IChO2026Problems.Icho2026T3A5.macrocycle_repeat_reported_result": "depends on another native-dependent declaration",
+  "IChO2026Problems.Icho2026T6A6.structure_p": "1 unconverted native facts of its own",
+  "IChO2026Problems.ProblemIChO2026T7A7.productIdentificationSearchAudit": "1 unconverted native facts of its own",
+  "IChO2026Problems.ProblemIChO2026T7A7.quantitativeMaterialStageDerivation": "depends on another native-dependent declaration",
+  "IChO2026Problems.ProblemIChO2026T7A7.rawResultDerivation": "depends on another native-dependent declaration",
+  "_private.IChO2026Problems.problem_icho_2026_t3_a5.0.IChO2026Problems.Icho2026T3A5.macrocycleRepeatRawProof": "2 unconverted native facts of its own"
+ },
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 1,
+   "wall": 494.61,
+   "cpu": 1143.6,
+   "n_errors": 4,
+   "reverted": 0,
+   "bumped": 4,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 21.1,
+   "rss_killed": false
+  },
+  {
+   "round": 1,
+   "rc": 0,
+   "wall": 116.56,
+   "cpu": 277.3,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 3,
+   "peak_rss_gb": 20.8,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 116.06,
+  "cpu": 483.9,
+  "n_built": 34,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 8.1,
+  "peak_rss_sum_gb": 21.2
+ },
+ "time1": {
+  "wall": 501.0,
+  "cpu": 1161.0,
+  "n_built": 34,
+  "peak_lean": 3,
+  "rc": 0,
+  "peak_rss_gb": 21.1,
+  "peak_rss_sum_gb": 38.5
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 2.45,
+  "cpu": 3.9,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 34,
+ "replaced_modules": 34,
+ "unmatched_axioms": 0,
+ "module_times_sum": [
+  330.8,
+  1001.3
+ ],
+ "module_times_slower": [
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a8",
+   5.4,
+   286.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t5_a2",
+   6.6,
+   111.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a6",
+   13.0,
+   115.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t6_a5",
+   4.5,
+   69.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a7",
+   5.6,
+   45.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a2",
+   6.0,
+   39.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a5",
+   91.0,
+   108.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a4",
+   4.7,
+   21.0
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a1",
+   10.0,
+   9.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a4",
+   19.0,
+   18.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t1_a4",
+   11.0,
+   10.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t9_a1",
+   3.2,
+   3.0
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t7_a2",
+   4.9,
+   4.7
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t3_a6",
+   3.6,
+   3.4
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t2_a1",
+   3.7,
+   3.5
+  ],
+  [
+   "IChO2026Problems.problem_icho_2026_t4_a7",
+   3.4,
+   3.2
+  ]
+ ]
+}

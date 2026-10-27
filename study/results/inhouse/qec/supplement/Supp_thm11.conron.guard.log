@@ -1,0 +1,8 @@
+2026-10-26T07:33:27Z guard v2 pid 327940 cap 1.000 core-h margin 60 s base 0.0 core-s mode run
+2026-10-26T07:33:27Z metered 0.0 core-s = 0.000 core-h, live 2
+2026-10-26T07:34:27Z metered 852.4 core-s = 0.237 core-h, live 2
+2026-10-26T07:35:27Z metered 1814.3 core-s = 0.504 core-h, live 2
+2026-10-26T07:36:27Z metered 2776.0 core-s = 0.771 core-h, live 2
+2026-10-26T07:37:17Z CAP reached (0.991 of 1.000 core-h): SIGSTOP then SIGKILL 2 processes
+2026-10-26T07:37:17Z killed 327941 327942
+2026-10-26T07:37:18Z after kill: reaped total 0.000 core-h

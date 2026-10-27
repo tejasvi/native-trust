@@ -1,0 +1,29 @@
+02:58:07 gate ok: MemAvailable 404 >= 264
+toolchain leanprover/lean4:v4.35.0-rc4; start 2026-10-25T02:58:07Z
+BVS.LratBits rc=0 0.22	325512
+BVS.LratBitsSound rc=0 0.31	358892
+BVS.Blast rc=0 0.47	384016
+BVS.Lrat.Trie rc=0 0.45	415536
+BVS.Sound.Basic rc=0 0.40	408716
+BVS.Lrat.Chain rc=0 0.46	430808
+BVS.Sound.Circuits rc=0 0.54	461368
+BVS.Sound.Bits rc=0 0.38	416492
+BVS.Sound.Shifts rc=0 0.41	411040
+BVS.Sound.Unary rc=0 0.26	394104
+BVS.Sound.Expr rc=0 0.58	390592
+BVS.Sound.CNF rc=0 0.25	393444
+BVS.Lrat.LeafTree rc=0 0.40	404640
+BVS.Unsat rc=0 0.30	379768
+BVS.SplitBase rc=0 0.57	412724
+BVS.Driver.Core rc=0 1.88	902240
+BVS.Driver.Select rc=0 1.17	870488
+BVS.Driver.Split rc=0 1.15	877252
+BVS.Driver.Group rc=0 0.87	859176
+BVS.Tactic rc=0 1.33	890420
+BVS rc=0 0.43	815676
+Examples.Small rc=0 9.12	2169796
+Examples.Tactic rc=0 31.27	2357356
+Examples.TacticModule rc=0 4.93	1148044
+end 2026-10-25T02:59:05Z
+02:59:05 gate ok: MemAvailable 291 >= 264
+real s_opencompl_veir (v4.35.0-rc4) with bvsmod5_v4.35.0-rc4 in /home/ntbuild/work_bvtac/real_v6/veir; start 2026-10-25T02:59:05Z

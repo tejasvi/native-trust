@@ -1,0 +1,20 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_heavy_ZZChk_N_Check_0.lean
+NT start ZZChk.N.check_native._native.native_decide.ax_1_1
+NT nested ZZChk.N.check_native._native.native_decide.ax_1_1 ms=67 rebuilt_defs=0 visited=2113
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=22 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_0 eval_ms=1241027
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_1 blockers_ms=10 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_1 eval_ms=184
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_2 blockers_ms=4 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_2 eval_ms=106
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1 structure witness any index=1035 of 2783
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_3 blockers_ms=3 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_3 eval_ms=28
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1 structure all-by-index length=2783 pieces=4
+NT _ktr.F2_heavy_ZZChk_N_Check_0.ZZChk.N.check_native._kernel.native_decide.ax_1_1.p_4 blockers_ms=8 bounded=false copy_ms=22 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 96510500
+rc=1 secs=1596

@@ -1,0 +1,12 @@
+project	beat-the-average 6.39 v5, native version
+source	supp 10.5281/zenodo.23570173 (beat-the-average-bound-v5 @e957edf7fd5f)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	4 (BeatAvg.N.K6Check, K7Check, K8Check, K9Check)
+converted	0 of 1 checked (K6); 0 theorems
+nt_cpu_h	0.14
+nt_wall_min	8
+native_build_cpu_h	K7 check 7:46 on one thread, K8 1:15:07 on one thread, K9 27,112 CPU-seconds (README.md:300-301); K6 not stated
+hand_track	k6 (66 modules), k7K, k9K
+hand_build_cpu_h	45.2 (k7K, README.md:311) + 2044 (k9K, README.md:315); k6: 66 modules of at most 111 s each (README.md:303)
+checks	kdecide on BeatAvg.N.K6Check (900 s, 100G): out of memory after 507 s; K7-K9 not run: their data modules are in lean_data.tar.xz of the supplement record, not on the box

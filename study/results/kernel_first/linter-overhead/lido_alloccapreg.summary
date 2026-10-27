@@ -1,0 +1,7 @@
+orig native axioms: 4 native axioms in `NTV.AllocCapacityRegression`
+kf native axioms: 0 native axioms in `NTV.AllocCapacityRegression`
+orig: wall_med=0.69 cpu_med=0.72 rss_kb_max=1543180 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=0.68 cpu_med=0.72 rss_kb_max=1553960 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=0.70 cpu_med=0.76 rss_kb_max=1563680 runs=3 rc=0 warnings=4 unnecessary=4 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=0.71 cpu_med=0.74 rss_kb_max=1560208 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=0.69 cpu_med=0.72 rss_kb_max=1555348 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

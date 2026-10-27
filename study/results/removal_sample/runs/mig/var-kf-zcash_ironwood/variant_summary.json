@@ -1,0 +1,21 @@
+{
+ "name": "zcash_ironwood",
+ "mode": "kf",
+ "key": "kf zcash_ironwood kf_1",
+ "started": "2026-10-24T07:03:51Z",
+ "modules": 461,
+ "audit_modules": 7,
+ "dependents_excluded": [],
+ "targets": 454,
+ "build": {
+  "deleted": 3227,
+  "rc": 0,
+  "wall": 702.29,
+  "cpu": 3668.6,
+  "n_built": 454,
+  "errors": [],
+  "failed_mods": [],
+  "tail": ""
+ },
+ "finished": "2026-10-24T07:15:43Z"
+}

@@ -1,0 +1,40 @@
+$ lean longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-25T00:52:22Z
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 34428864 secs 214.50
+rc=1 end=2026-10-25T00:55:57Z
+hmarks.HahnRateSixteenth.allRowsBool._native.native_decide.ax_1_1 ms=79 rebuilt_defs=0 visited=2094
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.ratio
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.ratio defn_ms=0 eq_ms=1 congr=true
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.eta
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.eta defn_ms=0 eq_ms=0 congr=true
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.hahnTheta
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.hahnTheta defn_ms=0 eq_ms=0 congr=true
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.mu
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.mu defn_ms=1 eq_ms=0 congr=true
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.epsilon
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.epsilon defn_ms=0 eq_ms=0 congr=true
+NT copying _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.paperTheta
+NT copy _private.polygero.Benchmarks.HahnRateSixteenth.0.RecursivePolygero.Benchmarks.HahnRateSixteenth.paperTheta defn_ms=0 eq_ms=0 congr=true
+NT copying RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOk
+NT copy RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOk defn_ms=0 eq_ms=1 congr=true
+NT copying RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-congr-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) application type mismatch   id inferInstance argument has type   Decidable     ((50 ≤ r.t ∧ r.t ≤ 70) ∧       (1088 ≤ r.a ∧ r.a ≤ 8192) ∧         RecursivePolygero.DiscreteThreshold.IsLeastIndex RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝             (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) r.u ∧           (1 ≤ min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L ∧               RecursivePolygero.DiscreteThreshold.candidate (min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L)                   1 (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) ≤                 _kt.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1»._private.polyge
+NT copy-rfl RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) deterministic timeout
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=13479 copies=7 copy_kernel_ms=3 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1 structure all-by-index length=21 pieces=16
+NT copying RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-congr-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) application type mismatch   id inferInstance argument has type   Decidable     ((50 ≤ r.t ∧ r.t ≤ 70) ∧       (1088 ≤ r.a ∧ r.a ≤ 8192) ∧         RecursivePolygero.DiscreteThreshold.IsLeastIndex RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝             (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) r.u ∧           (1 ≤ min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L ∧               RecursivePolygero.DiscreteThreshold.candidate (min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L)                   1 (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) ≤                 _kt.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1»._private.polyge
+NT copy-rfl RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) deterministic timeout
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=14413 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1.p_0 stage constants=0 staged=0 ms=31
+NT stage _ktv.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1»._ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1.p_0.t_0 direct ms=0
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1.p_0 stage subterms=1 staged=1 congr=true ms=6
+NT copying RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-congr-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) application type mismatch   id inferInstance argument has type   Decidable     ((50 ≤ r.t ∧ r.t ≤ 70) ∧       (1088 ≤ r.a ∧ r.a ≤ 8192) ∧         RecursivePolygero.DiscreteThreshold.IsLeastIndex RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝             (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) r.u ∧           (1 ≤ min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L ∧               RecursivePolygero.DiscreteThreshold.candidate (min RecursivePolygero.Benchmarks.HahnRateSixteenth.q✝ r.L)                   1 (RecursivePolygero.Benchmarks.HahnRateSixteenth.eta✝ r.t) ≤                 _kt.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1»._private.polyge
+NT copy-rfl RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool
+NT copy-rejected RecursivePolygero.Benchmarks.HahnRateSixteenth.rowOkBool: (kernel) deterministic timeout
+NT _ktr.«longfellow-zk__F2_polygero_Benchmarks_HahnRateSixteenth_1».RecursivePolygero.Benchmarks.HahnRateSixteenth.allRowsBool._kernel.native_decide.ax_1_1.p_0.staged blockers_ms=2 bounded=false copy_ms=14685 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

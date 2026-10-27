@@ -1,0 +1,4 @@
+BVS_UNSAT	AO16k	0	andor_16384._native.bv_decide.ax_1_5	-	0	-	63786	bvs6fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	andor_16384	bvs6_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	AO16k	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+TIME wall=64.47 s user=63.21 s maxrss=16960660 KB

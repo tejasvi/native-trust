@@ -1,0 +1,9 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Physlib.Meta.Basic +Physlib.Meta.Informal.Basic +Physlib.Meta.Informal.Post +Physlib.Meta.Linters.Pseudo +Physlib.Meta.Pseudo +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.AllowsTerm +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.Basic +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.Completions +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimallyAllowsTerm.Basic +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimallyAllowsTerm.OfFinset +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.OfFieldLabel +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.OfPotentialTerm +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.PhenoConstrained +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.Yukawa +Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod +Physlib.Particles.SuperSymmetry.SU5.FieldLabels +Physlib.Particles.SuperSymmetry.SU5.Potential +pseudo_lint
+⚠ [871/872] Reused pseudo_lint
+warning: scripts/lint/required/pseudo_lint.lean: imports `Mathlib.Lean.CoreM` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [872/872] Built Physlib.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod (37s)
+info: Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean:139:52: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (20060 ms)
+info: Physlib/Particles/SuperSymmetry/SU5/ChargeSpectrum/ZMod.lean:154:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (33969 ms)
+Build completed successfully (872 jobs).
+TIME wall=37.63 user=36.86 sys=0.91 maxrss_kb=4045552
+rc=0 secs=38

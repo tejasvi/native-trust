@@ -1,0 +1,716 @@
+✔ [1/15] Built AuxCore.LogK (191ms)
+✔ [2/29] Built AuxCore.Log (204ms)
+✔ [3/129] Built AuxCore.Log:c.o (118ms)
+✔ [4/129] Built AuxCore.LogK:c.o (129ms)
+✔ [5/129] Built AuxCore.Log:dynlib (32ms)
+✔ [6/129] Built AuxCore.LogK:dynlib (33ms)
+✔ [695/1189] Built AuxCore (164ms)
+✔ [696/1189] Built AuxCore:c.o (38ms)
+✔ [697/1189] Built AuxCore:shared (32ms)
+✔ [8966/9050] Built TUCore.Data (2.1s)
+✔ [8967/9050] Built TUCore.C2Data (262ms)
+✔ [8968/9050] Built TUCore.Irred (257ms)
+✔ [8969/9050] Built TUCore.C2Data:c.o (396ms)
+✔ [8970/9055] Built TUCore.C2Data:dynlib (34ms)
+✔ [8971/9055] Built TUCore.Irred:c.o (171ms)
+✔ [8973/9057] Built TUCore.Irred:dynlib (32ms)
+✔ [8974/9057] Built TPCore.Data (4.4s)
+✔ [8975/9057] Built TUCore.Data:c.o (3.2s)
+✔ [8976/9057] Built AuxCommon.Energy.MinPrinciple (2.9s)
+✔ [8977/9059] Built AuxCommon.Basic (2.6s)
+✔ [8978/9061] Built TUCore.Data:dynlib (52ms)
+✔ [8979/9061] Built AuxCommon.LogSound (4.3s)
+✔ [8980/9061] Built AuxCommon.Northcott (2.9s)
+⚠ [8981/9061] Built TPMahler.Statement (2.7s)
+warning: TPMahler/Statement.lean:76:8: declaration uses `sorry`
+warning: TPMahler/Statement.lean:81:8: declaration uses `sorry`
+warning: TPMahler/Statement.lean:87:8: declaration uses `sorry`
+warning: TPMahler/Statement.lean:91:8: declaration uses `sorry`
+✔ [8982/9061] Built AuxCommon.Resultant (3.2s)
+✔ [8983/9061] Built TUCore.IrredData (566ms)
+⚠ [8984/9061] Built TPUpper.Statement (2.7s)
+warning: TPUpper/Statement.lean:67:8: declaration uses `sorry`
+warning: TPUpper/Statement.lean:73:8: declaration uses `sorry`
+warning: TPUpper/Statement.lean:77:8: declaration uses `sorry`
+✔ [8985/9061] Built TPCore.Data:c.o (11s)
+✔ [8986/9062] Built TPMahler.Measure (3.4s)
+✔ [8987/9062] Built TUCore.IrredData:c.o (123ms)
+✔ [8988/9063] Built TPCore.Data:dynlib (71ms)
+✔ [8989/9063] Built TUCore.IrredData:dynlib (33ms)
+✔ [8990/9064] Built AuxCommon.Averaging (3.4s)
+✔ [8991/9064] Built TPCore.Check (553ms)
+⚠ [8992/9065] Built AuxCommon.LogKSound (8.9s)
+warning: AuxCommon/LogKSound.lean:439:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: AuxCommon/LogKSound.lean:443:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [8993/9065] Built TPMahler.ClosedForm (3.3s)
+✔ [8994/9068] Built TPCore.Check:c.o (1.1s)
+✔ [8995/9068] Built TPCore.Check:dynlib (35ms)
+✔ [8996/9069] Built TPMahler.Reduction (3.1s)
+✔ [8997/9070] Built TPUpper.Criterion (2.6s)
+✔ [8998/9070] Built TPMahler.Assembly (2.9s)
+✔ [8999/9071] Built TPUpper.Steps234 (4.5s)
+✔ [9000/9072] Built TPCore.Lits (11s)
+✔ [9001/9073] Built TPCore.Leaves (9.8s)
+✔ [9003/9106] Built TPUpper.Step1 (5.1s)
+✔ [9004/9106] Built TPUpper.IrredModP (2.8s)
+✔ [9005/9106] Built TUCore.Quad15Data (47s)
+✔ [9006/9106] Built TPCore.Leaves:c.o (16s)
+✔ [9007/9106] Built TPCore.Leaves:dynlib (99ms)
+✔ [9008/9106] Built TPCore.Lits:c.o (22s)
+✔ [9009/9106] Built TPCore.Lits:dynlib (110ms)
+✔ [9010/9106] Built TPCore (186ms)
+✔ [9011/9106] Built TPCore:c.o (44ms)
+✔ [9012/9106] Built TPCore:shared (174ms)
+✔ [9013/9106] Built TUCore.Check (319ms)
+✔ [9014/9106] Built TUCore.Check:c.o (283ms)
+✔ [9015/9106] Built TUCore.Check:dynlib (36ms)
+✔ [9016/9106] Built TUCore.C2 (237ms)
+✔ [9017/9106] Built TUCore.V (231ms)
+✔ [9018/9106] Built TUCore.Quad (240ms)
+✔ [9019/9106] Built TUCore.C2:c.o (131ms)
+✔ [9020/9106] Built TUCore.Quad:c.o (164ms)
+✔ [9021/9106] Built TUCore.C2:dynlib (32ms)
+✔ [9022/9106] Built TUCore.Quad:dynlib (31ms)
+✔ [9023/9106] Built TPMahler.CertDefs (2.7s)
+✔ [9024/9106] Built TUCore.Quad15Data:c.o (14s)
+✔ [9025/9106] Built TUCore.Quad15Data:dynlib (140ms)
+✔ [9026/9106] Built TPMahler.PolySound (5.6s)
+✔ [9027/9106] Built TPMahler.AnaSound (4.1s)
+✔ [9028/9106] Built TUCore.Leaves (12s)
+✔ [9029/9106] Built TPMahler.TailSound (5.5s)
+⚠ [9030/9106] Built TPMahler.CheckSound (3.0s)
+warning: TPMahler/CheckSound.lean:85:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound.lean:85:84: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9031/9106] Built TUCore.Leaves:c.o (10s)
+✔ [9032/9106] Built TUCore.Leaves:dynlib (101ms)
+✔ [9033/9106] Built TUCore (205ms)
+✔ [9034/9106] Built TUCore:c.o (40ms)
+⚠ [9035/9106] Built TPMahler.CheckSound2 (3.2s)
+warning: TPMahler/CheckSound2.lean:79:54: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound2.lean:86:36: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound2.lean:95:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound2.lean:101:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9036/9106] Built TUCore:shared (182ms)
+✔ [9037/9106] Built TUN.Chunk000 (3.4s)
+✔ [9038/9106] Built TUN.Chunk002 (3.4s)
+✔ [9039/9106] Built TUN.Chunk001 (3.5s)
+✔ [9040/9106] Built TUN.Chunk004 (3.3s)
+✔ [9041/9106] Built TUN.Chunk005 (3.2s)
+✔ [9042/9106] Built TUN.Chunk003 (3.4s)
+✔ [9043/9106] Built TUN.Chunk006 (3.2s)
+✔ [9044/9106] Built TUN.Chunk007 (3.2s)
+✔ [9045/9106] Built TUN.Chunk008 (3.2s)
+⚠ [9046/9106] Built TPMahler.CheckSound3 (10s)
+warning: TPMahler/CheckSound3.lean:74:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:84:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:84:58: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound3.lean:124:39: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:124:60: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:127:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound3.lean:148:39: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:148:60: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:153:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:157:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:162:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:164:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:174:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:179:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:181:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:192:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound3.lean:257:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:311:33: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:326:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:326:51: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound3.lean:334:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound3.lean:368:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9047/9106] Built TUN.Chunk009 (3.2s)
+✔ [9048/9106] Built TUN.Chunk010 (3.3s)
+✔ [9049/9106] Built TUN.Chunk011 (3.2s)
+✔ [9050/9106] Built TUN.Chunk012 (3.1s)
+✔ [9051/9106] Built TUN.Chunk013 (3.2s)
+✔ [9052/9106] Built TUN.Chunk014 (3.2s)
+✔ [9053/9106] Built TUN.Chunk015 (3.2s)
+✔ [9054/9106] Built TUN.Chunk016 (3.2s)
+✔ [9055/9106] Built TUN.Chunk017 (3.2s)
+✔ [9056/9106] Built TUN.Chunk018 (3.2s)
+✔ [9057/9106] Built TUN.Chunk019 (3.2s)
+✔ [9058/9106] Built TUN.Chunk020 (3.2s)
+✔ [9059/9106] Built TUN.Chunk021 (3.1s)
+✔ [9060/9106] Built TUN.Chunk022 (3.2s)
+✔ [9061/9106] Built TUN.Chunk023 (3.2s)
+✔ [9062/9106] Built TUN.Chunk024 (3.2s)
+✔ [9063/9106] Built TUN.Chunk025 (3.2s)
+✔ [9064/9106] Built TUN.Chunk026 (3.2s)
+✔ [9065/9106] Built TUN.Chunk027 (3.2s)
+✔ [9066/9106] Built TUN.Chunk028 (3.2s)
+✔ [9067/9106] Built TUN.Chunk029 (3.2s)
+✔ [9068/9106] Built TUN.Chunk030 (3.2s)
+✔ [9069/9106] Built TUN.Chunk031 (3.2s)
+✔ [9070/9106] Built TUN.Chunk032 (3.3s)
+✔ [9071/9106] Built TUN.Chunk033 (3.2s)
+✔ [9072/9106] Built TUN.Chunk034 (3.2s)
+✔ [9073/9106] Built TUN.Chunk035 (3.1s)
+✔ [9074/9106] Built TUN.Chunk036 (3.2s)
+✔ [9075/9106] Built TUN.Chunk037 (3.2s)
+✔ [9076/9106] Built TUN.Chunk039 (3.1s)
+✔ [9077/9106] Built TUN.Chunk038 (3.2s)
+✔ [9078/9106] Built TPMahler.CheckSound4 (3.2s)
+⚠ [9079/9106] Built TPMahler.CheckSound5 (4.2s)
+warning: TPMahler/CheckSound5.lean:65:64: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TPMahler/CheckSound5.lean:65:66: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9080/9106] Built TPMahler.CheckSound6 (3.1s)
+✔ [9081/9106] Built TPMahler.CheckSound7 (3.1s)
+⚠ [9082/9106] Built TPMahler.CheckSound8 (11s)
+warning: TPMahler/CheckSound8.lean:28:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound8.lean:29:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound8.lean:53:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:54:38: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:166:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:167:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:187:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:188:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:220:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:221:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:243:67: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:243:76: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:265:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:267:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:275:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:277:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:317:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:318:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:343:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:354:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:363:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:372:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:440:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound8.lean:442:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPMahler/CheckSound8.lean:443:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPMahler/CheckSound8.lean:452:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound8.lean:454:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPMahler/CheckSound8.lean:455:40: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPMahler/CheckSound8.lean:193:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TPMahler/CheckSound8.lean:193:8: Unused tactic linter: `all_goals ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9083/9106] Built TPMahler.CheckSound9 (4.7s)
+✔ [9084/9106] Built TPMahler.CertData (2.8s)
+⚠ [9085/9106] Built TPMahler.CheckSound10 (3.1s)
+warning: TPMahler/CheckSound10.lean:51:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9086/9106] Built TPUpper.IrredSound (2.0s)
+✔ [9087/9106] Built TPMahler.TailSound2 (5.9s)
+✔ [9088/9106] Built TPUpper.UDefs (4.1s)
+✔ [9089/9106] Built TUN.Irred (2.8s)
+⚠ [9090/9106] Built TPUpper.USound1 (3.2s)
+warning: TPUpper/USound1.lean:63:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound1.lean:63:85: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9091/9106] Built TPUpper.VSound (4.8s)
+⚠ [9092/9106] Built TPUpper.USound2 (3.2s)
+warning: TPUpper/USound2.lean:40:54: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound2.lean:47:36: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound2.lean:56:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound2.lean:62:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9093/9106] Built TPUpper.USound3 (7.1s)
+warning: TPUpper/USound3.lean:57:58: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:67:38: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:67:59: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound3.lean:119:40: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:119:61: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:122:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound3.lean:143:40: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:143:61: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:148:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:152:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:157:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:159:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:169:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:174:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:176:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:187:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound3.lean:232:33: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:247:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:247:51: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:255:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound3.lean:289:29: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound3.lean:345:29: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9094/9106] Built TPUpper.USound4 (3.3s)
+✔ [9095/9106] Built TPUpper.USound5 (2.6s)
+⚠ [9096/9106] Built TPUpper.USound8 (9.4s)
+warning: TPUpper/USound8.lean:51:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound8.lean:52:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound8.lean:68:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:69:38: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:175:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:176:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:199:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:200:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:231:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:232:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:254:67: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:254:76: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:276:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:278:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:286:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:288:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:336:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:347:42: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:356:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:365:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:427:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound8.lean:429:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/USound8.lean:430:20: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: TPUpper/USound8.lean:439:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound8.lean:441:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TPUpper/USound8.lean:442:40: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: TPUpper/USound8.lean:433:45: This simp argument is unused:
+  Int.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:433:59: This simp argument is unused:
+  Int.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:436:45: This simp argument is unused:
+  Int.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:436:59: This simp argument is unused:
+  Int.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:445:45: This simp argument is unused:
+  Int.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:445:59: This simp argument is unused:
+  Int.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:448:45: This simp argument is unused:
+  Int.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:448:59: This simp argument is unused:
+  Int.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.cast_sub, Int.cast_add, Int.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TPUpper/USound8.lean:205:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: TPUpper/USound8.lean:205:8: Unused tactic linter: `all_goals ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9097/9106] Built TPUpper.USound9 (4.3s)
+⚠ [9098/9106] Built TPUpper.USound10 (2.9s)
+warning: TPUpper/USound10.lean:49:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9099/9106] Built TPUpper.USoundC2 (5.0s)
+warning: TPUpper/USoundC2.lean:230:4: Unused tactic linter: `push_cast at h47` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9100/9106] Built TPUpper.LeavesUN (2.8s)
+⚠ [9101/9106] Built TPUpper.UQuadA (3.1s)
+warning: TPUpper/UQuadA.lean:53:80: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TPUpper/UQuadA.lean:53:95: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9102/9106] Built TPUpper.UQuadB (3.1s)
+⚠ [9103/9106] Built TPUpper.UQuadC (7.7s)
+warning: TPUpper/UQuadC.lean:87:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TPUpper/UQuadC.lean:136:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9104/9106] Built TPUpper.UQuadD (2.8s)
+✔ [9105/9106] Built TPUpper.CertChecksU (2.6s)
+✔ [9106/9106] Built TPUpper.FinalN (3.9s)
+Build completed successfully (9106 jobs).
+TIME wall=216.00 user=533.18 sys=44.11 maxrss_kb=7398700

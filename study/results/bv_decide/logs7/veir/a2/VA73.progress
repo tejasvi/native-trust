@@ -1,0 +1,3 @@
+[70072434] bvs5fact_73: 52169 nodes, CNF 155348 clauses
+[70109543] bvs5fact_73: 142376 steps, 2583811 hints, 174 chunks; solve+prep 37108 ms
+[70168713] bvs5fact_73: base check 59170 ms

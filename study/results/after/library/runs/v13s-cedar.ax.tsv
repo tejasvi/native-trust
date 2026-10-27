@@ -1,0 +1,16 @@
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1541348	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1619284	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1618112	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1553844	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1613828	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1615756	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1534416	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.Decimal	UnitTest.Decimal.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1531608	1		nt_lines=23 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1569716	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		9	1631432	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		8	1600876	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1668328	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		8	1617064	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1616248	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		8	1626836	1		nt_lines=81 last=pieces=1
+v13s-cedar	UnitTest.IPAddr	UnitTest.IPAddr.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1716352	2		nt_lines=81 last=pieces=1

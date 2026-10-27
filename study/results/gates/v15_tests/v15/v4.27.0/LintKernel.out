@@ -1,0 +1,2 @@
+#native_decide_audit `LintKernel`: 0 native facts: 0 replaceable by `decide +kernel`, 0 need NativeTrust transformations, 0 blocked, 0 too expensive within the budget (2000 thousand heartbeats), 0 stuck
+rc=0

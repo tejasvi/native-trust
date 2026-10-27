@@ -1,0 +1,5 @@
+export rc=0 bytes=35325607 time,rss=1.60,1689708; native names in export: 
+nanoda rc=0 time,rss=18.21,591044: Checked 4394 declarations with no typechecker errors, 1 pretty printer errors: [     "Unable to print axioms", ] 
+export rc=0 bytes=81555043 time,rss=2.96,1726000; native names in export: _native 
+nanoda rc=1 time,rss=Command exited with non-zero status 1
+0.59,85948: Error: export file declares unpermitted axiom "ex_mul_three._native.bv_decide.ax_1_5"  run with `-h` or `--help` for help 

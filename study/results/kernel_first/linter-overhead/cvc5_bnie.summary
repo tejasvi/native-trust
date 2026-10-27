@@ -1,0 +1,7 @@
+orig native axioms: 601 native axioms in `NTV.Bool_not_ite_elim`
+kf native axioms: 0 native axioms in `NTV.Bool_not_ite_elim`
+orig: wall_med=31.79 cpu_med=34.43 rss_kb_max=2967120 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=31.90 cpu_med=34.48 rss_kb_max=2976360 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=31.53 cpu_med=34.27 rss_kb_max=2977340 runs=3 rc=0 warnings=3 unnecessary=3 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=31.55 cpu_med=34.12 rss_kb_max=2966856 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=30.80 cpu_med=33.33 rss_kb_max=2975788 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

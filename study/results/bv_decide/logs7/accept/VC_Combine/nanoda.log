@@ -1,0 +1,4 @@
+Checked 29187 declarations with no typechecker errors, 1 pretty printer errors: [
+    "Unable to print axioms",
+]
+nanoda: wall=402.15 s maxrss=6504668 KB

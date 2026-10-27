@@ -1,0 +1,12 @@
+17,21c17,21
+< 'kl_partial' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+< 'kl_budget' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+< 'kl_budget_native' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+< 'kl_wf' depends on axioms: [propext, Lean.ofReduceBool, Lean.trustCompiler, Quot.sound]
+< 'kl_config' depends on axioms: [Lean.ofReduceBool, Lean.trustCompiler]
+---
+> 'kl_partial' depends on axioms: [kl_partial._native.native_decide.ax_1]
+> 'kl_budget' depends on axioms: [kl_budget._native.native_decide.ax_1]
+> 'kl_budget_native' depends on axioms: [kl_budget_native._native.decide.ax_1]
+> 'kl_wf' depends on axioms: [propext, Quot.sound, kl_wf._native.native_decide.ax_1]
+> 'kl_config' depends on axioms: [kl_config._native.native_decide.ax_1]

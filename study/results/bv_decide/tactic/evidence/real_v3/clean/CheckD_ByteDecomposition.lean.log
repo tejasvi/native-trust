@@ -1,0 +1,1 @@
+CHECK RealD.ByteDecomposition: 10 constants, 1 `_native` names; 6 theorems: 5 standard axioms only, 1 with native axioms [Gadgets.ByteDecomposition.Theorems.soundness], 0 other []

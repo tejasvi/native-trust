@@ -1,0 +1,45 @@
+[54767623] mul_three._bvs4_1: 2912 nodes, CNF 8351 clauses, 2912 variables
+[54768514] mul_three._bvs4_1: 5543 steps, 89806 hints, 6 chunks; solve 126 ms
+[54772604] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 4090 ms
+[54777530] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (297 steps from id 8352) 4926 ms
+[54782853] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (453 steps from id 8649) 5321 ms
+[54788900] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (714 steps from id 9102) 6046 ms
+[54795170] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (2000 steps from id 9816) 6270 ms
+[54798792] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (2000 steps from id 11816) 3622 ms
+[54798999] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (79 steps from id 13816) 207 ms
+[55237653] mul_three._bvs4_1: 2912 nodes, CNF 8351 clauses, 2912 variables
+[55238471] mul_three._bvs4_1: 5543 steps, 89806 hints, 6 chunks; solve 120 ms
+[55242713] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 4242 ms
+[55249158] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (297 steps from id 8352) 6445 ms
+[55255202] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (453 steps from id 8649) 6042 ms
+[55260513] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (714 steps from id 9102) 5310 ms
+[55266469] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (2000 steps from id 9816) 5956 ms
+[55270860] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (2000 steps from id 11816) 4391 ms
+[55271148] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (79 steps from id 13816) 288 ms
+[55287353] mul_three._bvs4_1: 2912 nodes, CNF 8351 clauses, 2912 variables
+[55288258] mul_three._bvs4_1: 5543 steps, 89806 hints, 6 chunks; solve 110 ms
+[55292455] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 4197 ms
+[55298991] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (297 steps from id 8352) 6536 ms
+[55305314] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (453 steps from id 8649) 6320 ms
+[55310455] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (714 steps from id 9102) 5141 ms
+[55316245] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (2000 steps from id 9816) 5790 ms
+[55319686] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (2000 steps from id 11816) 3440 ms
+[55319873] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (79 steps from id 13816) 187 ms
+[55333957] mul_three._bvs4_1: 2912 nodes, CNF 8351 clauses, 2912 variables
+[55334477] mul_three._bvs4_1: 5543 steps, 89806 hints, 6 chunks; solve 79 ms
+[55337850] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 3373 ms
+[55342612] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (297 steps from id 8352) 4761 ms
+[55347389] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (453 steps from id 8649) 4775 ms
+[55352618] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (714 steps from id 9102) 5228 ms
+[55358509] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (2000 steps from id 9816) 5891 ms
+[55361946] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (2000 steps from id 11816) 3437 ms
+[55362133] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (79 steps from id 13816) 187 ms
+[55375915] mul_three._bvs4_1: 2912 nodes, CNF 8351 clauses, 2912 variables
+[55376805] mul_three._bvs4_1: 5543 steps, 89806 hints, 6 chunks; solve 133 ms
+[55380743] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 3937 ms
+[55385633] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (297 steps from id 8352) 4890 ms
+[55390606] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s1 (453 steps from id 8649) 4971 ms
+[55395892] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s2 (714 steps from id 9102) 5285 ms
+[55401920] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s3 (2000 steps from id 9816) 6028 ms
+[55405497] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s4 (2000 steps from id 11816) 3577 ms
+[55405702] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s5 (79 steps from id 13816) 204 ms

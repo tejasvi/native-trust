@@ -1,0 +1,269 @@
+{
+"plan": {
+"n_occ": 12,
+"affected": [
+"RimallocVerify.Bins",
+"RimallocVerify.CommitMask"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 8,
+"keep: ERROR/memory": 4
+}
+},
+"occs": [
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 2351,
+"end": 2364,
+"line": 68,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_in_range._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 2547,
+"end": 2560,
+"line": 74,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_fits._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 2791,
+"end": 2804,
+"line": 80,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_waste._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 2945,
+"end": 2958,
+"line": 85,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 3,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_monotone._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 3467,
+"end": 3480,
+"line": 98,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 4,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_exact_small._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 3793,
+"end": 3806,
+"line": 106,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 5,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_roundtrip._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 4046,
+"end": 4059,
+"line": 112,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 6,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_boundary._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "RimallocVerify/Bins.lean",
+"start": 4623,
+"end": 4636,
+"line": 126,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 7,
+"module": "RimallocVerify.Bins",
+"facts": [
+"Rimalloc.bin_fits_bytes._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "RimallocVerify/CommitMask.lean",
+"start": 1511,
+"end": 1524,
+"line": 41,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 8,
+"module": "RimallocVerify.CommitMask",
+"facts": [
+"Rimalloc.create_correct._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "build: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "RimallocVerify/PageStart.lean",
+"start": 2414,
+"end": 2427,
+"line": 58,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 9,
+"module": "RimallocVerify.PageStart",
+"facts": [
+"Rimalloc.pageStart_align16._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "RimallocVerify/PageStart.lean",
+"start": 3502,
+"end": 3515,
+"line": 80,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 10,
+"module": "RimallocVerify.PageStart",
+"facts": [
+"Rimalloc.pageStart_blockAligned._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+},
+{
+"file": "RimallocVerify/PageStart.lean",
+"start": 3767,
+"end": 3780,
+"line": 87,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 11,
+"module": "RimallocVerify.PageStart",
+"facts": [
+"Rimalloc.pageStart_fits._native.native_decide.ax_1_1"
+],
+"status": "keep",
+"reason": "ERROR/memory",
+"active": false,
+"new_col": 2,
+"new_end": 15
+}
+]
+}

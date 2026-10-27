@@ -1,0 +1,1 @@
+modules=34 pairs_in_json=395 kernel_theorems_checked=395 same=375 defeq_only=20 different=0 missing_original=0 nonstandard_axioms=0 control_originals_with_nonstandard_axioms=395 modules_failed=0

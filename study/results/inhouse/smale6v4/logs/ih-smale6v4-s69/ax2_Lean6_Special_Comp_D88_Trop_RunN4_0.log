@@ -1,0 +1,116 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_D88_Trop_RunN4_0.lean
+NT start Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._native.native_decide.ax_1_1
+NT nested Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._native.native_decide.ax_1_1 ms=260 rebuilt_defs=0 visited=4611
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=1 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=1 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokInt
+NT copy Lean6.Special.Comp.D88.Trop.tokInt defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdInt
+NT copy Lean6.Special.Comp.D88.Trop.rdInt defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyZ
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyZ defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseCof
+NT copy Lean6.Special.Comp.D88.Trop.parseCof defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataN4.cofStr
+NT copy Lean6.Special.Comp.D88.Trop.DataN4.cofStr defn_ms=20 eq_ms=53 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_RunN4_0.Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=125 copies=24 copy_kernel_ms=83 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_RunN4_0.Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_RunN4_0.Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=true copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_RunN4_0.Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=1 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=1 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=1 eq_ms=3 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=1 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=1 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokInt
+NT copy Lean6.Special.Comp.D88.Trop.tokInt defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdInt
+NT copy Lean6.Special.Comp.D88.Trop.rdInt defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyZ
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyZ defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseCof
+NT copy Lean6.Special.Comp.D88.Trop.parseCof defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataN4.cofStr
+NT copy Lean6.Special.Comp.D88.Trop.DataN4.cofStr defn_ms=20 eq_ms=82 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_RunN4_0.Lean6.Special.Comp.D88.Trop.c0N4_eq_parse._kernel.native_decide.ax_1_1.p_0 blockers_ms=12 bounded=false copy_ms=167 copies=28 copy_kernel_ms=115 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 96502604
+rc=1 secs=289

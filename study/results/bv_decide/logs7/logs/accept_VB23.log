@@ -1,0 +1,5 @@
+axioms rc=0 08:54:19
+'bvs6fact_23.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs6_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs6_1 Veir.Data.RISCV.sdivPow2Exact_pos_refinement true
+ax: wall=0.61 s maxrss=1666160 KB

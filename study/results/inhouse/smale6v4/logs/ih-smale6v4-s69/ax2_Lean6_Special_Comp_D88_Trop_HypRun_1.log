@@ -1,0 +1,457 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Lean6_Special_Comp_D88_Trop_HypRun_1.lean
+NT start Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1
+NT nested Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1 ms=277 rebuilt_defs=0 visited=4770
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypOK
+NT copy Lean6.Special.Comp.D88.Trop.hypOK defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=1 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=3 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyN
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyN defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseHyps
+NT copy Lean6.Special.Comp.D88.Trop.parseHyps defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataKC.hypStr
+NT copy Lean6.Special.Comp.D88.Trop.DataKC.hypStr defn_ms=5 eq_ms=16 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypsKC
+NT copy Lean6.Special.Comp.D88.Trop.hypsKC defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=68 copies=32 copy_kernel_ms=43 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=7 bounded=true copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=1 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypOK
+NT copy Lean6.Special.Comp.D88.Trop.hypOK defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=1 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyN
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyN defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseHyps
+NT copy Lean6.Special.Comp.D88.Trop.parseHyps defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataKC.hypStr
+NT copy Lean6.Special.Comp.D88.Trop.DataKC.hypStr defn_ms=5 eq_ms=14 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypsKC
+NT copy Lean6.Special.Comp.D88.Trop.hypsKC defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=11 bounded=true copy_ms=67 copies=34 copy_kernel_ms=36 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • 'Lean.Loop.forIn': 'while'/'repeat' loop: implemented by a 'partial' function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, 'termination_by', or fuel) is needed     via _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Com
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-param
+NT param-gen List.merge._unary roots=1 ms=0
+NT param-geq List.merge._unary rfl ms=0
+NT param-gen List.merge roots=1 ms=0
+NT param-geq List.merge rfl ms=1
+NT param-gen List.mergeSort._unary roots=1 ms=1
+NT param-geq List.mergeSort._unary rfl ms=1
+NT param-gen List.mergeSort roots=1 ms=0
+NT param-geq List.mergeSort rfl ms=1
+NT param-gen Lean6.Special.Comp.GB.prep roots=1 ms=0
+NT param-geq Lean6.Special.Comp.GB.prep rfl ms=0
+NT param-gen Lean6.Special.Comp.GB.init roots=1 ms=0
+NT param-geq Lean6.Special.Comp.GB.init rfl ms=1
+NT param-gen Lean6.Special.Comp.GB.run roots=1 ms=0
+NT param-geq Lean6.Special.Comp.GB.run rfl ms=1
+NT param-gen Lean6.Special.Comp.GB.unitTest roots=1 ms=0
+NT param-geq Lean6.Special.Comp.GB.unitTest rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.hypOK roots=1 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.hypOK rfl ms=1
+NT param-gen String.splitOnAux._unary roots=1 ms=0
+NT param-geq String.splitOnAux._unary rfl ms=0
+NT param-gen String.splitOnAux roots=1 ms=0
+NT param-geq String.splitOnAux rfl ms=0
+NT param-gen String.splitOn roots=1 ms=0
+NT param-geq String.splitOn rfl ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.tokens roots=1 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.tokens rfl ms=0
+NT param-gen String.Slice.toNat? roots=2 ms=0
+NT param-geq String.Slice.toNat? rfl ms=0
+NT param-gen String.toNat? roots=2 ms=0
+NT param-geq String.toNat? rfl ms=0
+NT param-gen String.Slice.Pos.revSkipWhile._unary roots=1 ms=0
+NT param-geq String.Slice.Pos.revSkipWhile._unary rfl ms=0
+NT param-gen String.Slice.Pos.revSkipWhile roots=1 ms=0
+NT param-geq String.Slice.Pos.revSkipWhile rfl ms=0
+NT param-gen String.Slice.skipSuffixWhile roots=1 ms=0
+NT param-geq String.Slice.skipSuffixWhile rfl ms=0
+NT param-gen String.Slice.dropEndWhile roots=1 ms=0
+NT param-geq String.Slice.dropEndWhile rfl ms=1
+NT param-gen String.Slice.trimAsciiEnd roots=1 ms=0
+NT param-geq String.Slice.trimAsciiEnd rfl ms=0
+NT param-gen String.Slice.Pos.skipWhile._unary roots=1 ms=0
+NT param-geq String.Slice.Pos.skipWhile._unary rfl ms=0
+NT param-gen String.Slice.Pos.skipWhile roots=1 ms=1
+NT param-geq String.Slice.Pos.skipWhile rfl ms=0
+NT param-gen String.Slice.skipPrefixWhile roots=1 ms=0
+NT param-geq String.Slice.skipPrefixWhile rfl ms=0
+NT param-gen String.Slice.dropWhile roots=1 ms=0
+NT param-geq String.Slice.dropWhile rfl ms=0
+NT param-gen String.Slice.trimAsciiStart roots=1 ms=0
+NT param-geq String.Slice.trimAsciiStart rfl ms=0
+NT param-gen String.Slice.trimAscii roots=1 ms=1
+NT param-geq String.Slice.trimAscii rfl ms=0
+NT param-gen String.trimAscii roots=1 ms=0
+NT param-geq String.trimAscii rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.tokNat roots=3 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.tokNat rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.rdNat roots=3 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.rdNat rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.rdMono roots=3 ms=1
+NT param-geq Lean6.Special.Comp.D88.Trop.rdMono rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.rdPolyN roots=3 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.rdPolyN rfl ms=1
+NT param-gen Lean6.Special.Comp.D88.Trop.parseHyps roots=3 ms=1
+NT param-geq Lean6.Special.Comp.D88.Trop.parseHyps rfl ms=2
+NT param-gen Lean6.Special.Comp.D88.Trop.hypsKC roots=3 ms=0
+NT param-geq Lean6.Special.Comp.D88.Trop.hypsKC rfl ms=2
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 param roots=3 gens=33 gen_errors=0 ms=124
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 retry-repl-param-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • 'WellFounded.fix': well-founded recursion ('WellFounded.fix', used for non-'Nat' termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks ('Lean.opaqueId') and which from Lean 4.37 on never reduces. Remedies: a 'Nat'-valued 'termination_by' (Lean then compiles the recursion to fuel), or a proved fuel versio
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-transport
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=0 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=1 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypOK
+NT copy Lean6.Special.Comp.D88.Trop.hypOK defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=0 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=1 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyN
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyN defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseHyps
+NT copy Lean6.Special.Comp.D88.Trop.parseHyps defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataKC.hypStr
+NT copy Lean6.Special.Comp.D88.Trop.DataKC.hypStr defn_ms=5 eq_ms=14 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypsKC
+NT copy Lean6.Special.Comp.D88.Trop.hypsKC defn_ms=0 eq_ms=1 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=6 bounded=true copy_ms=65 copies=32 copy_kernel_ms=38 fast_lits=0 string_args=false
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 fuel-retry-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 param-route
+NT param-gen List.merge._unary roots=1 ms=1
+NT param-gen List.merge roots=1 ms=0
+NT param-gen List.mergeSort._unary roots=1 ms=1
+NT param-gen List.mergeSort roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.prep roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.init roots=1 ms=1
+NT param-gen Lean6.Special.Comp.GB.run roots=1 ms=0
+NT param-gen Lean6.Special.Comp.GB.unitTest roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.hypOK roots=1 ms=0
+NT param-gen String.splitOnAux._unary roots=1 ms=0
+NT param-gen String.splitOnAux roots=1 ms=0
+NT param-gen String.splitOn roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.tokens roots=1 ms=0
+NT param-gen String.Slice.Pos.revSkipWhile._unary roots=1 ms=0
+NT param-gen String.Slice.Pos.revSkipWhile roots=1 ms=0
+NT param-gen String.Slice.skipSuffixWhile roots=1 ms=0
+NT param-gen String.Slice.dropEndWhile roots=1 ms=0
+NT param-gen String.Slice.trimAsciiEnd roots=1 ms=0
+NT param-gen String.Slice.Pos.skipWhile._unary roots=1 ms=0
+NT param-gen String.Slice.Pos.skipWhile roots=1 ms=0
+NT param-gen String.Slice.skipPrefixWhile roots=1 ms=0
+NT param-gen String.Slice.dropWhile roots=1 ms=0
+NT param-gen String.Slice.trimAsciiStart roots=1 ms=0
+NT param-gen String.Slice.trimAscii roots=1 ms=0
+NT param-gen String.trimAscii roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.tokNat roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.rdNat roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.rdMono roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.rdPolyN roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.parseHyps roots=1 ms=0
+NT param-gen Lean6.Special.Comp.D88.Trop.hypsKC roots=1 ms=0
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 param roots=1 gens=31 gen_errors=0 ms=43
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 param-failed the kernel did not reduce the decision procedure to `true`. Kernel message: (kernel) deterministic timeout  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them): • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel versio
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 acc-fallback
+NT copying List.merge._unary
+NT copy List.merge._unary defn_ms=1 eq_ms=2 congr=true
+NT copying List.merge
+NT copy List.merge defn_ms=0 eq_ms=0 congr=true
+NT copying List.mergeSort._unary
+NT copy List.mergeSort._unary defn_ms=1 eq_ms=3 congr=true
+NT copying List.mergeSort
+NT copy List.mergeSort defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.prep
+NT copy Lean6.Special.Comp.GB.prep defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.GB.init
+NT copy Lean6.Special.Comp.GB.init defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.run
+NT copy Lean6.Special.Comp.GB.run defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.GB.unitTest
+NT copy Lean6.Special.Comp.GB.unitTest defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypOK
+NT copy Lean6.Special.Comp.D88.Trop.hypOK defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOnAux._unary
+NT copy String.splitOnAux._unary defn_ms=1 eq_ms=2 congr=true
+NT copying String.splitOnAux
+NT copy String.splitOnAux defn_ms=0 eq_ms=0 congr=true
+NT copying String.splitOn
+NT copy String.splitOn defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokens
+NT copy Lean6.Special.Comp.D88.Trop.tokens defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile._unary
+NT copy String.Slice.Pos.revSkipWhile._unary defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.Pos.revSkipWhile
+NT copy String.Slice.Pos.revSkipWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.skipSuffixWhile
+NT copy String.Slice.skipSuffixWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.dropEndWhile
+NT copy String.Slice.dropEndWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiEnd
+NT copy String.Slice.trimAsciiEnd defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile._unary
+NT copy String.Slice.Pos.skipWhile._unary defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.Pos.skipWhile
+NT copy String.Slice.Pos.skipWhile defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.skipPrefixWhile
+NT copy String.Slice.skipPrefixWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.dropWhile
+NT copy String.Slice.dropWhile defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAsciiStart
+NT copy String.Slice.trimAsciiStart defn_ms=0 eq_ms=0 congr=true
+NT copying String.Slice.trimAscii
+NT copy String.Slice.trimAscii defn_ms=0 eq_ms=0 congr=true
+NT copying String.trimAscii
+NT copy String.trimAscii defn_ms=1 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.tokNat
+NT copy Lean6.Special.Comp.D88.Trop.tokNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdNat
+NT copy Lean6.Special.Comp.D88.Trop.rdNat defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdMono
+NT copy Lean6.Special.Comp.D88.Trop.rdMono defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.rdPolyN
+NT copy Lean6.Special.Comp.D88.Trop.rdPolyN defn_ms=0 eq_ms=1 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.parseHyps
+NT copy Lean6.Special.Comp.D88.Trop.parseHyps defn_ms=0 eq_ms=0 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.DataKC.hypStr
+NT copy Lean6.Special.Comp.D88.Trop.DataKC.hypStr defn_ms=5 eq_ms=13 congr=true
+NT copying Lean6.Special.Comp.D88.Trop.hypsKC
+NT copy Lean6.Special.Comp.D88.Trop.hypsKC defn_ms=1 eq_ms=0 congr=true
+NT _ktr.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.kc_hyp_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=7 bounded=true copy_ms=64 copies=32 copy_kernel_ms=38 fast_lits=0 string_args=false
+FAILED `Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1` in the kernel:
+    decide (Lean6.Special.Comp.D88.Trop.hypOK Lean6.Special.Comp.D88.Trop.hypsKC = true) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) deterministic timeout
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the accessibility-generator route (`wfAcc`), which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) deterministic timeout
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) deterministic timeout
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1` in the kernel:
+  decide (Lean6.Special.Comp.D88.Trop.hypOK Lean6.Special.Comp.D88.Trop.hypsKC = true) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kt.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypsKC → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.parseHyps → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.rdNat → _kta.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.tokNat → String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Types.Map.instIteratorLoop → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deterministic timeout
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.D88.Trop.hypOK → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.unitTest → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.run → _kts.F2_Lean6_Special_Comp_D88_Trop_HypRun_1.Lean6.Special.Comp.GB.init → Lean6.Special.Comp.GB.reduceAux → Lean6.Special.Comp.GB.reduceAux._f → Lean6.Special.Comp.GB.inv → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 17234892
+rc=0 secs=372

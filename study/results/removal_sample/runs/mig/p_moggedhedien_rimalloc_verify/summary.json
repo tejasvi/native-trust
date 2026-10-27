@@ -1,0 +1,96 @@
+{
+ "name": "p_moggedhedien_rimalloc_verify",
+ "pkg": "/home/ntbuild/repos_s/moggedhedien_rimalloc/verify",
+ "toolchain": "v4.30.0",
+ "uses": 12,
+ "replaced": 3,
+ "replaced_known": 3,
+ "replaced_unknown": 0,
+ "replaced_facts": 3,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 2000: EXPENSIVE (no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.k)": 9
+ },
+ "native_axioms_before": 12,
+ "native_axioms_after": 9,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 12,
+ "native_dependent_decls_after": 9,
+ "rewritten_decls": 3,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 34.45,
+   "cpu": 34.4,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 36.05,
+  "cpu": 36.0,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "time1": {
+  "wall": 35.45,
+  "cpu": 35.5,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 17.95,
+  "cpu": 18.0,
+  "n_built": 1,
+  "peak_lean": 1,
+  "peak_rss_gb": 0.4,
+  "peak_rss_sum_gb": 0.4,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "fact_budget": 2000,
+ "audit": {
+  "tags": {
+   "EXPENSIVE": 9,
+   "REPLACEABLE": 3
+  },
+  "failed_modules": []
+ },
+ "max_slowdown": 2.0,
+ "slowdown_reverted_modules": [],
+ "module_times_sum": [
+  35.0,
+  35.0
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

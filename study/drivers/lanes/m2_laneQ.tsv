@@ -1,0 +1,5 @@
+formal-conjectures	/home/ntbuild/repos/formal-conjectures	--skip-build
+cvc5-logos	/home/ntbuild/repos/cvc5-logos	--skip-build
+tengoku	/home/ntbuild/repos/tengoku	--skip-build
+asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	
+tetrasemaphore	/home/ntbuild/repos/tetrasemaphore/proofs	

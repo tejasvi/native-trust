@@ -1,0 +1,7 @@
+first attempt (t11_box_v1.sh): 404 modules, 404 FAIL, all within 2 s
+QEC/Checks/F_Z_13_0_0 FAIL 0.08 0.04 0.04 170956
+QEC/Checks/F_Z_13_0_4 FAIL 0.08 0.04 0.04 172128
+QEC/Checks/F_Z_13_0_5 FAIL 0.08 0.04 0.03 176548
+...
+error of every module (example, out_QEC_Checks_F_X_13_0_0.txt):
+QEC/Checks/F_X_13_0_0.lean:1:0: error: object file '/home/ntbuild/work_resv8/qec_t11/out/QEC/Circuit/FastCheck.olean' of module QEC.Circuit.FastCheck does not exist

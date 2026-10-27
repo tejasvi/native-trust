@@ -1,0 +1,79 @@
+{
+"plan": {
+"n_occ": 3,
+"affected": [
+"OmniLaTeXProofs.BuildCacheAtomicity",
+"OmniLaTeXProofs.CommandRunnerTimeout"
+],
+"unmatched": [],
+"n_unmatched": 0,
+"counts": {
+"rewrite": 3
+}
+},
+"occs": [
+{
+"file": "OmniLaTeXProofs/BuildCacheAtomicity.lean",
+"start": 1596,
+"end": 1609,
+"line": 40,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 0,
+"module": "OmniLaTeXProofs.BuildCacheAtomicity",
+"facts": [
+"BuildCacheAtomicity.temp_pattern_contains_wildcard._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "OmniLaTeXProofs/CommandRunnerTimeout.lean",
+"start": 1917,
+"end": 1930,
+"line": 61,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 1,
+"module": "OmniLaTeXProofs.CommandRunnerTimeout",
+"facts": [
+"CommandRunner.timeout_times_two._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+},
+{
+"file": "OmniLaTeXProofs/CommandRunnerTimeout.lean",
+"start": 2049,
+"end": 2062,
+"line": 65,
+"col": 2,
+"kind": "native_decide",
+"old": "native_decide",
+"new": "decide +kernel",
+"macro": false,
+"id": 2,
+"module": "OmniLaTeXProofs.CommandRunnerTimeout",
+"facts": [
+"CommandRunner.timeout_sq_positive._native.native_decide.ax_1_1"
+],
+"status": "replaced",
+"reason": "",
+"active": false,
+"new_col": 2,
+"new_end": 16
+}
+]
+}

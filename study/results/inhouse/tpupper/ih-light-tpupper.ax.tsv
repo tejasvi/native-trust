@@ -1,0 +1,59 @@
+ih-light-tpupper	AuxCore.LogK	-			NOT_BUILT						
+ih-light-tpupper	TPMahler.TailSound	-			NOT_BUILT						
+ih-light-tpupper	TPUpper.CertChecksU	-			NOT_BUILT						
+ih-light-tpupper	TPUpper.FinalK	-			NOT_BUILT						
+ih-light-tpupper	TPUpper.FinalN	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk000	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk001	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk002	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk003	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk004	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk005	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk006	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk007	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk008	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk009	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk010	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk011	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk012	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk013	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk014	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk015	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk016	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk017	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk018	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk019	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk020	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk021	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk022	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk023	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk024	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk025	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk026	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk027	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk028	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk029	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk030	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk031	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk032	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk033	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk034	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk035	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk036	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk037	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk038	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk039	-			NOT_BUILT						
+ih-light-tpupper	TUN.Irred	-			NOT_BUILT						
+ih-light-tpupper	TPUpper.FinalK	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk010	TUCore.TUN.chunk_010._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46108144	313		nt_lines=15 last=blockers_ms=14 bounded=false copy_ms=65 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk025	TUCore.TUN.chunk_025._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166140	321		nt_lines=15 last=blockers_ms=10 bounded=false copy_ms=39 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk039	TUCore.TUN.chunk_039._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46162416	264		nt_lines=5 last=blockers_ms=21 bounded=false copy_ms=50 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Irred	TPUpper.Cert.Qc_irred_6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7138860	3		nt_lines=5 last=quick whole-term attempt proved it
+ih-light-tpupper	TUN.Chunk027	TUCore.TUN.chunk_027._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46166916	314		nt_lines=15 last=blockers_ms=10 bounded=false copy_ms=35 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk004	TUCore.TUN.chunk_004._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	900s	0		900		nt_lines=15 last=blockers_ms=18 bounded=false copy_ms=86 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk021	TUCore.TUN.chunk_021._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46160692	331		nt_lines=15 last=blockers_ms=12 bounded=false copy_ms=48 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk001	TUCore.TUN.chunk_001._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46156840	385		nt_lines=15 last=blockers_ms=19 bounded=false copy_ms=87 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TPUpper.FinalN	TPUpper.Cert.upCertHyp_N._native.native_decide.ax_1_3	native_decide	False	ERROR	memory	0	45199172	139		nt_lines=5 last=blockers_ms=20 bounded=false copy_ms=55 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Irred	TPUpper.Cert.Qc_irred_10._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7140076	3		nt_lines=5 last=quick whole-term attempt proved it
+ih-light-tpupper	TUN.Irred	TPUpper.Cert.Qc_irred_14._native.native_decide.ax_1_1	native_decide	False	PROVED		0	7679104	6		nt_lines=19 last=pieces=7
+ih-light-tpupper	TUN.Chunk030	TUCore.TUN.chunk_030._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	46138628	678		nt_lines=15 last=blockers_ms=9 bounded=false copy_ms=31 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

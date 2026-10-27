@@ -1,0 +1,74 @@
+name=trainverify toolchain=v4.32.2 sampled=24 groups=24
+[g0] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=3
+[g0] export_rc=0 export_lines=36623 export_s=1
+[g0] VERDICT nanoda=PASS(482 decls) con-ron=PASS(386 decls) kernel_theorems=1
+[g1] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g1] export_rc=0 export_lines=42755 export_s=1
+[g1] VERDICT nanoda=PASS(396 decls) con-ron=PASS(302 decls) kernel_theorems=1
+[g2] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g2] export_rc=0 export_lines=36496 export_s=1
+[g2] VERDICT nanoda=PASS(507 decls) con-ron=PASS(398 decls) kernel_theorems=1
+[g3] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g3] export_rc=0 export_lines=31127 export_s=1
+[g3] VERDICT nanoda=PASS(503 decls) con-ron=PASS(394 decls) kernel_theorems=1
+[g4] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g4] export_rc=0 export_lines=46109 export_s=1
+[g4] VERDICT nanoda=PASS(503 decls) con-ron=PASS(394 decls) kernel_theorems=1
+[g5] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g5] export_rc=0 export_lines=31781 export_s=1
+[g5] VERDICT nanoda=PASS(400 decls) con-ron=PASS(306 decls) kernel_theorems=1
+[g6] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g6] export_rc=0 export_lines=31124 export_s=1
+[g6] VERDICT nanoda=PASS(503 decls) con-ron=PASS(394 decls) kernel_theorems=1
+[g7] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g7] export_rc=0 export_lines=31129 export_s=1
+[g7] VERDICT nanoda=PASS(503 decls) con-ron=PASS(394 decls) kernel_theorems=1
+[g8] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g8] export_rc=0 export_lines=31781 export_s=2
+[g8] VERDICT nanoda=PASS(400 decls) con-ron=PASS(306 decls) kernel_theorems=1
+[g9] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g9] export_rc=0 export_lines=42617 export_s=1
+[g9] VERDICT nanoda=PASS(429 decls) con-ron=PASS(333 decls) kernel_theorems=1
+[g10] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g10] export_rc=0 export_lines=36494 export_s=2
+[g10] VERDICT nanoda=PASS(507 decls) con-ron=PASS(398 decls) kernel_theorems=1
+[g11] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g11] export_rc=0 export_lines=15481 export_s=1
+[g11] VERDICT nanoda=PASS(594 decls) con-ron=PASS(552 decls) kernel_theorems=1
+[g12] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g12] export_rc=0 export_lines=36496 export_s=1
+[g12] VERDICT nanoda=PASS(507 decls) con-ron=PASS(398 decls) kernel_theorems=1
+[g13] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g13] export_rc=0 export_lines=17360 export_s=1
+[g13] VERDICT nanoda=PASS(522 decls) con-ron=PASS(421 decls) kernel_theorems=1
+[g14] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g14] export_rc=0 export_lines=46270 export_s=1
+[g14] VERDICT nanoda=PASS(479 decls) con-ron=PASS(383 decls) kernel_theorems=1
+[g15] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g15] export_rc=0 export_lines=43012 export_s=1
+[g15] VERDICT nanoda=PASS(423 decls) con-ron=PASS(324 decls) kernel_theorems=1
+[g16] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g16] export_rc=0 export_lines=28223 export_s=1
+[g16] VERDICT nanoda=PASS(426 decls) con-ron=PASS(327 decls) kernel_theorems=1
+[g17] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=1
+[g17] export_rc=0 export_lines=42759 export_s=1
+[g17] VERDICT nanoda=PASS(396 decls) con-ron=PASS(302 decls) kernel_theorems=1
+[g18] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g18] export_rc=0 export_lines=46109 export_s=1
+[g18] VERDICT nanoda=PASS(503 decls) con-ron=PASS(394 decls) kernel_theorems=1
+[g19] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g19] export_rc=0 export_lines=31288 export_s=1
+[g19] VERDICT nanoda=PASS(479 decls) con-ron=PASS(383 decls) kernel_theorems=1
+[g20] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g20] export_rc=0 export_lines=36494 export_s=2
+[g20] VERDICT nanoda=PASS(507 decls) con-ron=PASS(398 decls) kernel_theorems=1
+[g21] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g21] export_rc=0 export_lines=28030 export_s=1
+[g21] VERDICT nanoda=PASS(423 decls) con-ron=PASS(324 decls) kernel_theorems=1
+[g22] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g22] export_rc=0 export_lines=42617 export_s=1
+[g22] VERDICT nanoda=PASS(429 decls) con-ron=PASS(333 decls) kernel_theorems=1
+[g23] modules=1 sampled=1 proved_again=1 failed=0 compile_rc=0 compile_s=2
+[g23] export_rc=0 export_lines=36494 export_s=2
+[g23] VERDICT nanoda=PASS(507 decls) con-ron=PASS(398 decls) kernel_theorems=1
+TOTAL groups=24 kernel_theorems=24 nanoda_pass_groups=24 con-ron_pass_groups=24 con-ron_declined_groups=0

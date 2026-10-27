@@ -1,0 +1,260 @@
+$ lean longfellow-zk__F2_Lfzk_CertifiedHahn_3.lean tc=v4.31.0 ntlib=/home/ntbuild/work_shared/nt22/v4.31.0/.lake/build/lib/lean start=2026-10-24T20:44:56Z
+rc=124 end=2026-10-24T21:09:56Z
+hn_core_le._native.native_decide.ax_1_1
+NT nested Lfzk.CompiledZk.v7SigHahn_core_le._native.native_decide.ax_1_1 ms=153 rebuilt_defs=0 visited=4436
+NT copying SelectedMCA.simpleCliqueUpperNat
+NT copy SelectedMCA.simpleCliqueUpperNat defn_ms=0 eq_ms=1 congr=true
+NT copying AffineAgreement.Internal.balanced_choose_three
+NT copy AffineAgreement.Internal.balanced_choose_three defn_ms=0 eq_ms=0 congr=true
+NT copying SelectedMCA.DirectCliqueCondition
+NT copy SelectedMCA.DirectCliqueCondition defn_ms=0 eq_ms=1 congr=true
+NT copying Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-congr-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) application type mismatch   decide (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».SelectedMCA.DirectCliqueCondition n radius g d mid) argument has type   Decidable     (3 ≤ mid ∧       n - d < n - radius ∧         SelectedMCA.simpleCliqueUpperNat mid (SelectedMCA.directLineOccupancyBound n g) * (n - radius - (n - d)) +             mid.fast_choose 3 * (n - d) <           _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».AffineAgreement.Internal.balanced_choose_three n             (mid * (n - radius))) but function has type   [h : Decidable (_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».SelectedMCA.DirectCliqueCondition n radius g d mid)] →     Bool
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copy-rejected Ligero.Examples.Grid.binaryCliqueSearch._f: (kernel) declaration type mismatch, '_kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Ligero.Examples.Grid.binaryCliqueSearch._f._eq' has type   Ligero.Examples.Grid.binaryCliqueSearch._f = Ligero.Examples.Grid.binaryCliqueSearch._f but it is expected to have type   Ligero.Examples.Grid.binaryCliqueSearch._f =     _kt.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Ligero.Examples.Grid.binaryCliqueSearch._f
+NT copying Ligero.Examples.Grid.binaryCliqueSearch
+NT copy-rfl Ligero.Examples.Grid.binaryCliqueSearch
+NT copy Ligero.Examples.Grid.binaryCliqueSearch defn_ms=0 eq_ms=0 congr=false
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalM
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalM defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.integratedLocalLineBound
+NT copy Ligero.Examples.Grid.Certificate.integratedLocalLineBound defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.failureProfileAt
+NT copy Lfzk.LigeroV1Rows.Row.failureProfileAt defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.fail
+NT copy Lfzk.LigeroV1Rows.Row.fail defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnWeight
+NT copy CodingTheory.HahnDelsarte.hahnWeight defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.hahnKernel
+NT copy CodingTheory.HahnDelsarte.hahnKernel defn_ms=0 eq_ms=1 congr=true
+NT copying CodingTheory.HahnDelsarte.certificatePolynomial
+NT copy CodingTheory.HahnDelsarte.certificatePolynomial defn_ms=0 eq_ms=0 congr=true
+NT copying CodingTheory.HahnDelsarte.certifiedBound
+NT copy CodingTheory.HahnDelsarte.certifiedBound defn_ms=0 eq_ms=0 congr=true
+NT copying Ligero.Examples.Grid.Certificate.maskBound
+NT copy Ligero.Examples.Grid.Certificate.maskBound defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arithProfile
+NT copy Lfzk.LigeroV1Rows.Row.arithProfile defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.arith
+NT copy Lfzk.LigeroV1Rows.Row.arith defn_ms=0 eq_ms=0 congr=true
+NT copying LigeroFamily.hypergeometricRatio
+NT copy LigeroFamily.hypergeometricRatio defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.LigeroV1Rows.Row.cover
+NT copy Lfzk.LigeroV1Rows.Row.cover defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.CostV1.Params.ligeroDensity
+NT copy Lfzk.CostV1.Params.ligeroDensity defn_ms=0 eq_ms=0 congr=true
+NT copying Lfzk.NizkZk.zkCoreAt
+NT copy Lfzk.NizkZk.zkCoreAt defn_ms=0 eq_ms=0 congr=true
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=39 copies=19 copy_kernel_ms=5 fast_lits=0 string_args=false
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0 blockers_ms=0 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT stage Lfzk.LigeroV1Rows.v7Sig direct ms=0
+NT stage Lfzk.LigeroV1Rows.v7SigHahn direct ms=0
+NT _ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0 stage constants=2 staged=2 ms=62
+NT copying Lfzk.CertifiedV1.v7Sig
+NT copy Lfzk.CertifiedV1.v7Sig defn_ms=0 eq_ms=1 congr=true
+NT copying Lfzk.CertifiedV1.v7SigHahn
+NT copy Lfzk.CertifiedV1.v7SigHahn defn_ms=0 eq_ms=0 congr=true
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_4
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_4 defn_ms=1 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_4 direct-failed hb=15000 ms=9815 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_7
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_7 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_7 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_4 subterms staged=1
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_10
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_10 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_10 direct-failed hb=15000 ms=10065 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_10 unfolded Lfzk.NizkZk.zkCoreAt
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_13
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_13 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_13 direct-failed hb=15000 ms=10089 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_16 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_19
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_19 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_19 direct ms=8
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_22
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_22 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_22 direct ms=1
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_25
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_25 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_25 direct-failed hb=15000 ms=10267 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_25 unfolded Lfzk.CostV1.Params.ligeroDensity
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_28
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_28 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_28 direct-failed hb=15000 ms=10314 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_31
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_31 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_31 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34 direct-failed hb=15000 ms=10200 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34 unfolded Lfzk.LigeroV1Rows.Row.fail
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_37
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_37 defn_ms=1 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_37 direct-failed hb=15000 ms=10015 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_40 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_43 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_46 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_49
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_49 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_49 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32       _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_43).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32) but 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52 direct-failed hb=15000 ms=10375 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_55
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_55 defn_ms=1 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_55 direct-failed hb=15000 ms=10284 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_55 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_55 direct-failed hb=60000 ms=44825 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_52 direct-failed hb=60000 ms=45733 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32       _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_43).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32) but 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60 direct-failed hb=15000 ms=10468 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63 direct-failed hb=15000 ms=10532 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_66
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_66 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_66 direct-failed hb=15000 ms=10346 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_66 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_66 direct-failed hb=60000 ms=47133 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_63 direct-failed hb=60000 ms=46865 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60 unfolded Nat.cast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71 direct-failed hb=15000 ms=10374 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74 direct-failed hb=15000 ms=10189 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_77
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_77 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_77 direct-failed hb=15000 ms=10038 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_77 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_77 direct-failed hb=60000 ms=46725 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_74 direct-failed hb=60000 ms=45669 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71 unfolded NatCast.natCast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_82
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_82 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_82 direct-failed hb=15000 ms=10164 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_82 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_82 direct-failed hb=60000 ms=45680 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71 no decomposition (head NatCast.natCast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_71 direct-failed hb=60000 ms=47092 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60 no decomposition (head Nat.cast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_60 direct-failed hb=60000 ms=46779 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_88 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_91
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_91 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_91 direct ms=1
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_94
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_94 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_94 direct ms=1
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_37 subterms staged=7
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32       _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_43).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32) but 
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97 direct-failed hb=15000 ms=10510 copy=false (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100 direct-failed hb=15000 ms=10442 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_103
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_103 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_103 direct-failed hb=15000 ms=10310 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_103 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_103 direct-failed hb=60000 ms=45861 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_100 direct-failed hb=60000 ms=46841 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108 direct-failed hb=15000 ms=10325 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111 direct-failed hb=15000 ms=10318 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_114
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_114 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_114 direct-failed hb=15000 ms=10527 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_114 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_114 direct-failed hb=60000 ms=47088 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_111 direct-failed hb=60000 ms=46243 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108 unfolded Nat.cast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119 direct-failed hb=15000 ms=10526 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122 direct-failed hb=15000 ms=10452 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_125
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_125 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_125 direct-failed hb=15000 ms=10536 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_125 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_125 direct-failed hb=60000 ms=46402 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_122 direct-failed hb=60000 ms=47055 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119 unfolded NatCast.natCast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_130
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_130 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_130 direct-failed hb=15000 ms=10329 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_130 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_130 direct-failed hb=60000 ms=46091 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119 no decomposition (head NatCast.natCast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_119 direct-failed hb=60000 ms=45828 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108 no decomposition (head Nat.cast)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_108 direct-failed hb=60000 ms=46725 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97 unfolded HDiv.hDiv
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_136
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_136 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_136 direct-failed hb=15000 ms=10555 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_136 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_136 direct-failed hb=60000 ms=46436 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97 no decomposition (head HDiv.hDiv)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_97 direct-failed hb=60000 ms=46726 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_37 direct-failed hb=60000 ms=46372 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34 no decomposition (head Lfzk.LigeroV1Rows.Row.fail)
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_34 direct-failed hb=60000 ms=46470 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_143
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_143 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_143 direct ms=473
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_146
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_146 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_146 direct-failed hb=15000 ms=10192 copy=true (kernel) deterministic timeout
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_149
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_149 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_149 direct-failed hb=15000 ms=10089 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_149 unfolded Lfzk.LigeroV1Rows.Row.fail
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_152
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_152 defn_ms=0 eq_ms=0 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_152 direct-failed hb=15000 ms=10148 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_155 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_158 direct ms=0
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_161 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_164
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_164 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_164 direct ms=0
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167
+NT copy-congr-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167: (kernel) application type mismatch   (Lfzk.LigeroV1Rows.Row.failureProfileAt       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_32       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_159).labelsAtLeast argument has type   LigeroFamily.AgreementProfile     (Lfzk.LigeroV1Rows.Row.n       _ktval._ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.v_
+NT copy-rfl _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167
+NT copy-rejected _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167: (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167 direct-failed hb=15000 ms=10269 copy=false (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167 unfolded LigeroFamily.AgreementProfile.labelsAtLeast
+NT copying _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_170
+NT copy _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_170 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_170 direct-failed hb=15000 ms=10310 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_170 no decomposition (head [anonymous])
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_170 direct-failed hb=60000 ms=45779 copy=true (kernel) deterministic timeout
+NT stage _ktv.«longfellow-zk__F2_Lfzk_CertifiedHahn_3»._ktr.«longfellow-zk__F2_Lfzk_CertifiedHahn_3».Lfzk.CompiledZk.v7SigHahn_core_le._kernel.native_decide.ax_1_1.p_0.t_167 no decomposition (head LigeroFamily.AgreementProfile.labelsAtLeast)

@@ -1,0 +1,2 @@
+bvs ex_and_or #1: 406 nodes, 1121 clauses, 406 vars; 282 steps, 3059 hints, 1 chunks; solve 18 ms, prep+defs 15 ms; kernel: base 315 ms, chunks 717 ms (max 717 ms); total 1070 ms
+bvs: added ex_and_or.bvs4 (12 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

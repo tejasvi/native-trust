@@ -1,0 +1,3 @@
+PROVED `Minidregg.Compiler.LegacyStoreCarryChecks.truncated_source_refused._native.native_decide.ax_1_1` as `_ktr.F2_Compiler_LegacyStoreCarryChecks_5.Minidregg.Compiler.LegacyStoreCarryChecks.truncated_source_refused._kernel.native_decide.ax_1_1`: kernel_ms=134276 native_axioms=1 rebuilt=0 copies=18 total_ms=134802 acc_fallback=0 pieces=1
+maxrss_kb 13889760 secs 136.33
+rc=0

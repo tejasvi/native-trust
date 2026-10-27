@@ -1,0 +1,8 @@
+[52943329] bvs5fact_12: 34 nodes, CNF 2 clauses, 1 variables
+[52943346] bvs5fact_12: 1 steps, 2 hints, 1 chunks; solve 16 ms
+[52943531] bvs5fact_12: base check (bit-blast + CNF + trie agreement) 185 ms
+[52943532] bvs5fact_12: chunk bvs5fact_12._bvs_s0 (1 steps from id 3) 1 ms
+[52943541] bvs5fact_25: 66 nodes, CNF 2 clauses, 1 variables
+[52943559] bvs5fact_25: 1 steps, 2 hints, 1 chunks; solve 18 ms
+[52943793] bvs5fact_25: base check (bit-blast + CNF + trie agreement) 234 ms
+[52943794] bvs5fact_25: chunk bvs5fact_25._bvs_s0 (1 steps from id 3) 1 ms

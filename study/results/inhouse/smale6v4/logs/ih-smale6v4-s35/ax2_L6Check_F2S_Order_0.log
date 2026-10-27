@@ -1,0 +1,42 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_L6Check_F2S_Order_0.lean
+NT start L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1
+NT nested L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1 ms=210 rebuilt_defs=0 visited=4012
+NT copying L6F1.n6json
+NT copy L6F1.n6json defn_ms=13 eq_ms=36 congr=true
+NT copying L6.F2.classes6
+NT copy L6.F2.classes6 defn_ms=0 eq_ms=1 congr=true
+NT copying L6.F2.diagOf
+NT copy L6.F2.diagOf defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_L6Check_F2S_Order_0.L6.F2S.Checks.f2s_order._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=79 copies=3 copy_kernel_ms=50 fast_lits=0 string_args=false
+NT _ktr.F2_L6Check_F2S_Order_0.L6.F2S.Checks.f2s_order._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_L6Check_F2S_Order_0.L6.F2S.Checks.f2s_order._kernel.native_decide.ax_1_1.p_0 blockers_ms=5 bounded=true copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+FAILED `L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1` in the kernel:
+    decide (∀ (k : Nat), k < 191 → (L6.F2S.order (L6.F2.diagOf k)).Perm (List.range 6)) = true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2_L6Check_F2S_Order_0.L6.F2S.Checks.f2s_order._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    decide (∀ (k : Nat), k < 191 → (L6.F2S.order (_kt.F2_L6Check_F2S_Order_0.L6.F2.diagOf k)).Perm (List.range 6)) = true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+      via L6.F2S.order → L6.F2.orderBodies → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `L6.F2S.Checks.f2s_order._native.native_decide.ax_1_1` in the kernel:
+  decide (∀ (k : Nat), k < 191 → (L6.F2S.order (L6.F2.diagOf k)).Perm (List.range 6)) = true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2_L6Check_F2S_Order_0.L6.F2S.Checks.f2s_order._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide (∀ (k : Nat), k < 191 → (L6.F2S.order (_kt.F2_L6Check_F2S_Order_0.L6.F2.diagOf k)).Perm (List.range 6)) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via L6.F2S.order → L6.F2.orderBodies → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1627444
+rc=0 secs=1

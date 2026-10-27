@@ -1,0 +1,7 @@
+orig native axioms: 49 native axioms in `NTV.String_length_pos`
+kf native axioms: 0 native axioms in `NTV.String_length_pos`
+orig: wall_med=2.21 cpu_med=4.4 rss_kb_max=1962452 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=2.18 cpu_med=4.24 rss_kb_max=1975652 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=2.22 cpu_med=4.38 rss_kb_max=1969124 runs=3 rc=0 warnings=2 unnecessary=2 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=2.23 cpu_med=4.44 rss_kb_max=1974248 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=2.10 cpu_med=4.27 rss_kb_max=1969920 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

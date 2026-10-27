@@ -1,0 +1,12 @@
+0: shard_mul_three._native.bv_decide.ax_1_5
+1: shard_and_or._native.bv_decide.ax_1_5
+bvs5: 2 facts prepared; shard files and the final file written to .
+BVS_PREP	Examples.ShardFacts	0	shard_mul_three._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Examples.ShardFacts	0	chunks=3	ms=1763
+BVS_PREP	Examples.ShardFacts	1	shard_and_or._native.bv_decide.ax_1_5
+BVS_PREP_DONE	Examples.ShardFacts	1	chunks=14	ms=7601
+BVS_UNSAT	Examples.ShardFacts	0	shard_mul_three._native.bv_decide.ax_1_5	-	0	-	28	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_UNSAT	Examples.ShardFacts	1	shard_and_or._native.bv_decide.ax_1_5	-	0	-	741	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_mul_three	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_USER	shard_and_or	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Examples.ShardFacts	[0, 1]	converted=2	all_unsat_ok=true	users=2	users_std=2	users_axiom_left=0	users_failed=0

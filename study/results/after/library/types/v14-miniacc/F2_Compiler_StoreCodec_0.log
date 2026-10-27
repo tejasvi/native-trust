@@ -1,0 +1,3 @@
+PROVED `Minidregg.Compiler.StoreCodec.Worked.store32_compiled_roundtrip._native.native_decide.ax_1_1` as `_ktr.F2_Compiler_StoreCodec_0.Minidregg.Compiler.StoreCodec.Worked.store32_compiled_roundtrip._kernel.native_decide.ax_1_1`: kernel_ms=2663 native_axioms=1 rebuilt=0 copies=11 total_ms=3158 acc_fallback=0 pieces=1
+maxrss_kb 3989984 secs 4.65
+rc=0

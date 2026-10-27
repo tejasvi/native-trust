@@ -1,0 +1,152 @@
+axioms rc=0 08:19:40
+'bvs5fact_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_2.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_3.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_4.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_5.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_6.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_7.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_8.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_9.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_10.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_11.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_12.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_13.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_14.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_15.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_16.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_17.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_18.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_19.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_20.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_21.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_22.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_23.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_24.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_25.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_26.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_27.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_28.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5fact_29.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_16' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_18' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_20' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_21' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_22' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_24' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_26' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_27' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_28' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_29' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_30' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_31' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_32' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_34' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_35' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_37' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_38' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_39' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_40' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_41' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_42' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_43' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_44' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_45' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_46' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_47' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_48' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_49' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_51' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_52' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_53' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_54' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_55' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_56' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_57' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_58' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_59' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE_IDENTICAL bvs5_1 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh._proof_1 true
+TYPE_IDENTICAL bvs5_2 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh._proof_1 true
+TYPE_IDENTICAL bvs5_3 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi._proof_1 true
+TYPE_IDENTICAL bvs5_4 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_andi true
+TYPE_IDENTICAL bvs5_5 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu._proof_1 true
+TYPE_IDENTICAL bvs5_6 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth._proof_1 true
+TYPE_IDENTICAL bvs5_7 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw._proof_1 true
+TYPE_IDENTICAL bvs5_8 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clzw true
+TYPE_IDENTICAL bvs5_9 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop._proof_1 true
+TYPE_IDENTICAL bvs5_10 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti._proof_1 true
+TYPE_IDENTICAL bvs5_11 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slti true
+TYPE_IDENTICAL bvs5_12 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli._proof_1 true
+TYPE_IDENTICAL bvs5_13 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srli true
+TYPE_IDENTICAL bvs5_14 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori._proof_1 true
+TYPE_IDENTICAL bvs5_15 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ori true
+TYPE_IDENTICAL bvs5_16 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_zexth true
+TYPE_IDENTICAL bvs5_17 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_packh true
+TYPE_IDENTICAL bvs5_18 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai._proof_1 true
+TYPE_IDENTICAL bvs5_19 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_srai true
+TYPE_IDENTICAL bvs5_20 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext._proof_1 true
+TYPE_IDENTICAL bvs5_21 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bext true
+TYPE_IDENTICAL bvs5_22 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti._proof_1 true
+TYPE_IDENTICAL bvs5_23 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_bexti true
+TYPE_IDENTICAL bvs5_24 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb._proof_1 true
+TYPE_IDENTICAL bvs5_25 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sextb true
+TYPE_IDENTICAL bvs5_26 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth._proof_1 true
+TYPE_IDENTICAL bvs5_27 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sexth true
+TYPE_IDENTICAL bvs5_28 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltiu true
+TYPE_IDENTICAL bvs5_29 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz._proof_1 true
+TYPE_IDENTICAL bvs5_30 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_clz true
+TYPE_IDENTICAL bvs5_31 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz._proof_1 true
+TYPE_IDENTICAL bvs5_32 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctz true
+TYPE_IDENTICAL bvs5_33 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpop true
+TYPE_IDENTICAL bvs5_34 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt._proof_1 true
+TYPE_IDENTICAL bvs5_35 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_slt true
+TYPE_IDENTICAL bvs5_36 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu._proof_1 true
+TYPE_IDENTICAL bvs5_37 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_sltu true
+TYPE_IDENTICAL bvs5_38 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw._proof_1 true
+TYPE_IDENTICAL bvs5_39 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_ctzw true
+TYPE_IDENTICAL bvs5_40 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw._proof_1 true
+TYPE_IDENTICAL bvs5_41 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_cpopw true
+TYPE_IDENTICAL bvs5_42 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lh true
+TYPE_IDENTICAL bvs5_43 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb._proof_1 true
+TYPE_IDENTICAL bvs5_44 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lb true
+TYPE_IDENTICAL bvs5_45 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu._proof_1 true
+TYPE_IDENTICAL bvs5_46 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lhu true
+TYPE_IDENTICAL bvs5_47 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu._proof_1 true
+TYPE_IDENTICAL bvs5_48 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.sextw_lbu true
+TYPE_IDENTICAL bvs5_49 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw._proof_1 true
+TYPE_IDENTICAL bvs5_50 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_sraw true
+TYPE_IDENTICAL bvs5_51 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw._proof_1 true
+TYPE_IDENTICAL bvs5_52 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rolw true
+TYPE_IDENTICAL bvs5_53 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw._proof_1 true
+TYPE_IDENTICAL bvs5_54 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_sextw_rorw true
+TYPE_IDENTICAL bvs5_55 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_sraw true
+TYPE_IDENTICAL bvs5_56 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rolw true
+TYPE_IDENTICAL bvs5_57 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.drop_zextw_rorw true
+TYPE_IDENTICAL bvs5_58 _private.Veir.Passes.RISCVCombines.Combine.0.Veir.RISCV.Combine.impl true
+TYPE_IDENTICAL bvs5_59 Veir.RISCV.Combine true
+ax: wall=1.66 s maxrss=1963684 KB
+export rc=0 bytes=378688521 export: wall=15.86 s maxrss=2342408 KB 08:19:56
+nanoda PASS rc=0 decls=29187 08:26:38: Checked 29187 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: wall=402.15 s maxrss=6504668 KB 

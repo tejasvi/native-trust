@@ -1,0 +1,2 @@
+rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	--skip-build --redo
+rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	--skip-build --redo

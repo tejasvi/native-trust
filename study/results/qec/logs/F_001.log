@@ -1,0 +1,4 @@
+kernelize: `nfl_X_13.kernel` proves the statement of `nfl_X_13` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (665377 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 665394 ms in total.
+time 667.14 s wall 642.33 s user 12089308 KB
+exit 0

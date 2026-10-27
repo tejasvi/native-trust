@@ -1,0 +1,9 @@
+berry-esseen-nocap	/home/ntbuild/repos/berry-esseen	--skip-build --from-results berry-esseen --from-verdict FAILED --from-reason blocked --sample 20 --extra-config blockedHeartbeats:=0
+strata-nocap	/home/ntbuild/repos/Strata	--skip-build --from-results strata-fuel --from-verdict FAILED --from-reason blocked --sample 20 --extra-config blockedHeartbeats:=0
+cedar-lean-nocap	/home/ntbuild/repos/cedar-spec/cedar-lean	--skip-build --from-results cedar-lean --from-verdict FAILED --from-reason blocked --extra-config blockedHeartbeats:=0
+cvc5-logos-base	/home/ntbuild/repos/cvc5-logos	--skip-build --from-results cvc5-logos-fuel --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false
+humanfia-icho2026-base	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--skip-build --from-results humanfia-icho2026 --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false
+longfellow-zk-base	/home/ntbuild/repos/longfellow-zk/formal	--skip-build --from-results longfellow-zk --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false
+formal-conjectures-base	/home/ntbuild/repos/formal-conjectures	--skip-build --from-results formal-conjectures-fuel --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false
+lido-srv3-base	/home/ntbuild/repos/lido-srv3-proof-closure	--skip-build --from-results lido-srv3 --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false
+trainverify-base	/home/ntbuild/repos/tainverify_lean/trainverify	--skip-build --from-results trainverify --from-verdict PROVED --sample 40 --split 1 --extra-config wf:=false

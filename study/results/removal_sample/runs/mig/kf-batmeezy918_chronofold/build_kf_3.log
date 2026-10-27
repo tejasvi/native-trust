@@ -1,0 +1,5 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Chronofold.AgdFecu
+✔ [5/5] Built Chronofold.AgdFecu (749ms)
+Build completed successfully (5 jobs).
+TIME wall=1.17 user=0.87 sys=0.37 maxrss_kb=1478584
+rc=0 secs=1

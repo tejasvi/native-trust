@@ -1,0 +1,2 @@
+bvs andor_w1024 #1: 26614 nodes, 73697 clauses, 26614 vars; 114328 steps, 232083 hints, 58 chunks; solve 497 ms, prep+defs 2872 ms; kernel: base 26878 ms, chunks 161119 ms (max 3874 ms); total 191494 ms
+bvs: added andor_w1024.bvs4 (13770 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

@@ -1,0 +1,1 @@
+{"export_file_path": "/home/ntbuild/work/ntrust_cvc5/check2/191/k.export", "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"], "unpermitted_axiom_hard_error": true, "nat_extension": true, "string_extension": true, "print_success_message": true, "num_threads": 1}

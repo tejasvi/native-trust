@@ -1,0 +1,168 @@
+{
+ "name": "b20000_Provenance_Works_Radix",
+ "pkg": "/home/ntbuild/repos_s/Provenance-Works_Radix",
+ "toolchain": "v4.29.0-rc4",
+ "uses": 218,
+ "replaced": 201,
+ "replaced_known": 111,
+ "replaced_unknown": 90,
+ "replaced_facts": 111,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {
+  "budget 20000: BLOCKED (`System.Platform.getNumBits`)": 15,
+  "budget 20000: EXPENSIVE (no blocker, but the kernel did not finish within 20000 thousand heartbeats (`set_option nativeTrust.)": 2
+ },
+ "native_axioms_before": 145,
+ "native_axioms_after": 34,
+ "bv_decide_axioms_before": 17,
+ "bv_decide_axioms_after": 17,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 168,
+ "native_dependent_decls_after": 57,
+ "rewritten_decls": 111,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 134.77,
+   "cpu": 226.0,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 4,
+   "peak_rss_gb": 6.2,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 121.52,
+  "cpu": 182.6,
+  "n_built": 20,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 4.5,
+  "peak_rss_sum_gb": 12.3
+ },
+ "time1": {
+  "wall": 132.36,
+  "cpu": 217.2,
+  "n_built": 20,
+  "peak_lean": 4,
+  "rc": 0,
+  "peak_rss_gb": 6.2,
+  "peak_rss_sum_gb": 13.1
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.82,
+  "cpu": 1.2,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 20,
+ "replaced_modules": 20,
+ "unmatched_axioms": 0,
+ "fact_budget": 20000,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 111,
+   "BLOCKED": 32,
+   "EXPENSIVE": 2
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  144.3,
+  174.8
+ ],
+ "module_times_slower": [
+  [
+   "Radix.CRC.Lemmas",
+   1.8,
+   23.0
+  ],
+  [
+   "Radix.ECC.Spec",
+   103.0,
+   114.0
+  ],
+  [
+   "Radix.Memory.Layout",
+   1.2,
+   1.4
+  ],
+  [
+   "Radix.CRC.Spec",
+   0.463,
+   0.654
+  ],
+  [
+   "Radix.Timer.Spec",
+   2.1,
+   2.2
+  ],
+  [
+   "Radix.Alignment.Spec",
+   0.46,
+   0.47200000000000003
+  ]
+ ],
+ "module_times_faster": [
+  [
+   "Radix.ECC.Lemmas",
+   17.0,
+   16.0
+  ],
+  [
+   "Radix.RingBuffer.Lemmas",
+   1.3,
+   1.0
+  ],
+  [
+   "Radix.Bytes.Lemmas",
+   2.1,
+   1.8
+  ],
+  [
+   "Radix.MemoryPool.Lemmas",
+   1.1,
+   1.0
+  ],
+  [
+   "Radix.DMA.Spec",
+   2.6,
+   2.5
+  ],
+  [
+   "Radix.Binary.Lemmas",
+   1.3,
+   1.2
+  ],
+  [
+   "Radix.Word.Spec",
+   1.2,
+   1.1
+  ],
+  [
+   "Radix.DMA.Lemmas",
+   1.9,
+   1.8
+  ]
+ ]
+}

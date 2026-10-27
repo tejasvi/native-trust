@@ -1,0 +1,5 @@
+EXP2_HEAD	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._expr_def_1_1	0	const	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._expr_def_1_1
+EXP2_FACT	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5	conjuncts=1	nodes=52169
+EXP2_PIECE	j=0	nodes=52168	seg=52168	mb=0->2	md=0->0
+EXP2	Exp2.p_bool	kernel_ms=19680	rss_before_kb=1691980	rss_after_kb=5071008
+TIME wall=20.54 s user=20.11 s maxrss=5083772 KB

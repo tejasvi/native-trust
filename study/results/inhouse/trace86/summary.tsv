@@ -1,0 +1,12 @@
+project	Schur-Siegel-Smyth trace v4 (trace86), LowerN / UpperN
+source	supp 10.5281/zenodo.23563971 (schur-siegel-smyth-trace-bounds-v4 @d297559f3887)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	NativeTrust v15 (nt_fix14)
+native_facts	153 checks for the lower bound and 78 for the upper (README.md:93)
+converted	0 of 2 sampled facts (the first shard of each tiling)
+nt_cpu_h	0.5 (2 timeouts at 900 s)
+nt_wall_min	30
+native_build_cpu_h	not stated
+hand_track	Trace86.AxiomsK, Trace86U.AxiomsUK
+hand_build_cpu_h	about 310 (lower) + 55 (upper) CPU-hours (README.md:102)
+checks	kdecide on the statements (900 s, 90G): T86N/Chunk000 (leaves 0-99) and T86UN/Chunk000 both timed out

@@ -1,0 +1,2 @@
+orig: native axioms: 26 native axioms in `NTV.Bv_ite_equal_children` | wall_med=11.66 cpu_med=14.86 rss_kb_max=1351872 runs=3 rc=0 errors=0 kf_fallback=0
+kfmod: native axioms: 0 native axioms in `NTV.Bv_ite_equal_children` | wall_med=11.86 cpu_med=15.04 rss_kb_max=1467988 runs=3 rc=0 errors=0 kf_fallback=0

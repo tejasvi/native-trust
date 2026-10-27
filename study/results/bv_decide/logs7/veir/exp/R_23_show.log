@@ -1,0 +1,6 @@
+R_23_show.lean:5:50: error: unexpected token 'show'; expected identifier
+EXP_FACT	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sdivPow2Exact_pos_refinement._native.bv_decide.ax_1_5	nodes=282991	entries=282990	clauses=848183	mb=12	md=5	hwm_kb=1763616
+EXP_DEF	ES	ms=1327	hwm_kb=1942240
+EXP_DEF	T	leaves=848183	D=20	ms=4526	hwm_kb=2430312
+Command exited with non-zero status 1
+TIME wall=7.63 s user=7.34 s maxrss=2429128 KB

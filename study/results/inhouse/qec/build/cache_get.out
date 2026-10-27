@@ -1,0 +1,8 @@
+info: mathlib: materializing new dependency
+info: mathlib: fetching revision 'c55e6e786f49471c72fbddbec5415808896aec1e' from https://github.com/leanprover-community/mathlib4
+info: stderr:
+fatal: unable to access 'https://github.com/leanprover-community/mathlib4/': Failed to connect to github.com port 443 after 133310 ms: Could not connect to server
+error: mathlib: failed to fetch the package revision
+  c55e6e786f49471c72fbddbec5415808896aec1e
+from the Git repository at
+  https://github.com/leanprover-community/mathlib4

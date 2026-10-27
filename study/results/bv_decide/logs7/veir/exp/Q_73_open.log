@@ -1,0 +1,6 @@
+Q_73_open.lean:5:51: error: unexpected token 'open'; expected identifier
+EXP2_FACT	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.sshlSat_refinement._native.bv_decide.ax_1_5	conjuncts=1	nodes=52169
+EXP2_PIECE	j=0	nodes=52168	seg=52168	mb=0->2	md=0->0
+Q_73_open.lean:5:56: error: unexpected token; expected 'scoped' or identifier
+Command exited with non-zero status 1
+TIME wall=1.14 s user=0.88 s maxrss=1687840 KB

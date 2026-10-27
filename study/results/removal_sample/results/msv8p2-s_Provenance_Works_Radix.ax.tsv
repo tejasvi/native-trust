@@ -1,0 +1,10 @@
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_naive_matches_table._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2107244	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_alpha_upper._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2166252	3		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_single_zero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2097016	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_single_ff._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1871340	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_four_ff._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1871688	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_abc._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2100900	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_four_zeros._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2100772	3		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_streaming_two_chunks._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2119468	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_single_a._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2063596	2		nt_lines=5 last=quick whole-term attempt proved it
+msv8p2-s_Provenance_Works_Radix	Radix.CRC.Lemmas	Radix.CRC.Lemmas.crc32_check_value._native.native_decide.ax_1_1	native_decide	False	PROVED		0	2102764	3		nt_lines=5 last=quick whole-term attempt proved it

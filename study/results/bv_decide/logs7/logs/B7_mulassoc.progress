@@ -1,0 +1,94 @@
+[56074990] mulassoc_3._bvs4_1: 173 nodes, CNF 491 clauses, 173 variables
+[56075047] mulassoc_3._bvs4_1: 326 steps, 10187 hints, 1 chunks; solve 20 ms
+[56075216] mulassoc_3._bvs4_1: base check (bit-blast + CNF + trie agreement) 169 ms
+[56076473] mulassoc_3._bvs4_1: chunk mulassoc_3._bvs4_1._bvs_s0 (326 steps from id 492) 1257 ms
+[56076615] mulassoc_4._bvs4_1: 344 nodes, CNF 995 clauses, 344 variables
+[56077088] mulassoc_4._bvs4_1: 1888 steps, 117903 hints, 6 chunks; solve 43 ms
+[56077486] mulassoc_4._bvs4_1: base check (bit-blast + CNF + trie agreement) 398 ms
+[56080105] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s0 (311 steps from id 996) 2619 ms
+[56082747] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s1 (388 steps from id 1307) 2640 ms
+[56085255] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s2 (281 steps from id 1695) 2506 ms
+[56087774] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s3 (265 steps from id 1976) 2518 ms
+[56090255] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s4 (249 steps from id 2241) 2479 ms
+[56092640] mulassoc_4._bvs4_1: chunk mulassoc_4._bvs4_1._bvs_s5 (394 steps from id 2490) 2384 ms
+[56093080] mulassoc_5._bvs4_1: 575 nodes, CNF 1679 clauses, 575 variables
+[56094553] mulassoc_5._bvs4_1: 6837 steps, 303653 hints, 16 chunks; solve 129 ms
+[56095293] mulassoc_5._bvs4_1: base check (bit-blast + CNF + trie agreement) 740 ms
+[56098125] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s0 (210 steps from id 1680) 2832 ms
+[56100784] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s1 (148 steps from id 1890) 2656 ms
+[56103502] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s2 (133 steps from id 2038) 2716 ms
+[56106214] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s3 (131 steps from id 2171) 2710 ms
+[56108833] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s4 (108 steps from id 2302) 2616 ms
+[56111808] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s5 (241 steps from id 2410) 2972 ms
+[56114743] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s6 (194 steps from id 2651) 2932 ms
+[56118767] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s7 (1631 steps from id 2845) 4021 ms
+[56121754] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s8 (665 steps from id 4476) 2985 ms
+[56124771] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s9 (650 steps from id 5141) 3014 ms
+[56127608] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s10 (503 steps from id 5791) 2834 ms
+[56130543] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s11 (602 steps from id 6294) 2932 ms
+[56133443] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s12 (502 steps from id 6896) 2897 ms
+[56136362] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s13 (489 steps from id 7398) 2916 ms
+[56139188] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s14 (464 steps from id 7887) 2823 ms
+[56139927] mulassoc_5._bvs4_1: chunk mulassoc_5._bvs4_1._bvs_s15 (166 steps from id 8351) 736 ms
+[56141624] mulassoc_6._bvs4_1: 866 nodes, CNF 2543 clauses, 866 variables
+[56147492] mulassoc_6._bvs4_1: 26842 steps, 1155769 hints, 59 chunks; solve 460 ms
+[56149287] mulassoc_6._bvs4_1: base check (bit-blast + CNF + trie agreement) 1795 ms
+[56152233] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s0 (2000 steps from id 2544) 2946 ms
+[56155390] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s1 (736 steps from id 4544) 3156 ms
+[56158461] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s2 (374 steps from id 5280) 3067 ms
+[56161772] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s3 (379 steps from id 5654) 3308 ms
+[56165459] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s4 (720 steps from id 6033) 3684 ms
+[56169245] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s5 (599 steps from id 6753) 3782 ms
+[56172780] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s6 (465 steps from id 7352) 3531 ms
+[56176692] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s7 (579 steps from id 7817) 3907 ms
+[56180421] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s8 (509 steps from id 8396) 3725 ms
+[56184109] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s9 (485 steps from id 8905) 3685 ms
+[56187534] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s10 (520 steps from id 9390) 3421 ms
+[56190706] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s11 (404 steps from id 9910) 3169 ms
+[56193841] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s12 (379 steps from id 10314) 3132 ms
+[56197754] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s13 (469 steps from id 10693) 3910 ms
+[56201213] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s14 (399 steps from id 11162) 3455 ms
+[56204598] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s15 (414 steps from id 11561) 3382 ms
+[56207944] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s16 (394 steps from id 11975) 3342 ms
+[56211257] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s17 (411 steps from id 12369) 3309 ms
+[56214411] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s18 (442 steps from id 12780) 3151 ms
+[56218117] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s19 (724 steps from id 13222) 3702 ms
+[56221364] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s20 (433 steps from id 13946) 3243 ms
+[56224513] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s21 (383 steps from id 14379) 3146 ms
+[56227695] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s22 (397 steps from id 14762) 3179 ms
+[56230999] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s23 (392 steps from id 15159) 3301 ms
+[56234489] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s24 (416 steps from id 15551) 3487 ms
+[56237688] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s25 (481 steps from id 15967) 3195 ms
+[56240818] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s26 (417 steps from id 16448) 3126 ms
+[56243837] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s27 (337 steps from id 16865) 3016 ms
+[56247446] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s28 (696 steps from id 17202) 3606 ms
+[56250899] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s29 (559 steps from id 17898) 3450 ms
+[56254355] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s30 (493 steps from id 18457) 3453 ms
+[56257694] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s31 (433 steps from id 18950) 3336 ms
+[56260980] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s32 (366 steps from id 19383) 3283 ms
+[56264244] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s33 (390 steps from id 19749) 3261 ms
+[56267573] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s34 (368 steps from id 20139) 3325 ms
+[56270677] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s35 (311 steps from id 20507) 3100 ms
+[56273940] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s36 (419 steps from id 20818) 3260 ms
+[56277123] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s37 (336 steps from id 21237) 3180 ms
+[56280231] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s38 (356 steps from id 21573) 3105 ms
+[56283689] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s39 (360 steps from id 21929) 3454 ms
+[56286708] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s40 (310 steps from id 22289) 3016 ms
+[56289824] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s41 (293 steps from id 22599) 3113 ms
+[56292992] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s42 (339 steps from id 22892) 3165 ms
+[56295974] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s43 (284 steps from id 23231) 2979 ms
+[56298986] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s44 (275 steps from id 23515) 3009 ms
+[56302497] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s45 (328 steps from id 23790) 3508 ms
+[56305880] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s46 (572 steps from id 24118) 3380 ms
+[56309098] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s47 (321 steps from id 24690) 3214 ms
+[56312370] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s48 (344 steps from id 25011) 3269 ms
+[56315517] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s49 (332 steps from id 25355) 3144 ms
+[56318524] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s50 (320 steps from id 25687) 3005 ms
+[56321673] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s51 (325 steps from id 26007) 3146 ms
+[56324555] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s52 (306 steps from id 26332) 2879 ms
+[56327472] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s53 (345 steps from id 26638) 2913 ms
+[56331019] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s54 (667 steps from id 26983) 3544 ms
+[56334083] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s55 (443 steps from id 27650) 3060 ms
+[56337132] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s56 (439 steps from id 28093) 3046 ms
+[56340174] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s57 (441 steps from id 28532) 3037 ms
+[56342305] mulassoc_6._bvs4_1: chunk mulassoc_6._bvs4_1._bvs_s58 (413 steps from id 28973) 2128 ms

@@ -1,0 +1,13 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_TPN_Chunk004_0.lean
+NT start TPCore.TPN.chunk_004._native.native_decide.ax_1_1
+NT nested TPCore.TPN.chunk_004._native.native_decide.ax_1_1 ms=56 rebuilt_defs=0 visited=639
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=43 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_0 blockers_ms=1 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_0 eval_ms=0
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_1 blockers_ms=9 bounded=false copy_ms=20 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_1 eval_ms=154531
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_2 blockers_ms=0 bounded=false copy_ms=0 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_2 eval_ms=1
+NT _ktr.F2_TPN_Chunk004_0.TPCore.TPN.chunk_004._kernel.native_decide.ax_1_1.p_3 blockers_ms=9 bounded=false copy_ms=19 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+rc=124 secs=900

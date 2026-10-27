@@ -1,0 +1,12 @@
+2026-10-26T02:02:10Z ax pkg=/home/ntbuild/work_resv8/qec/lean4 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=593 modules=593
+native axioms=634 inner=0 outer_todo=0
+2026-10-26T02:02:28Z summary 
+2026-10-26T02:03:35Z ax pkg=/home/ntbuild/work_resv8/qec/lean4 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=593 modules=593
+native axioms=634 inner=0 outer_todo=13
+2026-10-26T02:18:37Z summary ERROR=2 PROVED=7 TIMEOUT=4
+2026-10-26T02:21:01Z ax pkg=/home/ntbuild/work_resv8/qec/lean4 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=593 modules=593
+native axioms=634 inner=0 outer_todo=84
+2026-10-26T02:28:18Z ax pkg=/home/ntbuild/work_resv8/qec/lean4 tc=v4.35.0-rc3 nt=/home/ntbuild/nt_fix14/v4.35.0-rc3 native_files=593 modules=593
+native axioms=634 inner=0 outer_todo=12
+2026-10-26T02:37:13Z summary ERROR=13 PROVED=70 TIMEOUT=1
+2026-10-26T02:43:20Z summary TIMEOUT=12

@@ -1,0 +1,416 @@
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.row_count	KERNELIZED		7	6406984	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Sig_shape	KERNELIZED		42	6344528	4	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_merkleTerm_le	KERNELIZED		15	6354928	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Hash_shape	KERNELIZED		40	6390284	5	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_fieldDensity_le	KERNELIZED		42	6708892	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_merkleTerm_le	KERNELIZED		15	6717092	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_length	KERNELIZED		27	6717084	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_shape	KERNELIZED		34	6717172	5	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_merkleTerm_le	KERNELIZED		15	6716752	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_merkleTerm_le	KERNELIZED		15	6716772	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedHahn	Lfzk.CompiledZk.v7SigHahn_tsec_slack	ERROR	maxRecDepth		7693400	18	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_fieldDensity_le	KERNELIZED		34	6715916	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedHahn	Lfzk.CertifiedV1.v7SigHahn_valid	ERROR	maxRecDepth		7331980	19	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedHahn	Lfzk.CompiledZk.v7SigHahn_core_le	ERROR	maxRecDepth		7375212	19	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedHahn	Lfzk.CompiledZk.v7SigHahn_core_sharp	ERROR	maxRecDepth		7321008	20	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_shape	KERNELIZED		38	6719596	4	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedHahn	Lfzk.CompiledZk.v7SigHahn_coefficient_le	ERROR	maxRecDepth		8350492	53	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_fsCoefficient_sharp	KERNELIZED		56387	10785264	63	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_maxDensity_eq	KERNELIZED		57886	10754276	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_sharp	KERNELIZED		59797	11128856	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_length	KERNELIZED		35	6719844	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_fsCoefficient	KERNELIZED		61846	10757680	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_adaptive_slack_bound	KERNELIZED		63353	10853952	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_fsCoefficient	KERNELIZED		64553	10870312	72	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_fieldDensity_le	KERNELIZED		34	6716792	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_adaptive_slack_coeff	KERNELIZED		61474	11083076	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_shape	KERNELIZED		34	6717648	5	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_sharp	KERNELIZED		62881	11242124	70	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_ligeroDensity_le	KERNELIZED		59703	11082920	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_length	KERNELIZED		29	6716760	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_valid	KERNELIZED		69958	11620848	78	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Hash_sharp	KERNELIZED		72110	12095332	79	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_fieldDensity_le	KERNELIZED		37	6716728	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_adaptive_slack_bound	KERNELIZED		57175	11084916	64	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_merkleTerm_le	KERNELIZED		15	6717088	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_adaptive_slack_coeff	KERNELIZED		60560	10965756	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_maxDensity_eq	KERNELIZED		63054	11237980	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.rows_sharp	REJECTED	blocked		12183708	91	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.rows_valid	REJECTED	blocked		12120192	92	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_shape	KERNELIZED		33	6716896	5	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_valid	KERNELIZED		68123	11685212	76	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Hash_valid	KERNELIZED		91283	13009772	100	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_length	KERNELIZED		26	6716236	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_fsCoefficient	REJECTED	blocked		14312148	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Sig_sharp	REJECTED	blocked		14464492	127	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_ligeroDensity_le	KERNELIZED		58894	10965576	66	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_maxDensity_eq	REJECTED	blocked		14311528	119	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_adaptive_slack_bound	REJECTED	blocked		14305124	118	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_fieldDensity_le	KERNELIZED		38	6717152	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_valid	KERNELIZED		75725	11999632	84	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_sharp	KERNELIZED		60353	10967728	68	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_shape	KERNELIZED		36	6716772	5	String.Internal.append	2	2	native_decide:2
+longfellow-zk	Lfzk.CertifiedV1	Lfzk.CertifiedV1.v8Sig_valid	REJECTED	blocked		14546928	142	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_length	KERNELIZED		31	6716316	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_fsCoefficient_sharp	KERNELIZED		61309	11083148	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_adaptive_slack_coeff	KERNELIZED		62045	11126896	70	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_ligeroDensity_le	KERNELIZED		63951	11237840	72	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_adaptive_slack_bound	KERNELIZED		63564	11131780	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_fsCoefficient	KERNELIZED		61793	11082440	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_fsCoefficient_sharp	KERNELIZED		63335	11240028	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_fsCoefficient_sharp	KERNELIZED		61686	11127060	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_ligeroDensity_le	KERNELIZED		61963	11126480	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_maxDensity_eq	KERNELIZED		61815	11082768	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_maxDensity_eq	KERNELIZED		59311	10965552	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash3_valid	KERNELIZED		73780	11870616	82	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash4_adaptive_slack_coeff	KERNELIZED		64941	11240192	73	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_fsCoefficient	KERNELIZED		58279	10965048	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_fsCoefficient_sharp	REJECTED	blocked		14312400	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash2_sharp	KERNELIZED		60910	11083848	68	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Hash1_adaptive_slack_bound	KERNELIZED		58660	10967788	66	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_ligeroDensity_le	REJECTED	blocked		14302680	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_sharp	REJECTED	blocked		14305328	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash1_adaptive_slack_coeffS	KERNELIZED		59319	10983316	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash2_adaptive_slack_coeffS	KERNELIZED		61485	11099732	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash1_adaptive_slack_boundS	KERNELIZED		58841	10987852	66	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash3_adaptive_slack_boundS	KERNELIZED		61147	11103308	68	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_adaptive_slack_coeff	REJECTED	blocked		14312248	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash4_adaptive_slack_coeffS	KERNELIZED		63489	11257968	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash4_adaptive_slack_boundS	KERNELIZED		65233	11260176	73	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash2_adaptive_slack_boundS	KERNELIZED		58270	11102760	66	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Hash3_adaptive_slack_coeffS	KERNELIZED		61359	11147064	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Sig_adaptive_slack_boundS	REJECTED	blocked		14323320	120	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash1_zk_slack_coeff	KERNELIZED		56942	10990932	64	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash2_zkBound_sharp	KERNELIZED		61593	11108948	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha1_adaptive_slack_coeffS	REJECTED	blocked		14295080	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha3_adaptive_slack_coeffS	REJECTED	blocked		14383000	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha2_adaptive_slack_boundS	REJECTED	blocked		14366528	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CertifiedV7	Lfzk.CertifiedV1.v7Sig_valid	REJECTED	blocked		14710352	131	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash2_zk_slack_coeff	KERNELIZED		58389	11108348	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.CertifiedV1.v7Sig_adaptive_slack_coeffS	REJECTED	blocked		14329456	118	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash3_zk_slack_coeff	KERNELIZED		60307	11154404	68	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Hash_zk_slack_bound	KERNELIZED		72569	12135780	81	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha3_adaptive_slack_boundS	REJECTED	blocked		14377128	125	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha1_adaptive_slack_boundS	REJECTED	blocked		14339108	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha4_adaptive_slack_boundS	REJECTED	blocked		14403656	126	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha4_adaptive_slack_coeffS	REJECTED	blocked		14411860	124	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Hash_zk_slack_coeff	KERNELIZED		75364	12131820	83	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledV7S	Lfzk.TwoFieldV1Rows.v7P256Sha2_adaptive_slack_coeffS	REJECTED	blocked		14369836	123	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Hash_zkBound_sharp	KERNELIZED		75802	12133800	83	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Sig_zk_slack_bound	REJECTED	blocked		14332268	117	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash2_zk_slack_bound	KERNELIZED		58060	11109984	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8HashRows_count	KERNELIZED		3	2878364	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash3_zkBound_sharp	KERNELIZED		60968	11156372	69	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Sig_zk_slack_coeff	REJECTED	blocked		14515684	123	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash4_zkBound_sharp	KERNELIZED		59249	11267220	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Sig_listBound	KERNELIZED		6	2878440	2		1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8SigRows_count	KERNELIZED		3	2878416	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash4_zk_slack_bound	KERNELIZED		60775	11267156	68	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Hash_listBound	KERNELIZED		6	2878548	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash1_zk_slack_bound	KERNELIZED		58801	10994960	66	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash1_zkBound_sharp	KERNELIZED		59623	10992912	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash4_zk_slack_coeff	KERNELIZED		63981	11069408	71	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Sig_zkBound_sharp	REJECTED	blocked		14500740	127	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsHahn	Lfzk.LigeroV1Rows.v7SigHahn_listBound	KERNELIZED		6	2878680	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Hash3_zk_slack_bound	KERNELIZED		59922	11156460	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsHahn	Lfzk.LigeroV1Rows.v7SigHahn_valid	ERROR	maxRecDepth		3837740	16	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash1_listBound	KERNELIZED		5	2878740	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Sig_zkBound_sharp	REJECTED	blocked		14331232	118	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash2_listBound	KERNELIZED		5	2878720	2		1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Sig_listBound	KERNELIZED		6	2878664	2		1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8SigRows_sharp	REJECTED	blocked		8605896	48	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v7Sig_zk_slack_coeff	REJECTED	blocked		14336972	117	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8SigRows_valid	REJECTED	blocked		8497480	47	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash4_listBound	KERNELIZED		5	2878668	2		1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsHahn	Lfzk.LigeroV1Rows.v7SigHahn_sharp	ERROR	maxRecDepth		4796268	50	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkRows	Lfzk.CompiledZk.v8Sig_zk_slack_bound	REJECTED	blocked		14304916	130	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash3_listBound	KERNELIZED		5	2878668	2		1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_zk_slack_bound	REJECTED	blocked		14377492	125	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_zk_slack_coeff	REJECTED	blocked		14380252	126	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_zk_slack_bound	REJECTED	blocked		14388476	128	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash4_sharp	KERNELIZED		61476	7401292	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_zk_slack_coeff	REJECTED	blocked		14422412	123	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_zk_slack_bound	REJECTED	blocked		14349696	126	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_zk_slack_coeff	REJECTED	blocked		14355196	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Hash_sharp	KERNELIZED		74770	8268016	80	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.p256sha_zk_slack_coeff	REJECTED	blocked		14723616	140	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_zk_slack_bound	REJECTED	blocked		14414888	125	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash1_sharp	KERNELIZED		58294	7129452	63	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_zk_slack_coeff	REJECTED	blocked		14394452	123	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Hash_valid	KERNELIZED		88502	9177748	95	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.CompiledZkTwoFieldRows	Lfzk.TwoFieldV1Rows.p256sha_zk_slack_bound	REJECTED	blocked		14705316	138	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash3_sharp	KERNELIZED		60599	7290612	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Sig_sharp	REJECTED	blocked		10655328	127	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveTwoField	Lfzk.NizkAdaptiveTwoField.p256sha_len2	KERNELIZED		52	6735136	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash2_valid	KERNELIZED		72817	7979612	79	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8Sig_valid	REJECTED	blocked		11074956	138	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash3_valid	KERNELIZED		70386	8027864	76	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash2_sharp	KERNELIZED		60404	7246616	65	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrinding	Lfzk.CertifiedV1.v8Hash_length	KERNELIZED		34	6718160	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash1_valid	KERNELIZED		68800	7843864	74	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Hash4_valid	KERNELIZED		72793	8159488	79	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Sig_valid	REJECTED	blocked		10872260	128	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptive	Lfzk.CertifiedV1.v8Hash_adaptive_slack_coeff	KERNELIZED		76281	12110840	84	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptive	Lfzk.CertifiedV1.v8Hash_adaptive_slack_bound	KERNELIZED		75196	12112852	83	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.ProfileMonoV1	Lfzk.ProfileMonoV1.v8HashNarrow_totalRounds	KERNELIZED		37	6717312	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Hash_fsCoefficientS_sharp	KERNELIZED		76255	12120936	84	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.v7Hash1_challenge_escape_exact	KERNELIZED		601	6817852	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Hash_boundS_sharp	KERNELIZED		74117	12122484	82	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1RowsV7	Lfzk.LigeroV1Rows.v7Sig_sharp	REJECTED	blocked		10475216	116	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.hash_round_charge_exceeds_117	KERNELIZED		78	6769520	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.signature_core_improves	ERROR	maxRecDepth		7719912	19	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Hash_adaptive_slack_coeffS	KERNELIZED		77304	12121152	85	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Hash_adaptive_slack_boundS	KERNELIZED		77888	12121696	86	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_sep_mac_eq	KERNELIZED		14	6746624	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.flat125_twofield_constant_slack	ERROR	maxRecDepth		7722136	19	String.Internal.append	4	4	native_decide:4
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_sep_mac_eq	KERNELIZED		13	6746320	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_sep_mac_eq	KERNELIZED		9	6746708	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrinding	Lfzk.CertifiedV1.v8Hash_fsCoefficient_sharp	KERNELIZED		76881	12107432	85	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrinding	Lfzk.CertifiedV1.v8Hash_fsCoefficient	KERNELIZED		75554	12107500	84	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrinding	Lfzk.CertifiedV1.v8Hash_maxDensity_eq	KERNELIZED		77356	12105152	85	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.NizkAdaptiveTwoField.p256sha_adaptive_slack_boundS	REJECTED	blocked		14689964	137	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Sig_boundS_sharp	REJECTED	blocked		14489164	130	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.NizkAdaptiveTwoField.p256sha_boundS_sharp	REJECTED	blocked		14687884	138	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Sig_adaptive_slack_coeffS	REJECTED	blocked		14505012	127	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.CertifiedV1.v8Sig_adaptive_slack_boundS	REJECTED	blocked		14488756	128	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveS	Lfzk.NizkAdaptiveTwoField.p256sha_adaptive_slack_coeffS	REJECTED	blocked		14709016	140	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_sep_mac_eq	KERNELIZED		14	6745476	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.hahn_twofield_linear_slack	ERROR	maxRecDepth		8694292	56	String.Internal.append	4	4	native_decide:4
+longfellow-zk	Lfzk.NizkGrindingTwoField	Lfzk.NizkGrindingTwoField.p256sha_sha_fsCoefficient_sharp	KERNELIZED		75579	12115460	83	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.hash_core_exceeds_116	KERNELIZED		56762	11297344	64	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrindingTwoField	Lfzk.NizkGrindingTwoField.p256sha_sha_fsCoefficient	KERNELIZED		73069	12115600	80	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.SoundnessAudit	Lfzk.SoundnessAudit.v7Hash1_cost_chain	KERNELIZED		56068	11015272	63	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveTwoField	Lfzk.NizkAdaptiveTwoField.p256sha_adaptive_slack_bound	REJECTED	blocked		14688664	131	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkAdaptiveTwoField	Lfzk.NizkAdaptiveTwoField.p256sha_adaptive_slack_coeff	REJECTED	blocked		14707016	134	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrindingTwoField	Lfzk.NizkGrindingTwoField.p256sha_ecdsa_fsCoefficient_sharp	REJECTED	blocked		14499504	128	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV1Rows	Lfzk.TwoFieldV1Rows.rows_sharp	REJECTED	blocked		12428956	42	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.NizkGrindingTwoField	Lfzk.NizkGrindingTwoField.p256sha_ecdsa_fsCoefficient	REJECTED	blocked		14499616	127	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7Rows_sharp	REJECTED	blocked		12439960	47	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV1Rows	Lfzk.TwoFieldV1Rows.rows_valid	REJECTED	blocked		12337252	50	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_sep_mac_le_coeff	REJECTED	blocked		14353196	104	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_sep_slack_bound	REJECTED	blocked		14388500	108	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha4_len2	KERNELIZED		49	6734344	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7Rows_valid	REJECTED	blocked		12356388	50	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha1_len2	KERNELIZED		49	6734380	5	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8HashRows_sharp	KERNELIZED		301378	7787492	304	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_sep_mac_le_coeff	REJECTED	blocked		14380512	121	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_sep_slack_coeff	REJECTED	blocked		14422552	117	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_sep_mac_le_coeff	REJECTED	blocked		14422396	109	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_sep_slack_bound	REJECTED	blocked		14349820	106	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha1_sep_slack_coeff	REJECTED	blocked		14355828	113	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_sep_mac_le_coeff	REJECTED	blocked		14393588	107	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha4_sep_slack_bound	REJECTED	blocked		14415236	119	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha3_len2	KERNELIZED		50	6732504	4	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha2_len2	KERNELIZED		35	6734440	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_adaptiveCounts._proof_1	KERNELIZED		3	2879472	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha3_sep_slack_coeff	REJECTED	blocked		14393636	121	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_sep_slack_coeff	REJECTED	blocked		14380468	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_adaptiveCounts._proof_1	KERNELIZED		3	2878516	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v3_adaptiveCounts._proof_1	KERNELIZED		2	2879412	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v3_adaptiveCounts._proof_2	KERNELIZED		2	2879348	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldSepMacRows	Lfzk.TwoFieldV1Rows.v7P256Sha2_sep_slack_bound	REJECTED	blocked		14378088	122	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v3_adaptiveCounts._proof_3	KERNELIZED		25	2881848	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha2_sharp	REJECTED	blocked		14361544	113	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_adaptiveCounts._proof_1	KERNELIZED		2	2879412	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v3_adaptiveCounts._proof_1	KERNELIZED		3	2879468	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v3_adaptiveCounts._proof_2	KERNELIZED		2	2879468	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v3_adaptiveCounts._proof_3	KERNELIZED		26	2881764	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_adaptiveCounts._proof_1	KERNELIZED		2	2879464	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV1Rows	Lfzk.TwoFieldV1Rows.p256sha_sharp	REJECTED	blocked		14677084	129	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_adaptiveCounts._proof_3	KERNELIZED		16	2881444	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_adaptiveCounts._proof_2	KERNELIZED		2	2878440	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_adaptiveCounts._proof_2	KERNELIZED		2	2879412	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_adaptiveCounts._proof_3	KERNELIZED		3533	3199788	6	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_adaptiveCounts._proof_2	KERNELIZED		3	2879472	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV1Rows	Lfzk.TwoFieldV1Rows.p256sha_valid	REJECTED	blocked		15439888	140	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_adaptiveCounts._proof_3	KERNELIZED		26	2881852	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_adaptiveCounts._proof_2	KERNELIZED		2	2879412	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_adaptiveCounts._proof_3	KERNELIZED		3405	3187268	6	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_fs_counts._proof_1	KERNELIZED		3	2879896	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_fs_counts._proof_1	KERNELIZED		2	2880140	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha2_valid	REJECTED	blocked		15038104	126	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.LigeroV1Rows	Lfzk.LigeroV1Rows.v8HashRows_valid	KERNELIZED		398027	8967036	401	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_adaptiveCounts._proof_4	KERNELIZED		50977	7428628	56		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha1_adaptive_slack_coeff	REJECTED	blocked		14337308	117	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha2_adaptive_slack_coeff	REJECTED	blocked		14363268	108	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_fs_counts._proof_2	KERNELIZED		2	2879040	1		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_fs_counts._proof_3	KERNELIZED		49	2887260	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_fs_counts._proof_2	KERNELIZED		3	2733432	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_fs_counts._proof_3	KERNELIZED		519	2786824	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v3_fs_counts._proof_2	KERNELIZED		3	2879892	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v2_fs_parameters	KERNELIZED		5221	3102760	8		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v3_fs_counts._proof_3	KERNELIZED		82	2887068	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha4_valid	REJECTED	blocked		15082336	133	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_fs_counts._proof_1	KERNELIZED		2	2880084	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha3_sharp	REJECTED	blocked		14371016	119	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_fs_counts._proof_2	KERNELIZED		1	2878244	1		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_fs_counts._proof_2	KERNELIZED		3	2878880	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha4_adaptive_slack_bound	REJECTED	blocked		14400096	113	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_fs_counts._proof_1	KERNELIZED		3	2879372	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_fs_counts._proof_3	KERNELIZED		80	2887256	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_fs_parameters	KERNELIZED		3323	3063696	5		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_fs_counts._proof_3	KERNELIZED		78	2886952	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_fs_counts._proof_1	KERNELIZED		3	2879952	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v1_fs_counts._proof_1	KERNELIZED		2	2880088	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_adaptiveCounts._proof_4	KERNELIZED		64931	7428660	70		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha3_adaptive_slack_bound	REJECTED	blocked		14371748	101	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v3_fs_counts._proof_1	KERNELIZED		2	2880032	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_fs_parameters	KERNELIZED		3270	3056600	6		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_adaptiveCounts._proof_4	KERNELIZED		56813	7070832	61		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_fs_counts._proof_1	KERNELIZED		2	2880032	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v1_fs_counts._proof_1	KERNELIZED		3	2880148	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v3_adaptiveCounts._proof_4	KERNELIZED		56107	7070932	61		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v3_adaptiveCounts._proof_4	KERNELIZED		63186	7428632	68		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveCountCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_adaptiveCounts._proof_4	KERNELIZED		50312	7070724	55		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha3_adaptive_slack_coeff	REJECTED	blocked		14377596	105	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v3_fs_counts._proof_3	KERNELIZED		77	2887068	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v3_fs_counts._proof_2	KERNELIZED		3	2878908	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha4_sharp	REJECTED	blocked		14399072	119	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v3_fs_counts._proof_1	KERNELIZED		3	2879528	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v3_fs_counts._proof_1	KERNELIZED		2	2880112	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v3_fs_counts._proof_2	KERNELIZED		3	2879880	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v3_fs_counts._proof_3	KERNELIZED		80	2889444	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha3_valid	REJECTED	blocked		15048744	136	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_fs_parameters	KERNELIZED		3996	3112132	6		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v3_fs_counts._proof_1	KERNELIZED		2	2879148	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v2_fs_counts._proof_1	KERNELIZED		3	2880112	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_fs_counts._proof_2	KERNELIZED		2	2880088	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v1_fs_counts._proof_3	KERNELIZED		534	2932568	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v2_fs_parameters	KERNELIZED		5348	3102392	8		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_fs_counts._proof_3	KERNELIZED		453	2923952	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v3_fs_counts._proof_3	KERNELIZED		75	2889384	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v1_fs_counts._proof_2	KERNELIZED		3	2879760	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v3_fs_counts._proof_2	KERNELIZED		3	2879780	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha4_adaptive_slack_coeff	REJECTED	blocked		14406296	100	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_fs_counts._proof_2	KERNELIZED		3	2879888	2		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha1_adaptive_slack_bound	REJECTED	blocked		14331768	113	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v2_fs_counts._proof_2	KERNELIZED		3	2879976	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_fs_counts._proof_3	KERNELIZED		80	2889260	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v2_fs_counts._proof_3	KERNELIZED		83	2887280	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_fs_counts._proof_1	KERNELIZED		3	2879020	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v2_fs_counts._proof_1	KERNELIZED		3	2880096	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_fs_counts._proof_4	KERNELIZED		60206	7245100	65		1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha1_sharp	REJECTED	blocked		14333616	118	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_fs_counts._proof_3	KERNELIZED		49	2886960	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha2_adaptive_slack_bound	REJECTED	blocked		14360588	117	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_fs_counts._proof_4	KERNELIZED		50694	7127736	55		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v3_fs_counts._proof_1	KERNELIZED		2	2880460	1		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_fs_counts._proof_2	KERNELIZED		3	2880028	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v3_fs_counts._proof_2	KERNELIZED		2	2879896	1		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_fs_parameters	KERNELIZED		5144	3101704	7		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v2_fs_counts._proof_3	KERNELIZED		82	2885776	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v3_fs_counts._proof_3	KERNELIZED		75	2888324	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	Lfzk.TwoFieldV7Rows	Lfzk.TwoFieldV1Rows.v7P256Sha1_valid	REJECTED	blocked		15003372	133	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v2_fs_counts._proof_2	KERNELIZED		3	2879692	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v3_fs_counts._proof_1	KERNELIZED		3	2879972	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_fs_counts._proof_1	KERNELIZED		3	2879836	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_fs_counts._proof_4	KERNELIZED		52558	7399704	57		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_fs_counts._proof_1	KERNELIZED		3	2879764	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v3_fs_counts._proof_1	KERNELIZED		3	2879848	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v3_fs_counts._proof_3	KERNELIZED		78	2887268	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v3_fs_counts._proof_4	KERNELIZED		45797	7243896	50		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_fs_counts._proof_4	KERNELIZED		77941	8266800	84		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v3_fs_counts._proof_2	KERNELIZED		3	2879964	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_fs_counts._proof_3	KERNELIZED		483	2924112	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v1_fs_counts._proof_3	KERNELIZED		576	2932480	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_fs_parameters	KERNELIZED		3231	3067916	5		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_fs_counts._proof_2	KERNELIZED		1	2879776	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_fs_counts._proof_4	KERNELIZED		54861	7245288	60		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v1_fs_counts._proof_2	KERNELIZED		3	2879960	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v3_fs_counts._proof_3	KERNELIZED		51	2886832	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_fs_counts._proof_3	KERNELIZED		83	2889144	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v1_fs_counts._proof_4	KERNELIZED		58283	8258588	63		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v3_fs_counts._proof_2	KERNELIZED		2	2878636	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_fs_counts._proof_2	KERNELIZED		3	2880152	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v3_fs_counts._proof_1	KERNELIZED		3	2880156	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_fs_counts._proof_1	KERNELIZED		3	2879768	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_fs_counts._proof_4	KERNELIZED		57324	7127832	62		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_fs_counts._proof_3	KERNELIZED		291	2924236	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_fs_counts._proof_1	KERNELIZED		3	2879836	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_fs_counts._proof_2	KERNELIZED		3	2879432	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_fs_counts._proof_1	KERNELIZED		3	2880096	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v3_fs_counts._proof_4	KERNELIZED		59648	8266288	65		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_fs_counts._proof_3	KERNELIZED		478	2925580	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v1_fs_counts._proof_4	KERNELIZED		65869	8258224	71		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_fs_counts._proof_2	KERNELIZED		2	2880096	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v3_fs_counts._proof_3	KERNELIZED		77	2887276	2	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_fs_counts._proof_2	KERNELIZED		3	2880156	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v3_fs_counts._proof_2	KERNELIZED		3	2880144	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v3_fs_counts._proof_4	KERNELIZED		75757	8258596	81		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash4_v2_fs_counts._proof_4	KERNELIZED		60784	8257568	66		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_fs_counts._proof_3	KERNELIZED		558	2932476	3	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_fs_counts._proof_1	KERNELIZED		2	2880360	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_fs_counts._proof_1	KERNELIZED		3	2879196	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_fs_parameters	KERNELIZED		4174	3061560	6		9	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v3_fs_counts._proof_4	KERNELIZED		75906	8258368	81		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v2_fs_counts._proof_4	KERNELIZED		61027	8258556	66		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v3_fs_counts._proof_4	KERNELIZED		56669	7398992	61		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_fs_counts._proof_4	KERNELIZED		71046	8257768	77		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_fs_counts._proof_4	KERNELIZED		53771	7289072	59		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v3_fs_counts._proof_4	KERNELIZED		43527	7127820	48		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v3_fs_counts._proof_4	KERNELIZED		59244	7288980	64		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_fs_counts._proof_4	KERNELIZED		49032	7289044	53		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_fs_parameters	REJECTED	blocked		8348712	41	String.Internal.append	6	15	native_decide:15
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_fs_parameters	REJECTED	blocked		8347828	41	String.Internal.append	6	15	native_decide:15
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_fs_counts._proof_4	KERNELIZED		73699	8258240	79		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_fs_counts._proof_4	KERNELIZED		60580	7400036	65		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_fs_counts._proof_4	KERNELIZED		63724	8266924	68		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash3_v3_fs_counts._proof_4	KERNELIZED		77776	8258540	83		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_fs_counts._proof_2	KERNELIZED		47042	6793404	52	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_fs_counts._proof_3	KERNELIZED		53555	7429640	58		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range0	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range0	REJECTED	blocked		7660104	43	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range2	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range2	REJECTED	blocked		7656676	39	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range1	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range1	REJECTED	blocked		7657000	41	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_fs_counts._proof_2	KERNELIZED		47754	6826336	53	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveSignatureCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_fs_counts._proof_3	KERNELIZED		54418	7071780	59		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range3	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range3	REJECTED	blocked		7652628	42	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range6	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range6	REJECTED	blocked		7645900	40	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range5	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range5	REJECTED	blocked		7652508	44	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range4	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range4	REJECTED	blocked		7652296	46	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash_v1_flat_listSize_two	KERNELIZED		7	2878532	2		1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V7Range7	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7Range7	REJECTED	blocked		7648480	44	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range1	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range1	REJECTED	blocked		7652828	41	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range0	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range0	REJECTED	blocked		7659664	43	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range3	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range3	REJECTED	blocked		7657028	45	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range2	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range2	REJECTED	blocked		7661312	45	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_parameters	KERNELIZED		16503	5100660	18		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range4	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range4	REJECTED	blocked		7651424	45	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range5	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range5	REJECTED	blocked		7646628	41	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range6	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range6	REJECTED	blocked		7649712	40	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_parameters	KERNELIZED		21028	5379028	23		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFS.V8Range7	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8Range7	REJECTED	blocked		7649036	42	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFSSignature	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v7SigFS_valid	REJECTED	blocked		7660572	43	String.Internal.append	1	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.HahnMaskFSSignature	Ligero.Examples.Grid.LongfellowProfiledExtraction.HahnMask.v8SigFS_valid	REJECTED	blocked		7660264	39	String.Internal.append	1	9	native_decide:9
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_parameters	KERNELIZED		18330	5099780	21		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_parameters	KERNELIZED		20439	5586016	22		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_parameters	KERNELIZED		22198	5553532	24		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_parameters	KERNELIZED		19251	5140832	21		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_compressed_bound	ERROR	maxRecDepth		5084124	53	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_parameters	KERNELIZED		21516	5557468	24		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_compressed_bound	ERROR	maxRecDepth		5504808	67	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v1_compressed_bound	ERROR	maxRecDepth		5061584	54	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Sig_v2_compressed_bound	REJECTED	blocked		11200004	141	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_compressed_bound	ERROR	maxRecDepth		5182652	45	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_compressed_bound	REJECTED	blocked		10609752	123	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v2_compressed_bound	REJECTED	blocked		10691356	126	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v2_compressed_bound	REJECTED	blocked		10725696	119	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v2_compressed_bound	REJECTED	blocked		11397304	152	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v2_parameters	KERNELIZED		14147	4961472	16		5	5	native_decide:5
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v2_compressed_bound	REJECTED	blocked		11503000	152	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v2_compressed_bound	REJECTED	blocked		11392880	155	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_compressed_bound	ERROR	maxRecDepth		5191076	54	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2109	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2109	REJECTED	blocked		7616580	39	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_compressed_bound	REJECTED	blocked		12176884	181	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2109	RecursivePolygero.Benchmarks.HahnRateSixteenth.bound2109	KERNELIZED		50643	6259076	56	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2119	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119	REJECTED	blocked		7621196	44	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v2_compressed_bound	REJECTED	blocked		10806564	130	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2119	RecursivePolygero.Benchmarks.HahnRateSixteenth.bound2119	KERNELIZED		38806	5410512	43	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2129	RecursivePolygero.Benchmarks.HahnRateSixteenth.bound2129	KERNELIZED		30115	4751176	34	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2129	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2129	REJECTED	blocked		7628984	45	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2140	RecursivePolygero.Benchmarks.HahnRateSixteenth.bound2140	KERNELIZED		24226	4219348	27	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2140	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140	REJECTED	blocked		7626764	43	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2152	RecursivePolygero.Benchmarks.HahnRateSixteenth.bound2152	KERNELIZED		18840	3762476	22	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_compressed_bound	REJECTED	blocked		12647788	185	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_compressed_bound	REJECTED	blocked		12140496	181	String.Internal.append	1	1	native_decide:1
+longfellow-zk	polygero.Benchmarks.HahnRateSixteenth.Cert2152	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2152	REJECTED	blocked		7627868	42	String.Internal.append	1	1	native_decide:1
+longfellow-zk	examples.Ligero.Longfellow.AdaptiveHashCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_fs_parameters	TIMEOUT	900s			900		9	19	

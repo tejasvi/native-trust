@@ -1,0 +1,2 @@
+export rc=0 lines 2542326 export: 4.95 s 2746432 KB
+nanoda rc=0: Checked 6734 declarations with no typechecker errors, 1 pretty printer errors: [ nanoda: 195.45 s 4436900 KB 

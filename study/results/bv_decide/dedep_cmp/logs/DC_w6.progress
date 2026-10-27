@@ -1,0 +1,4 @@
+[39698267] mul_three._bvs4_1: 106 nodes, CNF 299 clauses, 106 variables
+[39698298] mul_three._bvs4_1: 76 steps, 1022 hints, 1 chunks; solve 21 ms
+[39698446] mul_three._bvs4_1: base check (bit-blast + CNF + trie agreement) 147 ms
+[39698668] mul_three._bvs4_1: chunk mul_three._bvs4_1._bvs_s0 (76 steps from id 300) 222 ms

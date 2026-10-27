@@ -1,0 +1,15 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean -j1 --tstack=1048576 F2_CpcMini_Proofs_CheckerCore_0.lean
+NT start _private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._native.native_decide.ax_1_5
+NT nested _private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._native.native_decide.ax_1_5 ms=52 rebuilt_defs=0 visited=1673
+NT copy Eo.__eo_typeof_dt_cons_rec._unary defn_ms=1 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_cons_rec defn_ms=1 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return._unary defn_ms=0 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof_dt_sel_return defn_ms=0 eq_ms=0 congr=true
+NT copy Eo.__eo_typeof._f defn_ms=1 eq_ms=1 congr=true
+NT copy Eo.__eo_typeof defn_ms=0 eq_ms=0 congr=true
+NT _ktr.F2_CpcMini_Proofs_CheckerCore_0._private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._kernel.native_decide.ax_1_5.p_0 blockers_ms=4 bounded=false copy_ms=12 copies=6 copy_kernel_ms=6
+NT _ktr.F2_CpcMini_Proofs_CheckerCore_0._private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._kernel.native_decide.ax_1_5.p_0 eval_ms=0
+PROVED `_private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._native.native_decide.ax_1_5` as `_ktr.F2_CpcMini_Proofs_CheckerCore_0._private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._kernel.native_decide.ax_1_5`: kernel_ms=21 native_axioms=1 rebuilt=0 copies=6 total_ms=73
+PROVED `_private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._native.native_decide.ax_1_5` as `_ktr.F2_CpcMini_Proofs_CheckerCore_0._private.CpcMini.Proofs.CheckerCore.0.checkerTypeInvariant_at._kernel.native_decide.ax_1_5`: kernel_ms=21 native_axioms=1 rebuilt=0 copies=6 total_ms=73
+maxrss_kb 1608884
+rc=0 secs=1

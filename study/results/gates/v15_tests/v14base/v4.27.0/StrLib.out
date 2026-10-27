@@ -1,0 +1,111 @@
+StrLib.lean:10:78: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_toNat._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide ("1_000".toNat? = some 1000 ∧ "12a".toNat? = none) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via String.toNat? → String.Slice.toNat? → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via String.toNat? → String.Slice.toNat? → String.Slice.foldl → Std.Iterators.Map.instIteratorLoop → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_toNat' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+StrLib.lean:14:91: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_foldl._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (String.foldl (fun n c => if c = ' ' then n + 1 else n) 0 "a b c" = 2) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via String.foldl → String.Slice.foldl → String.Slice.PosIterator.instIteratorSubtypePosNeEndPosOfPure → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via String.foldl → String.Slice.foldl → Std.Iterators.Map.instIteratorLoop → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_foldl' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+StrLib.lean:23:43: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_replace._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide
+      ("a\tb\tc".replace "\t" " " = "a b c" ∧
+        "red green blue".replace "ee" "E" = "red grEn blue" ∧
+          "aaaaa".replace "aa" "b" = "bba" ∧ "abc".replace "" "k" = "kakbkck") =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_replace' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+StrLib.lean:30:71: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_tokens._kdecide_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide (_kt.StrLib.tokens "ls\t-la  x" = ["ls", "-la", "x"]) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kt.StrLib.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kt.StrLib.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the accessibility-generator route (`wfAcc`), which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_tokens._kdecide_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  decide (_kta.StrLib.tokens "ls\t-la  x" = ["ls", "-la", "x"]) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via _kta.StrLib.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via _kta.StrLib.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_tokens' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+StrLib.lean:34:81: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_slice_replace._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide ("x-y-z".toSlice.replace "-" "+" = "x+y+z") = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_slice_replace' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+StrLib.lean:40:97: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, 'strlib_contains._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide
+      ("1_000".contains '_' = true ∧
+        (!"1000".contains '_') = true ∧
+          "red green".contains "een" = true ∧
+            (!"red green".contains "ner") = true ∧
+              "a-b".toSlice.contains '-' = true ∧ "abc".toSlice.contains "bc" = true) =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via String.Slice.Pattern.ForwardCharSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via String.Slice.Pattern.ForwardCharSearcher.instIteratorLoopIdSearchStep → Std.Iterators.IteratorLoop.defaultImplementation → Std.Iterators.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+'strlib_contains' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'strlib_fold_user' depends on axioms: [Quot.sound]
+rc=1

@@ -1,0 +1,56 @@
+== Char2Comp
+✔ [20/21] Built Char2Comp (693ms)
+Build completed successfully (21 jobs).
+== batch 1
+✔ [23/30] Built Char2Native.D24C23_4 (582s)
+✔ [24/30] Built Char2Native.D24C23_6 (725s)
+✔ [25/30] Built Char2Native.D24C23_5 (836s)
+✔ [26/30] Built Char2Native.D24C23_3 (1054s)
+✔ [27/30] Built Char2Native.D24Base (213s)
+✔ [28/30] Built Char2Native.D24C23_2 (797s)
+✔ [29/30] Built Char2Native.D24C23_0 (666s)
+✔ [30/30] Built Char2Native.D24C23_1 (933s)
+Build completed successfully (30 jobs).
+== batch 2
+✔ [28/34] Built Char2Native.Nets (2.6s)
+✔ [29/34] Built Char2Native.D24C23_7 (1066s)
+✔ [30/34] Built Char2Native.CT25_z8a2 (1777s)
+✔ [31/34] Built Char2Native.CT25_z4a1 (1816s)
+✔ [32/34] Built Char2Native.CT25_z8a0 (1817s)
+✔ [33/34] Built Char2Native.CT25_z4a0 (1817s)
+✔ [34/34] Built Char2Native.CT25_z8a1 (1885s)
+Build completed successfully (34 jobs).
+== all
+✔ [3163/3165] Built Char2Proof.Main (3.5s)
+✔ [3164/3165] Built Char2Proof (3.1s)
+Build completed successfully (3165 jobs).
+== axioms
+39a40,43
+> 'Char2.D24.ns_available'dependsonaxioms:[propext,
+> Classical.choice,
+> Quot.sound,
+> Char2.D24_checkNSAvail._native.native_decide.ax_1_1]
+total 3630 s
+	Command being timed: "rebuild.sh"
+	User time (seconds): 15200.54
+	System time (seconds): 135.25
+	Percent of CPU this job got: 422%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00:30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3420520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 50
+	Minor (reclaiming a frame) page faults: 3584657
+	Voluntary context switches: 90604
+	Involuntary context switches: 709689
+	Swaps: 0
+	File system inputs: 3856
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

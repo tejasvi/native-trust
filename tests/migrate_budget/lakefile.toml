@@ -1,0 +1,5 @@
+name = "MigBudget"
+defaultTargets = ["MigBudget"]
+
+[[lean_lib]]
+name = "MigBudget"

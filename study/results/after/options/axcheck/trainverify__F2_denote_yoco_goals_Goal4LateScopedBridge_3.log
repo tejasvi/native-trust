@@ -1,0 +1,5 @@
+$ lean trainverify__F2_denote_yoco_goals_Goal4LateScopedBridge_3.lean tc=v4.32.2 ntlib=/home/ntbuild/work_shared/nt22/v4.32.2/.lake/build/lib/lean start=2026-10-25T16:30:44Z
+PROVED `_private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._native.native_decide.ax_1_1` as `_ktr.trainverify__F2_denote_yoco_goals_Goal4LateScopedBridge_3._private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._kernel.native_decide.ax_1_1`: kernel_ms=1545992 native_axioms=1 rebuilt=0 copies=0 total_ms=1546023 acc_fallback=0 pieces=1
+'_ktr.trainverify__F2_denote_yoco_goals_Goal4LateScopedBridge_3._private.denote.yoco_goals.Goal4LateScopedBridge.0.TrainVerify.Denote.GeneratedPatterns.goal4Late_pm_filter_eq._kernel.native_decide.ax_1_1' depends on axioms: [propext,
+ Quot.sound]
+rc=0 end=2026-10-25T16:56:33Z

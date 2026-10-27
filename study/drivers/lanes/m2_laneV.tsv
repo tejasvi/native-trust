@@ -1,0 +1,12 @@
+longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--skip-build --redo
+formal-conjectures	/home/ntbuild/repos/formal-conjectures	--skip-build --redo
+humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--skip-build --redo
+asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	--skip-build --redo
+sounio	/home/ntbuild/repos/sounio/formal	--skip-build --redo
+cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	--skip-build --redo
+aks	/home/ntbuild/repos/aks	--skip-build --redo
+sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	--skip-build --redo
+rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	--skip-build --redo
+aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	--skip-build --redo
+berry-esseen	/home/ntbuild/repos/berry-esseen	--skip-build --redo --exclude Uniform
+clean	/home/ntbuild/repos/clean	--skip-build --redo

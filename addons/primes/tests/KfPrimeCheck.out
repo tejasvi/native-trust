@@ -1,0 +1,15 @@
+NT start babybearPrime._native.native_decide.ax_1
+NT nested babybearPrime._native.native_decide.ax_1 ms=1 rebuilt_defs=0 visited=1759
+NT kernel_fact babybearPrime._native.native_decide.ax_1 via babybear_kf
+'pBabybear_prime' depends on axioms: [propext, Classical.choice, Quot.sound, babybearPrime._native.native_decide.ax_1]
+kernelize: `pBabybear_prime.kernel` proves the statement of `pBabybear_prime` with axioms [propext,
+ Classical.choice,
+ Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (0 ms of kernel evaluation); rebuilt 2 lemma(s)/definition(s); created 0 kernel-reducible copies; 58 ms in total.
+kernelize: `pBabybear_pos.kernel` proves the statement of `pBabybear_pos` with axioms [propext,
+ Classical.choice,
+ Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (0 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 55 ms in total.
+'pBabybear_prime.kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'pBabybear_pos.kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+WALL 1.53 s  MAXRSS 2632268 KB

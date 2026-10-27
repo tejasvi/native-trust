@@ -1,0 +1,5 @@
+Q1.lean:3:88: error: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+'t' depends on axioms: [sorryAx]
+Command exited with non-zero status 1
+maxrss_kb 742512 secs 1.27
+rc=1

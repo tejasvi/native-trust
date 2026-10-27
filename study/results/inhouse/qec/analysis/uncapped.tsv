@@ -1,0 +1,3 @@
+axiom	verdict	reason	secs	maxrss_kb	cpu_s	pieces_done(eval_ms)
+cover8_0_3._native.native_decide.ax_1_1	ERROR	memory	470	101809580	470	p_0=636
+heads8_0._native.native_decide.ax_1_1	TIMEOUT	14400s	14401		14399	

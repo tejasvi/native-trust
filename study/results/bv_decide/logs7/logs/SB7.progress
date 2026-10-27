@@ -1,0 +1,3 @@
+[59690379] bvs4fact_1: 22035 nodes, CNF 65720 clauses
+[59698264] bvs4fact_1: 31056 steps, 959442 hints, 54 chunks; solve+prep 7885 ms
+[59725116] bvs4fact_1: base check 26852 ms

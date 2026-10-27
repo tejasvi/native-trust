@@ -1,0 +1,11 @@
+v8s-r4-md-c4-a2	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+v8s-r4-md-c4-a2	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+v8s-r4-md-c4-a2	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+v8s-r4-md-c4-a2	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+v8s-r4-md-c4-a2	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+v8s-r4-md-c4-a2	scripts.probe-fn-portable-line	-			NOT_BUILT						
+v8s-r4-md-c4-a2	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.pommette_refusals._native.native_decide.ax_1_1	native_decide	False	PROVED		6	5573472	48		nt_lines=27 last=pieces=1
+v8s-r4-md-c4-a2	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.fuel_is_not_inconsistency._native.native_decide.ax_1_1	native_decide	False	PROVED		4	1554864	1		nt_lines=31 last=pieces=1
+v8s-r4-md-c4-a2	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.dag_local_orders._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1547620	1		nt_lines=35 last=pieces=1
+v8s-r4-md-c4-a2	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.ordered_presentation_invariance_4000._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	30428228	126		nt_lines=19 last=blockers_ms=8 bounded=false copy_ms=22 copies=6 copy_kernel_ms=6 fast_lits=0 string_args=false
+v8s-r4-md-c4-a2	Compiler.ObjectiveBendC4Vectors	Minidregg.Compiler.ObjectiveBendC4Vectors.pommette_vectors._native.native_decide.ax_1_1	native_decide	False	PROVED		6	10253772	445		nt_lines=66 last=pieces=8

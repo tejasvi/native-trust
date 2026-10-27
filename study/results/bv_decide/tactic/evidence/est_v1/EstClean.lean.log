@@ -1,0 +1,12 @@
+0: _private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6: 65 nodes, 2 CNF clauses; estimated bv_kdecide time 0.000164 s
+Clean.Utils.Bitwise: 1 bv_decide axioms; estimated bv_kdecide time in total 0.000164 s
+BVS_ESTIMATE	Clean.Utils.Bitwise	0	_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6	65	2	0.000164
+0: _private.Clean.Gadgets.And.And8.0.Gadgets.And.And8.and_times_two_add_xor._native.bv_decide.ax_1_5: 428 nodes, 1187 CNF clauses; estimated bv_kdecide time 0.937693 s
+Clean.Gadgets.And.And8: 1 bv_decide axioms; estimated bv_kdecide time in total 0.937693 s
+BVS_ESTIMATE	Clean.Gadgets.And.And8	0	_private.Clean.Gadgets.And.And8.0.Gadgets.And.And8.and_times_two_add_xor._native.bv_decide.ax_1_5	428	1187	0.937693
+0: _private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._native.bv_decide.ax_1_5: 434 nodes, 1205 CNF clauses; estimated bv_kdecide time 0.957012 s
+Clean.Gadgets.Or.Or8: 1 bv_decide axioms; estimated bv_kdecide time in total 0.957012 s
+BVS_ESTIMATE	Clean.Gadgets.Or.Or8	0	_private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._native.bv_decide.ax_1_5	434	1205	0.957012
+0: _private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6: 22035 nodes, 65720 CNF clauses; estimated bv_kdecide time 215.854030 s
+Clean.Gadgets.ByteDecomposition.Theorems: 1 bv_decide axioms; estimated bv_kdecide time in total 215.854030 s
+BVS_ESTIMATE	Clean.Gadgets.ByteDecomposition.Theorems	0	_private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6	22035	65720	215.854030

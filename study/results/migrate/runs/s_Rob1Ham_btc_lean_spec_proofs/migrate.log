@@ -1,0 +1,13 @@
+2026-10-24T00:37:39Z s_Rob1Ham_btc_lean_spec_proofs: tc=v4.35.0 files=426 modules=426 built=47 plain=s_Rob1Ham_btc_lean_spec_proofs study=s_Rob1Ham_btc_lean_spec_proofs
+2026-10-24T00:37:50Z census before: 134 native axioms, 134 native-dependent declarations, modules=47, failed=[]
+2026-10-24T00:37:50Z plan: 833 occurrences; {"try": 600, "rewrite": 131, "keep: module not built": 99, "keep: plain ERROR/memory": 3}; unmatched axioms=0; affected modules=12
+2026-10-24T00:38:46Z time0: rc=0 wall=55.51 cpu=79.5 built=12 peak_lean=3 peak_rss_gb=9.3 sum=9.3 errors=0
+2026-10-24T00:48:46Z round 0 timed out; still running: ['BitcoinProofs/Bip/B13/B13SigMsg.lean', 'BitcoinProofs/Property/Y08/SighashLegacyProps.lean', 'BitcoinProofs/Property/Y10/MerkleProps.lean']
+2026-10-24T00:48:46Z build round 0: rc=124 wall=None errors=0 revert=330 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=14.7
+2026-10-24T00:58:46Z round 1 timed out; still running: ['BitcoinProofs/Property/Y12/FoldProps.lean', 'BitcoinProofs/Property/Y15/WitnessProps.lean']
+2026-10-24T00:58:46Z build round 1: rc=124 wall=None errors=0 revert=269 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=32.1
+2026-10-24T00:58:46Z build round 2: rc=0 wall=0.45 errors=0 revert=0 bump=0 unattributed=0 peak_lean=0 peak_rss_gb=0.0
+2026-10-24T01:03:11Z time1: rc=0 wall=265.15 cpu=516.0 built=12 peak_lean=3 peak_rss_gb=12.1 sum=21.3 errors=0
+2026-10-24T01:03:12Z default build: rc=0 wall=0.77 built=0 errors=0
+2026-10-24T01:03:23Z summary {"uses": 833, "replaced": 132, "replaced_facts": 3, "native_axioms_before": 134, "native_axioms_after": 131, "axioms_after_as_expected": true, "native_dependent_decls_before": 134, "native_dependent_decls_after": 131, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 833, "replaced": 132, "replaced_facts": 3, "native_axioms_before": 134, "native_axioms_after": 131, "axioms_after_as_expected": true, "native_dependent_decls_before": 134, "native_dependent_decls_after": 131, "rewritten_decls_still_native": 0, "build_ok": true}

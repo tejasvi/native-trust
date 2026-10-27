@@ -1,0 +1,10 @@
+[25867225] _private.RealK.Memory.0.Veir.MemoryState.loadByte64._bvk_1: 320 nodes, CNF 575 clauses
+[25867251] _private.RealK.Memory.0.Veir.MemoryState.loadByte64._bvk_1: 130 steps, 386 hints, 1 chunks, 0 segments; SAT 22 ms
+[25867447] _private.RealK.Memory.0.Veir.MemoryState.loadByte64._bvk_1: base check 196 ms
+[25867565] _private.RealK.Memory.0.Veir.MemoryState.loadByte64._bvk_1: chunk 0 (130 steps from id 576) 117 ms
+[25867575] bv_kdecide [Veir.MemoryState.loadByte64]: bv_decide 20 ms; 320 nodes, 575 clauses, 130 LRAT steps, 386 hints, 1 chunks; SAT 22 ms, data 5 ms; kernel: base 196 ms, chunks 117 ms (max 117 ms), assembly 3 ms; total 374 ms; peak RSS: bv_decide 835 MiB, kernel route 893 MiB
+[25867629] _private.RealK.Memory.0.Veir.MemoryState.llvmLoad._bvk_1: 40 nodes, CNF 71 clauses
+[25867646] _private.RealK.Memory.0.Veir.MemoryState.llvmLoad._bvk_1: 18 steps, 50 hints, 1 chunks, 0 segments; SAT 16 ms
+[25867669] _private.RealK.Memory.0.Veir.MemoryState.llvmLoad._bvk_1: base check 23 ms
+[25867679] _private.RealK.Memory.0.Veir.MemoryState.llvmLoad._bvk_1: chunk 0 (18 steps from id 72) 10 ms
+[25867687] bv_kdecide [Veir.MemoryState.llvmLoad]: bv_decide 20 ms; 40 nodes, 71 clauses, 18 LRAT steps, 50 hints, 1 chunks; SAT 16 ms, data 1 ms; kernel: base 23 ms, chunks 10 ms (max 10 ms), assembly 1 ms; total 80 ms; peak RSS: bv_decide 838 MiB, kernel route 851 MiB

@@ -1,0 +1,10 @@
+2026-10-26T01:13:52Z batch: 4 facts, PAR=4 MEMG=96 T=3600 MemAvailable=655G
+2026-10-26T01:13:52Z start X_ct4_d12 unit=s13-f-x-ct4-d12-1792977232 MemAvailable=655G
+2026-10-26T01:13:54Z start X_ct4_d13 unit=s13-f-x-ct4-d13-1792977234 MemAvailable=650G
+2026-10-26T01:13:56Z start X_certOK_9 unit=s13-f-x-certok-9-1792977236 MemAvailable=648G
+2026-10-26T01:13:58Z start X_certOK_10 unit=s13-f-x-certok-10-1792977238 MemAvailable=643G
+2026-10-26T01:18:37Z end X_ct4_d12 rc=0 | maxrss_kb 101902160 secs 284.18 | rc=137 end=2026-10-26T01:18:37Z
+2026-10-26T01:18:44Z end X_ct4_d13 rc=0 | maxrss_kb 101903212 secs 289.71 | rc=137 end=2026-10-26T01:18:44Z
+2026-10-26T01:19:39Z end X_certOK_9 rc=0 | maxrss_kb 101896448 secs 342.94 | rc=137 end=2026-10-26T01:19:39Z
+2026-10-26T01:20:03Z end X_certOK_10 rc=0 | maxrss_kb 101897816 secs 364.25 | rc=137 end=2026-10-26T01:20:03Z
+2026-10-26T01:20:03Z batch done

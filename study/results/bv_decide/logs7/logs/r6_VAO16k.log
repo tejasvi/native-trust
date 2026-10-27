@@ -1,0 +1,4 @@
+bvs6: prepared; shard files and the final file written to /home/ntbuild/work_bvscale/bench7
+BVS_PREP	AO16k	0	andor_16384._native.bv_decide.ax_1_5
+BVS_PREP_DONE	AO16k	0	segments=15	chunks=920	ms=208542
+TIME wall=509.11 s user=506.73 s maxrss=15164188 KB

@@ -1,0 +1,1 @@
+bv_kdecide [not64_eq_sub]: bv_decide 72 ms; 65 nodes, 2 clauses, 1 LRAT steps, 2 hints, 1 chunks; SAT 30 ms, data 1 ms; kernel: base 48 ms, chunks 1 ms (max 1 ms), assembly 1 ms; total 162 ms; peak RSS: bv_decide 1473 MiB, kernel route 1486 MiB

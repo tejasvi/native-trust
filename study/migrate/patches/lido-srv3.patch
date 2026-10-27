@@ -1,0 +1,2002 @@
+--- a/LidoSRv3/Audit/Verity/Tests/ConsolidationFee.lean
++++ b/LidoSRv3/Audit/Verity/Tests/ConsolidationFee.lean
+@@ -84,6 +84,6 @@
+           (fun obligation => (obligation.name, obligation.proofStatus)) =
+         [("bytes_array_offsets_and_lengths", .unchecked),
+          ("whole_transaction_rollback_after_prior_success", .unchecked)] := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Audit.Verity.Tests.ConsolidationFee
+--- a/LidoSRv3/Tests/AccountFeeSharesMutants.lean
++++ b/LidoSRv3/Tests/AccountFeeSharesMutants.lean
+@@ -53,7 +53,7 @@
+       derivedView valid profitableFee =
+         ⟨.committed, [10, 20], 30,
+           [.balancesWritten [10, 20], .accountingCalled,
+-            .rewardsRead [10, 20], .rewardsMinted]⟩ := by native_decide
++            .rewardsRead [10, 20], .rewardsMinted]⟩ := by decide +kernel
+ 
+ /-- LIP-12: non-profitable products mint zero and skip
+ `reportRewardsMinted` (Accounting.sol:403-413). -/
+@@ -62,17 +62,17 @@
+       derivedView valid nonprofitableFee =
+         ⟨.committed, [10, 20], 30,
+           [.balancesWritten [10, 20], .accountingCalled,
+-            .rewardsRead [10, 20]]⟩ := by native_decide
++            .rewardsRead [10, 20]]⟩ := by decide +kernel
+ 
+ /-- Product panic is fail-closed: the wrapper reverts the pre-state, it
+ does not stub success or mint a default.  The revert equality is `rfl`
+ via `product_panic_reverts` (`ContractState` is not `DecidableEq`). -/
+-example : derivedSharesToMintAsFees panicFee = none := by native_decide
++example : derivedSharesToMintAsFees panicFee = none := by decide +kernel
+ 
+ example :
+     (handleOracleReportDerived valid panicFee).run defaultState =
+       .revert "FEE_PANIC" defaultState :=
+-  product_panic_reverts valid panicFee defaultState (by native_decide)
++  product_panic_reverts valid panicFee defaultState (by decide +kernel)
+ 
+ /-- Free-argument mutant: balances `[10, 20]` compute 0 fee shares, but the
+ parent still mints when the harness passes `7`.  The derived consumer does
+@@ -86,7 +86,7 @@
+       derivedView valid nonprofitableFee =
+         ⟨.committed, [10, 20], 30,
+           [.balancesWritten [10, 20], .accountingCalled,
+-            .rewardsRead [10, 20]]⟩ := by native_decide
++            .rewardsRead [10, 20]]⟩ := by decide +kernel
+ 
+ /-- The derived consumer keeps the parent clock order on the profitable
+ witness: read tick 3 before mint tick 4 (Accounting.sol:277 before 403).
+@@ -96,7 +96,7 @@
+       | .success _ s => s
+       | .revert _ s => s
+     dirty.readSlot rewardsReadSlot = 3 ∧ dirty.readSlot rewardsMintedSlot = 4 := by
+-  native_decide
++  decide +kernel
+ 
+ #print axioms LidoSRv3.Audit.Source.AccountFeeShares.derived_eq_source_products
+ #print axioms LidoSRv3.Audit.Source.AccountFeeShares.derived_nonprofitable_zero
+--- a/LidoSRv3/Tests/AccountPackedWordsMutants.lean
++++ b/LidoSRv3/Tests/AccountPackedWordsMutants.lean
+@@ -138,7 +138,7 @@
+ theorem sample_observe_balances :
+     (observe sampleInput ((handleOracleReport sampleInput 1).run defaultState)).balances =
+       [10, 20] := by
+-  native_decide
++  decide +kernel
+ 
+ theorem sample_observe_total :
+     (observe sampleInput ((handleOracleReport sampleInput 1).run defaultState)).total =
+@@ -149,7 +149,7 @@
+     (storedModuleWords ((handleOracleReport sampleInput 1).run defaultState)).map
+         (fun w => (unpackModule w.val).validatorsBalanceGwei) =
+       [10, 20] := by
+-  native_decide
++  decide +kernel
+ 
+ theorem sample_router_getter
+     (r : Result) (post : ContractState)
+--- a/LidoSRv3/Tests/AccountingVectors.lean
++++ b/LidoSRv3/Tests/AccountingVectors.lean
+@@ -7,38 +7,38 @@
+ private def valid : ReportInput :=
+   ⟨[1, 2], [1, 2], [10, 20]⟩
+ 
+-example : accept valid = some ⟨[1, 2], [10, 20], 30⟩ := by native_decide
++example : accept valid = some ⟨[1, 2], [10, 20], 30⟩ := by decide +kernel
+ 
+ /-- Mutant: swapping the oracle's module order must be rejected. -/
+-example : accept ⟨[1, 2], [2, 1], [10, 20]⟩ = none := by native_decide
++example : accept ⟨[1, 2], [2, 1], [10, 20]⟩ = none := by decide +kernel
+ 
+ /-- Mutant: a truncated balance vector must be rejected. -/
+-example : accept ⟨[1, 2], [1, 2], [10]⟩ = none := by native_decide
++example : accept ⟨[1, 2], [1, 2], [10]⟩ = none := by decide +kernel
+ 
+ /-- Mutant: `_ensureAmountGwei` rejects a value above MAX_VALUE_GWEI. -/
+-example : accept ⟨[1], [1], [maxValueGwei + 1]⟩ = none := by native_decide
++example : accept ⟨[1], [1], [maxValueGwei + 1]⟩ = none := by decide +kernel
+ 
+ /-- Mutant: individually valid balances can still overflow the uint64 total. -/
+ example :
+-    checkedTotal64 (List.replicate 19 maxValueGwei) = none := by native_decide
++    checkedTotal64 (List.replicate 19 maxValueGwei) = none := by decide +kernel
+ 
+ private def fullReportSucceeds (_ : ReportInput) (_ : Nat) : Prop := True
+ 
+ example : sourceTrace fullReportSucceeds valid 1 trivial = some [
+     .balancesWritten [10, 20], .accountingCalled,
+-    .rewardsRead [10, 20], .rewardsMinted] := by native_decide
++    .rewardsRead [10, 20], .rewardsMinted] := by decide +kernel
+ 
+ /-- Regression: a full successful report with zero fee shares does not call
+ `reportRewardsMinted` at pinned Accounting.sol:403-413. -/
+ example : sourceTrace fullReportSucceeds valid 0 trivial = some [
+     .balancesWritten [10, 20], .accountingCalled,
+-    .rewardsRead [10, 20]] := by native_decide
++    .rewardsRead [10, 20]] := by decide +kernel
+ 
+ /-- Mutant: the early router guards can accept even though an independent full
+ source execution rejects later; absent success evidence, no trace is projected. -/
+ private def rejectedLater (_ : ReportInput) (_ : Nat) : Prop := False
+ 
+-example : accept valid = some ⟨[1, 2], [10, 20], 30⟩ := by native_decide
++example : accept valid = some ⟨[1, 2], [10, 20], 30⟩ := by decide +kernel
+ 
+ example : sourceTraceFromResult rejectedLater valid 1 .reverted = none := by
+   rfl
+@@ -46,7 +46,7 @@
+ /-- Independence mutant: the source accumulator is not a projection of a
+ wrapped Uint256 result; an out-of-range word input is rejected by the source
+ uint64 semantics even though `Uint256.ofNat` itself wraps it. -/
+-example : checkedTotal64 [Verity.Core.Uint256.modulus] = none := by native_decide
++example : checkedTotal64 [Verity.Core.Uint256.modulus] = none := by decide +kernel
+ 
+ /-- Negative mutant: removing the checked-uint64 destination guard produces a
+ transaction result where the independent pinned-source execution reverts. -/
+@@ -55,7 +55,7 @@
+ 
+ example : checkedTotal64 [uint64Max, 1] = none ∧
+     uncheckedUint64Mutant [uint64Max, 1] =
+-      some (Verity.Core.Uint256.ofNat (uint64Max + 1)) := by native_decide
++      some (Verity.Core.Uint256.ofNat (uint64Max + 1)) := by decide +kernel
+ 
+ /-- Negative observable mutant: reading rewards before the balance write is
+ distinguishable from the pinned source report. -/
+@@ -64,13 +64,13 @@
+     .accountingCalled, .rewardsMinted]
+ 
+ example : reorderedTraceMutant ⟨[1, 2], [10, 20], 30⟩ ≠
+-    successfulSteps ⟨[1, 2], [10, 20], 30⟩ 1 := by native_decide
++    successfulSteps ⟨[1, 2], [10, 20], 30⟩ 1 := by decide +kernel
+ 
+ /-- The observable transaction is separately executed and agrees on the
+ pinned successful report, including its checked total. -/
+-example : verityTxAccept valid = some ⟨[1, 2], [10, 20], 30⟩ := by native_decide
++example : verityTxAccept valid = some ⟨[1, 2], [10, 20], 30⟩ := by decide +kernel
+ 
+ example : verityTxTrace fullReportSucceeds valid 1 trivial =
+-    sourceTrace fullReportSucceeds valid 1 trivial := by native_decide
++    sourceTrace fullReportSucceeds valid 1 trivial := by decide +kernel
+ 
+ end LidoSRv3.Tests.AccountingVectors
+--- a/LidoSRv3/Tests/AllocCapacityPhase3Mutants.lean
++++ b/LidoSRv3/Tests/AllocCapacityPhase3Mutants.lean
+@@ -43,14 +43,14 @@
+     ¬ SourceCallStorageABI selectorMutant moduleAddress := by
+   rintro ⟨_, _, hbody, _⟩
+   simp [selectorMutant, consumedSummaryBody] at hbody
+-  have hselector : summarySelector ≠ 0 := by native_decide
++  have hselector : summarySelector ≠ 0 := by decide +kernel
+   exact hselector hbody.symm
+ 
+ theorem return_layout_mutant_breaks_actual_bridge (moduleAddress : Nat) :
+     ¬ SourceCallStorageABI returnLayoutMutant moduleAddress := by
+   rintro ⟨_, _, hbody, _⟩
+   simp [returnLayoutMutant, consumedSummaryBody] at hbody
+-  have hneq : (32 : Nat) ≠ summaryReturnBytes := by native_decide
++  have hneq : (32 : Nat) ≠ summaryReturnBytes := by decide +kernel
+   exact hneq hbody
+ 
+ theorem call_mutant_cannot_satisfy_source_bridge (moduleAddress : Nat) :
+--- a/LidoSRv3/Tests/AllocCapacityRegression.lean
++++ b/LidoSRv3/Tests/AllocCapacityRegression.lean
+@@ -52,26 +52,26 @@
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [activeModule] 10 false).map
+       (fun rows => rows.map Row.capacity) = some [10] ∧
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [activeModule] 10 false).map
+-      (fun rows => rows.map Row.capacity) ≠ some [100] := by native_decide
++      (fun rows => rows.map Row.capacity) ≠ some [100] := by decide +kernel
+ 
+ /-- Mutant: run the active branch for an inactive module. -/
+ theorem active_guard_mutant_rejected :
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [inactiveModule] 10 false).map
+       (fun rows => rows.map Row.capacity) = some [10] ∧
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [inactiveModule] 10 false).map
+-      (fun rows => rows.map Row.capacity) ≠ some [2] := by native_decide
++      (fun rows => rows.map Row.capacity) ≠ some [2] := by decide +kernel
+ 
+ /-- Mutant: reverse the router-provided module order. -/
+ theorem router_order_mutant_rejected :
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [activeModule, inactiveModule] 10 false).map
+       (fun rows => rows.map Row.moduleId) = some [7, 8] ∧
+     (LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [activeModule, inactiveModule] 10 false).map
+-      (fun rows => rows.map Row.moduleId) ≠ some [8, 7] := by native_decide
++      (fun rows => rows.map Row.moduleId) ≠ some [8, 7] := by decide +kernel
+ 
+ /-- Mutant: replace Solidity checked addition by wrapping word addition. -/
+ theorem uint256_bound_mutant_rejected :
+     LidoSRv3.Audit.SolidityAllocCapacity.execute cfg [activeModule]
+       (Verity.Core.Uint256.ofNat MAX_UINT256) false = none ∧
+-    (Verity.Core.Uint256.ofNat MAX_UINT256 + 10 : Uint256) = 9 := by native_decide
++    (Verity.Core.Uint256.ofNat MAX_UINT256 + 10 : Uint256) = 9 := by decide +kernel
+ 
+ end LidoSRv3.Tests.AllocCapacityRegression
+--- a/LidoSRv3/Tests/AllocationTxMutants.lean
++++ b/LidoSRv3/Tests/AllocationTxMutants.lean
+@@ -41,7 +41,7 @@
+ example :
+     runView modules (w 10) false =
+       ⟨.committed, [w 10, w 10], [w 15, w 15], [w 17, w 18], w 30⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Off-by-one mutant: dropping the last router index loses the second
+ address and changes the accumulated total / targets. -/
+@@ -49,7 +49,7 @@
+     let before := stateFor modules
+     observe [modA] ((allocate 1 cfg (w 10) false).run before) ≠
+       runView modules (w 10) false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Wrong-module-binding mutant: look up summaries by module id, skipping
+ `getIStakingModule`. Summaries live only at the bound addresses, so the
+@@ -74,7 +74,7 @@
+   sourceView cfg bound deposits false
+ 
+ example : wrongBindView modules (w 10) ≠ runView modules (w 10) false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Packed-config positive control: address/share/status/WC are recovered from
+ one `ModuleStateConfig` word rather than independent maps. -/
+@@ -83,7 +83,7 @@
+     configShareLimit (packConfig modA) = modA.shareLimit ∧
+     configStatus (packConfig modA) = 0 ∧
+     configWcType (packConfig modA) = 1 := by
+-  native_decide
++  decide +kernel
+ 
+ private def summaryBytes (exited deposited depositable : Nat) : List Nat :=
+   List.replicate 31 0 ++ [exited] ++
+@@ -139,7 +139,7 @@
+       some ⟨w 1, w 2, w 3⟩ ∧
+     decodeSummarySwapped (summaryBytes 1 2 3) ≠
+       some ⟨w 1, w 2, w 3⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The WC02 stake boundary has a separate selector and one-word ABI shape;
+ using the summary selector or accepting a short return cannot stand in for it. -/
+@@ -149,7 +149,7 @@
+     totalStakeCalldata ≠ [0x9a, 0xbd, 0xdf, 0x09] ∧
+     decodeTotalStake (List.replicate 31 0 ++ [7]) = some (w 7) ∧
+     decodeTotalStake (List.replicate 31 0) = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A WC02 row cannot be admitted on the summary result alone: malformed
+ `getTotalModuleStake` returndata reverts the whole binding transaction. -/
+@@ -181,7 +181,7 @@
+     let stale := stateFor [modA, modB]
+     observe [rebound, modB] ((allocate 2 cfg (w 10) false).run live) ≠
+       observe [modA, modB] ((allocate 2 cfg (w 10) false).run stale) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Two-batch chaining: a second allocation batch on the same bound modules
+ with a larger deposit demand raises both targets. A mutant that reuses the
+@@ -192,7 +192,7 @@
+     first = ⟨.committed, [w 10, w 10], [w 15, w 15], [w 17, w 18], w 30⟩ ∧
+       second = ⟨.committed, [w 10, w 10], [w 25, w 25], [w 17, w 18], w 50⟩ ∧
+       first.capacities ≠ second.capacities := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Independent-batch mutant: reset `totalValidators` per module instead of
+ accumulating across the allocation loop. Each module then sees total 20
+@@ -206,7 +206,7 @@
+     w 20⟩
+ 
+ example : independentBatchView ≠ runView modules (w 10) false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Failure after allocation, capacity, address, and total writes is rolled
+ back by `Contract.run`, not merely hidden by the observation. -/
+@@ -232,7 +232,7 @@
+     let before := stateFor modules
+     observe modules ((allocateNoWrite modules.length cfg (w 10) false).run
+       before) ≠ sourceView cfg modules (w 10) false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Kill-line mutant: `capacity := target` instead of `wordMin target available`.
+ The mutant executor disagrees with `MathView.capacities`, which uses `min`. -/
+--- a/LidoSRv3/Tests/ConsolidationTxMutants.lean
++++ b/LidoSRv3/Tests/ConsolidationTxMutants.lean
+@@ -56,44 +56,44 @@
+ example :
+     runView (pair 11 21) =
+       ⟨.committed, [expectedCall 11 21], [expectedEvent 11 21],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Call-drop mutant: omitting the CALL is not the source observation. -/
+ example :
+     runView (pair 11 21) ≠
+       ⟨.committed, [], [expectedEvent 11 21],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Event-drop mutant: omitting ConsolidationRequestAdded is rejected. -/
+ example :
+     runView (pair 11 21) ≠
+       ⟨.committed, [expectedCall 11 21], [],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Memory-drop mutant: dropping the source‖target payload is rejected. -/
+ example :
+     runView (pair 11 21) ≠
+       ⟨.committed, [expectedCall 11 21], [expectedEvent 11 21],
+-        [], word 1, word 3⟩ := by native_decide
++        [], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Double-emit mutant: two events per pair is rejected. -/
+ example :
+     runView (pair 11 21) ≠
+       ⟨.committed, [expectedCall 11 21],
+         [expectedEvent 11 21, expectedEvent 11 21],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Mismatched arity reverts before any call, event, or payload is committed. -/
+ example :
+     runView
+       { pair 11 21 with targets := [], targetLens := [] } =
+-      ⟨.reverted, [], [], [], 0, 0⟩ := by native_decide
++      ⟨.reverted, [], [], [], 0, 0⟩ := by decide +kernel
+ 
+ example :
+     runView
+       { pair 11 21 with targets := [], targetLens := [] } ≠
+       ⟨.committed, [expectedCall 11 21], [expectedEvent 11 21],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Two-pair batch binds both source-then-target payloads in order. -/
+ example :
+@@ -102,7 +102,7 @@
+         [expectedCall 11 21, expectedCall 12 22],
+         [expectedEvent 11 21, expectedEvent 12 22],
+         [[word 11, word 21], [word 12, word 22]], word 2, word 6⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A second batch starts from the first batch's count and appends. -/
+ example :
+@@ -119,7 +119,7 @@
+       observeFromJournal secondState
+           ((addRequestsSlotFree secondInputs).run secondState) =
+         ⟨.committed, [expectedCall 12 22], [expectedEvent 12 22],
+-          [[word 12, word 22]], word 2, word 3⟩ := by native_decide
++          [[word 12, word 22]], word 2, word 3⟩ := by decide +kernel
+ 
+ /-- Two-batch mutant that rewrites the first batch's count instead of
+ appending is rejected. -/
+@@ -132,7 +132,7 @@
+     observeFromJournal secondState
+         ((addRequestsSlotFree (pair 12 22)).run secondState) ≠
+       ⟨.committed, [expectedCall 12 22], [expectedEvent 12 22],
+-        [[word 12, word 22]], word 1, word 3⟩ := by native_decide
++        [[word 12, word 22]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Failure after call/event journal writes is observed as a revert. The
+ snapshot law `revert_restores_snapshot_slotFree` then restores the pre-call
+@@ -140,7 +140,7 @@
+ example :
+     observeFromJournal (stateOf (pair 11 21))
+         ((addRequestsSlotFree (pair 11 21) true).run (stateOf (pair 11 21))) =
+-      ⟨.reverted, [], [], [], 0, 0⟩ := by native_decide
++      ⟨.reverted, [], [], [], 0, 0⟩ := by decide +kernel
+ 
+ example (reason : String) (rollback : Verity.ContractState)
+     (h : (addRequestsSlotFree (pair 11 21) true).run (stateOf (pair 11 21)) =
+@@ -151,12 +151,12 @@
+ /-- Empty-key length is rejected before a CALL is formed. -/
+ example :
+     runView { pair 11 21 with sourceLens := [word 47] } =
+-      ⟨.reverted, [], [], [], 0, 0⟩ := by native_decide
++      ⟨.reverted, [], [], [], 0, 0⟩ := by decide +kernel
+ 
+ /-- Unauthorized caller observes no calls or events. -/
+ example :
+     runView { pair 11 21 with caller := word 6 } =
+-      ⟨.reverted, [], [], [], 0, 0⟩ := by native_decide
++      ⟨.reverted, [], [], [], 0, 0⟩ := by decide +kernel
+ 
+ /-- Pinned `_requireExactFee(0)`: a gateway-authorized nonempty 48-byte
+ pair with `fee = 0` and `msg.value = 0` commits, it does not revert
+@@ -167,7 +167,7 @@
+         [{ target := word consolidationRequestAddress, value := word 0
+            input := [word 11, word 21] }],
+         [expectedEvent 11 21], [[word 11, word 21]], word 1, word 0⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The registered FunctionSpec stays on the call/event/memory constructors. -/
+ example : function_spec_bridge_constructors =
+@@ -296,7 +296,7 @@
+ example :
+     (addRequestsSlotFree (pair 11 21)).run (stateBal (pair 11 21) (2^256 - 2)) =
+       .revert "ENTRY_CREDIT_OVERFLOW" (stateBal (pair 11 21) (2^256 - 2)) :=
+-  entry_credit_overflow_reverts_slotFree _ _ _ (by native_decide)
++  entry_credit_overflow_reverts_slotFree _ _ _ (by decide +kernel)
+ 
+ /-- The overflow reject is observed, not committed: no CALL, event,
+ payload, or fee survives an entry that cannot be credited. -/
+@@ -304,7 +304,7 @@
+     observeFromJournal (stateBal (pair 11 21) (2^256 - 2))
+         ((addRequestsSlotFree (pair 11 21)).run
+           (stateBal (pair 11 21) (2^256 - 2))) =
+-      ⟨.reverted, [], [], [], 0, 0⟩ := by native_decide
++      ⟨.reverted, [], [], [], 0, 0⟩ := by decide +kernel
+ 
+ /-- Boundary commit: the largest admissible credit
+ `2^256 - 4 + 3 = MAX_UINT256` does not wrap, so the batch commits the full
+@@ -314,14 +314,14 @@
+         ((addRequestsSlotFree (pair 11 21)).run
+           (stateBal (pair 11 21) (2^256 - 4))) =
+       ⟨.committed, [expectedCall 11 21], [expectedEvent 11 21],
+-        [[word 11, word 21]], word 1, word 3⟩ := by native_decide
++        [[word 11, word 21]], word 1, word 3⟩ := by decide +kernel
+ 
+ /-- Boundary reject: one wei further, `2^256 - 3 + 3 = 2^256`, wraps and is
+ rejected at entry. -/
+ example :
+     (addRequestsSlotFree (pair 11 21)).run (stateBal (pair 11 21) (2^256 - 3)) =
+       .revert "ENTRY_CREDIT_OVERFLOW" (stateBal (pair 11 21) (2^256 - 3)) :=
+-  entry_credit_overflow_reverts_slotFree _ _ _ (by native_decide)
++  entry_credit_overflow_reverts_slotFree _ _ _ (by decide +kernel)
+ 
+ /-- **Cheap mutant: swapped concat.** Journal calldata = source then target
+ (96 bytes). A swapped target then source concat fails observe: the
+@@ -330,7 +330,7 @@
+ example :
+     runView (pair 11 21) ≠
+       runView { pair 11 21 with sources := [word 21], targets := [word 11] } := by
+-  native_decide
++  decide +kernel
+ 
+ /-- **Premise-necessity: `hGatewayAdmittedNonzero` is load-bearing.** The
+ registered parent
+--- a/LidoSRv3/Tests/DepositLinksSourceMutants.lean
++++ b/LidoSRv3/Tests/DepositLinksSourceMutants.lean
+@@ -15,9 +15,9 @@
+ 
+ /-- Happy path: 240-byte batch is 5 keys of `PUBKEY_LENGTH = 48`
+     (`StakingRouter.sol:966-967` / BCD:43-45). -/
+-example : derivedKeys cfg 240 = some 5 := by native_decide
++example : derivedKeys cfg 240 = some 5 := by decide +kernel
+ 
+-example : derivedKeys cfg inp.publicKeysBatchLength = some 5 := by native_decide
++example : derivedKeys cfg inp.publicKeysBatchLength = some 5 := by decide +kernel
+ 
+ /-- Canonical 2+3 split with depositor-loop wei `64` and `96`. -/
+ example : routerShapedAmount cfg batchA :=
+@@ -35,37 +35,37 @@
+ 
+ /-- Fail-closed constructor overwrites wei and yields `LinksSource`. -/
+ example : derivedTwoBatchInputs cfg inp canonicalInputs =
+-    some canonicalInputs := by native_decide
++    some canonicalInputs := by decide +kernel
+ 
+ example : LinksSource cfg inp canonicalInputs :=
+   derivedTwoBatchInputs_linksSource
+     (show derivedTwoBatchInputs cfg inp canonicalInputs = some canonicalInputs
+-      from by native_decide)
++      from by decide +kernel)
+ 
+ /-- StakingRouter.sol:966 `WrongPubkeyLength`: 145 is not a multiple of 48. -/
+-example : derivedKeys cfg 145 = none := by native_decide
++example : derivedKeys cfg 145 = none := by decide +kernel
+ 
+ example : derivedTwoBatchInputs cfg
+     { inp with publicKeysBatchLength := 145 } canonicalInputs = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Truncating `241 / 48 = 5` matches ALLOC key composition but fails
+     alignment, so the derived consumer refuses the link. -/
+ example : actualDepositsCount cfg { inp with publicKeysBatchLength := 241 } = 5 := by
+   decide
+ 
+-example : derivedKeys cfg 241 = none := by native_decide
++example : derivedKeys cfg 241 = none := by decide +kernel
+ 
+ example : derivedTwoBatchInputs cfg
+     { inp with publicKeysBatchLength := 241 } canonicalInputs = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- One 48-byte key cannot witness the 2+3 ALLOC split. -/
+-example : derivedKeys cfg 48 = some 1 := by native_decide
++example : derivedKeys cfg 48 = some 1 := by decide +kernel
+ 
+ example : derivedTwoBatchInputs cfg
+     { inp with publicKeysBatchLength := 48 } canonicalInputs = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Free wei `65 ≠ 2 * 32` is not the depositor loop (`BeaconChainDepositor.sol:57`). -/
+ example : ¬ routerShapedAmount cfg { batchA with amount := 65 } := by
+@@ -90,16 +90,16 @@
+ /-- The constructor repairs skewed wei: it overwrites amounts with the
+     depositor-loop products. -/
+ example : derivedTwoBatchInputs cfg inp skewed = some canonicalInputs := by
+-  native_decide
++  decide +kernel
+ 
+ /-- `PUBLIC_KEY_LENGTH ≠ PUBKEY_LENGTH` fails BCD:43-45 even when aligned. -/
+ private def skewedLengths : SourceDepositConfig :=
+   { cfg with publicKeyLength := 32 }
+ 
+-example : derivedKeys skewedLengths 240 = none := by native_decide
++example : derivedKeys skewedLengths 240 = none := by decide +kernel
+ 
+ /-- Zero `PUBKEY_LENGTH` is a modulo-by-zero panic, not a key count. -/
+-example : derivedKeys { cfg with pubkeyLength := 0 } 240 = none := by native_decide
++example : derivedKeys { cfg with pubkeyLength := 0 } 240 = none := by decide +kernel
+ 
+ /-- Committed canonical run determines both fields. -/
+ example : run cfg inp = .committedDeposits 5 160 160 0 := by decide
+--- a/LidoSRv3/Tests/EthWorldMutants.lean
++++ b/LidoSRv3/Tests/EthWorldMutants.lean
+@@ -38,65 +38,65 @@
+ /-! ## Non-vacuity: all 11 authorized frames are present -/
+ 
+ theorem witness_has_authorized_frames :
+-    (authorizedFrames witnessFlows).length = 11 := by native_decide
++    (authorizedFrames witnessFlows).length = 11 := by decide +kernel
+ 
+ /-! ## Owner/treasury/ops mutant: non-trivial yet inventory-preserving -/
+ 
+ theorem witness_mutation_nontrivial :
+-    witnessFlows.map zeroUnmodeled ≠ witnessFlows := by native_decide
++    witnessFlows.map zeroUnmodeled ≠ witnessFlows := by decide +kernel
+ 
+ theorem witness_has_unmodeled_value :
+     (witnessFlows.filter fun g => match g with
+       | .ownerWithdrawal _ v | .treasuryMint v | .opsTransfer v => v > 0
+-      | _ => false).length = 3 := by native_decide
++      | _ => false).length = 3 := by decide +kernel
+ 
+ theorem witness_inventory_value :
+-    inventoryValue witnessFlows = 106 := by native_decide
++    inventoryValue witnessFlows = 106 := by decide +kernel
+ 
+ theorem witness_mutant_inventory_value :
+-    inventoryValue (witnessFlows.map zeroUnmodeled) = 106 := by native_decide
++    inventoryValue (witnessFlows.map zeroUnmodeled) = 106 := by decide +kernel
+ 
+ theorem witness_total_value :
+-    totalValue witnessFlows = 281 := by native_decide
++    totalValue witnessFlows = 281 := by decide +kernel
+ 
+ theorem witness_mutant_total_value :
+-    totalValue (witnessFlows.map zeroUnmodeled) = 106 := by native_decide
++    totalValue (witnessFlows.map zeroUnmodeled) = 106 := by decide +kernel
+ 
+ theorem witness_mutant_reduces_total :
+     totalValue (witnessFlows.map zeroUnmodeled) <
+-    totalValue witnessFlows := by native_decide
++    totalValue witnessFlows := by decide +kernel
+ 
+ /-! ## Primary-parent mutants: each primary covering parent is load-bearing -/
+ 
+ theorem parent_deposit_load_bearing :
+     inventoryValue (witnessFlows.map (zeroParentRoutes .pDepositOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ theorem parent_topup_load_bearing :
+     inventoryValue (witnessFlows.map (zeroParentRoutes .pTopupOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ theorem parent_consolidation_eth_load_bearing :
+     inventoryValue (witnessFlows.map (zeroParentRoutes .pConsolidationEthOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ theorem parent_consolidation_value_load_bearing :
+     inventoryValue (witnessFlows.map (zeroParentRoutes .pConsolidationValueOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ theorem parent_vault_eth_load_bearing :
+     inventoryValue (witnessFlows.map (zeroParentRoutes .pVaultEthOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ /-! ## Composition-parent mutants: each composition parent is load-bearing -/
+ 
+ theorem composition_eth_journal_load_bearing :
+     inventoryValue (witnessFlows.map (zeroCompositionParentRoutes .pEthJournalOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ theorem composition_consolidation_load_bearing :
+     inventoryValue (witnessFlows.map (zeroCompositionParentRoutes .pConsolidationOne)) <
+-    inventoryValue witnessFlows := by native_decide
++    inventoryValue witnessFlows := by decide +kernel
+ 
+ /-- The terminal fee route has both advertised composition parents. -/
+ theorem vault_consolidation_composition_parents :
+@@ -109,7 +109,7 @@
+     inventoryValue
+       ([.authorized ⟨.vaultConsolidationCall, 5⟩].map
+         (zeroCompositionParentRoutes .pEthJournalOne)) <
+-    inventoryValue [.authorized ⟨.vaultConsolidationCall, 5⟩] := by native_decide
++    inventoryValue [.authorized ⟨.vaultConsolidationCall, 5⟩] := by decide +kernel
+ 
+ /-! ## Uncovered routes -/
+ 
+@@ -130,7 +130,7 @@
+   exact ⟨rfl, rfl⟩
+ 
+ theorem ops_transfer_is_explicitly_unsupported :
+-    allUnsupportedRoutes.contains .opsTransfer = true := by native_decide
++    allUnsupportedRoutes.contains .opsTransfer = true := by decide +kernel
+ 
+ theorem covered_routes_have_primary_parent :
+     ∀ r : ValueRoute,
+--- a/LidoSRv3/Tests/HandleOracleReportTxMutants.lean
++++ b/LidoSRv3/Tests/HandleOracleReportTxMutants.lean
+@@ -24,17 +24,17 @@
+     runView valid 1 =
+       ⟨.committed, [10, 20], 30,
+         [.balancesWritten [10, 20], .accountingCalled,
+-          .rewardsRead [10, 20], .rewardsMinted]⟩ := by native_decide
++          .rewardsRead [10, 20], .rewardsMinted]⟩ := by decide +kernel
+ 
+ /-- Zero fee shares skip `reportRewardsMinted`, matching Accounting.sol:403-413. -/
+ example :
+     runView valid 0 =
+       ⟨.committed, [10, 20], 30,
+         [.balancesWritten [10, 20], .accountingCalled,
+-          .rewardsRead [10, 20]]⟩ := by native_decide
++          .rewardsRead [10, 20]]⟩ := by decide +kernel
+ 
+ /-- Overflow mutant: 19 × MAX_VALUE_GWEI overflows the uint64 total. -/
+-example : runView overflowInput 1 = ⟨.reverted, [], 0, []⟩ := by native_decide
++example : runView overflowInput 1 = ⟨.reverted, [], 0, []⟩ := by decide +kernel
+ 
+ /-- Bypass-guard mutant: skipping the registered-order check accepts a
+ report the real transaction rejects. -/
+@@ -58,7 +58,7 @@
+       observe swapped ((bypassOrderGuard swapped 1).run defaultState) =
+         ⟨.committed, [10, 20], 30,
+           [.balancesWritten [10, 20], .accountingCalled,
+-            .rewardsRead [10, 20], .rewardsMinted]⟩ := by native_decide
++            .rewardsRead [10, 20], .rewardsMinted]⟩ := by decide +kernel
+ 
+ /-- Overflow after prefix `writeArray` stores is rolled back by
+ `Contract.run` to the exact pre-call snapshot. -/
+@@ -71,7 +71,7 @@
+ example :
+     (match (handleOracleReport overflowInput 1) defaultState with
+      | .revert _ dirty => (dirty.readArray moduleBalancesSlot).headD 0 |>.val
+-     | .success _ _ => 0) = maxValueGwei := by native_decide
++     | .success _ _ => 0) = maxValueGwei := by decide +kernel
+ 
+ /-- Failure after every balance, total, and step-flag write is rolled back
+ by `Contract.run`, not merely hidden by the observation. -/
+@@ -96,14 +96,14 @@
+       observe second ((handleOracleReport second 1).run afterFirst) =
+         ⟨.committed, [15, 25], 40,
+           [.balancesWritten [15, 25], .accountingCalled,
+-            .rewardsRead [15, 25], .rewardsMinted]⟩ := by native_decide
++            .rewardsRead [15, 25], .rewardsMinted]⟩ := by decide +kernel
+ 
+ /-- Independence: the source view is not a projection of the transaction
+ body; a reordered-step mutant disagrees with both. -/
+ example :
+     sourceView valid 1 =
+       observe valid ((handleOracleReport valid 1).run defaultState) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Fees-conditional-removal mutant: unconditionally tagging rewards as
+ minted (dropping the `0 < sharesToMintAsFees` guard on `rewardsMintedSlot`)
+@@ -128,7 +128,7 @@
+ example :
+     observe valid ((mintUnconditionally valid).run defaultState) ≠
+       sourceView valid 0 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The honest transaction stamps the balance write at tick `1`, the read step
+ at clock tick `3`, and the mint step at tick `4`. None of these numbers appears at a write site: they are read
+@@ -139,7 +139,7 @@
+       | .revert _ s => s
+     dirty.readSlot balancesWrittenSlot = 1 ∧
+       dirty.readSlot rewardsReadSlot = 3 ∧ dirty.readSlot rewardsMintedSlot = 4 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Reordering mutant: the mint step runs strictly before the read step, the
+ same fault as calling `reportRewardsMinted` before re-reading the freshly
+@@ -156,7 +156,7 @@
+       | .success _ s => s
+       | .revert _ s => s
+     dirty.readSlot rewardsMintedSlot = 3 ∧ dirty.readSlot rewardsReadSlot = 4 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The reordering above is invisible to a presence-only check: the mutant's
+ step flags are all still nonzero. `storedSteps` is no longer such a check: it
+@@ -168,7 +168,7 @@
+       | .revert _ s => s
+     dirty.readSlot accountingCalledSlot ≠ 0 ∧ dirty.readSlot rewardsReadSlot ≠ 0 ∧
+       dirty.readSlot rewardsMintedSlot ≠ 0 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The concrete ticks above (mint `3`, read `4`) witness a mint-after-read
+ violation: `mintAfterRead` is a bare implication, not itself `Decidable`, so
+--- a/LidoSRv3/Tests/MinFirstAmountTxMutants.lean
++++ b/LidoSRv3/Tests/MinFirstAmountTxMutants.lean
+@@ -28,7 +28,7 @@
+ theorem reference_step :
+     observe ((MinFirstAllocationTx.allocateToBestCandidate 10 4).run state) =
+       ⟨.committed, 2, 4, 2, 8⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Mutant: the outer `Math256.min` against the headroom is dropped, so the
+ whole demand share is written. -/
+@@ -83,14 +83,14 @@
+     observe ((dropHeadroomMin 10 4).run state) ≠
+       observe ((MinFirstAllocationTx.allocateToBestCandidate 10 4).run state) ∧
+     row.capacity.val < (observe ((dropHeadroomMin 10 4).run state)).bucket.val := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Dropping the `- bestCandidateAllocation` also breaches capacity. -/
+ theorem dropAllocationSubtraction_is_detected :
+     observe ((dropAllocationSubtraction 10 4).run state) ≠
+       observe ((MinFirstAllocationTx.allocateToBestCandidate 10 4).run state) ∧
+     row.capacity.val < (observe ((dropAllocationSubtraction 10 4).run state)).bucket.val := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Dropping the remaining-demand decrement leaves `allocationSize` unchanged,
+ so the mutant makes no progress on the outer loop. -/
+@@ -98,7 +98,7 @@
+     observe ((dropRemainingUpdate 10 4).run state) ≠
+       observe ((MinFirstAllocationTx.allocateToBestCandidate 10 4).run state) ∧
+     (observe ((dropRemainingUpdate 10 4).run state)).remaining.val = 10 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Source-plane mutant of line 103: floor division instead of
+ `Math256.ceilDiv`. -/
+@@ -116,7 +116,7 @@
+ theorem floorShare_loses_progress :
+     (sourceShare tiedRows 1 ⟨0, 5⟩).val = 1 ∧
+       (floorShare tiedRows 1 ⟨0, 5⟩).val = 0 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The same divergence observed at the transaction plane: the honest share
+ commits one unit, the floor-division share commits nothing. -/
+@@ -127,6 +127,6 @@
+       observe ((MinFirstAllocationTx.allocateToBestCandidate
+         (floorShare tiedRows 1 ⟨0, 5⟩) 5).run
+       (stateFor ⟨0, 5⟩ 0 1 _root_.Verity.defaultState)) := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Tests.MinFirstAmountTxMutants
+--- a/LidoSRv3/Tests/MinFirstDistributionTxMutants.lean
++++ b/LidoSRv3/Tests/MinFirstDistributionTxMutants.lean
+@@ -22,25 +22,25 @@
+ not the floor mutant's two. -/
+ example :
+     runView (words [0, 0]) (words [100, 100]) 5 =
+-      ⟨.committed, words [3, 2], 5, 0⟩ := by native_decide
++      ⟨.committed, words [3, 2], 5, 0⟩ := by decide +kernel
+ 
+ example :
+     runView (words [0, 0]) (words [100, 100]) 5 ≠
+-      ⟨.committed, words [2, 3], 5, 0⟩ := by native_decide
++      ⟨.committed, words [2, 3], 5, 0⟩ := by decide +kernel
+ 
+ /-- The next-level upper bound prevents the least bucket jumping past ten. -/
+ example :
+     runView (words [0, 10]) (words [100, 100]) 20 =
+-      ⟨.committed, words [15, 15], 20, 0⟩ := by native_decide
++      ⟨.committed, words [15, 15], 20, 0⟩ := by decide +kernel
+ 
+ example :
+     runView (words [0, 10]) (words [100, 100]) 20 ≠
+-      ⟨.committed, words [20, 10], 20, 0⟩ := by native_decide
++      ⟨.committed, words [20, 10], 20, 0⟩ := by decide +kernel
+ 
+ /-- Amount inflation is rejected by both conservation observables. -/
+ example :
+     runView (words [0, 0]) (words [100, 100]) 5 ≠
+-      ⟨.committed, words [4, 2], 6, 0⟩ := by native_decide
++      ⟨.committed, words [4, 2], 6, 0⟩ := by decide +kernel
+ 
+ /-- A second batch starts from the first batch's buckets and preserves the
+ same min-first flow. -/
+@@ -48,7 +48,7 @@
+     let first := runView (words [0, 0]) (words [100, 100]) 5
+     first = ⟨.committed, words [3, 2], 5, 0⟩ ∧
+       runView first.buckets (words [100, 100]) 3 =
+-        ⟨.committed, words [4, 4], 3, 0⟩ := by native_decide
++        ⟨.committed, words [4, 4], 3, 0⟩ := by decide +kernel
+ 
+ /-- Failure after bucket and accumulator writes is rolled back by
+ `Contract.run`, not merely hidden by the observation. -/
+@@ -135,7 +135,7 @@
+     let best : Source.Row := ⟨w 0, w 3⟩
+     checkedAmountNoCapacityCap [best] (w 10) best = some (w 10) ∧
+       ¬ (best.allocation.val + (w 10 : Source.Word).val ≤ best.capacity.val) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Headroom-clamp kill-line against the registered parent
+ `PAlloc2.forall_proportional_step_correspondence_and_bounded`: the negation of
+@@ -243,6 +243,6 @@
+      checkedAmountNoCapacityCap [best] allocationSize best = some (w 10) ∧
+      ¬ (best.allocation.val + (w 10 : Source.Word).val ≤ best.capacity.val) ∧
+      Source.checkedAmount [best] allocationSize best = some (w 3)) := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Tests.MinFirstDistributionTxMutants
+--- a/LidoSRv3/Tests/ReserveUnfinalizedCallMutants.lean
++++ b/LidoSRv3/Tests/ReserveUnfinalizedCallMutants.lean
+@@ -31,33 +31,33 @@
+ 
+ /-- Happy path: STATICCALL `0xd0fb84e8`, value 0, 32-byte `50` matches the
+ cache (Lido.sol:612 / WithdrawalQueueBase.sol:143-146). -/
+-example : liveUnfinalizedStETH (okCall 50) = some (word 50) := by native_decide
++example : liveUnfinalizedStETH (okCall 50) = some (word 50) := by decide +kernel
+ 
+ example : freshQueueCacheFromCall cache50 (okCall 50) :=
+-  (success_fresh_iff cache50 (okCall 50) (word 50) (by native_decide)).mpr rfl
++  (success_fresh_iff cache50 (okCall 50) (word 50) (by decide +kernel)).mpr rfl
+ 
+ /-- Failed STATICCALL cannot witness freshness. -/
+-example : liveUnfinalizedStETH failCall = none := by native_decide
++example : liveUnfinalizedStETH failCall = none := by decide +kernel
+ 
+ example : ¬ freshQueueCacheFromCall cache50 failCall :=
+-  failed_call_not_fresh cache50 failCall (by native_decide)
++  failed_call_not_fresh cache50 failCall (by decide +kernel)
+ 
+ /-- Wrong selector is not `unfinalizedStETH()`. -/
+-example : liveUnfinalizedStETH wrongSelector = none := by native_decide
++example : liveUnfinalizedStETH wrongSelector = none := by decide +kernel
+ 
+ /-- Nonzero value is not a view STATICCALL. -/
+-example : liveUnfinalizedStETH payableCall = none := by native_decide
++example : liveUnfinalizedStETH payableCall = none := by decide +kernel
+ 
+ /-- Short returndata fails ABI uint256 decode. -/
+-example : liveUnfinalizedStETH shortCall = none := by native_decide
++example : liveUnfinalizedStETH shortCall = none := by decide +kernel
+ 
+ /-- Stale cache: live decode is 80, cached field is 50. -/
+-example : liveUnfinalizedStETH (okCall 80) = some (word 80) := by native_decide
++example : liveUnfinalizedStETH (okCall 80) = some (word 80) := by decide +kernel
+ 
+ example : ¬ freshQueueCacheFromCall cache50 (okCall 80) := by
+   intro hf
+   have h : freshQueueCache cache50 (word 80) :=
+-    (success_fresh_iff cache50 (okCall 80) (word 80) (by native_decide)).mp hf
++    (success_fresh_iff cache50 (okCall 80) (word 80) (by decide +kernel)).mp hf
+   simp [freshQueueCache, cache50, word] at h
+   exact absurd (congrArg Verity.Core.Uint256.val h) (by decide)
+ 
+--- a/LidoSRv3/Tests/SanityEnvelopeMutants.lean
++++ b/LidoSRv3/Tests/SanityEnvelopeMutants.lean
+@@ -53,15 +53,15 @@
+ 
+ /-- The annual guard rejects the witness. -/
+ theorem annualGuardRejectsWitness :
+-    annualBalanceIncreaseAccepts testLimits annualWitness = false := by native_decide
++    annualBalanceIncreaseAccepts testLimits annualWitness = false := by decide +kernel
+ 
+ /-- The remaining guards accept the witness. -/
+ theorem otherGuardsAcceptWitness :
+-    checkerNoAnnual testLimits annualWitness = true := by native_decide
++    checkerNoAnnual testLimits annualWitness = true := by decide +kernel
+ 
+ /-- The full checker rejects the witness. -/
+ theorem fullCheckerRejectsWitness :
+-    checkerAccepts testLimits annualWitness = false := by native_decide
++    checkerAccepts testLimits annualWitness = false := by decide +kernel
+ 
+ /-- The annual guard is load-bearing: the mutant accepts but the full checker
+ rejects. -/
+@@ -86,7 +86,7 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem positiveControl :
+-    checkerAccepts testLimits normalInput = true := by native_decide
++    checkerAccepts testLimits normalInput = true := by decide +kernel
+ 
+ /-! ### Regression: `timeElapsed` uint256 input domain
+ 
+@@ -107,11 +107,11 @@
+ 
+ theorem parentShapedTimeMutantAcceptsWitness :
+     checkerNoTimeElapsedBound unboundedTimeLimits unboundedTimeWitness = true := by
+-  native_decide
++  decide +kernel
+ 
+ theorem correctedCheckerRejectsUnboundedTime :
+     checkerAccepts unboundedTimeLimits unboundedTimeWitness = false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The source-domain correction is load-bearing at the full checker parent:
+ the otherwise identical parent-shaped mutant admits an unreachable input. -/
+@@ -147,12 +147,12 @@
+     simulatedShareRate := 0 }
+ 
+ theorem sourceDomainRejectsZeroEtherAndShares :
+-    simulatedShareRateAccepts testLimits zeroShareDomainWitness = false := by native_decide
++    simulatedShareRateAccepts testLimits zeroShareDomainWitness = false := by decide +kernel
+ 
+ /-- Dropping the source-domain guard admits the zero/zero input because Lean
+ `Nat` division returns zero. This makes the correction load-bearing. -/
+ theorem zeroDomainMutantAcceptsWitness :
+-    simulatedShareRateNoSourceDomainAccepts testLimits zeroShareDomainWitness = true := by native_decide
++    simulatedShareRateNoSourceDomainAccepts testLimits zeroShareDomainWitness = true := by decide +kernel
+ 
+ theorem zeroDomainGuardIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -181,10 +181,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem annualWithWithdrawalsRejectsWitness :
+-    annualBalanceIncreaseAccepts testLimits withdrawalWitness = false := by native_decide
++    annualBalanceIncreaseAccepts testLimits withdrawalWitness = false := by decide +kernel
+ 
+ theorem annualNoWithdrawalsAcceptsWitness :
+-    annualBalanceIncreaseNoWithdrawalsAccepts testLimits withdrawalWitness = true := by native_decide
++    annualBalanceIncreaseNoWithdrawalsAccepts testLimits withdrawalWitness = true := by decide +kernel
+ 
+ theorem withdrawalsCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -213,10 +213,10 @@
+     simulatedShareRate := 0 }
+ 
+ theorem correctedRejectsZeroComputedRate :
+-    simulatedShareRateAccepts testLimits zeroComputedRateWitness = false := by native_decide
++    simulatedShareRateAccepts testLimits zeroComputedRateWitness = false := by decide +kernel
+ 
+ theorem noZeroRateCheckAcceptsWitness :
+-    simulatedShareRateNoZeroRateCheckAccepts testLimits zeroComputedRateWitness = true := by native_decide
++    simulatedShareRateNoZeroRateCheckAccepts testLimits zeroComputedRateWitness = true := by decide +kernel
+ 
+ theorem zeroRateCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -246,10 +246,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsOverflow :
+-    simulatedShareRateAccepts testLimits overflowWitness = false := by native_decide
++    simulatedShareRateAccepts testLimits overflowWitness = false := by decide +kernel
+ 
+ theorem noOverflowCheckAcceptsWitness :
+-    simulatedShareRateNoOverflowCheckAccepts testLimits overflowWitness = true := by native_decide
++    simulatedShareRateNoOverflowCheckAccepts testLimits overflowWitness = true := by decide +kernel
+ 
+ theorem overflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -285,10 +285,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedAnnualRejectsOverflow :
+-    annualBalanceIncreaseAccepts annualOverflowLimits annualOverflowWitness = false := by native_decide
++    annualBalanceIncreaseAccepts annualOverflowLimits annualOverflowWitness = false := by decide +kernel
+ 
+ theorem annualNoOverflowCheckAcceptsWitness :
+-    annualBalanceIncreaseNoOverflowCheckAccepts annualOverflowLimits annualOverflowWitness = true := by native_decide
++    annualBalanceIncreaseNoOverflowCheckAccepts annualOverflowLimits annualOverflowWitness = true := by decide +kernel
+ 
+ theorem annualOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -324,10 +324,10 @@
+     simulatedShareRate := 0 }
+ 
+ theorem correctedRejectsDeviationOverflow :
+-    simulatedShareRateAccepts deviationOverflowLimits deviationOverflowWitness = false := by native_decide
++    simulatedShareRateAccepts deviationOverflowLimits deviationOverflowWitness = false := by decide +kernel
+ 
+ theorem noDeviationOverflowCheckAcceptsWitness :
+-    simulatedShareRateNoDeviationOverflowCheckAccepts deviationOverflowLimits deviationOverflowWitness = true := by native_decide
++    simulatedShareRateNoDeviationOverflowCheckAccepts deviationOverflowLimits deviationOverflowWitness = true := by decide +kernel
+ 
+ theorem deviationOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -356,10 +356,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsPreCLOverflow :
+-    annualBalanceIncreaseAccepts testLimits preCLOverflowWitness = false := by native_decide
++    annualBalanceIncreaseAccepts testLimits preCLOverflowWitness = false := by decide +kernel
+ 
+ theorem noPreCLOverflowCheckAcceptsWitness :
+-    annualBalanceIncreaseNoPreCLOverflowCheckAccepts testLimits preCLOverflowWitness = true := by native_decide
++    annualBalanceIncreaseNoPreCLOverflowCheckAccepts testLimits preCLOverflowWitness = true := by decide +kernel
+ 
+ theorem preCLOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -389,10 +389,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsPendingCapOverflow :
+-    pendingBalanceCapAccepts testLimits pendingCapOverflowWitness = false := by native_decide
++    pendingBalanceCapAccepts testLimits pendingCapOverflowWitness = false := by decide +kernel
+ 
+ theorem noPendingCapOverflowCheckAcceptsWitness :
+-    pendingBalanceCapNoOverflowCheckAccepts testLimits pendingCapOverflowWitness = true := by native_decide
++    pendingBalanceCapNoOverflowCheckAccepts testLimits pendingCapOverflowWitness = true := by decide +kernel
+ 
+ theorem pendingCapOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -422,10 +422,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsAprOverflow :
+-    validatorsBalanceIncreaseAccepts annualOverflowLimits aprOverflowWitness = false := by native_decide
++    validatorsBalanceIncreaseAccepts annualOverflowLimits aprOverflowWitness = false := by decide +kernel
+ 
+ theorem noAprOverflowCheckAcceptsWitness :
+-    validatorsBalanceIncreaseNoAprOverflowCheckAccepts annualOverflowLimits aprOverflowWitness = true := by native_decide
++    validatorsBalanceIncreaseNoAprOverflowCheckAccepts annualOverflowLimits aprOverflowWitness = true := by decide +kernel
+ 
+ theorem aprOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -455,10 +455,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsPostCLOverflow :
+-    annualBalanceIncreaseAccepts testLimits postCLOverflowWitness = false := by native_decide
++    annualBalanceIncreaseAccepts testLimits postCLOverflowWitness = false := by decide +kernel
+ 
+ theorem noPostCLOverflowCheckAcceptsWitness :
+-    annualBalanceIncreaseNoPostCLOverflowCheckAccepts testLimits postCLOverflowWitness = true := by native_decide
++    annualBalanceIncreaseNoPostCLOverflowCheckAccepts testLimits postCLOverflowWitness = true := by decide +kernel
+ 
+ theorem postCLOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+@@ -493,10 +493,10 @@
+     simulatedShareRate := SHARE_RATE_PRECISION_E27 }
+ 
+ theorem correctedRejectsProrationOverflow :
+-    activatedBalanceAccepts prorationOverflowLimits prorationOverflowWitness = false := by native_decide
++    activatedBalanceAccepts prorationOverflowLimits prorationOverflowWitness = false := by decide +kernel
+ 
+ theorem noProrationOverflowCheckAcceptsWitness :
+-    activatedBalanceNoProrationOverflowCheckAccepts prorationOverflowLimits prorationOverflowWitness = true := by native_decide
++    activatedBalanceNoProrationOverflowCheckAccepts prorationOverflowLimits prorationOverflowWitness = true := by decide +kernel
+ 
+ theorem prorationOverflowCorrectionIsLoadBearing :
+     ∃ (limits : SanityLimits) (s : SanityCheckInput),
+--- a/LidoSRv3/Tests/Topup2DistributionTxMutants.lean
++++ b/LidoSRv3/Tests/Topup2DistributionTxMutants.lean
+@@ -27,7 +27,7 @@
+     runView (words [32, 40]) (words [0, 0]) (words [6, 8])
+       (words [32, 24])
+       (word 64) (word 1) (word 10) (word 100) (word 100) =
+-      ⟨.committed, words [6, 4], word 0, word 10⟩ := by native_decide
++      ⟨.committed, words [6, 4], word 0, word 10⟩ := by decide +kernel
+ 
+ /-- Off-by-one allocation is rejected: the certified second share is 4, not
+ 5. -/
+@@ -35,21 +35,21 @@
+     runView (words [32, 40]) (words [0, 0]) (words [6, 8])
+       (words [32, 24])
+       (word 64) (word 1) (word 10) (word 100) (word 100) ≠
+-      ⟨.committed, words [6, 5], word 0, word 11⟩ := by native_decide
++      ⟨.committed, words [6, 5], word 0, word 11⟩ := by decide +kernel
+ 
+ /-- The decoded live per-key limit is load-bearing: a request above the
+ gateway-produced 32-gwei limit is capped at 32. -/
+ example :
+     runView (words [32]) (words [0]) (words [40]) (words [32])
+       (word 64) (word 1) (word 100) (word 100) (word 100) =
+-      ⟨.committed, words [32], word 68, word 32⟩ := by native_decide
++      ⟨.committed, words [32], word 68, word 32⟩ := by decide +kernel
+ 
+ /-- A supplied limit array that does not equal the gateway evaluation output
+ fails closed instead of silently using a hidden derived constant. -/
+ example :
+     runView (words [32]) (words [0]) (words [40]) (words [31])
+       (word 64) (word 1) (word 100) (word 100) (word 100) =
+-      ⟨.reverted, words [0], word 100, word 0⟩ := by native_decide
++      ⟨.reverted, words [0], word 100, word 0⟩ := by decide +kernel
+ 
+ /-- Two-batch chaining: the second top-up batch starts from the first
+ batch's remaining block cap and the first batch's pending balances. -/
+@@ -61,7 +61,7 @@
+       runView (words [32, 40]) first.allocations (words [6, 8])
+         (words [26, 20])
+         (word 64) (word 1) first.remaining (word 100) (word 100) =
+-        ⟨.committed, words [0, 0], word 0, word 0⟩ := by native_decide
++        ⟨.committed, words [0, 0], word 0, word 0⟩ := by decide +kernel
+ 
+ /-- A second batch with leftover cap continues the same left-to-right
+ share consumption against the updated pending snapshot. -/
+@@ -73,7 +73,7 @@
+       runView (words [32]) first.allocations (words [8])
+         (words [28])
+         (word 64) (word 1) first.remaining (word 100) (word 100) =
+-        ⟨.committed, words [6], word 0, word 6⟩ := by native_decide
++        ⟨.committed, words [6], word 0, word 6⟩ := by decide +kernel
+ 
+ /-- Overflow on checked uint256 addition of effective + pending reverts
+ instead of wrapping into a Nat gap. -/
+@@ -81,7 +81,7 @@
+     runView [word _root_.Verity.Core.MAX_UINT256] [word 1] [word 10]
+       [word 0]
+       (word 64) (word 1) (word 100) (word 100) (word 100) =
+-      ⟨.reverted, [word 0], word 100, word 0⟩ := by native_decide
++      ⟨.reverted, [word 0], word 100, word 0⟩ := by decide +kernel
+ 
+ /-- The total-Nat model would compute a value on the overflowing addition;
+ the faithful transaction refuses that wrap. -/
+@@ -89,7 +89,7 @@
+     runView [word _root_.Verity.Core.MAX_UINT256] [word 1] [word 10]
+       [word 0]
+       (word 64) (word 1) (word 100) (word 100) (word 100) ≠
+-      ⟨.committed, [word 0], word 100, word 0⟩ := by native_decide
++      ⟨.committed, [word 0], word 100, word 0⟩ := by decide +kernel
+ 
+ /-- Failure after allocation and budget writes is rolled back by
+ `Contract.run`, not merely hidden by the observation. -/
+--- a/LidoSRv3/Tests/Topup2Mutants.lean
++++ b/LidoSRv3/Tests/Topup2Mutants.lean
+@@ -15,20 +15,20 @@
+ the total-Nat model computes a value.  Hence these artifacts must not be used as
+ SOURCE/Verity correspondence without an explicit no-overflow premise. -/
+ example : evaluated_topup_limit
+-    (validator _root_.Verity.Core.MAX_UINT256 1) cfg = 0 := by native_decide
++    (validator _root_.Verity.Core.MAX_UINT256 1) cfg = 0 := by decide +kernel
+ 
+ /- Omitted-pending and wrong-threshold mutants disagree with pinned branches. -/
+-example : evaluated_topup_limit (validator 50 10) cfg = 4 := by native_decide
++example : evaluated_topup_limit (validator 50 10) cfg = 4 := by decide +kernel
+ example : (64 - (validator 50 10).effectiveBalanceGwei) ≠
+-    evaluated_topup_limit (validator 50 10) cfg := by native_decide
+-example : evaluated_topup_limit (validator 61 0) cfg = 0 := by native_decide
+-example : (64 - 61) ≠ evaluated_topup_limit (validator 61 0) cfg := by native_decide
++    evaluated_topup_limit (validator 50 10) cfg := by decide +kernel
++example : evaluated_topup_limit (validator 61 0) cfg = 0 := by decide +kernel
++example : (64 - 61) ≠ evaluated_topup_limit (validator 61 0) cfg := by decide +kernel
+ 
+ /- Exiting/slashed, target-reached, below-minimum, and accepted-gap branches. -/
+-example : evaluated_topup_limit { validator 1 0 with exiting := true } cfg = 0 := by native_decide
+-example : evaluated_topup_limit { validator 1 0 with slashed := true } cfg = 0 := by native_decide
+-example : evaluated_topup_limit (validator 64 0) cfg = 0 := by native_decide
+-example : evaluated_topup_limit (validator 60 0) cfg = 4 := by native_decide
++example : evaluated_topup_limit { validator 1 0 with exiting := true } cfg = 0 := by decide +kernel
++example : evaluated_topup_limit { validator 1 0 with slashed := true } cfg = 0 := by decide +kernel
++example : evaluated_topup_limit (validator 64 0) cfg = 0 := by decide +kernel
++example : evaluated_topup_limit (validator 60 0) cfg = 4 := by decide +kernel
+ 
+ /- The wrong offset is observable and a whole-word clobber destroys sentinels;
+ the generated masked write is separately proved by the `.run` reader theorems. -/
+--- a/LidoSRv3/Tests/TopupKeccakOracleMutants.lean
++++ b/LidoSRv3/Tests/TopupKeccakOracleMutants.lean
+@@ -34,22 +34,22 @@
+ theorem sample_readArray_effective :
+     readArray sampleState "effective" effectiveBase sampleEffective.length =
+       some sampleEffective := by
+-  native_decide
++  decide +kernel
+ 
+ theorem sample_readArray_pending :
+     readArray sampleState "pending" pendingBase samplePending.length =
+       some samplePending := by
+-  native_decide
++  decide +kernel
+ 
+ theorem sample_readArray_requested :
+     readArray sampleState "requested" requestedBase sampleRequested.length =
+       some sampleRequested := by
+-  native_decide
++  decide +kernel
+ 
+ theorem sample_readArray_limits :
+     readArray sampleState "topUpLimits" limitsBase sampleLimits.length =
+       some sampleLimits := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Two oracles that differ only on keccak agree on every parent decode. -/
+ theorem sample_readArray_independent_of_keccak :
+@@ -104,7 +104,7 @@
+     sampleTarget sampleMinTopUp sampleRemaining sampleModuleLimit sampleValue
+     sampleState sample_readArray_effective sample_readArray_pending
+     sample_readArray_requested sample_readArray_limits
+-    (by native_decide) (by native_decide)
++    (by decide +kernel) (by decide +kernel)
+ 
+ /-- Same conclusion through the oracle-quantified restatement, at the
+ nonzero keccak stub. -/
+@@ -129,7 +129,7 @@
+       sample_readArray_requested)
+     (by simpa [readArray_eq_readArrayWith nonzeroKeccakOracle] using
+       sample_readArray_limits)
+-    (by native_decide) (by native_decide)
++    (by decide +kernel) (by decide +kernel)
+ 
+ /-- Kill-line: the four `readArray` premises of
+ `verity_tx_simulates_topup2_spec` do not force two keccak hooks to agree.
+--- a/LidoSRv3/Tests/TrioConsolidation/Codec.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Codec.lean
+@@ -14,7 +14,7 @@
+   encode_decode_bytes (blob 1)
+ 
+ /-- Distinct identities produce distinct physical 48-byte blobs. -/
+-example : blob 1 ≠ blob 2 := by native_decide
++example : blob 1 ≠ blob 2 := by decide +kernel
+ 
+ /-- Wrapping `1+2^384` encodes to the same 48 bytes as `1`. -/
+ example : blob 1 = encode pubkeyLength (1 + pubkeyModulus) := wrap_encode_eq
+@@ -32,7 +32,7 @@
+     pubkeyOctets ⟨1 + pubkeyModulus, 48⟩ := by
+   rw [pubkeyOctets_none_unbounded ⟨1 + pubkeyModulus, 48⟩
+     (Nat.not_lt.mpr (Nat.le_add_left pubkeyModulus 1))]
+-  native_decide
++  decide +kernel
+ 
+ /-- Actual 48-byte representation of a reconstructed key is those bytes. -/
+ example : (pubkeyOctets (pubkeyOfBytes (blob 11))).map (List.map UInt8.ofNat) =
+@@ -62,16 +62,16 @@
+ example :
+     let tail : Bytes := List.replicate 47 1
+     encode pubkeyLength (decode tail) ≠ (1 : UInt8) :: tail :=
+-  leading_zero_mutant (List.replicate 47 1) (by native_decide) 1 (by decide)
++  leading_zero_mutant (List.replicate 47 1) (by decide +kernel) 1 (by decide)
+ 
+ /-- Endian mutant: reversing a 48-byte blob with distinct ends changes Nat. -/
+ example :
+     let raw : Bytes := encode pubkeyLength 1
+     decode raw ≠ decode raw.reverse :=
+-  endian_mutant (encode pubkeyLength 1) (ABI.encode_length _ _) (by native_decide)
++  endian_mutant (encode pubkeyLength 1) (ABI.encode_length _ _) (by decide +kernel)
+ 
+ /-- Distinct 48-octet blobs derive distinct Nats. -/
+ example : decode (blob 1) ≠ decode (blob 2) :=
+-  raw48_nat_injective (ABI.encode_length _ _) (ABI.encode_length _ _) (by native_decide)
++  raw48_nat_injective (ABI.encode_length _ _) (ABI.encode_length _ _) (by decide +kernel)
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Codec
+--- a/LidoSRv3/Tests/TrioConsolidation/Composition.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Composition.lean
+@@ -42,125 +42,125 @@
+ /-- The encoder output is the specification layout: heads `0x40` and
+ `0x160`, then the two 288-octet tails. -/
+ example : args = encode 32 0x40 ++ encode 32 0x160 ++
+-    specTail (blob 11) (blob 12) ++ specTail (blob 21) (blob 22) := by native_decide
++    specTail (blob 11) (blob 12) ++ specTail (blob 21) (blob 22) := by decide +kernel
+ 
+-example : args.length = 640 := by native_decide
+-example : (specTail (blob 11) (blob 12)).length = 288 := by native_decide
+-example : (abiBytesElement (blob 11)).length = 96 := by native_decide
++example : args.length = 640 := by decide +kernel
++example : (specTail (blob 11) (blob 12)).length = 288 := by decide +kernel
++example : (abiBytesElement (blob 11)).length = 96 := by decide +kernel
+ 
+ /-- Head offsets. -/
+-example : decode (args.take 32) = 64 := by native_decide
+-example : decode ((args.drop 32).take 32) = 352 := by native_decide
++example : decode (args.take 32) = 64 := by decide +kernel
++example : decode ((args.drop 32).take 32) = 352 := by decide +kernel
+ 
+ /-- First tail: count, per-element offsets, first element framing. -/
+-example : decode ((args.drop 64).take 32) = 2 := by native_decide
+-example : decode ((args.drop 96).take 32) = 64 := by native_decide
+-example : decode ((args.drop 128).take 32) = 160 := by native_decide
+-example : decode ((args.drop 160).take 32) = 48 := by native_decide
+-example : (args.drop 192).take 48 = blob 11 := by native_decide
+-example : (args.drop 240).take 16 = pad16 := by native_decide
+-example : decode ((args.drop 256).take 32) = 48 := by native_decide
+-example : (args.drop 288).take 48 = blob 12 := by native_decide
++example : decode ((args.drop 64).take 32) = 2 := by decide +kernel
++example : decode ((args.drop 96).take 32) = 64 := by decide +kernel
++example : decode ((args.drop 128).take 32) = 160 := by decide +kernel
++example : decode ((args.drop 160).take 32) = 48 := by decide +kernel
++example : (args.drop 192).take 48 = blob 11 := by decide +kernel
++example : (args.drop 240).take 16 = pad16 := by decide +kernel
++example : decode ((args.drop 256).take 32) = 48 := by decide +kernel
++example : (args.drop 288).take 48 = blob 12 := by decide +kernel
+ 
+ /-- Second tail starts at the second head offset with its count word. -/
+-example : decode ((args.drop 352).take 32) = 2 := by native_decide
+-example : (args.drop 480).take 48 = blob 21 := by native_decide
+-example : (args.drop 576).take 48 = blob 22 := by native_decide
++example : decode ((args.drop 352).take 32) = 2 := by decide +kernel
++example : (args.drop 480).take 48 = blob 21 := by decide +kernel
++example : (args.drop 576).take 48 = blob 22 := by decide +kernel
+ 
+ /-- The generic length theorem on the same vectors. -/
+ example : (gatewayVaultArgs (hopSources [(key 11, key 21), (key 12, key 22)])
+     (hopTargets [(key 11, key 21), (key 12, key 22)])).length = 64 + 2 * (32 + 128 * 2) := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ### Round trip -/
+ 
+-example : decodeVaultArgs args = some (sources, targets) := by native_decide
++example : decodeVaultArgs args = some (sources, targets) := by decide +kernel
+ 
+ /-- The round-trip theorem, instantiated on the same vectors. -/
+ example : decodeVaultArgs args = some (sources, targets) :=
+-  decodeVaultArgs_gatewayVaultArgs sources targets (by native_decide) (by native_decide)
+-    (by native_decide) (by native_decide)
++  decodeVaultArgs_gatewayVaultArgs sources targets (by decide +kernel) (by decide +kernel)
++    (by decide +kernel) (by decide +kernel)
+ 
+ /-- A single pair and an empty array frame and decode too. -/
+ example : decodeVaultArgs (gatewayVaultArgs [blob 11] [blob 21]) = some ([blob 11], [blob 21]) := by
+-  native_decide
+-example : (gatewayVaultArgs [blob 11] [blob 21]).length = 64 + 2 * 160 := by native_decide
+-example : decodeVaultArgs (gatewayVaultArgs [] []) = some ([], []) := by native_decide
++  decide +kernel
++example : (gatewayVaultArgs [blob 11] [blob 21]).length = 64 + 2 * 160 := by decide +kernel
++example : decodeVaultArgs (gatewayVaultArgs [] []) = some ([], []) := by decide +kernel
+ 
+ /-- A 33-octet element pads to 64 octets; a 32-octet element gets no padding. -/
+-example : (abiBytesElement (List.replicate 33 1)).length = 96 := by native_decide
+-example : (abiBytesElement (List.replicate 32 1)).length = 64 := by native_decide
++example : (abiBytesElement (List.replicate 33 1)).length = 96 := by decide +kernel
++example : (abiBytesElement (List.replicate 32 1)).length = 64 := by decide +kernel
+ example : decodeVaultArgs (gatewayVaultArgs [List.replicate 33 1] [List.replicate 32 2]) =
+-    some ([List.replicate 33 1], [List.replicate 32 2]) := by native_decide
++    some ([List.replicate 33 1], [List.replicate 32 2]) := by decide +kernel
+ 
+ /-! ### Refusals (what Solidity's calldata decoder refuses) -/
+ 
+ /-- Truncated heads. -/
+-example : decodeVaultArgs (args.take 63) = none := by native_decide
++example : decodeVaultArgs (args.take 63) = none := by decide +kernel
+ 
+ /-- Truncated inside the last element's payload. -/
+-example : decodeVaultArgs (args.take 620) = none := by native_decide
++example : decodeVaultArgs (args.take 620) = none := by decide +kernel
+ 
+ /-- Truncated inside the first tail (second head offset points past the end). -/
+-example : decodeVaultArgs (args.take 300) = none := by native_decide
++example : decodeVaultArgs (args.take 300) = none := by decide +kernel
+ 
+ /-- A head offset past the calldata. -/
+-example : decodeVaultArgs (encode 32 1000 ++ args.drop 32) = none := by native_decide
++example : decodeVaultArgs (encode 32 1000 ++ args.drop 32) = none := by decide +kernel
+ 
+ /-- An element offset past the array body. -/
+ example : decodeVaultArgs (args.take 128 ++ encode 32 1000 ++ args.drop 160) = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A count whose offset table does not fit the remaining calldata. -/
+ example : decodeVaultArgs (args.take 64 ++ encode 32 100 ++ args.drop 96) = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- An element length past the calldata. -/
+ example : decodeVaultArgs (args.take 544 ++ encode 32 100 ++ args.drop 576) = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ### Leniency (what Solidity's calldata decoder accepts) -/
+ 
+ /-- Padding octets are not inspected: the last 16 padding octets may be
+ absent (`addr + length + 32 ≤ calldatasize` still holds). -/
+-example : decodeVaultArgs (args.take 624) = some (sources, targets) := by native_decide
++example : decodeVaultArgs (args.take 624) = some (sources, targets) := by decide +kernel
+ 
+ /-- Swapped head offsets are followed, not rejected: the arrays come back
+ swapped. -/
+ example : decodeVaultArgs (encode 32 352 ++ encode 32 64 ++ args.drop 64) =
+-    some (targets, sources) := by native_decide
++    some (targets, sources) := by decide +kernel
+ 
+ /-- Element offsets are followed: a tail listing its elements in reverse
+ order decodes to the reversed array. -/
+ example : decodeVaultArgs (encode 32 64 ++ encode 32 352 ++
+     (encode 32 2 ++ encode 32 0xa0 ++ encode 32 0x40 ++
+       encode 32 48 ++ blob 12 ++ pad16 ++ encode 32 48 ++ blob 11 ++ pad16) ++
+-    specTail (blob 21) (blob 22)) = some ([blob 11, blob 12], targets) := by native_decide
++    specTail (blob 21) (blob 22)) = some ([blob 11, blob 12], targets) := by decide +kernel
+ 
+ /-- Unequal arrays still decode; the vault's `ArraysLengthMismatch` guard
+ (`WithdrawalVaultEIP7685.sol:62-63`) is downstream of the ABI hop. -/
+ example : decodeVaultArgs (gatewayVaultArgs sources [blob 21]) = some (sources, [blob 21]) := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ### Hop arrays from the committed gateway pairs -/
+ 
+ private def pairs : List (Pubkey × Pubkey) := [(key 11, key 21), (key 12, key 22)]
+ 
+ /-- The hop arrays are the producer blobs. -/
+-example : hopSources pairs = sources := by native_decide
+-example : hopTargets pairs = targets := by native_decide
++example : hopSources pairs = sources := by decide +kernel
++example : hopTargets pairs = targets := by decide +kernel
+ 
+ /-- Zipping them is the vault's pair list. -/
+ example : pairsOf (hopSources pairs) (hopTargets pairs) =
+-    [⟨blob 11, blob 21⟩, ⟨blob 12, blob 22⟩] := by native_decide
++    [⟨blob 11, blob 21⟩, ⟨blob 12, blob 22⟩] := by decide +kernel
+ 
+ /-- The vault's re-packed line-114 payloads are the gateway's packed payloads. -/
+ example : (pairsOf (hopSources pairs) (hopTargets pairs)).map vaultCallPayload =
+-    ((packedPayloads pairs).getD []).map (List.map UInt8.ofNat) := by native_decide
++    ((packedPayloads pairs).getD []).map (List.map UInt8.ofNat) := by decide +kernel
+ 
+ /-- The committed hop carried over the ABI decodes to the same arrays. -/
+ example : decodeVaultArgs (gatewayVaultArgs (hopSources pairs) (hopTargets pairs)) =
+-    some (hopSources pairs, hopTargets pairs) := by native_decide
++    some (hopSources pairs, hopTargets pairs) := by decide +kernel
+ 
+ /-! ### The vault entrypoint on the raw calldata -/
+ 
+@@ -202,36 +202,36 @@
+   | .ok _ => none
+   | .error f => some f
+ 
+-example : calldata.length = 4 + 640 := by native_decide
++example : calldata.length = 4 + 640 := by decide +kernel
+ 
+ /-- The calldata entry commits and is the same result as the array entry. -/
+-example : isOk viaCalldata = true := by native_decide
+-example : viaCalldata.attempts = viaArrays.attempts := by native_decide
++example : isOk viaCalldata = true := by decide +kernel
++example : viaCalldata.attempts = viaArrays.attempts := by decide +kernel
+ example : viaCalldata.world.logs.map (·.values) = viaArrays.world.logs.map (·.values) := by
+-  native_decide
+-example : viaCalldata.world.logs.length = 2 := by native_decide
+-example : viaCalldata.world.balances vault = 0 := by native_decide
+-example : viaCalldata.world.balances inbox = 14 := by native_decide
++  decide +kernel
++example : viaCalldata.world.logs.length = 2 := by decide +kernel
++example : viaCalldata.world.balances vault = 0 := by decide +kernel
++example : viaCalldata.world.balances inbox = 14 := by decide +kernel
+ 
+ /-- The attempted line-115 requests carry the gateway's packed payloads. -/
+ example : viaCalldata.attempts.map (·.request.payload) =
+-    ((packedPayloads pairs).getD []).map (List.map UInt8.ofNat) := by native_decide
++    ((packedPayloads pairs).getD []).map (List.map UInt8.ofNat) := by decide +kernel
+ 
+ /-- Wrong selector: dispatcher revert, no attempt, world untouched. -/
+ example : faultOf (executeVaultCalldata predeployBody predeployStaticBody ctx gateway inbox
+     (Live.word 14) selector ([0xde, 0xad, 0xbe, 0xee] ++ calldata.drop 4) (before 14)) =
+-    some (.reason "UnknownSelector") := by native_decide
++    some (.reason "UnknownSelector") := by decide +kernel
+ 
+ /-- Malformed calldata: ABI decoder revert before any hop, no attempt. -/
+ example : faultOf (executeVaultCalldata predeployBody predeployStaticBody ctx gateway inbox
+     (Live.word 14) selector (calldata.take 300) (before 14)) =
+-    some (.reason "AbiDecodingFailed") := by native_decide
++    some (.reason "AbiDecodingFailed") := by decide +kernel
+ example : (executeVaultCalldata predeployBody predeployStaticBody ctx gateway inbox
+-    (Live.word 14) selector (calldata.take 300) (before 14)).attempts = [] := by native_decide
++    (Live.word 14) selector (calldata.take 300) (before 14)).attempts = [] := by decide +kernel
+ 
+ /-- The composition theorem, instantiated. -/
+ example : viaCalldata = viaArrays :=
+   executeVaultCalldata_gateway predeployBody predeployStaticBody ctx gateway inbox (Live.word 14)
+-    selector pairs (before 14) (by native_decide) (by native_decide)
++    selector pairs (before 14) (by decide +kernel) (by decide +kernel)
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Composition
+--- a/LidoSRv3/Tests/TrioConsolidation/Gateway.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Gateway.lean
+@@ -20,75 +20,75 @@
+ 
+ /-- `abi.encodePacked` of two raw 48-byte keys is 96 octets. -/
+ example : (payload (key 11) (key 21)).length = 96 := by
+-  native_decide
++  decide +kernel
+ 
+ example : packedPayloads (preparePairs groups) =
+     some [ payload (key 11) (key 21)
+          , payload (key 12) (key 21)
+          , payload (key 13) (key 22) ] := by
+-  native_decide
++  decide +kernel
+ 
+ example : ((packedPayloads (preparePairs groups)).getD []).all
+     (fun p => p.length = 96) = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Source octets occupy the first 48 bytes of the packed payload. -/
+ example : (payload (key 11) (key 21)).take 48 =
+     (pubkeyOctets (key 11)).getD [] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Target octets occupy the last 48 bytes of the packed payload. -/
+ example : (payload (key 11) (key 21)).drop 48 =
+     (pubkeyOctets (key 21)).getD [] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Unrestricted `integerBE` wraps: identities `1` and `1+2^384` collide. -/
+ example : integerBE pubkeyLength 1 =
+     integerBE pubkeyLength (1 + pubkeyModulus) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The actual 48-byte representation refuses the wrapping identity. -/
+ example : pubkeyOctets (key 1) ≠ pubkeyOctets (wrapKey 1) := by
+-  native_decide
++  decide +kernel
+ 
+ example : pubkeyOctets (wrapKey 1) = none := by
+-  native_decide
++  decide +kernel
+ 
+ example : pubkeyOctets (key 1) =
+     some (integerBE pubkeyLength 1) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Distinct raw identities do not encode to the same 48 bytes. -/
+ example : pubkeyOctets (key 1) ≠ pubkeyOctets (key 2) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- A wrapping source is not a 48-byte callee payload. -/
+ example : encodePackedRequest (wrapKey 1) (key 21) = none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Gateway refuses wrapping identities rather than emitting a colliding
+ 48-byte callee payload. -/
+ example : gatewayAddConsolidationRequests (word 6)
+     [⟨[wrapKey 1], key 21⟩] (word 2) 9 8 true true =
+     .reverted .invalidPubkey := by
+-  native_decide
++  decide +kernel
+ 
+ example : gatewayAddConsolidationRequests (word 0) groups (word 2) 9 8 true true =
+     .reverted .zeroMsgValue := by
+-  native_decide
++  decide +kernel
+ 
+ example : gatewayAddConsolidationRequests (word 6) [] (word 2) 9 8 true true =
+     .reverted .emptyGroups := by
+-  native_decide
++  decide +kernel
+ 
+ example : gatewayAddConsolidationRequests (word 6) [⟨[], key 21⟩] (word 2) 9 8 true true =
+     .reverted (.emptyGroup 0) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- `msg.value < requestsCount * fee` reverts with the required totalFee. -/
+ example : gatewayAddConsolidationRequests (word 5) groups (word 2) 9 8 true true =
+     .reverted (.insufficientFee (word 6) (word 5)) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Exact fee: vault hop carries `totalFee`, no refund hop. -/
+ example : gatewayAddConsolidationRequests (word 6) groups (word 2) 9 8 true true =
+@@ -97,7 +97,7 @@
+         value := word 6
+         payloads := groupPayloads }
+       none := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Overpay: vault hop still `{value: totalFee}`; remainder refunds to recipient. -/
+ example : gatewayAddConsolidationRequests (word 10) groups (word 2) 9 8 true true =
+@@ -106,7 +106,7 @@
+         value := word 6
+         payloads := groupPayloads }
+       (some { recipient := 9, value := word 4 }) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- `refundRecipient == address(0)` remaps to `msg.sender`. -/
+ example : gatewayAddConsolidationRequests (word 10) groups (word 2) 0 8 true true =
+@@ -115,17 +115,17 @@
+         value := word 6
+         payloads := groupPayloads }
+       (some { recipient := 8, value := word 4 }) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Vault CALL failure reverts the whole entrypoint. -/
+ example : gatewayAddConsolidationRequests (word 10) groups (word 2) 9 8 false true =
+     .reverted .vaultReverted := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Refund CALL failure reverts after a positive remainder. -/
+ example : gatewayAddConsolidationRequests (word 10) groups (word 2) 9 8 true false =
+     .reverted .refundFailed := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Exact fee never issues a refund CALL, so `refundAccepts = false` is ignored. -/
+ example : gatewayAddConsolidationRequests (word 6) groups (word 2) 9 8 true false =
+@@ -134,6 +134,6 @@
+         value := word 6
+         payloads := groupPayloads }
+       none := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Gateway
+--- a/LidoSRv3/Tests/TrioConsolidation/LiveCall.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/LiveCall.lean
+@@ -82,90 +82,90 @@
+ 
+ /-! ### Committed batch -/
+ 
+-example : isOk committed = true := by native_decide
++example : isOk committed = true := by decide +kernel
+ 
+ /-- One line-115 request per zipped pair: callee `CONSOLIDATION_REQUEST`,
+ value `fee`, payload `source ++ target`. -/
+ example : committed.attempts.map (·.request) =
+     [⟨vault, inbox, fee, blob 11 ++ blob 21⟩, ⟨vault, inbox, fee, blob 12 ++ blob 22⟩] := by
+-  native_decide
++  decide +kernel
+ 
+-example : committed.attempts.map (·.accepted) = [true, true] := by native_decide
++example : committed.attempts.map (·.accepted) = [true, true] := by decide +kernel
+ 
+ /-- Exactly `msg.value = 2 * fee` moved from the vault to the inbox. -/
+-example : committed.world.balances vault = 0 := by native_decide
+-example : committed.world.balances inbox = 14 := by native_decide
++example : committed.world.balances vault = 0 := by decide +kernel
++example : committed.world.balances inbox = 14 := by decide +kernel
+ 
+ /-- Two inbox count writes survived. -/
+ example : (committed.world.core.readContractSlot inbox.val countSlot).val = 2 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Two `ConsolidationRequestAdded` events from the vault, in pair order,
+ retaining every request octet. -/
+ example : committed.world.logs.map (·.name) =
+-    ["ConsolidationRequestAdded", "ConsolidationRequestAdded"] := by native_decide
+-example : committed.world.logs.map (·.emitter) = [vault, vault] := by native_decide
++    ["ConsolidationRequestAdded", "ConsolidationRequestAdded"] := by decide +kernel
++example : committed.world.logs.map (·.emitter) = [vault, vault] := by decide +kernel
+ example : committed.world.logs.map (fun l => l.values.map (·.val)) =
+     [(blob 11 ++ blob 21).map UInt8.toNat, (blob 12 ++ blob 22).map UInt8.toNat] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The committed vault balance is the entry balance minus `msg.value`
+ (`preservesEthBalance`). -/
+-example : committed.world.balances vault = (before 14).balances vault - 14 := by native_decide
++example : committed.world.balances vault = (before 14).balances vault - 14 := by decide +kernel
+ 
+ /-! ### Rolled-back batches -/
+ 
+ private def rejectedAll : Result Unit :=
+   executeVault rejectingInbox feeStatic ctx gateway inbox (Live.word 14) sources targets (before 14)
+ 
+-example : rejectedAll.outcome = .error (.reason "RequestAdditionFailed") := by native_decide
+-example : rejectedAll.world.balances vault = 14 := by native_decide
+-example : rejectedAll.world.balances inbox = 0 := by native_decide
+-example : rejectedAll.world.logs.length = 0 := by native_decide
++example : rejectedAll.outcome = .error (.reason "RequestAdditionFailed") := by decide +kernel
++example : rejectedAll.world.balances vault = 14 := by decide +kernel
++example : rejectedAll.world.balances inbox = 0 := by decide +kernel
++example : rejectedAll.world.logs.length = 0 := by decide +kernel
+ /-- The failed hop is still observable with its request octets. -/
+ example : rejectedAll.attempts.map (fun a => (a.accepted, a.request.payload)) =
+-    [(false, blob 11 ++ blob 21)] := by native_decide
++    [(false, blob 11 ++ blob 21)] := by decide +kernel
+ 
+ /-- First hop accepted, second rejected: root rollback restores the first
+ hop's inbox write, event and value transfer together. -/
+ private def secondFails : Result Unit :=
+   executeVault onceInbox feeStatic ctx gateway inbox (Live.word 14) sources targets (before 14)
+ 
+-example : secondFails.outcome = .error (.reason "RequestAdditionFailed") := by native_decide
+-example : secondFails.attempts.map (·.accepted) = [true, false] := by native_decide
+-example : secondFails.world.balances vault = 14 := by native_decide
+-example : secondFails.world.balances inbox = 0 := by native_decide
++example : secondFails.outcome = .error (.reason "RequestAdditionFailed") := by decide +kernel
++example : secondFails.attempts.map (·.accepted) = [true, false] := by decide +kernel
++example : secondFails.world.balances vault = 14 := by decide +kernel
++example : secondFails.world.balances inbox = 0 := by decide +kernel
+ example : (secondFails.world.core.readContractSlot inbox.val countSlot).val = 0 := by
+-  native_decide
+-example : secondFails.world.logs.length = 0 := by native_decide
++  decide +kernel
++example : secondFails.world.logs.length = 0 := by decide +kernel
+ 
+ /-- Guards of lines 60-66 and `WithdrawalVault.sol:203-205`. -/
+ example : (executeVault acceptingInbox feeStatic ⟨vault, stranger⟩ gateway inbox (Live.word 14)
+     sources targets (before 14)).outcome = .error (.reason "NotConsolidationGateway") := by
+-  native_decide
++  decide +kernel
+ 
+ example : (executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 14)
+-    [] [] (before 14)).outcome = .error (.reason "ZeroArgument") := by native_decide
++    [] [] (before 14)).outcome = .error (.reason "ZeroArgument") := by decide +kernel
+ 
+ example : (executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 14)
+     sources [blob 21] (before 14)).outcome = .error (.reason "ArraysLengthMismatch") := by
+-  native_decide
++  decide +kernel
+ 
+ /-- `msg.value ≠ requestsCount * fee`: no hop is attempted. -/
+ example : (executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 13)
+-    sources targets (before 13)).outcome = .error (.reason "IncorrectFee") := by native_decide
++    sources targets (before 13)).outcome = .error (.reason "IncorrectFee") := by decide +kernel
+ example : (executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 13)
+-    sources targets (before 13)).attempts = [] := by native_decide
++    sources targets (before 13)).attempts = [] := by decide +kernel
+ 
+ /-! ### Fee STATICCALL ladder (lines 83-95) -/
+ 
+ /-- A failed `staticcall("")` is `FeeReadFailed`; no hop is attempted. -/
+ example : (executeVault acceptingInbox feeRejectedStatic ctx gateway inbox (Live.word 14)
+-    sources targets (before 14)).outcome = .error (.reason "FeeReadFailed") := by native_decide
++    sources targets (before 14)).outcome = .error (.reason "FeeReadFailed") := by decide +kernel
+ 
+ /-- 16-byte returndata is `FeeInvalidData`; no hop is attempted. -/
+ example : (executeVault acceptingInbox feeShortStatic ctx gateway inbox (Live.word 14)
+-    sources targets (before 14)).outcome = .error (.reason "FeeInvalidData") := by native_decide
++    sources targets (before 14)).outcome = .error (.reason "FeeInvalidData") := by decide +kernel
+ 
+ /-- A code-less target of the fee STATICCALL answers empty success, which the
+ caller-side 32-byte check rejects as `FeeInvalidData` (matching the source). -/
+@@ -174,7 +174,7 @@
+ 
+ example : (executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 14)
+     sources targets ⟨codelessCore, fun a => if a = vault then 14 else 0, []⟩).outcome =
+-      .error (.reason "FeeInvalidData") := by native_decide
++      .error (.reason "FeeInvalidData") := by decide +kernel
+ 
+ /-- A 47-octet target fails `_validatePublicKey` after the first hop; the
+ first hop is rolled back. -/
+@@ -182,9 +182,9 @@
+   executeVault acceptingInbox feeStatic ctx gateway inbox (Live.word 14)
+     sources [blob 21, List.replicate 47 1] (before 14)
+ 
+-example : shortTarget.outcome = .error (.reason "InvalidPublicKeyLength") := by native_decide
+-example : shortTarget.attempts.length = 1 := by native_decide
+-example : shortTarget.world.balances vault = 14 := by native_decide
++example : shortTarget.outcome = .error (.reason "InvalidPublicKeyLength") := by decide +kernel
++example : shortTarget.attempts.length = 1 := by decide +kernel
++example : shortTarget.world.balances vault = 14 := by decide +kernel
+ 
+ /-! ### Code-less (EOA) arms of the low-level CALL -/
+ 
+@@ -198,7 +198,7 @@
+           logs := (before 7).logs ++ [requestAddedEvent vault (blob 11 ++ blob 21)] },
+       [⟨⟨vault, stranger, fee, blob 11 ++ blob 21⟩, true, [], []⟩]⟩ :=
+   callAdd_no_code_accepted rejectingInbox ctx stranger { source := blob 11, target := blob 21 }
+-    fee (before 7) (by native_decide) (by native_decide)
++    fee (before 7) (by decide +kernel) (by decide +kernel)
+ 
+ /-! ### Refund hop (`ConsolidationGateway.sol:295-307`) -/
+ 
+@@ -212,22 +212,22 @@
+ private def refunded : Result Unit :=
+   refundFee recipientCallee gatewayCtx (Live.word 5) recipient gatewayWorld
+ 
+-example : isOk refunded = true := by native_decide
++example : isOk refunded = true := by decide +kernel
+ example : refunded.attempts.map (·.request) = [⟨gateway, recipient, Live.word 5, []⟩] := by
+-  native_decide
+-example : refunded.world.balances gateway = 0 := by native_decide
+-example : refunded.world.balances recipient = 5 := by native_decide
++  decide +kernel
++example : refunded.world.balances gateway = 0 := by decide +kernel
++example : refunded.world.balances recipient = 5 := by decide +kernel
+ 
+ /-- `address(0)` resolves to `msg.sender` (line 298-300). -/
+-example : (refundRequest gatewayCtx (Live.word 5) 0).target = stranger := by native_decide
++example : (refundRequest gatewayCtx (Live.word 5) 0).target = stranger := by decide +kernel
+ example : resolveRecipient 0 stranger.val = stranger.val := resolveRecipient_zero _
+ 
+ /-- Rejected refund: `FeeRefundFailed`, gateway balance restored. -/
+ private def refundRejected : Result Unit :=
+   refundFee rejectingInbox gatewayCtx (Live.word 5) recipient gatewayWorld
+ 
+-example : refundRejected.outcome = .error (.reason "FeeRefundFailed") := by native_decide
+-example : refundRejected.world.balances gateway = 5 := by native_decide
++example : refundRejected.outcome = .error (.reason "FeeRefundFailed") := by decide +kernel
++example : refundRejected.world.balances gateway = 5 := by decide +kernel
+ 
+ /-- Vault hop value plus refund value is `msg.value` (`checkFee_additive`). -/
+ example : (Live.word 14).val +
+@@ -241,7 +241,7 @@
+     ⟨.ok (), transfer gatewayWorld gateway stranger 5,
+       [⟨⟨gateway, stranger, Live.word 5, []⟩, true, [], []⟩]⟩ :=
+   refund_no_code_accepted rejectingInbox gatewayCtx stranger (Live.word 5) gatewayWorld
+-    (by native_decide) (by native_decide) (by native_decide)
++    (by decide +kernel) (by decide +kernel) (by decide +kernel)
+ 
+ /-- All ten Cancun precompile addresses bypass the empty-code shortcut;
+ its lower and upper neighbouring ordinary addresses still take it. -/
+--- a/LidoSRv3/Tests/TrioConsolidation/Predeploy.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Predeploy.lean
+@@ -61,53 +61,53 @@
+ /-- `_getFeeFromContract(CONSOLIDATION_REQUEST)` reads `7` through the
+ line-84 `staticcall("")` against the concrete predeploy body. -/
+ example : feeOf (getConsolidationRequestFee predeployStaticBody ctx inbox (before 14)) =
+-    some 7 := by native_decide
++    some 7 := by decide +kernel
+ 
+ /-! ### Committed batch, no frame premises -/
+ 
+-example : isOk committed = true := by native_decide
++example : isOk committed = true := by decide +kernel
+ 
+ /-- One line-115 request per zipped pair, at the read fee. -/
+ example : committed.attempts.map (·.request) =
+     [⟨vault, inbox, Live.word 7, blob 11 ++ blob 21⟩,
+      ⟨vault, inbox, Live.word 7, blob 12 ++ blob 22⟩] := by
+-  native_decide
++  decide +kernel
+ 
+-example : committed.attempts.map (·.accepted) = [true, true] := by native_decide
++example : committed.attempts.map (·.accepted) = [true, true] := by decide +kernel
+ 
+ /-- Exactly `msg.value = 2 * fee` moved from the vault to the predeploy. -/
+-example : committed.world.balances vault = 0 := by native_decide
+-example : committed.world.balances inbox = 14 := by native_decide
++example : committed.world.balances vault = 0 := by decide +kernel
++example : committed.world.balances inbox = 14 := by decide +kernel
+ 
+ /-- Two accepted requests counted. -/
+ example : (committed.world.core.readContractSlot inbox.val predeployCountSlot).val = 2 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Queue words retain all 96 octets of each request, in order. -/
+ example : (List.range 3).map
+       (fun i => committed.world.core.readContractSlot inbox.val (predeployQueueSlot + i)) =
+     (List.range 3).map (requestWord (blob 11 ++ blob 21)) := by
+-  native_decide
++  decide +kernel
+ 
+ example : (List.range 3).map
+       (fun i => committed.world.core.readContractSlot inbox.val (predeployQueueSlot + 3 + i)) =
+     (List.range 3).map (requestWord (blob 12 ++ blob 22)) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The fee slot is untouched by the body. -/
+ example : (committed.world.core.readContractSlot inbox.val predeployFeeSlot).val = 7 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The predeploy commits no logs: exactly the vault's two line-120 events. -/
+-example : committed.world.logs.map (·.emitter) = [vault, vault] := by native_decide
++example : committed.world.logs.map (·.emitter) = [vault, vault] := by decide +kernel
+ example : committed.world.logs.map (·.name) =
+-    ["ConsolidationRequestAdded", "ConsolidationRequestAdded"] := by native_decide
++    ["ConsolidationRequestAdded", "ConsolidationRequestAdded"] := by decide +kernel
+ 
+ /-! ### Guards against the read fee -/
+ 
+ /-- `msg.value ≠ requestsCount * fee` for the read fee: `IncorrectFee`, no hop. -/
+-example : (run 13).outcome = .error (.reason "IncorrectFee") := by native_decide
+-example : (run 13).attempts = [] := by native_decide
++example : (run 13).outcome = .error (.reason "IncorrectFee") := by decide +kernel
++example : (run 13).attempts = [] := by decide +kernel
+ 
+ /-- Code-less predeploy address: the low-level STATICCALL answers empty
+ success and the caller-side 32-byte check rejects it (`FeeInvalidData`). -/
+@@ -117,18 +117,18 @@
+ 
+ example : (executeVault predeployBody predeployStaticBody ctx gateway inbox (Live.word 14)
+     sources targets codelessWorld).outcome = .error (.reason "FeeInvalidData") := by
+-  native_decide
++  decide +kernel
+ 
+ /-! ### Body arms -/
+ 
+ /-- A 48-octet request (not 96) is rejected with empty data. -/
+ example : rejectedData (predeployBody ⟨vault, inbox, Live.word 7, blob 11⟩ (before 14)) =
+-    some [] := by native_decide
++    some [] := by decide +kernel
+ 
+ /-- Underpayment against the fee slot is rejected with empty data. -/
+ example : rejectedData
+     (predeployBody ⟨vault, inbox, Live.word 6, blob 11 ++ blob 21⟩ (before 14)) = some [] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The body reads the fee slot of the credited world it is handed: value `7`
+ against a slot holding `8` is underpayment and rejects. -/
+@@ -136,12 +136,12 @@
+   core.writeContractSlot inbox.val predeployFeeSlot (Live.word 8)
+ 
+ example : rejectedData (predeployBody ⟨vault, inbox, Live.word 7, blob 11 ++ blob 21⟩
+-    ⟨slot8Core, fun _ => 0, []⟩) = some [] := by native_decide
++    ⟨slot8Core, fun _ => 0, []⟩) = some [] := by decide +kernel
+ 
+ /-- Whole batch against a slot holding `8` with `msg.value = 14`: the fee read
+ returns `8`, `2 * 8 ≠ 14`, `IncorrectFee` before any hop. -/
+ example : (executeVault predeployBody predeployStaticBody ctx gateway inbox (Live.word 14)
+     sources targets ⟨slot8Core, fun a => if a = vault then 14 else 0, []⟩).outcome =
+-      .error (.reason "IncorrectFee") := by native_decide
++      .error (.reason "IncorrectFee") := by decide +kernel
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Predeploy
+--- a/LidoSRv3/Tests/TrioConsolidation/Producer.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Producer.lean
+@@ -24,7 +24,7 @@
+ /-- Flattening the byte producer is the gateway pair order. -/
+ example : preparePairBytes groups =
+     [⟨blob 11, blob 21⟩, ⟨blob 12, blob 21⟩, ⟨blob 13, blob 22⟩] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Derived Nats come from the producer blobs, not an independent choice. -/
+ example : preparePairs (groups.map toWitnessGroup) =
+@@ -46,7 +46,7 @@
+ 
+ /-- Length-47 source fails the vault width check. -/
+ example : ¬ widthOk { source := List.replicate 47 1, target := blob 21 } := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Packed vault payload is source++target (`WithdrawalVaultEIP7685.sol:114`). -/
+ example :
+@@ -63,6 +63,6 @@
+ /-- ByteArray framing is the same physical blob. -/
+ example :
+     ofByteArray (ByteArray.mk (blob 11).toArray) = blob 11 := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Producer
+--- a/LidoSRv3/Tests/TrioConsolidation/Spec.lean
++++ b/LidoSRv3/Tests/TrioConsolidation/Spec.lean
+@@ -68,26 +68,26 @@
+ /-- Actual 48-byte representation refuses the wrapping identity, so distinct
+ identities do not encode to the same 48 bytes. -/
+ example : pubkeyOctets (key 1) = some (integerBE pubkeyLength 1) := by
+-  native_decide
++  decide +kernel
+ 
+ example : pubkeyOctets (wrapKey 1) = none := by
+-  native_decide
++  decide +kernel
+ 
+ example : pubkeyOctets (key 1) ≠ pubkeyOctets (wrapKey 1) := by
+-  native_decide
++  decide +kernel
+ 
+ example : pubkeyOctets (key 1) ≠ pubkeyOctets (key 2) := by
+-  native_decide
++  decide +kernel
+ 
+ example : encodePackedRequest (key 11) (key 21) =
+     some (integerBE 48 11 ++ integerBE 48 21) := by
+-  native_decide
++  decide +kernel
+ 
+ example : (encodePackedRequest (key 11) (key 21)).map List.length = some 96 := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Length-47 keys have no 48-byte representation, even with a small identity. -/
+ example : pubkeyOctets (key 11 47) = none := by
+-  native_decide
++  decide +kernel
+ 
+ end LidoSRv3.Tests.TrioConsolidation.Spec

@@ -1,0 +1,18 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_RowsA_Gap179_Gap179Bn6_3.lean
+NT start RowsA.Gap179.Bn6.projections_ok._native.native_decide.ax_1_1
+NT nested RowsA.Gap179.Bn6.projections_ok._native.native_decide.ax_1_1 ms=71 rebuilt_defs=0 visited=2083
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=7 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_0 eval_ms=108956
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_1 blockers_ms=18 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_1 eval_ms=121074
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_2 blockers_ms=2 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_2 eval_ms=2830
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_3 blockers_ms=2 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_3 eval_ms=76811
+NT _ktr.F2_RowsA_Gap179_Gap179Bn6_3.RowsA.Gap179.Bn6.projections_ok._kernel.native_decide.ax_1_1.p_4 blockers_ms=3 bounded=false copy_ms=6 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 46068800
+rc=1 secs=470

@@ -1,0 +1,7 @@
+2026-10-26T00:53:55Z setup start leanprover/lean4:v4.35.0-rc3
+Command exited with non-zero status 1
+cache_get: 133.38 s wall 0.02 s user 0.01 s sys 105356 KB rc=1
+2026-10-26T01:01:06Z setup v2 start
+nobuild_check_Mathlib: 3.37 s wall 3.98 s user 1.02 s sys 1010108 KB rc=0
+build_QEC_QECComp: 104.73 s wall 243.35 s user 31.62 s sys 4295628 KB rc=0
+2026-10-26T01:02:54Z setup v2 end

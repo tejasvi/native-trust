@@ -1,0 +1,12 @@
+project	Chvatal-Sankoff v5 (cs31a), h = 13
+source	supp 10.5281/zenodo.23610946 (chvatal-sankoff-certificates-v5 @71645239a46b)
+toolchain	leanprover/lean4:v4.35.0-rc3
+library	not run
+native_facts	56 (h = 13, gamma2 <= 0.821963) + 7 (h = 12, gamma2 <= 0.822579)
+converted	not run
+nt_cpu_h	0
+nt_wall_min	0
+native_build_cpu_h	23802 for the 56 shares of h = 13 (plus the part modules, about 8 minutes per machine on 22 machines)
+hand_track	generated K9-K12: the weaker bounds of h <= 12 (h = 12: gamma2 <= 0.822579); h = 13 has none
+hand_build_cpu_h	K12 shard modules about 69,000 (59,513 measured + about 9,700 estimated); K11 about 8,800; K10 about 21,100; K9 shards about 1,900
+checks	none (see summary.md)

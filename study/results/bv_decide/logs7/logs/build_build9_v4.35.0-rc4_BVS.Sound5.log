@@ -1,0 +1,5 @@
+BVS/Sound5.lean:77:41: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+TIME wall=0.44 s user=0.58 s maxrss=725244 KB

@@ -1,0 +1,6 @@
+$ lean Comb_tvjw27.lean tc=v4.32.2 ntlib=/home/ntbuild/nt_fix7/v4.32.2/.lake/build/lib/lean start=2026-10-24T13:10:07Z
+PROVED `TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._native.native_decide.ax_1_2` as `_ktshard.TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._kernel.native_decide.ax_1_2`: kernel_ms=4179 native_axioms=1 rebuilt=0 copies=0 total_ms=4196 acc_fallback=0 pieces=5943
+maxrss_kb 4130288 secs 6.47
+rc=0 end=2026-10-24T13:10:14Z
+all-by-index length=5943 pieces=5943
+PROVED `TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._native.native_decide.ax_1_2` as `_ktshard.TrainVerify.Denote.GeneratedGoals.goal3_public_contract_joint_witness._kernel.native_decide.ax_1_2`: kernel_ms=4179 native_axioms=1 rebuilt=0 copies=0 total_ms=4196 acc_fallback=0 pieces=5943

@@ -1,0 +1,27 @@
+2026-10-26T00:57:41Z start unit=s13-base1-1792976261 MemoryMax=32G MemAvailable=735G
+✔ [66/88] Built S45Comp.Facts7 (230ms)
+✔ [67/88] Built S45Comp.Facts7:c.o (85ms)
+✔ [68/88] Built S45Comp.Facts7:dynlib (31ms)
+✔ [69/88] Built S45Comp.BFSCheck:c.o (463ms)
+✔ [70/88] Built S45Comp.BFSCheck:dynlib (29ms)
+✔ [71/88] Built S45Comp.FactsHints (217ms)
+✔ [72/88] Built S45Comp.Claims (202ms)
+✔ [73/88] Built S45Comp.Facts9 (283ms)
+✔ [74/88] Built S45Comp.FactsHints:c.o (85ms)
+✔ [75/88] Built S45Comp.Claims:c.o (115ms)
+✔ [76/88] Built S45Comp.Claims:dynlib (30ms)
+✔ [77/88] Built S45Comp.FactsHints:dynlib (30ms)
+✔ [78/88] Built S45Comp.Facts9:c.o (148ms)
+✔ [79/88] Built S45Comp.Facts9:dynlib (30ms)
+✔ [80/88] Built S45Comp.BFSChunk (182ms)
+✔ [81/88] Built S45Comp.BFSChunk:c.o (69ms)
+✔ [82/88] Built S45Comp.BFSChunk:dynlib (30ms)
+✔ [83/88] Built S45Comp.Stage2.Roots (254ms)
+✔ [84/88] Built S45Comp (195ms)
+✔ [85/88] Built S45Comp.Stage2.Roots:c.o (156ms)
+✔ [86/88] Built S45Comp.Stage2.Roots:dynlib (31ms)
+✔ [87/88] Built S45Comp.Stage2.Fast (284ms)
+Build completed successfully (88 jobs).
+maxrss_kb 1576096 secs 8.89 user 15.56 sys 3.74
+end 2026-10-26T00:57:50Z rc=0
+2026-10-26T00:57:50Z end unit=s13-base1-1792976261 rc=0

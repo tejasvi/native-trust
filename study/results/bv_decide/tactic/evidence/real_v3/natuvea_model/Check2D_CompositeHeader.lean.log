@@ -1,0 +1,1 @@
+CHECK2 RealD.CompositeHeader: 157 constants, 2 `_native` names; 98 theorems/definitions: 96 standard axioms only, 2 use this module's native axioms [Model.CompositeHeader.readBe16_be16, Model.CompositeHeader.readBe64_be64], 0 use only imported native axioms [], 0 other

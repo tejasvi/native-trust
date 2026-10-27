@@ -1,0 +1,34 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.31.0/bin/lean -j1 --tstack=1048576 F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.lean
+NT start Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10
+NT nested Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10 ms=6 rebuilt_defs=0 visited=280
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_0 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_0 eval_ms=122
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_1 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_1 eval_ms=154
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_2 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_2 eval_ms=165
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_3 blockers_ms=2 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_3 eval_ms=182
+NT _ktr.F2_examples_Ligero_Longfellow_OptimizedIOPCertificates_31.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._kernel.native_decide.ax_1_10.p_4 blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0
+FAILED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10`: kernelize: cannot prove the statement of `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10` in the kernel:
+    decide
+        (Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1.certificate.integratedLocalValidBool =
+          true) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) deep recursion detected
+  
+  No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+FAILED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10`: kernelize: cannot prove the statement of `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1_parameters._native.native_decide.ax_1_10` in the kernel:
+  decide
+      (Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Sig_v1.certificate.integratedLocalValidBool =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) deep recursion detected
+
+No constant without a kernel definition is reachable, so the kernel ran out of resources (time, recursion depth or memory) or met a construct it reduces too slowly. Try `kdecide (config := { maxHeartbeats := 0, maxRecDepth := … })`, or split the proposition.
+maxrss_kb 32001920
+rc=0 secs=189

@@ -1,0 +1,5 @@
+ih-light-tpupper	TPUpper.FinalK	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk001	TUCore.TUN.chunk_001._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	96467960	1838		nt_lines=15 last=blockers_ms=19 bounded=false copy_ms=86 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TUN.Chunk030	TUCore.TUN.chunk_030._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	96493292	867		nt_lines=15 last=blockers_ms=8 bounded=false copy_ms=30 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+ih-light-tpupper	TPUpper.FinalK	-			NOT_BUILT						
+ih-light-tpupper	TUN.Chunk004	TUCore.TUN.chunk_004._native.native_decide.ax_1_1	native_decide	False	TIMEOUT	3600s	0		3600		nt_lines=15 last=blockers_ms=17 bounded=false copy_ms=87 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

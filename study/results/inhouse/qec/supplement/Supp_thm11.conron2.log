@@ -1,0 +1,7 @@
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+memory allocation of 32 bytes failed
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Command terminated by signal 6
+con-ron: 346.41 s 273579432 KB
+rc=134
+cg_memory_peak 281934127104 cg_cpu_usec 5301273151 oom_kill 0

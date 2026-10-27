@@ -1,0 +1,7 @@
+orig native axioms: 41 native axioms in `NTV.Bv_smulo_elim`
+kf native axioms: 0 native axioms in `NTV.Bv_smulo_elim`
+orig: wall_med=4.71 cpu_med=10.59 rss_kb_max=2076168 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_off: wall_med=4.66 cpu_med=10.42 rss_kb_max=2087296 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+lint_on: wall_med=4.80 cpu_med=10.96 rss_kb_max=2078496 runs=3 rc=0 warnings=19 unnecessary=19 blocked=0 kf_fallback=0 errors=0
+lint_old: wall_med=4.81 cpu_med=11.02 rss_kb_max=2075544 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0
+kf: wall_med=4.76 cpu_med=10.81 rss_kb_max=2090188 runs=3 rc=0 warnings=0 unnecessary=0 blocked=0 kf_fallback=0 errors=0

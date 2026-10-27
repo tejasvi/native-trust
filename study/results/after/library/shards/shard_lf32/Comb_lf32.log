@@ -1,0 +1,6 @@
+$ lean Comb_lf32.lean tc=v4.31.0 ntlib=/home/ntbuild/nt_fix7/v4.31.0/.lake/build/lib/lean start=2026-10-24T07:54:11Z
+PROVED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._native.native_decide.ax_1_10` as `_ktshard.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._kernel.native_decide.ax_1_10`: kernel_ms=8 native_axioms=1 rebuilt=0 copies=0 total_ms=15 acc_fallback=0 pieces=32
+maxrss_kb 2886392 secs 1.98
+rc=0 end=2026-10-24T07:54:13Z
+.ax_1_10 structure all-by-index length=3231 pieces=32
+PROVED `Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._native.native_decide.ax_1_10` as `_ktshard.Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._kernel.native_decide.ax_1_10`: kernel_ms=8 native_axioms=1 rebuilt=0 copies=0 total_ms=15 acc_fallback=0 pieces=32

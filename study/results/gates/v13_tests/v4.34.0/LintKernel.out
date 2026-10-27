@@ -1,0 +1,30 @@
+LintKernel.lean:9:63: warning: native_decide is unnecessary here: decide +kernel proves it (4 ms)
+note: this check can be disabled with `set_option linter.nativeTrust.unnecessary false`
+Try this:
+  [apply] decide +kernel
+LintKernel.lean:12:63: warning: decide +native is unnecessary here: decide +kernel proves it (2 ms)
+note: this check can be disabled with `set_option linter.nativeTrust.unnecessary false`
+Try this:
+  [apply] decide +kernel
+LintKernel.lean:23:0: warning: native fact `lk_blocked._native.native_decide.ax_1_1` can never be checked by Lean's kernel: it reaches constants without a kernel definition
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+
+note: this linter can be disabled with `set_option linter.nativeTrust false`
+LintKernel.lean:32:18: warning: native_decide is unnecessary here: decide +kernel proves all 2 goals (2 ms)
+note: this check can be disabled with `set_option linter.nativeTrust.unnecessary false`
+Try this:
+  [apply] decide +kernel
+#native_decide_audit `LintKernel`: 9 native facts: 5 replaceable by `decide +kernel`, 2 need NativeTrust transformations, 1 blocked, 1 too expensive within the budget (2000 thousand heartbeats), 0 stuck
+REPLACEABLE `lk_sum._native.native_decide.ax_1_1` (native_decide): `decide +kernel` proves it (6 ms)
+REPLACEABLE `lk_sum2._native.decide.ax_1_1` (decide +native): `decide +kernel` proves it (3 ms)
+NATIVETRUST `lk_str._native.native_decide.ax_1_1` (native_decide): `String.Slice.foldl` has a registered @[kernel_replace] replacement; `kdecide`/`kernelize` prove it (8 ms)
+BLOCKED `lk_blocked._native.native_decide.ax_1_1` (native_decide): `System.Platform.getNumBits`
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via Std.HashMap.insert → Std.DHashMap.insert → Std.DHashMap.Internal.Raw₀.insert → USize.toNat → System.Platform.numBits → System.Platform.getNumBits
+EXPENSIVE `lk_budget._native.native_decide.ax_1_1` (native_decide): no blocker, but the kernel did not finish within 2000 thousand heartbeats (`set_option nativeTrust.kernelHeartbeats`; `kdecide (config := { split := n })`)
+REPLACEABLE `lk_two._native.native_decide.ax_1_1` (native_decide): `decide +kernel` proves it (1 ms)
+REPLACEABLE `lk_two._native.native_decide.ax_1_2` (native_decide): `decide +kernel` proves it (1 ms)
+NATIVETRUST `lk_wf._native.native_decide.ax_1_1` (native_decide): well-founded recursion via lexAck → lexAck._unary → WellFounded.fix; `kdecide`/`kernelize` prove it (2 ms)
+REPLACEABLE `lk_off._native.native_decide.ax_1_1` (native_decide): `decide +kernel` proves it (1 ms)
+rc=0

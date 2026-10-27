@@ -1,0 +1,1 @@
+CHECK RealD.ArithToLLVM: 36 constants, 3 `_native` names; 21 theorems: 18 standard axioms only, 3 with native axioms [Veir.Data.LLVM.Int.addui_extended_lowering, Veir.Data.LLVM.Int.floordivsi_lowering, Veir.Data.LLVM.Int.ceildivsi_lowering], 0 other []

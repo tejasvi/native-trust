@@ -1,0 +1,11 @@
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_workRatio._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1448928	1		nt_lines=4 last=eval_ms=1
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.quotientWork_256._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1381964	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.fullWork_1024._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1371932	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_is_q_square._native.native_decide.ax_1_2	native_decide	False	PROVED		0	1447492	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_strict_reduction._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1376744	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.formal_work_is_not_runtime._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1368964	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.dim_factorization._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1389292	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_is_q_square._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1449916	1		nt_lines=4 last=eval_ms=1
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_is_q_square._native.native_decide.ax_1_3	native_decide	False	PROVED		0	1406648	1		nt_lines=4 last=eval_ms=1
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.canonical_work_identity._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1406868	1		nt_lines=4 last=eval_ms=0
+s_batmeezy918_chronofold	Chronofold.AgdFecu	Chronofold.AGD.FECU.four_sq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1451420	1		nt_lines=4 last=eval_ms=0

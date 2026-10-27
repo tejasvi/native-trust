@@ -1,0 +1,80 @@
+CENSUS scanned=1093 with_data_casts=84 cast_proof_uses_propext_or_Quot.sound=30 cast_along_local_hypothesis=47 other=7
+PQ	SimpleGraph.fintypeEdgeSetBot
+PQ	AList.instDecidableEq
+PQ	QuotientGroup.leftRelDecidable
+PQ	SimpleGraph.instFintypeElemSym2EdgeSetEdge
+PQ	QuotientGroup.rightRelDecidable
+PQ	Set.fintypeImage2
+PQ	Finset.instFintypeSubtypeMemSubgroupInvMulSubgroup
+PQ	SimpleGraph.fintypeEdgeSetSup
+PQ	instFintypeElemImageCoeFinsetOfDecidableEqOfSingletonSet
+PQ	AddAction.instDecidablePredMemSetFixedByAddOfDecidableEq
+PQ	Thunk.instDecidableEq_mathlib
+PQ	Set.fintypeSeq
+PQ	ClassGroup.fintypeOfAdmissibleOfFinite
+PQ	QuotientAddGroup.leftRelDecidable
+PQ	Polynomial.fintypeSubtypeMonicDvd
+PQ	QuotientAddGroup.rightRelDecidable
+PQ	MulAction.instDecidablePredMemSetFixedByOfDecidableEq
+PQ	SimpleGraph.fintypeEdgeSetInf
+PQ	Set.fintypesUnion
+PQ	SimpleGraph.Walk.instDecidableIsPathOfDecidableEq
+PQ	Set.fintypeSubset
+PQ	Set.decidableMemNSMul
+PQ	Set.decidableMemPow
+PQ	FractionRing.instDecidableEq
+PQ	SimpleGraph.instDecidableRelAdjEdge
+PQ	Set.fintypeLENat
+PQ	SimpleGraph.fintypeEdgeSetSdiff
+PQ	Set.powersetCard.instFintypeElemFinset
+PQ	CategoryTheory.BiconeHom.decidableEq
+PQ	SimpleGraph.instFintypeElemSym2EdgeSetFromEdgeSetOfDecidableEq
+HYP	instDecidableEqTwoPointing.decEq	Ne
+HYP	instDecidableEqContextFreeRule.decEq	List
+HYP	instDecidableEqNum.decEq	PosNum
+HYP	PSigma.Lex.decidable	other
+HYP	SimpleGraph.instDecidableEqWalk.decEq._sunfold	SimpleGraph.Walk
+HYP	Turing.ToPartrec.instDecidableEqCode.decEq._sunfold	Turing.ToPartrec.Code
+HYP	instDecidableEqDyckWord.decEq	other
+HYP	instDecidableEqZNum.decEq	PosNum
+HYP	instDecidableEqCompositionAsSet.decEq	Membership.mem
+HYP	Turing.PartrecToTM2.instDecidableEqCont'.decEq._sunfold	Turing.PartrecToTM2.Cont'
+HYP	instDecidableEqFreeMagma.decEq._f	other
+HYP	instDecidableEqQuadraticAlgebra.decEq	other
+HYP	Turing.PartrecToTM2.instDecidableEqCont'.decEq._f	Turing.PartrecToTM2.Cont'
+HYP	CategoryTheory.instDecidableEqPairwise.decEq	other
+HYP	instDecidableEqONote.decEq._sunfold	ONote
+HYP	instDecidableEqFreeAddMagma.decEq._sunfold	other
+HYP	instDecidableEqBinaryTree.decEq._sunfold	BinaryTree
+HYP	instDecidableEqNzsNum.decEq._sunfold	Bool
+HYP	instDecidableEqOrderedFinpartition.decEq	other
+HYP	instDecidableEqNzsNum.decEq._f	Bool
+HYP	instDecidableEqQuaternionGroup.decEq	ZMod
+HYP	instDecidableEqLists'.decEq._f	other
+HYP	instDecidableEqComposition.decEq	Eq
+HYP	instDecidableEqFinpartition.decEq	Not
+HYP	instDecidableEqFreeAddMagma.decEq._f	other
+HYP	instDecidableEqBinaryTree.decEq._f	BinaryTree
+HYP	WeierstrassCurve.Affine.instDecidableEqPoint.decEq	WeierstrassCurve.Affine.Nonsingular
+HYP	instDecidableEqFreeMagma.decEq._sunfold	other
+HYP	WithTopology.instDecidableEq.decEq	other
+HYP	SimpleGraph.instDecidableEqDart.decEq	SimpleGraph.Adj
+HYP	Sigma.Lex.decidable	other
+HYP	Nat.instDecidableEqPartition.decEq	Eq
+HYP	instDecidableEqSemidirectProduct.decEq	other
+HYP	Turing.ToPartrec.instDecidableEqCode.decEq._f	Turing.ToPartrec.Code
+HYP	instDecidableEqLists'.decEq._sunfold	other
+HYP	instDecidableEqSymbol.decEq	other
+HYP	_private.Mathlib.Tactic.Linter.FlexibleLinter.0.Mathlib.Linter.Flexible.instDecidableEqStained.decEq	Lean.Name
+HYP	CategoryTheory.Limits.WalkingParallelFamily.instDecidableEqHom.decEq	other
+HYP	instDecidableEqDihedralGroup.decEq	ZMod
+HYP	Computability.instDecidableEqΓ'.decEq	Bool
+HYP	instDecidableEqSNum.decEq	Bool
+HYP	instDecidableEqONote.decEq._f	ONote
+HYP	instDecidableEqPosNum.decEq._f	PosNum
+HYP	SimpleGraph.instDecidableEqWalk.decEq._f	SimpleGraph.Walk
+HYP	CategoryTheory.instDecidableEqBicone.decEq	other
+HYP	instDecidableEqPosNum.decEq._sunfold	PosNum
+HYP	instDecidableEqZsqrtd.decEq	Int
+maxrss_kb 7128408 secs 3.90
+rc=0

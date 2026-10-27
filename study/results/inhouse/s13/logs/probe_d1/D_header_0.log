@@ -1,0 +1,9 @@
+$ lean D_header_0.lean start=2026-10-26T01:13:01Z timeout=900
+NT start Sortnet.S45Final.Main.header_info._native.native_decide.ax_1_1
+NT nested Sortnet.S45Final.Main.header_info._native.native_decide.ax_1_1 ms=44 rebuilt_defs=0 visited=1740
+NT copying Sortnet.S45Data.Main.chunk00
+
+Stack overflow detected. Aborting.
+Command terminated by signal 6
+maxrss_kb 7461060 secs 27.88
+rc=134 end=2026-10-26T01:13:29Z

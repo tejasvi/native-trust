@@ -1,0 +1,6 @@
+name=strata toolchain=v4.31.0 sampled=20 proved_again=20 failed=0 compile_rc=0 compile_s=250
+export_rc=0 export_lines=1543377 export_s=3
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 29.19 s 5974240 KB
+con-ron_rc=0 :: con-ron: accepted 12359 declarations (--verified) | con-ron: 23.96 s 8119144 KB
+checkers_s=53
+VERDICT nanoda=PASS(13868 decls) con-ron=PASS(12359 decls) kernel_theorems=20

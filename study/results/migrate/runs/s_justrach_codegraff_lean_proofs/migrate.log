@@ -1,0 +1,10 @@
+2026-10-24T00:19:06Z s_justrach_codegraff_lean_proofs: tc=v4.33.0 files=15 modules=15 built=11 plain=s_justrach_codegraff_lean_proofs study=s_justrach_codegraff_lean_proofs
+2026-10-24T00:19:07Z census before: 88 native axioms, 80 native-dependent declarations, modules=11, failed=[]
+2026-10-24T00:19:07Z plan: 235 occurrences; {"rewrite": 74, "keep: plain FAILED/blocked (WellFounded.extrinsicFix\u2083;_private.Init.Data.Iterators.Basic)": 5, "try": 137, "keep: module not built": 19}; unmatched axioms=0; affected modules=10
+2026-10-24T00:19:09Z time0: rc=0 wall=1.63 cpu=6.7 built=10 peak_lean=3 peak_rss_gb=0.5 sum=1.2 errors=0
+2026-10-24T00:22:10Z build round 0: rc=1 wall=181.67 errors=33 revert=33 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=6.7
+2026-10-24T00:25:08Z build round 1: rc=0 wall=178.06 errors=0 revert=0 bump=0 unattributed=0 peak_lean=3 peak_rss_gb=6.7
+2026-10-24T00:28:10Z time1: rc=0 wall=181.77 cpu=196.7 built=10 peak_lean=3 peak_rss_gb=6.7 sum=6.7 errors=0
+2026-10-24T00:28:10Z default build: rc=0 wall=0.13 built=0 errors=0
+2026-10-24T00:28:11Z summary {"uses": 235, "replaced": 178, "replaced_facts": 74, "native_axioms_before": 88, "native_axioms_after": 14, "axioms_after_as_expected": true, "native_dependent_decls_before": 80, "native_dependent_decls_after": 14, "rewritten_decls_still_native": 0, "build_ok": true}
+2026-10-24T02:02:20Z summary {"uses": 235, "replaced": 178, "replaced_facts": 74, "native_axioms_before": 88, "native_axioms_after": 14, "axioms_after_as_expected": true, "native_dependent_decls_before": 80, "native_dependent_decls_after": 14, "rewritten_decls_still_native": 0, "build_ok": true}

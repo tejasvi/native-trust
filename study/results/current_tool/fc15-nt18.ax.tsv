@@ -1,0 +1,18 @@
+fc15-nt18	FormalConjectures.Arxiv.2507.17780.4	-			NOT_BUILT						
+fc15-nt18	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_3	native_decide	True	PROVED		0	6938304	4		nt_lines=4 last=eval_ms=151
+fc15-nt18	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_1	native_decide	True	PROVED		0	6985776	4		nt_lines=4 last=eval_ms=293
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.greedySidon_two._native.decide.ax_1_1	decide	False	PROVED		3	6885448	3		nt_lines=30 last=eval_ms=32
+fc15-nt18	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.K4_residue._native.decide.ax_1_1	decide	False	PROVED		10	6887692	3		nt_lines=32 last=eval_ms=14
+fc15-nt18	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.house_residue._native.decide.ax_1_1	decide	False	PROVED		10	6894876	4		nt_lines=32 last=eval_ms=43
+fc15-nt18	FormalConjectures.OEIS.237271	_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_2._native.native_decide.ax_1_1	native_decide	False	PROVED		9	6880516	4		nt_lines=34 last=eval_ms=2
+fc15-nt18	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.Star5_residue._native.decide.ax_1_1	decide	False	PROVED		9	6865176	4		nt_lines=32 last=eval_ms=18
+fc15-nt18	FormalConjectures.OEIS.237271	_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_3._native.native_decide.ax_1_1	native_decide	False	PROVED		11	6858948	4		nt_lines=34 last=eval_ms=2
+fc15-nt18	FormalConjectures.OEIS.237271	_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_5._native.native_decide.ax_1_1	native_decide	False	PROVED		14	6860924	4		nt_lines=34 last=eval_ms=4
+fc15-nt18	FormalConjectures.OEIS.237271	_private.FormalConjectures.OEIS.«237271».0.OeisA237271.a_4._native.native_decide.ax_1_1	native_decide	False	PROVED		10	6883508	4		nt_lines=34 last=eval_ms=4
+fc15-nt18	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.petersen_residue._native.decide.ax_1_1	decide	False	PROVED		9	6972484	4		nt_lines=32 last=eval_ms=419
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.greedySidon_three._native.decide.ax_1_1	decide	False	PROVED		4	6900368	4		nt_lines=30 last=eval_ms=103
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.greedySidon_four._native.decide.ax_1_1	decide	False	PROVED		3	6944792	4		nt_lines=30 last=eval_ms=346
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.greedySidon_five._native.decide.ax_1_1	decide	False	PROVED		3	7102688	4		nt_lines=30 last=eval_ms=944
+fc15-nt18	FormalConjectures.WrittenOnTheWallII.Test	_private.FormalConjectures.WrittenOnTheWallII.Test.0.WrittenOnTheWallII.Test.C6_residue._native.decide.ax_1_1	decide	False	PROVED		9	6890128	4		nt_lines=32 last=eval_ms=24
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.greedySidon_ten._native.decide.ax_1_1	decide	False	PROVED		4	11997128	27		nt_lines=30 last=eval_ms=23469
+fc15-nt18	FormalConjectures.ErdosProblems.340	_private.FormalConjectures.ErdosProblems.«340».0.Erdos340.erdos_340.variants._22_mem_sub._native.decide.ax_1_1	decide	False	PROVED		3	34614476	150		nt_lines=30 last=eval_ms=146384

@@ -1,0 +1,6 @@
+floatlib	FloatLibTests.Conformance	-			NOT_BUILT						
+floatlib	FloatLibTests.Conformance.Formats.Configured	-			NOT_BUILT						
+floatlib	FloatLibTests.Conformance.Formats.Conversion	-			NOT_BUILT						
+floatlib	FloatLibTests.Conformance.Formats.LowBit	-			NOT_BUILT						
+floatlib	FloatLibTests.Conformance.P3109.Projection	-			NOT_BUILT						
+floatlib	FloatLibTests.Conformance.Posit.ExecutionBoundaries	-			NOT_BUILT						

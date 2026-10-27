@@ -1,0 +1,6 @@
+name=cedar-lean toolchain=v4.35.0 sampled=10 proved_again=10 failed=0 compile_rc=0 compile_s=1
+export_rc=0 export_lines=26633 export_s=1
+nanoda_rc=0 :: "Unable to print axioms", | ] | nanoda: 0.01 s 3916 KB
+con-ron_rc=0 :: con-ron: accepted 632 declarations (--verified) | con-ron: 0.06 s 127728 KB
+checkers_s=0
+VERDICT nanoda=PASS(719 decls) con-ron=PASS(632 decls) kernel_theorems=10

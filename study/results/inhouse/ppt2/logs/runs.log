@@ -1,0 +1,21 @@
+2026-10-26T01:17:19Z build core start
+2026-10-26T01:25:49Z build core rc=0 TIME wall=510.41 user=1750.30 sys=11.21 maxrss_kb=5013464
+2026-10-26T01:25:49Z build rows_a start
+2026-10-26T01:31:46Z build rows_a rc=0 TIME wall=356.79 user=979.34 sys=27.58 maxrss_kb=9347352
+2026-10-26T01:31:46Z pass1 core start
+2026-10-26T05:09:47Z v2 pass1 core rest start
+2026-10-26T07:25:13Z v2 pass1 core rest rc=0
+2026-10-26T07:25:13Z v2 pass1 rows_a sample120 start
+2026-10-26T07:37:17Z c-core build extra start
+2026-10-26T07:37:47Z c-rowsa build extra start
+2026-10-26T07:41:03Z c-core build extra rc=0 TIME wall=225.82 user=771.82 sys=12.94 maxrss_kb=8802104
+2026-10-26T07:41:03Z c-core pass1 start
+2026-10-26T08:15:44Z c-rowsa build extra rc=0 TIME wall=2277.07 user=13831.30 sys=91.42 maxrss_kb=8333092
+2026-10-26T08:15:44Z c-rowsa pass1 cited start
+2026-10-26T10:12:30Z c-core pass1 rc=0
+2026-10-26T10:12:30Z c-core heavy start (HEAVY_START cpu_ns=18945140800000)
+2026-10-26T11:21:54Z c-core heavy core rc=0
+2026-10-26T12:41:18Z c-core heavy rows_a rc=0
+2026-10-26T12:41:18Z c-core ALL DONE
+2026-10-26T14:37:34Z c-rowsa pass1 cited rc=0
+2026-10-26T14:37:34Z c-rowsa pass1 rest start

@@ -1,0 +1,2 @@
+bvs ex_shift #1: 1067 nodes, 3104 clauses, 1067 vars; 1030 steps, 23740 hints, 2 chunks; solve 21 ms, prep+defs 118 ms; kernel: base 1117 ms, chunks 3899 ms (max 2865 ms); total 5163 ms
+bvs: added ex_shift.bvs4 (51 ms to check the assembled theorem; axioms [propext, Classical.choice, Quot.sound])

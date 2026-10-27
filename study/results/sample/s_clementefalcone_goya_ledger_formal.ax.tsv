@@ -1,0 +1,10 @@
+s_clementefalcone_goya_ledger_formal	Formal.Lattice.Zq	GoyaFormal.instFactPrimeQ._native.native_decide.ax_1	native_decide	True	ERROR	memory		46190984	10		nt_lines=2 last=GoyaFormal.instFactPrimeQ._native.native_decide.ax_1 ms=52 rebuilt_defs=0 visited=1747
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	pqc_prevents_quarantine_singleton._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1570788	1		nt_lines=4 last=eval_ms=0
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	mldsa_not_in_classical_list._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1570696	1		nt_lines=4 last=eval_ms=0
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	ed25519_only_quarantined._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1495432	1		nt_lines=4 last=eval_ms=1
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	ed25519_in_classical_list._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1491860	1		nt_lines=4 last=eval_ms=0
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	empty_is_vacuously_quarantined._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1494944	1		nt_lines=4 last=eval_ms=0
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	rsa_quarantined._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1494576	1		nt_lines=4 last=eval_ms=0
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	pqc_prevents_quarantine_mixed._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1495912	1		nt_lines=4 last=eval_ms=1
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	slhdsa_not_in_classical_list._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1499964	1		nt_lines=4 last=eval_ms=1
+s_clementefalcone_goya_ledger_formal	Formal.QuarantineCorrectness	ed25519_pair_quarantined._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1572160	1		nt_lines=6 last=eval_ms=1

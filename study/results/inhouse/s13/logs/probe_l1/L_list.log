@@ -1,0 +1,20 @@
+$ lean L_list.lean start=2026-10-26T01:50:58Z timeout=300
+2 native axioms in `S45Final.Main.Header`
+AX	Sortnet.S45Final.Main.header_info._native.native_decide.ax_1_1	native_decide	false	0
+AX	Sortnet.S45Final.Main.final_ok._native.native_decide.ax_1_1	native_decide	false	1
+1 native axioms in `S45Final.Main.Bfs.D00C000`
+AX	Sortnet.S45Final.Main.Bfs.D00C000.bfs._native.native_decide.ax_1_1	native_decide	false	0
+1 native axioms in `S45Final.Main.Bfs.D24C000`
+AX	Sortnet.S45Final.Main.Bfs.D24C000.bfs._native.native_decide.ax_1_1	native_decide	false	0
+2 native axioms in `S45DataCt4.Slice`
+AX	Sortnet.S45.BFS.ct4_bfs_d12._native.native_decide.ax_1_1	native_decide	false	0
+AX	Sortnet.S45.BFS.ct4_bfs_d13._native.native_decide.ax_1_1	native_decide	false	1
+6 native axioms in `S13.S11.Small`
+AX	Sortnet.certOK_5._native.native_decide.ax_1_1	native_decide	false	0
+AX	Sortnet.certOK_6._native.native_decide.ax_1_1	native_decide	false	1
+AX	Sortnet.certOK_9._native.native_decide.ax_1_1	native_decide	false	2
+AX	Sortnet.certOK_7._native.native_decide.ax_1_1	native_decide	false	3
+AX	Sortnet.certOK_8._native.native_decide.ax_1_1	native_decide	false	4
+AX	Sortnet.certOK_10._native.native_decide.ax_1_1	native_decide	false	5
+maxrss_kb 2235724 secs 0.91
+rc=0 end=2026-10-26T01:50:59Z

@@ -1,0 +1,91 @@
+{
+ "name": "b200_batmeezy918_chronofold",
+ "pkg": "/home/ntbuild/repos_s/batmeezy918_chronofold",
+ "toolchain": "v4.29.0",
+ "uses": 11,
+ "replaced": 11,
+ "replaced_known": 11,
+ "replaced_unknown": 0,
+ "replaced_facts": 11,
+ "replaced_with_heartbeat_bump": 0,
+ "heartbeat_bumps": 0,
+ "remaining": {},
+ "native_axioms_before": 11,
+ "native_axioms_after": 0,
+ "bv_decide_axioms_before": 0,
+ "bv_decide_axioms_after": 0,
+ "axioms_after_as_expected": true,
+ "axioms_after_from_replaced": [],
+ "axioms_after_unmatched": [],
+ "kept_occurrences_fact_count_mismatch": [],
+ "native_dependent_decls_before": 11,
+ "native_dependent_decls_after": 0,
+ "rewritten_decls": 9,
+ "rewritten_decls_still_native": 0,
+ "still_native_why": {},
+ "build_ok": true,
+ "rounds": [
+  {
+   "round": 0,
+   "rc": 0,
+   "wall": 0.73,
+   "cpu": 0.7,
+   "n_errors": 0,
+   "reverted": 0,
+   "bumped": 0,
+   "unattributed": [],
+   "peak_lean": 1,
+   "peak_rss_gb": 0.5,
+   "rss_killed": false
+  }
+ ],
+ "time0": {
+  "wall": 0.63,
+  "cpu": 0.7,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "time1": {
+  "wall": 0.62,
+  "cpu": 0.7,
+  "n_built": 1,
+  "peak_lean": 1,
+  "rc": 0,
+  "peak_rss_gb": 0.5,
+  "peak_rss_sum_gb": 0.5
+ },
+ "default_build": {
+  "rc": 0,
+  "wall": 0.42,
+  "cpu": 0.3,
+  "n_built": 0,
+  "peak_lean": 0,
+  "peak_rss_gb": 0.0,
+  "peak_rss_sum_gb": 0.0,
+  "errors": []
+ },
+ "census_failed": {
+  "before": [],
+  "after": []
+ },
+ "census_complete": true,
+ "affected_modules": 1,
+ "replaced_modules": 1,
+ "unmatched_axioms": 0,
+ "fact_budget": 200,
+ "audit": {
+  "tags": {
+   "REPLACEABLE": 11
+  },
+  "failed_modules": []
+ },
+ "module_times_sum": [
+  0.3,
+  0.3
+ ],
+ "module_times_slower": [],
+ "module_times_faster": []
+}

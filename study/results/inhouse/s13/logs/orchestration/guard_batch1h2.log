@@ -1,0 +1,20 @@
+2026-10-26T01:21:02Z guard v2 pid 164201 cap 2.500 core-h margin 60 s base 0.0 core-s mode run
+2026-10-26T01:21:02Z metered 0.0 core-s = 0.000 core-h, live 1
+2026-10-26T01:22:03Z metered 118.2 core-s = 0.033 core-h, live 11
+2026-10-26T01:23:03Z metered 238.5 core-s = 0.066 core-h, live 11
+2026-10-26T01:24:03Z metered 358.7 core-s = 0.100 core-h, live 11
+2026-10-26T01:25:03Z metered 479.0 core-s = 0.133 core-h, live 11
+2026-10-26T01:26:03Z metered 599.2 core-s = 0.166 core-h, live 11
+2026-10-26T01:27:03Z metered 719.6 core-s = 0.200 core-h, live 11
+2026-10-26T01:28:03Z metered 839.9 core-s = 0.233 core-h, live 11
+2026-10-26T01:29:04Z metered 960.1 core-s = 0.267 core-h, live 11
+2026-10-26T01:30:04Z metered 1080.4 core-s = 0.300 core-h, live 11
+2026-10-26T01:31:04Z metered 1200.7 core-s = 0.334 core-h, live 11
+2026-10-26T01:32:04Z metered 1321.0 core-s = 0.367 core-h, live 11
+2026-10-26T01:33:04Z metered 1441.2 core-s = 0.400 core-h, live 11
+2026-10-26T01:34:04Z metered 1561.5 core-s = 0.434 core-h, live 11
+2026-10-26T01:35:04Z metered 1681.8 core-s = 0.467 core-h, live 11
+2026-10-26T01:36:05Z metered 1768.9 core-s = 0.491 core-h, live 6
+2026-10-26T01:37:05Z metered 1829.1 core-s = 0.508 core-h, live 6
+2026-10-26T01:37:35Z metered 1859.1 core-s = 0.516 core-h, live 0
+2026-10-26T01:37:35Z command exited 0: guard exits, total 0.516 core-h

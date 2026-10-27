@@ -1,0 +1,11 @@
+## summary.v4.34.0-rc2.tsv
+start (TO=60) 22:05:13
+dw_1750_ubs_dk_nomrd	TIME 0.51 s 539316 KB	rc=1
+a_2000_ubs_dk_nomrd	TIME 0.71 s 554148 KB	rc=1
+rep8_4000_ubs_dk_nomrd	TIME 1.08 s 620244 KB	rc=1
+a_8000_ubs_dk_nomrd	TIME 1.32 s 745788 KB	rc=1
+a_2000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+a_8000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+dw_1750_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+rep8_4000_ubs_dk_nomrd.v4.34.0-rc2.log	error: (kernel) deep recursion detected, use `set_option maxRecDept
+end 22:05:14

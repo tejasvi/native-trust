@@ -1,0 +1,50 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_Mt51aData_J_G6_C119_0.lean
+NT start Mt51aData.J.G6.C119.ok._native.native_decide.ax_1_1
+NT nested Mt51aData.J.G6.C119.ok._native.native_decide.ax_1_1 ms=193 rebuilt_defs=0 visited=3686
+NT copying Mt51aData.w4
+NT copy Mt51aData.w4 defn_ms=15 eq_ms=43 congr=true
+NT copying Mt51aData.w5
+NT copy Mt51aData.w5 defn_ms=32 eq_ms=95 congr=true
+NT copying Mt51aData.w6
+NT copy Mt51aData.w6 defn_ms=71 eq_ms=271 congr=true
+NT copying Mt51aData.w7
+NT copy Mt51aData.w7 defn_ms=202 eq_ms=676 congr=true
+NT copying Mt51aData.w8
+NT copy Mt51aData.w8 defn_ms=417 eq_ms=1631 congr=true
+NT copying Mt51aData.w9
+NT copy Mt51aData.w9 defn_ms=1015 eq_ms=3723 congr=true
+NT copying Mt51aData.w10
+NT copy-rejected Mt51aData.w10: (kernel) deep recursion detected, use `set_option maxRecDepth <num>` to increase the limit
+NT copying Mt51aData.wTabs
+NT copy Mt51aData.wTabs defn_ms=0 eq_ms=1 congr=true
+NT copying Mt51aRtab.gridStr
+NT copy Mt51aRtab.gridStr defn_ms=2 eq_ms=7 congr=true
+NT copying Mt51aRtab.grid
+NT copy Mt51aRtab.grid defn_ms=0 eq_ms=0 congr=true
+NT copying Mt51aRtab.nGStr0
+NT copy Mt51aRtab.nGStr0 defn_ms=5 eq_ms=14 congr=true
+NT copying Mt51aRtab.nGStr1
+NT copy Mt51aRtab.nGStr1 defn_ms=5 eq_ms=14 congr=true
+NT copying Mt51aRtab.nGStr2
+NT copy Mt51aRtab.nGStr2 defn_ms=5 eq_ms=14 congr=true
+NT copying Mt51aRtab.nGStr3
+NT copy Mt51aRtab.nGStr3 defn_ms=5 eq_ms=13 congr=true
+NT copying Mt51aRtab.nGStr4
+NT copy Mt51aRtab.nGStr4 defn_ms=6 eq_ms=13 congr=true
+NT copying Mt51aRtab.nGStr5
+NT copy Mt51aRtab.nGStr5 defn_ms=5 eq_ms=13 congr=true
+NT copying Mt51aRtab.nGStr6
+NT copy Mt51aRtab.nGStr6 defn_ms=5 eq_ms=14 congr=true
+NT copying Mt51aRtab.nGStr7
+NT copy Mt51aRtab.nGStr7 defn_ms=5 eq_ms=14 congr=true
+NT copying Mt51aRtab.nG
+NT copy Mt51aRtab.nG defn_ms=0 eq_ms=1 congr=true
+NT copying Mt51aData.J.G6.C119.s
+NT copy Mt51aData.J.G6.C119.s defn_ms=52 eq_ms=180 congr=true
+NT _ktr.F2_Mt51aData_J_G6_C119_0.Mt51aData.J.G6.C119.ok._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=26333 copies=19 copy_kernel_ms=8584 fast_lits=0 string_args=false
+NT _ktr.F2_Mt51aData_J_G6_C119_0.Mt51aData.J.G6.C119.ok._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_Mt51aData_J_G6_C119_0.Mt51aData.J.G6.C119.ok._kernel.native_decide.ax_1_1.p_0 blockers_ms=2 bounded=false copy_ms=5 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+INTERNAL PANIC: out of memory
+Command exited with non-zero status 1
+maxrss_kb 47266284
+rc=1 secs=137

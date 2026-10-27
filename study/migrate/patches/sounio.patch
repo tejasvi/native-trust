@@ -1,0 +1,499 @@
+--- a/ClaimStatusInterval.lean
++++ b/ClaimStatusInterval.lean
+@@ -256,36 +256,36 @@
+ -- ---------------------------------------------------------------------------
+ 
+ /-- Interval weakest link of [0.90, 0.98] and [0.85, 0.95] is [0.85, 0.95]. -/
+-theorem ex_wl : wl ⟨900, 980⟩ ⟨850, 950⟩ = ⟨850, 950⟩ := by native_decide
++theorem ex_wl : wl ⟨900, 980⟩ ⟨850, 950⟩ = ⟨850, 950⟩ := by decide +kernel
+ 
+ /-- Chain [0.90,0.98] → [0.85,0.95] → [0.88,0.96] keeps lo at 0.85. -/
+ theorem ex_chain :
+     chainIConf ⟨900, 980⟩ [⟨850, 950⟩, ⟨880, 960⟩] = ⟨850, 950⟩ := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The chain's lo clears the 0.85 high-confidence threshold. -/
+ theorem ex_chain_threshold :
+     850 ≤ (chainIConf ⟨900, 980⟩ [⟨850, 950⟩, ⟨880, 960⟩]).lo := by
+-  native_decide
++  decide +kernel
+ 
+ /-- DS fusion of assay [0.55, 0.65] and docking [0.50, 0.60]:
+     lo = dsNum 550 500 / 1000 = 775000/1000 = 0.775,
+     hi = dsNum 650 600 / 1000 = 860000/1000 = 0.860. -/
+-theorem ex_ds : ds ⟨550, 650⟩ ⟨500, 600⟩ = ⟨775, 860⟩ := by native_decide
++theorem ex_ds : ds ⟨550, 650⟩ ⟨500, 600⟩ = ⟨775, 860⟩ := by decide +kernel
+ 
+ /-- The fused interval contains the pointwise fusion of the midpoints:
+     dsNum 600 550 / 1000 = 820 ∈ [775, 860]. -/
+ theorem ex_ds_contains_midpoint :
+     (ds ⟨550, 650⟩ ⟨500, 600⟩).contains (dsNum 600 550 / 1000) := by
+   unfold IConf.contains
+-  native_decide
++  decide +kernel
+ 
+ /-- The fused lo (0.775) clears the best source lo (0.55) — and even the
+     0.70 threshold that no single source lo meets. -/
+ theorem ex_ds_lifts :
+     max 550 500 ≤ (ds ⟨550, 650⟩ ⟨500, 600⟩).lo ∧
+     700 ≤ (ds ⟨550, 650⟩ ⟨500, 600⟩).lo := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Validity of all concrete intervals involved. -/
+ theorem ex_valid :
+@@ -293,6 +293,6 @@
+     IConf.valid ⟨880, 960⟩ ∧ IConf.valid ⟨550, 650⟩ ∧
+     IConf.valid ⟨500, 600⟩ ∧ IConf.valid (ds ⟨550, 650⟩ ⟨500, 600⟩) := by
+   unfold IConf.valid
+-  native_decide
++  decide +kernel
+ 
+ end Sounio.ClaimStatusInterval
+--- a/FanoLabellingOrbits.lean
++++ b/FanoLabellingOrbits.lean
+@@ -89,10 +89,10 @@
+ def fanoAuts : List (List Nat) := allPerms7.filter isFanoAut
+ 
+ /-- **|Aut(Fano)| = 168.** -/
+-theorem fano_automorphism_group_card : fanoAuts.length = 168 := by native_decide
++theorem fano_automorphism_group_card : fanoAuts.length = 168 := by decide +kernel
+ 
+ /-- **|S₇| = 5040.** -/
+-theorem s7_card : allPerms7.length = 5040 := by native_decide
++theorem s7_card : allPerms7.length = 5040 := by decide +kernel
+ 
+ /-- Compose two length-7 1-indexed permutations: `(σ ∘ τ)(i) = σ(τ(i))`. -/
+ def composePerm (σ τ : List Nat) : List Nat :=
+--- a/OntologyAlignmentRepair.lean
++++ b/OntologyAlignmentRepair.lean
+@@ -311,7 +311,7 @@
+     prototype: m2 (id 2), m4 (id 4), m0 (id 0). -/
+ theorem ex_repair :
+     repair exConflicts [] exCandidates = [0, 4, 2] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The conflict oracle is symmetric. -/
+ theorem exConflicts_sym : ∀ a b : Fin 5, exConflicts a b = exConflicts b a := by
+@@ -337,7 +337,7 @@
+     ∃ k : Fin 5, k ∈ repair exConflicts [] exCandidates ∧
+       exConflicts 1 k = true := by
+   rw [ex_repair]
+-  exact ⟨0, by decide, by native_decide⟩
++  exact ⟨0, by decide, by decide +kernel⟩
+ 
+ /-- Instance of the witness theorem: the dropped mapping 3 conflicts with
+     the retained mapping 2. -/
+@@ -345,6 +345,6 @@
+     ∃ k : Fin 5, k ∈ repair exConflicts [] exCandidates ∧
+       exConflicts 3 k = true := by
+   rw [ex_repair]
+-  exact ⟨2, by decide, by native_decide⟩
++  exact ⟨2, by decide, by decide +kernel⟩
+ 
+ end Sounio.OntologyAlignmentRepair
+--- a/OntologyClaimStatus.lean
++++ b/OntologyClaimStatus.lean
+@@ -160,10 +160,10 @@
+ theorem ex_weakest : weakestLink 950 900 = 900 := rfl
+ 
+ /-- Chain {0.95, 0.90, 0.88} bottoms out at 0.88. -/
+-theorem ex_chain : chainConf 950 [900, 880] = 880 := by native_decide
++theorem ex_chain : chainConf 950 [900, 880] = 880 := by decide +kernel
+ 
+ /-- DS(0.60, 0.55) = 0.82 exactly (scaled). -/
+-theorem ex_ds : dsNum 600 550 = 820000 := by native_decide
++theorem ex_ds : dsNum 600 550 = 820000 := by decide +kernel
+ 
+ /-- The fused claim clears the 0.80 high-status threshold even though each
+     single source is below it. -/
+--- a/OntologyELClosureVerified.lean
++++ b/OntologyELClosureVerified.lean
+@@ -657,7 +657,7 @@
+ section BiomedVerified
+ 
+ /-- Lymphokine ⊑* Molecule is computed (boolean side). -/
+-theorem cv_subB_0_2 : subB biomedTBox 0 2 = true := by native_decide
++theorem cv_subB_0_2 : subB biomedTBox 0 2 = true := by decide +kernel
+ 
+ /-- The same fact, now *derived* through the verified soundness direction —
+     the boolean computation and the two-hop `SubDer` derivation of
+@@ -666,11 +666,11 @@
+ 
+ /-- TherapeuticFusionProtein ⊑* Molecule, via the boolean side. -/
+ theorem cv_subder_7_2 : SubDer biomedTBox 7 2 :=
+-  subB_sound (by native_decide)
++  subB_sound (by decide +kernel)
+ 
+ /-- Organ ⊑* SkeletalMuscleOnly is NOT computed, and (by the contrapositive
+     of completeness) NOT derivable either: disjointness is not subsumption. -/
+-theorem cv_subB_5_6_false : subB biomedTBox 5 6 = false := by native_decide
++theorem cv_subB_5_6_false : subB biomedTBox 5 6 = false := by decide +kernel
+ 
+ theorem cv_no_sub_5_6 : ¬ SubDer biomedTBox 5 6 := by
+   intro h
+@@ -679,7 +679,7 @@
+   exact Bool.noConfusion h1
+ 
+ /-- The fusion protein vs lymphokine conflict is computed... -/
+-theorem cv_conflictB_7_0 : conflictB biomedTBox 7 0 = true := by native_decide
++theorem cv_conflictB_7_0 : conflictB biomedTBox 7 0 = true := by decide +kernel
+ 
+ /-- ...and is a genuine semantic conflict, re-derived through
+     `conflictB_sound` rather than the constructor-built witness of §7. -/
+@@ -688,10 +688,10 @@
+ 
+ /-- The incoherent fusion protein self-conflicts, boolean side. -/
+ theorem cv_derived_7_7 : DerivedConflict biomedTBox 7 7 :=
+-  conflictB_sound (by native_decide)
++  conflictB_sound (by decide +kernel)
+ 
+ /-- Lymphokine vs Heart: no conflict, on either side. -/
+-theorem cv_conflictB_0_4 : conflictB biomedTBox 0 4 = false := by native_decide
++theorem cv_conflictB_0_4 : conflictB biomedTBox 0 4 = false := by decide +kernel
+ 
+ theorem cv_no_conflict_0_4 : ¬ DerivedConflict biomedTBox 0 4 := by
+   intro h
+@@ -701,7 +701,7 @@
+ 
+ /-- Symmetry through the boolean oracle, matching `check_conflictB_0_7`. -/
+ theorem cv_derived_0_7 : DerivedConflict biomedTBox 0 7 :=
+-  conflictB_sound (by native_decide)
++  conflictB_sound (by decide +kernel)
+ 
+ end BiomedVerified
+ 
+--- a/OntologyELPlus.lean
++++ b/OntologyELPlus.lean
+@@ -559,29 +559,29 @@
+     [ .sub 4 0, .sub 0 1, .sub 2 3, .disj 1 5, .sub 7 1, .sub 7 5, .sub 6 0 ] := rfl
+ 
+ /-- Boolean closure: Pneumonia ⊑* Disorder is computed. -/
+-theorem check_subBP_4_1 : subBP snomedTBox 4 1 = true := by native_decide
++theorem check_subBP_4_1 : subBP snomedTBox 4 1 = true := by decide +kernel
+ 
+ /-- Boolean closure: DrugInducedDisorder ⊑* Drug is computed. -/
+-theorem check_subBP_7_5 : subBP snomedTBox 7 5 = true := by native_decide
++theorem check_subBP_7_5 : subBP snomedTBox 7 5 = true := by decide +kernel
+ 
+ /-- Boolean closure: InflammatoryLesion ⊑* Disorder (two hops). -/
+-theorem check_subBP_6_1 : subBP snomedTBox 6 1 = true := by native_decide
++theorem check_subBP_6_1 : subBP snomedTBox 6 1 = true := by decide +kernel
+ 
+ /-- Boolean closure: Organ is NOT subsumed by Disorder — the ∃DirectSite
+     axiom and the role inclusion contribute nothing to the atomic shadow. -/
+-theorem check_subBP_3_1 : subBP snomedTBox 3 1 = false := by native_decide
++theorem check_subBP_3_1 : subBP snomedTBox 3 1 = false := by decide +kernel
+ 
+ /-- Boolean oracle: the incoherent drug-induced disorder self-conflicts. -/
+-theorem check_conflictBP_7_7 : conflictBP snomedTBox 7 7 = true := by native_decide
++theorem check_conflictBP_7_7 : conflictBP snomedTBox 7 7 = true := by decide +kernel
+ 
+ /-- Boolean oracle: pneumonia vs drug conflict is computed. -/
+-theorem check_conflictBP_4_5 : conflictBP snomedTBox 4 5 = true := by native_decide
++theorem check_conflictBP_4_5 : conflictBP snomedTBox 4 5 = true := by decide +kernel
+ 
+ /-- Boolean oracle: symmetry spot-check. -/
+-theorem check_conflictBP_5_4 : conflictBP snomedTBox 5 4 = true := by native_decide
++theorem check_conflictBP_5_4 : conflictBP snomedTBox 5 4 = true := by decide +kernel
+ 
+ /-- Boolean oracle: Lung and Drug do not conflict. -/
+-theorem check_conflictBP_2_5 : conflictBP snomedTBox 2 5 = false := by native_decide
++theorem check_conflictBP_2_5 : conflictBP snomedTBox 2 5 = false := by decide +kernel
+ 
+ /-- The computed Pneumonia ⊑* Disorder, re-derived through `subBP_sound`:
+     boolean engine and constructor derivation agree. -/
+--- a/OntologyELPlusClosureComplete.lean
++++ b/OntologyELPlusClosureComplete.lean
+@@ -1255,11 +1255,11 @@
+ 
+ /-- The complete engine computes the stated inclusion. -/
+ theorem check_micro_sub_0_1 : subBPlusC microTBox (.atom 0) (.atom 1) = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The complete engine does not invent the reverse inclusion. -/
+ theorem check_micro_sub_1_0 : subBPlusC microTBox (.atom 1) (.atom 0) = false := by
+-  native_decide
++  decide +kernel
+ 
+ /-- **The SNOMED flagship fact, through completeness** (not computation):
+     `Pneumonia ⊑* ∃RoleGroup.Organ` is computed by the complete engine —
+--- a/OntologyELPlusClosureVerified.lean
++++ b/OntologyELPlusClosureVerified.lean
+@@ -933,7 +933,7 @@
+ section SnomedVerified
+ 
+ /-- The role hierarchy is computed: DirectSite ⊑* RoleGroup. -/
+-theorem check_roleSubB_1_0 : roleSubB snomedTBox 1 0 = true := by native_decide
++theorem check_roleSubB_1_0 : roleSubB snomedTBox 1 0 = true := by decide +kernel
+ 
+ /-- The computed role derivation, re-derived through `roleSubB_sound`. -/
+ theorem cv_roleder_1_0 : RoleDer snomedTBox 1 0 :=
+--- a/OntologyELPlusNormalization.lean
++++ b/OntologyELPlusNormalization.lean
+@@ -896,7 +896,7 @@
+       (.atom (nameC (.conj (.atom (0 : Fin 1)) (.atom (0 : Fin 1))) (.atom (0 : Fin 1))))
+       (.atom (nameD (.conj (.atom (0 : Fin 1)) (.atom (0 : Fin 1))) (.atom (0 : Fin 1)))) =
+         true := by
+-  native_decide
++  decide +kernel
+ 
+ end InstanceChecks
+ 
+--- a/OntologyELReasoner.lean
++++ b/OntologyELReasoner.lean
+@@ -308,34 +308,34 @@
+     Axiom.disj (1 : Fin 8) 3 ∈ biomedTBox := by decide
+ 
+ /-- Boolean closure: Lymphokine ⊑* Molecule is computed. -/
+-theorem check_subB_0_2 : subB biomedTBox 0 2 = true := by native_decide
++theorem check_subB_0_2 : subB biomedTBox 0 2 = true := by decide +kernel
+ 
+ /-- Boolean closure: TherapeuticFusionProtein ⊑* Molecule (two hops). -/
+-theorem check_subB_7_2 : subB biomedTBox 7 2 = true := by native_decide
++theorem check_subB_7_2 : subB biomedTBox 7 2 = true := by decide +kernel
+ 
+ /-- Boolean closure: Heart ⊑* Organ. -/
+-theorem check_subB_4_5 : subB biomedTBox 4 5 = true := by native_decide
++theorem check_subB_4_5 : subB biomedTBox 4 5 = true := by decide +kernel
+ 
+ /-- Boolean closure: reflexive pair present. -/
+-theorem check_subB_5_5 : subB biomedTBox 5 5 = true := by native_decide
++theorem check_subB_5_5 : subB biomedTBox 5 5 = true := by decide +kernel
+ 
+ /-- Boolean closure: Organ is NOT subsumed by SkeletalMuscleOnly
+     (disjointness is not subsumption). -/
+-theorem check_subB_5_6 : subB biomedTBox 5 6 = false := by native_decide
++theorem check_subB_5_6 : subB biomedTBox 5 6 = false := by decide +kernel
+ 
+ /-- Boolean oracle: the incoherent fusion protein self-conflicts. -/
+-theorem check_conflictB_7_7 : conflictB biomedTBox 7 7 = true := by native_decide
++theorem check_conflictB_7_7 : conflictB biomedTBox 7 7 = true := by decide +kernel
+ 
+ /-- Boolean oracle: fusion protein vs lymphokine conflict is computed. -/
+-theorem check_conflictB_7_0 : conflictB biomedTBox 7 0 = true := by native_decide
++theorem check_conflictB_7_0 : conflictB biomedTBox 7 0 = true := by decide +kernel
+ 
+ /-- Boolean oracle: symmetry spot-check. -/
+-theorem check_conflictB_0_7 : conflictB biomedTBox 0 7 = true := by native_decide
++theorem check_conflictB_0_7 : conflictB biomedTBox 0 7 = true := by decide +kernel
+ 
+ /-- Boolean oracle: Lymphokine and Heart do not conflict — both can
+     consistently be asserted of the same entity (nothing forbids a molecule
+     that is also an organ part in this toy TBox). -/
+-theorem check_conflictB_0_4 : conflictB biomedTBox 0 4 = false := by native_decide
++theorem check_conflictB_0_4 : conflictB biomedTBox 0 4 = false := by decide +kernel
+ 
+ end BiomedInstance
+ 
+--- a/OntologyEvolution.lean
++++ b/OntologyEvolution.lean
+@@ -136,16 +136,16 @@
+ 
+ /-- The incoherent edit (axiom 4) is rejected against the version {3,2,1}. -/
+ theorem ex_edit4_rejected : applyEdit exC [3, 2, 1] 4 = [3, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The subsequent edit (axiom 5) is accepted. -/
+ theorem ex_edit5_accepted : applyEdit exC [3, 2, 1] 5 = [5, 3, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The final version contains exactly {1, 2, 3, 5} — axiom 4 was rejected
+     along the way. -/
+ theorem ex_evolve : evolve exC [] exEdits = [5, 3, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Every recorded version of the example chain is consistent (via the
+     general invariant, not by enumeration). -/
+--- a/OntologyEvolutionRepair.lean
++++ b/OntologyEvolutionRepair.lean
+@@ -205,17 +205,17 @@
+     contradicts the established axiom 2). -/
+ theorem ex2_add4_rejected :
+     applyEdit2 exC exBeq [3, 2, 1] (.add 4) = [3, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Surgical removal: axiom 2 (the conflicting partner) is excised; all
+     occurrences go. -/
+ theorem ex2_remove2 : removeAxiom exBeq 2 [3, 2, 1] = [3, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- After the repair, re-adding axiom 4 is accepted. -/
+ theorem ex2_readd4_accepted :
+     applyEdit2 exC exBeq (removeAxiom exBeq 2 [3, 2, 1]) (.add 4) = [4, 3, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Mixed edit script: add 1, 2, 3; add 4 (rejected); remove 2;
+     add 4 (accepted). -/
+@@ -225,13 +225,13 @@
+ /-- The chain ends in exactly {4,3,1}: axiom 2 was surgically removed to
+     admit axiom 4. -/
+ theorem ex2_evolve : evolve2 exC exBeq [] exEdits2 = [4, 3, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The version {3,2,1} reached after adding 1, 2, 3 is consistent (via
+     the addition-only invariant of `OntologyEvolution`). -/
+ theorem ex2_v321_consistent : Consistent exC [3, 2, 1] :=
+   Sounio.OntologyEvolution.mem_versions_consistent (v := []) (edits := [1, 2, 3])
+-    (by trivial) (by native_decide)
++    (by trivial) (by decide +kernel)
+ 
+ /-- The repaired final version {4,3,1} is consistent (via the generalised
+     invariant applied to the mixed script, not by enumeration). -/
+@@ -247,7 +247,7 @@
+         4 :: removeAxiom exBeq 2 [3, 2, 1] ∧
+       Consistent exC (applyEdit2 exC exBeq (removeAxiom exBeq 2 [3, 2, 1]) (.add 4)) :=
+   repair_retry exBeq_iff (k := 2)
+-    (by decide) (by native_decide) (by native_decide) ex2_v321_consistent
++    (by decide) (by decide +kernel) (by decide +kernel) ex2_v321_consistent
+ 
+ /-- Every recorded version of the mixed chain is consistent (via the
+     general invariant, not by enumeration). -/
+--- a/OntologyMinimalRepair.lean
++++ b/OntologyMinimalRepair.lean
+@@ -252,22 +252,22 @@
+ 
+ /-- Candidate 4 has exactly TWO partners in {3,2,1}: axioms 3 and 1. -/
+ theorem ex7_partners : partners exC7 4 [3, 2, 1] = [3, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The version {3,2,1} is consistent (via the addition-only invariant of
+     `OntologyEvolution`, not by enumeration). -/
+ theorem ex7_v321_consistent : Consistent exC7 [3, 2, 1] :=
+   Sounio.OntologyEvolution.mem_versions_consistent (v := []) (edits := [1, 2, 3])
+-    (by trivial) (by native_decide)
++    (by trivial) (by decide +kernel)
+ 
+ /-- ADMIT branch: `conf 4 = 900` strictly outweighs the summed partner mass
+     `400 + 400 = 800`. -/
+ theorem ex7_decide_admit : decide exC7 confA 4 [3, 2, 1] = .admit := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The admitted version removes BOTH partners and adds 4: exactly {4,2}. -/
+ theorem ex7_admit_version : applyDecision exC7 4 [3, 2, 1] .admit = [4, 2] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The admitted version is consistent — via the general theorem, not by
+     enumeration. -/
+@@ -276,11 +276,11 @@
+ 
+ /-- REJECT branch: `conf 4 = 300` does not outweigh `800`. -/
+ theorem ex7_decide_reject : decide exC7 confR 4 [3, 2, 1] = .reject := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The rejected version is exactly the original {3,2,1}. -/
+ theorem ex7_reject_version : applyDecision exC7 4 [3, 2, 1] .reject = [3, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Optimality on the instance, ADMIT branch: the decision retains 900,
+     the other option would retain 800. -/
+@@ -300,14 +300,14 @@
+     (axiom 3) still leaves partner 1, and the candidate remains blocked. -/
+ theorem ex7_remove_one_still_blocked :
+     conflictsAny exC7 4 ([3, 2, 1].filter (fun x => x != 3)) = true := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Necessity on the instance, via the general theorem: in ANY kept set
+     that admits candidate 4, neither partner 1 nor partner 3 may survive. -/
+ theorem ex7_necessity_pointwise {w : List (Fin 7)}
+     (hcf : conflictsAny exC7 4 w = false) : (1 : Fin 7) ∉ w ∧ (3 : Fin 7) ∉ w :=
+-  ⟨partner_not_mem_of_admissible hcf (by native_decide),
+-   partner_not_mem_of_admissible hcf (by native_decide)⟩
++  ⟨partner_not_mem_of_admissible hcf (by decide +kernel),
++   partner_not_mem_of_admissible hcf (by decide +kernel)⟩
+ 
+ /-- Maximality on the instance: the partner-free remainder is exactly {2},
+     and every admissible kept sublist (e.g. {2} itself) sits inside it. -/
+@@ -315,6 +315,6 @@
+     ([2] : List (Fin 7)).Sublist ([3, 2, 1].filter (fun x => !exC7 4 x)) :=
+   admissible_sublist_partnerfree
+     (List.Sublist.cons _ (List.Sublist.cons_cons _ (List.Sublist.cons _ List.Sublist.slnil)))
+-    (by native_decide)
++    (by decide +kernel)
+ 
+ end Sounio.OntologyMinimalRepair
+--- a/OntologyRepairEquivalence.lean
++++ b/OntologyRepairEquivalence.lean
+@@ -574,7 +574,7 @@
+ /-- The greedy drops exactly m1 and m3 — the same mappings the fold drops. -/
+ theorem ex_greedyDrop :
+     greedyDrop exConflicts exConf5 [] exPairs = [3, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- **Instance of the main equivalence**, obtained by instantiating the
+     general theorem; every hypothesis is discharged by `decide`. -/
+@@ -594,7 +594,7 @@
+ theorem ex_repair_iff_greedy_check :
+     ∀ m : Fin 5, m ∈ repair exConflicts [] exCandidates ↔
+       (m ∈ exCandidates ∧ m ∉ greedyDrop exConflicts exConf5 [] exPairs) := by
+-  native_decide
++  decide +kernel
+ 
+ -- ---------------------------------------------------------------------------
+ -- §7. Necessity of the cluster hypothesis (counterexample)
+@@ -618,11 +618,11 @@
+ /-- The fold keeps {0, 2}: 2 survives, 1 conflicts with 2 and drops,
+     0 conflicts with nothing kept. -/
+ theorem cx_repair : repair cxC [] cxMs = [0, 2] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The greedy keeps only {2}: scanning (0,1) drops 0, scanning (1,2) drops 1. -/
+ theorem cx_greedyDrop : greedyDrop cxC cxConf [] cxPairs = [1, 0] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- **Counterexample**: without the cluster hypothesis the bare "distinct
+     confidences" equivalence is false — the greedy can drop a mapping (here 0)
+@@ -631,6 +631,6 @@
+ theorem cx_equivalence_fails :
+     ¬ (∀ m : Fin 3, m ∈ repair cxC [] cxMs ↔
+       (m ∈ cxMs ∧ m ∉ greedyDrop cxC cxConf [] cxPairs)) := by
+-  native_decide
++  decide +kernel
+ 
+ end Sounio.OntologyAlignmentRepair
+--- a/OntologyRepairTies.lean
++++ b/OntologyRepairTies.lean
+@@ -343,13 +343,13 @@
+ 
+ /-- The fold keeps m3 and m0 (the tie winner) and m5. -/
+ theorem ex6_repair : repair ex6C [] ex6Ms = [5, 0, 3] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- The tie-broken greedy drops m1 (loses the tie to m0 by higher id),
+     m2 (0.30 < 0.50) and m4 (0.80 < 0.95). -/
+ theorem ex6_greedyDrop :
+     greedyDrop ex6C (prio ex6Conf ex6Id 5) [] ex6Pairs = [4, 2, 1] := by
+-  native_decide
++  decide +kernel
+ 
+ /-- **Instance of the tie-broken equivalence**, obtained by instantiating the
+     general theorem; every hypothesis is discharged by `decide`. Note that
+@@ -372,7 +372,7 @@
+ theorem ex6_repair_iff_greedy_check :
+     ∀ m : Fin 6, m ∈ repair ex6C [] ex6Ms ↔
+       (m ∈ ex6Ms ∧ m ∉ greedyDrop ex6C (prio ex6Conf ex6Id 5) [] ex6Pairs) := by
+-  native_decide
++  decide +kernel
+ 
+ /-- Determinism on the instance: two runs of the tie-broken greedy agree. -/
+ theorem ex6_two_runs_agree :

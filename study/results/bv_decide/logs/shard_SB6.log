@@ -1,0 +1,17 @@
+== prep 03:42:35
+bvs: 1 facts prepared; 4 shard files and SB6_Final.lean written to /home/ntbuild/work_bvscale/shards/bytedec6
+TIME wall=49.78 s user=49.77 s maxrss=8217376 KB
+== shards 03:43:25
+S0: TIME wall=60.88 s user=60.20 s maxrss=4160680 KB 0 errors
+S1: TIME wall=48.16 s user=47.60 s maxrss=3654276 KB 0 errors
+S2: TIME wall=54.34 s user=53.68 s maxrss=3970100 KB 0 errors
+S3: TIME wall=50.96 s user=50.32 s maxrss=3940132 KB 0 errors
+== final 03:44:26
+bvs _private.Clean.Gadgets.ByteDecomposition.Theorems.0.Gadgets.ByteDecomposition.Theorems.soundness._native.bv_decide.ax_1_6: assembled bvs4fact_1.unsat (0 ms); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+bvs Gadgets.ByteDecomposition.Theorems.soundness: re-proved as bvs4thm_1.bvs (statement identical: true); axioms [propext,
+ Classical.choice,
+ Quot.sound]
+TIME wall=2.25 s user=1.94 s maxrss=2999312 KB
+WALL prep 49786 ms, shards 60892 ms, final 2266 ms

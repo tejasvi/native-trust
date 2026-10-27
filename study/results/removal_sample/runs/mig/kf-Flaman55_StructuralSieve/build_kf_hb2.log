@@ -1,0 +1,26 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Solution +StructuralSieve.BinomialBound +StructuralSieve.BinomialCertificate +StructuralSieve.Defs +StructuralSieve.Erdos +StructuralSieve.GPS_StateMachine +StructuralSieve.LPF +StructuralSieve.Main +StructuralSieve.Rings +StructuralSieve.SelfContained +StructuralSieve.Threshold +StructuralSieve.Truncated +StructuralSieve.Weight +StructuralSieve.ZeroForce
+✔ [3216/3229] Built StructuralSieve.Defs (1.3s)
+✔ [3217/3229] Built StructuralSieve.BinomialBound (1.3s)
+✔ [3218/3229] Built StructuralSieve.Truncated (1.3s)
+⚠ [3219/3229] Built StructuralSieve.SelfContained (1.4s)
+warning: StructuralSieve/SelfContained.lean:149:24: Variable name `hP` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3220/3229] Built StructuralSieve.Threshold (1.5s)
+✔ [3221/3229] Built StructuralSieve.Weight (1.5s)
+✔ [3222/3229] Built StructuralSieve.LPF (1.6s)
+✔ [3223/3229] Built StructuralSieve.ZeroForce (1.4s)
+✔ [3224/3229] Built StructuralSieve.BinomialCertificate (13s)
+ℹ [3225/3229] Built StructuralSieve.Erdos (15s)
+info: StructuralSieve/Erdos.lean:44:2: kernel-first: native_decide used compiled evaluation: `decide +kernel` did not finish within 20000 thousand heartbeats (13499 ms)
+✔ [3226/3229] Built StructuralSieve.GPS_StateMachine (1.6s)
+✔ [3227/3229] Built StructuralSieve.Main (1.4s)
+✔ [3228/3229] Built Solution (1.6s)
+⚠ [3229/3229] Built StructuralSieve.Rings (7.2s)
+warning: StructuralSieve/Rings.lean:410:2: `@[expose]` has no effect; this declaration would be exposed by default
+Build completed successfully (3229 jobs).
+TIME wall=24.40 user=55.45 sys=4.86 maxrss_kb=4324060
+rc=0 secs=24

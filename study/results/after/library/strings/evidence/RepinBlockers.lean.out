@@ -1,0 +1,6 @@
+PROBE Minidregg.Host.Json.grainPolicy_repin_preserves_extensions: 1 blockers
+PROBE   Minidregg.Host.Json.predicate  via [_private.Host.Json.0.Minidregg.Host.Json.grainRepinAuthoredSource, Minidregg.Host.Json.author, Minidregg.Host.Json.predicate]
+PROBE Minidregg.Host.Json.grainPolicy_repin_wrong_pins_refused: 1 blockers
+PROBE   Minidregg.Host.Json.predicate  via [_private.Host.Json.0.Minidregg.Host.Json.authorRefused, Minidregg.Host.Json.author, Minidregg.Host.Json.predicate]
+maxrss_kb 4174588 secs 2.11
+rc=0

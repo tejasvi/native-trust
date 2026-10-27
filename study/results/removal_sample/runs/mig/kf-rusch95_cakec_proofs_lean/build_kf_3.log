@@ -1,0 +1,10 @@
+$ /usr/bin/time -f TIME wall=%e user=%U sys=%S maxrss_kb=%M lake build --no-ansi +Adversarial +Grammar +IRSemantics +LoweringCorrectness +Semantics +TokenSpec
+✔ [5/10] Built TokenSpec (2.4s)
+✔ [6/10] Built Grammar (928ms)
+✔ [7/10] Built Semantics (766ms)
+✔ [8/10] Built IRSemantics (897ms)
+✔ [9/10] Built LoweringCorrectness (634ms)
+✔ [10/10] Built Adversarial (1.2s)
+Build completed successfully (10 jobs).
+TIME wall=7.12 user=6.97 sys=1.43 maxrss_kb=1566156
+rc=0 secs=7

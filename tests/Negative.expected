@@ -1,0 +1,37 @@
+Negative.lean:6:44: error: kdecide: compiled evaluation says the proposition is false
+  (List.range 10).length = 11
+Negative.lean:16:32: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_example._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (countDown 5 = 5) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `Lean.Loop.forIn`: `while`/`repeat` loop: implemented by a `partial` function, so in the logic its result is unspecified and no statement about it can be proved; a total version (structural recursion, `termination_by`, or fuel) is needed
+    via countDown → Lean.instForInLoopUnitOfMonad → Lean.Loop.forIn
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+Negative.lean:20:50: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_example._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (USize.size = 18446744073709551616) = true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `System.Platform.getNumBits`: platform word size: `USize` arithmetic (used by `HashMap`, `HashSet`, `Array.uget`, …) has no kernel value, and results may differ between 32- and 64-bit platforms
+    via USize.size → System.Platform.numBits → System.Platform.getNumBits
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the platform case split (`numBits = 32 ∨ numBits = 64`), which failed too:
+NativeTrust: platform case split: at numBits = 32 the term evaluates to `false`: its result depends on the word size
+Negative.lean:26:27: error: the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_example._kdecide_1.p_0' has type
+  true = true
+but it is expected to have type
+  decide (f 0 = true) = true
+
+The kernel evaluates the decision procedure to `false`: the proposition is FALSE according to the logical definitions. Compiled code evaluated it to `true`, so compiled code and logic disagree. Typical causes: an `@[implemented_by]`/`@[extern]` implementation that differs from its definition, or platform-dependent behaviour.
+Reachable constants whose compiled code is not their definition:
+• `f` is implemented by `fImpl` (`@[implemented_by]`, no proof)
+rc=1

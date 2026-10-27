@@ -1,0 +1,44 @@
+[25782382] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual._bvk_1: 164 nodes, CNF 443 clauses
+[25782413] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual._bvk_1: 74 steps, 605 hints, 1 chunks, 0 segments; SAT 27 ms
+[25782537] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual._bvk_1: base check 124 ms
+[25782651] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual._bvk_1: chunk 0 (74 steps from id 444) 114 ms
+[25782659] bv_kdecide [_private.RealK.PBVExamples.0.Veir.Data.PBV.trace_add_comm_manual]: bv_decide 29 ms; 164 nodes, 443 clauses, 74 LRAT steps, 605 hints, 1 chunks; SAT 27 ms, data 4 ms; kernel: base 124 ms, chunks 114 ms (max 114 ms), assembly 2 ms; total 309 ms; peak RSS: bv_decide 799 MiB, kernel route 838 MiB
+[25782729] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend._bvk_3: 366 nodes, CNF 977 clauses
+[25782767] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend._bvk_3: 115 steps, 974 hints, 1 chunks, 0 segments; SAT 31 ms
+[25783067] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend._bvk_3: base check 299 ms
+[25783260] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend._bvk_3: chunk 0 (115 steps from id 978) 193 ms
+[25783270] bv_kdecide [_private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend]: bv_decide 30 ms; 366 nodes, 977 clauses, 115 LRAT steps, 974 hints, 1 chunks; SAT 31 ms, data 8 ms; kernel: base 300 ms, chunks 193 ms (max 193 ms), assembly 3 ms; total 575 ms; peak RSS: bv_decide 838 MiB, kernel route 885 MiB
+[25783330] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._bvk_2: 366 nodes, CNF 977 clauses
+[25783365] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._bvk_2: 115 steps, 974 hints, 1 chunks, 0 segments; SAT 28 ms
+[25783668] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._bvk_2: base check 303 ms
+[25783869] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj._bvk_2: chunk 0 (115 steps from id 978) 201 ms
+[25783879] bv_kdecide [_private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_zero_extend_conj]: bv_decide 22 ms; 366 nodes, 977 clauses, 115 LRAT steps, 974 hints, 1 chunks; SAT 28 ms, data 8 ms; kernel: base 303 ms, chunks 201 ms (max 201 ms), assembly 2 ms; total 575 ms; peak RSS: bv_decide 885 MiB, kernel route 887 MiB
+[25783947] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend._bvk_1: 489 nodes, CNF 1322 clauses
+[25783991] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend._bvk_1: 183 steps, 1922 hints, 1 chunks, 0 segments; SAT 35 ms
+[25784459] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend._bvk_1: base check 467 ms
+[25784822] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend._bvk_1: chunk 0 (183 steps from id 1323) 363 ms
+[25784836] bv_kdecide [_private.RealK.PBVExamples.0.Veir.Data.PBV.trace_zero_sign_extend]: bv_decide 33 ms; 489 nodes, 1322 clauses, 183 LRAT steps, 1922 hints, 1 chunks; SAT 35 ms, data 10 ms; kernel: base 468 ms, chunks 363 ms (max 363 ms), assembly 4 ms; total 927 ms; peak RSS: bv_decide 888 MiB, kernel route 922 MiB
+[25784946] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: 4687 nodes, CNF 13820 clauses
+[25787780] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: 7070 steps, 371430 hints, 20 chunks, 0 segments; SAT 2224 ms
+[25793356] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: base check 5576 ms
+[25795578] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 0 (2000 steps from id 13821) 2222 ms
+[25800949] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 1 (1309 steps from id 15821) 5371 ms
+[25804556] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 2 (246 steps from id 17130) 3607 ms
+[25807807] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 3 (232 steps from id 17376) 3251 ms
+[25811193] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 4 (162 steps from id 17608) 3386 ms
+[25814528] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 5 (93 steps from id 17770) 3335 ms
+[25817791] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 6 (154 steps from id 17863) 3262 ms
+[25821923] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 7 (178 steps from id 18017) 4132 ms
+[25825356] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 8 (116 steps from id 18195) 3433 ms
+[25828564] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 9 (160 steps from id 18311) 3208 ms
+[25831162] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 10 (45 steps from id 18471) 2598 ms
+[25834591] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 11 (80 steps from id 18516) 3429 ms
+[25838492] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 12 (132 steps from id 18596) 3901 ms
+[25842344] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 13 (133 steps from id 18728) 3852 ms
+[25845072] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 14 (58 steps from id 18861) 2728 ms
+[25848110] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 15 (52 steps from id 18919) 3038 ms
+[25851363] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 16 (94 steps from id 18971) 3253 ms
+[25853881] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 17 (56 steps from id 19065) 2517 ms
+[25857167] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 18 (49 steps from id 19121) 3286 ms
+[25860758] _private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append._bvk_2: chunk 19 (1721 steps from id 19170) 3591 ms
+[25861570] bv_kdecide [_private.RealK.PBVExamples.0.Veir.Data.PBV.trace_append]: bv_decide 55 ms; 4687 nodes, 13820 clauses, 7070 LRAT steps, 371430 hints, 20 chunks; SAT 2224 ms, data 624 ms; kernel: base 5576 ms, chunks 67400 ms (max 5371 ms), assembly 187 ms; total 76698 ms; peak RSS: bv_decide 924 MiB, kernel route 2066 MiB

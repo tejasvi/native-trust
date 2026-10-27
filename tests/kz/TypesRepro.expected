@@ -1,0 +1,8 @@
+KERNELIZED `TR.t1` as `TR.t1.kernel` (1 native axiom(s) replaced)
+OK	TR.t1	TR.t1.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0
+KERNELIZED `TR.t2` as `TR.t2.kernel` (1 native axiom(s) replaced)
+OK	TR.t2	TR.t2.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=2	total_ms=_	acc_fallback=0
+KERNELIZED `TR.t3` as `TR.t3.kernel` (1 native axiom(s) replaced)
+OK	TR.t3	TR.t3.kernel	axioms=[propext, Quot.sound]	native_axioms=1	kernel_ms=_	rebuilt=1	copies=4	total_ms=_	acc_fallback=0
+.instSizer → Nat → Nat
+rc=0

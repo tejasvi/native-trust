@@ -1,0 +1,3 @@
+0: AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._native.bv_decide.ax_1_7: 580 nodes, 1424 CNF clauses; estimated bv_kdecide time 1.200013 s
+AsiStackProofs.StackBoundaries: 1 bv_decide axioms; estimated bv_kdecide time in total 1.200013 s
+BVS_ESTIMATE	AsiStackProofs.StackBoundaries	0	AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._native.bv_decide.ax_1_7	580	1424	1.200013

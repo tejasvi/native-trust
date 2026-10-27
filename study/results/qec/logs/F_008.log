@@ -1,0 +1,4 @@
+kernelize: `nfl_Z_5.kernel` proves the statement of `nfl_Z_5` with axioms [propext].
+Replaced 1 native axiom(s) by kernel proofs (75918 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 0 kernel-reducible copies; 75931 ms in total.
+time 77.47 s wall 76.17 s user 5021292 KB
+exit 0

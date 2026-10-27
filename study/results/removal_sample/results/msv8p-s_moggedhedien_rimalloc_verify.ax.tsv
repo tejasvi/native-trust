@@ -1,0 +1,8 @@
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_roundtrip._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1458972	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_exact_small._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1460416	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_boundary._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1388396	1		nt_lines=5 last=quick whole-term attempt proved it
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_in_range._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9100896	58		nt_lines=7 last=pieces=1
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_fits._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9178252	66		nt_lines=7 last=pieces=1
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_waste._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9222484	68		nt_lines=7 last=pieces=1
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_monotone._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9254896	75		nt_lines=7 last=pieces=1
+msv8p-s_moggedhedien_rimalloc_verify	RimallocVerify.CommitMask	Rimalloc.create_correct._native.native_decide.ax_1_1	native_decide	False	PROVED		0	28231532	201		nt_lines=7 last=pieces=1

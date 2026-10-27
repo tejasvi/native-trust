@@ -1,0 +1,22 @@
+$ /usr/bin/time -f maxrss_kb %M /home/ntbuild/elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean -j1 --tstack=1048576 F2_PPT2Cert_RowsNew_New083_7.lean
+NT start PPT2Cert.New083.identity_b14_w1._native.native_decide.ax_1_1
+NT nested PPT2Cert.New083.identity_b14_w1._native.native_decide.ax_1_1 ms=70 rebuilt_defs=0 visited=2306
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=10 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1 structure all-by-index length=9 pieces=8
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_0 blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_0 eval_ms=53118
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_1 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_1 eval_ms=106132
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_2 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_2 eval_ms=115070
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_3 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_3 eval_ms=115217
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_4 blockers_ms=83 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_4 eval_ms=114313
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_5 blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_5 eval_ms=159502
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_6 blockers_ms=4 bounded=false copy_ms=9 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_6 eval_ms=165375
+NT _ktr.F2_PPT2Cert_RowsNew_New083_7.PPT2Cert.New083.identity_b14_w1._kernel.native_decide.ax_1_1.p_7 blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+rc=124 secs=900
