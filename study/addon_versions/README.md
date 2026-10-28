@@ -9,6 +9,6 @@ version's directory (or from the add-on's directory under `addons/`):
 
 | digest | add-on | used by | the current version (`addons/`) |
 |---|---|---|---|
-| `ed02e2be…c566` | `bvs`, the kernel-checked route for `bv_decide` | the runs of Section 7: Table 6, all `bv_decide` facts of the corpus and the random sample (`study/results/bv_decide/`) | `addons/bvs/`: every file a module of Lean's module system, the drop-in tactic `bv_kdecide` and the command `bvs5_estimate` |
+| `ed02e2be…c566` | `bvs`, the kernel-checked route for `bv_decide` | the runs of Section 7: Table 8, all `bv_decide` facts of the corpus and the random sample (`study/results/bv_decide/`) | `addons/bvs/`: every file a module of Lean's module system, the drop-in tactic `bv_kdecide` and the command `bvs5_estimate` |
 
 The digest of the archived copy is recomputed from its files (`results_index.tsv`, row RP12).

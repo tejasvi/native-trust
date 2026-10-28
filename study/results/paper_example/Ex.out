@@ -1,0 +1,5 @@
+'t' depends on axioms: [propext, Quot.sound, t._native.native_decide.ax_1_1]
+kernelize: `t.kernel` proves the statement of `t` with axioms [propext, Quot.sound].
+Replaced 1 native axiom(s) by kernel proofs (336 ms of kernel evaluation); rebuilt 1 lemma(s)/definition(s); created 4 kernel-reducible copies; 395 ms in total.
+'t.kernel' depends on axioms: [propext, Quot.sound]
+t.kernel : ((List.range 300).reverse.mergeSort fun a b => decide (a ≤ b)) = List.range 300
