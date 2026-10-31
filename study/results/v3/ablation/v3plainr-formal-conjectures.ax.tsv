@@ -1,0 +1,4 @@
+v3plainr-formal-conjectures	FormalConjectures.Arxiv.2507.17780.4	-			NOT_BUILT						
+v3plainr-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_3	native_decide	True	PROVED		0	6994244	3		nt_lines=5 last=quick whole-term attempt proved it
+v3plainr-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_1	native_decide	True	PROVED		0	7026580	3		nt_lines=5 last=quick whole-term attempt proved it
+v3plainr-formal-conjectures	FormalConjectures.Wikipedia.IdonealCompleteness	_private.FormalConjectures.Wikipedia.IdonealCompleteness.0.Idoneal.knownIdonealNumbers_are_idoneal._native.native_decide.ax_1_62	native_decide	False	PROVED		0	39220028	170		nt_lines=7 last=pieces=1

@@ -1,0 +1,4 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=L_Veir_Interpreter_Memory.lean start=2026-10-29T00:36:39Z
+0: _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5
+1: _private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._native.bv_decide.ax_8
+BVS_TIME wall=0.76 user=0.49 maxrss_kb=1612028

@@ -1,0 +1,3 @@
+v3-s_WyattAu_OmniLaTeX_template_specs_proofs	OmniLaTeXProofs.CommandRunnerTimeout	CommandRunner.timeout_times_two._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1418876	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_WyattAu_OmniLaTeX_template_specs_proofs	OmniLaTeXProofs.CommandRunnerTimeout	CommandRunner.timeout_sq_positive._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1417624	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_WyattAu_OmniLaTeX_template_specs_proofs	OmniLaTeXProofs.BuildCacheAtomicity	BuildCacheAtomicity.temp_pattern_contains_wildcard._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1427812	1		nt_lines=5 last=quick whole-term attempt proved it

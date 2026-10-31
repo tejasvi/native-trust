@@ -1,0 +1,3 @@
+2026-10-30T02:03:00Z start v3oz-s_zcash_ironwood (14 facts, 1500s, tc v4.30.0, root /home/ntbuild/nt_fix14, import PrepZcash)
+v3oz-s_zcash_ironwood 15 axioms: {'FAILED': 8, 'TIMEOUT': 5, 'PROVED': 1, 'ERROR': 1}
+2026-10-30T02:57:01Z end v3oz-s_zcash_ironwood rc=0

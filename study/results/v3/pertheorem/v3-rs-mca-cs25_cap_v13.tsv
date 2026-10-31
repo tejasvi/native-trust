@@ -1,0 +1,10 @@
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ListSideCompilers	CAP25V13.ListSide.dyadic_planted_crossing_eighth._proof_1_1	KERNELIZED		0	6328284	8		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ListSideCompilers	CAP25V13.ListSide.dyadic_planted_crossing_sixteenth._proof_1_1	KERNELIZED		0	6420508	9		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ListSideCompilers	CAP25V13.ListSide.dyadic_planted_crossing_half._proof_1_1	KERNELIZED		0	6520988	10		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ListSideCompilers	CAP25V13.ListSide.dyadic_planted_crossing_quarter._proof_1_1	KERNELIZED		0	6403796	10		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_relaxed_eighth._proof_1_1	KERNELIZED		0	6286296	10		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_dyadic_sixteenth._proof_1_1	KERNELIZED		0	6335428	12		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_relaxed_half._proof_1_1	KERNELIZED		0	6319200	11		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_dyadic_half._proof_1_1	KERNELIZED		0	6429252	11		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_relaxed_quarter._proof_1_1	KERNELIZED		0	6287536	10		1	2	
+v3-rs-mca-cs25_cap_v13	cs25_cap_v13_experimental.ThresholdCompilers	CAP25V13.Threshold.census_crossing_relaxed_sixteenth._proof_1_1	KERNELIZED		0	6296820	11		1	2	

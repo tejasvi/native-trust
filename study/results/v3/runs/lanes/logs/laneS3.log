@@ -1,0 +1,40 @@
+2026-10-29T00:20:28Z lane start /home/ntbuild/v3/lanes/v3_laneS3.tsv args: --nt-root /home/ntbuild/v3/nt_v15
+2026-10-29T00:20:28Z start v3-s_bjoernkjoshanssen_clfa --skip-build --jobs 6
+2026-10-29T00:21:29Z end v3-s_bjoernkjoshanssen_clfa rc=0 v3-s_bjoernkjoshanssen_clfa 0 axioms: {}
+2026-10-29T00:21:29Z start v3-s_UOR_Foundation_LexLean_bootstrap --skip-build --jobs 6
+2026-10-29T00:21:29Z end v3-s_UOR_Foundation_LexLean_bootstrap rc=0 v3-s_UOR_Foundation_LexLean_bootstrap 0 axioms: {}
+2026-10-29T00:21:29Z start v3-s_swissyai_theotetus_physics_verifier --skip-build --jobs 6
+2026-10-29T00:21:32Z end v3-s_swissyai_theotetus_physics_verifier rc=0 v3-s_swissyai_theotetus_physics_verifier 0 axioms: {}
+2026-10-29T00:21:32Z start v3-s_igrep_lean_workshop --skip-build --jobs 6
+2026-10-29T00:21:35Z end v3-s_igrep_lean_workshop rc=0 v3-s_igrep_lean_workshop 0 axioms: {}
+2026-10-29T00:21:35Z start v3-s_siddhartha_gadgil_PlasmaLean --skip-build --jobs 6
+2026-10-29T00:22:04Z end v3-s_siddhartha_gadgil_PlasmaLean rc=0 v3-s_siddhartha_gadgil_PlasmaLean 0 axioms: {}
+2026-10-29T00:22:04Z start v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev --skip-build --jobs 6
+2026-10-29T00:22:10Z end v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev rc=0 v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev 0 axioms: {}
+2026-10-29T00:22:10Z start v3-s_V_Sekai_TOOL_cloth_dynamics_lean --skip-build --jobs 6
+2026-10-29T00:22:19Z end v3-s_V_Sekai_TOOL_cloth_dynamics_lean rc=0 v3-s_V_Sekai_TOOL_cloth_dynamics_lean 0 axioms: {}
+2026-10-29T00:22:19Z start v3-s_Panta_Rhei_Research_taulib --skip-build --jobs 6
+2026-10-29T00:23:43Z end v3-s_Panta_Rhei_Research_taulib rc=0 v3-s_Panta_Rhei_Research_taulib 0 axioms: {}
+2026-10-29T00:23:43Z start v3-s_jagg_ix_catept_main --skip-build --jobs 6
+2026-10-29T00:26:00Z end v3-s_jagg_ix_catept_main rc=0 v3-s_jagg_ix_catept_main 0 axioms: {}
+2026-10-29T00:26:00Z start v3-s_M32026_3d_sticky_kakeya --skip-build --jobs 6
+2026-10-29T00:26:57Z end v3-s_M32026_3d_sticky_kakeya rc=0 v3-s_M32026_3d_sticky_kakeya 0 axioms: {}
+2026-10-29T00:26:57Z start v3-s_COINjecture_Network_COINjecture2_0_lean4 --skip-build --jobs 6
+2026-10-29T00:27:00Z end v3-s_COINjecture_Network_COINjecture2_0_lean4 rc=0 v3-s_COINjecture_Network_COINjecture2_0_lean4 0 axioms: {}
+2026-10-29T00:27:00Z start v3-s_rusch95_cakec_proofs_lean --skip-build --jobs 6
+2026-10-29T00:27:09Z end v3-s_rusch95_cakec_proofs_lean rc=0 v3-s_rusch95_cakec_proofs_lean 9 axioms: {'PROVED': 9}
+2026-10-29T00:27:09Z start v3-s_opencompl_veir --skip-build --jobs 6
+2026-10-29T00:50:39Z end v3-s_opencompl_veir rc=0 v3-s_opencompl_veir 188 axioms: {'ERROR': 5, 'FAILED': 183}
+2026-10-29T00:50:39Z start v3-s_batmeezy918_chronofold --skip-build --jobs 6
+2026-10-29T00:50:45Z end v3-s_batmeezy918_chronofold rc=0 v3-s_batmeezy918_chronofold 11 axioms: {'PROVED': 11}
+2026-10-29T00:50:45Z start v3-s_WyattAu_OmniLaTeX_template_specs_proofs --skip-build --jobs 6
+2026-10-29T00:50:47Z end v3-s_WyattAu_OmniLaTeX_template_specs_proofs rc=0 v3-s_WyattAu_OmniLaTeX_template_specs_proofs 3 axioms: {'PROVED': 3}
+2026-10-29T00:50:47Z start v3-s_anulum_director_ai_formal_HaltMonitor --skip-build --jobs 6
+2026-10-29T00:50:48Z end v3-s_anulum_director_ai_formal_HaltMonitor rc=0 v3-s_anulum_director_ai_formal_HaltMonitor 0 axioms: {}
+2026-10-29T00:50:48Z start v3-s_cslib_community_complexitylib --skip-build --jobs 6
+2026-10-29T00:50:57Z end v3-s_cslib_community_complexitylib rc=0 v3-s_cslib_community_complexitylib 0 axioms: {}
+2026-10-29T00:50:57Z start v3-s_Flaman55_StructuralSieve --skip-build --jobs 6
+2026-10-29T00:52:02Z end v3-s_Flaman55_StructuralSieve rc=0 v3-s_Flaman55_StructuralSieve 1 axioms: {'PROVED': 1}
+2026-10-29T00:52:02Z start v3-s_ertwro_one_third_two_thirds --skip-build --jobs 6
+2026-10-29T00:52:13Z end v3-s_ertwro_one_third_two_thirds rc=0 v3-s_ertwro_one_third_two_thirds 0 axioms: {}
+2026-10-29T00:52:13Z lane end /home/ntbuild/v3/lanes/v3_laneS3.tsv

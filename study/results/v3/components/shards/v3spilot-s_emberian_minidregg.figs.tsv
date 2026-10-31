@@ -1,0 +1,9 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+semberianmf968_000	Assurance.ObjectiveDemandPhysicalChecks	Minidregg.Assurance.ObjectiveDemandPhysicalChecks.boolean_uses_source_rom_and_graph._native.native_decide.ax_1_1	ERROR		1	156	0	157	47331532			
+semberianmf968_007	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.label_step2._native.native_decide.ax_1_1	FAILED		1	177	0	177	39817856			
+semberianmf968_015	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.reach_certified._native.native_decide.ax_1_1	FAILED		1	177	0	177	39813504			
+semberianmf968_023	Compiler.BendProofCshakeChecks	Minidregg.Compiler.BendProofCshakeChecks.empty_shake._native.native_decide.ax_1_1	ERROR		1	174	0	175	47771056			
+semberianmf968_030	Compiler.DurableCheckpointCodec	Minidregg.Compiler.DurableCheckpointCodec.seedEpoch_commandsV1_refused._native.native_decide.ax_1_1	ERROR		1	165	0	165	46910020			
+semberianmf968_038	Theory.NockCost	Minidregg.Theory.NockCost.pole_forge_bound._native.native_decide.ax_1_1	ERROR		1	155	0	155	47652144			
+semberianmf968_046	Theory.NockCost.Summaries	Minidregg.Theory.NockCost.pole_forge_sym_1000._native.native_decide.ax_1_1	ERROR		1	153	0	153	47658380			
+semberianmf968_054	Theory.NockCost.Summaries	Minidregg.Theory.NockCost.pole_sub_symbolic._native.native_decide.ax_1_1	ERROR		1	155	0	155	47658332			

@@ -1,0 +1,6 @@
+FanoLabellingOrbits	Sounio.FanoLabellingOrbits.fano_labelling_orbits_count._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3r-sounio	memory
+FanoLabellingOrbits	Sounio.FanoLabellingOrbits.lagrange_consistency._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3-sounio	memory
+OntologyELPlusClosureComplete	Sounio.OntologyELPlus.check_subBPlus_le_snomed._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3r-sounio	memory
+OntologyELPlusClosureVerified	Sounio.OntologyELPlus.check_conflictBPlus_4_5._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3-sounio	memory
+OntologyELPlusClosureVerified	Sounio.OntologyELPlus.check_conflictBPlus_7_7._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3r-sounio	memory
+OntologyELPlusClosureVerified	Sounio.OntologyELPlus.check_subBPlus_4_rg3._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3-sounio	memory

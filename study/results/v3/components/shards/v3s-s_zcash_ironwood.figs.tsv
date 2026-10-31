@@ -1,0 +1,6 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+szcashironc1dc_000	Zcash.Snark.Fixtures.MultiAction.Honest.Fixture	Zcash.Snark.Fixture2.capturedMsm_eval_eq_zero._native.native_decide.ax_1_1	ERROR		1	220	0	220	46927156			
+szcashironc1dc_001	Zcash.Snark.Fixtures.MultiAction.Random.Fixture	Zcash.Snark.FixtureRandom2.capturedMsm_evalNat_ne_zero._native.native_decide.ax_1_1	ERROR		1	221	0	221	46982820			
+szcashironc1dc_002	Zcash.Snark.Fixtures.MultiAction.Random.Fixture	Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1	ERROR		1	131	0	131	46981128			
+szcashironc1dc_003	Zcash.Snark.Fixtures.SingleAction.Honest.Fixture	Zcash.Snark.Fixture.capturedMsm_eval_eq_zero._native.native_decide.ax_1_1	ERROR		1	220	0	220	46980060			
+szcashironc1dc_004	Zcash.Snark.Fixtures.SingleAction.Random.Fixture	Zcash.Snark.FixtureRandom.capturedMsm_evalNat_ne_zero._native.native_decide.ax_1_1	ERROR		1	218	0	217	46980148			

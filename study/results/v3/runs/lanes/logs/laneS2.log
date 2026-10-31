@@ -1,0 +1,118 @@
+2026-10-29T00:11:13Z lane start /home/ntbuild/v3/lanes/v3_laneS2.tsv args: --nt-root /home/ntbuild/nt_fix14
+2026-10-29T00:11:13Z start v3-s_BobDyLean_bobdylean_paper_artifact --skip-build --jobs 6
+2026-10-29T00:22:02Z end v3-s_BobDyLean_bobdylean_paper_artifact rc=0 v3-s_BobDyLean_bobdylean_paper_artifact 2 axioms: {'FAILED': 2}
+2026-10-29T00:22:02Z start v3-s_Rob1Ham_btc_lean_spec_core --skip-build --jobs 6
+2026-10-29T00:22:24Z end v3-s_Rob1Ham_btc_lean_spec_core rc=0 v3-s_Rob1Ham_btc_lean_spec_core 0 axioms: {}
+2026-10-29T00:22:24Z start v3-s_Natuvea_tacenta_core_tacenta_model --skip-build --jobs 6
+2026-10-29T00:26:35Z end v3-s_Natuvea_tacenta_core_tacenta_model rc=0 v3-s_Natuvea_tacenta_core_tacenta_model 2 axioms: {'FAILED': 2}
+2026-10-29T00:26:35Z start v3-s_Theophilus1030_NeoMathlib --skip-build --jobs 6
+2026-10-29T00:26:43Z end v3-s_Theophilus1030_NeoMathlib rc=0 v3-s_Theophilus1030_NeoMathlib 0 axioms: {}
+2026-10-29T00:26:43Z start v3-s_bjoernkjoshanssen_clfa --skip-build --jobs 6
+2026-10-29T00:26:43Z end v3-s_bjoernkjoshanssen_clfa rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.28.0
+2026-10-29T00:26:43Z start v3-s_UOR_Foundation_LexLean_bootstrap --skip-build --jobs 6
+2026-10-29T00:26:44Z end v3-s_UOR_Foundation_LexLean_bootstrap rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.32.1
+2026-10-29T00:26:44Z start v3-s_swissyai_theotetus_physics_verifier --skip-build --jobs 6
+2026-10-29T00:26:44Z end v3-s_swissyai_theotetus_physics_verifier rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.28.0
+2026-10-29T00:26:44Z start v3-s_emberian_minidregg --skip-build --jobs 3
+2026-10-29T03:18:15Z end v3-s_emberian_minidregg rc=0 v3-s_emberian_minidregg 228 axioms: {'FAILED': 45, 'PROVED': 121, 'TIMEOUT': 8, 'ERROR': 54}
+2026-10-29T03:18:15Z start v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full --skip-build --jobs 6
+2026-10-29T03:18:25Z end v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full rc=0 v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full 0 axioms: {}
+2026-10-29T03:18:25Z start v3-s_igrep_lean_workshop --skip-build --jobs 6
+2026-10-29T03:18:25Z end v3-s_igrep_lean_workshop rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.1
+2026-10-29T03:18:25Z start v3-s_V_Sekai_fire_interactor_spatial_oracle --skip-build --jobs 6
+2026-10-29T03:18:56Z end v3-s_V_Sekai_fire_interactor_spatial_oracle rc=0 v3-s_V_Sekai_fire_interactor_spatial_oracle 43 axioms: {'PROVED': 43}
+2026-10-29T03:18:56Z start v3-s_GZGavinZhao_LeanMenhir --skip-build --jobs 6
+2026-10-29T03:18:58Z end v3-s_GZGavinZhao_LeanMenhir rc=0 v3-s_GZGavinZhao_LeanMenhir 0 axioms: {}
+2026-10-29T03:18:58Z start v3-s_dappalumbo91_FSOT_2_1_Neural_formal --skip-build --jobs 6
+2026-10-29T03:19:10Z end v3-s_dappalumbo91_FSOT_2_1_Neural_formal rc=0 v3-s_dappalumbo91_FSOT_2_1_Neural_formal 118 axioms: {'PROVED': 118}
+2026-10-29T03:19:10Z start v3-s_mbrcic_ai_safety_formalization_atlas --skip-build --jobs 6
+2026-10-29T03:19:42Z end v3-s_mbrcic_ai_safety_formalization_atlas rc=0 v3-s_mbrcic_ai_safety_formalization_atlas 0 axioms: {}
+2026-10-29T03:19:42Z start v3-s_siddhartha_gadgil_PlasmaLean --skip-build --jobs 6
+2026-10-29T03:19:42Z end v3-s_siddhartha_gadgil_PlasmaLean rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.34.1
+2026-10-29T03:19:42Z start v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose --skip-build --jobs 6
+2026-10-29T03:20:26Z end v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose rc=0 v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose 0 axioms: {}
+2026-10-29T03:20:26Z start v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 --skip-build --jobs 6
+2026-10-29T10:06:17Z end v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 rc=0 v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 534 axioms: {'FAILED': 59, 'ERROR': 420, 'TIMEOUT': 1, 'PROVED': 54}
+2026-10-29T10:06:17Z start v3-s_JacobAsmuth_qed --skip-build --jobs 6
+2026-10-29T10:06:19Z end v3-s_JacobAsmuth_qed rc=0 v3-s_JacobAsmuth_qed 0 axioms: {}
+2026-10-29T10:06:19Z start v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier --skip-build --jobs 6
+2026-10-29T10:06:20Z end v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier rc=0 v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier 0 axioms: {}
+2026-10-29T10:06:20Z start v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev --skip-build --jobs 6
+2026-10-29T10:06:20Z end v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.0-rc6
+2026-10-29T10:06:20Z start v3-s_jagg_ix_zil_lean --skip-build --jobs 6
+2026-10-29T10:06:21Z end v3-s_jagg_ix_zil_lean rc=0 v3-s_jagg_ix_zil_lean 0 axioms: {}
+2026-10-29T10:06:21Z start v3-s_V_Sekai_TOOL_cloth_dynamics_lean --skip-build --jobs 6
+2026-10-29T10:06:21Z end v3-s_V_Sekai_TOOL_cloth_dynamics_lean rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.1
+2026-10-29T10:06:21Z start v3-s_Panta_Rhei_Research_taulib --skip-build --jobs 6
+2026-10-29T10:06:21Z end v3-s_Panta_Rhei_Research_taulib rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.28.0-rc1
+2026-10-29T10:06:21Z start v3-s_jagg_ix_catept_main --skip-build --jobs 6
+2026-10-29T10:06:21Z end v3-s_jagg_ix_catept_main rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.0
+2026-10-29T10:06:21Z start v3-s_M32026_3d_sticky_kakeya --skip-build --jobs 6
+2026-10-29T10:06:22Z end v3-s_M32026_3d_sticky_kakeya rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.32.0-rc1
+2026-10-29T10:06:22Z start v3-s_briangmilnes_ScottLean4 --skip-build --jobs 6
+2026-10-29T10:06:26Z end v3-s_briangmilnes_ScottLean4 rc=0 v3-s_briangmilnes_ScottLean4 0 axioms: {}
+2026-10-29T10:06:26Z start v3-s_Rob1Ham_btc_lean_spec_runners --skip-build --jobs 6
+2026-10-29T10:06:42Z end v3-s_Rob1Ham_btc_lean_spec_runners rc=0 v3-s_Rob1Ham_btc_lean_spec_runners 63 axioms: {'PROVED': 63}
+2026-10-29T10:06:42Z start v3-s_Rob1Ham_btc_lean_spec --skip-build --jobs 6
+2026-10-29T10:06:44Z end v3-s_Rob1Ham_btc_lean_spec rc=0 v3-s_Rob1Ham_btc_lean_spec 0 axioms: {}
+2026-10-29T10:06:44Z start v3-s_Natuvea_tacenta_core_tacenta_proofs --skip-build --jobs 6
+2026-10-29T10:06:52Z end v3-s_Natuvea_tacenta_core_tacenta_proofs rc=0 v3-s_Natuvea_tacenta_core_tacenta_proofs 1 axioms: {'FAILED': 1}
+2026-10-29T10:06:52Z start v3-s_sun123zxy_ninegates_lean4 --skip-build --jobs 6
+2026-10-29T10:22:37Z end v3-s_sun123zxy_ninegates_lean4 rc=0 v3-s_sun123zxy_ninegates_lean4 14 axioms: {'PROVED': 12, 'TIMEOUT': 2}
+2026-10-29T10:22:37Z start v3-s_COINjecture_Network_COINjecture2_0_lean4 --skip-build --jobs 6
+2026-10-29T10:22:37Z end v3-s_COINjecture_Network_COINjecture2_0_lean4 rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.28.0
+2026-10-29T10:22:37Z start v3-s_justrach_codegraff_lean_proofs --skip-build --jobs 6
+2026-10-29T10:25:45Z end v3-s_justrach_codegraff_lean_proofs rc=0 v3-s_justrach_codegraff_lean_proofs 88 axioms: {'PROVED': 88}
+2026-10-29T10:25:45Z start v3-s_Th0rgal_turbo_lean_lean --skip-build --jobs 6
+2026-10-29T10:25:46Z end v3-s_Th0rgal_turbo_lean_lean rc=0 v3-s_Th0rgal_turbo_lean_lean 0 axioms: {}
+2026-10-29T10:25:46Z start v3-s_RianKoja_novacula --skip-build --jobs 6
+2026-10-29T10:25:47Z end v3-s_RianKoja_novacula rc=0 v3-s_RianKoja_novacula 1 axioms: {'PROVED': 1}
+2026-10-29T10:25:47Z start v3-s_clementefalcone_goya_ledger_formal --skip-build --jobs 6
+2026-10-29T10:26:44Z end v3-s_clementefalcone_goya_ledger_formal rc=0 v3-s_clementefalcone_goya_ledger_formal 10 axioms: {'PROVED': 9, 'FAILED': 1}
+2026-10-29T10:26:44Z start v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover --skip-build --jobs 6
+2026-10-29T10:26:44Z end v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover rc=0 v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover 0 axioms: {}
+2026-10-29T10:26:44Z start v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 --skip-build --jobs 6
+2026-10-29T10:32:46Z end v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 rc=0 v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 12 axioms: {'ERROR': 9, 'PROVED': 2, 'FAILED': 1}
+2026-10-29T10:32:46Z start v3-s_FrederickPu_Zag --skip-build --jobs 6
+2026-10-29T10:34:32Z end v3-s_FrederickPu_Zag rc=0 v3-s_FrederickPu_Zag 23 axioms: {'PROVED': 23}
+2026-10-29T10:34:32Z start v3-s_FormalizedFormalLogic_ProvabilityLogic --skip-build --jobs 6
+2026-10-29T10:34:46Z end v3-s_FormalizedFormalLogic_ProvabilityLogic rc=0 v3-s_FormalizedFormalLogic_ProvabilityLogic 0 axioms: {}
+2026-10-29T10:34:46Z start v3-s_zcash_ironwood --skip-build --jobs 3
+2026-10-29T11:46:31Z end v3-s_zcash_ironwood rc=0 v3-s_zcash_ironwood 332 axioms: {'PROVED': 266, 'FAILED': 8, 'ERROR': 58}
+2026-10-29T11:46:31Z start v3-s_rusch95_cakec_proofs_lean --skip-build --jobs 6
+2026-10-29T11:46:31Z end v3-s_rusch95_cakec_proofs_lean rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.0-rc7
+2026-10-29T11:46:31Z start v3-s_pandaman64_lean_regex_correctness --skip-build --jobs 6
+2026-10-29T11:49:25Z end v3-s_pandaman64_lean_regex_correctness rc=0 v3-s_pandaman64_lean_regex_correctness 2 axioms: {'ERROR': 2}
+2026-10-29T11:49:25Z start v3-s_DeSciX_EGPT_08_LEAN_EGPT --skip-build --jobs 6
+2026-10-29T11:49:41Z end v3-s_DeSciX_EGPT_08_LEAN_EGPT rc=0 v3-s_DeSciX_EGPT_08_LEAN_EGPT 0 axioms: {}
+2026-10-29T11:49:41Z start v3-s_moggedhedien_rimalloc_verify --skip-build --jobs 6
+2026-10-29T11:55:05Z end v3-s_moggedhedien_rimalloc_verify rc=0 v3-s_moggedhedien_rimalloc_verify 12 axioms: {'ERROR': 4, 'PROVED': 8}
+2026-10-29T11:55:05Z start v3-s_opencompl_veir --skip-build --jobs 6
+2026-10-29T11:55:05Z end v3-s_opencompl_veir rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.35.0-rc4
+2026-10-29T11:55:05Z start v3-s_batmeezy918_chronofold --skip-build --jobs 6
+2026-10-29T11:55:05Z end v3-s_batmeezy918_chronofold rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.0
+2026-10-29T11:55:05Z start v3-s_cedar_policy_cedar_spec_cedar_lean --skip-build --jobs 6
+2026-10-29T11:55:11Z end v3-s_cedar_policy_cedar_spec_cedar_lean rc=0 v3-s_cedar_policy_cedar_spec_cedar_lean 26 axioms: {'PROVED': 26}
+2026-10-29T11:55:11Z start v3-s_WyattAu_OmniLaTeX_template_specs_proofs --skip-build --jobs 6
+2026-10-29T11:55:11Z end v3-s_WyattAu_OmniLaTeX_template_specs_proofs rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.29.0
+2026-10-29T11:55:11Z start v3-s_anulum_director_ai_formal_HaltMonitor --skip-build --jobs 6
+2026-10-29T11:55:11Z end v3-s_anulum_director_ai_formal_HaltMonitor rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.34.1
+2026-10-29T11:55:11Z start v3-s_cslib_community_complexitylib --skip-build --jobs 6
+2026-10-29T11:55:12Z end v3-s_cslib_community_complexitylib rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.36.0-rc1
+2026-10-29T11:55:12Z start v3-s_FawadHa1der_leanui --skip-build --jobs 6
+2026-10-29T11:55:12Z end v3-s_FawadHa1der_leanui rc=0 v3-s_FawadHa1der_leanui 0 axioms: {}
+2026-10-29T11:55:12Z start v3-s_Provenance_Works_Radix --skip-build --jobs 6
+2026-10-29T12:00:56Z end v3-s_Provenance_Works_Radix rc=0 v3-s_Provenance_Works_Radix 145 axioms: {'ERROR': 1, 'FAILED': 17, 'PROVED': 127}
+2026-10-29T12:00:56Z start v3-s_Rob1Ham_btc_lean_spec_proofs --skip-build --jobs 6
+2026-10-29T13:15:57Z end v3-s_Rob1Ham_btc_lean_spec_proofs rc=0 v3-s_Rob1Ham_btc_lean_spec_proofs 134 axioms: {'PROVED': 131, 'ERROR': 3}
+2026-10-29T13:15:57Z start v3-s_Natuvea_tacenta_core_tacenta_proofs_translation --skip-build --jobs 6
+2026-10-29T13:16:21Z end v3-s_Natuvea_tacenta_core_tacenta_proofs_translation rc=0 v3-s_Natuvea_tacenta_core_tacenta_proofs_translation 0 axioms: {}
+2026-10-29T13:16:21Z start v3-s_Flaman55_StructuralSieve --skip-build --jobs 6
+2026-10-29T13:16:21Z end v3-s_Flaman55_StructuralSieve rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.35.0-rc2
+2026-10-29T13:16:21Z start v3-s_blentz_artifactsmmo_formal --skip-build --jobs 6
+2026-10-29T13:16:46Z end v3-s_blentz_artifactsmmo_formal rc=0 v3-s_blentz_artifactsmmo_formal 0 axioms: {}
+2026-10-29T13:16:46Z start v3-s_leanprover_community_physlib --skip-build --jobs 6
+2026-10-29T13:20:17Z end v3-s_leanprover_community_physlib rc=0 v3-s_leanprover_community_physlib 4 axioms: {'PROVED': 4}
+2026-10-29T13:20:17Z start v3-s_ertwro_one_third_two_thirds --skip-build --jobs 6
+2026-10-29T13:20:17Z end v3-s_ertwro_one_third_two_thirds rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.28.0
+2026-10-29T13:20:17Z lane end /home/ntbuild/v3/lanes/v3_laneS2.tsv

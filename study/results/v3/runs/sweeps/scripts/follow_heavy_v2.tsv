@@ -1,0 +1,8 @@
+# v3 heavy plain runs (sweeps), one unit: B-lane packages at 6 jobs (BerryEsseen 2), then TrainVerify at 12 jobs.
+# longfellow selects from v3msel-longfellow-zk = v3-longfellow-zk rows followed by v3r-longfellow-zk rows (harness re-runs; last row wins).
+v3-formal-conjectures	v3plain-formal-conjectures	/home/ntbuild/repos/formal-conjectures	--from-results v3-formal-conjectures --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 6
+v3-longfellow-zk	v3plain-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--from-results v3msel-longfellow-zk --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 6
+v3-berry-esseen	v3plain-berry-esseen	/home/ntbuild/repos/berry-esseen	--from-results v3-berry-esseen --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 2
+v3-humanfia-icho2026	v3plain-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--from-results v3-humanfia-icho2026 --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 6
+v3-sounio	v3plain-sounio	/home/ntbuild/repos/sounio/formal	--from-results v3-sounio --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 6
+v3-trainverify	v3plain-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	--from-results v3-trainverify --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 12

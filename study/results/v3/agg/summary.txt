@@ -1,0 +1,64 @@
+== corpus
+package	facts	D	G	P	O	K
+TrainVerify	45720	45714	45714	45714	45717	45717
+cvc5/logos	2185	2185	2185	2185	2185	2185
+Humanfia IChO 2026	1864	1863	1863	1864	1864	1864
+formal-conjectures	690	677	678	678	682	683
+longfellow-zk	690	656	671	671	678	681
+BerryEsseen	579	5	5	5	13	579
+asi-stack-book	392	391	392	392	392	392
+Strata	286	66	66	66	66	100
+clean	120	17	21	21	120	120
+rs-mca (8 sub-projects)	107	106	106	106	106	106
+sounio	77	76	76	76	76	76
+lido-srv3	70	70	70	70	70	70
+cedar-spec	26	26	26	26	26	26
+aks	7	0	0	0	0	0
+sorting-network	7	0	0	0	0	0
+aeneas	1	0	0	0	0	0
+D: pooled 51852/52821 = 98.17%; without trainverify 6138/7101 = 86.44%; without the three largest (trainverify, cvc5-logos, humanfia-icho2026) 2090/3052 = 68.48%; per-package median 98.41% mean 64.30%
+G: pooled 51873/52821 = 98.21%; without trainverify 6159/7101 = 86.73%; without the three largest (trainverify, cvc5-logos, humanfia-icho2026) 2111/3052 = 69.17%; per-package median 98.48% mean 64.67%
+P: pooled 51874/52821 = 98.21%; without trainverify 6160/7101 = 86.75%; without the three largest (trainverify, cvc5-logos, humanfia-icho2026) 2111/3052 = 69.17%; per-package median 98.48% mean 64.67%
+O: pooled 51995/52821 = 98.44%; without trainverify 6278/7101 = 88.41%; without the three largest (trainverify, cvc5-logos, humanfia-icho2026) 2229/3052 = 73.03%; per-package median 98.95% mean 70.01%
+K: pooled 52599/52821 = 99.58%; without trainverify 6882/7101 = 96.92%; without the three largest (trainverify, cvc5-logos, humanfia-icho2026) 2833/3052 = 92.82%; per-package median 99.53% mean 76.90%
+== random sample
+package	facts	D	G	P	O	K
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	534	54	54	54	54	54
+s_zcash_ironwood	332	318	318	318	318	318
+s_emberian_minidregg	228	124	124	124	124	128
+s_opencompl_veir	188	0	188	188	188	188
+s_Provenance_Works_Radix	145	127	127	127	127	127
+s_Rob1Ham_btc_lean_spec_proofs	134	133	133	133	133	133
+s_dappalumbo91_FSOT_2_1_Neural_formal	118	118	118	118	118	118
+s_justrach_codegraff_lean_proofs	88	88	88	88	88	88
+s_Rob1Ham_btc_lean_spec_runners	63	63	63	63	63	63
+s_V_Sekai_fire_interactor_spatial_oracle	43	43	43	43	43	43
+s_cedar_policy_cedar_spec_cedar_lean	26	26	26	26	26	26
+s_FrederickPu_Zag	23	23	23	23	23	23
+s_BobDyLean_bobdylean_paper_artifact	14	0	0	0	0	12
+s_sun123zxy_ninegates_lean4	14	14	14	14	14	14
+s_moggedhedien_rimalloc_verify	12	9	9	12	12	12
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	12	2	2	2	2	2
+s_batmeezy918_chronofold	11	11	11	11	11	11
+s_clementefalcone_goya_ledger_formal	10	9	9	9	10	10
+s_rusch95_cakec_proofs_lean	9	9	9	9	9	9
+s_leanprover_community_physlib	4	4	4	4	4	4
+s_WyattAu_OmniLaTeX_template_specs_proofs	3	3	3	3	3	3
+s_Natuvea_tacenta_core_tacenta_model	2	0	2	2	2	2
+s_pandaman64_lean_regex_correctness	2	0	0	0	0	2
+s_Flaman55_StructuralSieve	1	1	1	1	1	1
+s_Natuvea_tacenta_core_tacenta_proofs	1	0	1	1	1	1
+s_RianKoja_novacula	1	1	1	1	1	1
+D: pooled 1180/2018 = 58.47%; without s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 1126/1484 = 75.88%; without the three largest (s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9, s_zcash_ironwood, s_emberian_minidregg) 684/924 = 74.03%; per-package median 99.63% mean 70.34%
+G: pooled 1371/2018 = 67.94%; without s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 1317/1484 = 88.75%; without the three largest (s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9, s_zcash_ironwood, s_emberian_minidregg) 875/924 = 94.70%; per-package median 100.00% mean 81.88%
+P: pooled 1374/2018 = 68.09%; without s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 1320/1484 = 88.95%; without the three largest (s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9, s_zcash_ironwood, s_emberian_minidregg) 878/924 = 95.02%; per-package median 100.00% mean 82.84%
+O: pooled 1375/2018 = 68.14%; without s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 1321/1484 = 89.02%; without the three largest (s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9, s_zcash_ironwood, s_emberian_minidregg) 879/924 = 95.13%; per-package median 100.00% mean 83.22%
+K: pooled 1393/2018 = 69.03%; without s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 1339/1484 = 90.23%; without the three largest (s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9, s_zcash_ironwood, s_emberian_minidregg) 893/924 = 96.65%; per-package median 100.00% mean 90.43%
+modules not built: {'aks': 9, 'formal-conjectures': 1, 'lido-srv3': 5, 's_COINjecture_Network_COINjecture2_0_lean4': 3, 's_DeSciX_EGPT_08_LEAN_EGPT': 1, 's_FrederickPu_Zag': 2, 's_Natuvea_tacenta_core_tacenta_proofs': 40, 's_PoorlyDefinedBehaviour_lean4_study_lean4dev': 2, 's_Rob1Ham_btc_lean_spec': 63, 's_Rob1Ham_btc_lean_spec_core': 8, 's_Rob1Ham_btc_lean_spec_proofs': 1, 's_Rob1Ham_btc_lean_spec_runners': 2, 's_UOR_Foundation_LexLean_bootstrap': 1, 's_briangmilnes_ScottLean4': 2, 's_emberian_minidregg': 6, 's_jagg_ix_catept_main': 15, 's_justrach_codegraff_lean_proofs': 1, 's_siddhartha_gadgil_PlasmaLean': 1, 's_tejasvi_smale6_six_bodies_generic_v4_lean_full': 8, 's_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose': 7, 's_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5': 1316, 's_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9': 10, 's_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover': 2, 'sorting-network-expanders': 9, 'sounio': 115, 'trainverify': 263}
+left out (do not state an equation): 0
+rs-mca per-theorem facts: 96 (KERNELIZED in D: 96)
+harness failures left in the final D rows: 0 (by pass: {})
+final D pass of the facts: {'v3': 53186, 'v3h': 1358, 'v3h_r': 31, 'v3h_t': 156, 'v3r': 12}
+map files not there yet: 0
+baseline (corpus): study 51764, D 51852 of 52821; converted in the study but not in D 0 (); converted in D but not in the study 88
+baseline (random sample): study 907, D 1180 of 2018; converted in the study but not in D 0 (); converted in D but not in the study 273

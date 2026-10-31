@@ -1,0 +1,14 @@
+2026-10-29T00:20:28Z lane start /home/ntbuild/v3/lanes/v3_laneRF.tsv args: --nt-root /home/ntbuild/v3/nt_v15
+2026-10-29T00:20:28Z start v3f-rs-mca-RS_disproof_v3 --skip-build --jobs 4
+2026-10-29T00:20:34Z end v3f-rs-mca-RS_disproof_v3 rc=0 v3f-rs-mca-RS_disproof_v3 0 axioms: {}
+2026-10-29T00:20:34Z start v3f-rs-mca-cs25_cap_v13 --skip-build --jobs 4
+2026-10-29T00:21:37Z end v3f-rs-mca-cs25_cap_v13 rc=0 v3f-rs-mca-cs25_cap_v13 0 axioms: {}
+2026-10-29T00:21:37Z start v3f-rs-mca-moment_to_max --skip-build --jobs 4
+2026-10-29T00:22:39Z end v3f-rs-mca-moment_to_max rc=0 v3f-rs-mca-moment_to_max 0 axioms: {}
+2026-10-29T00:22:39Z start v3f-rs-mca-razorband_witness --skip-build --jobs 4
+2026-10-29T00:23:41Z end v3f-rs-mca-razorband_witness rc=0 v3f-rs-mca-razorband_witness 0 axioms: {}
+2026-10-29T00:23:41Z start v3f-rs-mca-syndrome_line --skip-build --jobs 4
+2026-10-29T00:24:45Z end v3f-rs-mca-syndrome_line rc=0 v3f-rs-mca-syndrome_line 0 axioms: {}
+2026-10-29T00:24:45Z start v3f-rs-mca-syndrome_secant --skip-build --jobs 4
+2026-10-29T00:25:45Z end v3f-rs-mca-syndrome_secant rc=0 v3f-rs-mca-syndrome_secant 0 axioms: {}
+2026-10-29T00:25:45Z lane end /home/ntbuild/v3/lanes/v3_laneRF.tsv

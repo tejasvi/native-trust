@@ -1,0 +1,12 @@
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_exact_small._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1404612	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_roundtrip._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1469640	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_boundary._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1471192	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_fits._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9209708	42		nt_lines=7 last=pieces=1
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_in_range._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9101652	42		nt_lines=7 last=pieces=1
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_waste._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9180020	43		nt_lines=7 last=pieces=1
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_monotone._native.native_decide.ax_1_1	native_decide	False	PROVED		0	9336540	44		nt_lines=7 last=pieces=1
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.CommitMask	Rimalloc.create_correct._native.native_decide.ax_1_1	native_decide	False	PROVED		0	28263972	162		nt_lines=7 last=pieces=1
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.PageStart	Rimalloc.pageStart_blockAligned._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	45535260	215		nt_lines=5 last=blockers_ms=1 bounded=false copy_ms=3 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.PageStart	Rimalloc.pageStart_align16._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	45500084	217		nt_lines=5 last=blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.PageStart	Rimalloc.pageStart_fits._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	45617492	219		nt_lines=5 last=blockers_ms=2 bounded=false copy_ms=1 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+v3-s_moggedhedien_rimalloc_verify	RimallocVerify.Bins	Rimalloc.bin_fits_bytes._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	44230688	323		nt_lines=5 last=blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

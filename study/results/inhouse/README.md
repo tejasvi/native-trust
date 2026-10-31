@@ -1,7 +1,7 @@
 # In-house results
 
 NativeTrust run on the author's published Lean results that use `native_decide`, set against the hand-built kernel
-versions of the same theorems (Section 8 ("Our published results") and Appendix C of the paper). Each project's summary lists the
+versions of the same theorems (Section 8 ("Comparison with hand-built kernel versions") and Appendix C of the paper). Each project's summary lists the
 toolchain, library version and run limits.
 
 ## Top-level files

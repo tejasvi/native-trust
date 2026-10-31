@@ -1,0 +1,10 @@
+BVS_CMD tc=v4.31.0 nt=/home/ntbuild/nt_fix14/v4.31.0 file=G_Proofs_Serialization_0.lean start=2026-10-29T00:37:52Z
+BVS_STATS	Proofs.Serialization	0	nodes=33	clauses=2	steps=1	hints=2	chunks=1	base_ms=46	chunk_ms=1
+BVS_UNSAT	Proofs.Serialization	0	Proofs.Serialization.readBe32_be32._native.bv_decide.ax_1_9	1	0	47	67	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.readBe32_be32	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.readBe32_be32_nil	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.decode_encode_composite	bvs5_3	thm	same_type=true	std=false	other_bvd=0	conv_left=0	kernel_ms=35	[propext, Classical.choice, Quot.sound, Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9, Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9]
+BVS_USER	Proofs.Serialization.decodeBundle_encodeBundle	bvs5_4	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=36	[propext, Classical.choice, Quot.sound]
+BVS_USER	Proofs.Serialization.decode_encode	bvs5_5	thm	same_type=true	std=false	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound, Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9, Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9]
+BVS_DONE	Proofs.Serialization	[0]	converted=1	all_unsat_ok=true	users=5	users_std=3	users_axiom_left=0	users_failed=0
+BVS_TIME wall=0.77 user=0.59 maxrss_kb=1564332

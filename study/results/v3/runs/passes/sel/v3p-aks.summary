@@ -1,0 +1,1 @@
+v3p aks def=v3-aks selected=5 outer=5 inner=0 harness=0 dup_names=0 pkg_inner=0 list_s=60 re_bytes=548 classes=ERROR:stack=1;TIMEOUT:3600s=3;memory=1

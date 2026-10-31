@@ -1,0 +1,3 @@
+'BerryOpt.S45.final' depends on axioms: [propext, Classical.choice, Quot.sound]
+rc=0
+TIME 0.67 s 1592396 KB

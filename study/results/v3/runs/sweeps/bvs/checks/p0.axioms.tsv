@@ -1,0 +1,5 @@
+asi-stack-book	AsiStackProofs.StackBoundaries	0	bvs5fact_0.unsat	fact	propext, Classical.choice, Quot.sound	std	-	0
+asi-stack-book	AsiStackProofs.StackBoundaries	0	bvs5_1	AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete	propext, Classical.choice, Quot.sound	std	true	0
+asi-stack-book	AsiStackProofs.StackBoundaries	0	bvs5_2	AsiStackProofs.StackBoundaries.unauthorized_external_action_cannot_be_admitted	propext, Classical.choice, Quot.sound	std	true	0
+clean	Clean.Utils.Bitwise	0	bvs5fact_0.unsat	fact	propext, Classical.choice, Quot.sound	std	-	0
+clean	Clean.Utils.Bitwise	0	bvs5_1	not64_eq_sub	propext, Classical.choice, Quot.sound	std	true	0

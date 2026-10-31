@@ -1,0 +1,5 @@
+BerryOpt.S8.parse : BerryEsseen.Upper0423.Native.coverStringAccepted 8 BerryEsseen.Upper0423.Small.Data.Cover8.data =
+  BerryEsseen.Upper0423.Native.coverAccepted 8 0 BerryEsseen.Upper0423.Native.deltaMax 0 1 BerryOpt.S8.t_0
+'BerryOpt.S8.parse' depends on axioms: [propext, Classical.choice, Quot.sound]
+rc=0
+TIME 4.73 s 2512664 KB

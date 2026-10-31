@@ -1,0 +1,1 @@
+BO assemble BerryOpt.S60 nodes=65 node_kernel_ms=32 final_ms=1 wall_ms=35

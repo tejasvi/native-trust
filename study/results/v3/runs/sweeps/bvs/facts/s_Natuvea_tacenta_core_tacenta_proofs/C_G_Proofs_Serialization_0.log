@@ -1,0 +1,21 @@
+BVS_CMD tc=v4.31.0 nt=/home/ntbuild/nt_fix14/v4.31.0 file=C_G_Proofs_Serialization_0.lean start=2026-10-29T01:11:53Z
+'bvs5fact_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9,
+ Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9]
+'bvs5_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9,
+ Model.CompositeHeader.readBe64_be64._native.bv_decide.ax_1_9]
+TYPE	bvs5_1	true
+TYPE	bvs5_2	true
+TYPE	bvs5_3	true
+TYPE	bvs5_4	true
+TYPE	bvs5_5	true
+BVS_TIME wall=0.59 user=0.43 maxrss_kb=1549952

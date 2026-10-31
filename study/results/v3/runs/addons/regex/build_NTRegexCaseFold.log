@@ -1,0 +1,4 @@
+'NTRegex.splitOn_eq_splitOnL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NTRegex.sortedPat_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NTRegex.noChainPat_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 1611472 secs 20.13

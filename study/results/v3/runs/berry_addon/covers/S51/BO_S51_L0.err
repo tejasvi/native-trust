@@ -1,0 +1,13 @@
+BO leaf BerryOpt.S51 k=0 node=5 kernel_ms=73165
+BO leaf BerryOpt.S51 k=1 node=6 kernel_ms=87355
+BO leaf BerryOpt.S51 k=2 node=8 kernel_ms=93369
+BO leaf BerryOpt.S51 k=3 node=10 kernel_ms=95952
+BO leaf BerryOpt.S51 k=4 node=11 kernel_ms=93895
+BO leaf BerryOpt.S51 k=5 node=15 kernel_ms=94197
+BO leaf BerryOpt.S51 k=6 node=16 kernel_ms=95095
+BO leaf BerryOpt.S51 k=7 node=18 kernel_ms=89966
+BO leaf BerryOpt.S51 k=8 node=19 kernel_ms=92452
+BO leaf BerryOpt.S51 k=9 node=22 kernel_ms=87678
+BO leaf BerryOpt.S51 k=10 node=23 kernel_ms=88669
+BO leaf BerryOpt.S51 k=11 node=25 kernel_ms=83858
+BO leaves BerryOpt.S51 0..12 of 31 kernel_ms=1075651 wall_ms=1075978

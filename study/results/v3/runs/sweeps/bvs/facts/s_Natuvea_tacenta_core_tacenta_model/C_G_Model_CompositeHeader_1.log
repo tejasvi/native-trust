@@ -1,0 +1,5 @@
+BVS_CMD tc=v4.31.0 nt=/home/ntbuild/nt_fix14/v4.31.0 file=C_G_Model_CompositeHeader_1.lean start=2026-10-29T01:11:53Z
+'bvs5fact_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE	bvs5_1	true
+BVS_TIME wall=0.55 user=0.41 maxrss_kb=1547304

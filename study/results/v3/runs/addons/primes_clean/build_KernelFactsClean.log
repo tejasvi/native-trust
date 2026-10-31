@@ -1,0 +1,2 @@
+'kf_pSHA256' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 2819040 secs 8.06

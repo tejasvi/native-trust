@@ -1,0 +1,7 @@
+BO leaf BerryOpt.D134 k=30 node=62 kernel_ms=131141
+BO leaf BerryOpt.D134 k=31 node=63 kernel_ms=166504
+BO leaf BerryOpt.D134 k=32 node=68 kernel_ms=183998
+BO leaf BerryOpt.D134 k=33 node=69 kernel_ms=186865
+BO leaf BerryOpt.D134 k=34 node=71 kernel_ms=188405
+BO leaf BerryOpt.D134 k=35 node=72 kernel_ms=185610
+BO leaves BerryOpt.D134 30..36 of 43 kernel_ms=1042523 wall_ms=1042850

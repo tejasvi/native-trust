@@ -1,0 +1,12 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+longfellow1723_000	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash1_v1_parameters._native.native_decide.ax_1_5	ERROR		1	239	0	239	47062220			
+longfellow1723_001	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash2_v1_parameters._native.native_decide.ax_1_5	ERROR		1	242	0	242	47100256			
+longfellow1723_002	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash3_v1_parameters._native.native_decide.ax_1_5	ERROR		1	234	0	235	47007848			
+longfellow1723_003	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_10	ERROR	64	35	493	0	723	47869812			
+longfellow1723_004	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v7Hash4_v1_parameters._native.native_decide.ax_1_5	ERROR		1	235	0	234	47062372			
+longfellow1723_005	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash1_v1_parameters._native.native_decide.ax_1_5	ERROR		1	238	0	238	47094220			
+longfellow1723_006	examples.Ligero.Longfellow.OptimizedIOPCertificates	Ligero.Examples.Grid.LongfellowProfiledExtraction.Optimized.v8Hash2_v1_parameters._native.native_decide.ax_1_5	ERROR		1	240	0	240	47015184			
+longfellow1723_007	polygero.Benchmarks.HahnRateSixteenth.Cert2109	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2109._native.native_decide.ax_1_1	PROVED	33	33	8942	1	4736	42055876	propext,Classical.choice,Quot.sound	yes	
+longfellow1723_008	polygero.Benchmarks.HahnRateSixteenth.Cert2119	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2119._native.native_decide.ax_1_1	PROVED	33	33	5982	1	7723	31122196	propext,Classical.choice,Quot.sound	yes	
+longfellow1723_009	polygero.Benchmarks.HahnRateSixteenth.Cert2129	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2129._native.native_decide.ax_1_1	PROVED	33	33	4296	1	9876	23305764	propext,Classical.choice,Quot.sound	yes	
+longfellow1723_010	polygero.Benchmarks.HahnRateSixteenth.Cert2140	RecursivePolygero.Benchmarks.HahnRateSixteenth.valid2140._native.native_decide.ax_1_1	PROVED	33	33	2781	1	11269	16866196	propext,Classical.choice,Quot.sound	yes	

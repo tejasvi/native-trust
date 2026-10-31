@@ -1,0 +1,1 @@
+^(?:MomentToMax\.PTEClusterPacking\.champion_packingStats\._proof_1_1)$

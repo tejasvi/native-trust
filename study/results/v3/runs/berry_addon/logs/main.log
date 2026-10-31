@@ -1,0 +1,3 @@
+2026-10-29T00:55:57Z main start sel=berry-esseen jobs=12 maxp=70 budget=300/680
+2026-10-29T21:00:21Z tokenizer pass ended rc=0; covers budget raised to 680
+2026-10-29T21:00:21Z main end tok_rc=0 sched_rc=0

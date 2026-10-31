@@ -1,0 +1,19 @@
+package	proved_logs	with_copies	with_copies_outer	copies_outer_plain_proved	copies_outer_plain_not_proved	not_proved(verdict/reason=n)	copies_inner
+trainverify	45712	0	0	0	0		0
+strata	66	36	35	35	0		1
+cvc5-logos	2185	1652	1652	1651	1	FAILED/blocked=1	0
+lido-srv3	70	0	0	0	0		0
+cedar-lean	26	16	16	11	5	FAILED/blocked=5	0
+aks	0	0	0	0	0		0
+sorting-network-expanders	0	0	0	0	0		0
+aeneas-lean	0	0	0	0	0		0
+rs-mca-m31_dyadic_weight_laws	9	0	0	0	0		0
+rs-mca-m31_flatness_keystone	1	0	0	0	0		0
+formal-conjectures	670	19	19	1	18	FAILED/blocked=18	0
+longfellow-zk	633	0	0	0	0		0
+berry-esseen	4	2	2	0	2	FAILED/blocked=2	0
+humanfia-icho2026	1861	40	40	40	0		0
+sounio	70	0	0	0	0		0
+asi-stack-book	391	8	8	8	0		0
+clean	17	0	0	0	0		0
+TOTAL	51715	1773	1772	1746	26		1

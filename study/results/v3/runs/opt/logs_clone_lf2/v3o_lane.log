@@ -1,0 +1,22 @@
+2026-10-30T05:07:19Z lane start list=/home/ntbuild/v3/opt/lists/one-s_Rob1Ham_btc_lean_spec_proofs.txt jobs=14
+2026-10-30T05:07:19Z start v3o-s_Rob1Ham_btc_lean_spec_proofs (1 facts, tc v4.35.0, root /home/ntbuild/nt_fix14)
+2026-10-30T05:21:04Z end v3o-s_Rob1Ham_btc_lean_spec_proofs rc=0 v3o-s_Rob1Ham_btc_lean_spec_proofs 1 axioms: {'ERROR': 1}
+2026-10-30T05:21:04Z lane end
+2026-10-30T05:21:04Z lane start list=/home/ntbuild/v3/opt/lists/one-s_pandaman64_lean_regex_correctness.txt jobs=14
+2026-10-30T05:21:04Z start v3o-s_pandaman64_lean_regex_correctness (2 facts, tc v4.34.0-rc1, root /home/ntbuild/nt_fix14)
+2026-10-30T05:36:27Z end v3o-s_pandaman64_lean_regex_correctness rc=0 v3o-s_pandaman64_lean_regex_correctness 2 axioms: {'TIMEOUT': 2}
+2026-10-30T05:36:27Z lane end
+2026-10-30T05:39:42Z lane start list=/home/ntbuild/v3/opt/lists/one-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5.txt jobs=14
+2026-10-30T05:39:42Z start v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 (10 facts, tc v4.35.0-rc3, root /home/ntbuild/nt_fix14)
+2026-10-30T05:55:46Z end v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 rc=0 v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 10 axioms: {'ERROR': 4, 'TIMEOUT': 6}
+2026-10-30T05:55:46Z lane end
+2026-10-30T05:55:46Z lane start list=/home/ntbuild/v3/opt/lists/one-s_Provenance_Works_Radix.txt jobs=14
+2026-10-30T05:55:46Z start v3o-s_Provenance_Works_Radix (18 facts, tc v4.29.0-rc4, root /home/ntbuild/nt_fix14)
+2026-10-30T06:01:09Z end v3o-s_Provenance_Works_Radix rc=0 v3o-s_Provenance_Works_Radix 18 axioms: {'FAILED': 17, 'ERROR': 1}
+2026-10-30T06:01:09Z lane end
+2026-10-30T06:01:09Z lane start list=/home/ntbuild/v3/opt/lists/one-longfellow-zk.txt jobs=14
+2026-10-30T06:01:09Z start v3o-longfellow-zk (34 facts, tc v4.31.0, root /home/ntbuild/nt_fix14)
+2026-10-30T06:34:06Z end v3o-longfellow-zk rc=0 v3o-longfellow-zk 162 axioms: {'TIMEOUT': 24, 'PROVED': 131, 'FAILED': 2, 'ERROR': 5}
+2026-10-30T06:34:06Z lane end
+2026-10-30T08:32:56Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_be.txt jobs=14
+2026-10-30T08:32:56Z start v3o-berry-esseen (574 facts, tc v4.34.0-rc2, root /home/ntbuild/nt_fix14)

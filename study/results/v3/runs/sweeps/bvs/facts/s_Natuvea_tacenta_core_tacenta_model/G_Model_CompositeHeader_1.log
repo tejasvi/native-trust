@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.31.0 nt=/home/ntbuild/nt_fix14/v4.31.0 file=G_Model_CompositeHeader_1.lean start=2026-10-29T00:38:46Z
+BVS_STATS	Model.CompositeHeader	1	nodes=324	clauses=923	steps=450	hints=7232	chunks=1	base_ms=611	chunk_ms=1178
+BVS_UNSAT	Model.CompositeHeader	1	Model.CompositeHeader.readBe16_be16._native.bv_decide.ax_1_9	450	0	1789	1881	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Model.CompositeHeader.readBe16_be16	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Model.CompositeHeader	[1]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=2.52 user=2.25 maxrss_kb=1756676

@@ -1,0 +1,4 @@
+'NativeTrust.StrFast.splitOn_space' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.StrFast.splitOn_slash' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.StrFast.splitOn_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 508932 secs 0.73

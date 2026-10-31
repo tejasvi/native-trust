@@ -1,0 +1,4 @@
+2026-10-29T13:55:46Z start v3a-fcprimes-formal-conjectures jobs=3 imports=NTFcPrimes
+2026-10-29T13:55:46Z options: none
+v3a-fcprimes-formal-conjectures 15 axioms: {'FAILED': 1, 'TIMEOUT': 1, 'ERROR': 8, 'PROVED': 5}
+2026-10-29T14:14:53Z end rc=0 v3a-fcprimes-formal-conjectures 15 axioms: {'FAILED': 1, 'TIMEOUT': 1, 'ERROR': 8, 'PROVED': 5}

@@ -10,7 +10,7 @@ library and Lake files, sorted by path. From a version's directory:
 
 | manifest | version | used by | how the sources were found |
 |---|---|---|---|
-| `6b378a8e…b3b6` | library v15: v14 + a check that the final theorem produced by the staged route uses only the standard axioms, as the theorems produced by the other routes do (`Kernel`) | the tests on 14 toolchains and the re-run of the five staged conversions; the library at the top of this artifact | the library at the top of this artifact |
+| `6b378a8e…b3b6` | library v15: v14 + a check that the final theorem produced by the staged route uses only the standard axioms, as the theorems produced by the other routes do (`Kernel`) | the final run (`study/results/v3/`), built for 26 toolchains and a nightly (`final_run_builds.tsv`); the tests on 14 toolchains and the re-run of the five staged conversions; the library at the top of this artifact | the library at the top of this artifact |
 | `918ae06c…4b26` | library v14 (box builds `nt_fix13`): v13 + memory fixes for the retries of iterator-string facts (`Copy`, `Kernel`, `Param`), the word-size case split for terms that reach `System.Platform.numBits` (`Kernel`, `Linter`, `Param`) and a per-fact budget and a slowdown limit for `ntrust migrate` (`Driver/Migrate.lean`) | gates `v14-*`, `v14c-*`, `v14s-*` and the tests (`study/gates/v14_tests.sh`); the v14 run of minidregg's three accessibility-fallback facts (`study/results/after/library/types/v14-miniacc/`) | backup of the module directory taken at 2026-10-25 17:24 UTC, just before the v15 change; its root module is unchanged |
 | `19a2dbb3…09e7` | library v13 (box builds `nt_fix12`): v12 + staged evaluation and `@[csimp]` replacements in the kernel (opt-in: `stage := true`, `csimp := true`; `NativeTrust/Reify.lean`) | gates `v13-*`, `v13c-*`, `v13s-*` and the tests (`study/gates/v13_tests.sh`); the runs with opt-in options (`study/results/after/options/`, build `nt22`: the same library modules, see `nt22_sources.sha256` there) | backup of the module directory taken at 2026-10-25 12:01 UTC, just before the v14 change; its root module is unchanged |
 | `72639b93…0d44` | library v12 (`nt_fix11`) | gates `v12-*`, `v12c-*`, `v12s-*`; the csimp add-on's runs and controls | backup of the module directory taken at 2026-10-24 21:41 UTC, just before the v13 change, with the root module at that time |
@@ -28,6 +28,14 @@ Where a backup holds only the module directory (and the root module), `lakefile.
 (`leanprover/lean4:v4.35.0-rc3`) come from the library's work tree; both have the same content in every copy from
 2026-10-23 20:53 UTC to the final version. Every manifest above is recomputed from the files in this directory
 (`results_index.tsv`, row RP2).
+
+The final run used builds of `6b378a8e` for the 26 toolchains that the packages pin, and the nightly test of Section 4.6
+a build for `nightly-2026-10-22` (`final_run_builds.tsv`: toolchain, build directory on the study machine, manifest, and the
+files that differ from `6b378a8e`). A build is the library at the top of the artifact with its own toolchain file and, on
+Lean 4.27-4.29, with `NativeTrust/CSimpCompatStub.lean.txt` and `NativeTrust/StrLibStub.lean.txt` in place of
+`NativeTrust/CSimpCompat.lean` and `NativeTrust/StrLib.lean` (`study/builds/nt_fix14_build_one.sh`, `v3_build_one_v1.sh`).
+`build_manifests.py` recomputes every manifest of that table from the library at the top of the artifact
+(`results_index.tsv`, row RP2c).
 
 One manifest, `b0da4454…0e24`, cannot be recomputed. Its seven library modules (`b0da4454/NativeTrust/`) come from a backup of the
 module directory taken just before the patch that added the retry (2026-10-23 21:44 UTC); the box build copies of

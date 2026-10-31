@@ -1,0 +1,11 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=G_Clean_Gadgets_And_And8_0.lean start=2026-10-29T00:47:43Z
+BVS_STATS	Clean.Gadgets.And.And8	0	nodes=428	clauses=1187	steps=449	hints=7503	chunks=1	base_ms=390	chunk_ms=1524
+BVS_UNSAT	Clean.Gadgets.And.And8	0	_private.Clean.Gadgets.And.And8.0.Gadgets.And.And8.and_times_two_add_xor._native.bv_decide.ax_1_5	449	0	1914	2019	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.and_times_two_add_xor	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=10	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.xor_le_add	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.soundness	bvs5_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=17	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.two_and_le_add	bvs5_4	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.completeness	bvs5_5	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=21	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.And.And8.circuit	bvs5_6	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Clean.Gadgets.And.And8	[0]	converted=1	all_unsat_ok=true	users=6	users_std=6	users_axiom_left=0	users_failed=0
+BVS_TIME wall=3.68 user=3.13 maxrss_kb=3052216

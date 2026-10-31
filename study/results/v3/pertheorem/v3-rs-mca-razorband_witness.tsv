@@ -1,0 +1,16 @@
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_is_redundancy._proof_1_1	KERNELIZED		0	6235232	3		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.a_ge_k_plus_1._proof_1_1	KERNELIZED		0	6237524	3		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_value._proof_1_1	KERNELIZED		0	6236360	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor3_pos._proof_1_1	KERNELIZED		0	6237772	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_value._proof_1_1	KERNELIZED		0	6235568	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_le_redundancy._proof_1_1	KERNELIZED		0	6235468	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_le_Gamma._proof_1_1	KERNELIZED		0	6235468	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_value._proof_1_1	KERNELIZED		0	6236116	5		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_pos._proof_1_1	KERNELIZED		0	6236372	4		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_tight._proof_1_1	KERNELIZED		0	6235676	3		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor1_expanded._proof_1_1	KERNELIZED		0	6235792	3		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness	RazorbandWitness.floor2_pos._proof_1_1	KERNELIZED		0	6235296	5		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localA_signature._proof_1_1	KERNELIZED		0	6238904	9		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localSignatureCount_table._proof_1_1	KERNELIZED		0	6304780	10		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localB_signature._proof_1_1	KERNELIZED		0	6238624	11		1	2	
+v3-rs-mca-razorband_witness	RazorbandWitness.NearSidonRazor	RazorbandWitness.NearSidonRazor.localSignature_eq_classification._proof_1_1	KERNELIZED		0	6560912	11		1	2	

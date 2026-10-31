@@ -1,0 +1,4 @@
+v3h-s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Property.Y02.Corpus	-			NOT_BUILT						
+v3h-s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Property.Y10.MerkleProps	BitcoinProofs.Property.Y10.MerkleProps.casea23._native.native_decide.ax_1_1	native_decide	False	PROVED		0	48523084	822		nt_lines=16 last=pieces=5
+v3h-s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Property.Y10.MerkleProps	BitcoinProofs.Property.Y10.MerkleProps.casea24._native.native_decide.ax_1_1	native_decide	False	PROVED		0	48597444	824		nt_lines=16 last=pieces=5
+v3h-s_Rob1Ham_btc_lean_spec_proofs	BitcoinProofs.Theorems.Exhaust.MerkleShapes64	BitcoinProofs.Theorems.Exhaust.MerkleShapes64.merkle_matrix_64._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	96487464	1957		nt_lines=18 last=blockers_ms=4 bounded=false copy_ms=8 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

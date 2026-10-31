@@ -1,0 +1,4 @@
+v3h-formal-conjectures	FormalConjectures.Arxiv.2507.17780.4	-			NOT_BUILT						
+v3h-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_3	native_decide	True	PROVED		0	6990740	4		nt_lines=5 last=quick whole-term attempt proved it
+v3h-formal-conjectures	FormalConjectures.Wikipedia.SteinerSystem	_private.FormalConjectures.Wikipedia.SteinerSystem.0.SteinerSystems.fano_plane._native.native_decide.ax_1	native_decide	True	PROVED		0	7020200	4		nt_lines=5 last=quick whole-term attempt proved it
+v3h-formal-conjectures	FormalConjectures.OEIS.358684	_private.FormalConjectures.OEIS.«358684».0.OeisA358684.a_6._native.decide.ax_1_1	decide	False	TIMEOUT	3600s	0		3600		nt_lines=5 last=blockers_ms=1 bounded=false copy_ms=2 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

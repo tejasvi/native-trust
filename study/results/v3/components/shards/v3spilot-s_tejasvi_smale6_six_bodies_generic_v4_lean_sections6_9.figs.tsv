@@ -1,0 +1,9 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+stejasvism1638_000	Lean6.Special.Comp.D88.Boxes.KC.Counts	Lean6.Special.D88.Boxes.KC.counts_ok._native.native_decide.ax_1_1	ERROR		1	163	0	163	46176712			
+stejasvism1638_059	Lean6.Special.Comp.D88.Boxes.KC.D058	Lean6.Special.D88.Boxes.KC.D058.ok._native.native_decide.ax_1_1	ERROR		1	156	0	156	46156220			
+stejasvism1638_119	Lean6.Special.Comp.D88.Boxes.N4.D042	Lean6.Special.D88.Boxes.N4.D042.ok._native.native_decide.ax_1_1	ERROR		1	238	0	238	46157788			
+stejasvism1638_179	Lean6.Special.Comp.D88.Boxes.N4.D102	Lean6.Special.D88.Boxes.N4.D102.ok._native.native_decide.ax_1_1	ERROR		1	238	0	238	46158528			
+stejasvism1638_239	Lean6.Special.Comp.D88.Boxes.N4.D162	Lean6.Special.D88.Boxes.N4.D162.ok._native.native_decide.ax_1_1	ERROR		1	238	0	238	46156988			
+stejasvism1638_299	Lean6.Special.Comp.D88.Boxes.N4.D222	Lean6.Special.D88.Boxes.N4.D222.ok._native.native_decide.ax_1_1	ERROR		1	238	0	238	46156736			
+stejasvism1638_359	Lean6.Special.Comp.D88.Boxes.N4.D282	Lean6.Special.D88.Boxes.N4.D282.ok._native.native_decide.ax_1_1	ERROR		1	240	0	240	46155632			
+stejasvism1638_419	Lean6.Special.Comp.K4.E4.Run	Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1	ERROR		1	120	0	120	46171664			

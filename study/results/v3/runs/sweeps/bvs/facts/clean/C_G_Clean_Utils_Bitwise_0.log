@@ -1,0 +1,5 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=C_G_Clean_Utils_Bitwise_0.lean start=2026-10-29T01:11:51Z
+'bvs5fact_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE	bvs5_1	true
+BVS_TIME wall=1.21 user=0.86 maxrss_kb=2673708

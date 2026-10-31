@@ -1,0 +1,155 @@
+start 2026-10-30T20:14:03Z F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.lean
+import NativeTrust
+import BerryEsseen.Upper0423.Covers.Data.BE4
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+set_option nativeTrust.eprint true
+prove_native_axiom_nth BerryEsseen.Upper0423.Covers.Data.BE4 0 (config := { split := 8, trace := true, wf := false })
+NT start _private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1
+NT nested _private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1 ms=282 rebuilt_defs=0 visited=5250
+NT copying BerryEsseen.Upper0423.Covers.Data.BE4.data
+NT copy BerryEsseen.Upper0423.Covers.Data.BE4.data defn_ms=1 eq_ms=1 congr=true
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1 blockers_ms=0 bounded=false copy_ms=27 copies=1 copy_kernel_ms=2 fast_lits=0 string_args=false
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1 quick whole-term attempt did not finish; structured check
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 blockers_ms=9 bounded=true copy_ms=23 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 retry-repl
+NT copying String.Slice.toNat?
+NT copy String.Slice.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying String.Slice.toInt?
+NT copy String.Slice.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toInt?
+NT copy String.toInt? defn_ms=0 eq_ms=0 congr=true
+NT copying String.toNat?
+NT copy String.toNat? defn_ms=0 eq_ms=1 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseRat
+NT copy BerryEsseen.Upper0423.Native.parseRat defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseNat
+NT copy BerryEsseen.Upper0423.Native.parseNat defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.parsePanels._f
+NT copy BerryEsseen.Upper0423.Native.parsePanels._f defn_ms=0 eq_ms=1 congr=true
+NT copying BerryEsseen.Upper0423.Native.parsePanels
+NT copy BerryEsseen.Upper0423.Native.parsePanels defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseEnds._f
+NT copy BerryEsseen.Upper0423.Native.parseEnds._f defn_ms=1 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseEnds
+NT copy BerryEsseen.Upper0423.Native.parseEnds defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseCover._f
+NT copy BerryEsseen.Upper0423.Native.parseCover._f defn_ms=0 eq_ms=2 congr=true
+NT copying BerryEsseen.Upper0423.Native.parseCover
+NT copy BerryEsseen.Upper0423.Native.parseCover defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.tokens
+NT copy BerryEsseen.Upper0423.Native.tokens defn_ms=0 eq_ms=0 congr=true
+NT copying BerryEsseen.Upper0423.Native.coverStringAcceptedBE
+NT copy BerryEsseen.Upper0423.Native.coverStringAcceptedBE defn_ms=0 eq_ms=1 congr=true
+NT copying BerryEsseen.Upper0423.Covers.Data.BE4.data
+NT copy BerryEsseen.Upper0423.Covers.Data.BE4.data defn_ms=1 eq_ms=1 congr=true
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 blockers_ms=8 bounded=true copy_ms=32 copies=15 copy_kernel_ms=9 fast_lits=0 string_args=false
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 retry-repl-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50)       _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Covers.Data.BE4.data =     true  Reachable constant
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 retry-repl-param
+NT param-gen String.Slice.toNat? roots=2 ms=0
+NT param-geq String.Slice.toNat? rfl ms=0
+NT param-gen String.Slice.toInt? roots=2 ms=0
+NT param-geq String.Slice.toInt? rfl ms=1
+NT param-gen String.toInt? roots=2 ms=0
+NT param-geq String.toInt? rfl ms=0
+NT param-gen String.toNat? roots=2 ms=0
+NT param-geq String.toNat? rfl ms=0
+NT param-gen BerryEsseen.Upper0423.Native.parseRat roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseRat rfl ms=2
+NT param-gen BerryEsseen.Upper0423.Native.parseNat roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseNat rfl ms=0
+NT param-gen BerryEsseen.Upper0423.Native.parsePanels._f roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parsePanels._f rfl ms=2
+NT param-gen BerryEsseen.Upper0423.Native.parsePanels roots=2 ms=1
+NT param-geq BerryEsseen.Upper0423.Native.parsePanels rfl ms=2
+NT param-gen BerryEsseen.Upper0423.Native.parseEnds._f roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseEnds._f rfl ms=2
+NT param-gen BerryEsseen.Upper0423.Native.parseEnds roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseEnds rfl ms=2
+NT param-gen BerryEsseen.Upper0423.Native.parseCover._f roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseCover._f rfl ms=4
+NT param-gen BerryEsseen.Upper0423.Native.parseCover roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.parseCover rfl ms=4
+NT param-gen BerryEsseen.Upper0423.Native.coverStringAcceptedBE roots=2 ms=0
+NT param-geq BerryEsseen.Upper0423.Native.coverStringAcceptedBE rfl ms=80
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 param roots=2 gens=13 gen_errors=0 ms=145
+NT _ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0 retry-repl-param-failed the kernel did not reduce the decision procedure to 'true'. Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type   true = true but it is expected to have type   _ktp.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE       (@NativeTrust.StrLib.sliceFoldl) NativeTrust.StrLib.sliceFoldl_eq NativeTrust.StrLib.sliceIsNat       NativeTrust.StrLib.sliceIsNat_eq 4 2
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1` in the kernel:
+    decide
+        (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50) BerryEsseen.Upper0423.Covers.Data.BE4.data =
+          true) =
+      true
+  
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50)
+        _kt.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Covers.Data.BE4.data =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+      via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+  • `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+      via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+  
+  Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+  the kernel did not reduce the decision procedure to `true`.
+  Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+    true = true
+  but it is expected to have type
+    _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50)
+        _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Covers.Data.BE4.data =
+      true
+  
+  Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+  • `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+      via _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.tokens → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+  
+  The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+FAILED `_private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1`: kernelize: cannot prove the statement of `_private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._native.native_decide.ax_1_1` in the kernel:
+  decide
+      (BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50) BerryEsseen.Upper0423.Covers.Data.BE4.data =
+        true) =
+    true
+
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50)
+      _kt.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Covers.Data.BE4.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `_private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque`: opaque constant
+    via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorIdSearchStep → Std.Shrink → _private.Init.Data.Iterators.Basic.0.Std.Internal.idOpaque
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+• `WellFounded.extrinsicFix₃`: loop with extrinsic termination (`WellFounded.extrinsicFix`, used by iterators: `Std.Iter` loops, polymorphic ranges `a...b`, `String.Slice` functions such as `String.toNat?`): its value depends on a classical test of well-foundedness, which the kernel cannot evaluate. Not supported yet; loops over `[a:b]`, `List` or `Array` work
+    via BerryEsseen.Upper0423.Native.coverStringAcceptedBE → BerryEsseen.Upper0423.Native.tokens → String.Slice.Pattern.ForwardSliceSearcher.instIteratorLoopIdSearchStep → Std.IteratorLoop.defaultImplementation → Std.IterM.DefaultConsumers.forIn' → WellFounded.extrinsicFix₃
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+
+Retried with the retry-only replacements (`@[kernel_fold]`, `@[kernel_replace_retry]`, e.g. `NativeTrust.StrLib`) after the first attempt, which failed too:
+the kernel did not reduce the decision procedure to `true`.
+Kernel message: (kernel) declaration type mismatch, '_ktr.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0._private.BerryEsseen.Upper0423.Covers.Data.BE4.0.BerryEsseen.Upper0423.Covers.Data.BE4.accepted._kernel.native_decide.ax_1_1.p_0.eval' has type
+  true = true
+but it is expected to have type
+  _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE 4 2 (131 / 50)
+      _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Covers.Data.BE4.data =
+    true
+
+Reachable constants that the kernel cannot unfold (evaluation gets stuck if it reaches one of them):
+• `WellFounded.fix`: well-founded recursion (`WellFounded.fix`, used for non-`Nat` termination measures, e.g. lexicographic ones): the kernel can evaluate it only by reducing the well-foundedness proof, which Lean blocks (`Lean.opaqueId`) and which from Lean 4.37 on never reduces. Remedies: a `Nat`-valued `termination_by` (Lean then compiles the recursion to fuel), or a proved fuel version registered with `@[kernel_replace]`; on Lean ≤ 4.36 NativeTrust's `wf` transform also works
+    via _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.coverStringAcceptedBE → _kts.F2wf_BerryEsseen_Upper0423_Covers_Data_BE4_0.BerryEsseen.Upper0423.Native.tokens → String.splitOn → String.splitOnAux → String.splitOnAux._unary → WellFounded.fix
+
+The evaluation was bounded to 50000 thousand heartbeats because such constants are reachable; `(config := { blockedHeartbeats := 0 })` removes the bound.
+maxrss_kb 1627084
+rc=0 secs=1 end 2026-10-30T20:14:04Z

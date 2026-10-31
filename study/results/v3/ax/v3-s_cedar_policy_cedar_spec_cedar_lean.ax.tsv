@@ -1,0 +1,26 @@
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Data.Int64	_private.Cedar.Data.Int64.0.Int64.toInt_neg_of_not_ge_zero._native.native_decide.ax_1_2	native_decide	False	PROVED		0	1576268	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Data.Int64	_private.Cedar.Data.Int64.0.Int64.toInt_nonneg_of_ge_zero._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577960	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_8	native_decide	False	PROVED		0	1576864	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_gt_one._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1574896	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_6	native_decide	False	PROVED		0	1575356	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_eq._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1576284	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toDate_eq_smod._native.native_decide.ax_1_6	native_decide	False	PROVED		0	1577496	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1574528	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.toInt_div_msPerDay._native.native_decide.ax_1_3	native_decide	False	PROVED		0	1575424	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	Cedar.Thm.SymCC.Data.Ext	_private.Cedar.Thm.SymCC.Data.Ext.0.Cedar.Thm.msPerDay_toInt._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1577904	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1616364	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1610228	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1612328	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1615596	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1615296	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1611668	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1615768	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.Decimal	UnitTest.Decimal.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1614292	1		nt_lines=23 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test8._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1623568	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test7._native.native_decide.ax_1_1	native_decide	False	PROVED		9	1625116	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test4._native.native_decide.ax_1_1	native_decide	False	PROVED		9	1651216	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test6._native.native_decide.ax_1_1	native_decide	False	PROVED		5	1659500	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test3._native.native_decide.ax_1_1	native_decide	False	PROVED		6	1608828	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test2._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1609276	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test1._native.native_decide.ax_1_1	native_decide	False	PROVED		4	1619524	1		nt_lines=81 last=pieces=1
+v3-s_cedar_policy_cedar_spec_cedar_lean	UnitTest.IPAddr	UnitTest.IPAddr.test5._native.native_decide.ax_1_1	native_decide	False	PROVED		7	1711680	2		nt_lines=81 last=pieces=1

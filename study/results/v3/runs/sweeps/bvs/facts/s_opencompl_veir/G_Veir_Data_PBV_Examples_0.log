@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=G_Veir_Data_PBV_Examples_0.lean start=2026-10-29T00:38:00Z
+BVS_STATS	Veir.Data.PBV.Examples	0	nodes=366	clauses=977	steps=115	hints=974	chunks=1	base_ms=317	chunk_ms=208
+BVS_UNSAT	Veir.Data.PBV.Examples	0	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend._native.bv_decide.ax_1_8	115	0	525	562	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Data.PBV.Examples.0.Veir.Data.PBV.trace_zero_zero_extend	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Data.PBV.Examples	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=1.19 user=0.96 maxrss_kb=1587672

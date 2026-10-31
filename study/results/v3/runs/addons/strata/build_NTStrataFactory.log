@@ -1,0 +1,3 @@
+'NTStrata.instMemDecidable_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NTStrata.get_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 1568840 secs 2.02

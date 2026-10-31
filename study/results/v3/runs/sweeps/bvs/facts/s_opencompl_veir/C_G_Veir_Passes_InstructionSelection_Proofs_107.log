@@ -1,0 +1,5 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=C_G_Veir_Passes_InstructionSelection_Proofs_107.lean start=2026-10-29T01:12:08Z
+'bvs5fact_107.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE	bvs5_1	true
+BVS_TIME wall=0.61 user=0.44 maxrss_kb=1619620

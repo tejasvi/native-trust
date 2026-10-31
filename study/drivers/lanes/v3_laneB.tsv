@@ -1,0 +1,7 @@
+v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	--skip-build
+v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--skip-build
+v3-berry-esseen	/home/ntbuild/repos/berry-esseen	--skip-build
+v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--skip-build
+v3-sounio	/home/ntbuild/repos/sounio/formal	--skip-build
+v3-clean	/home/ntbuild/repos/clean	--skip-build
+v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	--skip-build

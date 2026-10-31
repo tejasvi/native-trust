@@ -1,0 +1,21 @@
+BO leaf BerryOpt.S8 k=20 node=46 kernel_ms=55413
+BO leaf BerryOpt.S8 k=21 node=47 kernel_ms=63659
+BO leaf BerryOpt.S8 k=22 node=52 kernel_ms=57045
+BO leaf BerryOpt.S8 k=23 node=53 kernel_ms=57141
+BO leaf BerryOpt.S8 k=24 node=54 kernel_ms=56543
+BO leaf BerryOpt.S8 k=25 node=57 kernel_ms=51952
+BO leaf BerryOpt.S8 k=26 node=58 kernel_ms=54595
+BO leaf BerryOpt.S8 k=27 node=59 kernel_ms=65892
+BO leaf BerryOpt.S8 k=28 node=60 kernel_ms=71714
+BO leaf BerryOpt.S8 k=29 node=66 kernel_ms=64864
+BO leaf BerryOpt.S8 k=30 node=67 kernel_ms=57637
+BO leaf BerryOpt.S8 k=31 node=68 kernel_ms=55983
+BO leaf BerryOpt.S8 k=32 node=71 kernel_ms=51781
+BO leaf BerryOpt.S8 k=33 node=72 kernel_ms=60661
+BO leaf BerryOpt.S8 k=34 node=73 kernel_ms=69398
+BO leaf BerryOpt.S8 k=35 node=74 kernel_ms=72333
+BO leaf BerryOpt.S8 k=36 node=79 kernel_ms=64596
+BO leaf BerryOpt.S8 k=37 node=80 kernel_ms=67630
+BO leaf BerryOpt.S8 k=38 node=82 kernel_ms=58810
+BO leaf BerryOpt.S8 k=39 node=83 kernel_ms=53824
+BO leaves BerryOpt.S8 20..40 of 124 kernel_ms=1211471 wall_ms=1211777

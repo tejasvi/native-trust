@@ -1,0 +1,15 @@
+package	selected	run_full	probe_only	skipped	PROVED	core_h_runs	core_h_probe_or_stopped	N	note
+aks	4	4	0	0	0	3.89	0	2^40	
+formal-conjectures	10	10	0	0	0	0.48	0	64	
+longfellow-zk	11	11	0	0	4	6.65	0	64	
+rs-mca-m31_flatness_keystone	1	1	0	0	0	0.04	0	2^40	
+s_Provenance_Works_Radix	1	1	0	0	0	0.08	0	64	
+s_Rob1Ham_btc_lean_spec_proofs	1	1	0	0	0	1.17	0	64	
+s_emberian_minidregg	55	55	0	0	0	2.77	0.36	64	12 FAILED nested native fact (unknown constant _ktshard...graph_built/prepared_nat7)
+s_pandaman64_lean_regex_correctness	2	2	0	0	0	0.09	0	64	
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	9	9	0	0	0	0.62	0	64	
+s_zcash_ironwood	5	5	0	0	0	0.28	0	64	
+sorting-network-expanders	4	4	0	0	0	0.24	0	64	
+trainverify	6	6	0	0	3	3.94	9.10	64	stopped N=2^40 run: 9.1 core-h, 311 of 1977 pieces of one fact
+berry-esseen	574	8	8	558	8	25.00	0.28	2^40	8 Uniform chunks run; covers: probe piece 0 of 8 (all OOM 46 GiB), 558 skipped
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	420	0	8	412	0	0	0.45	64	probe piece 0 of 8 (all OOM 46 GiB), 412 skipped

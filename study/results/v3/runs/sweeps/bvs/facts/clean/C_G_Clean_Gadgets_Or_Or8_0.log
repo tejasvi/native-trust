@@ -1,0 +1,15 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=C_G_Clean_Gadgets_Or_Or8_0.lean start=2026-10-29T01:11:51Z
+'bvs5fact_0.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+TYPE	bvs5_1	true
+TYPE	bvs5_2	true
+TYPE	bvs5_3	true
+TYPE	bvs5_4	true
+TYPE	bvs5_5	true
+TYPE	bvs5_6	true
+BVS_TIME wall=1.27 user=0.91 maxrss_kb=2772016

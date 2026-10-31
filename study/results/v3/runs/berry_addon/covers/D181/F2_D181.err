@@ -1,0 +1,4 @@
+NT start _private.BerryEsseen.Upper0423.Covers.Data.DW181.0.BerryEsseen.Upper0423.Covers.Data.DW181.accepted._native.native_decide.ax_1_1
+NT nested _private.BerryEsseen.Upper0423.Covers.Data.DW181.0.BerryEsseen.Upper0423.Covers.Data.DW181.accepted._native.native_decide.ax_1_1 ms=307 rebuilt_defs=0 visited=5250
+NT kernel_fact _private.BerryEsseen.Upper0423.Covers.Data.DW181.0.BerryEsseen.Upper0423.Covers.Data.DW181.accepted._native.native_decide.ax_1_1 via BerryOpt.D181.final
+PROVED `_private.BerryEsseen.Upper0423.Covers.Data.DW181.0.BerryEsseen.Upper0423.Covers.Data.DW181.accepted._native.native_decide.ax_1_1` as `_ktr.F2_D181._private.BerryEsseen.Upper0423.Covers.Data.DW181.0.BerryEsseen.Upper0423.Covers.Data.DW181.accepted._kernel.native_decide.ax_1_1`: kernel_ms=0 native_axioms=1 rebuilt=0 copies=0 total_ms=308 acc_fallback=0 pieces=0

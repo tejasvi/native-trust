@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=G_Veir_Passes_InstructionSelection_Proofs_56.lean start=2026-10-29T00:42:45Z
+BVS_STATS	Veir.Passes.InstructionSelection.Proofs	56	nodes=3100	clauses=8525	steps=5408	hints=46935	chunks=3	base_ms=2938	chunk_ms=14393
+BVS_UNSAT	Veir.Passes.InstructionSelection.Proofs	56	_private.Veir.Passes.InstructionSelection.Proofs.0.Veir.Data.RISCV.smin_refinement._native.bv_decide.ax_1_5	5408	0	17331	18376	bvs5fact_56.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.smin_refinement	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=5	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.InstructionSelection.Proofs	[56]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=20.35 user=19.95 maxrss_kb=2632776

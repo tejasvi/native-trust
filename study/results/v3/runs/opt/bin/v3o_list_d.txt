@@ -1,0 +1,13 @@
+s_FormalizedFormalLogic_ProvabilityLogic /home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic
+s_FrederickPu_Zag /home/ntbuild/repos_s/FrederickPu_Zag
+s_JacobAsmuth_qed /home/ntbuild/repos_s/JacobAsmuth_qed
+s_Natuvea_tacenta_core_tacenta_proofs /home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs
+s_RianKoja_novacula /home/ntbuild/repos_s/RianKoja_novacula
+s_Rob1Ham_btc_lean_spec /home/ntbuild/repos_s/Rob1Ham_btc-lean/spec
+s_Rob1Ham_btc_lean_spec_runners /home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners
+s_Th0rgal_turbo_lean_lean /home/ntbuild/repos_s/Th0rgal_turbo-lean/lean
+s_briangmilnes_ScottLean4 /home/ntbuild/repos_s/briangmilnes_ScottLean4
+s_clementefalcone_goya_ledger_formal /home/ntbuild/repos_s/clementefalcone_goya-ledger/formal
+s_jagg_ix_zil_lean /home/ntbuild/repos_s/jagg-ix_zil-lean
+s_justrach_codegraff_lean_proofs /home/ntbuild/repos_s/justrach_codegraff/lean-proofs
+s_ycmath_odd_flat_selector_count_lean_flatcarrier /home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier

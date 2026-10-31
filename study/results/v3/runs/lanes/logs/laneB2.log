@@ -1,0 +1,16 @@
+2026-10-29T00:11:13Z lane start /home/ntbuild/v3/lanes/v3_laneB2.tsv args: --nt-root /home/ntbuild/nt_fix14
+2026-10-29T00:11:13Z start v3-formal-conjectures --skip-build --jobs 6
+2026-10-29T00:35:35Z end v3-formal-conjectures rc=0 v3-formal-conjectures 381 axioms: {'FAILED': 1, 'PROVED': 363, 'ERROR': 16, 'TIMEOUT': 1}
+2026-10-29T00:35:35Z start v3-longfellow-zk --skip-build --jobs 8
+2026-10-29T01:29:00Z end v3-longfellow-zk rc=0 v3-longfellow-zk 690 axioms: {'PROVED': 630, 'FAILED': 17, 'ERROR': 43}
+2026-10-29T01:29:00Z start v3-berry-esseen --skip-build --jobs 12
+2026-10-29T02:52:46Z end v3-berry-esseen rc=0 v3-berry-esseen 579 axioms: {'PROVED': 2, 'TIMEOUT': 3, 'ERROR': 574}
+2026-10-29T02:52:46Z start v3-humanfia-icho2026 --skip-build --jobs 8
+2026-10-29T03:09:41Z end v3-humanfia-icho2026 rc=0 v3-humanfia-icho2026 1864 axioms: {'ERROR': 3, 'PROVED': 1861}
+2026-10-29T03:09:41Z start v3-sounio --skip-build --jobs 6
+2026-10-29T03:19:31Z end v3-sounio rc=0 v3-sounio 77 axioms: {'PROVED': 70, 'FAILED': 1, 'ERROR': 6}
+2026-10-29T03:19:31Z start v3-asi-stack-book --skip-build --jobs 8
+2026-10-29T03:20:15Z end v3-asi-stack-book rc=0 v3-asi-stack-book 392 axioms: {'FAILED': 1, 'PROVED': 391}
+2026-10-29T03:20:15Z start v3-clean --skip-build --jobs 4
+2026-10-29T03:43:45Z end v3-clean rc=0 v3-clean 120 axioms: {'FAILED': 103, 'PROVED': 17}
+2026-10-29T03:43:45Z lane end /home/ntbuild/v3/lanes/v3_laneB2.tsv

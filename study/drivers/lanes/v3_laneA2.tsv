@@ -1,0 +1,9 @@
+v3-strata	/home/ntbuild/repos/Strata	--skip-build --jobs 16
+v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	--skip-build --jobs 16
+v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	--skip-build --jobs 16
+v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	--skip-build --jobs 16
+v3-aks	/home/ntbuild/repos/aks	--skip-build --jobs 2
+v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	--skip-build --jobs 2
+v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	--skip-build --jobs 2
+v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	--skip-build --jobs 8
+v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	--skip-build --jobs 2

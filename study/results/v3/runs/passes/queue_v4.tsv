@@ -1,0 +1,3 @@
+sp-berry-esseen	v3s	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	8	48	900	48	stem=shard-berry-esseen-probe base=/home/ntbuild/v3/passes/shard_probe pmax=1
+s2-berry-esseen	v3s	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	12	48	900	48	stem=shard-berry-esseen-chunks base=/home/ntbuild/v3/passes/shard pmax=10000
+s2-trainverify	v3s	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	6	48	900	48	stem=shard-trainverify-n64 base=/home/ntbuild/v3/passes/shard_n64 pmax=10000

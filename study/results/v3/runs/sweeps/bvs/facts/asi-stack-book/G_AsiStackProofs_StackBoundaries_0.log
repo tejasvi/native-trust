@@ -1,0 +1,7 @@
+BVS_CMD tc=v4.31.0 nt=/home/ntbuild/nt_fix14/v4.31.0 file=G_AsiStackProofs_StackBoundaries_0.lean start=2026-10-29T00:37:58Z
+BVS_STATS	AsiStackProofs.StackBoundaries	0	nodes=580	clauses=1424	steps=362	hints=840	chunks=1	base_ms=657	chunk_ms=291
+BVS_UNSAT	AsiStackProofs.StackBoundaries	0	AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete._native.bv_decide.ax_1_7	362	0	948	993	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	AsiStackProofs.StackBoundaries.admitted_layer_contract_is_complete	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=42	[propext, Classical.choice, Quot.sound]
+BVS_USER	AsiStackProofs.StackBoundaries.unauthorized_external_action_cannot_be_admitted	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_DONE	AsiStackProofs.StackBoundaries	[0]	converted=1	all_unsat_ok=true	users=2	users_std=2	users_axiom_left=0	users_failed=0
+BVS_TIME wall=1.65 user=1.49 maxrss_kb=1687680

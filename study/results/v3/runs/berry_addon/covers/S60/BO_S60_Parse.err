@@ -1,0 +1,2 @@
+BO parse BerryOpt.S60 hpL kernel_ms=1989
+BO parse BerryOpt.S60 parse kernel_ms=6

@@ -1,0 +1,35 @@
+\newcommand{\vtotfacts}{52,821}   % corpus facts
+\newcommand{\vtotconv}{51,852}   % corpus facts converted in the final run
+\newcommand{\vtotrate}{98.2\%}   % pooled rate, final run
+\newcommand{\vtotfail}{969}   % corpus facts not converted in the final run
+\newcommand{\vwoTVconv}{6,138}   % without trainverify, of 7,101
+\newcommand{\vwoTVrate}{86.4\%}   % pooled rate without the largest package
+\newcommand{\vwoTopconv}{2,090}   % without trainverify, cvc5-logos, humanfia-icho2026, of 3,052
+\newcommand{\vwoToprate}{68.5\%}   % pooled rate without the three largest
+\newcommand{\vmedian}{98.4\%}   % per-package median rate, final run
+\newcommand{\vmean}{64.3\%}   % per-package mean rate, final run
+\newcommand{\vstudyconv}{51,764}   % the study, same facts
+\newcommand{\vstudyrate}{98.0\%}   % pooled rate of the study, same facts
+\newcommand{\vregress}{0}   % converted in the study, not by the final library
+\newcommand{\vgain}{88}   % converted by the final library, not in the study
+\newcommand{\vgainlist}{longfellow-zk 30, cedar-spec 16, formal-conjectures 13, asi-stack-book 8, TrainVerify 7, sounio 6, BerryEsseen 3, Humanfia IChO 2026 3, rs-mca 2}   % the gains per package
+\newcommand{\vnhi}{10}   % packages converting at least half
+\newcommand{\vnlo}{6}   % packages converting less than half
+\newcommand{\vhimin}{95.1\%}   % lowest rate among the packages converting at least half
+\newcommand{\vlomax}{23.1\%}   % highest rate among the packages converting less than half
+\newcommand{\vtraced}{231}   % failures with a traced class (Table 2 rows other than resources)
+\newcommand{\vuntraced}{738}   % failures at time, memory or recursion-depth limits
+\newcommand{\vresfail}{738}   % the same, Table 2 resource row
+\newcommand{\vsamppkg}{26}   % sample runs with facts
+\newcommand{\vsampfacts}{2,018}   % sample facts
+\newcommand{\vsampconv}{1,180}   % sample facts converted, final run
+\newcommand{\vsamprate}{58.5\%}   % sample pooled rate, final run
+\newcommand{\vsampmedian}{99.6\%}   % sample per-package median, final run
+\newcommand{\vsampmean}{70.3\%}   % sample per-package mean, final run
+\newcommand{\vsampwoBigrate}{75.9\%}   % without the largest, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9
+\newcommand{\vsampstudyconv}{907}   % sample facts converted in the study (Zag from retry-zag, as the paper reports the study)
+\newcommand{\vsampregress}{0}   % sample facts converted in the study, not in the final run
+\newcommand{\vconvsecmed}{2}   % converted corpus facts: median wall seconds including the import
+\newcommand{\vconvsecpninety}{3}   % converted corpus facts: 90th percentile wall seconds
+\newcommand{\vrssmed}{3.3}   % converted corpus facts: median peak memory per process, GiB (KiB / 2^20)
+\newcommand{\vperfact}{52,725}   % facts of the per-fact driver (corpus)

@@ -1,0 +1,3 @@
+2026-10-29T10:54:35Z start v3oh-trainverify (7 facts, 3000s, tc v4.32.2, root /home/ntbuild/nt_fix14, import none)
+v3oh-trainverify 25 axioms: {'ERROR': 3, 'TIMEOUT': 1, 'PROVED': 21}
+2026-10-29T11:56:48Z end v3oh-trainverify rc=0

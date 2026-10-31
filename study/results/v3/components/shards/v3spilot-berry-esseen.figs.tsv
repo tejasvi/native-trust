@@ -1,0 +1,9 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+berryesseea26e_000	BerryEsseen.Upper0423.Covers.Data.BE10	_private.BerryEsseen.Upper0423.Covers.Data.BE10.0.BerryEsseen.Upper0423.Covers.Data.BE10.accepted._native.native_decide.ax_1_1	ERROR		1	109	0	109	46184808			
+berryesseea26e_080	BerryEsseen.Upper0423.Covers.Data.BE172	_private.BerryEsseen.Upper0423.Covers.Data.BE172.0.BerryEsseen.Upper0423.Covers.Data.BE172.accepted._native.native_decide.ax_1_1	ERROR		1	124	0	124	46128096			
+berryesseea26e_161	BerryEsseen.Upper0423.Covers.Data.BE246	_private.BerryEsseen.Upper0423.Covers.Data.BE246.0.BerryEsseen.Upper0423.Covers.Data.BE246.accepted._native.native_decide.ax_1_1	ERROR		1	124	0	124	46131808			
+berryesseea26e_242	BerryEsseen.Upper0423.Covers.Data.BE91	_private.BerryEsseen.Upper0423.Covers.Data.BE91.0.BerryEsseen.Upper0423.Covers.Data.BE91.accepted._native.native_decide.ax_1_1	ERROR		1	114	0	114	46194868			
+berryesseea26e_322	BerryEsseen.Upper0423.Covers.Data.DW164	_private.BerryEsseen.Upper0423.Covers.Data.DW164.0.BerryEsseen.Upper0423.Covers.Data.DW164.accepted._native.native_decide.ax_1_1	ERROR		1	135	0	136	46184008			
+berryesseea26e_403	BerryEsseen.Upper0423.Covers.Data.DW238	_private.BerryEsseen.Upper0423.Covers.Data.DW238.0.BerryEsseen.Upper0423.Covers.Data.DW238.accepted._native.native_decide.ax_1_1	ERROR		1	139	0	139	46184604			
+berryesseea26e_484	BerryEsseen.Upper0423.Covers.Data.DW81	_private.BerryEsseen.Upper0423.Covers.Data.DW81.0.BerryEsseen.Upper0423.Covers.Data.DW81.accepted._native.native_decide.ax_1_1	ERROR		1	133	0	132	46180684			
+berryesseea26e_565	BerryEsseen.Upper0423.Small.Data.Cover9	_private.BerryEsseen.Upper0423.Small.Data.Cover9.0.BerryEsseen.Upper0423.Small.Data.Cover9.accepted._native.native_decide.ax_1_1	ERROR		1	128	0	127	46173136			

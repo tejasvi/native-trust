@@ -1,0 +1,7 @@
+BO leaf BerryOpt.D145 k=18 node=38 kernel_ms=130514
+BO leaf BerryOpt.D145 k=19 node=43 kernel_ms=171389
+BO leaf BerryOpt.D145 k=20 node=44 kernel_ms=178025
+BO leaf BerryOpt.D145 k=21 node=45 kernel_ms=174592
+BO leaf BerryOpt.D145 k=22 node=48 kernel_ms=177744
+BO leaf BerryOpt.D145 k=23 node=49 kernel_ms=178627
+BO leaves BerryOpt.D145 18..24 of 42 kernel_ms=1010891 wall_ms=1011187

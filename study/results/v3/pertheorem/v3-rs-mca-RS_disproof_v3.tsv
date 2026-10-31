@@ -1,0 +1,17 @@
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_eq_subgroup._proof_1_1	KERNELIZED		0	6247140	10		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_card._proof_1_1	KERNELIZED		0	6245016	10		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r5._proof_1_1	KERNELIZED		0	6273804	11		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r3._proof_1_1	KERNELIZED		0	6270152	10		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_card._proof_1_1	KERNELIZED		0	6243916	9		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_eq_subgroup._proof_1_1	KERNELIZED		0	6329200	10		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_lb._proof_1_1	KERNELIZED		0	14209516	53		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_ub._proof_1_1	KERNELIZED		0	14208152	54		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_eq_subgroup._proof_1_1	KERNELIZED		0	5976844	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_card._proof_1_1	KERNELIZED		0	5967552	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r5._proof_1_1	KERNELIZED		0	6274116	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p17_r3._proof_1_1	KERNELIZED		0	6269800	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q17_card._proof_1_1	KERNELIZED		0	6243240	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	Q257_eq_subgroup._proof_1_1	KERNELIZED		0	6327848	8		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_lb._proof_1_1	KERNELIZED		0	14208036	49		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	pigeonhole_p17_ub._proof_1_1	KERNELIZED		0	14209136	50		1	2	
+v3-rs-mca-RS_disproof_v3	RS_disproof_v3.Verification	coverage_p257_r9._proof_1_1	ERROR	memory		47496636	635		1	2	

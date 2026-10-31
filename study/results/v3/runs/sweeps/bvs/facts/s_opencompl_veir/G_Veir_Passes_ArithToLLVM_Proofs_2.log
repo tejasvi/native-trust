@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=G_Veir_Passes_ArithToLLVM_Proofs_2.lean start=2026-10-29T00:38:04Z
+BVS_STATS	Veir.Passes.ArithToLLVM.Proofs	2	nodes=253	clauses=707	steps=169	hints=1831	chunks=1	base_ms=211	chunk_ms=381
+BVS_UNSAT	Veir.Passes.ArithToLLVM.Proofs	2	_private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.addui_extended_lowering._native.bv_decide.ax_1_9	169	0	592	632	bvs5fact_2.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.LLVM.Int.addui_extended_lowering	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=10	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.ArithToLLVM.Proofs	[2]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=1.34 user=1.08 maxrss_kb=1655820

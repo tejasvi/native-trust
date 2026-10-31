@@ -1,0 +1,11 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=C_G_Veir_Interpreter_Memory_1.lean start=2026-10-29T01:11:58Z
+'bvs5fact_1.unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bvs5_2' depends on axioms: [propext, Classical.choice, Quot.sound, Veir.MemoryState.loadByte64._native.bv_decide.ax_5✝]
+'bvs5_3' depends on axioms: [propext, Classical.choice, Quot.sound, Veir.MemoryState.loadByte64._native.bv_decide.ax_5✝]
+'bvs5_4' depends on axioms: [propext, Classical.choice, Quot.sound, Veir.MemoryState.loadByte64._native.bv_decide.ax_5✝]
+TYPE	bvs5_1	true
+TYPE	bvs5_2	true
+TYPE	bvs5_3	true
+TYPE	bvs5_4	true
+BVS_TIME wall=0.63 user=0.47 maxrss_kb=1622708

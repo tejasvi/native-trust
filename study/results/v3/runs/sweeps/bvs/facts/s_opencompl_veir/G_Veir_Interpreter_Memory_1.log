@@ -1,0 +1,9 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=G_Veir_Interpreter_Memory_1.lean start=2026-10-29T00:38:04Z
+BVS_STATS	Veir.Interpreter.Memory	1	nodes=40	clauses=71	steps=18	hints=50	chunks=1	base_ms=22	chunk_ms=11
+BVS_UNSAT	Veir.Interpreter.Memory	1	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._native.bv_decide.ax_8	18	0	33	55	bvs5fact_1.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Veir.Interpreter.Memory.0.Veir.MemoryState.llvmLoad._proof_1	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.MemoryState.llvmLoad	bvs5_2	def	same_type=true	std=false	other_bvd=1	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound, _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5]
+BVS_USER	Veir.MemoryState.memcpy	bvs5_3	def	same_type=true	std=false	other_bvd=1	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound, _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5]
+BVS_USER	Veir.MemoryState.memmove	bvs5_4	def	same_type=true	std=false	other_bvd=1	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound, _private.Veir.Interpreter.Memory.0.Veir.MemoryState.loadByte64._native.bv_decide.ax_5]
+BVS_DONE	Veir.Interpreter.Memory	[1]	converted=1	all_unsat_ok=true	users=4	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=0.72 user=0.47 maxrss_kb=1602632

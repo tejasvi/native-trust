@@ -1,0 +1,3 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=L_Clean_Gadgets_Or_Or8.lean start=2026-10-29T00:36:32Z
+0: _private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._native.bv_decide.ax_1_5
+BVS_TIME wall=1.37 user=0.93 maxrss_kb=2752060

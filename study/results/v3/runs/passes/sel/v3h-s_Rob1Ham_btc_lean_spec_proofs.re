@@ -1,0 +1,1 @@
+^(?:BitcoinProofs\.Property\.Y10\.MerkleProps\.casea23\._native\.native_decide\.ax_1_1|BitcoinProofs\.Property\.Y10\.MerkleProps\.casea24\._native\.native_decide\.ax_1_1|BitcoinProofs\.Theorems\.Exhaust\.MerkleShapes64\.merkle_matrix_64\._native\.native_decide\.ax_1_1)$

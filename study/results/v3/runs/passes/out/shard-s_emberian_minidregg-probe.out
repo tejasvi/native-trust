@@ -1,0 +1,11 @@
+semberianmf968_000: no piece count (piece 0 failed?)
+semberianmf968_007: no piece count (piece 0 failed?)
+semberianmf968_015: no piece count (piece 0 failed?)
+semberianmf968_023: no piece count (piece 0 failed?)
+semberianmf968_030: no piece count (piece 0 failed?)
+semberianmf968_038: no piece count (piece 0 failed?)
+semberianmf968_046: no piece count (piece 0 failed?)
+semberianmf968_054: no piece count (piece 0 failed?)
+environment: line 5: cd: /home/ntbuild/v3/passes/shard_probe/bash: No such file or directory
+multi5 done 2026-10-30T12:03:07Z
+/home/ntbuild/results/v3spilot-s_emberian_minidregg.ax.tsv: 8 rows PROVED=0 FAILED=0 TIMEOUT=0 ERROR=6 NOT_RUN=2

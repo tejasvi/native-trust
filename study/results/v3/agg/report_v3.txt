@@ -1,0 +1,52 @@
+gains per package (corpus): longfellow-zk 30, cedar-lean 16, formal-conjectures 13, asi-stack-book 8, trainverify 7, sounio 6, berry-esseen 3, humanfia-icho2026 3, rs-mca 2
+corpus D: 51,852/52,821 98.2\%; without trainverify 6,138/7,101 86.4\%; without top 3 2,090/3,052 68.5\%; median 98.4% mean 64.3%; study 51,764 98.0\%; >=50%: 10 packages, <50%: 6
+Table 1:
+TrainVerify (distributed-training graphs) & software & 45,720 & 45,707 & 45,714 & 99.99\%\\
+cvc5/logos (checker for cvc5 proofs) & software & 2,185 & 2,185 & 2,185 & 100\%\\
+Humanfia IChO 2026 (AI-written) & chemistry & 1,864 & 1,860 & 1,863 & 99.9\%\\
+formal-conjectures & mathematics & 690 & 664 & 677 & 98.1\%\\
+longfellow-zk (Lean model) & software & 690 & 626 & 656 & 95.1\%\\
+asi-stack-book & software & 392 & 383 & 391 & 99.7\%\\
+rs-mca (8 sub-projects) & mathematics & 107 & 104 & 106 & 99.1\%\\
+sounio & software & 77 & 70 & 76 & 98.7\%\\
+lido-srv3 proof closure & software & 70 & 70 & 70 & 100\%\\
+cedar-spec & software & 26 & 10 & 26 & 100\%\\
+\midrule
+BerryEsseen & mathematics & 579 & 2 & 5 & 0.9\%\\
+Strata & software & 286 & 66 & 66 & 23.1\%\\
+clean (zk circuits) & software & 120 & 17 & 17 & 14.2\%\\
+aks & mathematics & 7 & 0 & 0 & 0\%\\
+sorting-network & mathematics & 7 & 0 & 0 & 0\%\\
+aeneas & software & 1 & 0 & 0 & 0\%\\
+\midrule
+total & & 52,821 & 51,764 & 51,852 & 98.2\%\\\bottomrule
+Table 2 (corpus, 969 facts; traced 231, not traced 738):
+Lean's metaprogramming layer, HashMap, USize & 220 & Strata\\
+C primitives and platform constants & 6 & aks 2, sorting-network 2, aeneas 1, sounio 1\\
+the LRAT parser of bv_decide & 5 & clean 4, asi-stack-book 1\\
+time, memory or recursion-depth limit & 738 & BerryEsseen 574, clean 99, longfellow-zk 34, formal-conj.\  13, TrainVerify 6, aks 5, sorting-network 5, Humanfia 1, rs-mca 1\\
+sample classes:
+  time, memory or recursion-depth limit	509	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 420, s_emberian_minidregg 60, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 9, s_zcash_ironwood 6, s_opencompl_veir 5, s_moggedhedien_rimalloc_verify 3, s_pandaman64_lean_regex_correctness 2, s_BobDyLean_bobdylean_paper_artifact 1, s_Provenance_Works_Radix 1, s_Rob1Ham_btc_lean_spec_proofs 1, s_clementefalcone_goya_ledger_formal 1
+  the LRAT parser of bv_decide	203	s_opencompl_veir 183, s_Provenance_Works_Radix 17, s_Natuvea_tacenta_core_tacenta_model 2, s_Natuvea_tacenta_core_tacenta_proofs 1
+  blocked: partial function / while loop	63	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 52, s_emberian_minidregg 9, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 1, s_zcash_ironwood 1
+  iterator-based string functions	25	s_emberian_minidregg 23, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 2
+  WellFounded.fix	17	s_BobDyLean_bobdylean_paper_artifact 13, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 4
+  blocked: String (C primitive) + partial function / while loop	7	s_emberian_minidregg 7
+  HashMap, USize	5	s_emberian_minidregg 5
+  does not state an equation	4	s_zcash_ironwood 4
+  C primitives and platform constants	2	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 2
+  blocked: hashing (C primitive) + other opaque constant	2	s_zcash_ironwood 2
+  false in the logic	1	s_zcash_ironwood 1
+components table (study, D, G, O, K):
+corpus, pooled & 98.0\% & 98.2\% & 98.2\% & 98.4\% & 99.6\%\\
+corpus without the three largest & 65.9\% & 68.5\% & 69.2\% & 73.0\% & 92.8\%\\
+corpus, per-package median & 90.8\% & 98.4\% & 98.5\% & 99.0\% & 99.5\%\\
+random sample, pooled & 44.9\% & 58.5\% & 67.9\% & 68.1\% & 69.0\%\\
+random sample, per-package median & 77.8\% & 99.6\% & 100.0\% & 100.0\% & 100.0\%\\
+  corpus D: 51,852/52,821 98.2\%; without top 3 2,090/3,052 68.5\%
+  corpus G: 51,873/52,821 98.2\%; without top 3 2,111/3,052 69.2\%
+  corpus P: 51,874/52,821 98.2\%; without top 3 2,111/3,052 69.2\%
+  corpus O: 51,995/52,821 98.4\%; without top 3 2,229/3,052 73.0\%
+  corpus K: 52,599/52,821 99.6\%; without top 3 2,833/3,052 92.8\%
+sample D: 26 packages with facts, 1,180/2,018 58.5\%; median 99.6% mean 70.3%; largest s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 (534); without it 1,126/1,484 75.9\%; own packages: s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 54/534, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 2/12; study 907
+corpus per-fact rows: 52,725; by tactic {'native_decide': 52523, 'bv_decide': 5, 'decide': 197}; inner facts 342 {'PROVED': 339, 'FAILED': 3}; converted fact secs median 2.0 p90 3; peak memory median 3.29 GiB; false_in_logic (all) 1

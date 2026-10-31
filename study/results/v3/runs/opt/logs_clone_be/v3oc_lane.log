@@ -1,0 +1,25 @@
+2026-10-30T05:21:04Z controls start list=/home/ntbuild/v3/opt/lists/one-s_Rob1Ham_btc_lean_spec_proofs.txt jobs=14
+2026-10-30T05:21:04Z s_Rob1Ham_btc_lean_spec_proofs: nothing converted by the options, skipped
+2026-10-30T05:21:04Z controls end
+2026-10-30T05:36:27Z controls start list=/home/ntbuild/v3/opt/lists/one-s_pandaman64_lean_regex_correctness.txt jobs=14
+2026-10-30T05:36:27Z s_pandaman64_lean_regex_correctness: nothing converted by the options, skipped
+2026-10-30T05:36:27Z controls end
+2026-10-30T05:55:46Z controls start list=/home/ntbuild/v3/opt/lists/one-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5.txt jobs=14
+2026-10-30T05:55:46Z s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5: nothing converted by the options, skipped
+2026-10-30T05:55:46Z controls end
+2026-10-30T06:01:09Z controls start list=/home/ntbuild/v3/opt/lists/one-s_Provenance_Works_Radix.txt jobs=14
+2026-10-30T06:01:09Z s_Provenance_Works_Radix: nothing converted by the options, skipped
+2026-10-30T06:01:09Z controls end
+2026-10-30T06:34:06Z controls start list=/home/ntbuild/v3/opt/lists/one-longfellow-zk.txt jobs=14
+2026-10-30T06:34:06Z start v3oc-longfellow-zk (3 facts, --extra-config csimp := true)
+2026-10-30T06:41:49Z end v3oc-longfellow-zk rc=0 v3oc-longfellow-zk 131 axioms: {'PROVED': 128, 'ERROR': 1, 'FAILED': 2}
+2026-10-30T06:41:49Z start v3os-longfellow-zk (3 facts, --extra-config stage := true)
+2026-10-30T07:42:03Z end v3os-longfellow-zk rc=0 v3os-longfellow-zk 131 axioms: {'TIMEOUT': 35, 'PROVED': 96}
+2026-10-30T07:42:03Z start v3op-longfellow-zk (3 facts, --extra-config propSplit := true)
+2026-10-30T07:46:23Z end v3op-longfellow-zk rc=0 v3op-longfellow-zk 131 axioms: {'FAILED': 3, 'PROVED': 128}
+2026-10-30T07:46:23Z start v3o16-longfellow-zk (3 facts, --split 16)
+2026-10-30T07:50:43Z end v3o16-longfellow-zk rc=0 v3o16-longfellow-zk 131 axioms: {'PROVED': 128, 'FAILED': 3}
+2026-10-30T07:50:43Z controls end
+2026-10-30T10:11:33Z controls start list=/home/ntbuild/v3/opt/bin/v3o_list_be.txt jobs=14
+2026-10-30T10:11:33Z berry-esseen: nothing converted by the options, skipped
+2026-10-30T10:11:33Z controls end

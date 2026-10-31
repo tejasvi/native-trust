@@ -1,0 +1,82 @@
+package	verdict	facts
+trainverify	PROVED	45714
+trainverify	ERROR memory	6
+cvc5-logos	PROVED	2185
+humanfia-icho2026	PROVED	1863
+humanfia-icho2026	ERROR memory	1
+formal-conjectures	PROVED	677
+formal-conjectures	ERROR memory	9
+formal-conjectures	FAILED other	3
+formal-conjectures	TIMEOUT 3600s	1
+longfellow-zk	PROVED	656
+longfellow-zk	FAILED other	23
+longfellow-zk	ERROR memory	11
+berry-esseen	ERROR memory	574
+berry-esseen	PROVED	5
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	ERROR memory	420
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	FAILED blocked	60
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	PROVED	54
+asi-stack-book	PROVED	391
+asi-stack-book	FAILED blocked	1
+s_zcash_ironwood	PROVED	318
+s_zcash_ironwood	ERROR memory	6
+s_zcash_ironwood	FAILED other	4
+s_zcash_ironwood	FAILED blocked	3
+s_zcash_ironwood	FAILED false_in_logic	1
+strata	FAILED blocked	220
+strata	PROVED	66
+s_emberian_minidregg	PROVED	124
+s_emberian_minidregg	ERROR memory	55
+s_emberian_minidregg	FAILED blocked	44
+s_emberian_minidregg	FAILED other	4
+s_emberian_minidregg	TIMEOUT 3600s	1
+s_opencompl_veir	FAILED blocked	183
+s_opencompl_veir	ERROR stack	5
+s_Provenance_Works_Radix	PROVED	127
+s_Provenance_Works_Radix	FAILED blocked	17
+s_Provenance_Works_Radix	ERROR memory	1
+s_Rob1Ham_btc_lean_spec_proofs	PROVED	133
+s_Rob1Ham_btc_lean_spec_proofs	ERROR memory	1
+clean	FAILED other	99
+clean	PROVED	17
+clean	FAILED blocked	4
+s_dappalumbo91_FSOT_2_1_Neural_formal	PROVED	118
+rs-mca	PROVED	106
+rs-mca	ERROR memory	1
+s_justrach_codegraff_lean_proofs	PROVED	88
+sounio	PROVED	76
+sounio	FAILED blocked	1
+lido-srv3	PROVED	70
+s_Rob1Ham_btc_lean_spec_runners	PROVED	63
+s_V_Sekai_fire_interactor_spatial_oracle	PROVED	43
+cedar-lean	PROVED	26
+s_cedar_policy_cedar_spec_cedar_lean	PROVED	26
+s_FrederickPu_Zag	PROVED	23
+s_BobDyLean_bobdylean_paper_artifact	FAILED blocked	13
+s_BobDyLean_bobdylean_paper_artifact	ERROR memory	1
+s_sun123zxy_ninegates_lean4	PROVED	14
+s_moggedhedien_rimalloc_verify	PROVED	9
+s_moggedhedien_rimalloc_verify	ERROR memory	3
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	ERROR memory	9
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	PROVED	2
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	FAILED blocked	1
+s_batmeezy918_chronofold	PROVED	11
+s_clementefalcone_goya_ledger_formal	PROVED	9
+s_clementefalcone_goya_ledger_formal	FAILED other	1
+s_rusch95_cakec_proofs_lean	PROVED	9
+aks	TIMEOUT 3600s	3
+aks	FAILED blocked	2
+aks	ERROR memory	1
+aks	ERROR stack	1
+sorting-network-expanders	TIMEOUT 3600s	3
+sorting-network-expanders	FAILED blocked	2
+sorting-network-expanders	ERROR memory	1
+sorting-network-expanders	ERROR stack	1
+s_leanprover_community_physlib	PROVED	4
+s_WyattAu_OmniLaTeX_template_specs_proofs	PROVED	3
+s_Natuvea_tacenta_core_tacenta_model	FAILED blocked	2
+s_pandaman64_lean_regex_correctness	ERROR memory	2
+aeneas-lean	FAILED blocked	1
+s_Flaman55_StructuralSieve	PROVED	1
+s_Natuvea_tacenta_core_tacenta_proofs	FAILED blocked	1
+s_RianKoja_novacula	PROVED	1

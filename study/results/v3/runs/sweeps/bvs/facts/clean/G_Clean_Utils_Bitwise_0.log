@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=G_Clean_Utils_Bitwise_0.lean start=2026-10-29T00:42:27Z
+BVS_STATS	Clean.Utils.Bitwise	0	nodes=65	clauses=2	steps=1	hints=2	chunks=1	base_ms=49	chunk_ms=1
+BVS_UNSAT	Clean.Utils.Bitwise	0	_private.Clean.Utils.Bitwise.0.not64_eq_sub._native.bv_decide.ax_1_6	1	0	50	89	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	not64_eq_sub	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=2	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Clean.Utils.Bitwise	[0]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=1.39 user=0.96 maxrss_kb=2691468

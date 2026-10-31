@@ -1,0 +1,6 @@
+BerryOpt.D5.parse : BerryEsseen.Upper0423.Native.coverStringAcceptedDW 5 (258569 / 454000) 1
+    BerryEsseen.Upper0423.Covers.Data.DW5.data =
+  BerryEsseen.Upper0423.Native.coverAccepted 5 (258569 / 454000) 1 0 1 BerryOpt.D5.t_0
+'BerryOpt.D5.parse' depends on axioms: [propext, Classical.choice, Quot.sound]
+rc=0
+TIME 1.32 s 1748212 KB

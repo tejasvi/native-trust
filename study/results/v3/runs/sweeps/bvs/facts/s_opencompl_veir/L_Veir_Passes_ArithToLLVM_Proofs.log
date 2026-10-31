@@ -1,0 +1,5 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=L_Veir_Passes_ArithToLLVM_Proofs.lean start=2026-10-29T00:36:39Z
+0: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.ceildivsi_lowering._native.bv_decide.ax_1_5
+1: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.floordivsi_lowering._native.bv_decide.ax_1_5
+2: _private.Veir.Passes.ArithToLLVM.Proofs.0.Veir.Data.LLVM.Int.addui_extended_lowering._native.bv_decide.ax_1_9
+BVS_TIME wall=0.67 user=0.47 maxrss_kb=1589748

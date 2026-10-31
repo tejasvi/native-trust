@@ -1,0 +1,7 @@
+'NTBob.decideEquality_eq_decC' depends on axioms: [propext, Classical.choice, Quot.sound]
+NTBob.decB: WF.fix=false brecOn=true consts=12
+NTBob.decA: WF.fix=false brecOn=true consts=12
+NTBob.decL: WF.fix=false brecOn=true consts=12
+NTBob.decC: WF.fix=false brecOn=false consts=17
+kernel_replace entries: [DY.ALaCarte.Container.decideEquality]
+maxrss_kb 1545604 secs 0.87

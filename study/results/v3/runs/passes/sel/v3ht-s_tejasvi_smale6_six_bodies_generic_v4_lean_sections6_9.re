@@ -1,0 +1,1 @@
+^(?:Lean6\.Special\.Comp\.Count\.kc_f4_ok\._native\.native_decide\.ax_1_1)$

@@ -1,0 +1,7 @@
+BO leaf BerryOpt.D80 k=12 node=28 kernel_ms=127050
+BO leaf BerryOpt.D80 k=13 node=29 kernel_ms=159394
+BO leaf BerryOpt.D80 k=14 node=32 kernel_ms=172872
+BO leaf BerryOpt.D80 k=15 node=33 kernel_ms=171979
+BO leaf BerryOpt.D80 k=16 node=34 kernel_ms=167719
+BO leaf BerryOpt.D80 k=17 node=39 kernel_ms=171077
+BO leaves BerryOpt.D80 12..18 of 38 kernel_ms=970091 wall_ms=970383

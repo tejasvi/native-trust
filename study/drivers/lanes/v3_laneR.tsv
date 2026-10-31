@@ -1,0 +1,6 @@
+v3-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	--skip-build
+v3-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	--skip-build
+v3-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	--skip-build
+v3-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	--skip-build
+v3-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	--skip-build
+v3-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	--skip-build

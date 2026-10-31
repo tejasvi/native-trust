@@ -1,0 +1,486 @@
+r-aeneas-lean	v3r	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-aks	v3r	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	4	48	900	48
+r-asi-stack-book	v3r	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-berry-esseen	v3r	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	4	48	900	48
+r-cedar-lean	v3r	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-clean	v3r	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	4	48	900	48
+r-cvc5-logos	v3r	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	4	48	900	48
+r-formal-conjectures	v3r	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	4	48	900	48
+r-humanfia-icho2026	v3r	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	4	48	900	48
+r-lido-srv3	v3r	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	4	48	900	48
+r-longfellow-zk	v3r	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	4	48	900	48
+r-rs-mca-RS_disproof_v3	v3r	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-rs-mca-cs25_cap_v13	v3r	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-rs-mca-m31_dyadic_weight_laws	v3r	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	4	48	900	48
+r-rs-mca-m31_flatness_keystone	v3r	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	4	48	900	48
+r-rs-mca-moment_to_max	v3r	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-rs-mca-razorband_witness	v3r	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-rs-mca-syndrome_line	v3r	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-rs-mca-syndrome_secant	v3r	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_BobDyLean_bobdylean_paper_artifact	v3r	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_COINjecture_Network_COINjecture2_0_lean4	v3r	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_DeSciX_EGPT_08_LEAN_EGPT	v3r	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_FawadHa1der_leanui	v3r	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Flaman55_StructuralSieve	v3r	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_FormalizedFormalLogic_ProvabilityLogic	v3r	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_FrederickPu_Zag	v3r	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_GZGavinZhao_LeanMenhir	v3r	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_JacobAsmuth_qed	v3r	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_M32026_3d_sticky_kakeya	v3r	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_Natuvea_tacenta_core_tacenta_model	v3r	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Natuvea_tacenta_core_tacenta_proofs	v3r	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3r	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Panta_Rhei_Research_taulib	v3r	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3r	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_Provenance_Works_Radix	v3r	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_RianKoja_novacula	v3r	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Rob1Ham_btc_lean_spec	v3r	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Rob1Ham_btc_lean_spec_core	v3r	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Rob1Ham_btc_lean_spec_proofs	v3r	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Rob1Ham_btc_lean_spec_runners	v3r	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Th0rgal_turbo_lean_lean	v3r	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_Theophilus1030_NeoMathlib	v3r	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_UOR_Foundation_LexLean_bootstrap	v3r	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_V_Sekai_TOOL_cloth_dynamics_lean	v3r	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_V_Sekai_fire_interactor_spatial_oracle	v3r	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_WyattAu_OmniLaTeX_template_specs_proofs	v3r	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_anulum_director_ai_formal_HaltMonitor	v3r	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_batmeezy918_chronofold	v3r	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_bjoernkjoshanssen_clfa	v3r	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_blentz_artifactsmmo_formal	v3r	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_briangmilnes_ScottLean4	v3r	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_cedar_policy_cedar_spec_cedar_lean	v3r	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_clementefalcone_goya_ledger_formal	v3r	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_cslib_community_complexitylib	v3r	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_dappalumbo91_FSOT_2_1_Neural_formal	v3r	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_emberian_minidregg	v3r	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_ertwro_one_third_two_thirds	v3r	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_igrep_lean_workshop	v3r	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_jagg_ix_catept_main	v3r	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_jagg_ix_zil_lean	v3r	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_justrach_codegraff_lean_proofs	v3r	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_leanprover_community_physlib	v3r	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_mbrcic_ai_safety_formalization_atlas	v3r	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_moggedhedien_rimalloc_verify	v3r	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_opencompl_veir	v3r	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_pandaman64_lean_regex_correctness	v3r	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_rusch95_cakec_proofs_lean	v3r	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_siddhartha_gadgil_PlasmaLean	v3r	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_sun123zxy_ninegates_lean4	v3r	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_swissyai_theotetus_physics_verifier	v3r	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	4	48	900	48
+r-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3r	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3r	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3r	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3r	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3r	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3r	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	4	48	900	48
+r-s_zcash_ironwood	v3r	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	4	48	900	48
+r-sorting-network-expanders	v3r	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	4	48	900	48
+r-sounio	v3r	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	4	48	900	48
+r-strata	v3r	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	4	48	900	48
+r-trainverify	v3r	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	4	48	900	48
+h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3h	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_zcash_ironwood	v3h	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	4	96	3600	96
+h-clean	v3h	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_emberian_minidregg	v3h	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	4	96	3600	96
+h-formal-conjectures	v3h	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	4	96	3600	96
+h-longfellow-zk	v3h	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+h-berry-esseen	v3h	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3h	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_moggedhedien_rimalloc_verify	v3h	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	4	96	3600	96
+h-humanfia-icho2026	v3h	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Rob1Ham_btc_lean_spec_proofs	v3h	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+h-sounio	v3h	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+h-rs-mca-m31_flatness_keystone	v3h	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_BobDyLean_bobdylean_paper_artifact	v3h	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_clementefalcone_goya_ledger_formal	v3h	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_leanprover_community_physlib	v3h	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	4	96	3600	96
+h-trainverify	v3h	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	4	96	3600	96
+h-aeneas-lean	v3h	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-aks	v3h	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	4	96	3600	96
+h-asi-stack-book	v3h	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-cedar-lean	v3h	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-cvc5-logos	v3h	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	4	96	3600	96
+h-lido-srv3	v3h	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	4	96	3600	96
+h-rs-mca-RS_disproof_v3	v3h	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-rs-mca-cs25_cap_v13	v3h	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-rs-mca-m31_dyadic_weight_laws	v3h	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	4	96	3600	96
+h-rs-mca-moment_to_max	v3h	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-rs-mca-razorband_witness	v3h	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-rs-mca-syndrome_line	v3h	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-rs-mca-syndrome_secant	v3h	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_COINjecture_Network_COINjecture2_0_lean4	v3h	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_DeSciX_EGPT_08_LEAN_EGPT	v3h	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_FawadHa1der_leanui	v3h	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Flaman55_StructuralSieve	v3h	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_FormalizedFormalLogic_ProvabilityLogic	v3h	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_FrederickPu_Zag	v3h	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_GZGavinZhao_LeanMenhir	v3h	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_JacobAsmuth_qed	v3h	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_M32026_3d_sticky_kakeya	v3h	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_Natuvea_tacenta_core_tacenta_model	v3h	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Natuvea_tacenta_core_tacenta_proofs	v3h	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3h	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Panta_Rhei_Research_taulib	v3h	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3h	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_Provenance_Works_Radix	v3h	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_RianKoja_novacula	v3h	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Rob1Ham_btc_lean_spec	v3h	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Rob1Ham_btc_lean_spec_core	v3h	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Rob1Ham_btc_lean_spec_runners	v3h	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Th0rgal_turbo_lean_lean	v3h	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_Theophilus1030_NeoMathlib	v3h	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_UOR_Foundation_LexLean_bootstrap	v3h	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_V_Sekai_TOOL_cloth_dynamics_lean	v3h	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_V_Sekai_fire_interactor_spatial_oracle	v3h	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_WyattAu_OmniLaTeX_template_specs_proofs	v3h	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_anulum_director_ai_formal_HaltMonitor	v3h	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_batmeezy918_chronofold	v3h	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_bjoernkjoshanssen_clfa	v3h	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_blentz_artifactsmmo_formal	v3h	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_briangmilnes_ScottLean4	v3h	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_cedar_policy_cedar_spec_cedar_lean	v3h	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_cslib_community_complexitylib	v3h	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_dappalumbo91_FSOT_2_1_Neural_formal	v3h	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_ertwro_one_third_two_thirds	v3h	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_igrep_lean_workshop	v3h	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_jagg_ix_catept_main	v3h	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_jagg_ix_zil_lean	v3h	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_justrach_codegraff_lean_proofs	v3h	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_mbrcic_ai_safety_formalization_atlas	v3h	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_opencompl_veir	v3h	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_pandaman64_lean_regex_correctness	v3h	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_rusch95_cakec_proofs_lean	v3h	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_siddhartha_gadgil_PlasmaLean	v3h	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_sun123zxy_ninegates_lean4	v3h	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_swissyai_theotetus_physics_verifier	v3h	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	4	96	3600	96
+h-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3h	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3h	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3h	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	4	96	3600	96
+h-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3h	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	4	96	3600	96
+h-sorting-network-expanders	v3h	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	4	96	3600	96
+h-strata	v3h	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	4	96	3600	96
+ht-s_opencompl_veir	v3ht	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-longfellow-zk	v3ht	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-formal-conjectures	v3ht	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-trainverify	v3ht	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Provenance_Works_Radix	v3ht	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_emberian_minidregg	v3ht	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-sounio	v3ht	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-clean	v3ht	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Natuvea_tacenta_core_tacenta_model	v3ht	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3ht	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-aks	v3ht	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-asi-stack-book	v3ht	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-humanfia-icho2026	v3ht	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3ht	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-sorting-network-expanders	v3ht	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-aeneas-lean	v3ht	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-berry-esseen	v3ht	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-cedar-lean	v3ht	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-cvc5-logos	v3ht	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-lido-srv3	v3ht	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-rs-mca-RS_disproof_v3	v3ht	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-rs-mca-cs25_cap_v13	v3ht	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-rs-mca-m31_dyadic_weight_laws	v3ht	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-rs-mca-m31_flatness_keystone	v3ht	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-rs-mca-moment_to_max	v3ht	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-rs-mca-razorband_witness	v3ht	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-rs-mca-syndrome_line	v3ht	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-rs-mca-syndrome_secant	v3ht	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_BobDyLean_bobdylean_paper_artifact	v3ht	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_COINjecture_Network_COINjecture2_0_lean4	v3ht	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_DeSciX_EGPT_08_LEAN_EGPT	v3ht	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_FawadHa1der_leanui	v3ht	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Flaman55_StructuralSieve	v3ht	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_FormalizedFormalLogic_ProvabilityLogic	v3ht	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_FrederickPu_Zag	v3ht	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_GZGavinZhao_LeanMenhir	v3ht	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_JacobAsmuth_qed	v3ht	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_M32026_3d_sticky_kakeya	v3ht	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_Natuvea_tacenta_core_tacenta_proofs	v3ht	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3ht	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Panta_Rhei_Research_taulib	v3ht	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3ht	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_RianKoja_novacula	v3ht	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Rob1Ham_btc_lean_spec	v3ht	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Rob1Ham_btc_lean_spec_core	v3ht	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Rob1Ham_btc_lean_spec_proofs	v3ht	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Rob1Ham_btc_lean_spec_runners	v3ht	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Th0rgal_turbo_lean_lean	v3ht	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_Theophilus1030_NeoMathlib	v3ht	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_UOR_Foundation_LexLean_bootstrap	v3ht	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_V_Sekai_TOOL_cloth_dynamics_lean	v3ht	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_V_Sekai_fire_interactor_spatial_oracle	v3ht	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_WyattAu_OmniLaTeX_template_specs_proofs	v3ht	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_anulum_director_ai_formal_HaltMonitor	v3ht	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_batmeezy918_chronofold	v3ht	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_bjoernkjoshanssen_clfa	v3ht	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_blentz_artifactsmmo_formal	v3ht	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_briangmilnes_ScottLean4	v3ht	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_cedar_policy_cedar_spec_cedar_lean	v3ht	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_clementefalcone_goya_ledger_formal	v3ht	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_cslib_community_complexitylib	v3ht	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_dappalumbo91_FSOT_2_1_Neural_formal	v3ht	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_ertwro_one_third_two_thirds	v3ht	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_igrep_lean_workshop	v3ht	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_jagg_ix_catept_main	v3ht	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_jagg_ix_zil_lean	v3ht	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_justrach_codegraff_lean_proofs	v3ht	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_leanprover_community_physlib	v3ht	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_mbrcic_ai_safety_formalization_atlas	v3ht	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_moggedhedien_rimalloc_verify	v3ht	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_pandaman64_lean_regex_correctness	v3ht	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_rusch95_cakec_proofs_lean	v3ht	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_siddhartha_gadgil_PlasmaLean	v3ht	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_sun123zxy_ninegates_lean4	v3ht	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_swissyai_theotetus_physics_verifier	v3ht	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	6	48	3600	96
+ht-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3ht	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3ht	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3ht	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3ht	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-s_zcash_ironwood	v3ht	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	6	48	3600	96
+ht-strata	v3ht	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	6	48	3600	96
+hr-s_opencompl_veir	v3hr	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-longfellow-zk	v3hr	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-formal-conjectures	v3hr	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-trainverify	v3hr	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Provenance_Works_Radix	v3hr	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_emberian_minidregg	v3hr	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-sounio	v3hr	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-clean	v3hr	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Natuvea_tacenta_core_tacenta_model	v3hr	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3hr	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-aks	v3hr	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-asi-stack-book	v3hr	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-humanfia-icho2026	v3hr	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3hr	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-sorting-network-expanders	v3hr	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-aeneas-lean	v3hr	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-berry-esseen	v3hr	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-cedar-lean	v3hr	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-cvc5-logos	v3hr	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-lido-srv3	v3hr	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-rs-mca-RS_disproof_v3	v3hr	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-rs-mca-cs25_cap_v13	v3hr	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-rs-mca-m31_dyadic_weight_laws	v3hr	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-rs-mca-m31_flatness_keystone	v3hr	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-rs-mca-moment_to_max	v3hr	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-rs-mca-razorband_witness	v3hr	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-rs-mca-syndrome_line	v3hr	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-rs-mca-syndrome_secant	v3hr	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_BobDyLean_bobdylean_paper_artifact	v3hr	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_COINjecture_Network_COINjecture2_0_lean4	v3hr	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_DeSciX_EGPT_08_LEAN_EGPT	v3hr	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_FawadHa1der_leanui	v3hr	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Flaman55_StructuralSieve	v3hr	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_FormalizedFormalLogic_ProvabilityLogic	v3hr	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_FrederickPu_Zag	v3hr	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_GZGavinZhao_LeanMenhir	v3hr	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_JacobAsmuth_qed	v3hr	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_M32026_3d_sticky_kakeya	v3hr	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_Natuvea_tacenta_core_tacenta_proofs	v3hr	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3hr	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Panta_Rhei_Research_taulib	v3hr	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3hr	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_RianKoja_novacula	v3hr	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Rob1Ham_btc_lean_spec	v3hr	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Rob1Ham_btc_lean_spec_core	v3hr	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Rob1Ham_btc_lean_spec_proofs	v3hr	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Rob1Ham_btc_lean_spec_runners	v3hr	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Th0rgal_turbo_lean_lean	v3hr	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_Theophilus1030_NeoMathlib	v3hr	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_UOR_Foundation_LexLean_bootstrap	v3hr	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_V_Sekai_TOOL_cloth_dynamics_lean	v3hr	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_V_Sekai_fire_interactor_spatial_oracle	v3hr	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_WyattAu_OmniLaTeX_template_specs_proofs	v3hr	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_anulum_director_ai_formal_HaltMonitor	v3hr	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_batmeezy918_chronofold	v3hr	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_bjoernkjoshanssen_clfa	v3hr	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_blentz_artifactsmmo_formal	v3hr	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_briangmilnes_ScottLean4	v3hr	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_cedar_policy_cedar_spec_cedar_lean	v3hr	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_clementefalcone_goya_ledger_formal	v3hr	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_cslib_community_complexitylib	v3hr	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_dappalumbo91_FSOT_2_1_Neural_formal	v3hr	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_ertwro_one_third_two_thirds	v3hr	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_igrep_lean_workshop	v3hr	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_jagg_ix_catept_main	v3hr	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_jagg_ix_zil_lean	v3hr	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_justrach_codegraff_lean_proofs	v3hr	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_leanprover_community_physlib	v3hr	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_mbrcic_ai_safety_formalization_atlas	v3hr	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_moggedhedien_rimalloc_verify	v3hr	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_pandaman64_lean_regex_correctness	v3hr	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_rusch95_cakec_proofs_lean	v3hr	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_siddhartha_gadgil_PlasmaLean	v3hr	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_sun123zxy_ninegates_lean4	v3hr	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_swissyai_theotetus_physics_verifier	v3hr	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	4	96	3600	96
+hr-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3hr	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3hr	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3hr	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3hr	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-s_zcash_ironwood	v3hr	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	4	96	3600	96
+hr-strata	v3hr	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	4	96	3600	96
+hb-s_opencompl_veir	v3hb	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-longfellow-zk	v3hb	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-formal-conjectures	v3hb	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-trainverify	v3hb	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Provenance_Works_Radix	v3hb	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_emberian_minidregg	v3hb	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-sounio	v3hb	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-clean	v3hb	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Natuvea_tacenta_core_tacenta_model	v3hb	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3hb	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-aks	v3hb	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-asi-stack-book	v3hb	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-humanfia-icho2026	v3hb	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3hb	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-sorting-network-expanders	v3hb	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-aeneas-lean	v3hb	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-berry-esseen	v3hb	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-cedar-lean	v3hb	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-cvc5-logos	v3hb	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-lido-srv3	v3hb	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-rs-mca-RS_disproof_v3	v3hb	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-rs-mca-cs25_cap_v13	v3hb	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-rs-mca-m31_dyadic_weight_laws	v3hb	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-rs-mca-m31_flatness_keystone	v3hb	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-rs-mca-moment_to_max	v3hb	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-rs-mca-razorband_witness	v3hb	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-rs-mca-syndrome_line	v3hb	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-rs-mca-syndrome_secant	v3hb	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_BobDyLean_bobdylean_paper_artifact	v3hb	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_COINjecture_Network_COINjecture2_0_lean4	v3hb	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_DeSciX_EGPT_08_LEAN_EGPT	v3hb	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_FawadHa1der_leanui	v3hb	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Flaman55_StructuralSieve	v3hb	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_FormalizedFormalLogic_ProvabilityLogic	v3hb	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_FrederickPu_Zag	v3hb	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_GZGavinZhao_LeanMenhir	v3hb	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_JacobAsmuth_qed	v3hb	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_M32026_3d_sticky_kakeya	v3hb	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_Natuvea_tacenta_core_tacenta_proofs	v3hb	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3hb	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Panta_Rhei_Research_taulib	v3hb	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3hb	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_RianKoja_novacula	v3hb	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Rob1Ham_btc_lean_spec	v3hb	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Rob1Ham_btc_lean_spec_core	v3hb	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Rob1Ham_btc_lean_spec_proofs	v3hb	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Rob1Ham_btc_lean_spec_runners	v3hb	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Th0rgal_turbo_lean_lean	v3hb	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_Theophilus1030_NeoMathlib	v3hb	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_UOR_Foundation_LexLean_bootstrap	v3hb	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_V_Sekai_TOOL_cloth_dynamics_lean	v3hb	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_V_Sekai_fire_interactor_spatial_oracle	v3hb	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_WyattAu_OmniLaTeX_template_specs_proofs	v3hb	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_anulum_director_ai_formal_HaltMonitor	v3hb	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_batmeezy918_chronofold	v3hb	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_bjoernkjoshanssen_clfa	v3hb	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_blentz_artifactsmmo_formal	v3hb	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_briangmilnes_ScottLean4	v3hb	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_cedar_policy_cedar_spec_cedar_lean	v3hb	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_clementefalcone_goya_ledger_formal	v3hb	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_cslib_community_complexitylib	v3hb	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_dappalumbo91_FSOT_2_1_Neural_formal	v3hb	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_ertwro_one_third_two_thirds	v3hb	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_igrep_lean_workshop	v3hb	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_jagg_ix_catept_main	v3hb	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_jagg_ix_zil_lean	v3hb	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_justrach_codegraff_lean_proofs	v3hb	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_leanprover_community_physlib	v3hb	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_mbrcic_ai_safety_formalization_atlas	v3hb	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_moggedhedien_rimalloc_verify	v3hb	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_pandaman64_lean_regex_correctness	v3hb	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_rusch95_cakec_proofs_lean	v3hb	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_siddhartha_gadgil_PlasmaLean	v3hb	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_sun123zxy_ninegates_lean4	v3hb	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_swissyai_theotetus_physics_verifier	v3hb	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	6	48	3600	96
+hb-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3hb	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3hb	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3hb	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3hb	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-s_zcash_ironwood	v3hb	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	6	48	3600	96
+hb-strata	v3hb	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	6	48	3600	96
+p-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3p	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_zcash_ironwood	v3p	s_zcash_ironwood	v3-s_zcash_ironwood	/home/ntbuild/repos_s/zcash_ironwood	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-clean	v3p	clean	v3-clean	/home/ntbuild/repos/clean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_emberian_minidregg	v3p	s_emberian_minidregg	v3-s_emberian_minidregg	/home/ntbuild/repos_s/emberian_minidregg	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-formal-conjectures	v3p	formal-conjectures	v3-formal-conjectures	/home/ntbuild/repos/formal-conjectures	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-longfellow-zk	v3p	longfellow-zk	v3-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-berry-esseen	v3p	berry-esseen	v3-berry-esseen	/home/ntbuild/repos/berry-esseen	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3p	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections3-5	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_moggedhedien_rimalloc_verify	v3p	s_moggedhedien_rimalloc_verify	v3-s_moggedhedien_rimalloc_verify	/home/ntbuild/repos_s/moggedhedien_rimalloc/verify	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-humanfia-icho2026	v3p	humanfia-icho2026	v3-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Rob1Ham_btc_lean_spec_proofs	v3p	s_Rob1Ham_btc_lean_spec_proofs	v3-s_Rob1Ham_btc_lean_spec_proofs	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/proofs	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-sounio	v3p	sounio	v3-sounio	/home/ntbuild/repos/sounio/formal	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-rs-mca-m31_flatness_keystone	v3p	rs-mca-m31_flatness_keystone	v3-rs-mca-m31_flatness_keystone	/home/ntbuild/repos/rs-mca/experimental/lean/m31_flatness_keystone	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_BobDyLean_bobdylean_paper_artifact	v3p	s_BobDyLean_bobdylean_paper_artifact	v3-s_BobDyLean_bobdylean_paper_artifact	/home/ntbuild/repos_s/BobDyLean_bobdylean-paper-artifact	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_clementefalcone_goya_ledger_formal	v3p	s_clementefalcone_goya_ledger_formal	v3-s_clementefalcone_goya_ledger_formal	/home/ntbuild/repos_s/clementefalcone_goya-ledger/formal	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_leanprover_community_physlib	v3p	s_leanprover_community_physlib	v3-s_leanprover_community_physlib	/home/ntbuild/repos_s/leanprover-community_physlib	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-trainverify	v3p	trainverify	v3-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-aeneas-lean	v3p	aeneas-lean	v3-aeneas-lean	/home/ntbuild/repos/aeneas/backends/lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-aks	v3p	aks	v3-aks	/home/ntbuild/repos/aks	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-asi-stack-book	v3p	asi-stack-book	v3-asi-stack-book	/home/ntbuild/repos/asi-stack-book/lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-cedar-lean	v3p	cedar-lean	v3-cedar-lean	/home/ntbuild/repos/cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-cvc5-logos	v3p	cvc5-logos	v3-cvc5-logos	/home/ntbuild/repos/cvc5-logos	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-lido-srv3	v3p	lido-srv3	v3-lido-srv3	/home/ntbuild/repos/lido-srv3-proof-closure	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-rs-mca-RS_disproof_v3	v3p	rs-mca-RS_disproof_v3	v3f-rs-mca-RS_disproof_v3	/home/ntbuild/repos/rs-mca/experimental/lean/RS_disproof_v3	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-rs-mca-cs25_cap_v13	v3p	rs-mca-cs25_cap_v13	v3f-rs-mca-cs25_cap_v13	/home/ntbuild/repos/rs-mca/experimental/lean/cs25_cap_v13_experimental	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-rs-mca-m31_dyadic_weight_laws	v3p	rs-mca-m31_dyadic_weight_laws	v3-rs-mca-m31_dyadic_weight_laws	/home/ntbuild/repos/rs-mca/experimental/lean/m31_dyadic_weight_laws	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-rs-mca-moment_to_max	v3p	rs-mca-moment_to_max	v3f-rs-mca-moment_to_max	/home/ntbuild/repos/rs-mca/experimental/lean/moment_to_max	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-rs-mca-razorband_witness	v3p	rs-mca-razorband_witness	v3f-rs-mca-razorband_witness	/home/ntbuild/repos/rs-mca/experimental/lean/razorband_witness	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-rs-mca-syndrome_line	v3p	rs-mca-syndrome_line	v3f-rs-mca-syndrome_line	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_line	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-rs-mca-syndrome_secant	v3p	rs-mca-syndrome_secant	v3f-rs-mca-syndrome_secant	/home/ntbuild/repos/rs-mca/experimental/lean/syndrome_secant	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_COINjecture_Network_COINjecture2_0_lean4	v3p	s_COINjecture_Network_COINjecture2_0_lean4	v3-s_COINjecture_Network_COINjecture2_0_lean4	/home/ntbuild/repos_s/COINjecture-Network_COINjecture2.0/lean4	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_DeSciX_EGPT_08_LEAN_EGPT	v3p	s_DeSciX_EGPT_08_LEAN_EGPT	v3-s_DeSciX_EGPT_08_LEAN_EGPT	/home/ntbuild/repos_s/DeSciX_EGPT/08_LEAN/EGPT	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_FawadHa1der_leanui	v3p	s_FawadHa1der_leanui	v3-s_FawadHa1der_leanui	/home/ntbuild/repos_s/FawadHa1der_leanui	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Flaman55_StructuralSieve	v3p	s_Flaman55_StructuralSieve	v3-s_Flaman55_StructuralSieve	/home/ntbuild/repos_s/Flaman55_StructuralSieve	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_FormalizedFormalLogic_ProvabilityLogic	v3p	s_FormalizedFormalLogic_ProvabilityLogic	v3-s_FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/repos_s/FormalizedFormalLogic_ProvabilityLogic	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_FrederickPu_Zag	v3p	s_FrederickPu_Zag	v3-s_FrederickPu_Zag	/home/ntbuild/repos_s/FrederickPu_Zag	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_GZGavinZhao_LeanMenhir	v3p	s_GZGavinZhao_LeanMenhir	v3-s_GZGavinZhao_LeanMenhir	/home/ntbuild/repos_s/GZGavinZhao_LeanMenhir	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_JacobAsmuth_qed	v3p	s_JacobAsmuth_qed	v3-s_JacobAsmuth_qed	/home/ntbuild/repos_s/JacobAsmuth_qed	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_M32026_3d_sticky_kakeya	v3p	s_M32026_3d_sticky_kakeya	v3-s_M32026_3d_sticky_kakeya	/home/ntbuild/repos_s/M32026_3d-sticky-kakeya	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_Natuvea_tacenta_core_tacenta_model	v3p	s_Natuvea_tacenta_core_tacenta_model	v3-s_Natuvea_tacenta_core_tacenta_model	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-model	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Natuvea_tacenta_core_tacenta_proofs	v3p	s_Natuvea_tacenta_core_tacenta_proofs	v3-s_Natuvea_tacenta_core_tacenta_proofs	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Natuvea_tacenta_core_tacenta_proofs_translation	v3p	s_Natuvea_tacenta_core_tacenta_proofs_translation	v3-s_Natuvea_tacenta_core_tacenta_proofs_translation	/home/ntbuild/repos_s/Natuvea_tacenta-core/tacenta-proofs/translation	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Panta_Rhei_Research_taulib	v3p	s_Panta_Rhei_Research_taulib	v3-s_Panta_Rhei_Research_taulib	/home/ntbuild/repos_s/Panta-Rhei-Research_taulib	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3p	s_PoorlyDefinedBehaviour_lean4_study_lean4dev	v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev	/home/ntbuild/repos_s/PoorlyDefinedBehaviour_lean4-study/lean4dev	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_Provenance_Works_Radix	v3p	s_Provenance_Works_Radix	v3-s_Provenance_Works_Radix	/home/ntbuild/repos_s/Provenance-Works_Radix	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_RianKoja_novacula	v3p	s_RianKoja_novacula	v3-s_RianKoja_novacula	/home/ntbuild/repos_s/RianKoja_novacula	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Rob1Ham_btc_lean_spec	v3p	s_Rob1Ham_btc_lean_spec	v3-s_Rob1Ham_btc_lean_spec	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Rob1Ham_btc_lean_spec_core	v3p	s_Rob1Ham_btc_lean_spec_core	v3-s_Rob1Ham_btc_lean_spec_core	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/core	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Rob1Ham_btc_lean_spec_runners	v3p	s_Rob1Ham_btc_lean_spec_runners	v3-s_Rob1Ham_btc_lean_spec_runners	/home/ntbuild/repos_s/Rob1Ham_btc-lean/spec/runners	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Th0rgal_turbo_lean_lean	v3p	s_Th0rgal_turbo_lean_lean	v3-s_Th0rgal_turbo_lean_lean	/home/ntbuild/repos_s/Th0rgal_turbo-lean/lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_Theophilus1030_NeoMathlib	v3p	s_Theophilus1030_NeoMathlib	v3-s_Theophilus1030_NeoMathlib	/home/ntbuild/repos_s/Theophilus1030_NeoMathlib	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_UOR_Foundation_LexLean_bootstrap	v3p	s_UOR_Foundation_LexLean_bootstrap	v3-s_UOR_Foundation_LexLean_bootstrap	/home/ntbuild/repos_s/UOR-Foundation_LexLean/bootstrap	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_V_Sekai_TOOL_cloth_dynamics_lean	v3p	s_V_Sekai_TOOL_cloth_dynamics_lean	v3-s_V_Sekai_TOOL_cloth_dynamics_lean	/home/ntbuild/repos_s/V-Sekai_TOOL_cloth_dynamics/lean	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_V_Sekai_fire_interactor_spatial_oracle	v3p	s_V_Sekai_fire_interactor_spatial_oracle	v3-s_V_Sekai_fire_interactor_spatial_oracle	/home/ntbuild/repos_s/V-Sekai-fire_interactor-spatial-oracle	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_WyattAu_OmniLaTeX_template_specs_proofs	v3p	s_WyattAu_OmniLaTeX_template_specs_proofs	v3-s_WyattAu_OmniLaTeX_template_specs_proofs	/home/ntbuild/repos_s/WyattAu_OmniLaTeX-template/specs/proofs	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_anulum_director_ai_formal_HaltMonitor	v3p	s_anulum_director_ai_formal_HaltMonitor	v3-s_anulum_director_ai_formal_HaltMonitor	/home/ntbuild/repos_s/anulum_director-ai/formal/HaltMonitor	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_batmeezy918_chronofold	v3p	s_batmeezy918_chronofold	v3-s_batmeezy918_chronofold	/home/ntbuild/repos_s/batmeezy918_chronofold	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_bjoernkjoshanssen_clfa	v3p	s_bjoernkjoshanssen_clfa	v3-s_bjoernkjoshanssen_clfa	/home/ntbuild/repos_s/bjoernkjoshanssen_clfa	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_blentz_artifactsmmo_formal	v3p	s_blentz_artifactsmmo_formal	v3-s_blentz_artifactsmmo_formal	/home/ntbuild/repos_s/blentz_artifactsmmo/formal	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_briangmilnes_ScottLean4	v3p	s_briangmilnes_ScottLean4	v3-s_briangmilnes_ScottLean4	/home/ntbuild/repos_s/briangmilnes_ScottLean4	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_cedar_policy_cedar_spec_cedar_lean	v3p	s_cedar_policy_cedar_spec_cedar_lean	v3-s_cedar_policy_cedar_spec_cedar_lean	/home/ntbuild/repos_s/cedar-policy_cedar-spec/cedar-lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_cslib_community_complexitylib	v3p	s_cslib_community_complexitylib	v3-s_cslib_community_complexitylib	/home/ntbuild/repos_s/cslib-community_complexitylib	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_dappalumbo91_FSOT_2_1_Neural_formal	v3p	s_dappalumbo91_FSOT_2_1_Neural_formal	v3-s_dappalumbo91_FSOT_2_1_Neural_formal	/home/ntbuild/repos_s/dappalumbo91_FSOT-2.1-Neural/formal	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_ertwro_one_third_two_thirds	v3p	s_ertwro_one_third_two_thirds	v3-s_ertwro_one_third_two_thirds	/home/ntbuild/repos_s/ertwro_one_third_two_thirds	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_igrep_lean_workshop	v3p	s_igrep_lean_workshop	v3-s_igrep_lean_workshop	/home/ntbuild/repos_s/igrep_lean-workshop	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_jagg_ix_catept_main	v3p	s_jagg_ix_catept_main	v3-s_jagg_ix_catept_main	/home/ntbuild/repos_s/jagg-ix_catept-main	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_jagg_ix_zil_lean	v3p	s_jagg_ix_zil_lean	v3-s_jagg_ix_zil_lean	/home/ntbuild/repos_s/jagg-ix_zil-lean	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_justrach_codegraff_lean_proofs	v3p	s_justrach_codegraff_lean_proofs	v3-s_justrach_codegraff_lean_proofs	/home/ntbuild/repos_s/justrach_codegraff/lean-proofs	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_mbrcic_ai_safety_formalization_atlas	v3p	s_mbrcic_ai_safety_formalization_atlas	v3-s_mbrcic_ai_safety_formalization_atlas	/home/ntbuild/repos_s/mbrcic_ai-safety-formalization-atlas	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_opencompl_veir	v3p	s_opencompl_veir	v3-s_opencompl_veir	/home/ntbuild/repos_s/opencompl_veir	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_pandaman64_lean_regex_correctness	v3p	s_pandaman64_lean_regex_correctness	v3-s_pandaman64_lean_regex_correctness	/home/ntbuild/repos_s/pandaman64_lean-regex/correctness	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_rusch95_cakec_proofs_lean	v3p	s_rusch95_cakec_proofs_lean	v3-s_rusch95_cakec_proofs_lean	/home/ntbuild/repos_s/rusch95_cakec/proofs/lean	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_siddhartha_gadgil_PlasmaLean	v3p	s_siddhartha_gadgil_PlasmaLean	v3-s_siddhartha_gadgil_PlasmaLean	/home/ntbuild/repos_s/siddhartha-gadgil_PlasmaLean	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_sun123zxy_ninegates_lean4	v3p	s_sun123zxy_ninegates_lean4	v3-s_sun123zxy_ninegates_lean4	/home/ntbuild/repos_s/sun123zxy_ninegates-lean4	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_swissyai_theotetus_physics_verifier	v3p	s_swissyai_theotetus_physics_verifier	v3-s_swissyai_theotetus_physics_verifier	/home/ntbuild/repos_s/swissyai_theotetus/physics_verifier	/home/ntbuild/v3/nt_v15	6	48	900	48	propSplit := true
+p-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3p	s_tejasvi_smale6_six_bodies_generic_v4_lean_full	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3p	s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/full/Compose	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3p	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover	/home/ntbuild/repos_s/tejasvi_smale6-six-bodies-generic-v4/lean/sections6-9/Cover	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3p	s_ycmath_odd_flat_selector_count_lean_flatcarrier	v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier	/home/ntbuild/repos_s/ycmath_odd-flat-selector-count/lean/flatcarrier	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-sorting-network-expanders	v3p	sorting-network-expanders	v3-sorting-network-expanders	/home/ntbuild/repos/sorting-network/upper-bound/experiments/expanders	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true
+p-strata	v3p	strata	v3-strata	/home/ntbuild/repos/Strata	/home/ntbuild/nt_fix14	6	48	900	48	propSplit := true

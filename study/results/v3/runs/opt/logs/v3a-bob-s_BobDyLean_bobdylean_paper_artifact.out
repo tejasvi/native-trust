@@ -1,0 +1,7 @@
+2026-10-29T03:22:49Z start v3a-bob-s_BobDyLean_bobdylean_paper_artifact jobs=2 imports=NTBobDeq
+v3a-bob-s_BobDyLean_bobdylean_paper_artifact 14 axioms: {'PROVED': 11, 'TIMEOUT': 1, 'ERROR': 2}
+2026-10-29T03:42:42Z end rc=0 v3a-bob-s_BobDyLean_bobdylean_paper_artifact 14 axioms: {'PROVED': 11, 'TIMEOUT': 1, 'ERROR': 2}
+2026-10-29T03:48:49Z start v3a-bob-s_BobDyLean_bobdylean_paper_artifact jobs=1 imports=NTBobDeq
+2026-10-29T03:48:49Z options: --redo --include MerkleTree\.compromiseSigKeyAttacker
+v3a-bob-s_BobDyLean_bobdylean_paper_artifact 1 axioms: {'PROVED': 1}
+2026-10-29T03:50:07Z end rc=0 v3a-bob-s_BobDyLean_bobdylean_paper_artifact 1 axioms: {'PROVED': 1}

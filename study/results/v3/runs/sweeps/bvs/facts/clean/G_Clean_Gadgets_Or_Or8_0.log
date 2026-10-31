@@ -1,0 +1,11 @@
+BVS_CMD tc=v4.33.1 nt=/home/ntbuild/nt_fix14/v4.33.1 file=G_Clean_Gadgets_Or_Or8_0.lean start=2026-10-29T00:45:59Z
+BVS_STATS	Clean.Gadgets.Or.Or8	0	nodes=434	clauses=1205	steps=385	hints=5319	chunks=1	base_ms=340	chunk_ms=1126
+BVS_UNSAT	Clean.Gadgets.Or.Or8	0	_private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor._native.bv_decide.ax_1_5	385	0	1466	1548	bvs5fact_0.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=12	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.two_or_ge_add	bvs5_2	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=4	[propext, Classical.choice, Quot.sound]
+BVS_USER	_private.Clean.Gadgets.Or.Or8.0.Gadgets.Or.Or8.or_times_two_sub_xor'	bvs5_3	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=0	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.Or.Or8.completeness	bvs5_4	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=23	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.Or.Or8.soundness	bvs5_5	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=16	[propext, Classical.choice, Quot.sound]
+BVS_USER	Gadgets.Or.Or8.circuit	bvs5_6	def	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=1	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Clean.Gadgets.Or.Or8	[0]	converted=1	all_unsat_ok=true	users=6	users_std=6	users_axiom_left=0	users_failed=0
+BVS_TIME wall=2.97 user=2.56 maxrss_kb=3005692

@@ -1,0 +1,356 @@
+2026-10-29T00:37:52Z start jobs=177 max_jobs=2 budget=8.0 max_pred=8.0 timeout=900 vmem_kb=50331648 pid=226759
+2026-10-29T00:37:52Z start s_Natuvea_tacenta_core_tacenta_proofs|Proofs.Serialization|0 pred=2.5 running=1
+2026-10-29T00:37:52Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|28 pred=2.5 running=2
+2026-10-29T00:37:54Z end s_Natuvea_tacenta_core_tacenta_proofs|Proofs.Serialization|0 rc=0 wall=2 verdict=CONVERTED 2 of 5 rebuilt users still use other native facts
+2026-10-29T00:37:54Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|28 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:37:54Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|40 pred=2.5 running=1
+2026-10-29T00:37:54Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|81 pred=2.5 running=2
+2026-10-29T00:37:56Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|40 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:37:56Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|81 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:37:56Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|98 pred=2.5 running=1
+2026-10-29T00:37:56Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|35 pred=2.5 running=2
+2026-10-29T00:37:58Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|98 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:37:58Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|35 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:37:58Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|37 pred=2.5 running=1
+2026-10-29T00:37:58Z start asi-stack-book|AsiStackProofs.StackBoundaries|0 pred=2.6 running=2
+2026-10-29T00:38:00Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|37 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:00Z end asi-stack-book|AsiStackProofs.StackBoundaries|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:00Z start s_opencompl_veir|Veir.Data.PBV.Examples|0 pred=2.6 running=1
+2026-10-29T00:38:00Z start s_opencompl_veir|Veir.Data.PBV.Examples|2 pred=2.6 running=2
+2026-10-29T00:38:02Z end s_opencompl_veir|Veir.Data.PBV.Examples|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:02Z end s_opencompl_veir|Veir.Data.PBV.Examples|2 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:02Z start s_opencompl_veir|Veir.Data.PBV.Examples|4 pred=2.6 running=1
+2026-10-29T00:38:02Z start s_opencompl_veir|Veir.Interpreter.Memory|0 pred=2.6 running=2
+2026-10-29T00:38:04Z end s_opencompl_veir|Veir.Data.PBV.Examples|4 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:04Z end s_opencompl_veir|Veir.Interpreter.Memory|0 rc=0 wall=2 verdict=CONVERTED 3 of 5 rebuilt users still use other native facts
+2026-10-29T00:38:04Z start s_opencompl_veir|Veir.Interpreter.Memory|1 pred=2.6 running=1
+2026-10-29T00:38:04Z start s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|2 pred=2.6 running=2
+2026-10-29T00:38:06Z end s_opencompl_veir|Veir.Interpreter.Memory|1 rc=0 wall=2 verdict=CONVERTED 3 of 4 rebuilt users still use other native facts
+2026-10-29T00:38:06Z end s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|2 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:06Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|27 pred=2.6 running=1
+2026-10-29T00:38:06Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|30 pred=2.6 running=2
+2026-10-29T00:38:08Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|27 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:08Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|30 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:08Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|36 pred=2.6 running=1
+2026-10-29T00:38:08Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|50 pred=2.6 running=2
+2026-10-29T00:38:10Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|36 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:10Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|50 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:10Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|54 pred=2.6 running=1
+2026-10-29T00:38:10Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|72 pred=2.6 running=2
+2026-10-29T00:38:12Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|54 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:12Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|72 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:12Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|77 pred=2.6 running=1
+2026-10-29T00:38:12Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|79 pred=2.6 running=2
+2026-10-29T00:38:14Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|77 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:14Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|79 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:14Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|86 pred=2.6 running=1
+2026-10-29T00:38:14Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|91 pred=2.6 running=2
+2026-10-29T00:38:16Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|86 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:16Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|91 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:16Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|93 pred=2.6 running=1
+2026-10-29T00:38:16Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|96 pred=2.6 running=2
+2026-10-29T00:38:18Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|93 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:18Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|96 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:18Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|97 pred=2.6 running=1
+2026-10-29T00:38:18Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|103 pred=2.6 running=2
+2026-10-29T00:38:20Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|97 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:20Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|103 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:20Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|106 pred=2.6 running=1
+2026-10-29T00:38:20Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|1 pred=2.6 running=2
+2026-10-29T00:38:22Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|106 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:22Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|1 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:22Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|2 pred=2.6 running=1
+2026-10-29T00:38:22Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|3 pred=2.6 running=2
+2026-10-29T00:38:24Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|2 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:24Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|3 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:24Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|4 pred=2.6 running=1
+2026-10-29T00:38:24Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|8 pred=2.6 running=2
+2026-10-29T00:38:26Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|4 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:26Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|8 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:26Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|9 pred=2.6 running=1
+2026-10-29T00:38:26Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|11 pred=2.6 running=2
+2026-10-29T00:38:28Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|9 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:28Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|11 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:28Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|12 pred=2.6 running=1
+2026-10-29T00:38:28Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|14 pred=2.6 running=2
+2026-10-29T00:38:30Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|12 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:30Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|14 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:30Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|17 pred=2.6 running=1
+2026-10-29T00:38:30Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|18 pred=2.6 running=2
+2026-10-29T00:38:32Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|17 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:32Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|18 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:32Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|19 pred=2.6 running=1
+2026-10-29T00:38:32Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|20 pred=2.6 running=2
+2026-10-29T00:38:34Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|19 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:34Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|20 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:34Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|21 pred=2.6 running=1
+2026-10-29T00:38:34Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|22 pred=2.6 running=2
+2026-10-29T00:38:36Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|21 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:36Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|22 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:36Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|23 pred=2.6 running=1
+2026-10-29T00:38:36Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|25 pred=2.6 running=2
+2026-10-29T00:38:38Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|23 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:38Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|25 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:38Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|26 pred=2.6 running=1
+2026-10-29T00:38:38Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|27 pred=2.6 running=2
+2026-10-29T00:38:40Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|26 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:40Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|27 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:40Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|28 pred=2.6 running=1
+2026-10-29T00:38:40Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|29 pred=2.6 running=2
+2026-10-29T00:38:42Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|28 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:42Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|29 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:42Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|30 pred=2.6 running=1
+2026-10-29T00:38:42Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|31 pred=2.6 running=2
+2026-10-29T00:38:44Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|30 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:44Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|31 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:44Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|32 pred=2.6 running=1
+2026-10-29T00:38:44Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|33 pred=2.6 running=2
+2026-10-29T00:38:46Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|32 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:46Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|33 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:46Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|36 pred=2.6 running=1
+2026-10-29T00:38:46Z start s_Natuvea_tacenta_core_tacenta_model|Model.CompositeHeader|1 pred=2.7 running=2
+2026-10-29T00:38:48Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|36 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:48Z start s_opencompl_veir|Veir.Data.PBV.Examples|3 pred=2.7 running=2
+2026-10-29T00:38:50Z end s_Natuvea_tacenta_core_tacenta_model|Model.CompositeHeader|1 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:38:50Z end s_opencompl_veir|Veir.Data.PBV.Examples|3 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:50Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|6 pred=2.7 running=1
+2026-10-29T00:38:50Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|7 pred=2.7 running=2
+2026-10-29T00:38:54Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|6 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:38:54Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|7 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:38:54Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|8 pred=2.7 running=1
+2026-10-29T00:38:54Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|14 pred=2.7 running=2
+2026-10-29T00:38:56Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|8 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:38:56Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|34 pred=2.7 running=2
+2026-10-29T00:38:58Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|14 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:38:58Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|37 pred=2.7 running=2
+2026-10-29T00:39:00Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|34 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:00Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|44 pred=2.7 running=2
+2026-10-29T00:39:02Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|37 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:02Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|55 pred=2.7 running=2
+2026-10-29T00:39:04Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|44 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:04Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|57 pred=2.7 running=2
+2026-10-29T00:39:06Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|55 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:06Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|61 pred=2.7 running=2
+2026-10-29T00:39:08Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|57 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:08Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|92 pred=2.7 running=2
+2026-10-29T00:39:10Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|61 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:10Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|94 pred=2.7 running=2
+2026-10-29T00:39:12Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|92 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:12Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|94 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:39:12Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|107 pred=2.7 running=1
+2026-10-29T00:39:12Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|0 pred=2.7 running=2
+2026-10-29T00:39:14Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|107 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:39:14Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:39:14Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|7 pred=2.7 running=1
+2026-10-29T00:39:14Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|15 pred=2.7 running=2
+2026-10-29T00:39:16Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|7 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:39:16Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|15 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:39:16Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|16 pred=2.7 running=1
+2026-10-29T00:39:16Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|34 pred=2.7 running=2
+2026-10-29T00:39:20Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|16 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:20Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|34 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:20Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|1 pred=2.8 running=1
+2026-10-29T00:39:21Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|2 pred=2.8 running=2
+2026-10-29T00:39:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|1 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|2 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|13 pred=2.8 running=1
+2026-10-29T00:39:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|17 pred=2.8 running=2
+2026-10-29T00:39:29Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|13 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:29Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|17 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:29Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|20 pred=2.8 running=1
+2026-10-29T00:39:29Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|45 pred=2.8 running=2
+2026-10-29T00:39:33Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|20 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:33Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|45 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:33Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|46 pred=2.8 running=1
+2026-10-29T00:39:33Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|68 pred=2.8 running=2
+2026-10-29T00:39:37Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|46 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:37Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|68 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:37Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|70 pred=2.8 running=1
+2026-10-29T00:39:37Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|71 pred=2.8 running=2
+2026-10-29T00:39:41Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|70 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:41Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|71 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:41Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|74 pred=2.8 running=1
+2026-10-29T00:39:41Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|101 pred=2.8 running=2
+2026-10-29T00:39:45Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|74 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:45Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|101 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:45Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|105 pred=2.8 running=1
+2026-10-29T00:39:45Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|12 pred=2.8 running=2
+2026-10-29T00:39:47Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|12 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:39:47Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|21 pred=2.8 running=2
+2026-10-29T00:39:49Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|105 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:49Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|21 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:39:49Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|25 pred=2.8 running=1
+2026-10-29T00:39:49Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|27 pred=2.8 running=2
+2026-10-29T00:39:51Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|25 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:39:51Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|27 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:39:51Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|5 pred=2.8 running=1
+2026-10-29T00:39:51Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|6 pred=2.8 running=2
+2026-10-29T00:39:55Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|5 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:55Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|6 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:55Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|10 pred=2.8 running=1
+2026-10-29T00:39:55Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|13 pred=2.8 running=2
+2026-10-29T00:39:59Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|10 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:59Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|13 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:39:59Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|24 pred=2.8 running=1
+2026-10-29T00:39:59Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|38 pred=2.8 running=2
+2026-10-29T00:40:01Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|38 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:40:01Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|5 pred=3.0 running=2
+2026-10-29T00:40:03Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Proofs|24 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:03Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|24 pred=3.0 running=2
+2026-10-29T00:40:07Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|5 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:07Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|24 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:07Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|41 pred=3.0 running=1
+2026-10-29T00:40:07Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|42 pred=3.0 running=2
+2026-10-29T00:40:11Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|41 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:11Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|47 pred=3.0 running=2
+2026-10-29T00:40:13Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|42 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:13Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|53 pred=3.0 running=2
+2026-10-29T00:40:15Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|47 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:15Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|60 pred=3.0 running=2
+2026-10-29T00:40:17Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|53 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:17Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|62 pred=3.0 running=2
+2026-10-29T00:40:19Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|60 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:19Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|63 pred=3.0 running=2
+2026-10-29T00:40:21Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|62 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:21Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|82 pred=3.0 running=2
+2026-10-29T00:40:23Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|63 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:23Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|84 pred=3.0 running=2
+2026-10-29T00:40:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|82 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|85 pred=3.0 running=2
+2026-10-29T00:40:27Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|84 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:27Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|99 pred=3.0 running=2
+2026-10-29T00:40:29Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|85 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:29Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|0 pred=3.0 running=2
+2026-10-29T00:40:31Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|99 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:40:31Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|0 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:31Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|2 pred=3.0 running=1
+2026-10-29T00:40:31Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|9 pred=3.0 running=2
+2026-10-29T00:40:33Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|2 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:33Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|9 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:33Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|14 pred=3.0 running=1
+2026-10-29T00:40:33Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|15 pred=3.0 running=2
+2026-10-29T00:40:35Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|14 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:35Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|15 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:35Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|26 pred=3.0 running=1
+2026-10-29T00:40:35Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|21 pred=3.1 running=2
+2026-10-29T00:40:37Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|26 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:37Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|51 pred=3.1 running=2
+2026-10-29T00:40:41Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|21 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:41Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|64 pred=3.1 running=2
+2026-10-29T00:40:43Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|51 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:43Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|65 pred=3.1 running=2
+2026-10-29T00:40:47Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|64 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:47Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|66 pred=3.1 running=2
+2026-10-29T00:40:49Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|65 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:49Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|7 pred=3.1 running=2
+2026-10-29T00:40:51Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|7 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:51Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|17 pred=3.1 running=2
+2026-10-29T00:40:53Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|66 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:40:53Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|17 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:53Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|18 pred=3.1 running=1
+2026-10-29T00:40:53Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|19 pred=3.1 running=2
+2026-10-29T00:40:55Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|18 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:55Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|19 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:55Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|24 pred=3.1 running=1
+2026-10-29T00:40:55Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|28 pred=3.1 running=2
+2026-10-29T00:40:57Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|24 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:57Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|28 rc=0 wall=2 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:40:57Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|29 pred=3.2 running=1
+2026-10-29T00:40:57Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|33 pred=3.2 running=2
+2026-10-29T00:41:03Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|29 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:41:03Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|33 rc=0 wall=6 verdict=CONVERTED 
+2026-10-29T00:41:03Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|10 pred=3.4 running=1
+2026-10-29T00:41:03Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|76 pred=3.4 running=2
+2026-10-29T00:41:11Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|76 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:11Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|80 pred=3.4 running=2
+2026-10-29T00:41:17Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|10 rc=0 wall=14 verdict=CONVERTED 
+2026-10-29T00:41:17Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|90 pred=3.4 running=2
+2026-10-29T00:41:19Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|80 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:19Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|100 pred=3.4 running=2
+2026-10-29T00:41:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|90 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|102 pred=3.4 running=2
+2026-10-29T00:41:27Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|100 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:27Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|0 pred=3.5 running=2
+2026-10-29T00:41:33Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|102 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:33Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|3 pred=3.5 running=2
+2026-10-29T00:41:41Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|0 rc=0 wall=14 verdict=CONVERTED 
+2026-10-29T00:41:41Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|18 pred=3.5 running=2
+2026-10-29T00:41:43Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|3 rc=0 wall=10 verdict=CONVERTED 
+2026-10-29T00:41:43Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|22 pred=3.5 running=2
+2026-10-29T00:41:51Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|22 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:41:51Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|52 pred=3.5 running=2
+2026-10-29T00:41:59Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|18 rc=0 wall=18 verdict=CONVERTED 
+2026-10-29T00:41:59Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|87 pred=3.5 running=2
+2026-10-29T00:42:13Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|52 rc=0 wall=22 verdict=CONVERTED 
+2026-10-29T00:42:13Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|87 rc=0 wall=14 verdict=CONVERTED 
+2026-10-29T00:42:13Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|43 pred=3.6 running=1
+2026-10-29T00:42:13Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|58 pred=3.6 running=2
+2026-10-29T00:42:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|58 rc=0 wall=12 verdict=CONVERTED 
+2026-10-29T00:42:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|67 pred=3.6 running=2
+2026-10-29T00:42:27Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|43 rc=0 wall=14 verdict=CONVERTED 
+2026-10-29T00:42:27Z start clean|Clean.Utils.Bitwise|0 pred=3.8 running=2
+2026-10-29T00:42:29Z end clean|Clean.Utils.Bitwise|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:42:29Z start s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|0 pred=3.8 running=2
+2026-10-29T00:42:37Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|67 rc=0 wall=12 verdict=CONVERTED 
+2026-10-29T00:42:37Z end s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|0 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:42:37Z start s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|1 pred=3.8 running=1
+2026-10-29T00:42:37Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|9 pred=3.8 running=2
+2026-10-29T00:42:45Z end s_opencompl_veir|Veir.Passes.ArithToLLVM.Proofs|1 rc=0 wall=8 verdict=CONVERTED 
+2026-10-29T00:42:45Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|56 pred=3.8 running=2
+2026-10-29T00:43:07Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|56 rc=0 wall=22 verdict=CONVERTED 
+2026-10-29T00:43:07Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|10 pred=3.8 running=2
+2026-10-29T00:43:11Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|9 rc=0 wall=34 verdict=CONVERTED 
+2026-10-29T00:43:11Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|29 pred=3.8 running=2
+2026-10-29T00:43:25Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|10 rc=0 wall=18 verdict=CONVERTED 2 of 5 rebuilt users still use other native facts
+2026-10-29T00:43:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|19 pred=3.9 running=2
+2026-10-29T00:43:27Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|29 rc=0 wall=16 verdict=CONVERTED no users in the module (unused axiom)
+2026-10-29T00:43:27Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|39 pred=3.9 running=2
+2026-10-29T00:43:55Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|19 rc=0 wall=30 verdict=CONVERTED 
+2026-10-29T00:43:55Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|49 pred=3.9 running=2
+2026-10-29T00:43:57Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|39 rc=0 wall=30 verdict=CONVERTED 
+2026-10-29T00:43:57Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|59 pred=3.9 running=2
+2026-10-29T00:44:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|49 rc=0 wall=30 verdict=CONVERTED 
+2026-10-29T00:44:25Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|59 rc=0 wall=28 verdict=CONVERTED 
+2026-10-29T00:44:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|69 pred=3.9 running=1
+2026-10-29T00:44:25Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|95 pred=4.0 running=2
+2026-10-29T00:45:07Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|69 rc=0 wall=42 verdict=CONVERTED 
+2026-10-29T00:45:07Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|104 pred=4.0 running=2
+2026-10-29T00:45:19Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|95 rc=0 wall=54 verdict=CONVERTED 
+2026-10-29T00:45:59Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|104 rc=0 wall=52 verdict=CONVERTED 
+2026-10-29T00:45:59Z start clean|Clean.Gadgets.Or.Or8|0 pred=4.1 running=1
+2026-10-29T00:46:03Z end clean|Clean.Gadgets.Or.Or8|0 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:46:03Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|48 pred=4.1 running=1
+2026-10-29T00:47:27Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|48 rc=0 wall=84 verdict=CONVERTED 
+2026-10-29T00:47:27Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|11 pred=4.1 running=1
+2026-10-29T00:47:43Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|11 rc=0 wall=16 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:47:43Z start clean|Clean.Gadgets.And.And8|0 pred=4.3 running=1
+2026-10-29T00:47:47Z end clean|Clean.Gadgets.And.And8|0 rc=0 wall=4 verdict=CONVERTED 
+2026-10-29T00:47:47Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|8 pred=4.3 running=1
+2026-10-29T00:48:09Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|8 rc=0 wall=22 verdict=CONVERTED 2 of 4 rebuilt users still use other native facts
+2026-10-29T00:48:09Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|26 pred=4.4 running=1
+2026-10-29T00:48:39Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|26 rc=0 wall=30 verdict=CONVERTED 
+2026-10-29T00:48:39Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|31 pred=4.4 running=1
+2026-10-29T00:49:09Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|31 rc=0 wall=30 verdict=CONVERTED 
+2026-10-29T00:49:09Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|5 pred=4.5 running=1
+2026-10-29T00:49:45Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|5 rc=0 wall=36 verdict=CONVERTED no users in the module (unused axiom)
+2026-10-29T00:49:45Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|6 pred=4.5 running=1
+2026-10-29T00:50:21Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|6 rc=0 wall=36 verdict=CONVERTED 2 of 5 rebuilt users still use other native facts
+2026-10-29T00:50:21Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|16 pred=4.5 running=1
+2026-10-29T00:50:55Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|16 rc=0 wall=34 verdict=CONVERTED 2 of 5 rebuilt users still use other native facts
+2026-10-29T00:50:55Z start s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|23 pred=4.5 running=1
+2026-10-29T00:51:29Z end s_opencompl_veir|Veir.Passes.RISCVCombines.Combine|23 rc=0 wall=34 verdict=CONVERTED no users in the module (unused axiom)
+2026-10-29T00:51:29Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|35 pred=6.7 running=1
+2026-10-29T01:00:05Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|35 rc=0 wall=516 verdict=CONVERTED 
+2026-10-29T01:00:05Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|4 pred=7.0 running=1
+2026-10-29T01:02:05Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|4 rc=0 wall=120 verdict=CONVERTED 
+2026-10-29T01:02:05Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|11 pred=7.0 running=1
+2026-10-29T01:04:09Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|11 rc=0 wall=124 verdict=CONVERTED 
+2026-10-29T01:04:09Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|16 pred=7.0 running=1
+2026-10-29T01:06:11Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|16 rc=0 wall=122 verdict=CONVERTED 
+2026-10-29T01:06:11Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|32 pred=7.0 running=1
+2026-10-29T01:08:05Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|32 rc=0 wall=114 verdict=CONVERTED 
+2026-10-29T01:08:05Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|38 pred=7.0 running=1
+2026-10-29T01:10:01Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|38 rc=0 wall=116 verdict=CONVERTED 
+2026-10-29T01:10:01Z start s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|75 pred=7.1 running=1
+2026-10-29T01:11:47Z end s_opencompl_veir|Veir.Passes.InstructionSelection.Proofs|75 rc=0 wall=106 verdict=CONVERTED 
+2026-10-29T01:11:49Z all done

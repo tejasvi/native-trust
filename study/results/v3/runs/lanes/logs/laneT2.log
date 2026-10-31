@@ -1,0 +1,4 @@
+2026-10-29T00:41:18Z lane start /home/ntbuild/v3/lanes/v3_laneT.tsv args: --jobs 24 --nt-root /home/ntbuild/nt_fix14
+2026-10-29T00:41:18Z start v3-trainverify --skip-build
+2026-10-29T01:06:11Z end v3-trainverify rc=0 v3-trainverify 15635 axioms: {'ERROR': 7, 'TIMEOUT': 1, 'PROVED': 15627}
+2026-10-29T01:06:11Z lane end /home/ntbuild/v3/lanes/v3_laneT.tsv

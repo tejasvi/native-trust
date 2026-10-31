@@ -1,0 +1,20 @@
+2026-10-29T00:11:13Z lane start /home/ntbuild/v3/lanes/v3_laneA2.tsv args: --nt-root /home/ntbuild/nt_fix14
+2026-10-29T00:11:13Z start v3-strata --skip-build --jobs 16
+2026-10-29T00:36:41Z end v3-strata rc=0 v3-strata 172 axioms: {'FAILED': 138, 'PROVED': 34}
+2026-10-29T00:36:41Z start v3-cvc5-logos --skip-build --jobs 16
+2026-10-29T00:39:51Z end v3-cvc5-logos rc=0 v3-cvc5-logos 2185 axioms: {'PROVED': 2185}
+2026-10-29T00:39:51Z start v3-lido-srv3 --skip-build --jobs 16
+2026-10-29T00:39:58Z end v3-lido-srv3 rc=0 v3-lido-srv3 70 axioms: {'PROVED': 70}
+2026-10-29T00:39:58Z start v3-cedar-lean --skip-build --jobs 16
+2026-10-29T00:40:09Z end v3-cedar-lean rc=0 v3-cedar-lean 26 axioms: {'PROVED': 26}
+2026-10-29T00:40:09Z start v3-aks --skip-build --jobs 2
+2026-10-29T00:56:08Z end v3-aks rc=0 v3-aks 7 axioms: {'FAILED': 2, 'TIMEOUT': 1, 'ERROR': 4}
+2026-10-29T00:56:08Z start v3-sorting-network-expanders --skip-build --jobs 2
+2026-10-29T01:11:38Z end v3-sorting-network-expanders rc=0 v3-sorting-network-expanders 7 axioms: {'ERROR': 4, 'FAILED': 2, 'TIMEOUT': 1}
+2026-10-29T01:11:38Z start v3-aeneas-lean --skip-build --jobs 2
+2026-10-29T01:12:03Z end v3-aeneas-lean rc=0 v3-aeneas-lean 1 axioms: {'FAILED': 1}
+2026-10-29T01:12:03Z start v3-rs-mca-m31_dyadic_weight_laws --skip-build --jobs 8
+2026-10-29T01:12:05Z end v3-rs-mca-m31_dyadic_weight_laws rc=0 v3-rs-mca-m31_dyadic_weight_laws 9 axioms: {'PROVED': 9}
+2026-10-29T01:12:05Z start v3-rs-mca-m31_flatness_keystone --skip-build --jobs 2
+2026-10-29T01:14:45Z end v3-rs-mca-m31_flatness_keystone rc=0 v3-rs-mca-m31_flatness_keystone 2 axioms: {'ERROR': 1, 'PROVED': 1}
+2026-10-29T01:14:45Z lane end /home/ntbuild/v3/lanes/v3_laneA2.tsv

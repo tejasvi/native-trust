@@ -1,0 +1,35 @@
+# v3 aggregator column map v2 (written 2026-10-29T07:04Z): COL<TAB>BASE<TAB>STEM (results/STEM.ax.tsv, 12 columns).
+# G = general add-ons (the bv_decide pipeline and the csimp add-on), K = package add-ons.
+# O files v3o-BASE and P files v3p-BASE are found by name. Not columns: v3oc-/v3os-/v3op-/v3o16- (single-option
+# controls), v3oh-trainverify and v3oz-s_zcash_ironwood (heavy cases, reported apart), v3u- (selection lists).
+G	s_opencompl_veir	v3bvs-s_opencompl_veir
+G	clean	v3bvs-clean
+G	asi-stack-book	v3bvs-asi-stack-book
+G	s_Natuvea_tacenta_core_tacenta_model	v3bvs-s_Natuvea_tacenta_core_tacenta_model
+G	s_Natuvea_tacenta_core_tacenta_proofs	v3bvs-s_Natuvea_tacenta_core_tacenta_proofs
+G	s_Provenance_Works_Radix	v3bvs-s_Provenance_Works_Radix
+G	formal-conjectures	v3a-csimp_fc-formal-conjectures
+G	longfellow-zk	v3a-csimp_lfzk-longfellow-zk
+K	strata	v3a-strata-strata
+K	clean	v3a-primes_clean-clean
+K	s_BobDyLean_bobdylean_paper_artifact	v3a-bob-s_BobDyLean_bobdylean_paper_artifact
+K	s_pandaman64_lean_regex_correctness	v3a-regex-s_pandaman64_lean_regex_correctness
+K	s_emberian_minidregg	v3a-minidregg-s_emberian_minidregg
+K	longfellow-zk	v3a-longfellow-longfellow-zk
+K	formal-conjectures	v3a-fcprimes-formal-conjectures
+K	berry-esseen	v3b-tok-berry-esseen
+K	berry-esseen	v3b-covers-berry-esseen
+# O: shards (the v3s runs), one line per results/v3s-BASE.ax.tsv (added by v3_mk_map.sh)
+O	aks	v3s-aks
+O	berry-esseen	v3s-berry-esseen
+O	formal-conjectures	v3s-formal-conjectures
+O	longfellow-zk	v3s-longfellow-zk
+O	rs-mca-m31_flatness_keystone	v3s-rs-mca-m31_flatness_keystone
+O	s_Provenance_Works_Radix	v3s-s_Provenance_Works_Radix
+O	s_Rob1Ham_btc_lean_spec_proofs	v3s-s_Rob1Ham_btc_lean_spec_proofs
+O	s_emberian_minidregg	v3s-s_emberian_minidregg
+O	s_pandaman64_lean_regex_correctness	v3s-s_pandaman64_lean_regex_correctness
+O	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5	v3s-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5
+O	s_zcash_ironwood	v3s-s_zcash_ironwood
+O	sorting-network-expanders	v3s-sorting-network-expanders
+O	trainverify	v3s-trainverify

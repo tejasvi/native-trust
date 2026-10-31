@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use NativeTrust or its study data, please cite the paper."
 title: "NativeTrust"
-version: "1.0.1"
-date-released: 2026-10-28
-doi: 10.5281/zenodo.23743965
+version: "1.1.0"
+date-released: 2026-10-30
+doi: 10.5281/zenodo.23818393
 repository-code: "https://github.com/tejasvi/native-trust"
 license:
   - Apache-2.0
@@ -20,6 +20,6 @@ preferred-citation:
     - family-names: Tomar
       given-names: Tejasvi Singh
       orcid: "https://orcid.org/0000-0003-4668-3639"
-  doi: 10.5281/zenodo.23743968
+  doi: 10.5281/zenodo.23818391
   year: 2026
   month: 10

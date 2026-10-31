@@ -1,0 +1,7 @@
+BO leaf BerryOpt.B223 k=6 node=17 kernel_ms=145844
+BO leaf BerryOpt.B223 k=7 node=20 kernel_ms=180032
+BO leaf BerryOpt.B223 k=8 node=21 kernel_ms=192035
+BO leaf BerryOpt.B223 k=9 node=23 kernel_ms=179356
+BO leaf BerryOpt.B223 k=10 node=24 kernel_ms=177349
+BO leaf BerryOpt.B223 k=11 node=27 kernel_ms=169196
+BO leaves BerryOpt.B223 6..12 of 23 kernel_ms=1043812 wall_ms=1044149

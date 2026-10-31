@@ -1,0 +1,6 @@
+BO leaf BerryOpt.C3 k=1440 node=2881 kernel_ms=39615
+BO leaf BerryOpt.C3 k=1441 node=2885 kernel_ms=39972
+BO leaf BerryOpt.C3 k=1442 node=2886 kernel_ms=39640
+BO leaf BerryOpt.C3 k=1443 node=2887 kernel_ms=39516
+BO leaf BerryOpt.C3 k=1444 node=2888 kernel_ms=38822
+BO leaves BerryOpt.C3 1440..1445 of 1445 kernel_ms=197565 wall_ms=197621

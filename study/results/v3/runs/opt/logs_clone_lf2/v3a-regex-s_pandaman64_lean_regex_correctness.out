@@ -1,0 +1,4 @@
+2026-10-30T05:36:27Z start v3a-regex-s_pandaman64_lean_regex_correctness jobs=14 imports=NTRegexCaseFold
+2026-10-30T05:36:27Z options: none
+v3a-regex-s_pandaman64_lean_regex_correctness 2 axioms: {'PROVED': 2}
+2026-10-30T05:39:42Z end rc=0 v3a-regex-s_pandaman64_lean_regex_correctness 2 axioms: {'PROVED': 2}

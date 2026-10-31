@@ -1,0 +1,6 @@
+BerryOpt.D168.parse : BerryEsseen.Upper0423.Native.coverStringAcceptedDW 168 0 1
+    BerryEsseen.Upper0423.Covers.Data.DW168.data =
+  BerryEsseen.Upper0423.Native.coverAccepted 168 0 1 0 1 BerryOpt.D168.t_0
+'BerryOpt.D168.parse' depends on axioms: [propext, Classical.choice, Quot.sound]
+rc=0
+TIME 5.48 s 2714460 KB

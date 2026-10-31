@@ -1,0 +1,6 @@
+Zcash.Snark.Fixtures.MultiAction.Honest.Fixture	Zcash.Snark.Fixture2.capturedMsm_eval_eq_zero._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory
+Zcash.Snark.Fixtures.MultiAction.Random.Fixture	Zcash.Snark.FixtureRandom2.capturedMsm_evalNat_ne_zero._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory
+Zcash.Snark.Fixtures.MultiAction.Random.Fixture	Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory
+Zcash.Snark.Fixtures.SingleAction.Honest.Fixture	Zcash.Snark.Fixture.capturedMsm_eval_eq_zero._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory
+Zcash.Snark.Fixtures.SingleAction.Random.Fixture	Zcash.Snark.FixtureRandom.capturedMsm_evalNat_ne_zero._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory
+Zcash.Snark.Keygen.Certificate	Zcash.Snark.Keygen.certificate._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_zcash_ironwood	memory

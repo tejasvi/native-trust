@@ -1,0 +1,2 @@
+BO parse BerryOpt.S32 hpL kernel_ms=2024
+BO parse BerryOpt.S32 parse kernel_ms=8

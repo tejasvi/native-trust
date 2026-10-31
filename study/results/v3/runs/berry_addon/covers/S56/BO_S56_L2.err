@@ -1,0 +1,9 @@
+BO leaf BerryOpt.S56 k=24 node=50 kernel_ms=69313
+BO leaf BerryOpt.S56 k=25 node=53 kernel_ms=83037
+BO leaf BerryOpt.S56 k=26 node=54 kernel_ms=85849
+BO leaf BerryOpt.S56 k=27 node=55 kernel_ms=85232
+BO leaf BerryOpt.S56 k=28 node=59 kernel_ms=92355
+BO leaf BerryOpt.S56 k=29 node=60 kernel_ms=90065
+BO leaf BerryOpt.S56 k=30 node=61 kernel_ms=91730
+BO leaf BerryOpt.S56 k=31 node=62 kernel_ms=156800
+BO leaves BerryOpt.S56 24..32 of 32 kernel_ms=754381 wall_ms=754591

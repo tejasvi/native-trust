@@ -1,0 +1,6 @@
+2026-10-29T00:36:45Z start jobs=2 max_jobs=2 budget=8.0 max_pred=8.0 timeout=900 vmem_kb=50331648 pid=220788
+2026-10-29T00:36:45Z start asi-stack-book|AsiStackProofs.StackBoundaries|0 pred=2.6 running=1
+2026-10-29T00:36:45Z start clean|Clean.Utils.Bitwise|0 pred=3.8 running=2
+2026-10-29T00:36:47Z end asi-stack-book|AsiStackProofs.StackBoundaries|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:36:47Z end clean|Clean.Utils.Bitwise|0 rc=0 wall=2 verdict=CONVERTED 
+2026-10-29T00:36:49Z all done

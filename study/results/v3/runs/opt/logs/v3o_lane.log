@@ -1,0 +1,212 @@
+2026-10-29T04:21:18Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_a2.txt jobs=3
+aeneas-lean: files v3-aeneas-lean.ax.tsv; base 1 facts; unconverted 1
+      1 FAILED/blocked
+2026-10-29T04:21:18Z start v3o-aeneas-lean (1 facts)
+2026-10-29T04:21:35Z end v3o-aeneas-lean rc=0 v3o-aeneas-lean 1 axioms: {'FAILED': 1}
+asi-stack-book: files v3-asi-stack-book.ax.tsv; base 392 facts; unconverted 1
+      1 FAILED/blocked
+2026-10-29T04:21:35Z start v3o-asi-stack-book (1 facts)
+2026-10-29T04:22:03Z end v3o-asi-stack-book rc=0 v3o-asi-stack-book 1 axioms: {'FAILED': 1}
+cedar-lean: files v3-cedar-lean.ax.tsv; base 26 facts; unconverted 0
+2026-10-29T04:22:03Z cedar-lean: nothing unconverted, skipped
+2026-10-29T04:22:03Z start v3o-clean (103 facts)
+2026-10-29T04:27:57Z end v3o-clean rc=0 v3o-clean 113 axioms: {'PROVED': 109, 'FAILED': 4}
+cvc5-logos: files v3-cvc5-logos.ax.tsv; base 2185 facts; unconverted 0
+2026-10-29T04:27:57Z cvc5-logos: nothing unconverted, skipped
+humanfia-icho2026: files v3-humanfia-icho2026.ax.tsv v3h-humanfia-icho2026.ax.tsv v3p-humanfia-icho2026.ax.tsv; base 1864 facts; unconverted 0
+2026-10-29T04:27:57Z humanfia-icho2026: nothing unconverted, skipped
+lido-srv3: files v3-lido-srv3.ax.tsv; base 70 facts; unconverted 0
+2026-10-29T04:27:57Z lido-srv3: nothing unconverted, skipped
+rs-mca-m31_dyadic_weight_laws: files v3-rs-mca-m31_dyadic_weight_laws.ax.tsv; base 9 facts; unconverted 0
+2026-10-29T04:27:57Z rs-mca-m31_dyadic_weight_laws: nothing unconverted, skipped
+rs-mca-m31_flatness_keystone: files v3-rs-mca-m31_flatness_keystone.ax.tsv v3h-rs-mca-m31_flatness_keystone.ax.tsv v3p-rs-mca-m31_flatness_keystone.ax.tsv; base 2 facts; unconverted 1
+      1 ERROR/memory
+2026-10-29T04:27:57Z start v3o-rs-mca-m31_flatness_keystone (1 facts)
+2026-10-29T04:42:58Z end v3o-rs-mca-m31_flatness_keystone rc=0 v3o-rs-mca-m31_flatness_keystone 1 axioms: {'TIMEOUT': 1}
+2026-10-29T04:42:58Z start v3o-s_BobDyLean_bobdylean_paper_artifact (14 facts)
+2026-10-29T04:57:12Z end v3o-s_BobDyLean_bobdylean_paper_artifact rc=0 v3o-s_BobDyLean_bobdylean_paper_artifact 14 axioms: {'ERROR': 1, 'FAILED': 13}
+s_COINjecture_Network_COINjecture2_0_lean4: files v3-s_COINjecture_Network_COINjecture2_0_lean4.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T04:57:12Z s_COINjecture_Network_COINjecture2_0_lean4: nothing unconverted, skipped
+s_Flaman55_StructuralSieve: files v3-s_Flaman55_StructuralSieve.ax.tsv; base 1 facts; unconverted 0
+2026-10-29T04:57:12Z s_Flaman55_StructuralSieve: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_GZGavinZhao_LeanMenhir.ax.tsv
+2026-10-29T04:57:12Z s_GZGavinZhao_LeanMenhir: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_M32026_3d_sticky_kakeya.ax.tsv
+2026-10-29T04:57:12Z s_M32026_3d_sticky_kakeya: nothing unconverted, skipped
+s_Natuvea_tacenta_core_tacenta_model: files v3-s_Natuvea_tacenta_core_tacenta_model.ax.tsv; base 2 facts; unconverted 2
+      2 FAILED/blocked
+2026-10-29T04:57:12Z start v3o-s_Natuvea_tacenta_core_tacenta_model (2 facts)
+2026-10-29T05:00:54Z end v3o-s_Natuvea_tacenta_core_tacenta_model rc=0 v3o-s_Natuvea_tacenta_core_tacenta_model 2 axioms: {'FAILED': 2}
+no /home/ntbuild/results/v3-s_Panta_Rhei_Research_taulib.ax.tsv
+2026-10-29T05:00:54Z s_Panta_Rhei_Research_taulib: nothing unconverted, skipped
+s_PoorlyDefinedBehaviour_lean4_study_lean4dev: files v3-s_PoorlyDefinedBehaviour_lean4_study_lean4dev.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T05:00:54Z s_PoorlyDefinedBehaviour_lean4_study_lean4dev: nothing unconverted, skipped
+s_Rob1Ham_btc_lean_spec_core: files v3-s_Rob1Ham_btc_lean_spec_core.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T05:00:54Z s_Rob1Ham_btc_lean_spec_core: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_Theophilus1030_NeoMathlib.ax.tsv
+2026-10-29T05:00:54Z s_Theophilus1030_NeoMathlib: nothing unconverted, skipped
+s_UOR_Foundation_LexLean_bootstrap: files v3-s_UOR_Foundation_LexLean_bootstrap.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T05:00:54Z s_UOR_Foundation_LexLean_bootstrap: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_V_Sekai_TOOL_cloth_dynamics_lean.ax.tsv
+2026-10-29T05:00:54Z s_V_Sekai_TOOL_cloth_dynamics_lean: nothing unconverted, skipped
+s_V_Sekai_fire_interactor_spatial_oracle: files v3-s_V_Sekai_fire_interactor_spatial_oracle.ax.tsv; base 43 facts; unconverted 0
+2026-10-29T05:00:54Z s_V_Sekai_fire_interactor_spatial_oracle: nothing unconverted, skipped
+s_WyattAu_OmniLaTeX_template_specs_proofs: files v3-s_WyattAu_OmniLaTeX_template_specs_proofs.ax.tsv; base 3 facts; unconverted 0
+2026-10-29T05:00:54Z s_WyattAu_OmniLaTeX_template_specs_proofs: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_anulum_director_ai_formal_HaltMonitor.ax.tsv
+2026-10-29T05:00:54Z s_anulum_director_ai_formal_HaltMonitor: nothing unconverted, skipped
+s_batmeezy918_chronofold: files v3-s_batmeezy918_chronofold.ax.tsv; base 11 facts; unconverted 0
+2026-10-29T05:00:54Z s_batmeezy918_chronofold: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_bjoernkjoshanssen_clfa.ax.tsv
+2026-10-29T05:00:54Z s_bjoernkjoshanssen_clfa: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_cslib_community_complexitylib.ax.tsv
+2026-10-29T05:00:54Z s_cslib_community_complexitylib: nothing unconverted, skipped
+s_dappalumbo91_FSOT_2_1_Neural_formal: files v3-s_dappalumbo91_FSOT_2_1_Neural_formal.ax.tsv; base 118 facts; unconverted 0
+2026-10-29T05:00:54Z s_dappalumbo91_FSOT_2_1_Neural_formal: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_ertwro_one_third_two_thirds.ax.tsv
+2026-10-29T05:00:54Z s_ertwro_one_third_two_thirds: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_igrep_lean_workshop.ax.tsv
+2026-10-29T05:00:54Z s_igrep_lean_workshop: nothing unconverted, skipped
+s_jagg_ix_catept_main: files v3-s_jagg_ix_catept_main.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T05:00:54Z s_jagg_ix_catept_main: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_mbrcic_ai_safety_formalization_atlas.ax.tsv
+2026-10-29T05:00:54Z s_mbrcic_ai_safety_formalization_atlas: nothing unconverted, skipped
+s_opencompl_veir: files v3-s_opencompl_veir.ax.tsv v3p-s_opencompl_veir.ax.tsv; base 188 facts; unconverted 188
+    183 FAILED/blocked
+      5 ERROR/stack
+2026-10-29T05:00:54Z start v3o-s_opencompl_veir (188 facts)
+2026-10-29T05:00:54Z end v3o-s_opencompl_veir rc=2 no NativeTrust build in /home/ntbuild/nt_fix14/v4.35.0-rc4
+s_rusch95_cakec_proofs_lean: files v3-s_rusch95_cakec_proofs_lean.ax.tsv; base 9 facts; unconverted 0
+2026-10-29T05:00:54Z s_rusch95_cakec_proofs_lean: nothing unconverted, skipped
+s_siddhartha_gadgil_PlasmaLean: files v3-s_siddhartha_gadgil_PlasmaLean.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T05:00:54Z s_siddhartha_gadgil_PlasmaLean: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_swissyai_theotetus_physics_verifier.ax.tsv
+2026-10-29T05:00:54Z s_swissyai_theotetus_physics_verifier: nothing unconverted, skipped
+2026-10-29T05:00:54Z start v3o-strata (220 facts)
+2026-10-29T07:32:41Z end v3o-strata rc=0 v3o-strata 221 axioms: {'PROVED': 1, 'FAILED': 220}
+2026-10-29T07:32:41Z lane end
+2026-10-29T07:41:04Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_b2.txt jobs=3
+2026-10-29T07:41:04Z s_COINjecture_Network_COINjecture2_0_lean4: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_Flaman55_StructuralSieve: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_M32026_3d_sticky_kakeya.ax.tsv
+2026-10-29T07:41:04Z s_M32026_3d_sticky_kakeya: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_Panta_Rhei_Research_taulib.ax.tsv
+2026-10-29T07:41:04Z s_Panta_Rhei_Research_taulib: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_PoorlyDefinedBehaviour_lean4_study_lean4dev: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_UOR_Foundation_LexLean_bootstrap: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_V_Sekai_TOOL_cloth_dynamics_lean.ax.tsv
+2026-10-29T07:41:04Z s_V_Sekai_TOOL_cloth_dynamics_lean: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_WyattAu_OmniLaTeX_template_specs_proofs: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_anulum_director_ai_formal_HaltMonitor.ax.tsv
+2026-10-29T07:41:04Z s_anulum_director_ai_formal_HaltMonitor: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_batmeezy918_chronofold: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_bjoernkjoshanssen_clfa.ax.tsv
+2026-10-29T07:41:04Z s_bjoernkjoshanssen_clfa: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_cslib_community_complexitylib.ax.tsv
+2026-10-29T07:41:04Z s_cslib_community_complexitylib: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_ertwro_one_third_two_thirds.ax.tsv
+2026-10-29T07:41:04Z s_ertwro_one_third_two_thirds: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_igrep_lean_workshop.ax.tsv
+2026-10-29T07:41:04Z s_igrep_lean_workshop: nothing unconverted, skipped
+2026-10-29T07:41:04Z s_jagg_ix_catept_main: nothing unconverted, skipped
+2026-10-29T07:41:04Z start v3o-s_opencompl_veir (188 facts, tc v4.35.0-rc4, root /home/ntbuild/v3/nt_v15)
+2026-10-29T08:23:36Z end v3o-s_opencompl_veir rc=0 v3o-s_opencompl_veir 188 axioms: {'FAILED': 183, 'ERROR': 5}
+2026-10-29T08:23:36Z s_rusch95_cakec_proofs_lean: nothing unconverted, skipped
+2026-10-29T08:23:36Z s_siddhartha_gadgil_PlasmaLean: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_swissyai_theotetus_physics_verifier.ax.tsv
+2026-10-29T08:23:36Z s_swissyai_theotetus_physics_verifier: nothing unconverted, skipped
+2026-10-29T08:23:36Z start v3o-sounio (1 facts, tc v4.30.0-rc2, root /home/ntbuild/nt_fix14)
+2026-10-29T08:23:40Z end v3o-sounio rc=0 v3o-sounio 1 axioms: {'FAILED': 1}
+2026-10-29T08:23:40Z start v3o-trainverify (7 facts, tc v4.32.2, root /home/ntbuild/nt_fix14)
+2026-10-29T08:59:18Z end v3o-trainverify rc=0 v3o-trainverify 25 axioms: {'TIMEOUT': 4, 'PROVED': 18, 'ERROR': 3}
+2026-10-29T08:59:18Z lane end
+2026-10-29T09:05:56Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_c.txt jobs=3
+aks: files v3-aks.ax.tsv v3h-aks.ax.tsv v3p-aks.ax.tsv; base 7 facts; unconverted 7
+      4 ERROR/memory
+      2 FAILED/blocked
+      1 TIMEOUT/900s
+2026-10-29T09:05:56Z start v3o-aks (7 facts, tc v4.29.0-rc4, root /home/ntbuild/nt_fix14)
+2026-10-29T09:36:01Z end v3o-aks rc=0 v3o-aks 7 axioms: {'ERROR': 3, 'TIMEOUT': 4}
+2026-10-29T09:36:01Z lane end
+2026-10-29T12:07:49Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_d2.txt jobs=3
+s_tejasvi_smale6_six_bodies_generic_v4_lean_full: files v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:07:49Z s_tejasvi_smale6_six_bodies_generic_v4_lean_full: nothing unconverted, skipped
+s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose: files v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:07:49Z s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_JacobAsmuth_qed.ax.tsv
+2026-10-29T12:07:49Z s_JacobAsmuth_qed: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_ycmath_odd_flat_selector_count_lean_flatcarrier.ax.tsv
+2026-10-29T12:07:49Z s_ycmath_odd_flat_selector_count_lean_flatcarrier: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_jagg_ix_zil_lean.ax.tsv
+2026-10-29T12:07:49Z s_jagg_ix_zil_lean: nothing unconverted, skipped
+s_briangmilnes_ScottLean4: files v3-s_briangmilnes_ScottLean4.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:07:49Z s_briangmilnes_ScottLean4: nothing unconverted, skipped
+s_Rob1Ham_btc_lean_spec_runners: files v3-s_Rob1Ham_btc_lean_spec_runners.ax.tsv; base 63 facts; unconverted 0
+2026-10-29T12:07:49Z s_Rob1Ham_btc_lean_spec_runners: nothing unconverted, skipped
+s_Rob1Ham_btc_lean_spec: files v3-s_Rob1Ham_btc_lean_spec.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:07:49Z s_Rob1Ham_btc_lean_spec: nothing unconverted, skipped
+s_Natuvea_tacenta_core_tacenta_proofs: files v3-s_Natuvea_tacenta_core_tacenta_proofs.ax.tsv; base 1 facts; unconverted 1
+      1 FAILED/blocked
+2026-10-29T12:07:49Z start v3o-s_Natuvea_tacenta_core_tacenta_proofs (1 facts, tc v4.31.0, root /home/ntbuild/nt_fix14)
+2026-10-29T12:07:58Z end v3o-s_Natuvea_tacenta_core_tacenta_proofs rc=0 v3o-s_Natuvea_tacenta_core_tacenta_proofs 1 axioms: {'FAILED': 1}
+s_sun123zxy_ninegates_lean4: files v3-s_sun123zxy_ninegates_lean4.ax.tsv v3h-s_sun123zxy_ninegates_lean4_t.ax.tsv; base 14 facts; unconverted 0
+2026-10-29T12:07:58Z s_sun123zxy_ninegates_lean4: nothing unconverted, skipped
+s_justrach_codegraff_lean_proofs: files v3-s_justrach_codegraff_lean_proofs.ax.tsv; base 88 facts; unconverted 0
+2026-10-29T12:07:58Z s_justrach_codegraff_lean_proofs: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_Th0rgal_turbo_lean_lean.ax.tsv
+2026-10-29T12:07:58Z s_Th0rgal_turbo_lean_lean: nothing unconverted, skipped
+s_RianKoja_novacula: files v3-s_RianKoja_novacula.ax.tsv; base 1 facts; unconverted 0
+2026-10-29T12:07:58Z s_RianKoja_novacula: nothing unconverted, skipped
+s_clementefalcone_goya_ledger_formal: files v3-s_clementefalcone_goya_ledger_formal.ax.tsv; base 10 facts; unconverted 1
+      1 FAILED/other
+2026-10-29T12:07:58Z start v3o-s_clementefalcone_goya_ledger_formal (1 facts, tc v4.34.0-rc2, root /home/ntbuild/nt_fix14)
+2026-10-29T12:08:01Z end v3o-s_clementefalcone_goya_ledger_formal rc=0 v3o-s_clementefalcone_goya_ledger_formal 1 axioms: {'PROVED': 1}
+s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover: files v3-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:08:01Z s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover: nothing unconverted, skipped
+s_FrederickPu_Zag: files v3-s_FrederickPu_Zag.ax.tsv; base 23 facts; unconverted 0
+2026-10-29T12:08:01Z s_FrederickPu_Zag: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_FormalizedFormalLogic_ProvabilityLogic.ax.tsv
+2026-10-29T12:08:01Z s_FormalizedFormalLogic_ProvabilityLogic: nothing unconverted, skipped
+s_DeSciX_EGPT_08_LEAN_EGPT: files v3-s_DeSciX_EGPT_08_LEAN_EGPT.ax.tsv; base 0 facts; unconverted 0
+2026-10-29T12:08:01Z s_DeSciX_EGPT_08_LEAN_EGPT: nothing unconverted, skipped
+s_cedar_policy_cedar_spec_cedar_lean: files v3-s_cedar_policy_cedar_spec_cedar_lean.ax.tsv; base 26 facts; unconverted 0
+2026-10-29T12:08:01Z s_cedar_policy_cedar_spec_cedar_lean: nothing unconverted, skipped
+no /home/ntbuild/results/v3-s_FawadHa1der_leanui.ax.tsv
+2026-10-29T12:08:01Z s_FawadHa1der_leanui: nothing unconverted, skipped
+sorting-network-expanders: files v3-sorting-network-expanders.ax.tsv v3h-sorting-network-expanders.ax.tsv v3h-sorting-network-expanders_t.ax.tsv v3p-sorting-network-expanders.ax.tsv; base 7 facts; unconverted 7
+      4 ERROR/memory
+      2 FAILED/blocked
+      1 TIMEOUT/900s
+2026-10-29T12:08:01Z start v3o-sorting-network-expanders (7 facts, tc v4.29.0-rc4, root /home/ntbuild/nt_fix14)
+2026-10-29T12:38:05Z end v3o-sorting-network-expanders rc=0 v3o-sorting-network-expanders 7 axioms: {'ERROR': 3, 'TIMEOUT': 4}
+2026-10-29T12:38:05Z lane end
+2026-10-29T12:45:18Z lane start list=/home/ntbuild/v3/opt/lists/one-formal-conjectures.txt jobs=3
+formal-conjectures: files v3-formal-conjectures.ax.tsv v3h-formal-conjectures.ax.tsv v3h-formal-conjectures_t.ax.tsv v3p-formal-conjectures.ax.tsv; base 690 facts; unconverted 13
+      9 ERROR/memory
+      3 FAILED/other
+      1 TIMEOUT/900s
+2026-10-29T12:45:18Z start v3o-formal-conjectures (13 facts, tc v4.33.1, root /home/ntbuild/nt_fix14)
+2026-10-29T13:18:35Z end v3o-formal-conjectures rc=0 v3o-formal-conjectures 15 axioms: {'ERROR': 5, 'PROVED': 7, 'TIMEOUT': 3}
+2026-10-29T13:18:35Z lane end
+2026-10-30T01:21:54Z lane start list=/home/ntbuild/v3/opt/lists/one-s_zcash_ironwood.txt jobs=3
+s_zcash_ironwood: files v3-s_zcash_ironwood.ax.tsv v3h-s_zcash_ironwood.ax.tsv v3p-s_zcash_ironwood.ax.tsv; base 332 facts; unconverted 14
+      6 ERROR/memory
+      4 FAILED/other
+      3 FAILED/blocked
+      1 FAILED/false_in_logic
+2026-10-30T01:21:54Z start v3o-s_zcash_ironwood (14 facts, tc v4.30.0, root /home/ntbuild/nt_fix14)
+2026-10-30T01:56:02Z end v3o-s_zcash_ironwood rc=0 v3o-s_zcash_ironwood 15 axioms: {'FAILED': 8, 'TIMEOUT': 5, 'PROVED': 1, 'ERROR': 1}
+2026-10-30T01:56:02Z lane end
+2026-10-30T02:57:01Z lane start list=/home/ntbuild/v3/opt/lists/one-s_emberian_minidregg.txt jobs=3
+s_emberian_minidregg: files v3-s_emberian_minidregg.ax.tsv v3r-s_emberian_minidregg.ax.tsv v3h-s_emberian_minidregg.ax.tsv v3h-s_emberian_minidregg_t.ax.tsv v3h-s_emberian_minidregg_r.ax.tsv v3p-s_emberian_minidregg.ax.tsv; base 228 facts; unconverted 104
+     50 ERROR/memory
+     44 FAILED/blocked
+      6 TIMEOUT/900s
+      4 FAILED/other
+2026-10-30T02:57:01Z start v3o-s_emberian_minidregg (104 facts, tc v4.30.0, root /home/ntbuild/nt_fix14)
+2026-10-30T07:10:12Z end v3o-s_emberian_minidregg rc=0 v3o-s_emberian_minidregg 104 axioms: {'FAILED': 38, 'TIMEOUT': 42, 'ERROR': 24}
+2026-10-30T07:10:12Z lane end
+2026-10-30T12:43:39Z lane start list=/home/ntbuild/v3/opt/bin/v3o_list_s69.txt jobs=9
+2026-10-30T12:43:39Z start v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 (480 facts, tc v4.35.0-rc3, root /home/ntbuild/nt_fix14)
+2026-10-30T19:52:31Z end v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 rc=0 v3o-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 480 axioms: {'ERROR': 404, 'FAILED': 56, 'TIMEOUT': 20}
+2026-10-30T19:52:31Z lane end

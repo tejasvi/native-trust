@@ -1,0 +1,63 @@
+2026-10-29T09:36:01Z controls start list=/home/ntbuild/v3/opt/bin/v3oc_list_v1.txt jobs=3
+2026-10-29T09:36:01Z start v3oc-clean (99 facts, --extra-config csimp := true)
+2026-10-29T09:37:06Z end v3oc-clean rc=0 v3oc-clean 109 axioms: {'PROVED': 109}
+2026-10-29T09:37:06Z start v3os-clean (99 facts, --extra-config stage := true)
+2026-10-29T10:04:22Z end v3os-clean rc=0 v3os-clean 109 axioms: {'PROVED': 10, 'FAILED': 99}
+2026-10-29T10:04:22Z start v3op-clean (99 facts, --extra-config propSplit := true)
+2026-10-29T10:29:42Z end v3op-clean rc=0 v3op-clean 109 axioms: {'FAILED': 99, 'PROVED': 10}
+2026-10-29T10:29:42Z start v3o16-clean (99 facts, --split 16)
+2026-10-29T10:54:35Z end v3o16-clean rc=0 v3o16-clean 109 axioms: {'PROVED': 10, 'FAILED': 99}
+2026-10-29T10:54:35Z s_opencompl_veir: nothing converted by the options, skipped
+2026-10-29T10:54:35Z sounio: nothing converted by the options, skipped
+2026-10-29T10:54:35Z trainverify: nothing converted by the options, skipped
+2026-10-29T10:54:35Z aks: nothing converted by the options, skipped
+2026-10-29T10:54:35Z controls end
+2026-10-29T12:38:05Z controls start list=/home/ntbuild/v3/opt/bin/v3o_list_d2.txt jobs=3
+2026-10-29T12:38:05Z s_tejasvi_smale6_six_bodies_generic_v4_lean_full: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_tejasvi_smale6_six_bodies_generic_v4_lean_full_Compose: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_JacobAsmuth_qed: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_ycmath_odd_flat_selector_count_lean_flatcarrier: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_jagg_ix_zil_lean: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_briangmilnes_ScottLean4: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_Rob1Ham_btc_lean_spec_runners: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_Rob1Ham_btc_lean_spec: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_Natuvea_tacenta_core_tacenta_proofs: nothing converted by the options, skipped
+2026-10-29T12:38:05Z s_sun123zxy_ninegates_lean4: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_justrach_codegraff_lean_proofs: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_Th0rgal_turbo_lean_lean: no v3o/v3u, skipped
+2026-10-29T12:38:05Z s_RianKoja_novacula: no v3o/v3u, skipped
+2026-10-29T12:38:05Z start v3oc-s_clementefalcone_goya_ledger_formal (1 facts, --extra-config csimp := true)
+2026-10-29T12:38:08Z end v3oc-s_clementefalcone_goya_ledger_formal rc=0 v3oc-s_clementefalcone_goya_ledger_formal 1 axioms: {'PROVED': 1}
+2026-10-29T12:38:08Z start v3os-s_clementefalcone_goya_ledger_formal (1 facts, --extra-config stage := true)
+2026-10-29T12:38:54Z end v3os-s_clementefalcone_goya_ledger_formal rc=0 v3os-s_clementefalcone_goya_ledger_formal 1 axioms: {'FAILED': 1}
+2026-10-29T12:38:54Z start v3op-s_clementefalcone_goya_ledger_formal (1 facts, --extra-config propSplit := true)
+2026-10-29T12:39:39Z end v3op-s_clementefalcone_goya_ledger_formal rc=0 v3op-s_clementefalcone_goya_ledger_formal 1 axioms: {'FAILED': 1}
+2026-10-29T12:39:39Z start v3o16-s_clementefalcone_goya_ledger_formal (1 facts, --split 16)
+2026-10-29T12:40:24Z end v3o16-s_clementefalcone_goya_ledger_formal rc=0 v3o16-s_clementefalcone_goya_ledger_formal 1 axioms: {'FAILED': 1}
+2026-10-29T12:40:24Z s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9_Cover: no v3o/v3u, skipped
+2026-10-29T12:40:24Z s_FrederickPu_Zag: no v3o/v3u, skipped
+2026-10-29T12:40:24Z s_FormalizedFormalLogic_ProvabilityLogic: no v3o/v3u, skipped
+2026-10-29T12:40:24Z s_DeSciX_EGPT_08_LEAN_EGPT: no v3o/v3u, skipped
+2026-10-29T12:40:24Z s_cedar_policy_cedar_spec_cedar_lean: no v3o/v3u, skipped
+2026-10-29T12:40:24Z s_FawadHa1der_leanui: no v3o/v3u, skipped
+2026-10-29T12:40:24Z sorting-network-expanders: nothing converted by the options, skipped
+2026-10-29T12:40:24Z controls end
+2026-10-29T13:18:35Z controls start list=/home/ntbuild/v3/opt/lists/one-formal-conjectures.txt jobs=3
+2026-10-29T13:18:35Z start v3oc-formal-conjectures (5 facts, --extra-config csimp := true)
+2026-10-29T13:19:54Z end v3oc-formal-conjectures rc=0 v3oc-formal-conjectures 7 axioms: {'PROVED': 7}
+2026-10-29T13:19:54Z start v3os-formal-conjectures (5 facts, --extra-config stage := true)
+2026-10-29T13:40:42Z end v3os-formal-conjectures rc=0 v3os-formal-conjectures 7 axioms: {'PROVED': 2, 'FAILED': 1, 'TIMEOUT': 1, 'ERROR': 3}
+2026-10-29T13:40:42Z start v3op-formal-conjectures (5 facts, --extra-config propSplit := true)
+2026-10-29T13:48:11Z end v3op-formal-conjectures rc=0 v3op-formal-conjectures 7 axioms: {'PROVED': 2, 'ERROR': 4, 'FAILED': 1}
+2026-10-29T13:48:11Z start v3o16-formal-conjectures (5 facts, --split 16)
+2026-10-29T13:55:46Z end v3o16-formal-conjectures rc=0 v3o16-formal-conjectures 7 axioms: {'FAILED': 1, 'PROVED': 2, 'ERROR': 4}
+2026-10-29T13:55:46Z controls end
+2026-10-30T01:56:02Z controls start list=/home/ntbuild/v3/opt/lists/one-s_zcash_ironwood.txt jobs=3
+2026-10-30T01:56:02Z s_zcash_ironwood: nothing converted by the options, skipped
+2026-10-30T01:56:02Z controls end
+2026-10-30T07:10:12Z controls start list=/home/ntbuild/v3/opt/lists/one-s_emberian_minidregg.txt jobs=3
+2026-10-30T07:10:12Z s_emberian_minidregg: nothing converted by the options, skipped
+2026-10-30T07:10:12Z controls end
+2026-10-30T19:52:31Z controls start list=/home/ntbuild/v3/opt/bin/v3o_list_s69.txt jobs=9
+2026-10-30T19:52:31Z s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9: nothing converted by the options, skipped
+2026-10-30T19:52:31Z controls end

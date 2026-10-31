@@ -1,0 +1,9 @@
+v3-s_rusch95_cakec_proofs_lean	Grammar	mul_div_mod_same_precedence._native.native_decide.ax_1_2	native_decide	False	PROVED		0	1358308	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Adversarial	attack2_wrong_result._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1356572	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Grammar	add_sub_same_precedence._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1350548	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Grammar	comparison_binds_tighter_than_equality._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1347644	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Grammar	add_binds_tighter_than_logand._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1422448	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Grammar	mul_binds_tighter_than_add._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1422572	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Grammar	mul_div_mod_same_precedence._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1422592	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	TokenSpec	decimalValue_42._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1420116	1		nt_lines=5 last=quick whole-term attempt proved it
+v3-s_rusch95_cakec_proofs_lean	Semantics	return_2_plus_3_evaluates._native.native_decide.ax_1_1	native_decide	False	PROVED		0	1422364	1		nt_lines=5 last=quick whole-term attempt proved it

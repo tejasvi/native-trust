@@ -1,0 +1,11 @@
+tag	module	axiom	verdict	P	pieces_run	sum_piece_s	comb_s	wall_s	max_rss_kb	axioms	ax_ok	p_too_large
+formalconjd752_000	FormalConjectures.ErdosProblems.313	_private.FormalConjectures.ErdosProblems.«313».0.Erdos313.erdos_313.variants.exists_at_least_eight_primary_pseudoperfect._native.native_decide.ax_1_9	ERROR		1	289	0	289	45073660			
+formalconjd752_001	FormalConjectures.OEIS.111291	_private.FormalConjectures.OEIS.«111291».0.OeisA111291.a_4._native.native_decide.ax_1_1	ERROR		1	226	0	225	44699860			
+formalconjd752_002	FormalConjectures.OEIS.115366	_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_2._native.native_decide.ax_1_1	ERROR		1	180	0	180	45084168			
+formalconjd752_003	FormalConjectures.OEIS.115366	_private.FormalConjectures.OEIS.«115366».0.OeisA115366.a_3._native.native_decide.ax_1_1	ERROR		1	181	0	181	45013800			
+formalconjd752_004	FormalConjectures.OEIS.358684	_private.FormalConjectures.OEIS.«358684».0.OeisA358684.a_6._native.decide.ax_1_1	TIMEOUT		1	0	0	900	0			
+formalconjd752_005	FormalConjectures.Paper.LatinSquare	_private.FormalConjectures.Paper.LatinSquare.0.LatinSquare.z_odd_values._native.native_decide.ax_1_1	ERROR		1	159	0	159	45097532			
+formalconjd752_006	FormalConjectures.Wikipedia.IdonealCompleteness	_private.FormalConjectures.Wikipedia.IdonealCompleteness.0.Idoneal.knownIdonealNumbers_are_idoneal._native.native_decide.ax_1_65	ERROR		1	164	0	164	45156976			
+formalconjd752_007	FormalConjectures.Wikipedia.WolstenholmePrime	_private.FormalConjectures.Wikipedia.WolstenholmePrime.0.WolstenholmePrime.wolstenholme_prime_16483._native.native_decide.ax_1_1	ERROR		1	202	0	202	44956808			
+formalconjd752_008	FormalConjectures.WrittenOnTheWallII.GraphConjecture103	_private.FormalConjectures.WrittenOnTheWallII.GraphConjecture103.0.WrittenOnTheWallII.GraphConjecture103.wowii103Counterexample_bipartiteSize._native.decide.ax_1_1	ERROR		1	161	0	161	44741172			
+formalconjd752_009	FormalConjectures.WrittenOnTheWallII.GraphConjecture36	_private.FormalConjectures.WrittenOnTheWallII.GraphConjecture36.0.WrittenOnTheWallII.GraphConjecture36.wowii36Counterexample_no_inducedPath6._native.native_decide.ax_1_1	ERROR		1	171	0	172	45204504			

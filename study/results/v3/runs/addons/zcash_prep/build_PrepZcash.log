@@ -1,0 +1,598 @@
+STAGED `Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=102350
+STAGED `Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=106670
+STAGED `Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=102850
+STAGED `Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=104324
+maxrss_kb 6991220 secs 418.45
+e
+NT stage Zcash.Snark.Fixture.capturedAdviceCommitments direct ms=588
+NT copying Zcash.Snark.Fixture.capturedLookupPermutedInput
+NT copy Zcash.Snark.Fixture.capturedLookupPermutedInput defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedLookupPermutedInput direct ms=164
+NT copying Zcash.Snark.Fixture.capturedLookupPermutedTable
+NT copy Zcash.Snark.Fixture.capturedLookupPermutedTable defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedLookupPermutedTable direct ms=165
+NT copying Zcash.Snark.Fixture.capturedPermutationProducts
+NT copy Zcash.Snark.Fixture.capturedPermutationProducts defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedPermutationProducts direct ms=163
+NT copying Zcash.Snark.Fixture.capturedLookupProducts
+NT copy Zcash.Snark.Fixture.capturedLookupProducts defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedLookupProducts direct ms=166
+NT copying Zcash.Snark.Fixture.capturedHPieces
+NT copy Zcash.Snark.Fixture.capturedHPieces defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture.capturedHPieces direct ms=481
+NT stage Zcash.Snark.Fixture.capturedInstanceEvals direct ms=7
+NT stage Zcash.Snark.Fixture.capturedAdviceEvals direct ms=11
+NT stage Zcash.Snark.Fixture.capturedFixedEvals direct ms=12
+NT stage Zcash.Snark.Fixture.capturedPermutationCommonEvals direct ms=9
+NT stage Zcash.Snark.Fixture.capturedPermutationSetEvals direct ms=8
+NT stage Zcash.Snark.Fixture.capturedLookupEvals direct ms=9
+NT stage Zcash.Snark.Fixture.capturedMultiopenU direct ms=7
+NT copying Zcash.Snark.Fixture.capturedIpaRounds
+NT copy Zcash.Snark.Fixture.capturedIpaRounds defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedIpaRounds direct ms=1413
+NT copying Zcash.Snark.Fixture.capturedUrsGLagrange
+NT copy Zcash.Snark.Fixture.capturedUrsGLagrange defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture.capturedUrsGLagrange direct ms=579
+NT copying Zcash.Snark.Fixture.capturedUrsG
+NT copy Zcash.Snark.Fixture.capturedUrsG defn_ms=4 eq_ms=27 congr=true
+NT stage Zcash.Snark.Fixture.capturedUrsG direct-failed hb=15000 ms=14430 copy=true (kernel) deterministic timeout
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2196
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2196 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2196 direct ms=44
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2199
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2199 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2199 direct ms=153
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2202
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2202 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2202 direct ms=273
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2205
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2205 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2205 direct ms=383
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2208
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2208 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2208 direct ms=513
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2211
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2211 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2211 direct ms=633
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2214
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2214 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2214 direct ms=755
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2217
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2217 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2217 direct ms=876
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2220
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2220 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2220 direct ms=1031
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2223
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2223 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2223 direct ms=1143
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2226
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2226 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2226 direct ms=1271
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2229
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2229 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2229 direct ms=1394
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2232
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2232 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2232 direct ms=1535
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2235
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2235 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2235 direct ms=1642
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2238
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2238 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2238 direct ms=1775
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2241
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2241 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2241 direct ms=1910
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2244
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2244 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2244 direct ms=2064
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2247
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2247 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2247 direct ms=2294
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2250
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2250 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2250 direct ms=2412
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2253
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2253 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2253 direct ms=2534
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2256
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2256 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2256 direct ms=2674
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2259
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2259 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2259 direct ms=2784
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2262
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2262 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2262 direct ms=2941
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2265
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2265 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2265 direct ms=3077
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2268
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2268 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2268 direct ms=3203
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2271
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2271 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2271 direct ms=3356
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2274
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2274 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2274 direct ms=3502
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2277
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2277 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2277 direct ms=3691
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2280
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2280 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2280 direct ms=3790
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2283
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2283 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2283 direct ms=4031
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2286
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2286 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2286 direct ms=4530
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2289
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2289 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2289 direct ms=4639
+NT stage Zcash.Snark.Fixture.capturedUrsG list 2048 in 32 chunks
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2292
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2292 defn_ms=0 eq_ms=5 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1.t_2292 direct ms=57
+NT stage Zcash.Snark.Fixture.capturedUrsG list bridge ms=72
+NT stage Zcash.Snark.Fixture.capturedPublicInstances direct ms=11
+NT stage Zcash.Snark.Fixture.capturedNumInstanceColumns direct ms=0
+NT copying Zcash.Snark.Fixture.capturedFixedCommitments
+NT copy Zcash.Snark.Fixture.capturedFixedCommitments defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture.capturedFixedCommitments direct ms=2086
+NT copying Zcash.Snark.Fixture.capturedPermutationCommonCommitments
+NT copy Zcash.Snark.Fixture.capturedPermutationCommonCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture.capturedPermutationCommonCommitments direct ms=1072
+STAGED `Zcash.Snark.Fixture.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=102350
+NT stage Zcash.Snark.Fixture2.capturedPointCoordinates direct ms=2068
+NT copying Zcash.Snark.Fixture2.capturedPoints
+NT copy Zcash.Snark.Fixture2.capturedPoints defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture2.capturedPoints direct ms=1447
+NT copying Zcash.Snark.Fixture2.capturedPoint
+NT copy Zcash.Snark.Fixture2.capturedPoint defn_ms=1 eq_ms=0 congr=true
+NT copying Zcash.Snark.Fixture2.capturedAdviceCommitments
+NT copy Zcash.Snark.Fixture2.capturedAdviceCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedAdviceCommitments direct ms=1445
+NT copying Zcash.Snark.Fixture2.capturedLookupPermutedInput
+NT copy Zcash.Snark.Fixture2.capturedLookupPermutedInput defn_ms=1 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture2.capturedLookupPermutedInput direct ms=399
+NT copying Zcash.Snark.Fixture2.capturedLookupPermutedTable
+NT copy Zcash.Snark.Fixture2.capturedLookupPermutedTable defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedLookupPermutedTable direct ms=401
+NT copying Zcash.Snark.Fixture2.capturedPermutationProducts
+NT copy Zcash.Snark.Fixture2.capturedPermutationProducts defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture2.capturedPermutationProducts direct ms=396
+NT copying Zcash.Snark.Fixture2.capturedLookupProducts
+NT copy Zcash.Snark.Fixture2.capturedLookupProducts defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedLookupProducts direct ms=400
+NT copying Zcash.Snark.Fixture2.capturedHPieces
+NT copy Zcash.Snark.Fixture2.capturedHPieces defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedHPieces direct ms=562
+NT stage Zcash.Snark.Fixture2.capturedInstanceEvals direct ms=13
+NT stage Zcash.Snark.Fixture2.capturedAdviceEvals direct ms=19
+NT stage Zcash.Snark.Fixture2.capturedFixedEvals direct ms=15
+NT stage Zcash.Snark.Fixture2.capturedPermutationCommonEvals direct ms=11
+NT stage Zcash.Snark.Fixture2.capturedPermutationSetEvals direct ms=12
+NT stage Zcash.Snark.Fixture2.capturedLookupEvals direct ms=14
+NT stage Zcash.Snark.Fixture2.capturedMultiopenU direct ms=9
+NT copying Zcash.Snark.Fixture2.capturedIpaRounds
+NT copy Zcash.Snark.Fixture2.capturedIpaRounds defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedIpaRounds direct ms=1688
+NT copying Zcash.Snark.Fixture2.capturedUrsGLagrange
+NT copy Zcash.Snark.Fixture2.capturedUrsGLagrange defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.Fixture2.capturedUrsGLagrange direct ms=662
+NT copying Zcash.Snark.Fixture2.capturedUrsG
+NT copy Zcash.Snark.Fixture2.capturedUrsG defn_ms=5 eq_ms=30 congr=true
+NT stage Zcash.Snark.Fixture2.capturedUrsG direct-failed hb=15000 ms=15847 copy=true (kernel) deterministic timeout
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2219
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2219 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2219 direct ms=46
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2222
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2222 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2222 direct ms=159
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2225
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2225 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2225 direct ms=280
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2228
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2228 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2228 direct ms=389
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2231
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2231 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2231 direct ms=520
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2234
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2234 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2234 direct ms=644
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2237
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2237 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2237 direct ms=763
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2240
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2240 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2240 direct ms=895
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2243
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2243 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2243 direct ms=1059
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2246
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2246 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2246 direct ms=1175
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2249
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2249 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2249 direct ms=1305
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2252
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2252 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2252 direct ms=1431
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2255
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2255 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2255 direct ms=1543
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2258
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2258 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2258 direct ms=1691
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2261
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2261 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2261 direct ms=1817
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2264
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2264 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2264 direct ms=1959
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2267
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2267 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2267 direct ms=2097
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2270
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2270 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2270 direct ms=2326
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2273
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2273 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2273 direct ms=2433
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2276
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2276 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2276 direct ms=2571
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2279
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2279 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2279 direct ms=2694
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2282
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2282 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2282 direct ms=2837
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2285
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2285 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2285 direct ms=2983
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2288
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2288 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2288 direct ms=3103
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2291
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2291 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2291 direct ms=3245
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2294
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2294 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2294 direct ms=3422
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2297
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2297 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2297 direct ms=3554
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2300
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2300 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2300 direct ms=3676
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2303
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2303 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2303 direct ms=3789
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2306
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2306 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2306 direct ms=3959
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2309
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2309 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2309 direct ms=4090
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2312
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2312 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2312 direct ms=4256
+NT stage Zcash.Snark.Fixture2.capturedUrsG list 2048 in 32 chunks
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2315
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2315 defn_ms=0 eq_ms=5 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1.t_2315 direct ms=45
+NT stage Zcash.Snark.Fixture2.capturedUrsG list bridge ms=54
+NT stage Zcash.Snark.Fixture2.capturedPublicInstances direct ms=10
+NT stage Zcash.Snark.Fixture2.capturedNumInstanceColumns direct ms=0
+NT copying Zcash.Snark.Fixture2.capturedFixedCommitments
+NT copy Zcash.Snark.Fixture2.capturedFixedCommitments defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture2.capturedFixedCommitments direct ms=1876
+NT copying Zcash.Snark.Fixture2.capturedPermutationCommonCommitments
+NT copy Zcash.Snark.Fixture2.capturedPermutationCommonCommitments defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.Fixture2.capturedPermutationCommonCommitments direct ms=946
+STAGED `Zcash.Snark.Fixture2.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=106670
+NT stage Zcash.Snark.FixtureRandom.capturedPointCoordinates direct ms=1764
+NT copying Zcash.Snark.FixtureRandom.capturedPoints
+NT copy Zcash.Snark.FixtureRandom.capturedPoints defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedPoints direct ms=1239
+NT copying Zcash.Snark.FixtureRandom.capturedPoint
+NT copy Zcash.Snark.FixtureRandom.capturedPoint defn_ms=0 eq_ms=0 congr=true
+NT copying Zcash.Snark.FixtureRandom.capturedAdviceCommitments
+NT copy Zcash.Snark.FixtureRandom.capturedAdviceCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedAdviceCommitments direct ms=620
+NT copying Zcash.Snark.FixtureRandom.capturedLookupPermutedInput
+NT copy Zcash.Snark.FixtureRandom.capturedLookupPermutedInput defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedLookupPermutedInput direct ms=177
+NT copying Zcash.Snark.FixtureRandom.capturedLookupPermutedTable
+NT copy Zcash.Snark.FixtureRandom.capturedLookupPermutedTable defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedLookupPermutedTable direct ms=176
+NT copying Zcash.Snark.FixtureRandom.capturedPermutationProducts
+NT copy Zcash.Snark.FixtureRandom.capturedPermutationProducts defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedPermutationProducts direct ms=177
+NT copying Zcash.Snark.FixtureRandom.capturedLookupProducts
+NT copy Zcash.Snark.FixtureRandom.capturedLookupProducts defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedLookupProducts direct ms=177
+NT copying Zcash.Snark.FixtureRandom.capturedHPieces
+NT copy Zcash.Snark.FixtureRandom.capturedHPieces defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedHPieces direct ms=503
+NT stage Zcash.Snark.FixtureRandom.capturedInstanceEvals direct ms=8
+NT stage Zcash.Snark.FixtureRandom.capturedAdviceEvals direct ms=12
+NT stage Zcash.Snark.FixtureRandom.capturedFixedEvals direct ms=13
+NT stage Zcash.Snark.FixtureRandom.capturedPermutationCommonEvals direct ms=9
+NT stage Zcash.Snark.FixtureRandom.capturedPermutationSetEvals direct ms=8
+NT stage Zcash.Snark.FixtureRandom.capturedLookupEvals direct ms=10
+NT stage Zcash.Snark.FixtureRandom.capturedMultiopenU direct ms=7
+NT copying Zcash.Snark.FixtureRandom.capturedIpaRounds
+NT copy Zcash.Snark.FixtureRandom.capturedIpaRounds defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedIpaRounds direct ms=1444
+NT copying Zcash.Snark.FixtureRandom.capturedUrsGLagrange
+NT copy Zcash.Snark.FixtureRandom.capturedUrsGLagrange defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedUrsGLagrange direct ms=603
+NT copying Zcash.Snark.FixtureRandom.capturedUrsG
+NT copy Zcash.Snark.FixtureRandom.capturedUrsG defn_ms=4 eq_ms=28 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedUrsG direct-failed hb=15000 ms=15157 copy=true (kernel) deterministic timeout
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2196
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2196 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2196 direct ms=51
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2199
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2199 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2199 direct ms=161
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2202
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2202 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2202 direct ms=279
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2205
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2205 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2205 direct ms=394
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2208
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2208 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2208 direct ms=529
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2211
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2211 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2211 direct ms=657
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2214
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2214 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2214 direct ms=777
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2217
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2217 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2217 direct ms=894
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2220
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2220 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2220 direct ms=1055
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2223
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2223 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2223 direct ms=1171
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2226
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2226 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2226 direct ms=1299
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2229
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2229 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2229 direct ms=1421
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2232
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2232 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2232 direct ms=1549
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2235
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2235 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2235 direct ms=1674
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2238
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2238 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2238 direct ms=1811
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2241
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2241 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2241 direct ms=1957
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2244
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2244 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2244 direct ms=2080
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2247
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2247 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2247 direct ms=2307
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2250
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2250 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2250 direct ms=2443
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2253
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2253 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2253 direct ms=2560
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2256
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2256 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2256 direct ms=2694
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2259
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2259 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2259 direct ms=2819
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2262
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2262 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2262 direct ms=2964
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2265
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2265 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2265 direct ms=3120
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2268
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2268 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2268 direct ms=3226
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2271
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2271 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2271 direct ms=3379
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2274
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2274 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2274 direct ms=3526
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2277
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2277 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2277 direct ms=3679
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2280
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2280 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2280 direct ms=3796
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2283
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2283 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2283 direct ms=3944
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2286
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2286 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2286 direct ms=4118
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2289
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2289 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2289 direct ms=4243
+NT stage Zcash.Snark.FixtureRandom.capturedUrsG list 2048 in 32 chunks
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2292
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2292 defn_ms=0 eq_ms=4 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1.t_2292 direct ms=45
+NT stage Zcash.Snark.FixtureRandom.capturedUrsG list bridge ms=54
+NT stage Zcash.Snark.FixtureRandom.capturedPublicInstances direct ms=9
+NT stage Zcash.Snark.FixtureRandom.capturedNumInstanceColumns direct ms=0
+NT copying Zcash.Snark.FixtureRandom.capturedFixedCommitments
+NT copy Zcash.Snark.FixtureRandom.capturedFixedCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedFixedCommitments direct ms=1879
+NT copying Zcash.Snark.FixtureRandom.capturedPermutationCommonCommitments
+NT copy Zcash.Snark.FixtureRandom.capturedPermutationCommonCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom.capturedPermutationCommonCommitments direct ms=945
+STAGED `Zcash.Snark.FixtureRandom.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=102850
+NT stage Zcash.Snark.FixtureRandom2.capturedPointCoordinates direct ms=1806
+NT copying Zcash.Snark.FixtureRandom2.capturedPoints
+NT copy Zcash.Snark.FixtureRandom2.capturedPoints defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedPoints direct ms=1261
+NT copying Zcash.Snark.FixtureRandom2.capturedPoint
+NT copy Zcash.Snark.FixtureRandom2.capturedPoint defn_ms=1 eq_ms=0 congr=true
+NT copying Zcash.Snark.FixtureRandom2.capturedAdviceCommitments
+NT copy Zcash.Snark.FixtureRandom2.capturedAdviceCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedAdviceCommitments direct ms=1294
+NT copying Zcash.Snark.FixtureRandom2.capturedLookupPermutedInput
+NT copy Zcash.Snark.FixtureRandom2.capturedLookupPermutedInput defn_ms=0 eq_ms=0 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedLookupPermutedInput direct ms=360
+NT copying Zcash.Snark.FixtureRandom2.capturedLookupPermutedTable
+NT copy Zcash.Snark.FixtureRandom2.capturedLookupPermutedTable defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedLookupPermutedTable direct ms=364
+NT copying Zcash.Snark.FixtureRandom2.capturedPermutationProducts
+NT copy Zcash.Snark.FixtureRandom2.capturedPermutationProducts defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedPermutationProducts direct ms=363
+NT copying Zcash.Snark.FixtureRandom2.capturedLookupProducts
+NT copy Zcash.Snark.FixtureRandom2.capturedLookupProducts defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedLookupProducts direct ms=364
+NT copying Zcash.Snark.FixtureRandom2.capturedHPieces
+NT copy Zcash.Snark.FixtureRandom2.capturedHPieces defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedHPieces direct ms=507
+NT stage Zcash.Snark.FixtureRandom2.capturedInstanceEvals direct ms=8
+NT stage Zcash.Snark.FixtureRandom2.capturedAdviceEvals direct ms=17
+NT stage Zcash.Snark.FixtureRandom2.capturedFixedEvals direct ms=13
+NT stage Zcash.Snark.FixtureRandom2.capturedPermutationCommonEvals direct ms=10
+NT stage Zcash.Snark.FixtureRandom2.capturedPermutationSetEvals direct ms=10
+NT stage Zcash.Snark.FixtureRandom2.capturedLookupEvals direct ms=13
+NT stage Zcash.Snark.FixtureRandom2.capturedMultiopenU direct ms=7
+NT copying Zcash.Snark.FixtureRandom2.capturedIpaRounds
+NT copy Zcash.Snark.FixtureRandom2.capturedIpaRounds defn_ms=1 eq_ms=0 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedIpaRounds direct ms=1457
+NT copying Zcash.Snark.FixtureRandom2.capturedUrsGLagrange
+NT copy Zcash.Snark.FixtureRandom2.capturedUrsGLagrange defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedUrsGLagrange direct ms=598
+NT copying Zcash.Snark.FixtureRandom2.capturedUrsG
+NT copy Zcash.Snark.FixtureRandom2.capturedUrsG defn_ms=5 eq_ms=29 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedUrsG direct-failed hb=15000 ms=15193 copy=true (kernel) deterministic timeout
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2219
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2219 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2219 direct ms=50
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2222
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2222 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2222 direct ms=158
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2225
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2225 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2225 direct ms=275
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2228
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2228 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2228 direct ms=387
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2231
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2231 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2231 direct ms=520
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2234
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2234 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2234 direct ms=645
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2237
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2237 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2237 direct ms=767
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2240
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2240 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2240 direct ms=892
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2243
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2243 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2243 direct ms=1047
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2246
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2246 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2246 direct ms=1160
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2249
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2249 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2249 direct ms=1287
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2252
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2252 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2252 direct ms=1417
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2255
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2255 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2255 direct ms=1536
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2258
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2258 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2258 direct ms=1686
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2261
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2261 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2261 direct ms=1804
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2264
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2264 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2264 direct ms=1953
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2267
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2267 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2267 direct ms=2105
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2270
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2270 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2270 direct ms=2306
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2273
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2273 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2273 direct ms=2436
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2276
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2276 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2276 direct ms=2560
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2279
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2279 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2279 direct ms=2686
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2282
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2282 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2282 direct ms=2811
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2285
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2285 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2285 direct ms=2959
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2288
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2288 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2288 direct ms=3088
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2291
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2291 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2291 direct ms=3228
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2294
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2294 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2294 direct ms=3390
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2297
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2297 defn_ms=0 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2297 direct ms=3499
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2300
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2300 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2300 direct ms=3649
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2303
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2303 defn_ms=1 eq_ms=1 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2303 direct ms=3785
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2306
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2306 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2306 direct ms=3954
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2309
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2309 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2309 direct ms=4077
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2312
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2312 defn_ms=0 eq_ms=2 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2312 direct ms=4222
+NT stage Zcash.Snark.FixtureRandom2.capturedUrsG list 2048 in 32 chunks
+NT copying _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2315
+NT copy _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2315 defn_ms=0 eq_ms=4 congr=true
+NT stage _ktv.PrepZcash._ktprep.Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1.t_2315 direct ms=45
+NT stage Zcash.Snark.FixtureRandom2.capturedUrsG list bridge ms=55
+NT stage Zcash.Snark.FixtureRandom2.capturedPublicInstances direct ms=11
+NT stage Zcash.Snark.FixtureRandom2.capturedNumInstanceColumns direct ms=0
+NT copying Zcash.Snark.FixtureRandom2.capturedFixedCommitments
+NT copy Zcash.Snark.FixtureRandom2.capturedFixedCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedFixedCommitments direct ms=1877
+NT copying Zcash.Snark.FixtureRandom2.capturedPermutationCommonCommitments
+NT copy Zcash.Snark.FixtureRandom2.capturedPermutationCommonCommitments defn_ms=0 eq_ms=1 congr=true
+NT stage Zcash.Snark.FixtureRandom2.capturedPermutationCommonCommitments direct ms=941
+STAGED `Zcash.Snark.FixtureRandom2.fingerprint_matches._native.native_decide.ax_1_1`: 22 of 22 constants total_ms=104324

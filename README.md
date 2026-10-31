@@ -24,11 +24,11 @@ Add the package to the project's `lakefile.toml`:
 [[require]]
 name = "native_trust"
 git = "https://github.com/tejasvi/native-trust"
-rev = "v1.0.1"
+rev = "v1.1.0"
 ```
 
-In a `lakefile.lean`, write `require native_trust from git "https://github.com/tejasvi/native-trust" @ "v1.0.1"`.
-Then run `lake update native_trust`. The repository also holds the study's data, about 140 MiB, but
+In a `lakefile.lean`, write `require native_trust from git "https://github.com/tejasvi/native-trust" @ "v1.1.0"`.
+Then run `lake update native_trust`. The repository also holds the study's data, about 210 MiB, but
 `lake build` builds only the NativeTrust modules that your project imports. On Lean
 4.27-4.29, copy `NativeTrust/StrLibStub.lean.txt` over `NativeTrust/StrLib.lean` and
 `NativeTrust/CSimpCompatStub.lean.txt` over `NativeTrust/CSimpCompat.lean` in
@@ -349,7 +349,7 @@ retry (`CastRetry.lean`), copies in types (`TypesRepro.lean`), the platform case
   the one-import switch, its Init-only variant, and the budget and plain-kernel verdicts they share with
   the linter (`NativeTrust/Linter.lean`).
 - `NativeTrust/Driver/`: `lake exe ntrust` and `lake exe ntrust migrate`.
-- `ADOPTING.md`: guide for projects. `paper/`: the paper (doi:10.5281/zenodo.23743968). `study/`: drivers, aggregators and per-fact
+- `ADOPTING.md`: guide for projects. `paper/`: the paper (doi:10.5281/zenodo.23818391). `study/`: drivers, aggregators and per-fact
   results. `results_index.tsv`: for each number in the paper, the files and the command (run from the
   top directory) that reproduce it. `strlit/` and `strlit_confirm/`: the string-literal measurements.
 

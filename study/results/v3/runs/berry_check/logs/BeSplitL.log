@@ -1,0 +1,4 @@
+'NativeTrust.BeSplitL.coverStringAcceptedBE_obsL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.BeSplitL.coverStringAcceptedDW_obsL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.BeSplitL.coverStringAccepted_obsL' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 1595648 secs 0.76

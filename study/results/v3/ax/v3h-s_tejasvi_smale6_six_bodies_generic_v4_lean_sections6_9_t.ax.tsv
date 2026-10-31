@@ -1,0 +1,11 @@
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.D98	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.Dim	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.E4Final	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.Final	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.TropMem	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.TropSame	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	L6CheckKSpec.TropUnits	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	Lean6.Special.Cover.Check.Cover	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	Lean6.Special.Cover.Check.First	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	gen.native_axiom_example	-			NOT_BUILT						
+v3h-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9	Lean6.Special.Comp.D88.Count.RunKC	Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1	native_decide	False	FAILED	blocked	35	3032404	2597	Lean.Loop.forIn;System.Platform.getNumBits;WellFounded.fix	nt_lines=276 last=blockers_ms=16 bounded=true copy_ms=104 copies=20 copy_kernel_ms=75 fast_lits=0 string_args=false

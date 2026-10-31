@@ -1,0 +1,28 @@
+toolchain	build folder	manifest	differs from 6b378a8e in
+v4.27.0	nt_fix14/v4.27.0	6a10a06dcc063b45ee938b6bcd52479daac9fe496697cbcb203d6f9cbe4698f8	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.29.0-rc4	nt_fix14/v4.29.0-rc4	8380af5b955aeb6609201b84edace8ffe284674235ac76ec82a5c46d9a15b79f	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.30.0	nt_fix14/v4.30.0	8940d9808e7aeee5c7a9af4c82f164a92f2630565e0db32e6b45ebbc53bbf89b	lean-toolchain
+v4.30.0-rc2	nt_fix14/v4.30.0-rc2	cfbd18ec7deb171fb29aa0e6181388173496a75380f68f5b89c0cb678e206cb8	lean-toolchain
+v4.31.0	nt_fix14/v4.31.0	862a04782b70bc69af80fdf440ab4a607018f4fb6734d6ccc5939d58ec16c604	lean-toolchain
+v4.32.0	nt_fix14/v4.32.0	2daf63070356bfbd637528d4220561230c8bb75efd869fedf18163404cae79da	lean-toolchain
+v4.32.2	nt_fix14/v4.32.2	3600496fb2f354bc28f855855b6e8d1f6aa54505e3708b6af6da48df39186750	lean-toolchain
+v4.33.0	nt_fix14/v4.33.0	bea2f41eff1fb83a83a5903104c9d1afe8b98a70dc59638671dce05c5ff97620	lean-toolchain
+v4.33.1	nt_fix14/v4.33.1	8d7d45c6725c1d2de1ab188c323eea4392a35d904dd4957bc46bd31c0d2e8362	lean-toolchain
+v4.34.0	nt_fix14/v4.34.0	5c5ed49cdd1c14951bf5eadb17dfc478d213b5490b3baf63226a7c4d29253ea2	lean-toolchain
+v4.34.0-rc1	nt_fix14/v4.34.0-rc1	b9f98e1ea3ae3252ec8abd6448df4a7207cdb04a88a70aa6424f44e6c6361454	lean-toolchain
+v4.34.0-rc2	nt_fix14/v4.34.0-rc2	7a9a784b40094defddcb60b15587c0854bfaf2d2d543dffced98ff46f924f357	lean-toolchain
+v4.35.0	nt_fix14/v4.35.0	a2ae8c49002625a769ffde9000559b66a72c97aeccac2f20a1fb6c85afab2f51	lean-toolchain
+v4.35.0-rc3	nt_fix14/v4.35.0-rc3	6b378a8e59a328a9e9816b38d36f519ba46791204586556fe20b752deb16b3b6	-
+nightly-2026-10-22	nt_fix14/nightly-2026-10-22	a670a4a2bceb2ad5db5c50b760b0b3f0c18566e744b29f35ac40bbaf1e7e773d	lean-toolchain
+v4.28.0	v3/nt_v15/v4.28.0	abc69cfc4c0e29bcec90fb627f156af7bb1b1595da2fc7eeb3b74701ddbdb386	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.28.0-rc1	v3/nt_v15/v4.28.0-rc1	8c5540e799253108aee98e00885ec505f67caee1bd2b4d4203636b364b6880b3	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.29.0	v3/nt_v15/v4.29.0	0173c2543d78fd3be21701d1d9e14c3a54b584547df11497d9bdc7e471d6334e	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.29.0-rc6	v3/nt_v15/v4.29.0-rc6	5403d0dfee92f883ad1e7b774b9b50180a34d4d830d9fb032cc883afbb05a4f7	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.29.0-rc7	v3/nt_v15/v4.29.0-rc7	00a52a962f622ae0ccfc3c8789e631e9e13e0c9db8305c3ff0cd55b8180c072c	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.29.1	v3/nt_v15/v4.29.1	49a33d7b3597f3b074df62663dbf6453c5aae67ca2bed50d2e908684128dcd60	lean-toolchain, NativeTrust/CSimpCompat.lean, NativeTrust/StrLib.lean
+v4.32.0-rc1	v3/nt_v15/v4.32.0-rc1	507846b34e9fd2d9113e991b6efefe0331d5fdafd731ef8a5f0025aa054a263a	lean-toolchain
+v4.32.1	v3/nt_v15/v4.32.1	8017a6fa7625b26735def9d570e8dad6e006580694ddb3cbf9ae6721f8191141	lean-toolchain
+v4.34.1	v3/nt_v15/v4.34.1	962be0a01b949c9f5e5127882b1601aefbaaca1c306ec741b9ba80eb070f4501	lean-toolchain
+v4.35.0-rc2	v3/nt_v15/v4.35.0-rc2	d884c201a2a2b34a0993a74a3fe510d6a994fb9192779268457f714da92a58ea	lean-toolchain
+v4.35.0-rc4	v3/nt_v15/v4.35.0-rc4	3140d5c5d6e22ad774bf3ac2610572ed74c9c02dc4e35891a4f72e9a59c4e083	lean-toolchain
+v4.36.0-rc1	v3/nt_v15/v4.36.0-rc1	7beb10b4532c9c6e859d620feb29e0c4fd2691fdbf3d4fcad809cc4779ae44e7	lean-toolchain

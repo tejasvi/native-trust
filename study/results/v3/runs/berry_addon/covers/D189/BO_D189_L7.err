@@ -1,0 +1,5 @@
+BO leaf BerryOpt.D189 k=42 node=86 kernel_ms=143393
+BO leaf BerryOpt.D189 k=43 node=87 kernel_ms=175962
+BO leaf BerryOpt.D189 k=44 node=89 kernel_ms=182944
+BO leaf BerryOpt.D189 k=45 node=90 kernel_ms=181501
+BO leaves BerryOpt.D189 42..46 of 46 kernel_ms=683800 wall_ms=684108

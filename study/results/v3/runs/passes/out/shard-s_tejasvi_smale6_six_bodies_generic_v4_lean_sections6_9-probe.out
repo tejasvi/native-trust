@@ -1,0 +1,11 @@
+stejasvism1638_000: no piece count (piece 0 failed?)
+stejasvism1638_059: no piece count (piece 0 failed?)
+stejasvism1638_119: no piece count (piece 0 failed?)
+stejasvism1638_179: no piece count (piece 0 failed?)
+stejasvism1638_239: no piece count (piece 0 failed?)
+stejasvism1638_299: no piece count (piece 0 failed?)
+stejasvism1638_359: no piece count (piece 0 failed?)
+stejasvism1638_419: no piece count (piece 0 failed?)
+environment: line 5: cd: /home/ntbuild/v3/passes/shard_probe/bash: No such file or directory
+multi5 done 2026-10-30T12:11:04Z
+/home/ntbuild/results/v3spilot-s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9.ax.tsv: 8 rows PROVED=0 FAILED=0 TIMEOUT=0 ERROR=8 NOT_RUN=0

@@ -1,0 +1,19 @@
+package	proved_default_outer	re_run_plain	proved_plain	not_proved_plain(verdict/reason=n)	plain_inner_rows	plain_inner_proved
+trainverify	45694	45694	45688	FAILED/blocked=5 ERROR/memory=1	18	18
+strata	65	65	65		1	1
+cvc5-logos	2185	2185	2184	FAILED/blocked=1	0	0
+lido-srv3	70	70	70		0	0
+cedar-lean	26	26	21	FAILED/blocked=5	0	0
+aks	0	0	0		0	0
+sorting-network-expanders	0	0	0		0	0
+aeneas-lean	0	0	0		0	0
+rs-mca-m31_dyadic_weight_laws	9	9	9		0	0
+rs-mca-m31_flatness_keystone	1	1	1		0	0
+formal-conjectures	668	668	650	FAILED/blocked=18	2	2
+longfellow-zk	505	505	505		128	128
+berry-esseen	4	4	2	FAILED/blocked=2	0	0
+humanfia-icho2026	1681	1681	1681		180	180
+sounio	70	70	70		0	0
+asi-stack-book	391	391	391		0	0
+clean	7	7	7		13	10
+TOTAL	51376	51376	51344	need a transformation (of re-run): 32

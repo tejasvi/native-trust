@@ -1,0 +1,3 @@
+'NativeTrust.StrFast.toList_replace_newline' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.StrFast.toList_replace_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 483460 secs 5.25

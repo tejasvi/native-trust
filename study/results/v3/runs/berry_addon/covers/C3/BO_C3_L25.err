@@ -1,0 +1,21 @@
+BO leaf BerryOpt.C3 k=500 node=1007 kernel_ms=41982
+BO leaf BerryOpt.C3 k=501 node=1013 kernel_ms=124326
+BO leaf BerryOpt.C3 k=502 node=1014 kernel_ms=49666
+BO leaf BerryOpt.C3 k=503 node=1017 kernel_ms=155644
+BO leaf BerryOpt.C3 k=504 node=1019 kernel_ms=159514
+BO leaf BerryOpt.C3 k=505 node=1021 kernel_ms=160975
+BO leaf BerryOpt.C3 k=506 node=1023 kernel_ms=162368
+BO leaf BerryOpt.C3 k=507 node=1025 kernel_ms=159981
+BO leaf BerryOpt.C3 k=508 node=1027 kernel_ms=160678
+BO leaf BerryOpt.C3 k=509 node=1029 kernel_ms=162094
+BO leaf BerryOpt.C3 k=510 node=1031 kernel_ms=160315
+BO leaf BerryOpt.C3 k=511 node=1032 kernel_ms=53494
+BO leaf BerryOpt.C3 k=512 node=1033 kernel_ms=53674
+BO leaf BerryOpt.C3 k=513 node=1034 kernel_ms=52647
+BO leaf BerryOpt.C3 k=514 node=1040 kernel_ms=162097
+BO leaf BerryOpt.C3 k=515 node=1043 kernel_ms=161691
+BO leaf BerryOpt.C3 k=516 node=1046 kernel_ms=162122
+BO leaf BerryOpt.C3 k=517 node=1049 kernel_ms=161615
+BO leaf BerryOpt.C3 k=518 node=1050 kernel_ms=52977
+BO leaf BerryOpt.C3 k=519 node=1051 kernel_ms=162253
+BO leaves BerryOpt.C3 500..520 of 1445 kernel_ms=2520113 wall_ms=2520758

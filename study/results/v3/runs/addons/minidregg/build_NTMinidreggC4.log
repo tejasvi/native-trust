@@ -1,0 +1,4 @@
+'NTMinidregg.linearize_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NTMinidregg.table_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NTMinidregg.expected_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 12288500 secs 123.41

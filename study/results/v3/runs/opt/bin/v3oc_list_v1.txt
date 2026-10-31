@@ -1,0 +1,5 @@
+clean /home/ntbuild/repos/clean
+s_opencompl_veir /home/ntbuild/repos_s/opencompl_veir
+sounio /home/ntbuild/repos/sounio/formal
+trainverify /home/ntbuild/repos/tainverify_lean/trainverify
+aks /home/ntbuild/repos/aks

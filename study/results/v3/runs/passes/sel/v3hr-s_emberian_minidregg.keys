@@ -1,0 +1,8 @@
+Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.nat7_read._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_emberian_minidregg_t	harness
+Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.nat9_read._native.native_decide.ax_1_1	ERROR	memory	False	native_decide	v3h-s_emberian_minidregg_t	harness
+Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.label_read._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost
+Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.reach_certified._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost
+Compiler.FnWirePinned	Minidregg.Compiler.FnWire.pinned_digest._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost
+Compiler.ObjectiveBendFrontEndAdequacy	Minidregg.Compiler.ObjectiveBendFrontEndAdequacy.replay_inhabited._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost
+Host.Json	Minidregg.Host.Json.grainPolicy_repin_preserves_extensions._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost
+Host.Json	Minidregg.Host.Json.grainPolicy_repin_wrong_pins_refused._native.native_decide.ax_1_1	TIMEOUT	900s	False	native_decide	v3h-s_emberian_minidregg_t (no row)	lost

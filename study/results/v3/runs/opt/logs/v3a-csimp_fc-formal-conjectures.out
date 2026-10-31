@@ -1,0 +1,4 @@
+2026-10-29T14:14:53Z start v3a-csimp_fc-formal-conjectures jobs=3 imports=NTMathlibCsimp
+2026-10-29T14:14:53Z options: none
+v3a-csimp_fc-formal-conjectures 15 axioms: {'TIMEOUT': 2, 'ERROR': 10, 'PROVED': 3}
+2026-10-29T14:38:28Z end rc=0 v3a-csimp_fc-formal-conjectures 15 axioms: {'TIMEOUT': 2, 'ERROR': 10, 'PROVED': 3}

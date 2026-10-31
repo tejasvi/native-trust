@@ -1,0 +1,1 @@
+^(?:TrainVerify\.Denote\.GeneratedGoals\.goal3_public_contract_joint_witness\._native\.native_decide\.ax_1_2)$

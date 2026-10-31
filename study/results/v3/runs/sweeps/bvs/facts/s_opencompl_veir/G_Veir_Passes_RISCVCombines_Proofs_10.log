@@ -1,0 +1,6 @@
+BVS_CMD tc=v4.35.0-rc4 nt=/home/ntbuild/v3/nt_v15/v4.35.0-rc4 file=G_Veir_Passes_RISCVCombines_Proofs_10.lean start=2026-10-29T00:39:55Z
+BVS_STATS	Veir.Passes.RISCVCombines.Proofs	10	nodes=822	clauses=1649	steps=351	hints=8566	chunks=1	base_ms=690	chunk_ms=1137
+BVS_UNSAT	Veir.Passes.RISCVCombines.Proofs	10	_private.Veir.Passes.RISCVCombines.Proofs.0.Veir.Data.RISCV.sexth_and._native.bv_decide.ax_1_5	351	0	1827	1916	bvs5fact_10.unsat	true	[propext, Classical.choice, Quot.sound]
+BVS_USER	Veir.Data.RISCV.sexth_and	bvs5_1	thm	same_type=true	std=true	other_bvd=0	conv_left=0	kernel_ms=6	[propext, Classical.choice, Quot.sound]
+BVS_DONE	Veir.Passes.RISCVCombines.Proofs	[10]	converted=1	all_unsat_ok=true	users=1	users_std=1	users_axiom_left=0	users_failed=0
+BVS_TIME wall=2.58 user=2.33 maxrss_kb=1721868

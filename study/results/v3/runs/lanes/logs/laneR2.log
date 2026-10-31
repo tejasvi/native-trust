@@ -1,0 +1,14 @@
+2026-10-29T00:11:13Z lane start /home/ntbuild/v3/lanes/v3_laneR.tsv args: --jobs 4 --nt-root /home/ntbuild/v3/nt_v15
+2026-10-29T00:11:13Z start v3-rs-mca-RS_disproof_v3 --skip-build
+2026-10-29T00:22:02Z end v3-rs-mca-RS_disproof_v3 rc=0 v3-rs-mca-RS_disproof_v3 9 facts: {'KERNELIZED': 8, 'ERROR': 1}
+2026-10-29T00:22:02Z start v3-rs-mca-cs25_cap_v13 --skip-build
+2026-10-29T00:22:42Z end v3-rs-mca-cs25_cap_v13 rc=0 v3-rs-mca-cs25_cap_v13 10 facts: {'KERNELIZED': 10}
+2026-10-29T00:22:42Z start v3-rs-mca-moment_to_max --skip-build
+2026-10-29T00:27:43Z end v3-rs-mca-moment_to_max rc=0 v3-rs-mca-moment_to_max 29 facts: {'KERNELIZED': 28, 'ERROR': 1}
+2026-10-29T00:27:43Z start v3-rs-mca-razorband_witness --skip-build
+2026-10-29T00:28:15Z end v3-rs-mca-razorband_witness rc=0 v3-rs-mca-razorband_witness 16 facts: {'KERNELIZED': 16}
+2026-10-29T00:28:15Z start v3-rs-mca-syndrome_line --skip-build
+2026-10-29T00:28:32Z end v3-rs-mca-syndrome_line rc=0 v3-rs-mca-syndrome_line 12 facts: {'KERNELIZED': 12}
+2026-10-29T00:28:32Z start v3-rs-mca-syndrome_secant --skip-build
+2026-10-29T00:28:59Z end v3-rs-mca-syndrome_secant rc=0 v3-rs-mca-syndrome_secant 20 facts: {'KERNELIZED': 20}
+2026-10-29T00:28:59Z lane end /home/ntbuild/v3/lanes/v3_laneR.tsv

@@ -1,0 +1,7 @@
+"cshake_bounded gates=607242 inputs=1225"
+"keccak gates=199768 inputs=1600"
+"frame gates=4950"
+"zk_literal_graph gates=1928"
+"forge_jam bytes=566499"
+maxrss_kb 4208640 secs 2.67
+rc=0 end=2026-10-30T12:45:19Z

@@ -1,0 +1,4 @@
+'NativeTrust.BE.coverStringAccepted_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.BE.coverStringAcceptedBE_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrust.BE.coverStringAcceptedDW_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb 1623924 secs 1.68

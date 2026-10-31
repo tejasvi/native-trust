@@ -1,0 +1,7 @@
+BO leaf BerryOpt.D95 k=30 node=62 kernel_ms=137625
+BO leaf BerryOpt.D95 k=31 node=65 kernel_ms=177706
+BO leaf BerryOpt.D95 k=32 node=66 kernel_ms=189605
+BO leaf BerryOpt.D95 k=33 node=67 kernel_ms=190033
+BO leaf BerryOpt.D95 k=34 node=71 kernel_ms=196729
+BO leaf BerryOpt.D95 k=35 node=72 kernel_ms=190622
+BO leaves BerryOpt.D95 30..36 of 39 kernel_ms=1082320 wall_ms=1082686

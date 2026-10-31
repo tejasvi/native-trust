@@ -1,0 +1,4 @@
+2026-10-30T07:10:12Z start v3a-minidregg-s_emberian_minidregg jobs=3 imports=NTMinidreggC4
+2026-10-30T07:10:12Z options: none
+v3a-minidregg-s_emberian_minidregg 104 axioms: {'TIMEOUT': 8, 'ERROR': 51, 'FAILED': 41, 'PROVED': 4}
+2026-10-30T09:21:45Z end rc=0 v3a-minidregg-s_emberian_minidregg 104 axioms: {'TIMEOUT': 8, 'ERROR': 51, 'FAILED': 41, 'PROVED': 4}

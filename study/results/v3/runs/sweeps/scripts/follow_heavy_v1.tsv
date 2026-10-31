@@ -1,0 +1,7 @@
+# v3 heavy follow list (sweeps): study plain peaks 20-45 GiB; slots after the lanes end
+v3-trainverify	v3plain-trainverify	/home/ntbuild/repos/tainverify_lean/trainverify	--from-results v3-trainverify --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 32
+v3-formal-conjectures	v3plain-formal-conjectures	/home/ntbuild/repos/formal-conjectures	--from-results v3-formal-conjectures --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 8
+v3-longfellow-zk	v3plain-longfellow-zk	/home/ntbuild/repos/longfellow-zk/formal	--from-results v3-longfellow-zk --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 8
+v3-berry-esseen	v3plain-berry-esseen	/home/ntbuild/repos/berry-esseen	--from-results v3-berry-esseen --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 8
+v3-humanfia-icho2026	v3plain-humanfia-icho2026	/home/ntbuild/repos/humanfia-hoa/icho2026/gpt-5.6-sol-full68-formalization	--from-results v3-humanfia-icho2026 --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 8
+v3-sounio	v3plain-sounio	/home/ntbuild/repos/sounio/formal	--from-results v3-sounio --skip-build --from-verdict PROVED --split 1 --extra-config wf:=false --nt-root /home/ntbuild/nt_fix14 --jobs 8

@@ -1,0 +1,11 @@
+BO leaf BerryOpt.C5 k=260 node=524 kernel_ms=41080
+BO leaf BerryOpt.C5 k=261 node=525 kernel_ms=40415
+BO leaf BerryOpt.C5 k=262 node=527 kernel_ms=40148
+BO leaf BerryOpt.C5 k=263 node=528 kernel_ms=42232
+BO leaf BerryOpt.C5 k=264 node=529 kernel_ms=42731
+BO leaf BerryOpt.C5 k=265 node=533 kernel_ms=45202
+BO leaf BerryOpt.C5 k=266 node=535 kernel_ms=44602
+BO leaf BerryOpt.C5 k=267 node=536 kernel_ms=46863
+BO leaf BerryOpt.C5 k=268 node=537 kernel_ms=46397
+BO leaf BerryOpt.C5 k=269 node=538 kernel_ms=46666
+BO leaves BerryOpt.C5 260..270 of 270 kernel_ms=436336 wall_ms=436458

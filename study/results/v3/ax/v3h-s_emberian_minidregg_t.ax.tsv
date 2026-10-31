@@ -1,0 +1,8 @@
+v3h-s_emberian_minidregg	Fixtures.NativeAcceptedFixture	-			NOT_BUILT						
+v3h-s_emberian_minidregg	examples.objective-bend-world.reference.EvenOddTen	-			NOT_BUILT						
+v3h-s_emberian_minidregg	examples.objective-bend-world.reference.GenericExtensionReuse	-			NOT_BUILT						
+v3h-s_emberian_minidregg	examples.objective-bend-world.reference.LazySharedField	-			NOT_BUILT						
+v3h-s_emberian_minidregg	examples.objective-bend-world.reference.TwiceReview	-			NOT_BUILT						
+v3h-s_emberian_minidregg	scripts.probe-fn-portable-line	-			NOT_BUILT						
+v3h-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.nat7_read._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	55693416	1594		nt_lines=48 last=blockers_ms=17 bounded=false copy_ms=45 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false
+v3h-s_emberian_minidregg	Assurance.ObjectiveZkLiteralInstance	Minidregg.Assurance.ObjectiveZkLiteralInstance.nat9_read._native.native_decide.ax_1_1	native_decide	False	ERROR	memory	0	55693052	1597		nt_lines=48 last=blockers_ms=17 bounded=false copy_ms=45 copies=0 copy_kernel_ms=0 fast_lits=0 string_args=false

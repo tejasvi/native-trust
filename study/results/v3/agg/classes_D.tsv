@@ -1,0 +1,23 @@
+class	facts	packages
+kernel resources, no blocker reachable	1116	berry-esseen 574, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 420, s_emberian_minidregg 56, longfellow-zk 11, formal-conjectures 10, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 9, trainverify 6, aks 5, s_opencompl_veir 5, s_zcash_ironwood 5, sorting-network-expanders 5, s_moggedhedien_rimalloc_verify 3, s_pandaman64_lean_regex_correctness 2, humanfia-icho2026 1, rs-mca 1, s_BobDyLean_bobdylean_paper_artifact 1, s_Provenance_Works_Radix 1, s_Rob1Ham_btc_lean_spec_proofs 1
+String (C primitive) + USize/platform word size + WellFounded.fix + hashing (C primitive) + partial function / while loop	208	s_opencompl_veir 183, s_Provenance_Works_Radix 17, clean 4, s_Natuvea_tacenta_core_tacenta_model 2, asi-stack-book 1, s_Natuvea_tacenta_core_tacenta_proofs 1
+String (C primitive) + USize/platform word size + WellFounded.fix + hashing (C primitive) + iterators/String.Slice (Std.Shrink, extrinsicFix) + opaque, implemented_by + other opaque constant + partial function / while loop	186	strata 186
+FAILED other	134	clean 99, longfellow-zk 23, s_emberian_minidregg 4, s_zcash_ironwood 4, formal-conjectures 3, s_clementefalcone_goya_ledger_formal 1
+partial function / while loop	63	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 52, s_emberian_minidregg 9, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections3_5 1, s_zcash_ironwood 1
+USize/platform word size + hashing (C primitive)	38	strata 34, s_emberian_minidregg 4
+USize/platform word size + WellFounded.fix + hashing (C primitive) + iterators/String.Slice (Std.Shrink, extrinsicFix) + partial function / while loop	13	s_emberian_minidregg 13
+WellFounded.fix + other	10	s_BobDyLean_bobdylean_paper_artifact 10
+String (C primitive) + iterators/String.Slice (Std.Shrink, extrinsicFix) + partial function / while loop	7	s_emberian_minidregg 7
+String (C primitive) + partial function / while loop	7	s_emberian_minidregg 7
+WellFounded.fix + iterators/String.Slice (Std.Shrink, extrinsicFix) + partial function / while loop	4	s_emberian_minidregg 2, s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 2
+WellFounded.fix + partial function / while loop	4	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 4
+other C primitive (extern)	4	aks 2, sorting-network-expanders 2
+WellFounded.fix	3	s_BobDyLean_bobdylean_paper_artifact 3
+USize/platform word size + WellFounded.fix + partial function / while loop	2	s_tejasvi_smale6_six_bodies_generic_v4_lean_sections6_9 2
+hashing (C primitive) + other opaque constant	2	s_zcash_ironwood 2
+Float + other opaque constant	1	sounio 1
+String (C primitive) + WellFounded.fix + iterators/String.Slice (Std.Shrink, extrinsicFix) + partial function / while loop	1	s_emberian_minidregg 1
+USize/platform word size + WellFounded.fix + hashing (C primitive)	1	s_emberian_minidregg 1
+USize/platform word size + other opaque constant	1	aeneas-lean 1
+false in the logic	1	s_zcash_ironwood 1
+kernel resources, blocker reachable: WellFounded.fix + other opaque constant	1	s_zcash_ironwood 1
